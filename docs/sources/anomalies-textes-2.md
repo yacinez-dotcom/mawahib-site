@@ -43,10 +43,10 @@ Relevées en rédaction ; 8 alertes textuelles numérotées (seuil de 8 non dép
 | 168 | tah-01-03-35 (165) | Matn | « بِغَيْرِ الْمَاءِ الْمُطْلَقِ » ; Mukhtaṣar seul, Ibn Ghāzī, al-Dardīr « بِغَيْرِ الْمُطْلَقِ » | Variante (mot ajouté) | Matn selon Mawāhib | **Précisé** : même sens |
 | 169 | tah-01-03-36 (165) | Matn | « فِي إصَابَتِهَا الثَّوْبَ » ; Mukhtaṣar seul, Ibn Ghāzī, al-Dardīr, al-Dasūqī et al-Ḥaṭṭāb lui-même (569, p. 167) « لِثَوْبٍ » | Variante | Matn selon le « ص » de Mawāhib | **Précisé** : même règle |
 | 170 | tah-01-03-35 (al-Dardīr, t. 1, p. 80) | Al-Sharḥ al-kabīr | « إذْ لَمْ يَبْقَ إلَّا الْحُكْمُ وَهُوَ لَا يَنْتَقِلُ » | Mot tombé | « وَهُوَ عَرَضٌ لَا يَنْتَقِلُ » | **Précisé** : lemme d'al-Dasūqī « (قَوْلُهُ: وَهُوَ عَرَضٌ) » et sa reprise de la phrase |
-| 171 | tah-01-03-34 (164) | Ibn ʿAbd as-Salām | « فَيُشَكِّلُ مَذْهَبَهُ مِنْ جُلِّ ذَلِكَ » | Lettre tombée probable ; vocalisation | Lecture probable « فَيُشْكِلُ مَذْهَبُهُ مِنْ أَجْلِ ذَلِكَ » ; phrase non reprise | **Non résolu** (sans effet) : aucun témoin dans les pages lues |
+| 171 | tah-01-03-34 (164) | Ibn ʿAbd as-Salām | « فَيُشَكِّلُ مَذْهَبَهُ مِنْ جُلِّ ذَلِكَ » | Lettre tombée probable ; vocalisation | Lecture probable : فَيُشْكِلُ مَذْهَبُهُ مِنْ أَجْلِ ذَلِكَ ; phrase non reprise | **Non résolu** (sans effet) : aucun témoin dans les pages lues |
 | 172 | tah-01-03-34 (164) | Citation du segment suivant | « لَمْ يَتَنَجَّسْ أَصْلًا فِي مَحَلِّهَا » | Mots altérés probables | Le « ص » porte « مُلَاقِي مَحَلِّهَا » | **Non résolu** (sans effet) : aucun témoin |
 | 173 | tah-01-03-36 (165) | Attribution | « وَكَذَا قَالَ صَاحِبُ اللُّبَابِ إنَّهُ ظَاهِرُ الْمَذْهَبِ » | Divergence de témoins (اللباب / البيان) | Attribution laissée selon Mawāhib | **Précisé** : at-Tawḍīḥ (14442, p. 68 « قال سند وصاحب البيان: وظاهرُ المذهب وجوبُ النضح ») ; même avis |
-| 174 | tah-01-03-37 (166) | Attribution d'Ibn al-Ḥājib | « وَعَنْ ابْنِ الْحَاجِبِ هَذَا الْقَوْلُ لِابْنِ الْقَاسِمِ وَسَحْنُونٍ » | Mot altéré probable | Lecture probable « وَعَزَا ابْنُ الْحَاجِبِ » ; non corrigée | **Précisé** : sens assuré par la suite du texte et par al-Zurqānī (14297, p. 93) |
+| 174 | tah-01-03-37 (166) | Attribution d'Ibn al-Ḥājib | « وَعَنْ ابْنِ الْحَاجِبِ هَذَا الْقَوْلُ لِابْنِ الْقَاسِمِ وَسَحْنُونٍ » | Mot altéré probable | Lecture probable : وَعَزَا ابْنُ الْحَاجِبِ ; non corrigée | **Précisé** : sens assuré par la suite du texte et par al-Zurqānī (14297, p. 93) |
 
 ## Bilan
 
