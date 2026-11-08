@@ -1,0 +1,138 @@
+/* Bloc B2 — Plan — v1.0 — dépendances : variables de css/socle.css (B0 v1.0) — événements émis/écoutés : aucun (feuille de style) */
+
+.b2-plan {
+  padding: var(--espace-4) var(--espace-3) var(--espace-6);
+  font-family: var(--police-ui);
+  font-size: .92rem;
+  line-height: 1.4;
+}
+
+.b2-entete {
+  margin: 0 var(--espace-2) var(--espace-3);
+  font-family: var(--police-ui);
+  font-size: .75rem;
+  font-weight: 600;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--c-texte-doux);
+}
+
+.b2-message,
+.b2-vide {
+  margin: 0;
+  padding: var(--espace-2);
+  color: var(--c-texte-doux);
+  font-size: var(--taille-petite);
+  font-style: italic;
+}
+
+.b2-liste {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.b2-liste .b2-liste { padding-left: var(--espace-3); }
+.b2-liste--masail { padding-left: var(--espace-2); }
+
+/* --- Nœuds dépliables (kitāb, bāb, faṣl) --- */
+
+.b2-resume {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--espace-2);
+  padding: var(--espace-2);
+  border-radius: var(--rayon-petit);
+  cursor: pointer;
+  list-style: none;
+  color: var(--c-texte);
+}
+.b2-resume::-webkit-details-marker { display: none; }
+.b2-resume::before {
+  content: "";
+  flex: none;
+  width: .45rem;
+  height: .45rem;
+  margin-top: .42em;
+  border-right: 2px solid var(--c-texte-doux);
+  border-bottom: 2px solid var(--c-texte-doux);
+  transform: rotate(-45deg);
+  transition: transform var(--duree) ease;
+}
+.b2-noeud[open] > .b2-resume::before { transform: rotate(45deg); }
+.b2-resume:hover { background: var(--c-surface); }
+
+.b2-titres {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  flex: 1;
+}
+.b2-titre-fr { overflow-wrap: anywhere; }
+.b2-titre-ar {
+  font-size: calc(var(--taille-arabe) * .68);
+  line-height: 1.7;
+  color: var(--c-texte-doux);
+  text-align: right;
+}
+
+.b2-titres--kitab .b2-titre-fr { font-weight: 700; font-size: 1rem; }
+.b2-titres--bab .b2-titre-fr { font-weight: 600; }
+.b2-titres--fasl .b2-titre-fr { font-weight: 500; }
+
+.b2-compte {
+  flex: none;
+  margin-top: .1em;
+  padding: 0 var(--espace-2);
+  border-radius: 999px;
+  background: var(--c-surface);
+  color: var(--c-texte-doux);
+  font-size: .75rem;
+  line-height: 1.6;
+}
+
+/* --- Masāʾil --- */
+
+.b2-lien {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--espace-2);
+  margin: 1px 0;
+  padding: var(--espace-1) var(--espace-2);
+  border-left: 3px solid transparent;
+  border-radius: var(--rayon-petit);
+  color: var(--c-texte);
+  text-decoration: none;
+}
+a.b2-lien:hover { background: var(--c-surface); }
+
+.b2-lien--actif {
+  background: var(--c-accent-doux);
+  border-left-color: var(--c-accent);
+  font-weight: 600;
+}
+a.b2-lien--actif:hover { background: var(--c-accent-doux); }
+
+.b2-lien--indisponible { color: var(--c-texte-doux); cursor: default; }
+
+.b2-num {
+  flex: none;
+  min-width: 1.6rem;
+  color: var(--c-texte-doux);
+  font-variant-numeric: tabular-nums;
+}
+.b2-lien--actif .b2-num { color: var(--c-accent); }
+
+.b2-masala--synthese .b2-num { color: var(--c-accent); }
+
+.b2-mention {
+  flex: none;
+  margin-top: .15em;
+  padding: 0 var(--espace-2);
+  border-radius: 999px;
+  font-size: .7rem;
+  font-weight: 400;
+  line-height: 1.6;
+  white-space: nowrap;
+}
+.b2-mention--revoir { background: var(--c-alerte-fond); color: var(--c-alerte-texte); }
+.b2-mention--avenir { background: transparent; color: var(--c-texte-doux); border: 1px dashed var(--c-bordure); }

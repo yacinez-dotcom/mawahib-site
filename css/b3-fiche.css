@@ -1,0 +1,343 @@
+/* Bloc B3 — Fiche — v1.0 — dépendances : variables de css/socle.css (B0 v1.0) — événements émis/écoutés : aucun (feuille de style) */
+
+.b3-fiche { padding-bottom: var(--espace-5); }
+
+/* --- Fil d'Ariane --- */
+.b3-fil {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--espace-1) var(--espace-2);
+  margin: 0 0 var(--espace-4);
+  padding: 0;
+  list-style: none;
+  font-family: var(--police-ui);
+  font-size: var(--taille-petite);
+  color: var(--c-texte-doux);
+}
+.b3-fil li + li::before { content: "›"; margin-right: var(--espace-2); color: var(--c-bordure); }
+
+/* --- Bandeau de vérification --- */
+.b3-bandeau {
+  margin: 0 0 var(--espace-5);
+  padding: var(--espace-3) var(--espace-4);
+  border-radius: var(--rayon);
+  border: 1px solid var(--c-alerte-bord);
+  background: var(--c-alerte-fond);
+  color: var(--c-alerte-texte);
+  font-family: var(--police-ui);
+  font-size: .95rem;
+}
+.b3-bandeau--note { background: var(--c-surface); color: var(--c-texte); border-color: var(--c-bordure); }
+.b3-bandeau-titre { margin: 0; font-weight: 600; }
+.b3-bandeau-texte { margin: var(--espace-1) 0 0; }
+.b3-bandeau .b3-liste { margin-top: var(--espace-2); }
+
+/* --- En-tête --- */
+.b3-entete { margin-bottom: var(--espace-4); }
+.b3-surtitre {
+  margin: 0 0 var(--espace-1);
+  font-family: var(--police-ui);
+  font-size: .8rem;
+  font-weight: 600;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--c-accent);
+}
+.b3-titre {
+  margin: 0;
+  font-size: clamp(1.6rem, 3.6vw, 2.1rem);
+  line-height: 1.2;
+  font-weight: 600;
+}
+.b3-titre:focus { outline: none; }
+.b3-titre-ar {
+  margin: var(--espace-2) 0 0;
+  font-size: calc(var(--taille-arabe) * 1.05);
+  color: var(--c-accent);
+  text-align: right;
+}
+
+.b3-objectif {
+  margin: 0 0 var(--espace-5);
+  color: var(--c-texte-doux);
+  font-style: italic;
+}
+.b3-objectif-label { font-style: normal; font-weight: 600; color: var(--c-texte); }
+
+/* --- Règle pratique --- */
+.b3-regle {
+  margin: 0 0 var(--espace-4);
+  padding: var(--espace-4) var(--espace-5);
+  background: var(--c-regle-fond);
+  border-left: 5px solid var(--c-regle-bord);
+  border-radius: var(--rayon);
+}
+.b3-regle-titre {
+  margin: 0 0 var(--espace-2);
+  font-family: var(--police-ui);
+  font-size: .8rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--c-regle-bord);
+}
+.b3-regle-para {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.55;
+  font-weight: 600;
+}
+.b3-regle-para + .b3-regle-para { margin-top: var(--espace-2); }
+
+/* --- Qualification --- */
+.b3-qualif {
+  display: grid;
+  gap: var(--espace-2);
+  margin: 0 0 var(--espace-6);
+  padding: var(--espace-3) var(--espace-4);
+  background: var(--c-surface);
+  border: 1px solid var(--c-bordure);
+  border-radius: var(--rayon);
+  font-family: var(--police-ui);
+  font-size: .95rem;
+}
+.b3-qualif-ligne {
+  display: grid;
+  grid-template-columns: 9.5rem minmax(0, 1fr);
+  align-items: baseline;
+  gap: var(--espace-3);
+}
+.b3-qualif-label { color: var(--c-texte-doux); font-size: var(--taille-petite); }
+
+/* --- Étiquettes (statut, nature, statut d'avis) --- */
+.b3-etiquette {
+  display: inline-flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: var(--espace-2);
+  font-family: var(--police-ui);
+}
+.b3-etiquette-ar {
+  font-size: calc(var(--taille-arabe) * .8);
+  line-height: 1.5;
+  color: var(--c-accent);
+}
+.b3-etiquette-fr { font-weight: 600; }
+.b3-etiquette--statut {
+  padding: 0 var(--espace-2);
+  border-radius: 999px;
+  background: var(--c-surface-2);
+  font-size: .82rem;
+}
+.b3-etiquette--statut .b3-etiquette-ar { font-size: calc(var(--taille-arabe) * .62); }
+.b3-etiquette--statut .b3-etiquette-fr { font-weight: 500; }
+.b3-etiquette--mashhur, .b3-etiquette--rajih { background: var(--c-accent-doux); }
+.b3-etiquette--shadh { background: var(--c-alerte-fond); color: var(--c-alerte-texte); }
+.b3-etiquette--non_precise { background: transparent; border: 1px dashed var(--c-bordure); color: var(--c-texte-doux); }
+.b3-etiquette--inconnue { color: var(--c-erreur-texte); }
+
+/* --- Sections --- */
+.b3-section { margin: 0 0 var(--espace-6); }
+.b3-h2 {
+  margin: 0 0 var(--espace-3);
+  padding-bottom: var(--espace-2);
+  border-bottom: 1px solid var(--c-bordure);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.b3-para { margin: 0 0 var(--espace-3); }
+.b3-para:last-child { margin-bottom: 0; }
+.b3-muet { color: var(--c-texte-doux); font-style: italic; }
+
+.b3-liste { margin: 0; padding-left: 1.25rem; }
+.b3-liste li + li { margin-top: var(--espace-2); }
+.b3-liste--alertes { font-size: .92rem; }
+.b3-liste--erreurs li::marker { color: var(--c-erreur-texte); }
+
+/* --- Arabe dans le texte français --- */
+.b3-ar-inline {
+  font-size: 1.2em;
+  line-height: 1;
+}
+.b3-terme {
+  color: var(--c-accent);
+  text-decoration: underline dotted;
+  text-underline-offset: .3em;
+  cursor: help;
+}
+
+/* --- Matn --- */
+.b3-matn {
+  margin: 0;
+  padding: var(--espace-4) var(--espace-5);
+  background: var(--c-surface);
+  border: 1px solid var(--c-bordure);
+  border-right: 4px solid var(--c-accent);
+  border-radius: var(--rayon);
+  font-size: calc(var(--taille-arabe) * 1.15);
+  line-height: var(--interligne-arabe);
+  text-align: right;
+  white-space: pre-line;
+}
+.b3-matn .b3-ar-inline { font-size: 1em; line-height: inherit; }
+
+/* --- Avis --- */
+.b3-aqwal { margin: 0; padding: 0; list-style: none; display: grid; gap: var(--espace-3); }
+.b3-qawl {
+  padding: var(--espace-3) var(--espace-4);
+  background: var(--c-surface);
+  border: 1px solid var(--c-bordure);
+  border-radius: var(--rayon);
+}
+.b3-qawl-entete {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--espace-2);
+  margin-bottom: var(--espace-2);
+}
+.b3-qawl-auteur { font-weight: 600; }
+
+/* --- Muʿtamad --- */
+.b3-muatamad {
+  margin: 0 0 var(--espace-6);
+  padding: var(--espace-3) var(--espace-4);
+  border-radius: var(--rayon);
+  background: var(--c-regle-fond);
+}
+.b3-muatamad .b3-h2 { border-bottom-color: var(--c-regle-bord); }
+.b3-muatamad--non-confirme { background: var(--c-surface-2); color: var(--c-texte-doux); }
+.b3-muatamad--non-confirme .b3-h2 { border-bottom-color: var(--c-bordure); color: var(--c-texte); }
+
+/* --- Exemple --- */
+.b3-exemple > p,
+.b3-exemple .b3-para {
+  padding-left: var(--espace-4);
+  border-left: 3px solid var(--c-accent-doux);
+}
+
+/* --- Vocabulaire --- */
+.b3-termes { margin: 0; display: grid; gap: var(--espace-3); }
+.b3-terme-ligne {
+  display: grid;
+  grid-template-columns: minmax(8rem, 13rem) minmax(0, 1fr);
+  gap: var(--espace-3);
+  align-items: baseline;
+}
+.b3-terme-tete { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--espace-2); margin: 0; }
+.b3-terme-ar { font-size: calc(var(--taille-arabe) * .95); color: var(--c-accent); }
+.b3-terme-translit { font-family: var(--police-ui); font-size: .9rem; color: var(--c-texte-doux); }
+.b3-terme-def { margin: 0; }
+
+/* --- Quiz (le conteneur intérieur appartient à B5) --- */
+.b3-quiz-attente {
+  margin: 0;
+  padding: var(--espace-3) var(--espace-4);
+  border: 1px dashed var(--c-bordure);
+  border-radius: var(--rayon);
+  color: var(--c-texte-doux);
+  font-family: var(--police-ui);
+  font-size: .92rem;
+}
+
+/* --- Synthèse --- */
+.b3-recap-defilement { overflow-x: auto; }
+.b3-recap {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: .95rem;
+}
+.b3-recap th {
+  padding: var(--espace-2) var(--espace-3);
+  text-align: left;
+  font-family: var(--police-ui);
+  font-size: .78rem;
+  font-weight: 600;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  color: var(--c-texte-doux);
+  border-bottom: 2px solid var(--c-bordure);
+}
+.b3-recap td {
+  padding: var(--espace-3);
+  vertical-align: top;
+  border-bottom: 1px solid var(--c-bordure);
+}
+.b3-recap-masala { min-width: 10rem; }
+.b3-recap-masala a { display: inline-flex; gap: var(--espace-2); }
+.b3-recap-num { color: var(--c-texte-doux); font-variant-numeric: tabular-nums; }
+.b3-recap-masala .b3-statut { display: inline-block; margin-top: var(--espace-1); }
+.b3-recap-hukm { white-space: nowrap; }
+
+/* --- Référence et statut de vérification --- */
+.b3-ref {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--espace-2) var(--espace-4);
+  margin: var(--espace-6) 0 var(--espace-5);
+  padding-top: var(--espace-4);
+  border-top: 1px solid var(--c-bordure);
+  font-family: var(--police-ui);
+  font-size: .92rem;
+}
+.b3-ref-texte { margin: 0; }
+.b3-ref-label { color: var(--c-texte-doux); }
+.b3-statut {
+  padding: 0 var(--espace-2);
+  border-radius: 999px;
+  font-family: var(--police-ui);
+  font-size: .75rem;
+  line-height: 1.7;
+  white-space: nowrap;
+}
+.b3-statut--ok { background: var(--c-accent-doux); color: var(--c-succes); }
+.b3-statut--revoir { background: var(--c-alerte-fond); color: var(--c-alerte-texte); }
+
+/* --- Navigation entre fiches --- */
+.b3-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--espace-3);
+  margin-bottom: var(--espace-5);
+}
+.b3-nav-lien {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espace-1);
+  padding: var(--espace-3) var(--espace-4);
+  background: var(--c-surface);
+  border: 1px solid var(--c-bordure);
+  border-radius: var(--rayon);
+  color: var(--c-texte);
+  text-decoration: none;
+}
+.b3-nav-lien:hover { border-color: var(--c-accent); }
+.b3-nav-lien--suiv { text-align: right; }
+.b3-nav-sens { font-family: var(--police-ui); font-size: .8rem; color: var(--c-texte-doux); }
+.b3-nav-titre { font-weight: 600; }
+
+/* --- Contrôle technique --- */
+.b3-technique {
+  font-family: var(--police-ui);
+  font-size: var(--taille-petite);
+  color: var(--c-texte-doux);
+  border: 1px solid var(--c-erreur-bord);
+  border-radius: var(--rayon);
+  background: var(--c-erreur-fond);
+}
+.b3-technique > summary { padding: var(--espace-2) var(--espace-3); cursor: pointer; color: var(--c-erreur-texte); }
+.b3-technique .b3-liste { padding: 0 var(--espace-4) var(--espace-3) 2rem; }
+
+/* --- Petits écrans --- */
+@media (max-width: 600px) {
+  .b3-regle { padding: var(--espace-3) var(--espace-4); }
+  .b3-regle-para { font-size: 1.1rem; }
+  .b3-qualif-ligne { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .b3-matn { padding: var(--espace-3) var(--espace-4); }
+  .b3-terme-ligne { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .b3-nav { grid-template-columns: minmax(0, 1fr); }
+  .b3-nav-vide { display: none; }
+}

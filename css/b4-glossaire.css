@@ -1,0 +1,159 @@
+/* Bloc B4 — Glossaire — v1.0 — dépendances : variables de css/socle.css (B0 v1.0) — événements émis/écoutés : aucun (feuille de style) */
+
+/* --- Lien dans l'en-tête --- */
+.b4-lien-outil {
+  display: inline-flex;
+  align-items: center;
+  padding: var(--espace-1) var(--espace-3);
+  border: 1px solid var(--c-bordure);
+  border-radius: 999px;
+  color: var(--c-texte);
+  font-family: var(--police-ui);
+  font-size: var(--taille-petite);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.b4-lien-outil:hover { border-color: var(--c-accent); color: var(--c-accent); }
+.b4-lien-outil[aria-current="page"] {
+  background: var(--c-accent);
+  border-color: var(--c-accent);
+  color: var(--c-accent-texte);
+}
+
+/* --- Vue glossaire --- */
+.b4-entete { margin-bottom: var(--espace-5); }
+.b4-titre {
+  margin: 0 0 var(--espace-2);
+  font-size: clamp(1.6rem, 3.6vw, 2.1rem);
+  line-height: 1.2;
+  font-weight: 600;
+}
+.b4-titre:focus { outline: none; }
+.b4-intro { margin: 0; color: var(--c-texte-doux); }
+
+.b4-barre {
+  position: sticky;
+  top: var(--hauteur-entete);
+  z-index: 5;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--espace-2) var(--espace-3);
+  margin: 0 0 var(--espace-4);
+  padding: var(--espace-3) 0;
+  background: var(--c-fond);
+  border-bottom: 1px solid var(--c-bordure);
+}
+.b4-filtre-label {
+  position: absolute;
+  width: 1px; height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+.b4-filtre {
+  flex: 1 1 16rem;
+  min-width: 0;
+  padding: var(--espace-2) var(--espace-3);
+  background: var(--c-surface);
+  border: 1px solid var(--c-bordure);
+  border-radius: var(--rayon-petit);
+  font-family: var(--police-ui);
+  font-size: 1rem;
+}
+.b4-filtre:focus { border-color: var(--c-accent); outline: none; box-shadow: 0 0 0 3px var(--c-accent-doux); }
+.b4-compte {
+  margin: 0;
+  font-family: var(--police-ui);
+  font-size: var(--taille-petite);
+  color: var(--c-texte-doux);
+}
+
+.b4-message {
+  margin: 0 0 var(--espace-4);
+  padding: var(--espace-3) var(--espace-4);
+  border-radius: var(--rayon);
+  background: var(--c-alerte-fond);
+  color: var(--c-alerte-texte);
+  font-family: var(--police-ui);
+  font-size: .95rem;
+}
+.b4-message[hidden] { display: none; }
+
+.b4-vide { color: var(--c-texte-doux); font-style: italic; }
+
+.b4-groupe { margin-bottom: var(--espace-5); }
+.b4-lettre {
+  margin: 0 0 var(--espace-2);
+  padding-bottom: var(--espace-1);
+  border-bottom: 1px solid var(--c-bordure);
+  font-size: calc(var(--taille-arabe) * 1.1);
+  font-weight: 700;
+  color: var(--c-accent);
+  text-align: right;
+}
+.b4-groupe-liste { margin: 0; }
+
+.b4-entree {
+  display: grid;
+  grid-template-columns: minmax(8rem, 13rem) minmax(0, 1fr);
+  gap: var(--espace-3);
+  padding: var(--espace-3) var(--espace-2);
+  border-bottom: 1px dashed var(--c-bordure);
+  border-radius: var(--rayon-petit);
+  transition: background var(--duree) ease;
+}
+.b4-entree:last-child { border-bottom: 0; }
+.b4-entree--cible {
+  background: var(--c-accent-doux);
+  box-shadow: inset 4px 0 0 var(--c-accent);
+}
+.b4-entree-tete {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--espace-2);
+  margin: 0;
+}
+.b4-ar { font-size: var(--taille-arabe); color: var(--c-accent); }
+.b4-translit { font-family: var(--police-ui); font-size: .9rem; color: var(--c-texte-doux); }
+.b4-def { margin: 0; }
+.b4-def-texte { margin: 0; }
+.b4-usages {
+  margin: var(--espace-1) 0 0;
+  font-family: var(--police-ui);
+  font-size: var(--taille-petite);
+  color: var(--c-texte-doux);
+}
+
+/* --- Infobulle --- */
+.b4-bulle {
+  position: fixed;
+  z-index: 60;
+  width: max-content;
+  max-width: min(22rem, calc(100vw - 16px));
+  padding: var(--espace-3) var(--espace-4);
+  background: var(--c-surface);
+  color: var(--c-texte);
+  border: 1px solid var(--c-bordure);
+  border-top: 3px solid var(--c-accent);
+  border-radius: var(--rayon);
+  box-shadow: var(--ombre);
+  font-family: var(--police-texte);
+  font-size: .95rem;
+  line-height: 1.5;
+  text-align: left;
+}
+.b4-bulle[hidden] { display: none; }
+.b4-bulle--dessus { border-top: 1px solid var(--c-bordure); border-bottom: 3px solid var(--c-accent); }
+.b4-bulle-tete { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--espace-2); }
+.b4-bulle-ar { font-size: calc(var(--taille-arabe) * .95); color: var(--c-accent); line-height: 1.6; }
+.b4-bulle-translit { font-family: var(--police-ui); font-size: .85rem; color: var(--c-texte-doux); }
+.b4-bulle-def { margin: var(--espace-1) 0 var(--espace-2); }
+.b4-bulle-lien { font-family: var(--police-ui); font-size: .82rem; }
+
+/* --- Petits écrans --- */
+@media (max-width: 600px) {
+  .b4-entree { grid-template-columns: minmax(0, 1fr); gap: var(--espace-1); }
+  .b4-lien-outil { padding: var(--espace-1) var(--espace-2); }
+}

@@ -1,0 +1,79 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1"><style>:root{color-scheme:light}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!doctype html>
+<!-- Bloc B0 — Socle — v1.1 — dépendances : aucune — événements émis/écoutés : voir js/socle.js et docs/contrat.md -->
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mawāhib al-Jalīl — Cours de fiqh malikite</title>
+  <meta name="description" content="Les règles applicables au croyant selon l'école malikite, à partir du commentaire d'al-Ḥaṭṭāb sur le Mukhtaṣar de Khalīl.">
+  <script>
+    /* B0 — réapplique, avant le premier affichage, le dernier thème et la dernière taille d'arabe appliqués par le socle */
+    (function () {
+      try {
+        var p = JSON.parse(window.localStorage.getItem('mawahib.socle.affichage') || 'null');
+        if (!p || typeof p !== 'object') return;
+        var r = document.documentElement;
+        if (p.theme === 'clair' || p.theme === 'sombre') r.setAttribute('data-theme', p.theme);
+        var e = Number(p.echelle);
+        if (isFinite(e) && e >= 0.8 && e <= 1.8) r.style.setProperty('--echelle-arabe', String(e));
+      } catch (err) { /* stockage indisponible : affichage par défaut */ }
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="css/socle.css">
+</head>
+<body>
+  <a class="socle-evitement" href="#socle-principal">Aller au contenu</a>
+
+  <div class="socle-app" id="socle-app">
+    <header class="socle-entete">
+      <button class="socle-menu" type="button" aria-controls="socle-lateral" aria-expanded="false" aria-label="Afficher le plan du cours">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+      </button>
+      <a class="socle-titre" href="#/">
+        <span class="socle-titre-fr">Mawāhib al-Jalīl</span>
+        <span class="socle-titre-sous">Cours de fiqh malikite</span>
+      </a>
+      <div class="socle-zone-outils" data-zone="outils"></div>
+    </header>
+
+    <div class="socle-voile" hidden></div>
+
+    <aside class="socle-lateral" id="socle-lateral" data-zone="lateral" aria-label="Plan du cours"></aside>
+
+    <main class="socle-principal" id="socle-principal" data-zone="principal" tabindex="-1">
+      <section class="socle-vue socle-accueil" data-vue="accueil" data-bloc="b0" aria-labelledby="socle-accueil-titre">
+        <p class="socle-accueil-ar" lang="ar" dir="rtl">مَوَاهِبُ الْجَلِيلِ فِي شَرْحِ مُخْتَصَرِ خَلِيلٍ</p>
+        <h1 class="socle-accueil-titre" id="socle-accueil-titre">Cours de fiqh malikite</h1>
+        <p class="socle-accueil-intro">Les règles applicables au croyant selon l'école malikite, chapitre par chapitre, à partir du commentaire d'al-Ḥaṭṭāb (<i>Mawāhib al-Jalīl</i>) sur le <i>Mukhtaṣar</i> de Khalīl.</p>
+        <ul class="socle-accueil-principes">
+          <li>Chaque fiche commence par la <strong>règle pratique</strong>, puis l'explique.</li>
+          <li>Chaque avis est rattaché à son auteur ; chaque fiche indique sa référence (tome, page).</li>
+          <li>Les passages incertains sont signalés, jamais lissés.</li>
+        </ul>
+        <p class="socle-accueil-avertissement">Ce cours expose ce que disent les textes de l'école. Il ne tient pas lieu d'avis juridique (fatwa) pour un cas personnel.</p>
+        <div class="socle-accueil-etat" aria-live="polite">
+          <p class="socle-etat-resume">Chargement…</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="socle-pied">
+      <p class="socle-pied-source">Source : <i>Mawāhib al-Jalīl fī sharḥ Mukhtaṣar Khalīl</i>, d'al-Ḥaṭṭāb.</p>
+      <div class="socle-zone-pied" data-zone="pied"></div>
+    </footer>
+  </div>
+
+  <noscript>
+    <p class="socle-noscript">Ce site a besoin de JavaScript pour afficher les leçons. Activez-le dans votre navigateur, puis rechargez la page.</p>
+  </noscript>
+
+  <script src="js/socle.js"></script>
+  <script src="data/manifeste.js"></script>
+</body>
+</html>
+
+</body></html>

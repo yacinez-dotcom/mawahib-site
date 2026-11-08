@@ -1,0 +1,510 @@
+/* Bloc B0 — Socle — v1.1 — dépendances : aucune — événements émis/écoutés : aucun (feuille de style) */
+
+/* ==========================================================================
+   1. Variables partagées
+   Ce sont les SEULES valeurs que les autres blocs peuvent réutiliser.
+   Liste tenue à jour dans docs/contrat.md.
+   ========================================================================== */
+
+:root {
+  color-scheme: light;
+
+  /* Couleurs */
+  --c-fond: #f6f2e8;
+  --c-surface: #fffdf7;
+  --c-surface-2: #efe9db;
+  --c-texte: #23201b;
+  --c-texte-doux: #5f584c;
+  --c-bordure: #dcd3c0;
+  --c-accent: #1d5c55;
+  --c-accent-texte: #ffffff;
+  --c-accent-doux: #e0ece8;
+  --c-lien: #1a5a53;
+  --c-regle-fond: #ecf4ee;
+  --c-regle-bord: #2f7a5f;
+  --c-alerte-fond: #fbf0d8;
+  --c-alerte-texte: #74480a;
+  --c-alerte-bord: #d39b32;
+  --c-erreur-fond: #fbe6e2;
+  --c-erreur-texte: #8c2418;
+  --c-erreur-bord: #d0675a;
+  --c-succes: #2b7448;
+  --c-focus: #c27c0e;
+  --c-voile: rgba(20, 18, 14, .45);
+
+  /* Polices */
+  --police-texte: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --police-ui: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --police-arabe: "Amiri", "Scheherazade New", "Traditional Arabic", "Arabic Typesetting", "Geeza Pro", serif;
+
+  /* Tailles */
+  --taille-base: 1.0625rem;
+  --taille-petite: .875rem;
+  --echelle-arabe: 1;                                   /* réglée par le socle (événement arabe:echelle) */
+  --taille-arabe: calc(1.5rem * var(--echelle-arabe));
+  --interligne: 1.65;
+  --interligne-arabe: 2.2;
+
+  /* Espacements */
+  --espace-1: .25rem;
+  --espace-2: .5rem;
+  --espace-3: .75rem;
+  --espace-4: 1rem;
+  --espace-5: 1.5rem;
+  --espace-6: 2.5rem;
+
+  /* Formes */
+  --rayon: 10px;
+  --rayon-petit: 5px;
+  --ombre: 0 1px 2px rgba(35, 32, 27, .06), 0 6px 18px rgba(35, 32, 27, .06);
+
+  /* Mise en page */
+  --largeur-lecture: 46rem;
+  --largeur-lateral: 19rem;
+  --hauteur-entete: 3.75rem;
+  --gouttiere: 16px;
+  --duree: 180ms;
+}
+
+/* Thème sombre : automatique (préférence du système) sauf si le thème clair est imposé */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="clair"]) {
+    color-scheme: dark;
+    --c-fond: #131619;
+    --c-surface: #1a1e22;
+    --c-surface-2: #20252a;
+    --c-texte: #e9e4d8;
+    --c-texte-doux: #a8a194;
+    --c-bordure: #353b41;
+    --c-accent: #62b3a6;
+    --c-accent-texte: #0e1311;
+    --c-accent-doux: #1e3431;
+    --c-lien: #7cc6b9;
+    --c-regle-fond: #172d27;
+    --c-regle-bord: #4fa883;
+    --c-alerte-fond: #362a12;
+    --c-alerte-texte: #f0c674;
+    --c-alerte-bord: #a7802e;
+    --c-erreur-fond: #3b1916;
+    --c-erreur-texte: #f2a59b;
+    --c-erreur-bord: #a8483c;
+    --c-succes: #6cc28c;
+    --c-focus: #f0a93b;
+    --c-voile: rgba(0, 0, 0, .6);
+    --ombre: 0 1px 2px rgba(0, 0, 0, .3), 0 6px 18px rgba(0, 0, 0, .25);
+  }
+}
+
+/* Thème sombre imposé */
+:root[data-theme="sombre"] {
+  color-scheme: dark;
+  --c-fond: #131619;
+  --c-surface: #1a1e22;
+  --c-surface-2: #20252a;
+  --c-texte: #e9e4d8;
+  --c-texte-doux: #a8a194;
+  --c-bordure: #353b41;
+  --c-accent: #62b3a6;
+  --c-accent-texte: #0e1311;
+  --c-accent-doux: #1e3431;
+  --c-lien: #7cc6b9;
+  --c-regle-fond: #172d27;
+  --c-regle-bord: #4fa883;
+  --c-alerte-fond: #362a12;
+  --c-alerte-texte: #f0c674;
+  --c-alerte-bord: #a7802e;
+  --c-erreur-fond: #3b1916;
+  --c-erreur-texte: #f2a59b;
+  --c-erreur-bord: #a8483c;
+  --c-succes: #6cc28c;
+  --c-focus: #f0a93b;
+  --c-voile: rgba(0, 0, 0, .6);
+  --ombre: 0 1px 2px rgba(0, 0, 0, .3), 0 6px 18px rgba(0, 0, 0, .25);
+}
+
+/* ==========================================================================
+   2. Base commune (héritée par tous les blocs)
+   ========================================================================== */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--c-fond);
+  color: var(--c-texte);
+  font-family: var(--police-texte);
+  font-size: var(--taille-base);
+  line-height: var(--interligne);
+  -webkit-font-smoothing: antialiased;
+  overflow-wrap: break-word;
+}
+
+/* Tout élément marqué lang="ar" reçoit la police arabe ; la taille reste au choix du bloc */
+:lang(ar) {
+  font-family: var(--police-arabe);
+  line-height: var(--interligne-arabe);
+}
+
+a { color: var(--c-lien); text-underline-offset: .18em; }
+
+img, svg { max-width: 100%; }
+
+button, input, select, textarea { font: inherit; color: inherit; }
+
+:focus-visible {
+  outline: 3px solid var(--c-focus);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}
+
+/* ==========================================================================
+   3. Mise en page du socle
+   ========================================================================== */
+
+.socle-evitement {
+  position: absolute;
+  left: var(--espace-2);
+  top: -3rem;
+  z-index: 100;
+  padding: var(--espace-2) var(--espace-3);
+  background: var(--c-accent);
+  color: var(--c-accent-texte);
+  font-family: var(--police-ui);
+  border-radius: var(--rayon-petit);
+}
+.socle-evitement:focus { top: var(--espace-2); }
+
+.socle-app {
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: grid;
+  grid-template-columns: var(--largeur-lateral) minmax(0, 1fr);
+  grid-template-rows: var(--hauteur-entete) 1fr auto;
+  grid-template-areas:
+    "entete  entete"
+    "lateral principal"
+    "lateral pied";
+}
+
+/* Tant qu'aucun bloc n'occupe la colonne latérale, elle disparaît */
+.socle-app:has(.socle-lateral:empty) {
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-areas: "entete" "principal" "pied";
+}
+.socle-app:has(.socle-lateral:empty) .socle-lateral,
+.socle-app:has(.socle-lateral:empty) .socle-menu { display: none; }
+
+/* --- En-tête --- */
+.socle-entete {
+  grid-area: entete;
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  gap: var(--espace-3);
+  padding: 0 var(--espace-5);
+  background: var(--c-surface);
+  border-bottom: 1px solid var(--c-bordure);
+}
+
+.socle-menu {
+  display: none;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: calc(-1 * var(--espace-2));
+  padding: 0;
+  background: transparent;
+  border: 0;
+  border-radius: var(--rayon-petit);
+  color: var(--c-texte);
+  cursor: pointer;
+}
+.socle-menu:hover { background: var(--c-surface-2); }
+
+.socle-titre {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: baseline;
+  gap: var(--espace-3);
+  min-width: 0;
+  overflow: hidden;
+  color: var(--c-texte);
+  text-decoration: none;
+}
+.socle-titre-fr {
+  flex: 0 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: var(--police-texte);
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: .01em;
+  white-space: nowrap;
+}
+.socle-titre-sous {
+  flex: 0 1 auto;
+  min-width: 0;
+  font-family: var(--police-ui);
+  font-size: var(--taille-petite);
+  color: var(--c-texte-doux);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.socle-zone-outils {
+  flex: none;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: var(--espace-2);
+}
+
+/* --- Colonne latérale --- */
+.socle-lateral {
+  grid-area: lateral;
+  align-self: start;
+  position: sticky;
+  top: var(--hauteur-entete);
+  height: calc(100vh - var(--hauteur-entete));
+  height: calc(100dvh - var(--hauteur-entete));
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  background: var(--c-surface-2);
+  border-right: 1px solid var(--c-bordure);
+}
+
+/* --- Zone principale --- */
+.socle-principal {
+  grid-area: principal;
+  min-width: 0;
+  padding: var(--espace-6) var(--espace-5);
+}
+.socle-principal:focus { outline: none; }
+
+.socle-vue {
+  max-width: var(--largeur-lecture);
+  margin: 0 auto;
+}
+.socle-vue[hidden] { display: none !important; }
+
+/* --- Pied de page --- */
+.socle-pied {
+  grid-area: pied;
+  padding: var(--espace-4) var(--espace-5) var(--espace-5);
+  border-top: 1px solid var(--c-bordure);
+  color: var(--c-texte-doux);
+  font-family: var(--police-ui);
+  font-size: var(--taille-petite);
+  text-align: center;
+}
+.socle-pied-source { margin: 0; }
+
+.socle-voile[hidden] { display: none; }
+
+.socle-noscript {
+  max-width: 40rem;
+  margin: var(--espace-6) auto;
+  padding: var(--espace-4);
+  font-family: var(--police-ui);
+  background: var(--c-alerte-fond);
+  color: var(--c-alerte-texte);
+  border-radius: var(--rayon);
+}
+
+/* ==========================================================================
+   4. Page d'accueil (vue « accueil », propriété du socle)
+   ========================================================================== */
+
+.socle-accueil-ar {
+  margin: 0 0 var(--espace-2);
+  font-size: calc(1.65rem * var(--echelle-arabe));
+  color: var(--c-accent);
+  text-align: right;
+}
+
+.socle-accueil-titre {
+  margin: 0 0 var(--espace-4);
+  font-size: clamp(1.75rem, 4vw, 2.4rem);
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.socle-accueil-intro {
+  margin: 0 0 var(--espace-5);
+  font-size: 1.15rem;
+  color: var(--c-texte);
+}
+
+.socle-accueil-principes {
+  margin: 0 0 var(--espace-5);
+  padding: var(--espace-4) var(--espace-5);
+  list-style: none;
+  background: var(--c-surface);
+  border: 1px solid var(--c-bordure);
+  border-radius: var(--rayon);
+}
+.socle-accueil-principes li {
+  position: relative;
+  padding-left: 1.25rem;
+}
+.socle-accueil-principes li + li { margin-top: var(--espace-2); }
+.socle-accueil-principes li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: .65em;
+  width: .45rem;
+  height: .45rem;
+  border-radius: 50%;
+  background: var(--c-accent);
+}
+
+.socle-accueil-avertissement {
+  margin: 0 0 var(--espace-6);
+  padding-left: var(--espace-4);
+  border-left: 3px solid var(--c-alerte-bord);
+  color: var(--c-texte-doux);
+  font-size: .95rem;
+}
+
+.socle-accueil-etat { font-family: var(--police-ui); }
+
+.socle-etat-resume {
+  margin: 0 0 var(--espace-4);
+  padding: var(--espace-3) var(--espace-4);
+  background: var(--c-accent-doux);
+  border-radius: var(--rayon);
+  font-size: .95rem;
+}
+
+.socle-etat-tech {
+  border: 1px solid var(--c-bordure);
+  border-radius: var(--rayon);
+  background: var(--c-surface);
+  font-size: var(--taille-petite);
+}
+.socle-etat-tech > summary {
+  padding: var(--espace-3) var(--espace-4);
+  cursor: pointer;
+  color: var(--c-texte-doux);
+}
+.socle-etat-tech[open] > summary { border-bottom: 1px solid var(--c-bordure); }
+.socle-etat-corps { padding: var(--espace-2) var(--espace-4) var(--espace-4); }
+.socle-etat-corps h2 {
+  margin: var(--espace-4) 0 var(--espace-2);
+  font-family: var(--police-ui);
+  font-size: .8rem;
+  font-weight: 600;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--c-texte-doux);
+}
+
+.socle-etat-liste {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.socle-etat-liste li {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--espace-1) var(--espace-3);
+  padding: var(--espace-1) 0;
+  border-bottom: 1px dashed var(--c-bordure);
+}
+.socle-etat-liste li:last-child { border-bottom: 0; }
+
+.socle-pastille {
+  display: inline-block;
+  padding: 0 var(--espace-2);
+  border-radius: 999px;
+  font-size: .78rem;
+  line-height: 1.6;
+  white-space: nowrap;
+  background: var(--c-surface-2);
+  color: var(--c-texte-doux);
+}
+.socle-pastille--ok { background: var(--c-accent-doux); color: var(--c-succes); }
+.socle-pastille--avertissement { background: var(--c-alerte-fond); color: var(--c-alerte-texte); }
+.socle-pastille--erreur { background: var(--c-erreur-fond); color: var(--c-erreur-texte); }
+
+.socle-anomalie-source {
+  color: var(--c-texte-doux);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: .78rem;
+}
+
+/* ==========================================================================
+   5. Petits écrans (téléphones, tablettes en portrait)
+   ========================================================================== */
+
+@media (max-width: 900px) {
+  .socle-app,
+  .socle-app:has(.socle-lateral:empty) {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: "entete" "principal" "pied";
+  }
+
+  .socle-entete { gap: var(--espace-2); padding: 0 var(--gouttiere); }
+  .socle-titre-fr { font-size: 1.1rem; }
+  .socle-menu { display: inline-flex; }
+  .socle-titre-sous { display: none; }
+
+  .socle-lateral {
+    position: fixed;
+    top: var(--hauteur-entete);
+    left: 0;
+    z-index: 40;
+    width: min(85vw, 21rem);
+    height: calc(100vh - var(--hauteur-entete));
+    height: calc(100dvh - var(--hauteur-entete));
+    transform: translateX(-100%);
+    visibility: hidden;
+    transition: transform var(--duree) ease, visibility 0s linear var(--duree);
+    box-shadow: var(--ombre);
+  }
+  .socle-app--lateral-ouvert .socle-lateral {
+    transform: none;
+    visibility: visible;
+    transition: transform var(--duree) ease, visibility 0s;
+  }
+
+  .socle-voile {
+    position: fixed;
+    inset: var(--hauteur-entete) 0 0 0;
+    z-index: 35;
+    background: var(--c-voile);
+  }
+
+  .socle-principal { padding: var(--espace-5) var(--gouttiere) var(--espace-6); }
+  .socle-pied { padding: var(--espace-4) var(--gouttiere) var(--espace-5); }
+  .socle-accueil-principes { padding: var(--espace-3) var(--espace-4); }
+}
+
+/* ==========================================================================
+   6. Très petits écrans (≤ 380 px)
+   ========================================================================== */
+
+@media (max-width: 380px) {
+  .socle-titre-fr { font-size: .95rem; letter-spacing: 0; }
+  .socle-entete { gap: var(--espace-1); }
+}

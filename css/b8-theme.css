@@ -1,0 +1,117 @@
+/* Bloc B8 — Thème — v1.0 — dépendances : variables de css/socle.css (B0 v1.0) — événements émis/écoutés : aucun (feuille de style) */
+
+.b8-reglages {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--espace-3) var(--espace-5);
+  margin-top: var(--espace-4);
+  padding-top: var(--espace-4);
+  border-top: 1px dashed var(--c-bordure);
+  font-family: var(--police-ui);
+  font-size: var(--taille-petite);
+  color: var(--c-texte);
+  text-align: left;
+}
+
+.b8-titre {
+  margin: 0;
+  font-family: var(--police-ui);
+  font-size: .75rem;
+  font-weight: 600;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--c-texte-doux);
+}
+
+.b8-groupe {
+  display: flex;
+  align-items: center;
+  gap: var(--espace-2);
+  margin: 0;
+  padding: 0;
+  border: 0;
+  min-width: 0;
+}
+.b8-legende {
+  float: left;
+  margin-right: var(--espace-2);
+  padding: 0;
+  color: var(--c-texte-doux);
+}
+.b8-exemple {
+  font-size: calc(var(--taille-arabe) * .7);
+  line-height: 1;
+  color: var(--c-accent);
+}
+
+/* --- Thème : boutons segmentés --- */
+.b8-segments {
+  display: inline-flex;
+  border: 1px solid var(--c-bordure);
+  border-radius: 999px;
+  overflow: hidden;
+  background: var(--c-surface);
+}
+.b8-radio {
+  position: absolute;
+  width: 1px; height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+.b8-segment {
+  padding: var(--espace-1) var(--espace-3);
+  cursor: pointer;
+  white-space: nowrap;
+}
+.b8-segment ~ .b8-segment { border-left: 1px solid var(--c-bordure); }
+.b8-segment:hover { color: var(--c-accent); }
+.b8-radio:checked + .b8-segment {
+  background: var(--c-accent);
+  color: var(--c-accent-texte);
+}
+.b8-radio:focus-visible + .b8-segment {
+  outline: 3px solid var(--c-focus);
+  outline-offset: -3px;
+}
+
+/* --- Taille de l'arabe --- */
+.b8-taille { display: inline-flex; align-items: center; gap: var(--espace-2); }
+.b8-bouton {
+  min-width: 2.25rem;
+  padding: var(--espace-1) var(--espace-2);
+  background: var(--c-surface);
+  border: 1px solid var(--c-bordure);
+  border-radius: var(--rayon-petit);
+  font-family: var(--police-ui);
+  font-size: .85rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.b8-bouton--grand { font-size: 1rem; }
+.b8-bouton:hover:not(:disabled) { border-color: var(--c-accent); color: var(--c-accent); }
+.b8-bouton:disabled { opacity: .45; cursor: default; }
+.b8-valeur {
+  min-width: 3.2rem;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+.b8-lien {
+  padding: 0;
+  background: none;
+  border: 0;
+  color: var(--c-lien);
+  font-family: var(--police-ui);
+  font-size: var(--taille-petite);
+  text-decoration: underline;
+  text-underline-offset: .18em;
+  cursor: pointer;
+}
+.b8-lien:disabled { color: var(--c-texte-doux); text-decoration: none; cursor: default; opacity: .6; }
+
+@media (max-width: 600px) {
+  .b8-reglages { flex-direction: column; align-items: stretch; }
+  .b8-titre { text-align: center; }
+  .b8-groupe { justify-content: space-between; flex-wrap: wrap; }
+}

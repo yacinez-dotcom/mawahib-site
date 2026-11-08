@@ -1,0 +1,172 @@
+/* Bloc B5 — Quiz — v1.0 — dépendances : variables de css/socle.css (B0 v1.0) — événements émis/écoutés : aucun (feuille de style) */
+
+.b5-quiz { font-family: var(--police-texte); }
+
+.b5-consigne {
+  margin: 0 0 var(--espace-4);
+  font-family: var(--police-ui);
+  font-size: var(--taille-petite);
+  color: var(--c-texte-doux);
+}
+.b5-avertissement {
+  margin: 0 0 var(--espace-4);
+  padding: var(--espace-2) var(--espace-3);
+  border-radius: var(--rayon-petit);
+  background: var(--c-alerte-fond);
+  color: var(--c-alerte-texte);
+  font-family: var(--police-ui);
+  font-size: var(--taille-petite);
+}
+.b5-vide { margin: 0; color: var(--c-texte-doux); font-style: italic; }
+
+.b5-questions {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: var(--espace-4);
+}
+
+.b5-question {
+  padding: var(--espace-4);
+  background: var(--c-surface);
+  border: 1px solid var(--c-bordure);
+  border-left: 4px solid var(--c-bordure);
+  border-radius: var(--rayon);
+  transition: border-color var(--duree) ease;
+}
+.b5-question--juste { border-left-color: var(--c-succes); }
+.b5-question--faux { border-left-color: var(--c-erreur-bord); }
+
+.b5-enonce { margin: 0 0 var(--espace-3); }
+.b5-num {
+  display: block;
+  margin-bottom: var(--espace-1);
+  font-family: var(--police-ui);
+  font-size: .75rem;
+  font-weight: 600;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--c-accent);
+}
+.b5-enonce-texte { font-weight: 600; }
+
+.b5-ar { font-size: 1.2em; line-height: 1; }
+
+/* --- Choix --- */
+.b5-choix-liste { display: grid; gap: var(--espace-2); }
+
+.b5-choix {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: baseline;
+  gap: var(--espace-1) var(--espace-3);
+  width: 100%;
+  padding: var(--espace-2) var(--espace-3);
+  background: var(--c-fond);
+  border: 1px solid var(--c-bordure);
+  border-radius: var(--rayon-petit);
+  color: var(--c-texte);
+  font-family: var(--police-texte);
+  font-size: 1rem;
+  line-height: 1.45;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color var(--duree) ease, background var(--duree) ease;
+}
+.b5-choix:hover:not([aria-disabled="true"]) { border-color: var(--c-accent); background: var(--c-accent-doux); }
+.b5-choix[aria-disabled="true"] { cursor: default; }
+
+.b5-lettre {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  background: var(--c-surface-2);
+  font-family: var(--police-ui);
+  font-size: .8rem;
+  font-weight: 600;
+  color: var(--c-texte-doux);
+}
+.b5-marque {
+  grid-column: 2;
+  font-family: var(--police-ui);
+  font-size: .78rem;
+  font-weight: 600;
+}
+.b5-marque:empty { display: none; }
+
+.b5-choix--bonne {
+  background: var(--c-regle-fond);
+  border-color: var(--c-succes);
+}
+.b5-choix--bonne .b5-lettre { background: var(--c-succes); color: var(--c-surface); }
+.b5-choix--bonne .b5-marque { color: var(--c-succes); }
+
+.b5-choix--fausse {
+  background: var(--c-erreur-fond);
+  border-color: var(--c-erreur-bord);
+}
+.b5-choix--fausse .b5-lettre { background: var(--c-erreur-bord); color: var(--c-surface); }
+.b5-choix--fausse .b5-marque { color: var(--c-erreur-texte); }
+
+.b5-choix--neutre { opacity: .7; }
+
+/* --- Correction --- */
+.b5-retour:empty { display: none; }
+.b5-retour { margin-top: var(--espace-3); }
+.b5-verdict {
+  margin: 0 0 var(--espace-1);
+  font-family: var(--police-ui);
+  font-size: .9rem;
+  font-weight: 600;
+}
+.b5-verdict--juste { color: var(--c-succes); }
+.b5-verdict--faux { color: var(--c-erreur-texte); }
+.b5-explication { margin: 0; color: var(--c-texte); }
+
+/* --- Bilan --- */
+.b5-bilan:empty { display: none; }
+.b5-bilan { margin-top: var(--espace-5); }
+.b5-bilan-carte {
+  padding: var(--espace-4) var(--espace-5);
+  border-radius: var(--rayon);
+  background: var(--c-accent-doux);
+  text-align: center;
+}
+.b5-score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 var(--espace-2);
+}
+.b5-score-label {
+  font-family: var(--police-ui);
+  font-size: .78rem;
+  font-weight: 600;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--c-texte-doux);
+}
+.b5-score-valeur { font-size: 2rem; font-weight: 600; color: var(--c-accent); }
+.b5-bilan-texte { margin: 0 0 var(--espace-3); }
+
+.b5-bouton {
+  padding: var(--espace-2) var(--espace-4);
+  background: var(--c-accent);
+  border: 0;
+  border-radius: var(--rayon-petit);
+  color: var(--c-accent-texte);
+  font-family: var(--police-ui);
+  font-size: .95rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.b5-bouton:hover { filter: brightness(1.08); }
+
+@media (max-width: 600px) {
+  .b5-question { padding: var(--espace-3); }
+  .b5-bilan-carte { padding: var(--espace-4); }
+}
