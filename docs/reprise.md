@@ -124,11 +124,11 @@ puis `__fcheck(['569/148','21604/72', …], '<empreintes>')`, qui renvoie les nu
 | Mukhtaṣar de Khalīl seul (contrôle du matn) | 11355 (la Ṭahāra commence p. 3–4 ; faṣl tah-01-03 : p. 6–8) |
 | Ibn Ghāzī, *Shifāʾ al-Ghalīl* (avec le Mukhtaṣar) | 14605 (matn du faṣl tah-01-03 p. 24 ; deux vêtements et audition d'Ibn Abī Zayd p. 25–26) |
 | Ibn ʿArafa, *al-Mukhtaṣar al-fiqhī* | 16968 (tolérances : p. 36–38) |
-| Khalīl, *at-Tawḍīḥ* | 14442 (épée polie p. 62 ; furoncle, « لَقَطَعَ » p. 79) |
+| Khalīl, *at-Tawḍīḥ* | 14442 (épée polie p. 62 ; impureté ôtée sans eau absolue p. 65 ; eau de lavage p. 66 ; aspersion p. 67–68 ; furoncle, « لَقَطَعَ » p. 79) |
 | al-Bājī, *al-Muntaqā* | 6684 (urine du cheval du combattant : p. 44 ; pan de robe p. 62) |
 | ʿUlaysh, *Minaḥ al-Jalīl* | 21614 (fin du faṣl tah-01-01 : p. 32–33 ; tolérances de tah-01-03 : p. 56–60) |
-| al-Zurqānī + ḥāshiya (al-Bunānī) | 14297 (tolérances de tah-01-03 : p. 78–89) |
-| al-Kharashī | 91 (tolérances de tah-01-03 : p. 105–113) |
+| al-Zurqānī + ḥāshiya (al-Bunānī) | 14297 (tolérances de tah-01-03 : p. 78–89 ; essorage p. 90 ; aspersion p. 93–94) |
+| al-Kharashī | 91 (tolérances de tah-01-03 : p. 105–113 ; essorage p. 113–114 ; aspersion p. 116) |
 | al-Mawwāq, *at-Tāj wa-l-Iklīl* | 21611 (poche du musc p. 71 ; poteries p. 86) |
 | Ibn Shās, *ʿIqd al-jawāhir* | 14594 (quatre catégories d'impuretés tolérées : p. 17) |
 | Ibn Nājī sur la Risāla | 14555 |
@@ -198,11 +198,12 @@ Puis :
 - `docs/sources/anomalies-textes.md` (figé) : le n° 43 est « Confirmé » dans sa ligne mais compté parmi les « Corrigé » au bilan (si la ligne fait foi : 58 « Corrigé » et 5 « Confirmé » au lieu de 59 et 4 ; vérifier d'abord dans `campagne-corrections.md` lequel des deux est juste). Écart présent dans le Projet, recopié tel quel au lot 5 ; à corriger lors de la réunion avec `anomalies-textes-2.md` (et à répercuter sur le total « Corrigé » du bilan d'ensemble).
 - N° 166 (« بَقَاءِ » pour « نَقَاءِ » probable, auteur d'al-Jamʿ) et n° 143, 147 : à reprendre si un témoin apparaît.
 - Al-Ḥaṭṭāb attribue parfois à Mālik une réponse qu'al-Bayān donne à Ibn al-Qāsim (n° 71) : vérifier dans al-Bayān les citations de l'ʿUtbiyya quand c'est possible.
-- 58 anomalies non résolues (liste dans `docs/sources/anomalies-textes-2.md`) ; à reprendre si un nouveau témoin apparaît.
+- 60 anomalies non résolues (liste dans `docs/sources/anomalies-textes-2.md`) ; à reprendre si un nouveau témoin apparaît.
 - tah-01-02-54c : remède externe avec une impureté autre que le vin — divergence non tranchée dans les pages croisées ; à compléter si un passage ultérieur d'al-Dardīr la tranche (bāb de la boisson).
 - tah-01-08-22 : le Mukhtaṣar seul porte « تَيَمُّمِهِ أَوْ مَسْحِهِ », Mawāhib « تَيَمُّمِهِ وَمَسْحِهِ » ; à examiner en rédigeant cette masʾala.
 - int-01-01-03c : divergence sur la date de décès d'Ibn Rushd placée dans `divergences` (v1.6, 2026-11-08) ; la date de 530 de 21604, p. 21, est d'al-Dasūqī (Ḥāshiya), non d'al-Dardīr. Fait. Leçon : sur une page de 21604, vérifier qu'une citation est avant ou après « ـ[حاشية الدسوقي] » avant de l'attribuer.
 - Module 0 : jamais croisé fiche par fiche avec al-Dardīr ; croisement complet possible si l'utilisateur le demande.
 - tah-01-01-09 : le passage de *Mawāhib* où al-Ḥaṭṭāb assimile le goudron tannant à la corde du puits n'a pas été localisé.
+- tah-01-03-34 : « لَا سِيَّمَا عَلَى مَا تَقَدَّمَ عَنْ ابْنِ رَاشِدٍ » (eau de lavage changée par la crasse) : passage d'Ibn Rāshid non trouvé dans Mawāhib p. 140–163 ; à chercher plus haut (peut-être dans le faṣl tah-01-01, eau changée).
 - Proposé, non demandé : faire chercher B7 (Recherche) aussi dans le champ `nass`.
 - Instructions du Projet : elles disent encore que l'utilisateur colle les textes ; la décision n° 1 ci-dessus prévaut.
