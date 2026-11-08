@@ -14,7 +14,7 @@ Aucune copie complète du site n'existe hors du Projet, et le Projet ne renvoie 
 | Lot | Contenu | État |
 |---|---|---|
 | 0 | Fichiers à jour au 2026-11-07 : `data/lecons/tah/tah-01-p11.js`, `data/glossaire-p2.js`, `data/manifeste.js`, `docs/reprise.md`, `docs/changelog-2.md`, `docs/sources/anomalies-textes-2.md`, `docs/verifications/tah-01-unite24.md`, `docs/outils/frags.py`, `fh.py`, `verif.js` | ✓ (commit 406f8f9) |
-| 1 | Code : `index.html`, `css/socle.css`, `js/socle.js`, B1 à B8, `docs/contrat.md` (v1.15) ; outils `controle_site.py`, `quizstat.js`, `fragcheck.py` ; contrôle des citations de l'unité 24 | ✓ (2026-11-08 ; code repris de l'aperçu, voir ci-dessous) |
+| 1 | Code : `index.html`, `css/socle.css`, `js/socle.js`, B1 à B8, `docs/contrat.md` (v1.15) ; outils `controle_site.py`, `quizstat.js`, `fragcheck.py` ; contrôle des citations de l'unité 24 | ✓ (commits 63e278d et 99f9483 ; code repris de l'aperçu, voir ci-dessous) |
 | 2 | `data/plan.js` v1.17 et `data/lecons/int/int-01.js` v1.5 : repris de l'aperçu (mêmes versions) ; plan passé en v1.18 (titres de tah-01-03-19 et -30). `data/glossaire.js` : v1.25 de l'aperçu + les 13 termes de l'unité 22 recopiés depuis le Projet (v1.26 ; contrôle : 500 termes) | à faire (proposé) |
 | 3 | `data/lecons/tah/tah-01-p1.js` à `-p8.js` : repris de l'aperçu (mêmes versions que le Projet) ; contrôles : en-têtes, nombre de fiches, positions des quiz (déjà égales au §5 le 2026-11-08), `node --check`, contrôle des citations par empreintes | à faire (proposé) |
 | 4 | `tah-01-p9.js` : v3.6 de l'aperçu + changements de la v3.7 (audit après l'unité 22) recopiés depuis le Projet ; `tah-01-p10.js` (unité 22) recopié depuis le Projet ; puis `controle_site.py` sur tout le dépôt | à faire (proposé) |
