@@ -1,6 +1,6 @@
 # Document de reprise — à lire en début de conversation
 
-Mis à jour : 2026-11-08 (création du dépôt GitHub, §0) ; 2026-11-07 au soir, après la fusion de l'unité 23 et l'unité 24 (tah-01-03-20 à -31, dans un nouveau `tah-01-p11.js` v3.9). Historique : le 2026-11-04, `tah-01` a été découpé en parties de moins de 200 Ko (décision n° 10). Depuis le 2026-11-06, le journal de la conversation n'est plus enregistré sur disque (décision n° 11). Le 2026-11-07, le conteneur était vide en début de séance et `project_read` ne renvoyait le contenu que dans la conversation : l'utilisateur a décidé de ne plus recopier les fichiers longs, mais d'ouvrir de nouveaux fichiers (décision n° 12).
+Mis à jour : 2026-11-08 (lot 1 fait : code dans le dépôt, contrat v1.15, contrôle des citations de l'unité 24 fait ; aperçu publié utilisable comme seconde source, §0) ; 2026-11-08 (création du dépôt GitHub, §0) ; 2026-11-07 au soir, après la fusion de l'unité 23 et l'unité 24 (tah-01-03-20 à -31, dans un nouveau `tah-01-p11.js` v3.9). Historique : le 2026-11-04, `tah-01` a été découpé en parties de moins de 200 Ko (décision n° 10). Depuis le 2026-11-06, le journal de la conversation n'est plus enregistré sur disque (décision n° 11). Le 2026-11-07, le conteneur était vide en début de séance et `project_read` ne renvoyait le contenu que dans la conversation : l'utilisateur a décidé de ne plus recopier les fichiers longs, mais d'ouvrir de nouveaux fichiers (décision n° 12).
 Ce document remplace l'historique des conversations précédentes. Il complète les instructions du Projet sans les contredire. **Le mettre à jour à la fin de chaque conversation.**
 
 ---
@@ -14,10 +14,13 @@ Aucune copie complète du site n'existe hors du Projet, et le Projet ne renvoie 
 | Lot | Contenu | État |
 |---|---|---|
 | 0 | Fichiers à jour au 2026-11-07 : `data/lecons/tah/tah-01-p11.js`, `data/glossaire-p2.js`, `data/manifeste.js`, `docs/reprise.md`, `docs/changelog-2.md`, `docs/sources/anomalies-textes-2.md`, `docs/verifications/tah-01-unite24.md`, `docs/outils/frags.py`, `fh.py`, `verif.js` | ✓ (commit 406f8f9) |
-| 1 | Code : `index.html`, `css/socle.css`, `js/socle.js`, B1 à B8 (`js/b*-*.js`, `css/b*-*.css`), `docs/contrat.md` ; outils `controle_site.py`, `quizstat.js`, `fragcheck.py` ; contrôle des citations de l'unité 24 si le navigateur est disponible | **prochain** |
-| 2 | `data/plan.js` (aligner les titres de tah-01-03-19 et -30), `data/glossaire.js`, `data/lecons/int/int-01.js` | à faire |
-| 3 à 7 | `data/lecons/tah/tah-01-p1.js` à `-p10.js` (deux parties par conversation) | à faire |
-| 8 | `docs/sources/tah-01-segments.md`, `anomalies-textes.md`, `changelog.md`, `docs/verifications/campagne-corrections.md` ; les autres rapports restent dans le Projet | à faire |
+| 1 | Code : `index.html`, `css/socle.css`, `js/socle.js`, B1 à B8, `docs/contrat.md` (v1.15) ; outils `controle_site.py`, `quizstat.js`, `fragcheck.py` ; contrôle des citations de l'unité 24 | ✓ (2026-11-08 ; code repris de l'aperçu, voir ci-dessous) |
+| 2 | `data/plan.js` v1.17 et `data/lecons/int/int-01.js` v1.5 : repris de l'aperçu (mêmes versions) ; plan passé en v1.18 (titres de tah-01-03-19 et -30). `data/glossaire.js` : v1.25 de l'aperçu + les 13 termes de l'unité 22 recopiés depuis le Projet (v1.26 ; contrôle : 500 termes) | à faire (proposé) |
+| 3 | `data/lecons/tah/tah-01-p1.js` à `-p8.js` : repris de l'aperçu (mêmes versions que le Projet) ; contrôles : en-têtes, nombre de fiches, positions des quiz (déjà égales au §5 le 2026-11-08), `node --check`, contrôle des citations par empreintes | à faire (proposé) |
+| 4 | `tah-01-p9.js` : v3.6 de l'aperçu + changements de la v3.7 (audit après l'unité 22) recopiés depuis le Projet ; `tah-01-p10.js` (unité 22) recopié depuis le Projet ; puis `controle_site.py` sur tout le dépôt | à faire (proposé) |
+| 5 | `docs/sources/tah-01-segments.md`, `anomalies-textes.md`, `changelog.md`, `docs/verifications/campagne-corrections.md` ; les autres rapports restent dans le Projet | à faire |
+
+**Aperçu publié = seconde source (constat du 2026-11-08).** L'aperçu publié le 2026-11-06 après l'unité 21 (artefact `https://claude.ai/artifact/Qm712fagjo8xQb3H3ruiRK`, slug `c06a9ced-514c-4d4b-a0e3-56a8109640b6`) contient le code et les données de ce jour-là. L'outil `mcp__claude-artifacts__read_file` avec `paths` (et non `path`) **enregistre les fichiers sur disque tels quels**, sans recopie à la main ; comparer ensuite leur SHA-256 à celui de `list_files`. Versions contenues : code identique au Projet ; `plan.js` v1.17, `int-01.js` v1.5, `tah-01-p1.js` à `-p4.js` v2.5, `-p5.js` v2.7, `-p6.js` v2.10, `-p7.js` v3.3, `-p8.js` v3.5 (identiques au Projet) ; `glossaire.js` v1.25 et `tah-01-p9.js` v3.6 (plus anciens que le Projet) ; pas de `tah-01-p10.js`. Le manifeste de l'aperçu (v1.8) n'est pas à reprendre. D'où le nouveau découpage des lots 2 à 5 ci-dessus, **proposé à l'utilisateur le 2026-11-08** (à confirmer) : il évite de recopier à la main les grosses parties déjà identiques. Un fichier pris dans l'aperçu n'est accepté que si son en-tête porte la même version que dans le Projet (`project_search` sur l'en-tête, ou `project_read` si le fichier est petit).
 
 Après la reconstruction : réunir `glossaire.js` et `glossaire-p2.js`, les deux fichiers d'anomalies et les deux journaux (la décision n° 12 n'a plus d'objet) ; les unités 25 et suivantes se font directement dans le dépôt. Pendant la reconstruction, une nouvelle unité peut être faite dans le dépôt (elle ne touche que la dernière partie et `glossaire-p2.js`), mais le contrôle de rendu complet attend la fin du lot 1.
 
@@ -26,8 +29,9 @@ Après la reconstruction : réunir `glossaire.js` et `glossaire-p2.js`, les deux
 ## 1. État du projet
 
 ```
-ÉTAT DU PROJET — 2026-11-07
-Site : B0 ✓ | B1 ✓ | B2 ✓ | B3 ✓ | B4 ✓ | B5 ✓ | B6 ✓ | B7 ✓ | B8 ✓ (déploiement en ligne reporté)
+ÉTAT DU PROJET — 2026-11-08
+Site : B0 ✓ | B1 ✓ | B2 ✓ | B3 ✓ | B4 ✓ | B5 ✓ | B6 ✓ | B7 ✓ | B8 ✓ (déploiement en ligne reporté) ; code dans le dépôt (lot 1 ✓), contrat v1.15
+Reconstruction du dépôt : lots 0 et 1 ✓ ; prochain : lot 2 (nouveau découpage proposé, §0)
 Cours : Module 0 (int-01-01, int-01-02, avec synthèses) ✓ toutes fiches vérifiées
         tah-01-01 : faṣl terminé — 38 fiches + synthèse tah-01-01-syn, toutes vérifiées
         tah-01-02 : faṣl terminé — 82 fiches + synthèse tah-01-02-syn, toutes vérifiées (unités 7 à 18)
@@ -35,13 +39,13 @@ Cours : Module 0 (int-01-01, int-01-02, avec synthèses) ✓ toutes fiches véri
 Données : plan.js v1.17 | int-01.js v1.5 | tah-01-p1.js à -p4.js v2.5 | tah-01-p5.js v2.7 | tah-01-p6.js v2.10 | tah-01-p7.js v3.3 | tah-01-p8.js v3.5 | tah-01-p9.js v3.7 | tah-01-p10.js v3.7 (unité 22, figé) | tah-01-p11.js v3.9 (unités 23–24, ≈ 158 Ko) | glossaire.js v1.26 (figé) | glossaire-p2.js v1.28 | manifeste.js v1.10
 Docs : changelog.md (figé) + changelog-2.md | anomalies-textes.md (figé, n° 1–149) + anomalies-textes-2.md (n° 150 et suivants, bilan à jour)
 Quiz : A 186 | B 186 | C 186 | D 186 (tout le cours)
-Contrôle de rendu : dernier passage le 2026-11-06 après l'unité 21 (p8, p9 : 0 erreur) ; non lancé depuis (code non recopié) ; contrôle structurel passé
+Contrôle de rendu : 2026-11-08, code du dépôt + données de l'aperçu (p9 en v3.6, sans p10) + p11 : 184 fiches, 0 erreur, 0 terme coupé, 0 quiz en échec ; à relancer sur le dépôt complet après le lot 4
 Anomalies : 166 (Corrigé 67 | Précisé 34 | Non résolu 58 | Confirmé 4 | Limite 2 | Déjà corrigé 1) ; prochain n° = 167 ; prochain audit après l'unité 26
 Prochaine étape : unité 25 = tah-01-03-32 et suivants (« وَلَا يَلْزَمُ عَصْرُهُ », Shamela 569, p. 162 = t. 1, p. 163), dans un nouveau tah-01-p12.js (p11 n'a plus la place d'une unité)
 Textes attendus : aucun (sources lues sur Shamela par Claude)
 ```
 
-**Contrôle des citations de l'unité 24** : voir la ligne « Contrôle des citations » de `docs/changelog-2.md`. S'il y est indiqué « à faire », c'est la **première tâche** de la prochaine conversation : `project_read` de `data/lecons/tah/tah-01-p11.js`, copie sur disque, extraction de la partie « Unité 24 » (de « Unité 24 — tah-01-03-26 » à « FIN-UNITE-24 ») et de la fiche tah-01-03-20 (alerte n° 150), `frags.py` / `fh.py`, puis `__fcheck` dans le navigateur sur les pages 569/155–162, 21604/76–79, 11355/8, 91/109–112, 14297/82, 14442/62 et 79, 14594/17, 14605/24–26 (maxw 30). Corriger toute citation non retrouvée.
+**Contrôle des citations de l'unité 24** : fait le 2026-11-08 (198 fragments sur 198 retrouvés, voir `docs/changelog-2.md`). Pour un contrôle de citations, penser aux ouvrages cités dans les alertes (ex. al-Muntaqā, 6684), pas seulement aux pages croisées.
 
 **Unité 25** — suite du faṣl tah-01-03 (« Ôter l'impureté », 50 segments, t. 1, p. 130–179, d'après `data/plan.js`). Le commentaire de « وَلَا يَلْزَمُ عَصْرُهُ » commence sur la page Shamela 569/162 (« ص (وَلَا يَلْزَمُ عَصْرُهُ) »), suivi de « مَعَ زَوَالِ طَعْمِهِ لَا لَوْنٍ وَرِيحٍ عَسِرَا » sur la même page. Lire `data/plan.js` (v1.17) pour les identifiants et les débuts de segments. Croisement : al-Dardīr / al-Dasūqī, Shamela 21604, page 79 (« (وَلَا يَلْزَمُ عَصْرُهُ) ») et suivantes. Déjà relevé dans la ḥāshiya de la page 79, pour ces segments : « وَلَا يَجِبُ أُشْنَانٌ وَنَحْوُهُ كَمَا فِي ح » et « مَا نَقَلَهُ ح عَنْ الْقَابِسِيِّ » ; « قَالَهُ ح » (arak) a été repris à l'unité 24. Contrôler la fin de chaque segment sur 11355 (p. 8) et al-Dardīr.
 
@@ -180,8 +184,8 @@ Puis :
 ## 6. Points ouverts
 
 - `data/plan.js` (v1.17) : aligner les titres arabes de tah-01-03-19 (« لَا إنْ غَلَبَتْ », anomalie n° 148) et de tah-01-03-30 (« بِخِلَافِ ثَوْبَيْهِ », n° 162) au prochain passage sur le plan (v1.18). Le plan est long : le relire en entier ; s'il ne peut pas être recopié sans risque, demander à l'utilisateur.
-- `docs/contrat.md` : y mentionner, au prochain passage, que le glossaire peut être réparti sur plusieurs fichiers (`glossaire.js`, `glossaire-p2.js`, dans l'ordre du manifeste) ; aucun code n'en dépend.
-- Contrôle de rendu (`controle_site.py`) à relancer sur p9, p10 et p11, non fait depuis l'unité 21.
+- `docs/contrat.md` : glossaire sur plusieurs fichiers mentionné (v1.15, 2026-11-08) ; fait.
+- Contrôle de rendu (`controle_site.py`) : fait le 2026-11-08 pour p11 et p9 v3.6 ; à relancer sur p9 v3.7 et p10 quand ils seront dans le dépôt (lot 4).
 - tah-01-03-30 : al-Dasūqī attribue à « ح » l'avis qu'en l'absence d'indice on lave les deux vêtements ou l'un (« خِلَافًا لِمَا فِي ح ») ; passage non trouvé dans Mawāhib p. 160–162 : le chercher si l'on relit cette partie de Mawāhib.
 - N° 166 (« بَقَاءِ » pour « نَقَاءِ » probable, auteur d'al-Jamʿ) et n° 143, 147 : à reprendre si un témoin apparaît.
 - Al-Ḥaṭṭāb attribue parfois à Mālik une réponse qu'al-Bayān donne à Ibn al-Qāsim (n° 71) : vérifier dans al-Bayān les citations de l'ʿUtbiyya quand c'est possible.
