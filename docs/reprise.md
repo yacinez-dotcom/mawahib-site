@@ -1,7 +1,25 @@
 # Document de reprise — à lire en début de conversation
 
-Mis à jour : 2026-11-07 au soir, après la fusion de l'unité 23 et l'unité 24 (tah-01-03-20 à -31, dans un nouveau `tah-01-p11.js` v3.9). Historique : le 2026-11-04, `tah-01` a été découpé en parties de moins de 200 Ko (décision n° 10). Depuis le 2026-11-06, le journal de la conversation n'est plus enregistré sur disque (décision n° 11). Le 2026-11-07, le conteneur était vide en début de séance et `project_read` ne renvoyait le contenu que dans la conversation : l'utilisateur a décidé de ne plus recopier les fichiers longs, mais d'ouvrir de nouveaux fichiers (décision n° 12).
+Mis à jour : 2026-11-08 (création du dépôt GitHub, §0) ; 2026-11-07 au soir, après la fusion de l'unité 23 et l'unité 24 (tah-01-03-20 à -31, dans un nouveau `tah-01-p11.js` v3.9). Historique : le 2026-11-04, `tah-01` a été découpé en parties de moins de 200 Ko (décision n° 10). Depuis le 2026-11-06, le journal de la conversation n'est plus enregistré sur disque (décision n° 11). Le 2026-11-07, le conteneur était vide en début de séance et `project_read` ne renvoyait le contenu que dans la conversation : l'utilisateur a décidé de ne plus recopier les fichiers longs, mais d'ouvrir de nouveaux fichiers (décision n° 12).
 Ce document remplace l'historique des conversations précédentes. Il complète les instructions du Projet sans les contredire. **Le mettre à jour à la fin de chaque conversation.**
+
+---
+
+## 0. Dépôt GitHub et reconstruction du site (décision n° 13, 2026-11-08)
+
+Le site est désormais tenu dans le dépôt GitHub **`yacinez-dotcom/mawahib-site`** (privé, branche `main`), qui devient la référence. Le Projet reste l'archive (rapports historiques, anciennes versions). **En début de conversation** : rattacher le dépôt (`add_repo`, accès `push`), le cloner (`git clone --depth 1 https://github.com/yacinez-dotcom/mawahib-site /home/claude/mawahib-site`, délai long), puis travailler sur les fichiers complets du clone ; une unité = un commit ; `git fetch origin main` avant chaque `git push`. L'application GitHub de Claude est installée sur ce dépôt (accès en écriture vérifié le 2026-11-08).
+
+Aucune copie complète du site n'existe hors du Projet, et le Projet ne renvoie les fichiers que dans la conversation : le dépôt est reconstruit **par lots**, chaque fichier étant relu en entier dans le Projet (`project_read`), recopié dans le clone, contrôlé, puis enregistré. Contrôles de chaque fichier recopié : `node --check` ; pour les fiches, nombre de fiches et positions des quiz égaux à ceux du §5 ; toutes les citations arabes retrouvées sur Shamela par empreintes (§3) ; une fois le code en place, `controle_site.py` sur tout le site. Une conversation par lot (deux parties de fiches au plus), pour éviter les compactages.
+
+| Lot | Contenu | État |
+|---|---|---|
+| 0 | Fichiers à jour au 2026-11-07 : `data/lecons/tah/tah-01-p11.js`, `data/glossaire-p2.js`, `data/manifeste.js`, `docs/reprise.md`, `docs/changelog-2.md`, `docs/sources/anomalies-textes-2.md`, `docs/verifications/tah-01-unite24.md`, `docs/outils/frags.py`, `fh.py`, `verif.js` | ✓ (commit 406f8f9) |
+| 1 | Code : `index.html`, `css/socle.css`, `js/socle.js`, B1 à B8 (`js/b*-*.js`, `css/b*-*.css`), `docs/contrat.md` ; outils `controle_site.py`, `quizstat.js`, `fragcheck.py` ; contrôle des citations de l'unité 24 si le navigateur est disponible | **prochain** |
+| 2 | `data/plan.js` (aligner les titres de tah-01-03-19 et -30), `data/glossaire.js`, `data/lecons/int/int-01.js` | à faire |
+| 3 à 7 | `data/lecons/tah/tah-01-p1.js` à `-p10.js` (deux parties par conversation) | à faire |
+| 8 | `docs/sources/tah-01-segments.md`, `anomalies-textes.md`, `changelog.md`, `docs/verifications/campagne-corrections.md` ; les autres rapports restent dans le Projet | à faire |
+
+Après la reconstruction : réunir `glossaire.js` et `glossaire-p2.js`, les deux fichiers d'anomalies et les deux journaux (la décision n° 12 n'a plus d'objet) ; les unités 25 et suivantes se font directement dans le dépôt. Pendant la reconstruction, une nouvelle unité peut être faite dans le dépôt (elle ne touche que la dernière partie et `glossaire-p2.js`), mais le contrôle de rendu complet attend la fin du lot 1.
 
 ---
 
@@ -47,6 +65,7 @@ Textes attendus : aucun (sources lues sur Shamela par Claude)
 10. **Fichiers de données de moins de 200 Ko** (2026-11-04). Le Projet ne renvoie qu'environ 262 Ko d'un fichier par lecture, sans copie sur disque. Un bāb plus gros est découpé en parties `…-p<n>.js` (contrat v1.14 §5). Une conversation ne réécrit jamais dans le Projet un fichier qu'elle n'a pas lu en entier : si cela arrive, elle livre son travail dans `docs/travail/` et le signale.
 11. **Sans journal sur disque, tout retaper** (2026-11-06). Quand le journal de la conversation n'est pas enregistré sur disque, les fichiers du Projet à modifier sont lus en entier avec `project_read`, puis réécrits en entier sur disque avec la modification, et renvoyés au Projet. Contrôles de la recopie : nombre de fiches, de termes ou de lignes ; positions des quiz identiques à l'état précédent ; tous les fragments arabes retrouvés sur Shamela (§3).
 12. **Nouveaux fichiers plutôt que recopie des fichiers longs** (2026-11-07). Pour ne pas recopier à la main des fichiers longs déjà vérifiés : les nouvelles fiches vont dans une nouvelle partie `tah-01-p<n>.js` dès que la dernière partie ne peut plus les recevoir sans recopie lourde ; les nouveaux termes dans `data/glossaire-p2.js` (le socle accepte plusieurs appels à `App.data.ajouterTermes`, dans l'ordre du manifeste ; un doublon est signalé et ignoré) ; les nouvelles anomalies dans `docs/sources/anomalies-textes-2.md` ; le journal dans `docs/changelog-2.md`. Les fichiers longs antérieurs (`tah-01-p10.js`, `glossaire.js`, `anomalies-textes.md`, `changelog.md`) sont figés. Quand une suite dépasse à son tour la taille qu'on peut recopier sans risque (≈ 60 Ko d'arabe vocalisé), ouvrir la partie suivante (`-p3`, etc.).
+13. **Dépôt GitHub `yacinez-dotcom/mawahib-site` comme référence** (2026-11-08), reconstruit par lots depuis le Projet (voir le §0).
 
 ---
 
