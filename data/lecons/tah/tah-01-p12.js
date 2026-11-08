@@ -1,8 +1,9 @@
-/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 12 — v4.0
+/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 12 — v4.1
    Source : Mawāhib al-Jalīl, al-Ḥaṭṭāb, éd. Dār al-Fikr, 3e éd., 1412 H / 1992, tome 1 (shamela.ws/book/569).
    Croisement : al-Sharḥ al-kabīr d'al-Dardīr et Ḥāshiyat al-Dasūqī (shamela.ws/book/21604), tome 1.
-   Cette partie : faṣl tah-01-03, à partir de tah-01-03-32 (unité 25) — t. 1, p. 163–167.
+   Cette partie : faṣl tah-01-03, à partir de tah-01-03-32 (unité 25) — t. 1, p. 163–170.
    v4.0 : unité 25 — tah-01-03-32 à -37 (2026-11-08) ; nouvelle partie, tah-01-p11.js n'ayant plus la place d'une unité.
+   v4.1 : unité 26 — tah-01-03-38 à -42 (2026-11-08), avec l'audit après l'unité 26 (anomalies n° 175 à 182).
    Bāb découpé en parties de moins de 200 Ko ;
    historique des versions : tah-01-p1.js (jusqu'à v2.5) puis l'en-tête de chaque partie. */
 App.data.ajouterFiches([
@@ -449,7 +450,390 @@ App.data.ajouterFiches([
       "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 81 (Shamela 21604, page 80)."
     ],
     verification: "verifie"
+  },
+
+  /* ================================================================== */
+  /* Unité 26 — tah-01-03-38 à -42 — t. 1, p. 167–170 (Shamela 569, p. 166–169) */
+  /* Croisement : al-Dardīr / al-Dasūqī, t. 1, p. 81–82 (Shamela 21604, p. 80–81) */
+  /* ================================================================== */
+
+  {
+    id: "tah-01-03-38",
+    kitab: "tah", bab: "01", fasl: "03", ordre: 38,
+    titre: "Définition : asperger à la main",
+    titre_ar: "وَهُوَ رَشٌّ بِالْيَدِ",
+    objectif: "Savoir ce qu'est l'aspersion (nadh) et comment la faire : avec quoi, sur quel côté du vêtement et combien de fois.",
+    matn: "وَهُوَ رَشٌّ بِالْيَدِ",
+    regle_pratique: "Asperger (nadh), c'est projeter de l'eau avec la main sur l'endroit douteux : une seule fois suffit, même si l'eau ne le couvre pas entièrement, et l'on n'asperge que le côté du vêtement dont on doute ; asperger avec la bouche ne suffit que si on l'a d'abord débarrassée de sa salive.",
+    qualification: {
+      hukm: "wajib",
+      nature: "autre",
+      effet_si_omis: "L'aspersion faite avec la bouche sans l'avoir nettoyée de la salive ne suffit pas, car l'eau devient « ajoutée » (ʿIyāḍ : « وَإِلَّا كَانَ مُضَافًا » ; al-Ḥaṭṭāb : « وَإِلَّا لَمْ يَجُزْ »)."
+    },
+    explication: "Al-Ḥaṭṭāb : l'aspersion (نَضْح, nadh) est le fait de projeter de l'eau avec la main (رَشّ, rachch) ; c'est l'avis le plus répandu (mashhūr). Ad-Dāwūdī : c'est recouvrir entièrement l'endroit d'eau (غَمْر, ghamr). Al-Bājī : le mot s'emploie dans les deux sens, et le contexte fixe l'un d'eux : là où l'on doute, il signifie projeter ; là où l'impureté est certaine, verser (صَبّ, sabb). On asperge donc le côté dont on doute, et non les deux côtés du vêtement, sauf si l'on doute des deux.\n\nIbn ʿArafa rapporte plusieurs façons de faire. ʿĪsā b. Miskīn, d'après Saḥnūn (voir les alertes) : on asperge l'extérieur et l'intérieur de ce dont on doute. ʿIyāḍ : cela vaut quand on doute des deux côtés ; sinon, on n'asperge que le côté dont on doute qu'il ait été atteint. Al-Qābisī : on asperge l'endroit douteux de la main, une seule fois, même sans le couvrir entièrement ; l'asperger avec la bouche suffit. ʿIyāḍ : sans doute après s'être lavé la bouche de sa salive (بُصَاق, bousâq), sinon l'eau serait une eau « ajoutée » (المَاءُ المُضَاف).\n\nAl-Ḥaṭṭāb : ce que dit ʿIyāḍ des deux côtés et de l'aspersion par la bouche est une explication, non une divergence ; de même ce que dit al-Qābisī : il n'est pas exigé de couvrir tout l'endroit, ce qu'on tire aussi de ce qu'Ibn ʿArafa dit plus loin de l'intention (fiche tah-01-03-39). Asperger avec la bouche après l'avoir nettoyée de la salive suffit donc, sinon non. Khalīl dans at-Tawḍīḥ, et « le commentateur » dans son commentaire et dans ash-Shāmil, rapportent l'avis de l'aspersion par la bouche sans la restriction de ʿIyāḍ, et en font un avis contraire au plus répandu.\n\nAl-Dardīr : l'aspersion est le fait de projeter de l'eau avec la main, ou la pluie, une seule fois, même si l'on n'est pas sûr qu'elle couvre tout l'endroit. Al-Dasūqī : il s'agit de toute aspersion, pour le vêtement, le corps ou le sol ; « avec la main » : ou avec la bouche, après en avoir ôté la salive.",
+    aqwal: [
+      { auteur: "Avis le plus répandu (« وَهَذَا هُوَ الْمَشْهُورُ »)", avis: "L'aspersion est le fait de projeter de l'eau avec la main.", statut: "mashhur" },
+      { auteur: "Ad-Dāwūdī", avis: "L'aspersion est le fait de recouvrir entièrement l'endroit d'eau.", statut: "qawl" },
+      { auteur: "Al-Bājī", avis: "Le mot a les deux sens : projeter là où l'on doute, verser là où l'impureté est certaine.", statut: "non_precise" },
+      { auteur: "ʿĪsā b. Miskīn, d'après Saḥnūn (rapporté par Ibn ʿArafa)", avis: "On asperge l'extérieur et l'intérieur de ce dont on doute.", statut: "non_precise" },
+      { auteur: "ʿIyāḍ", avis: "Les deux côtés seulement si l'on doute des deux ; avec la bouche, après l'avoir lavée de la salive.", statut: "non_precise" },
+      { auteur: "Al-Qābisī", avis: "Une seule fois, à la main, même sans couvrir tout l'endroit ; la bouche suffit.", statut: "non_precise" },
+      { auteur: "Avis rapporté par Khalīl (at-Tawḍīḥ) et par « le commentateur », sans la restriction de ʿIyāḍ", avis: "L'aspersion avec la bouche, donnée comme contraire à l'avis le plus répandu.", statut: "qawl" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : « (رَشٌّ بِالْيَدِ) أَوْ الْمَطَرِ رَشَّةً وَاحِدَةً وَلَوْ لَمْ يَتَحَقَّقْ عُمُومَهَا » ; pour la bouche, al-Dasūqī : « أَيْ أَوْ الْفَمِ بَعْدَ إزَالَةِ مَا فِيهِ مِنْ الْبُصَاقِ ».",
+    tarjih_hattab: "« وَالظَّاهِرُ أَنَّ مَا قَالَهُ عِيَاضٌ فِي رَشِّ الْجِهَتَيْنِ، وَفِي الرَّشِّ بِالْفَمِ تَفْسِيرٌ لَا خِلَافٌ » ; « وَأَنَّهُ إنْ رَشَّهُ بِفِيهِ بَعْدَ تَنْظِيفِهِ مِنْ الْبُصَاقِ أَجْزَأَ وَإِلَّا لَمْ يَجُزْ ».",
+    tanbihat: [
+      "Al-Bājī : « فَفِي مَحَلِّ الشَّكِّ يُحْمَلُ عَلَى الرَّشِّ وَفِي التَّحْقِيقِ عَلَى الصَّبِّ ».",
+      "Le côté douteux seulement : « وَلَا يَرُشُّ جِهَتَيْ الثَّوْبِ إلَّا أَنْ يَشُكَّ فِيهِمَا مَعًا ».",
+      "Pas d'obligation de couvrir tout l'endroit : « وَكَذَا مَا قَالَهُ الْقَابِسِيُّ مِنْ أَنَّهُ لَا يُشْتَرَطُ تَعْمِيمُ الْمَحَلِّ »."
+    ],
+    divergences: [
+      "Concordance — une seule aspersion, sans couvrir tout l'endroit. Al-Ḥaṭṭāb (d'après al-Qābisī, rapporté par Ibn ʿArafa) : « رَشُّ مَوْضِعِ الشَّكِّ بِيَدِهِ رَشَّةً وَاحِدَةً، وَإِنْ لَمْ يَعُمَّهُ ». Al-Dardīr : « رَشَّةً وَاحِدَةً وَلَوْ لَمْ يَتَحَقَّقْ عُمُومَهَا ».",
+      "Concordance — l'aspersion par la bouche. Al-Ḥaṭṭāb : « وَأَنَّهُ إنْ رَشَّهُ بِفِيهِ بَعْدَ تَنْظِيفِهِ مِنْ الْبُصَاقِ أَجْزَأَ وَإِلَّا لَمْ يَجُزْ ». Al-Dasūqī : « (قَوْلُهُ: بِالْيَدِ) أَيْ أَوْ الْفَمِ بَعْدَ إزَالَةِ مَا فِيهِ مِنْ الْبُصَاقِ ». Al-Ḥaṭṭāb signale que Khalīl (at-Tawḍīḥ) et le commentateur en font un avis contraire au plus répandu : « وَجَعَلَاهُ خِلَافَ الْمَشْهُورِ ».",
+      "Complément — la pluie. Al-Dardīr : « أَوْ الْمَطَرِ » ; al-Ḥaṭṭāb le dit sur le segment suivant : « فَلَوْ رَشَّ الْمَحَلَّ مَطَرٌ وَنَحْوُهُ كَفَى ».",
+      "Complément — ce qui est aspergé. Al-Dasūqī : « (قَوْلُهُ: أَيْ النَّضْحُ) يَعْنِي مُطْلَقًا سَوَاءٌ كَانَ لِثَوْبٍ أَوْ جَسَدٍ أَوْ أَرْضٍ ». Al-Ḥaṭṭāb traite du corps et du sol sur le segment tah-01-03-42."
+    ],
+    exemple: "Un homme doute que l'urine d'un nourrisson ait touché l'extérieur de la manche droite de sa chemise ; il ne doute pas de l'intérieur. Il mouille sa main et projette une fois de l'eau sur l'extérieur de la manche : cela suffit, même si quelques points restent secs. S'il asperge avec la bouche, il doit d'abord se rincer la bouche de sa salive.",
+    erreurs_frequentes: [
+      "Croire qu'il faut tremper ou laver le vêtement : selon l'avis le plus répandu, l'aspersion est un simple jet d'eau à la main.",
+      "Asperger les deux faces du vêtement alors qu'on ne doute que d'une : on n'asperge que le côté douteux.",
+      "Asperger avec la bouche sans l'avoir débarrassée de sa salive : l'eau devient « ajoutée » et ne suffit pas (ʿIyāḍ, al-Ḥaṭṭāb)."
+    ],
+    termes: [
+      { ar: "رَشّ", translit: "rachch", def: "Projeter de l'eau en gouttes, par exemple avec la main ; c'est le sens retenu de l'aspersion (nadh)." },
+      { ar: "غَمْر", translit: "ghamr", def: "Recouvrir entièrement une chose d'eau (sens que donne ad-Dāwūdī à l'aspersion)." },
+      { ar: "صَبّ", translit: "sabb", def: "Verser de l'eau sur une chose." },
+      { ar: "بُصَاق", translit: "bousâq", def: "Salive." }
+    ],
+    quiz: [
+      { q: "Qu'est-ce que l'aspersion (nadh), selon l'avis le plus répandu ?",
+        choix: ["Laver l'endroit en le frottant", "Projeter de l'eau avec la main", "Plonger le vêtement dans l'eau", "Essuyer l'endroit avec un linge humide"],
+        bonne: 1,
+        explication: "« يَعْنِي أَنَّ النَّضْحَ هُوَ الرَّشُّ بِالْيَدِ وَهَذَا هُوَ الْمَشْهُورُ »." },
+      { q: "Selon ad-Dāwūdī, que signifie l'aspersion ?",
+        choix: ["Verser l'eau goutte à goutte", "Projeter l'eau une seule fois", "Asperger avec la bouche", "Recouvrir entièrement l'endroit d'eau"],
+        bonne: 3,
+        explication: "« وَقَالَ الدَّاوُدِيُّ هُوَ غَمْرُ الْمَحَلِّ بِالْمَاءِ »." },
+      { q: "Mise en situation : vous doutez que l'extérieur de votre manche ait été touché, mais pas l'intérieur. Que faut-il asperger ?",
+        choix: ["L'extérieur seulement", "L'intérieur et l'extérieur", "Tout le vêtement", "Rien"],
+        bonne: 0,
+        explication: "« فَيَرُشُّ الْجِهَةَ الَّتِي شَكَّ فِيهَا، وَلَا يَرُشُّ جِهَتَيْ الثَّوْبِ إلَّا أَنْ يَشُكَّ فِيهِمَا مَعًا »." },
+      { q: "À quelle condition l'aspersion faite avec la bouche suffit-elle, selon al-Ḥaṭṭāb ?",
+        choix: ["Jamais", "Si l'on asperge trois fois", "Si l'on a d'abord ôté la salive de la bouche", "Si l'eau couvre tout l'endroit"],
+        bonne: 2,
+        explication: "« وَأَنَّهُ إنْ رَشَّهُ بِفِيهِ بَعْدَ تَنْظِيفِهِ مِنْ الْبُصَاقِ أَجْزَأَ وَإِلَّا لَمْ يَجُزْ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "167" },
+    alertes: [
+      "Corrigé (campagne de correction) : « عِيَاضٌ هَذَا فِيمَا شَكَّ فِي نَاحِيَتِهِ » ; Ibn ʿArafa, dont al-Ḥaṭṭāb reproduit le texte, porte le duel (16968, p. 41 « عياض: هذا فيما شك في ناحيتيه ») ; al-Ḥaṭṭāb lui-même parle ensuite de « رَشِّ الْجِهَتَيْنِ ». La fiche suit le duel : les deux côtés (anomalie n° 175).",
+      "Corrigé (campagne de correction) : « عِيسَى بْنُ مِسْكِينٍ عَنْ ابْنِ سَحْنُونٍ » ; Ibn ʿArafa (16968, p. 41) porte « عيسى بن مسكين عن سحنون ». La fiche rapporte l'avis à Saḥnūn (anomalie n° 176).",
+      "Précisé (campagne de correction) : « رَشُّ ظَاهِرِ مَا شَكَّ فِيهِ وَبَاطِنَهُ » : le second mot, coordonné à un génitif, est imprimé à l'accusatif ; Ibn ʿArafa (16968, p. 41) a les mêmes consonnes ; sans effet sur la règle (anomalie n° 182).",
+      "At-Tawḍīḥ (14442, p. 68) : « والمعروفُ أن النضحَ هو الرشُّ باليدِ، ونصَّ عليه سحنون » et « ونقل أبو الحسن الصغير عن سحنون أنه الرشُّ بالفم » : ce qu'al-Ḥaṭṭāb en rapporte s'y trouve.",
+      "Le « commentateur » (« وَالشَّارِحُ فِي شَرْحِهِ وَشَامِلِهِ ») n'est pas nommé dans le passage.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 81 (Shamela 21604, page 80)."
+    ],
+    verification: "verifie"
+  },
+
+  /* ------------------------------------------------------------------ */
+  {
+    id: "tah-01-03-39",
+    kitab: "tah", bab: "01", fasl: "03", ordre: 39,
+    titre: "Aspersion sans intention",
+    titre_ar: "بِلَا نِيَّةٍ",
+    objectif: "Savoir que l'aspersion n'exige pas d'intention, et pourquoi certains l'ont exigée.",
+    matn: "بِلَا نِيَّةٍ",
+    regle_pratique: "L'aspersion n'a pas besoin d'intention : si la pluie ou autre chose a aspergé l'endroit douteux, cela suffit.",
+    qualification: {
+      hukm: "mubah",
+      nature: "autre",
+      effet_si_omis: "Asperger sans intention n'empêche pas l'aspersion de valoir (« يَعْنِي أَنَّ النَّضْحَ لَا يَفْتَقِرُ إلَى نِيَّةٍ »)."
+    },
+    explication: "Al-Ḥaṭṭāb : l'aspersion n'a pas besoin d'intention (نِيَّة, niyya) : si la pluie ou une chose semblable a aspergé l'endroit, cela suffit, car elle relève de l'enlèvement de l'impureté. Ibn Muḥriz ajoute : s'il y a là une impureté, son enlèvement n'a pas besoin d'intention ; s'il n'y en a pas, rien n'est obligatoire. Ibn ʿArafa objecte à la première moitié que cela ne vaut que pour ce qui n'apparaît pas comme un pur culte (تَعَبُّد, taʿabboud) ; puis il répond qu'on refuse de voir dans l'aspersion un pur culte : la règle de l'enlèvement de l'impureté est que l'eau la domine — on dit bien que l'eau de lavage non changée est pure — et l'eau de l'aspersion domine, l'impureté, s'il y en a, étant peu de chose. Si l'on objecte que l'aspersion n'atteint pas forcément l'impureté, puisqu'elle ne couvre pas toute la surface douteuse, et qu'il n'y a donc pas de domination de l'eau (voir les alertes), on répond que les nombreuses gouttes d'eau sur cette surface sont le lieu présumé (مَظِنَّة, mazinna) où elles atteignent l'impureté, s'il y en a, et la présomption suffit.\n\nOn a dit aussi que l'aspersion a besoin d'intention, parce qu'elle apparaît comme un pur culte : elle étend l'impureté au lieu de l'ôter ; la réponse a été donnée plus haut. Ibn ʿAbd as-Salām : le caractère cultuel du moyen d'enlèvement n'oblige pas à l'intention : on a restreint l'enlèvement à l'eau, selon l'avis le plus répandu, ce qui est cultuel, et l'intention n'est pas exigée pour le lavage ; il en va de même pour l'aspersion. Ibn Bashīr et Ibn Shās : les deux avis sont ceux de savants tardifs (المُتَأَخِّرُون) ; Ibn ʿArafa attribue le premier à Ibn Muḥriz et le second à « certains ». At-Tawḍīḥ, d'après al-Lubāb (voir les alertes) : la lettre de l'école (ظَاهِرُ الْمَذْهَبِ, zâhirou l-madh-hab) est que l'aspersion n'a pas besoin d'intention.\n\nRemarque : si l'on dit que le corps est aspergé, ou le sol (fiche tah-01-03-42), il n'y faut pas non plus d'intention ; c'est la lettre de leurs propos.\n\nAl-Dardīr : Khalīl répète « sans intention », alors qu'il l'a déjà dit de la purification de l'endroit souillé, pour qu'on ne croie pas que l'aspersion, parce qu'elle est un pur culte, en a besoin, ou pour répondre à celui qui l'exige. Al-Dasūqī : « sans intention » se rattache à « son aspersion est obligatoire » ; certains en ont fait un complément d'état de « projeter », mais cela ferait de l'absence d'intention une partie de la définition de l'aspersion, ce qui n'est pas le cas ; celui qui exige l'intention le fait parce que l'aspersion apparaît comme un pur culte : le Législateur l'a ordonnée sans que nous en saisissions la sagesse.",
+    aqwal: [
+      { auteur: "Ibn Muḥriz (selon Ibn ʿArafa) ; at-Tawḍīḥ, d'après al-Lubāb : « ظَاهِرُ الْمَذْهَبِ »", avis: "L'aspersion n'a pas besoin d'intention : elle relève de l'enlèvement de l'impureté.", statut: "non_precise" },
+      { auteur: "« Certains » (selon Ibn ʿArafa)", avis: "L'aspersion a besoin d'intention, parce qu'elle apparaît comme un pur culte.", statut: "qawl" },
+      { auteur: "Ibn ʿAbd as-Salām", avis: "Le caractère cultuel du moyen d'enlèvement n'oblige pas à l'intention, comme pour le lavage.", statut: "non_precise" },
+      { auteur: "Ibn Bashīr et Ibn Shās", avis: "Les deux avis sont ceux de savants tardifs.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : « لِئَلَّا يَتَوَهَّمَ أَنَّ النَّضْحَ لِكَوْنِهِ تَعَبُّدًا يَفْتَقِرُ إلَيْهَا أَوْ لِلرَّدِّ عَلَى مَنْ قَالَ يَفْتَقِرُ إلَيْهَا ».",
+    tarjih_hattab: "Contre l'avis de l'intention : « وَتَقَدَّمَ جَوَابُهُ » ; pour le corps et le sol : « فَلَا يَحْتَاجُ إلَى نِيَّةٍ وَهَذَا ظَاهِرُ كَلَامِهِمْ ».",
+    tanbihat: [
+      "La pluie : « فَلَوْ رَشَّ الْمَحَلَّ مَطَرٌ وَنَحْوُهُ كَفَى ».",
+      "Ibn ʿArafa : « أُجِيبَ بِأَنَّ كَثْرَةَ نُقَطِ الْمَاءِ عَلَى سَطْحِهِ فَقَطْ مَظِنَّةٌ لِنَيْلِ نَجَاسَتِهِ إنْ كَانَتْ وَالظَّنُّ كَافٍ ».",
+      "Le corps et le sol : « إذَا قُلْنَا فِي الْجَسَدِ إنَّهُ يُنْضَحُ، أَوْ فِي الْأَرْضِ كَمَا سَيَأْتِي فَلَا يَحْتَاجُ إلَى نِيَّةٍ »."
+    ],
+    divergences: [
+      "Concordance — pas d'intention. Al-Ḥaṭṭāb : « يَعْنِي أَنَّ النَّضْحَ لَا يَفْتَقِرُ إلَى نِيَّةٍ ». Al-Dardīr : « أَوْ لِلرَّدِّ عَلَى مَنْ قَالَ يَفْتَقِرُ إلَيْهَا ».",
+      "Concordance — la raison de l'avis contraire. Al-Ḥaṭṭāb : « وَقِيلَ يَفْتَقِرُ إلَى النِّيَّةِ لِظُهُورِ التَّعَبُّدِ فِيهِ إذْ هُوَ تَكْثِيرٌ لِلنَّجَاسَةِ لَا إزَالَةٌ لَهَا ». Al-Dasūqī : « وَذَلِكَ لِظُهُورِ التَّعَبُّدِ فِيهِ إذْ هُوَ تَكْثِيرٌ لِلنَّجَاسَةِ لَا تَقْلِيلٌ لَهَا فَقَدْ أَمَرَنَا بِهِ الشَّارِعُ وَلَمْ نَعْقِلْ لَهُ حِكْمَةً ». Al-Ḥaṭṭāb rapporte en outre la réponse d'Ibn ʿArafa, qui refuse d'y voir un pur culte : « ثُمَّ أَجَابَ بِأَنَّا نَمْنَعُ كَوْنَ … النَّضْحِ تَعَبُّدًا ».",
+      "Complément — la construction de « بِلَا نِيَّةٍ ». Al-Dasūqī : « مُتَعَلِّقٌ بِقَوْلِهِ وَجَبَ نَضْحُهُ وَجَعَلَهُ بَعْضُهُمْ حَالًا مِنْ قَوْلِهِ رَشٌّ » ; il écarte la seconde lecture : « وَفِيهِ أَنَّهُ يَقْتَضِي أَنَّ قَوْلَهُ بِلَا نِيَّةٍ مِنْ حَقِيقَةِ النَّضْحِ وَلَيْسَ كَذَلِكَ ». Al-Ḥaṭṭāb n'en parle pas.",
+      "Complément — la répétition. Al-Dardīr : « وَأَعَادَ قَوْلَهُ (بِلَا نِيَّةٍ) مَعَ الِاسْتِغْنَاءِ عَنْهُ بِقَوْلِهِ، وَيَطْهُرُ مَحَلُّ النَّجَسِ بِلَا نِيَّةٍ ». Al-Ḥaṭṭāb n'en parle pas."
+    ],
+    exemple: "Un homme devait asperger le pan de sa robe dont il doutait. En sortant, une averse mouille ce pan. Il n'a pas à recommencer l'aspersion avec une intention : la pluie a suffi.",
+    erreurs_frequentes: [
+      "Croire que l'aspersion doit être faite avec une intention, comme les ablutions : elle relève de l'enlèvement de l'impureté.",
+      "Recommencer l'aspersion quand la pluie a déjà mouillé l'endroit douteux : la pluie suffit.",
+      "Croire que l'eau de l'aspersion doit sûrement atteindre l'impureté : la présomption suffit (Ibn ʿArafa)."
+    ],
+    termes: [
+      { ar: "تَعَبُّد", translit: "taʿabboud", def: "Pur culte : acte prescrit dont on ne saisit pas la cause, accompli par obéissance." },
+      { ar: "مَظِنَّة", translit: "mazinna", def: "Lieu présumé : ce où l'on présume qu'une chose se trouve ou se produit." },
+      { ar: "ظَاهِرُ الْمَذْهَبِ", translit: "zâhirou l-madh-hab", def: "La lettre de l'école : ce qui ressort des textes de l'école sans y être dit expressément." }
+    ],
+    quiz: [
+      { q: "Faut-il une intention pour l'aspersion ?",
+        choix: ["Oui, comme pour les ablutions", "Oui, mais seulement pour le corps", "Non : elle relève de l'enlèvement de l'impureté", "Seulement si l'on asperge avec la bouche"],
+        bonne: 2,
+        explication: "« يَعْنِي أَنَّ النَّضْحَ لَا يَفْتَقِرُ إلَى نِيَّةٍ » ; « لِأَنَّهُ مِنْ بَابِ إزَالَةِ النَّجَاسَةِ »." },
+      { q: "Mise en situation : la pluie a mouillé l'endroit de votre vêtement que vous deviez asperger. Que faire ?",
+        choix: ["Rien de plus : cela suffit", "Asperger de nouveau avec une intention", "Laver l'endroit", "Changer de vêtement"],
+        bonne: 0,
+        explication: "« فَلَوْ رَشَّ الْمَحَلَّ مَطَرٌ وَنَحْوُهُ كَفَى »." },
+      { q: "Pourquoi certains exigent-ils l'intention pour l'aspersion ?",
+        choix: ["Parce qu'elle ôte l'impureté", "Parce que Mālik l'a dit", "Parce qu'il faut couvrir tout l'endroit", "Parce qu'elle apparaît comme un pur culte : elle étend l'impureté au lieu de l'ôter"],
+        bonne: 3,
+        explication: "« وَقِيلَ يَفْتَقِرُ إلَى النِّيَّةِ لِظُهُورِ التَّعَبُّدِ فِيهِ إذْ هُوَ تَكْثِيرٌ لِلنَّجَاسَةِ لَا إزَالَةٌ لَهَا »." },
+      { q: "Comment Ibn ʿArafa répond-il à l'objection que l'aspersion ne couvre pas toute la surface douteuse ?",
+        choix: ["Il faut répéter l'aspersion", "Les nombreuses gouttes sont le lieu présumé où l'impureté est atteinte, et la présomption suffit", "Il faut laver si la surface n'est pas couverte", "L'impureté douteuse ne compte jamais"],
+        bonne: 1,
+        explication: "« أُجِيبَ بِأَنَّ كَثْرَةَ نُقَطِ الْمَاءِ عَلَى سَطْحِهِ فَقَطْ مَظِنَّةٌ لِنَيْلِ نَجَاسَتِهِ إنْ كَانَتْ وَالظَّنُّ كَافٍ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "167-168" },
+    alertes: [
+      "Précisé (campagne de correction) : « وَقَالَ فِي التَّوْضِيحِ قَالَ فِي اللُّبَابِ: وَظَاهِرُ الْمَذْهَبِ عَدَمُ افْتِقَارِهِ لِلنِّيَّةِ » ; at-Tawḍīḥ (14442, p. 68) porte « قال في البيان: وظاهرُ المذهب عدمُ افتقارِه للنية ». Même avis ; attribution laissée selon Mawāhib, comme au n° 173 (anomalie n° 178).",
+      "Corrigé (campagne de correction) : « لِكَوْنِهِ رَشًّا لَا يَعُمُّ سَطْحَ الْمَحَلِّ الْمَشْكُوكِ فِيهِ بِلَا غَلَبَةٍ » ; Ibn ʿArafa, dont al-Ḥaṭṭāb reproduit le texte (16968, p. 41), porte « لا يعم سطح المحل المشكوك فيه فلا غلبية » : donc pas de domination de l'eau. La fiche suit ce sens (anomalie n° 177).",
+      "Ibn ʿArafa (16968, p. 41) : « وفي النية له قولا بعضهم وابن محرز » ; at-Tawḍīḥ (14442, p. 68) : « قال ابن بشير وابن شاس: والقولان للمتأخرين » : les attributions rapportées par al-Ḥaṭṭāb s'y trouvent.",
+      "Changement de page de Shamela (569, p. 166 à 167) au milieu de la réponse d'Ibn ʿArafa ; citation en deux morceaux.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 81 (Shamela 21604, page 80)."
+    ],
+    verification: "verifie"
+  },
+
+  /* ------------------------------------------------------------------ */
+  {
+    id: "tah-01-03-40",
+    kitab: "tah", bab: "01", fasl: "03", ordre: 40,
+    titre: "Pas en cas de doute sur l'impureté de ce qui a touché",
+    titre_ar: "لَا إنْ شَكَّ فِي نَجَاسَةِ الْمُصِيبِ",
+    objectif: "Savoir qu'on n'asperge pas quand on est sûr du contact mais qu'on doute de l'impureté de ce qui a touché, et connaître le cas discuté d'une impureté peut-être mal ôtée.",
+    matn: "لَا إنْ شَكَّ فِي نَجَاسَةِ الْمُصِيبِ",
+    regle_pratique: "Celui qui est sûr qu'une chose a touché son vêtement, mais doute qu'elle soit impure, n'a ni à laver ni à asperger : le principe est la pureté (avis le plus répandu).",
+    qualification: {
+      hukm: "mubah",
+      nature: "autre",
+      effet_si_omis: "Ni lavage ni aspersion ne sont dus (al-Dardīr : « فَلَا غَسْلَ وَلَا نَضْحَ »)."
+    },
+    explication: "Al-Ḥaṭṭāb : c'est la deuxième forme du doute : on est sûr du contact et l'on doute que ce qui a touché (المُصِيب, al-moucîb) soit impur. L'avis le plus répandu est qu'on n'asperge pas ; al-Bājī : c'est l'école. On a dit aussi qu'on asperge : Ibn Nāfiʿ le rapporte de Mālik, et Ibn ʿArafa le rattache à la riwāya d'Ibn al-Qāsim ; certains l'ont jugé plus apparent, par analogie avec la première forme, le doute étant présent dans les deux, et c'est aussi la lettre de la parole de Mālik : « elle purifie tout ce dont on doute ». Ibn ʿAbd as-Salām a tiré de ce qu'on n'asperge pas ici un argument pour affaiblir l'aspersion dans la première forme ; puis il a distingué les deux cas : la plupart des choses existantes, liquides et autres, sont pures, et il vaut mieux rattacher ce qui a touché au cas le plus général et le plus fréquent ; si l'on s'en remet au principe, le principe est la pureté ; si l'on s'en remet à ce qui est le plus fréquent, c'est encore la pureté ; il n'en va pas ainsi dans la première forme.\n\nGrammaire : « non s'il doute… » est coordonné à « et s'il doute… » (segment tah-01-03-36) ; al-Bisāṭī le coordonne à « est obligatoire », sous-entendu avec sa condition : « et son aspersion n'est pas obligatoire s'il doute de l'impureté de ce qui a touché ».\n\nSens : on n'asperge pas, parce que le principe est la pureté. Cela vaut quand l'impureté de ce qui a touché n'est pas certaine. Mais si elle était certaine et qu'on doute qu'elle ait été ôtée — un vêtement ou un corps sûrement souillés, dont on doute qu'on les ait purifiés, et qui touchent ensuite autre chose étant humides — al-Ḥaṭṭāb juge apparent que ce cas ne relève pas du doute sur l'impureté de ce qui a touché, mais du doute sur le contact, où l'aspersion est obligatoire (segment tah-01-03-36).\n\nAl-Dardīr : quand on est sûr du contact et qu'on doute de l'impureté de ce qui a touché, ou qu'on doute des deux, on n'a ni à laver ni à asperger, car le principe est la pureté et l'absence de contact. Al-Dasūqī : c'est l'avis le plus répandu de l'école ; l'avis opposé est celui d'Ibn Nāfiʿ, l'aspersion obligatoire, qu'Ibn ʿArafa attribue à la riwāya d'Ibn al-Qāsim. Sur le segment suivant, il rapporte, d'après al-Majmūʿ, qu'il faut laver, selon l'avis le plus fort, la chose dont on doute que l'impureté y demeure, et que ce qui l'a touchée avant son lavage est aspergé à cause de l'humidité, selon ce qu'a jugé apparent al-Ḥaṭṭāb ; d'autres y voient un doute sur l'impureté de ce qui a touché, qui n'impose rien, et al-Bunānī juge cela apparent.",
+    aqwal: [
+      { auteur: "Avis le plus répandu (al-Bājī : « إنَّهُ الْمَذْهَبُ »)", avis: "On n'asperge pas.", statut: "mashhur" },
+      { auteur: "Ibn Nāfiʿ, d'après Mālik (rattaché par Ibn ʿArafa à la riwāya d'Ibn al-Qāsim)", avis: "On asperge ; certains l'ont jugé plus apparent, par analogie avec le doute sur le contact.", statut: "qawl" },
+      { auteur: "Ibn ʿAbd as-Salām", avis: "Distinction : la plupart des choses sont pures ; le principe et le plus fréquent vont dans le sens de la pureté.", statut: "non_precise" },
+      { auteur: "Un autre que lui, rapporté par al-Dasūqī (approuvé par al-Bunānī)", avis: "Ce qui touche, humide, une chose dont on doute qu'elle ait été purifiée relève du doute sur l'impureté de ce qui a touché : rien n'est dû.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : « فَلَا غَسْلَ وَلَا نَضْحَ لِأَنَّ الْأَصْلَ الطَّهَارَةُ وَعَدَمُ الْإِصَابَةِ » ; al-Dasūqī : « هُوَ الْمَشْهُورُ مِنْ الْمَذْهَبِ ». Pour ce qui touche une chose dont on doute qu'elle ait été purifiée : non tranché (al-Dasūqī rapporte l'avis d'al-Ḥaṭṭāb et l'avis contraire, que « بن » (Muḥammad al-Bunānī) juge apparent).",
+    tarjih_hattab: "Impureté certaine dont on doute qu'elle ait été ôtée : « فَالظَّاهِرُ أَنَّهُ لَا يَدْخُلُ تَحْتَ قَوْلِهِمْ شَكَّ فِي نَجَاسَةِ الْمُصِيبِ وَأَنَّهُ دَاخِلٌ فِي قَوْلِهِمْ، وَإِنْ شَكَّ فِي إصَابَتِهَا لِثَوْبٍ وَجَبَ نَضْحُهُ ».",
+    tanbihat: [
+      "Ibn ʿAbd as-Salām : « فَإِلْحَاقُ هَذَا الْمُصِيبِ بِالْأَعَمِّ الْأَغْلَبِ أَوْلَى ».",
+      "Al-Bisāṭī : « مَعْطُوفٌ عَلَى وَجَبَ مُقَدَّرٌ بِشَرْطِهِ أَيْ، وَلَا يَجِبُ نَضْحُهُ إنْ شَكَّ فِي نَجَاسَةِ الْمُصِيبِ »."
+    ],
+    divergences: [
+      "Concordance — rien n'est dû. Al-Ḥaṭṭāb : « وَالْمَشْهُورُ عَدَمُ النَّضْحِ » ; « أَيْ لِأَنَّ الْأَصْلَ الطَّهَارَةُ ». Al-Dardīr : « فَلَا غَسْلَ وَلَا نَضْحَ لِأَنَّ الْأَصْلَ الطَّهَارَةُ ». Al-Dasūqī : « هُوَ الْمَشْهُورُ مِنْ الْمَذْهَبِ ».",
+      "Point à comparer — l'avis de l'aspersion. Al-Ḥaṭṭāb : « وَقِيلَ: فِيهِ النَّضْحُ رَوَاهُ ابْنُ نَافِعٍ عَنْ مَالِكٍ وَعَزَاهُ ابْنُ عَرَفَةَ لِرِوَايَةِ ابْنِ الْقَاسِمِ ». Al-Dasūqī : « وَمُقَابِلُهُ مَا لِابْنِ نَافِعٍ مِنْ وُجُوبِ النَّضْحِ وَعَزَاهُ ابْنُ عَرَفَةَ لِرِوَايَةِ ابْنِ الْقَاسِمِ » : il donne l'avis à Ibn Nāfiʿ, sans dire qu'il le rapporte de Mālik.",
+      "Divergence — ce qui touche, humide, une chose sûrement souillée dont on doute qu'elle ait été purifiée. Al-Ḥaṭṭāb : c'est un doute sur le contact, donc aspersion : « وَأَنَّهُ دَاخِلٌ فِي قَوْلِهِمْ، وَإِنْ شَكَّ فِي إصَابَتِهَا لِثَوْبٍ وَجَبَ نَضْحُهُ ». Al-Dasūqī, d'après « المج » (al-Majmūʿ de Muḥammad al-Amīr) : « نَعَمْ مُلَاقِي مَا شَكَّ فِي بَقَائِهَا فِيهِ قَبْلَ غَسْلِهِ يَنْضَحُ مِنْ الرُّطُوبَةِ عَلَى مَا اسْتَظْهَرَهُ ح » (« ح » : Muḥammad al-Ḥaṭṭāb) ; puis : « وَاسْتَظْهَرَ غَيْرُهُ أَنَّهَا مِنْ قَبِيلِ الشَّكِّ فِي نَجَاسَةِ الْمُصِيبِ » ; « وَحِينَئِذٍ فَلَا يَجِبُ شَيْءٌ قَالَ بْن وَهُوَ ظَاهِرٌ » (« بن » : Muḥammad al-Bunānī). Non tranché.",
+      "Complément — la chose elle-même dont on doute qu'elle ait été purifiée. Al-Dasūqī : « فَالثَّوْبُ الْأَوَّلُ الْمَشْكُوكُ فِي بَقَاءِ النَّجَاسَةِ بِهَا يَجِبُ غَسْلُهَا عَلَى الرَّاجِحِ ». Al-Ḥaṭṭāb, d'après al-Bājī : lavage sans divergence (fiche tah-01-03-36).",
+      "Concordance — la grammaire. Al-Ḥaṭṭāb : « وَقَوْلُهُ لَا إنْ شَكَّ مَعْطُوفٌ عَلَى قَوْلِهِ، وَإِنْ شَكَّ ». Al-Dasūqī : « عَطْفٌ عَلَى قَوْلِهِ وَإِنْ شَكَّ فِي إصَابَتِهَا لِثَوْبٍ وَجَبَ نَضْحُهُ »."
+    ],
+    exemple: "En traversant un marché, une goutte d'un liquide inconnu tombe d'un étal sur la manche d'une femme : elle est sûre que la goutte l'a touchée, mais ignore si c'est de l'eau ou autre chose. Elle n'a ni à laver ni à asperger : le principe est la pureté.",
+    erreurs_frequentes: [
+      "Laver ou asperger par précaution dès qu'une goutte inconnue touche le vêtement : selon l'avis le plus répandu, rien n'est dû.",
+      "Confondre ce cas avec le doute sur le contact d'une impureté certaine, où l'aspersion est obligatoire (fiche tah-01-03-36).",
+      "Croire que la chose dont on doute qu'elle ait été purifiée peut être simplement aspergée : elle doit être lavée (al-Bājī ; al-Dasūqī)."
+    ],
+    termes: [
+      { ar: "الْمُصِيب", translit: "al-moucîb", def: "Ce qui atteint : la chose qui a touché le vêtement ou le corps." }
+    ],
+    quiz: [
+      { q: "Une goutte d'origine inconnue a sûrement touché votre vêtement. Que faut-il faire selon l'avis le plus répandu ?",
+        choix: ["Rien : le principe est la pureté", "Asperger l'endroit", "Laver l'endroit", "Refaire ses ablutions"],
+        bonne: 0,
+        explication: "« وَالْمَشْهُورُ عَدَمُ النَّضْحِ » ; al-Dardīr : « فَلَا غَسْلَ وَلَا نَضْحَ لِأَنَّ الْأَصْلَ الطَّهَارَةُ »." },
+      { q: "Qui rapporte de Mālik l'avis qu'on asperge dans ce cas ?",
+        choix: ["Ashhab", "Ibn al-Mājishūn", "Ibn Nāfiʿ", "Saḥnūn"],
+        bonne: 2,
+        explication: "« وَقِيلَ: فِيهِ النَّضْحُ رَوَاهُ ابْنُ نَافِعٍ عَنْ مَالِكٍ »." },
+      { q: "Pourquoi Ibn ʿAbd as-Salām distingue-t-il ce cas du doute sur le contact ?",
+        choix: ["Parce que le vêtement sera lavé de toute façon", "Parce que la plupart des choses sont pures : le principe et le plus fréquent vont dans le même sens", "Parce que Mālik l'a dit expressément", "Parce que l'aspersion y est impossible"],
+        bonne: 1,
+        explication: "« إنَّ أَكْثَرَ الْمَوْجُودَاتِ مِنْ الْمَائِعَاتِ وَغَيْرِهَا طَاهِرَةٌ » ; « إنْ رُجِعَ فِيهِ إلَى الْأَصْلِ فَالْأَصْلُ الطَّهَارَةُ، وَإِنْ رُجِعَ إلَى الْغَالِبِ فَالْغَالِبُ كَذَلِكَ »." },
+      { q: "Mise en situation : un vêtement sûrement souillé, dont vous doutez qu'il ait été bien lavé, touche, mouillé, un autre vêtement. Que dit al-Ḥaṭṭāb du second ?",
+        choix: ["Il faut le laver", "Rien n'est dû, sans discussion", "Il faut le jeter", "C'est un doute sur le contact : on l'asperge (avis discuté par d'autres)"],
+        bonne: 3,
+        explication: "« فَالظَّاهِرُ أَنَّهُ لَا يَدْخُلُ تَحْتَ قَوْلِهِمْ شَكَّ فِي نَجَاسَةِ الْمُصِيبِ » ; al-Dasūqī rapporte l'avis contraire, que « بن » (Muḥammad al-Bunānī) juge apparent." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "168" },
+    alertes: [
+      "Ibn ʿArafa (16968, p. 41) : « فإن شك في نجاسة مصيبه ففي نضحه رواية ابن القاسم، ونقل الباجي عن المذهب » ; at-Tawḍīḥ (14442, p. 67) : « رواه ابن نافع عن مالك » : les attributions rapportées par al-Ḥaṭṭāb s'y trouvent.",
+      "Le passage d'al-Dasūqī sur la chose dont on doute qu'elle ait été purifiée est placé sous le segment suivant (« وَهَلْ الْجَسَدُ كَالثَّوْبِ »), Shamela 21604, p. 81 ; il vise le cas que traite ici al-Ḥaṭṭāb.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 81–82 (Shamela 21604, pages 80–81)."
+    ],
+    verification: "verifie"
+  },
+
+  /* ------------------------------------------------------------------ */
+  {
+    id: "tah-01-03-41",
+    kitab: "tah", bab: "01", fasl: "03", ordre: 41,
+    titre: "Doute sur les deux : rien à faire",
+    titre_ar: "أَوْ فِيهِمَا",
+    objectif: "Savoir que le doute à la fois sur le contact et sur l'impureté n'impose rien, de l'accord de tous.",
+    matn: "أَوْ فِيهِمَا",
+    regle_pratique: "Celui qui doute à la fois qu'une chose ait touché son vêtement et qu'elle soit impure n'a ni à laver ni à asperger, de l'accord de tous.",
+    qualification: {
+      hukm: "mubah",
+      nature: "autre",
+      effet_si_omis: "Rien n'est dû (al-Dardīr : « فَلَا غَسْلَ وَلَا نَضْحَ »)."
+    },
+    explication: "Al-Ḥaṭṭāb : c'est la troisième forme du doute : on doute du contact et de l'impureté de ce qui aurait touché. L'aspersion tombe ici, de l'accord de tous (الِاتِّفَاق), car le doute, composé de deux incertitudes, est faible. Khalīl a mentionné ce cas pour compléter la question (تَتْمِيم, tatmîm) ; s'il l'avait laissé, ce qui précède en dispensait.\n\nAl-Dardīr : quand on doute du contact et de l'impureté, on n'a ni à laver ni à asperger, car le principe est la pureté et l'absence de contact. Al-Dasūqī : c'est par accord, car le doute composé de deux aspects est faible.",
+    aqwal: [
+      { auteur: "Accord de tous (al-Ḥaṭṭāb ; al-Dasūqī)", avis: "Ni aspersion ni lavage.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : « أَيْ فِي الْإِصَابَةِ وَالنَّجَاسَةِ فَلَا غَسْلَ وَلَا نَضْحَ لِأَنَّ الْأَصْلَ الطَّهَارَةُ وَعَدَمُ الْإِصَابَةِ ».",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Khalīl a mentionné ce cas pour compléter : « وَقَدْ ذَكَرَ الْمُصَنِّفُ - رَحِمَهُ اللَّهُ - هَذَا الْفَرْعَ تَتْمِيمًا لِلْمَسْأَلَةِ، وَلَوْ تَرَكَهُ لَاسْتَغْنَى عَنْهُ بِمَا قَبْلَهُ »."
+    ],
+    divergences: [
+      "Concordance — l'accord de tous. Al-Ḥaṭṭāb : « وَالنَّضْحُ سَاقِطٌ هُنَا اتِّفَاقًا؛ لِأَنَّ الشَّكَّ لَمَّا تَرَكَّبَ مِنْ وَجْهَيْنِ ضَعُفَ ». Al-Dasūqī : « فَهُوَ بِاتِّفَاقٍ؛ لِأَنَّ الشَّكَّ لَمَّا تَرَكَّبَ مِنْ وَجْهَيْنِ ضَعُفَ أَمْرُهُ ».",
+      "Complément — la raison. Al-Dardīr : « لِأَنَّ الْأَصْلَ الطَّهَارَةُ وَعَدَمُ الْإِصَابَةِ ». Al-Ḥaṭṭāb donne la faiblesse du doute composé."
+    ],
+    exemple: "Un homme passe sous un arbre et croit sentir une goutte tomber sur son épaule, sans être sûr ni qu'elle l'ait touché ni qu'elle soit impure. Il n'a rien à faire.",
+    erreurs_frequentes: [
+      "Asperger « par précaution » quand on doute à la fois du contact et de l'impureté : l'aspersion n'est pas due, de l'accord de tous.",
+      "Croire que deux doutes réunis rendent le cas plus grave : ils le rendent plus faible (« ضَعُفَ »)."
+    ],
+    termes: [
+      { ar: "تَتْمِيم", translit: "tatmîm", def: "Complément : mention faite pour achever l'exposé d'une question, alors que ce qui précède en dispensait." }
+    ],
+    quiz: [
+      { q: "Mise en situation : sous un arbre, vous doutez qu'une goutte vous ait touché, et vous ignorez si elle était impure. Que faire ?",
+        choix: ["Laver l'endroit", "Asperger l'endroit", "Refaire la prière", "Rien : l'aspersion tombe, de l'accord de tous"],
+        bonne: 3,
+        explication: "« وَالنَّضْحُ سَاقِطٌ هُنَا اتِّفَاقًا »." },
+      { q: "Pourquoi l'aspersion tombe-t-elle dans ce cas ?",
+        choix: ["Parce que Mālik l'a interdite", "Parce que le doute, composé de deux incertitudes, est faible", "Parce que l'eau manque", "Parce que le vêtement a déjà été aspergé"],
+        bonne: 1,
+        explication: "« لِأَنَّ الشَّكَّ لَمَّا تَرَكَّبَ مِنْ وَجْهَيْنِ ضَعُفَ »." },
+      { q: "Que dit al-Ḥaṭṭāb de la mention de ce cas par Khalīl ?",
+        choix: ["C'est une erreur de Khalīl", "Elle contredit le segment précédent", "Elle complète la question ; ce qui précède en dispensait", "Elle vient d'Ibn al-Ḥājib seul"],
+        bonne: 2,
+        explication: "« هَذَا الْفَرْعَ تَتْمِيمًا لِلْمَسْأَلَةِ، وَلَوْ تَرَكَهُ لَاسْتَغْنَى عَنْهُ بِمَا قَبْلَهُ »." },
+      { q: "Ce cas fait-il l'objet d'une divergence dans l'école ?",
+        choix: ["Non : c'est un cas d'accord", "Oui, entre Mālik et Ibn al-Qāsim", "Oui, entre al-Ḥaṭṭāb et al-Dardīr", "Oui, selon Ibn Nāfiʿ"],
+        bonne: 0,
+        explication: "Al-Ḥaṭṭāb : « اتِّفَاقًا » ; al-Dasūqī : « فَهُوَ بِاتِّفَاقٍ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "168" },
+    alertes: [
+      "At-Tawḍīḥ (14442, p. 67) donne ce cas comme celui où l'on s'accorde à ne pas asperger : « وقسمٌ اتفق فيه على سقوط النضح » ; concordance.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 81 (Shamela 21604, page 80)."
+    ],
+    verification: "verifie"
+  },
+
+  /* ------------------------------------------------------------------ */
+  {
+    id: "tah-01-03-42",
+    kitab: "tah", bab: "01", fasl: "03", ordre: 42,
+    titre: "Le corps : comme le vêtement, ou lavage obligatoire (khilâf)",
+    titre_ar: "وَهَلْ الْجَسَدُ كَالثَّوْبِ أَوْ يَجِبُ غَسْلُهُ خِلَافٌ",
+    objectif: "Connaître les deux avis sur le corps dont on doute qu'une impureté l'ait touché, l'avis retenu, et ce qui est dit du sol, de l'eau et des aliments.",
+    matn: "وَهَلْ الْجَسَدُ كَالثَّوْبِ أَوْ يَجِبُ غَسْلُهُ خِلَافٌ",
+    regle_pratique: "Celui qui doute qu'une impureté ait touché son corps lave l'endroit douteux : c'est l'avis retenu (al-Dardīr) et celui qu'al-Ḥaṭṭāb juge le plus fort ; selon l'autre avis, il l'asperge comme le vêtement.",
+    qualification: {
+      hukm: "wajib",
+      nature: "autre",
+      effet_si_omis: "Non précisé dans le passage pour le lavage du corps ; pour l'aspersion du corps omise, Ibn Farḥūn rapporte la même divergence que pour le vêtement (fiche tah-01-03-37)."
+    },
+    explication: "Al-Ḥaṭṭāb : on diverge sur le corps (جَسَد, jasad) : est-il comme le vêtement — celui qui doute qu'une impureté l'ait touché doit l'asperger — ou n'est-il pas comme le vêtement, et faut-il le laver ? Ce sont deux avis répandus, d'où le mot « divergence » (khilâf) de Khalīl.\n\nPremier avis (aspersion). Ibn Shās : c'est la lettre de l'école (ẓāhir al-madhhab) ; Ibn al-Ḥājib : c'est le plus correct (al-aṣaḥḥ) ; on l'a tiré de la parole de Mālik dans la Mudawwana : « elle purifie tout ce dont on doute » ; Ibn Rushd l'attribue à Ibn Shaʿbān et le juge faible ; Ibn Nājī : c'est ce qu'impliquent l'ʿUtbiyya et l'abrégé d'al-Barādhiʿī ; ʿAbd al-Ḥaqq l'attribue à Abū ʿImrān ; Ibn ʿArafa : al-Māzirī le rapporte de l'école.\n\nSecond avis (lavage). Ibn ʿArafa : c'est l'avis le plus répandu (mashhūr) ; Ibn Rushd en fait l'école et juge faible l'avis contraire d'Ibn Shaʿbān ; on l'a tiré de la Mudawwana, où il est dit qu'il ne lave pas ses testicules (أُنْثَيَانِ, ounthayân) du liquide prostatique, à moins qu'il ne craigne qu'il les ait touchés. At-Tawḍīḥ : ce qu'Ibn Rushd dit dans al-Bayān implique que l'école exige le lavage du corps : le principe de Mālik est que, pour les corps dont on doute de l'impureté, seul le lavage suffit, à la différence des vêtements ; preuve, le hadith : « quand l'un de vous se réveille, qu'il lave sa main avant de la plonger dans le récipient, car il ne sait pas où sa main a passé la nuit » : il a ordonné de laver la main parce qu'on doute de son impureté ; et le livre d'Ibn Shaʿbān dit qu'on asperge les vêtements et les corps dont on doute. Al-Ḥaṭṭāb : ce passage d'Ibn Rushd est dans le rasm al-bazz de l'audition d'Ibn al-Qāsim, livre de la pureté, où il ajoute après l'avis d'Ibn Shaʿbān : « et ceci est une singularité » (شُذُوذ) ; ce mot a peut-être manqué dans la copie de Khalīl ; il affaiblit nettement ce qu'Ibn al-Ḥājib a jugé le plus correct ; c'est pourquoi Ibn ʿArafa attribue le premier avis à la transmission par Ibn Rushd d'un avis singulier d'Ibn Shaʿbān.\n\nLe passage de l'ʿUtbiyya que vise Ibn Nājī : Mālik, interrogé sur l'aspersion du vêtement, répond : c'est un allègement ; le Prophète a dit : « lave ton sexe et tes testicules et asperge », et ʿAbd Allāh aspergeait ; c'est bien et c'est un allègement — un allègement pour ce dont on doute — ce qui implique l'aspersion du corps. Du texte de la Mudawwana sur les testicules, al-Bājī tire que celui qui craint de les avoir touchés les lave ; al-Māzirī récuse cette déduction, parce qu'elle s'appuie sur l'argument a contrario (دَلِيلُ الْخِطَابِ, dalîlou l-khitâb) ; Ibn ʿArafa : c'est discutable ; Ibn ʿAbd as-Salām et d'autres affaiblissent la déduction, l'exception pouvant être disjointe (اِسْتِثْنَاءٌ مُنْقَطِعٌ, istithnâ'oun mounqatiʿ) : « mais s'il craint de les avoir touchés, l'aspersion est obligatoire » ; certains comprennent « à moins qu'il ne craigne » comme « à moins qu'il ne soit sûr » ; Ibn Nājī : je ne connais pas cela. ʿAbd al-Ḥaqq et Sanad : la lettre de la Mudawwana est le lavage du corps en cas de doute ; ils distinguent le corps du vêtement : l'aspersion va contre l'analogie (قِيَاس, qiyâs), on s'en tient donc à ce qu'en dit le texte, qui ne la mentionne que pour la natte et le vêtement ; et laver le corps ne cause aucune gêne, à la différence du vêtement, dont il faut attendre qu'il sèche. At-Tawḍīḥ : ils disent « la lettre de la Mudawwana » parce que, là où elle parle du corps en particulier, elle ordonne le lavage, l'aspersion n'en étant tirée que de sa formule générale, qui peut être restreinte. Al-Ḥaṭṭāb : bien plus, la règle est que le particulier (الخَاصّ, al-khâss) l'emporte sur le général (العَامّ, al-ʿâmm). L'auteur d'adh-Dhakhīra objecte à Ibn Shās, qui dit que la lettre de l'école est l'égalité du corps et du vêtement, ce qu'ont dit Sanad et ʿAbd al-Ḥaqq. En somme, dit al-Ḥaṭṭāb, l'avis du lavage du corps est plus fort que celui de son aspersion.\n\nRemarques d'al-Ḥaṭṭāb. 1) Le texte cité de la Mudawwana (liquide prostatique) est celui des « Mères » (الأُمَّهَات, al-oummahât) ; al-Barādhiʿī l'a abrégé en « à moins qu'il ne les atteigne », et ʿAbd al-Ḥaqq lui objecte que cette formule n'implique pas le lavage en cas de doute ; c'est ce que vise Ibn Nājī. 2) L'auteur d'al-Jamʿ rapporte d'Ibn Rushd qu'Ibn Shaʿbān a dit de laver le corps : c'est étrange, et apparemment une méprise. 3) Le sol (بُقْعَة, bouqʿa) : divergence selon Ibn Nājī. Ibn Jamāʿa : l'aspersion n'y suffit pas, de l'accord de tous, puisqu'il est facile de passer à un endroit dont on est sûr (de même Ibn ʿAbd as-Salām) ; Abū ʿAbd Allāh as-Saṭṭī : la lettre de la Mudawwana est que l'aspersion y vaut, et de même les Qawāʿid de ʿIyāḍ ; at-Tādalī prétend que c'est un point d'accord ; on ne peut tirer l'aspersion du sol de ce que le Prophète a aspergé la natte, car la natte est comme le vêtement, vu la difficulté de la laver. Le fondement de ce passage est chez Ibn ʿArafa ; Ibn Ghāzī rapporte d'ash-Shārmasāḥī que le sol se lave de l'accord de tous ; ash-Shaybī, dans son commentaire de la Risāla, tranche comme Ibn Jamāʿa : l'aspersion ne suffit jamais pour le sol. Al-Ḥaṭṭāb conteste ce qu'Ibn ʿArafa rapporte d'un de ses maîtres d'après les Qawāʿid : celles-ci distinguent le sol du corps — seul le corps y est l'objet d'une divergence ; tout le reste dont on doute (vêtement, chaussure, sabre, sol…) est aspergé. Il ajoute qu'on a compris des Qawāʿid que les chaussures (خُفّ) et les sandales sont aspergées quand on doute de leur impureté, et il qualifie cela d'erreur manifeste (sens incertain, voir les alertes). Al-Wānnūghī conteste la portée générale de « elle purifie tout ce dont on doute », démentie par le sol, l'eau et les aliments ; al-Mashdhālī renvoie à Ibn ʿArafa pour le sol et rapporte une hésitation de certains maîtres pour les aliments. Al-Ḥaṭṭāb : l'eau dont on doute qu'elle ait été atteinte reste pure et purifiante, selon l'avis le plus répandu, et sans même la réprobation qui touche une petite quantité d'eau sûrement atteinte sans changement ; l'aliment ne se jette pas pour un doute (Ibn ʿAbd as-Salām). 4) Contact certain avec le corps et doute sur l'impureté de ce qui a touché : al-Ḥaṭṭāb n'a pas vu de texte explicite ; si le corps est comme le vêtement, rien n'est dû ; s'il se lave, et selon l'avis le plus répandu (pas d'aspersion dans ce cas), rien n'est dû non plus ; mais si l'on dit qu'on asperge dans ce cas, il faudrait laver le corps.\n\nAl-Dardīr : le corps n'est pas comme le vêtement : il doit être lavé, car le lavage ne l'abîme pas, à la différence du vêtement, et c'est l'avis retenu. Al-Dasūqī : l'aspersion est la lettre de l'école pour Ibn Shās, l'école pour al-Māzirī et le plus correct pour Ibn al-Ḥājib ; pour le lavage : l'aspersion va contre l'analogie, et l'on s'en tient à ce que dit le texte : la natte, le vêtement et la chaussure ; Ibn ʿArafa : le lavage est l'avis le plus répandu, et Ibn Rushd en a fait l'école. Sur le sol (la terre ; les tapis sont comme le vêtement), il rapporte, d'après Ibn Nājī, les avis d'Ibn Jamāʿa et d'as-Saṭṭī, qu'Ibn ʿArafa cite tous deux en commençant par le premier ; le doute est sans effet sur les aliments et sur les impuretés des rues.",
+    aqwal: [
+      { auteur: "Ibn al-Ḥājib", avis: "Le corps est comme le vêtement : on l'asperge ; « هُوَ الْأَصَحُّ ».", statut: "rajih" },
+      { auteur: "Ibn Shās", avis: "Le corps est comme le vêtement : « إنَّهُ ظَاهِرُ الْمَذْهَبِ ».", statut: "non_precise" },
+      { auteur: "Abū ʿImrān (selon ʿAbd al-Ḥaqq) ; al-Māzirī le rapporte de l'école (selon Ibn ʿArafa)", avis: "Le corps est comme le vêtement : on l'asperge.", statut: "non_precise" },
+      { auteur: "Ibn Shaʿbān (selon Ibn Rushd : « وَهَذَا شُذُوذٌ »)", avis: "On asperge les vêtements et les corps dont on doute.", statut: "shadh" },
+      { auteur: "Ibn ʿArafa (mashhūr) ; Ibn Rushd (l'école) ; ʿAbd al-Ḥaqq et Sanad (lettre de la Mudawwana)", avis: "Le corps doit être lavé.", statut: "mashhur" },
+      { auteur: "Ibn Jamāʿa (de même Ibn ʿAbd as-Salām, ash-Shārmasāḥī, ash-Shaybī)", avis: "Le sol se lave : l'aspersion n'y suffit pas, de l'accord de tous.", statut: "non_precise" },
+      { auteur: "Abū ʿAbd Allāh as-Saṭṭī (et les Qawāʿid de ʿIyāḍ)", avis: "La lettre de la Mudawwana est que l'on asperge le sol.", statut: "non_precise" },
+      { auteur: "At-Tādalī", avis: "L'aspersion du sol fait l'accord de tous.", statut: "qawl" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : le corps se lave : « (يَجِبُ غَسْلُهُ) لِأَنَّهُ لَا يَفْسُدُ بِخِلَافِ الثَّوْبِ … وَهُوَ الْمُعْتَمَدُ » ; al-Dasūqī : « قَالَ ابْنُ عَرَفَةَ إنَّهُ الْمَشْهُورُ وَجَعَلَهُ ابْنُ رُشْدٍ الْمَذْهَبَ ». Pour le sol : non tranché (al-Dasūqī rapporte les deux avis sans trancher).",
+    tarjih_hattab: "« وَالْحَاصِلُ أَنَّ الْقَوْلَ بِغَسْلِ الْجَسَدِ أَقْوَى مِنْ الْقَوْلِ بِنَضْحِهِ » ; « بَلْ الْقَاعِدَةُ أَنَّ الْخَاصَّ يُقَدَّمُ عَلَى الْعَامِّ ».",
+    tanbihat: [
+      "Ibn Rushd sur Ibn Shaʿbān : « وَهَذَا شُذُوذٌ » ; al-Ḥaṭṭāb : « وَلَعَلَّ هَذِهِ اللَّفْظَةَ سَقَطَتْ مِنْ نُسْخَةِ الْمُصَنِّفِ ».",
+      "ʿAbd al-Ḥaqq et Sanad : « وَلِأَنَّهُ لَا ضَرُورَةَ فِي غَسْلِ الْجَسَدِ بِخِلَافِ الثَّوْبِ فَإِنَّهُ يُنْتَظَرُ جَفَافُهُ ».",
+      "L'auteur d'al-Jamʿ : « وَهُوَ غَرِيبٌ وَالظَّاهِرُ أَنَّهُ وَهْمٌ ».",
+      "Le sol (Ibn Jamāʿa) : « لَا يَكْفِي النَّضْحُ فِيهَا بِاتِّفَاقٍ لِيُسْرِ الِانْتِقَالِ إلَى الْمُحَقَّقِ » ; la natte : « الْحَصِيرُ كَالثَّوْبِ لِمَشَقَّةِ غَسْلِهَا ».",
+      "L'eau douteuse : « وَلَا شَكَّ أَنَّهُ طَاهِرٌ مُطَهِّرٌ عَلَى الْمَشْهُورِ » ; « وَالظَّاهِرُ انْتِفَاءُ الْكَرَاهَةِ مَعَ الشَّكِّ ».",
+      "Les aliments (Ibn ʿAbd as-Salām) : « وَالطَّعَامُ لَا يُطْرَحُ بِالشَّكِّ ».",
+      "Contact certain avec le corps, impureté douteuse : « لَمْ أَرَ فِي ذَلِكَ نَصَّا صَرِيحًا »."
+    ],
+    divergences: [
+      "Concordance — l'avis retenu pour le corps. Al-Ḥaṭṭāb : « وَالْحَاصِلُ أَنَّ الْقَوْلَ بِغَسْلِ الْجَسَدِ أَقْوَى مِنْ الْقَوْلِ بِنَضْحِهِ ». Al-Dardīr : « (يَجِبُ غَسْلُهُ) لِأَنَّهُ لَا يَفْسُدُ بِخِلَافِ الثَّوْبِ … وَهُوَ الْمُعْتَمَدُ ». Al-Dasūqī : « قَالَ ابْنُ عَرَفَةَ إنَّهُ الْمَشْهُورُ وَجَعَلَهُ ابْنُ رُشْدٍ الْمَذْهَبَ ».",
+      "Concordance — les qualifications de l'aspersion du corps. Al-Ḥaṭṭāb : « قَالَ ابْنُ شَاسٍ إنَّهُ ظَاهِرُ الْمَذْهَبِ، وَقَالَ ابْنُ الْحَاجِبِ هُوَ الْأَصَحُّ » ; « وَنَقَلَهُ الْمَازِرِيُّ عَنْ الْمَذْهَبِ ». Al-Dasūqī : « أَيْ وَهُوَ ظَاهِرُ الْمَذْهَبِ عِنْدَ ابْنِ شَاسٍ وَالْمَذْهَبُ عِنْدَ الْمَازِرِيِّ وَالْأَصَحُّ عِنْدَ ابْنِ الْحَاجِبِ ».",
+      "Point à comparer — la raison du lavage. Al-Ḥaṭṭāb (d'après ʿAbd al-Ḥaqq et Sanad) : « بِأَنَّ النَّضْحَ عَلَى خِلَافِ الْقِيَاسِ فَيُقْتَصَرُ عَلَى مَا وَرَدَ فِيهِ وَإِنَّمَا وَرَدَ فِي الْحَصِيرِ، وَفِي الثَّوْبِ » et « وَلِأَنَّهُ لَا ضَرُورَةَ فِي غَسْلِ الْجَسَدِ ». Al-Dardīr : « لِأَنَّهُ لَا يَفْسُدُ بِخِلَافِ الثَّوْبِ ». Al-Dasūqī ajoute la chaussure à ce que vise le texte : « النَّضْحَ عَلَى خِلَافِ الْقِيَاسِ فَيُقْتَصَرُ فِيهِ عَلَى مَا وَرَدَ وَهُوَ الْحَصِيرُ وَالثَّوْبُ وَالْخُفُّ ».",
+      "Point à comparer — chaussures et sandales. Al-Ḥaṭṭāb : « وَفُهِمَ مِنْ كَلَامِهِ فِي الْقَوَاعِدِ أَنَّ الْخُفَّ وَالنَّعْلَ وَنَحْوَهُمَا يُنْضَحَانِ إذَا شَكَّ فِي نَجَاسَتِهِمَا وَهُوَ وَهْمٌ ظَاهِرٌ ». Al-Dardīr (segment tah-01-03-36) asperge la chaussure et la sandale : « (لِثَوْبٍ) أَوْ حَصِيرٍ أَوْ خُفٍّ أَوْ نَعْلٍ (وَجَبَ نَضْحُهُ) » ; al-Dasūqī : « وَهُوَ الْحَصِيرُ وَالثَّوْبُ وَالْخُفُّ ». Sens de la phrase d'al-Ḥaṭṭāb incertain (voir les alertes).",
+      "Point à comparer — le sol. Al-Ḥaṭṭāb rapporte les deux avis et objecte à Ibn ʿArafa : « لَكِنَّهُ فِي الْقَوَاعِدِ جَعَلَهَا مُخَالِفَةً لِلْجَسَدِ » ; il rapporte d'ash-Shaybī : « وَلَا يُجْزِئُ النَّضْحُ فِي الْأَرْضِ بِحَالٍ ». Al-Dasūqī rapporte les deux avis sans trancher : « وَالْقَوْلَانِ حَكَاهُمَا ابْنُ عَرَفَةَ وَصَدَّرَ بِالْأَوَّلِ وَالْمُرَادُ بِالْبُقْعَةِ الْأَرْضُ » ; il dit ailleurs que l'aspersion vaut « سَوَاءٌ كَانَ لِثَوْبٍ أَوْ جَسَدٍ أَوْ أَرْضٍ » (segment tah-01-03-38). Non tranché.",
+      "Complément — les tapis. Al-Dasūqī : « وَأَمَّا الْفَرْشُ فَكَالثَّوْبِ ». Al-Ḥaṭṭāb n'en parle pas.",
+      "Concordance — les aliments. Al-Ḥaṭṭāb (d'après Ibn ʿAbd as-Salām) : « وَالطَّعَامُ لَا يُطْرَحُ بِالشَّكِّ ». Al-Dasūqī : « وَسَبَقَ أَنَّ الشَّكَّ لَا أَثَرَ لَهُ فِي الْمَطْعُومَاتِ وَكَذَا فِي نَجَاسَةِ الطُّرُقَاتِ »."
+    ],
+    exemple: "Un homme blessé voit au réveil une tache de sang sur son drap et doute qu'elle ait touché sa cuisse. Selon l'avis retenu, il lave l'endroit douteux de sa cuisse : asperger ne suffit pas, comme pour le vêtement. Une femme qui doute qu'un peu d'urine de son bébé ait touché le tapis où elle prie l'asperge : le tapis est comme le vêtement (al-Dasūqī).",
+    erreurs_frequentes: [
+      "Asperger le corps comme le vêtement : selon l'avis retenu, le corps se lave (al-Dardīr ; al-Ḥaṭṭāb le juge plus fort).",
+      "Croire que le sol douteux s'asperge sans discussion : beaucoup disent qu'il se lave, puisqu'il est facile d'aller prier ailleurs.",
+      "Jeter un aliment pour un simple doute : l'aliment ne se jette pas pour un doute."
+    ],
+    termes: [
+      { ar: "جَسَد", translit: "jasad", def: "Le corps." },
+      { ar: "أُنْثَيَانِ", translit: "ounthayân", def: "Les testicules." },
+      { ar: "دَلِيلُ الْخِطَابِ", translit: "dalîlou l-khitâb", def: "Argument a contrario : tirer d'un texte la règle inverse pour le cas qu'il ne mentionne pas." },
+      { ar: "اِسْتِثْنَاءٌ مُنْقَطِعٌ", translit: "istithnâ'oun mounqatiʿ", def: "Exception disjointe : « à moins que » au sens de « mais », la chose exceptée n'appartenant pas à ce dont on l'excepte." },
+      { ar: "قِيَاس", translit: "qiyâs", def: "Analogie : étendre à un cas la règle d'un cas semblable, pour une cause commune." },
+      { ar: "الْخَاصّ", translit: "al-khâss", def: "Le particulier : texte visant un cas précis ; il l'emporte sur le général." },
+      { ar: "الْعَامّ", translit: "al-ʿâmm", def: "Le général : texte de portée générale, qui peut être restreint par un texte particulier." },
+      { ar: "بُقْعَة", translit: "bouqʿa", def: "Emplacement : ici, le sol où l'on prie." },
+      { ar: "الأُمَّهَات", translit: "al-oummahât", def: "« Les Mères » : le texte complet de la Mudawwana, par opposition à ses abrégés (comme celui d'al-Barādhiʿī)." }
+    ],
+    quiz: [
+      { q: "Selon l'avis retenu par al-Dardīr, que faire si l'on doute qu'une impureté ait touché son corps ?",
+        choix: ["L'asperger", "Le laver", "Rien", "Refaire les grandes ablutions"],
+        bonne: 1,
+        explication: "Al-Dardīr : « (يَجِبُ غَسْلُهُ) » ; « وَهُوَ الْمُعْتَمَدُ »." },
+      { q: "Quel avis Ibn al-Ḥājib juge-t-il « le plus correct » (al-asahh) ?",
+        choix: ["Le lavage du corps", "Ni lavage ni aspersion", "Le lavage du corps et du vêtement", "Le corps est comme le vêtement : on l'asperge"],
+        bonne: 3,
+        explication: "« وَقَالَ ابْنُ الْحَاجِبِ هُوَ الْأَصَحُّ » (pour le premier avis : le corps est comme le vêtement)." },
+      { q: "Quelle raison al-Dardīr donne-t-il pour le lavage du corps ?",
+        choix: ["Le lavage ne l'abîme pas, à la différence du vêtement", "Le corps est plus impur que le vêtement", "Le hadith de la natte", "L'aspersion du corps est interdite"],
+        bonne: 0,
+        explication: "« لِأَنَّهُ لَا يَفْسُدُ بِخِلَافِ الثَّوْبِ »." },
+      { q: "Mise en situation : vous doutez qu'une goutte d'urine ait touché le sol où vous allez prier. Que dit Ibn Jamāʿa ?",
+        choix: ["Il faut l'asperger", "Rien n'est dû", "L'aspersion n'y suffit pas, car il est facile d'aller prier sur un endroit sûr", "Il faut le recouvrir de terre"],
+        bonne: 2,
+        explication: "« لَا يَكْفِي النَّضْحُ فِيهَا بِاتِّفَاقٍ لِيُسْرِ الِانْتِقَالِ إلَى الْمُحَقَّقِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "168-170" },
+    alertes: [
+      "Non résolu : « وَهُوَ وَهْمٌ ظَاهِرٌ » (chaussures et sandales aspergées d'après les Qawāʿid) : la phrase ne dit pas en quoi cette compréhension serait fautive, alors qu'al-Dardīr, al-Kharashī (91, p. 115 « لثوب أو خف أو نعل فإنه يجب عليه النضح ») et ʿUlaysh (21614, p. 62) aspergent la chaussure et la sandale. Lecture et sens laissés en l'état ; la règle pratique n'en dépend pas (anomalie n° 179).",
+      "Précisé (campagne de correction) : al-Dasūqī imprime « لِيَسْرِيَ الِانْتِقَالُ إلَى الْمُحَقَّقِ » ; Mawāhib (« لِيُسْرِ الِانْتِقَالِ »), Ibn ʿArafa (16968, p. 41 « ليسر الانتقال لمحقق ») et Ibn Ghāzī (14605, p. 26) ont le mot « aisance » ; la fiche suit ce sens (anomalie n° 180).",
+      "Non résolu (sans effet) : « لِمَنْ شَذَّا طَرَفًا مِنْ التَّحْصِيلِ » (al-Wānnūghī, d'après al-Mashdhālī) : mot douteux ; le sens général (pour qui a un peu d'étude) est clair ; aucun témoin dans les pages lues (anomalie n° 181).",
+      "Précisé (campagne de correction) : vocalisations fautives sans effet : « إذَا خَشَى إصَابَتَهُمَا » (verbe au passé : khachiya) et « نَصَّا صَرِيحًا » (nassan) ; graphie « الشَّارْمَسَاحِيِّ », qu'Ibn Ghāzī (14605, p. 26) écrit « الشرمساحي » (anomalie n° 182).",
+      "Al-Bayān (21751, p. 57) : « وفي كتاب ابن شعبان أنه ينضح ما شك فيه من الثياب والأبدان، وهو شذوذ » : le mot qu'al-Ḥaṭṭāb dit absent d'at-Tawḍīḥ s'y trouve, sous la forme « وهو » au lieu de « وَهَذَا » ; même sens. At-Tawḍīḥ (14442, p. 68–69) porte les passages qu'en cite al-Ḥaṭṭāb ; il nomme « صاحبُ النكت » et dit ensuite « بما ذكرناه عن عبد الحق وسند ».",
+      "Ibn Ghāzī (14605, p. 26) : « بل ظاهر قواعد عياض أن البقعة كالثوب » et « وبغسلها اتفاقا قطع الشرمساحي » ; Ibn Marzūq (ḥāshiya d'al-Zurqānī, 14297, p. 94) : « ولعله كالثوب فإنه الذي يقتضيه نص القواعد » : même lecture des Qawāʿid qu'al-Ḥaṭṭāb.",
+      "Ibn ʿArafa (16968, p. 41) : « وفي كون الجسد كالثوب ولزوم غسله نقلا ابن رشد عن شاذ ابن شعبان مع عبد الحق عن أبي عمران والمازري مع المذهب والمشهور » : attributions conformes à ce que rapporte al-Ḥaṭṭāb.",
+      "Le passage d'adh-Dhakhīra et les Qawāʿid de ʿIyāḍ n'ont pas été relus dans ces ouvrages.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 81–82 (Shamela 21604, pages 80–81)."
+    ],
+    verification: "verifie"
   }
 
-  /* FIN-UNITE-25 */
+  /* FIN-UNITE-26 */
 ]);

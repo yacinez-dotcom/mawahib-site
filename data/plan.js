@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.18 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.19 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -40,7 +40,8 @@
    v1.16 : tah-01-02-60 — « وَحَرُمَ » (Minaḥ, al-Kharashī, al-Dardīr ; anomalie n° 129).
    v1.17 : tah-01-03-01 découpé en huit sous-fiches (01a à 01h), un seul segment du matn portant huit règles (étape 3, unité 19).
    v1.18 : titres arabes alignés sur les matn corrigés : tah-01-03-19 « لَا إنْ غَلَبَتْ » (Mukhtaṣar seul, al-Dardīr ; anomalie n° 148) ;
-          tah-01-03-30 complété jusqu'à « بِخِلَافِ ثَوْبَيْهِ فَيَتَحَرَّى » (duel : Mukhtaṣar seul, al-Dardīr, Ibn Ghāzī ; anomalie n° 162). */
+          tah-01-03-30 complété jusqu'à « بِخِلَافِ ثَوْبَيْهِ فَيَتَحَرَّى » (duel : Mukhtaṣar seul, al-Dardīr, Ibn Ghāzī ; anomalie n° 162).
+   v1.19 : titres français de tah-01-03-39 (« Aspersion sans intention ») et -41 (« Doute sur les deux : rien à faire »), alignés sur les fiches (unité 26). */
 App.data.definirPlan({
   kutub: [
     {
@@ -296,9 +297,9 @@ App.data.definirPlan({
                 { id: "tah-01-03-36", titre: "Doute sur l'atteinte du vêtement : aspersion (nadh)", titre_ar: "وَإِنْ شَكَّ فِي إصَابَتِهَا الثَّوْبَ وَجَبَ …" }, /* p. 165 */
                 { id: "tah-01-03-37", titre: "Aspersion omise : refaire la prière, comme le lavage", titre_ar: "وَإِنْ تَرَكَ أَعَادَ الصَّلَاةَ كَالْغَسْلِ" }, /* p. 166 */
                 { id: "tah-01-03-38", titre: "Définition : asperger à la main", titre_ar: "وَهُوَ رَشٌّ بِالْيَدِ" }, /* p. 167 */
-                { id: "tah-01-03-39", titre: "… sans intention", titre_ar: "بِلَا نِيَّةٍ" }, /* p. 167 */
+                { id: "tah-01-03-39", titre: "Aspersion sans intention", titre_ar: "بِلَا نِيَّةٍ" }, /* p. 167 */
                 { id: "tah-01-03-40", titre: "Pas en cas de doute sur l'impureté de ce qui a touché", titre_ar: "لَا إنْ شَكَّ فِي نَجَاسَةِ الْمُصِيبِ" }, /* p. 168 */
-                { id: "tah-01-03-41", titre: "… ou sur les deux", titre_ar: "أَوْ فِيهِمَا" }, /* p. 168 */
+                { id: "tah-01-03-41", titre: "Doute sur les deux : rien à faire", titre_ar: "أَوْ فِيهِمَا" }, /* p. 168 */
                 { id: "tah-01-03-42", titre: "Le corps : comme le vêtement, ou lavage obligatoire (khilâf)", titre_ar: "وَهَلْ الْجَسَدُ كَالثَّوْبِ أَوْ يَجِبُ غَسْلُهُ …" }, /* p. 168 */
                 { id: "tah-01-03-43", titre: "Eau purifiante confondue avec une eau souillée ou impure", titre_ar: "وَإِنْ اشْتَبَهَ طَهُورٌ بِمُتَنَجِّسٍ، أَوْ نَجِسٍ …" }, /* p. 170 */
                 { id: "tah-01-03-44", titre: "Laver sept fois le récipient d'eau (recommandé)", titre_ar: "وَنُدِبَ غَسْلُ إنَاءِ مَاءٍ وَيُرَاقُ لَا …" }, /* p. 174 */

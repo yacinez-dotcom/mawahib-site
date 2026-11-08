@@ -1,10 +1,11 @@
-/* Données — Glossaire, partie 2 — v1.29
+/* Données — Glossaire, partie 2 — v1.30
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
    le 2026-11-07 (décision de l'utilisateur : nouveaux fichiers, sans recopie de glossaire.js).
    v1.28 : 22 termes de l'unité 24 (tah-01-03-26 à -31).
-   v1.29 : 14 termes de l'unité 25 (tah-01-03-32 à -37). */
+   v1.29 : 14 termes de l'unité 25 (tah-01-03-32 à -37).
+   v1.30 : 18 termes de l'unité 26 (tah-01-03-38 à -42). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -54,6 +55,24 @@ App.data.ajouterTermes([
   { ar: "وَسْوَاس", translit: "waswâs", def: "Obsession du doute : doute répété et sans fondement sur la pureté ou l'adoration." },
   { ar: "غَلَبَةُ الظَّنّ", translit: "ghalabatou z-zann", def: "Opinion dominante : une possibilité l'emporte nettement ; les règles de la Loi s'y fondent." },
   { ar: "اِحْتِلَام", translit: "ihtilâm", def: "Émission nocturne : éjaculation pendant le sommeil." },
-  { ar: "الْقَرِينَانِ", translit: "al-qarînân", def: "« Les deux compagnons » : Ashhab et Ibn Nāfiʿ, cités ensemble (al-Dasūqī)." }
+  { ar: "الْقَرِينَانِ", translit: "al-qarînân", def: "« Les deux compagnons » : Ashhab et Ibn Nāfiʿ, cités ensemble (al-Dasūqī)." },
+  { ar: "رَشّ", translit: "rachch", def: "Projeter de l'eau en gouttes, par exemple avec la main ; c'est le sens retenu de l'aspersion (nadh)." },
+  { ar: "غَمْر", translit: "ghamr", def: "Recouvrir entièrement une chose d'eau (sens que donne ad-Dāwūdī à l'aspersion)." },
+  { ar: "صَبّ", translit: "sabb", def: "Verser de l'eau sur une chose." },
+  { ar: "بُصَاق", translit: "bousâq", def: "Salive." },
+  { ar: "تَعَبُّد", translit: "taʿabboud", def: "Pur culte : acte prescrit dont on ne saisit pas la cause, accompli par obéissance." },
+  { ar: "مَظِنَّة", translit: "mazinna", def: "Lieu présumé : ce où l'on présume qu'une chose se trouve ou se produit." },
+  { ar: "ظَاهِرُ الْمَذْهَبِ", translit: "zâhirou l-madh-hab", def: "La lettre de l'école : ce qui ressort des textes de l'école sans y être dit expressément." },
+  { ar: "الْمُصِيب", translit: "al-moucîb", def: "Ce qui atteint : la chose qui a touché le vêtement ou le corps." },
+  { ar: "تَتْمِيم", translit: "tatmîm", def: "Complément : mention faite pour achever l'exposé d'une question, alors que ce qui précède en dispensait." },
+  { ar: "جَسَد", translit: "jasad", def: "Le corps." },
+  { ar: "أُنْثَيَانِ", translit: "ounthayân", def: "Les testicules." },
+  { ar: "دَلِيلُ الْخِطَابِ", translit: "dalîlou l-khitâb", def: "Argument a contrario : tirer d'un texte la règle inverse pour le cas qu'il ne mentionne pas." },
+  { ar: "اِسْتِثْنَاءٌ مُنْقَطِعٌ", translit: "istithnâ'oun mounqatiʿ", def: "Exception disjointe : « à moins que » au sens de « mais », la chose exceptée n'appartenant pas à ce dont on l'excepte." },
+  { ar: "قِيَاس", translit: "qiyâs", def: "Analogie : étendre à un cas la règle d'un cas semblable, pour une cause commune." },
+  { ar: "الْخَاصّ", translit: "al-khâss", def: "Le particulier : texte visant un cas précis ; il l'emporte sur le général." },
+  { ar: "الْعَامّ", translit: "al-ʿâmm", def: "Le général : texte de portée générale, qui peut être restreint par un texte particulier." },
+  { ar: "بُقْعَة", translit: "bouqʿa", def: "Emplacement : ici, le sol où l'on prie." },
+  { ar: "الأُمَّهَات", translit: "al-oummahât", def: "« Les Mères » : le texte complet de la Mudawwana, par opposition à ses abrégés (comme celui d'al-Barādhiʿī)." }
   /* FIN-GLOSSAIRE */
 ]);
