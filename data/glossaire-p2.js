@@ -1,11 +1,12 @@
-/* Données — Glossaire, partie 2 — v1.30
+/* Données — Glossaire, partie 2 — v1.31
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
    le 2026-11-07 (décision de l'utilisateur : nouveaux fichiers, sans recopie de glossaire.js).
    v1.28 : 22 termes de l'unité 24 (tah-01-03-26 à -31).
    v1.29 : 14 termes de l'unité 25 (tah-01-03-32 à -37).
-   v1.30 : 18 termes de l'unité 26 (tah-01-03-38 à -42). */
+   v1.30 : 18 termes de l'unité 26 (tah-01-03-38 à -42).
+   v1.31 : 11 termes de l'unité 27 (tah-01-03-43a à -43c). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -73,6 +74,17 @@ App.data.ajouterTermes([
   { ar: "الْخَاصّ", translit: "al-khâss", def: "Le particulier : texte visant un cas précis ; il l'emporte sur le général." },
   { ar: "الْعَامّ", translit: "al-ʿâmm", def: "Le général : texte de portée générale, qui peut être restreint par un texte particulier." },
   { ar: "بُقْعَة", translit: "bouqʿa", def: "Emplacement : ici, le sol où l'on prie." },
-  { ar: "الأُمَّهَات", translit: "al-oummahât", def: "« Les Mères » : le texte complet de la Mudawwana, par opposition à ses abrégés (comme celui d'al-Barādhiʿī)." }
+  { ar: "الأُمَّهَات", translit: "al-oummahât", def: "« Les Mères » : le texte complet de la Mudawwana, par opposition à ses abrégés (comme celui d'al-Barādhiʿī)." },
+  { ar: "اِشْتِبَاه", translit: "ichtibâh", def: "Confusion entre deux choses semblables ; pour al-Dasūqī, confusion accompagnée d'un indice." },
+  { ar: "اِلْتِبَاس", translit: "iltibâs", def: "Confusion complète, sans aucun indice pour distinguer." },
+  { ar: "أَمَارَة", translit: "amâra", def: "Indice : signe qui fait pencher l'opinion d'un côté." },
+  { ar: "اِجْتِهَاد", translit: "ijtihâd", def: "Effort d'appréciation : rechercher, d'après des indices, le parti le plus probable." },
+  { ar: "إِنَاء", translit: "inâ'", def: "Récipient (pluriel : آنِيَة, أَوَانٍ)." },
+  { ar: "قِبْلَة", translit: "qibla", def: "Direction de la prière (vers la Kaʿba)." },
+  { ar: "نِيَّةٌ جَازِمَةٌ", translit: "niyyatoun jâzima", def: "Intention ferme : décidée sans hésitation, condition de validité de la prière." },
+  { ar: "تَفْوِيض", translit: "tafwîd", def: "Ici : prier en s'en remettant à Dieu pour savoir si la prière compte comme obligatoire ou non." },
+  { ar: "عَدْل", translit: "ʿadl", def: "Témoin digne de foi : musulman droit, dont l'information est reçue." },
+  { ar: "اِئْتِمَام", translit: "i'timâm", def: "Prier derrière un imam en le suivant." },
+  { ar: "رَفْضُ الطَّهَارَةِ", translit: "rafdou t-tahâra", def: "Annulation de la pureté par l'intention : la tenir pour nulle ; sa validité est discutée dans l'école." }
   /* FIN-GLOSSAIRE */
 ]);
