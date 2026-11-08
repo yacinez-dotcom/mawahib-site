@@ -191,7 +191,7 @@ Puis :
 - `docs/contrat.md` : glossaire sur plusieurs fichiers mentionné (v1.15, 2026-11-08) ; fait.
 - Contrôle de rendu (`controle_site.py`) : fait le 2026-11-08 sur le dépôt complet (lot 4) ; fait.
 - tah-01-03-30 : al-Dasūqī attribue à « ح » l'avis qu'en l'absence d'indice on lave les deux vêtements ou l'un (« خِلَافًا لِمَا فِي ح ») ; passage non trouvé dans Mawāhib p. 160–162 : le chercher si l'on relit cette partie de Mawāhib.
-- `docs/sources/anomalies-textes.md` (figé) : le n° 43 est « Confirmé » dans sa ligne mais compté parmi les « Corrigé » au bilan (59 au lieu de 58 ; « Confirmé » 4 au lieu de 5). Écart présent dans le Projet, recopié tel quel au lot 5 ; à corriger lors de la réunion avec `anomalies-textes-2.md` (et à répercuter sur le total « Corrigé » du bilan d'ensemble).
+- `docs/sources/anomalies-textes.md` (figé) : le n° 43 est « Confirmé » dans sa ligne mais compté parmi les « Corrigé » au bilan (si la ligne fait foi : 58 « Corrigé » et 5 « Confirmé » au lieu de 59 et 4 ; vérifier d'abord dans `campagne-corrections.md` lequel des deux est juste). Écart présent dans le Projet, recopié tel quel au lot 5 ; à corriger lors de la réunion avec `anomalies-textes-2.md` (et à répercuter sur le total « Corrigé » du bilan d'ensemble).
 - N° 166 (« بَقَاءِ » pour « نَقَاءِ » probable, auteur d'al-Jamʿ) et n° 143, 147 : à reprendre si un témoin apparaît.
 - Al-Ḥaṭṭāb attribue parfois à Mālik une réponse qu'al-Bayān donne à Ibn al-Qāsim (n° 71) : vérifier dans al-Bayān les citations de l'ʿUtbiyya quand c'est possible.
 - 58 anomalies non résolues (liste dans `docs/sources/anomalies-textes-2.md`) ; à reprendre si un nouveau témoin apparaît.
