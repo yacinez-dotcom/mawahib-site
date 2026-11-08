@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.31
+/* Données — Glossaire, partie 2 — v1.32
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -6,7 +6,8 @@
    v1.28 : 22 termes de l'unité 24 (tah-01-03-26 à -31).
    v1.29 : 14 termes de l'unité 25 (tah-01-03-32 à -37).
    v1.30 : 18 termes de l'unité 26 (tah-01-03-38 à -42).
-   v1.31 : 11 termes de l'unité 27 (tah-01-03-43a à -43c). */
+   v1.31 : 11 termes de l'unité 27 (tah-01-03-43a à -43c).
+   v1.32 : 13 termes de l'unité 28 (tah-01-03-44 à -50). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -85,6 +86,19 @@ App.data.ajouterTermes([
   { ar: "تَفْوِيض", translit: "tafwîd", def: "Ici : prier en s'en remettant à Dieu pour savoir si la prière compte comme obligatoire ou non." },
   { ar: "عَدْل", translit: "ʿadl", def: "Témoin digne de foi : musulman droit, dont l'information est reçue." },
   { ar: "اِئْتِمَام", translit: "i'timâm", def: "Prier derrière un imam en le suivant." },
-  { ar: "رَفْضُ الطَّهَارَةِ", translit: "rafdou t-tahâra", def: "Annulation de la pureté par l'intention : la tenir pour nulle ; sa validité est discutée dans l'école." }
+  { ar: "رَفْضُ الطَّهَارَةِ", translit: "rafdou t-tahâra", def: "Annulation de la pureté par l'intention : la tenir pour nulle ; sa validité est discutée dans l'école." },
+  { ar: "وُلُوغ", translit: "wouloûgh", def: "Lapement : le chien plonge la gueule dans l'eau et y remue la langue." },
+  { ar: "حَوْض", translit: "hawd", def: "Bassin : réserve d'eau plus grande qu'un récipient." },
+  { ar: "الأَمْرُ المُطْلَقُ", translit: "al-amrou l-moutlaq", def: "L'ordre sans précision : impératif du texte dont on discute s'il emporte l'obligation ou la recommandation." },
+  { ar: "قَرِينَة", translit: "qarîna", def: "Indice qui détourne un mot ou un ordre de son sens apparent." },
+  { ar: "قَذَارَة", translit: "qadhâra", def: "Saleté répugnante, distincte de l'impureté rituelle." },
+  { ar: "مَعْقُولُ الْمَعْنَى", translit: "maʿqoûlou l-maʿnâ", def: "De sens intelligible : règle dont la sagesse nous apparaît (contraire du pur culte)." },
+  { ar: "مَأْذُونٌ فِي اتِّخَاذِهِ", translit: "ma'dhoûnoun fî ttikhâdhihi", def: "Qu'il est permis d'avoir : chien de garde, de troupeau ou de chasse." },
+  { ar: "فَوْر", translit: "fawr", def: "Immédiateté : faire une chose aussitôt, sans délai." },
+  { ar: "تَرَاخِي", translit: "tarâkhî", def: "Délai permis : un ordre qu'on peut exécuter plus tard." },
+  { ar: "غَسْلُ الْمَيِّتِ", translit: "ghaslou l-mayyit", def: "Lavage mortuaire : lavage rituel du corps du défunt, fait par un autre que lui." },
+  { ar: "تَتْرِيب", translit: "tatrîb", def: "Frotter un récipient avec de la terre lors de son lavage." },
+  { ar: "اِضْطِرَاب", translit: "idtirâb", def: "Incohérence entre les versions d'un hadith, qui l'affaiblit sur le point concerné." },
+  { ar: "تَدَاخُلُ الْأَسْبَابِ", translit: "tadâkhoulou l-asbâb", def: "Recouvrement des causes : plusieurs causes au même effet n'entraînent qu'une seule fois cet effet." }
   /* FIN-GLOSSAIRE */
 ]);

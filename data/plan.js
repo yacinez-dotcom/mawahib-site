@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.20 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.21 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -42,7 +42,8 @@
    v1.18 : titres arabes alignés sur les matn corrigés : tah-01-03-19 « لَا إنْ غَلَبَتْ » (Mukhtaṣar seul, al-Dardīr ; anomalie n° 148) ;
           tah-01-03-30 complété jusqu'à « بِخِلَافِ ثَوْبَيْهِ فَيَتَحَرَّى » (duel : Mukhtaṣar seul, al-Dardīr, Ibn Ghāzī ; anomalie n° 162).
    v1.19 : titres français de tah-01-03-39 (« Aspersion sans intention ») et -41 (« Doute sur les deux : rien à faire »), alignés sur les fiches (unité 26).
-   v1.20 : tah-01-03-43 découpé en trois sous-fiches (43a à 43c), un seul segment du matn portant plusieurs règles (étape 3, unité 27). */
+   v1.20 : tah-01-03-43 découpé en trois sous-fiches (43a à 43c), un seul segment du matn portant plusieurs règles (étape 3, unité 27).
+   v1.21 : titres français de tah-01-03-45 à -48, alignés sur les fiches (unité 28). */
 App.data.definirPlan({
   kutub: [
     {
@@ -306,10 +307,10 @@ App.data.definirPlan({
                 { id: "tah-01-03-43b", titre: "Autant de prières que d'eaux impures, plus une : les cinq avis", titre_ar: "صَلَّى بِعَدَدِ النَّجِسِ وَزِيَادَةِ إنَاءٍ" }, /* p. 170 */
                 { id: "tah-01-03-43c", titre: "Récipients confondus : cas particuliers", titre_ar: "وَإِنْ اشْتَبَهَ طَهُورٌ … — تَنْبِيهَاتٌ" }, /* p. 172 */
                 { id: "tah-01-03-44", titre: "Laver sept fois le récipient d'eau (recommandé)", titre_ar: "وَنُدِبَ غَسْلُ إنَاءِ مَاءٍ وَيُرَاقُ لَا …" }, /* p. 174 */
-                { id: "tah-01-03-45", titre: "… par pur culte (taʿabbudan)", titre_ar: "تَعَبُّدًا" }, /* p. 177 */
-                { id: "tah-01-03-46", titre: "… pour le lapement d'un chien uniquement", titre_ar: "بِوُلُوغِ كَلْبٍ مُطْلَقًا لَا غَيْرِهِ" }, /* p. 177 */
-                { id: "tah-01-03-47", titre: "… au moment de vouloir l'utiliser", titre_ar: "عِنْدَ قَصْدِ الِاسْتِعْمَالِ" }, /* p. 178 */
-                { id: "tah-01-03-48", titre: "… sans intention", titre_ar: "بِلَا نِيَّةٍ" }, /* p. 178 */
+                { id: "tah-01-03-45", titre: "Un lavage de pur culte", titre_ar: "تَعَبُّدًا" }, /* p. 177 */
+                { id: "tah-01-03-46", titre: "Pour le lapement d'un chien seulement", titre_ar: "بِوُلُوغِ كَلْبٍ مُطْلَقًا لَا غَيْرِهِ" }, /* p. 177 */
+                { id: "tah-01-03-47", titre: "Au moment de se servir du récipient", titre_ar: "عِنْدَ قَصْدِ الِاسْتِعْمَالِ" }, /* p. 178 */
+                { id: "tah-01-03-48", titre: "Sans intention", titre_ar: "بِلَا نِيَّةٍ" }, /* p. 178 */
                 { id: "tah-01-03-49", titre: "Pas de terre", titre_ar: "وَلَا تَتْرِيبَ" }, /* p. 179 */
                 { id: "tah-01-03-50", titre: "Pas de répétition pour plusieurs chiens", titre_ar: "وَلَا يَتَعَدَّدُ بِوُلُوغِ كَلْبٍ أَوْ كِلَابٍ" } /* p. 179 */
               ]

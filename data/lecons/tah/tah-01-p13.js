@@ -1,8 +1,9 @@
-/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 13 — v4.2
+/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 13 — v4.3
    Source : Mawāhib al-Jalīl, al-Ḥaṭṭāb, éd. Dār al-Fikr, 3e éd., 1412 H / 1992, tome 1 (shamela.ws/book/569).
    Croisement : al-Sharḥ al-kabīr d'al-Dardīr et Ḥāshiyat al-Dasūqī (shamela.ws/book/21604), tome 1.
-   Cette partie : faṣl tah-01-03, à partir de tah-01-03-43a (unité 27) — t. 1, p. 170–174.
+   Cette partie : faṣl tah-01-03, à partir de tah-01-03-43a (unité 27) — t. 1, p. 170–179 (fin du faṣl).
    v4.2 : unité 27 — tah-01-03-43a à -43c (2026-11-08) ; nouvelle partie, tah-01-p12.js (≈ 153 Ko) n'ayant plus la place d'une unité.
+   v4.3 : unité 28 — tah-01-03-44 à -50 et synthèse tah-01-03-syn (2026-11-08) ; fin du faṣl tah-01-03.
    Bāb découpé en parties de moins de 200 Ko ;
    historique des versions : tah-01-p1.js (jusqu'à v2.5) puis l'en-tête de chaque partie. */
 App.data.ajouterFiches([
@@ -246,7 +247,523 @@ App.data.ajouterFiches([
       "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 83 (Shamela 21604, page 82)."
     ],
     verification: "verifie"
+  },
+
+  /* ================================================================== */
+  /* Unité 28 — tah-01-03-44 à -50 et synthèse — t. 1, p. 174–179 (Shamela 569, p. 173–178) */
+  /* Croisement : al-Dardīr / al-Dasūqī, t. 1, p. 83–84 (Shamela 21604, p. 82–83) */
+  /* ================================================================== */
+
+  {
+    id: "tah-01-03-44",
+    kitab: "tah", bab: "01", fasl: "03", ordre: 44,
+    titre: "Laver sept fois le récipient d'eau (recommandé)",
+    titre_ar: "وَنُدِبَ غَسْلُ إنَاءِ مَاءٍ وَيُرَاقُ لَا طَعَامٍ وَحَوْضٍ",
+    objectif: "Savoir que faire du récipient d'eau où un chien a lapé, et pourquoi ni le récipient de nourriture ni le bassin ne sont concernés.",
+    matn: "وَنُدِبَ غَسْلُ إنَاءِ مَاءٍ وَيُرَاقُ لَا طَعَامٍ وَحَوْضٍ سَبْعًا",
+    regle_pratique: "Quand un chien a lapé l'eau d'un récipient, il est recommandé de verser cette eau et de laver le récipient sept fois ; on ne le fait pas pour un récipient de nourriture, dont on ne jette pas le contenu, ni pour un bassin.",
+    qualification: {
+      hukm: "mandub",
+      nature: "autre",
+      effet_si_omis: "Celui qui a fait ses ablutions avec une eau lapée par un chien et a prié est acquitté, sans reprise même dans le temps (la Mudawwana : « وَمَنْ تَوَضَّأَ بِمَاءٍ قَدْ وَلَغَ فِيهِ الْكَلْبُ وَصَلَّى أَجْزَأَهُ » ; « وَلَا إعَادَةَ عَلَيْهِ وَإِنْ عَلِمَ فِي الْوَقْتِ »)."
+    },
+    explication: "Al-Ḥaṭṭāb : après l'impureté, ce qu'on tolère et le doute, Khalīl traite du lavage du récipient où un chien a lapé (وُلُوغ, wouloûgh), parce que le Prophète l'a ordonné de façon authentique et que les savants ont hésité : est-ce obligatoire ou recommandé ? Est-ce pour l'impureté, ou un pur culte ? Le hadith est rapporté par Mālik dans le Muwaṭṭaʾ, par al-Bukhārī, Muslim et d'autres, sous plusieurs formes : « quand le chien boit dans le récipient de l'un de vous, qu'il le lave sept fois » (Muwaṭṭaʾ) ; chez Muslim : « qu'il le verse et le lave sept fois », « la première fois avec de la terre », et une version « frottez-le de terre la huitième fois » ; chez at-Tirmidhī et Abū Dāwūd, la terre à la première ou à la septième fois.\n\nOn diverge : l'ordre est-il une obligation ou une recommandation ? Selon que l'ordre sans précision (الأَمْرُ المُطْلَق) emporte l'une ou l'autre ; ou bien il emporte l'obligation, mais un indice (قَرِينَة, qarîna) le détourne ici de son sens apparent : la preuve que le chien est pur. Ibn Bashīr : la Mudawwana porte la recommandation ; il le tire de sa phrase : si le chien lape du lait ou une nourriture, on la mange et l'on ne lave pas le récipient, et si l'on lave sept fois à cause du hadith, c'est pour l'eau seule ; Mālik affaiblissait ce point, disant : ce hadith est venu, et je ne sais pas ce qu'il en est vraiment ; et il voyait le chien comme un familier de la maison, non comme les autres fauves. Ibn Nājī, d'après ʿIyāḍ : on a beaucoup discuté de ce qu'il affaiblissait : le hadith (rapport isolé dont l'apparence est l'impureté du chien, en face du verset « mangez de ce qu'ils retiennent pour vous ») ; l'obligation ; ou le nombre fixé ; ʿIyāḍ juge plus probable l'obligation, comme al-Qābisī ; at-Tawḍīḥ dirait ce choix le plus connu (voir les alertes) ; les deux autres lectures sont faibles, le hadith étant authentique et la contradiction avec le verset pouvant être levée. Sanad a compris de cette phrase la recommandation (voir les alertes) : elle établit une permission, non une obligation stricte. Pour Ibn al-Ḥājib et Ibn ʿArafa, recommandation et obligation sont deux riwāyas (Ibn ʿArafa : sept fois, par recommandation ; on rapporte aussi par obligation) ; pour le Qāḍī ʿAbd al-Wahhāb, selon Ibn Farḥūn, ce sont deux déductions. L'auteur d'at-Talqīn ne donne que la recommandation ; l'auteur d'al-Irshād que l'obligation, qu'affirme aussi l'auteur d'al-Wāfī ; al-Qarāfī : c'est la lettre de l'école.\n\n« Récipient d'eau » : la recommandation ne vaut que si le chien a lapé dans un récipient contenant de l'eau ; ni le récipient de nourriture, ni le bassin (حَوْض, hawd) ou la mare ne se lavent : c'est l'avis le plus répandu ; Ibn Wahb rapporte qu'on lave aussi le récipient de nourriture. At-Tawḍīḥ : al-Māzirī fonde la divergence sur la question de la restriction d'un texte général par l'usage, car on avait le plus souvent de l'eau, non de la nourriture ; Ibn Hārūn : ou sur le sens du lapement, propre à l'eau ou non ; Ibn Rushd la fonde sur ce second point, qu'Ibn ʿAbd as-Salām juge plus apparent et dont al-Burzulī dit qu'il est le plus répandu. Sanad justifie l'avis le plus répandu : le lavage est un pur culte, la salive du chien étant pure ; on s'en tient donc à ce que vise le texte, qui pense au cas le plus fréquent : les récipients d'eau, non ceux d'huile ou de miel, qu'on protège. Ibn ʿArafa : selon l'avis qui fait laver le récipient de nourriture, il y a trois avis sur le fait de la jeter (le troisième : si elle est peu abondante) ; Muṭarrif et Ibn al-Mājishūn : on ne la jette pas, mais ce qu'on a pétri avec cette eau se jette, car c'est une impureté introduite par l'homme. Sanad : selon le même avis, si le chien a léché une nourriture solide, on lave apparemment, à cause du hadith.\n\nLe bassin : al-Ḥaṭṭāb n'y connaît pas de divergence. At-Tawḍīḥ : le lavage est propre au récipient ; si le chien lape dans un bassin, on ne le lave pas, car c'est un pur culte ; Ibn Nājī : je ne connais pas cela, la lettre de l'école est contraire, et le récipient n'est cité dans le hadith que parce qu'il est le cas le plus fréquent. Al-Ḥaṭṭāb répond par la Mudawwana : selon Mālik, celui qui a fait ses ablutions avec une eau lapée par un chien et a prié est acquitté, et ne refait pas la prière même s'il l'apprend dans le temps ; il n'aime pas qu'on commence à s'en servir si l'eau est peu abondante, mais il n'y a pas de mal s'il y en a beaucoup, comme dans un bassin ; et l'audition d'Abū Zayd : pas de mal à faire ses ablutions aux bassins où boivent les chiens ; Ibn Rushd l'approuve (parole de ʿUmar ; hadith : « à elles ce qu'elles ont pris dans leur ventre, à nous ce qui reste, pour boire et nous purifier ») ; al-Jallāb : le reste d'eau du chien et du porc est réprouvé, sauf impureté à leur museau, ce qui vise la petite quantité. L'auteur d'al-Jamʿ : limiter le lavage au récipient d'eau est juste. Pour la Mudawwana et l'ʿUtbiyya, verser l'eau, réprouver son usage et laver le récipient ne valent donc que pour le récipient d'eau, non pour le bassin.\n\n« Et on la verse » : cela peut vouloir dire qu'on lave le récipient après avoir versé l'eau, ou qu'il est recommandé de verser l'eau ; le second sens est l'apparent. On ne jette pas la nourriture : c'est l'avis le plus répandu ; Mālik distingue : on se permet de jeter l'eau, mais il trouve grave qu'on aille jeter la subsistance de Dieu parce qu'un chien y a lapé. Autres avis : on jette eau et nourriture (à cause de l'impureté) ; on ne jette ni l'une ni l'autre (pur culte ; avis attribué à Ibn al-Qāsim) ; le reste du chien qu'il est permis d'avoir est pur, celui d'un autre impur ; distinction entre chien de la campagne et chien de la ville ; la petite quantité d'eau est comme la nourriture. On ne vide pas le bassin.\n\nAutres cas. Boire cette eau et manger ce qu'on a pétri avec elle : permis si le lavage est un pur culte, interdit s'il est dû à l'impureté (al-Jamʿ) ; al-Muqaddimāt : selon le pur culte, on peut la boire, mais il ne faut pas faire ses ablutions avec elle si l'on a une autre eau. Laver le récipient avec l'eau lapée elle-même : deux avis (Ibn Bashīr, Ibn al-Ḥājib) ; al-Jawāhir, d'après al-Qazwīnī : pas de texte des compagnons de l'école ; Ibn ʿArafa, d'après Ibn Zarqūn : al-Qazwīnī le réprouve, d'autres disent que cela ne suffit pas (voir les alertes) ; al-Muqaddimāt : selon l'impureté, on ne le peut pas ; selon le pur culte, il ne faut pas s'il y a une autre eau, et sinon, le plus apparent est qu'on ne lave pas avec elle, même si l'on peut faire ses ablutions avec elle ; Sanad : s'il lave avec elle, cela suffit apparemment ; at-Tawḍīḥ : le correct est de ne pas laver avec elle. Remarque : le reste du chien diffère de celui des autres animaux qui ne se gardent pas de l'impureté : lavage sept fois, eau versée, ablutions réprouvées même si l'on sait l'eau pure ; pour les autres, si leur bouche est sûrement pure, on ne verse pas l'eau, sinon son usage est réprouvé quand on en a une autre.\n\nAl-Dardīr : on lave le récipient d'eau et l'on verse l'eau, par recommandation ; on ne lave ni ne vide le récipient de nourriture : c'est même interdit, car c'est gaspiller un bien, sauf si on la donne à un chien ou à une bête ; ni le bassin. Al-Dasūqī : on verse l'eau si elle est peu abondante, car l'usage de l'eau lapée n'est réprouvé que dans ce cas (Muṣṭafā ar-Rammāṣī) ; « et on la verse » se lit au nominatif ou au subjonctif, ce dernier étant meilleur selon Ibn Marzūq ; les sept lavages ne comptent pas l'eau lapée elle-même.",
+    aqwal: [
+      { auteur: "La Mudawwana selon Ibn Bashīr ; at-Talqīn ; suivi par Khalīl", avis: "Le lavage sept fois est recommandé.", statut: "non_precise" },
+      { auteur: "Al-Irshād, al-Wāfī ; al-Qarāfī : « ظَاهِرُ الْمَذْهَبِ » ; riwāya selon Ibn al-Ḥājib et Ibn ʿArafa", avis: "Le lavage sept fois est obligatoire.", statut: "qawl" },
+      { auteur: "Avis le plus répandu (« هَذَا هُوَ الْمَشْهُورُ »)", avis: "Ni le récipient de nourriture ni le bassin ne se lavent.", statut: "mashhur" },
+      { auteur: "Ibn Wahb (riwāya)", avis: "On lave aussi le récipient de nourriture.", statut: "qawl" },
+      { auteur: "Mālik (avis le plus répandu : « وَلَا يُرَاقُ الطَّعَامُ هَذَا هُوَ الْمَشْهُورُ »)", avis: "On verse l'eau, mais on ne jette pas la nourriture.", statut: "mashhur" },
+      { auteur: "Avis rapportés sans attribution (at-Tawḍīḥ)", avis: "On jette eau et nourriture ; ou distinction entre chien permis et autre, chien de campagne et de ville ; ou petite eau comme la nourriture.", statut: "qawl" },
+      { auteur: "Avis attribué à Ibn al-Qāsim", avis: "On ne jette ni l'eau ni la nourriture (pur culte).", statut: "qawl" },
+      { auteur: "Muṭarrif et Ibn al-Mājishūn (selon Ibn ʿArafa)", avis: "On ne jette pas la nourriture, sauf ce qu'on a pétri avec cette eau.", statut: "qawl" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : « (وَنُدِبَ غَسْلُ إنَاءِ مَاءٍ وَيُرَاقُ) ذَلِكَ الْمَاءُ نَدْبًا (لَا) إنَاءِ (طَعَامٍ) فَلَا يُنْدَبُ غَسْلُهُ وَلَا إرَاقَتُهُ بَلْ يَحْرُمُ لِمَا فِيهِ مِنْ إضَاعَةِ الْمَالِ » ; « (وَ) لَا (حَوْضٍ) فَلَا يُنْدَبُ غَسْلُهُ وَلَا يُرَاقُ ».",
+    tarjih_hattab: "« وَيُحْتَمَلُ أَنْ يُرِيدَ أَنَّهُ يُسْتَحَبُّ أَنْ يُرَاقَ الْمَاءُ الَّذِي وَلَغَ فِيهِ الْكَلْبُ وَهَذَا هُوَ الظَّاهِرُ مِنْ كَلَامِهِمْ » ; « فَكَلَامُ الْمُدَوَّنَةِ وَالْعُتْبِيَّةِ يَدُلُّ عَلَى أَنَّ الْإِرَاقَةَ وَكَرَاهَةَ اسْتِعْمَالِ الْمَاءِ وَغَسْلَ الْإِنَاءِ إنَّمَا ذَلِكَ فِي إنَاءِ الْمَاءِ لَا فِي الْحَوْضِ ».",
+    tanbihat: [
+      "Ibn Bashīr : « وَاَلَّذِي فِي الْمُدَوَّنَةِ النَّدْبُ ».",
+      "Mālik : « وَأَرَاهُ عَظِيمًا أَنْ يُعْمَدَ إلَى رِزْقِ اللَّهِ - تَعَالَى - فَيُلْقَى لِكَلْبٍ وَلَغَ فِيهِ ».",
+      "Pâte pétrie avec cette eau : « وَلَوْ عُجِنَ بِمَائِهِ طُرِحَ؛ لِأَنَّهَا نَجَاسَةٌ أَدْخَلَهَا الْمُكَلَّفُ ».",
+      "Laver avec l'eau lapée, at-Tawḍīḥ : « الصَّحِيحُ أَنَّهُ لَا يُغْسَلُ بِهِ لِمَا فِي مُسْلِمٍ فَلْيُرِقْهُ وَيَغْسِلْهُ سَبْعًا ».",
+      "Le bassin : « وَأَمَّا الْحَوْضُ فَلَمْ أَرَ فِيهِ خِلَافًا »."
+    ],
+    divergences: [
+      "Point à comparer — la nourriture. Al-Ḥaṭṭāb : « وَلَا يُرَاقُ الطَّعَامُ هَذَا هُوَ الْمَشْهُورُ » ; Mālik : « وَأَرَاهُ عَظِيمًا ». Al-Dardīr la dit interdite à jeter : « بَلْ يَحْرُمُ لِمَا فِيهِ مِنْ إضَاعَةِ الْمَالِ إلَّا أَنْ يُرِيقَهُ لِكَلْبٍ أَوْ بَهِيمَةٍ فَلَا يَحْرُمُ ».",
+      "Concordance — le bassin. Al-Ḥaṭṭāb : « إنَّمَا ذَلِكَ فِي إنَاءِ الْمَاءِ لَا فِي الْحَوْضِ ». Al-Dardīr : « فَلَا يُنْدَبُ غَسْلُهُ وَلَا يُرَاقُ ».",
+      "Complément — la quantité d'eau versée. Al-Ḥaṭṭāb rapporte la réprobation de la petite quantité d'eau (la Mudawwana : « وَلَا يُعْجِبُنِي ابْتِدَاءُ الْوُضُوءِ بِهِ إنْ كَانَ الْمَاءُ قَلِيلًا »). Al-Dasūqī : on verse l'eau « أَيْ إذَا كَانَ يَسِيرًا » ; « كَذَا قَالَ طفى » (« طفى » : Muṣṭafā ar-Rammāṣī).",
+      "Complément — la lecture de « وَيُرَاقُ ». Al-Ḥaṭṭāb : deux sens possibles, le second (verser l'eau) apparent. Al-Dasūqī : « وَقَوْلُهُ وَيُرَاقُ بِالرَّفْعِ عَلَى أَنَّهُ مُسْتَأْنَفٌ أَوْ بِالنَّصْبِ » … « بَلْ هُوَ الْأَوْلَى كَمَا قَالَ ابْنُ مَرْزُوقٍ ».",
+      "Point à comparer — l'eau lapée et les sept lavages. Al-Ḥaṭṭāb (d'après at-Tawḍīḥ) : « الصَّحِيحُ أَنَّهُ لَا يُغْسَلُ بِهِ ». Al-Dasūqī : « أَيْ وَلَا يُعَدُّ مِنْهَا الْمَاءُ الَّذِي وَلَغَ فِيهِ الْكَلْبُ »."
+    ],
+    exemple: "Le chien de garde d'une famille boit dans le seau d'eau de la cour : il est recommandé de verser l'eau qui reste et de laver le seau sept fois. S'il lape le lait d'un bol, on ne jette pas le lait. S'il boit au bassin du jardin, on ne vide pas le bassin et l'on peut y faire ses ablutions.",
+    erreurs_frequentes: [
+      "Croire que le lavage du récipient lapé est obligatoire selon Khalīl : il est recommandé.",
+      "Jeter la nourriture lapée par un chien : selon l'avis le plus répandu, on ne la jette pas ; al-Dardīr l'interdit, car c'est gaspiller un bien.",
+      "Vider un bassin où un chien a bu : on ne le vide pas."
+    ],
+    termes: [
+      { ar: "وُلُوغ", translit: "wouloûgh", def: "Lapement : le chien plonge la gueule dans l'eau et y remue la langue." },
+      { ar: "حَوْض", translit: "hawd", def: "Bassin : réserve d'eau plus grande qu'un récipient." },
+      { ar: "الأَمْرُ المُطْلَقُ", translit: "al-amrou l-moutlaq", def: "L'ordre sans précision : impératif du texte dont on discute s'il emporte l'obligation ou la recommandation." },
+      { ar: "قَرِينَة", translit: "qarîna", def: "Indice qui détourne un mot ou un ordre de son sens apparent." }
+    ],
+    quiz: [
+      { q: "Un chien a lapé l'eau d'un récipient. Que dit Khalīl ?",
+        choix: ["Laver le récipient sept fois est obligatoire", "Il est recommandé de verser l'eau et de laver le récipient sept fois", "Rien n'est demandé", "Il faut jeter le récipient"],
+        bonne: 1,
+        explication: "Al-Dardīr : « (وَنُدِبَ غَسْلُ إنَاءِ مَاءٍ وَيُرَاقُ) ذَلِكَ الْمَاءُ نَدْبًا »." },
+      { q: "Un chien a lapé dans un bol de lait. Que faire selon l'avis le plus répandu ?",
+        choix: ["Jeter le lait et laver le bol", "Jeter le lait seulement", "Laver le bol sept fois", "On ne jette pas le lait"],
+        bonne: 3,
+        explication: "« وَلَا يُرَاقُ الطَّعَامُ هَذَا هُوَ الْمَشْهُورُ »." },
+      { q: "Mise en situation : vous avez fait vos ablutions avec une eau qu'un chien avait lapée, puis vous avez prié. Que dit la Mudawwana ?",
+        choix: ["La prière vaut, sans reprise", "Refaire la prière dans le temps", "Refaire la prière toujours", "Refaire seulement les ablutions"],
+        bonne: 0,
+        explication: "« وَمَنْ تَوَضَّأَ بِمَاءٍ قَدْ وَلَغَ فِيهِ الْكَلْبُ وَصَلَّى أَجْزَأَهُ » ; « وَلَا إعَادَةَ عَلَيْهِ وَإِنْ عَلِمَ فِي الْوَقْتِ »." },
+      { q: "Pourquoi al-Dardīr interdit-il de jeter la nourriture lapée ?",
+        choix: ["Parce qu'elle est pure", "Parce que le chien est un familier", "Parce que c'est gaspiller un bien", "Parce que le hadith l'interdit"],
+        bonne: 2,
+        explication: "« بَلْ يَحْرُمُ لِمَا فِيهِ مِنْ إضَاعَةِ الْمَالِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "174-177" },
+    alertes: [
+      "Corrigé (campagne de correction) : le « ص » de Mawāhib porte « لَا طَعَامٌ وَحَوْضٌ » (nominatif) ; le matn est vocalisé au génitif, coordonné à « مَاءٍ », d'après al-Dardīr (« (لَا) إنَاءِ (طَعَامٍ) ») et le Mukhtaṣar seul (11355, p. 8 « لَا طَعَامٍ وَحَوْضٍ »). Le Mukhtaṣar seul, al-Dardīr et Minaḥ al-Jalīl (21614, p. 65) placent « تَعَبُّدًا » avant « سَبْعًا » ; Mawāhib commente « تَعَبُّدًا » à part, après ce segment (anomalie n° 188).",
+      "Non résolu (sans effet) : « وَفَهِمَ سَنَدٌ الِاسْتِحْبَابَ إنْ كَانَ نَفْيُ الْمَاءِ وَحْدَهُ » : phrase altérée ; sens probable : Sanad tire la recommandation de la phrase de la Mudawwana « وَإِنْ كَانَ يُغْسَلُ سَبْعًا لِلْحَدِيثِ فَفِي الْمَاءِ وَحْدَهُ ». At-Tawḍīḥ (14442, p. 72) : « وقوله إن كان يغسل إشارة إلى تضعيف الغسل ». Aucun témoin de la phrase de Sanad (anomalie n° 195).",
+      "Précisé (campagne de correction) : « وَقَالَ ابْنُ عَرَفَةَ: الْقَزْوِينِيُّ وَغَيْرُهُ لَا يُجْزِي لِمَفْهُومِ الْحَدِيثِ » ; Ibn ʿArafa (16968, p. 43) porte « ابن زرقون كرهه القزويني وغيره لا يجزئ لمفهوم الحديث » : al-Qazwīnī le réprouve, d'autres disent que cela ne suffit pas. La fiche suit Ibn ʿArafa (anomalie n° 191).",
+      "Al-Ḥaṭṭāb dit qu'at-Tawḍīḥ juge le choix de ʿIyāḍ « الْأَشْهَرُ » ; ce mot n'a pas été trouvé dans les pages lues d'at-Tawḍīḥ (14442, p. 70–75), qui portent « فقيل الحديث وقيل الوجوب ».",
+      "Ibn ʿArafa (16968, p. 42–43) : « ويغسل الإناء لولوغ الكلب في مائه سبغا ندبا وروي وجوبا » (« سبغا » imprimé pour sept) ; « وعلى غسل إناء الطعام في طرحه ثالثها إن قل » ; at-Tawḍīḥ (14442, p. 72) : « بنى المازري الخلاف على خلاف أهل الأصول في تخصيص العموم بالعادة » : citations rapportées par al-Ḥaṭṭāb conformes.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 83 (Shamela 21604, page 82)."
+    ],
+    verification: "verifie"
+  },
+
+  /* ------------------------------------------------------------------ */
+  {
+    id: "tah-01-03-45",
+    kitab: "tah", bab: "01", fasl: "03", ordre: 45,
+    titre: "Un lavage de pur culte",
+    titre_ar: "تَعَبُّدًا",
+    objectif: "Comprendre pourquoi le lavage du récipient lapé est dit « pur culte », et quels autres avis existent.",
+    matn: "تَعَبُّدًا",
+    regle_pratique: "Ce lavage est un pur culte (taʿabboud) selon l'avis le plus répandu : le chien est pur, et l'on lave parce que la Loi l'a demandé, non pour ôter une impureté.",
+    qualification: {
+      hukm: "mandub",
+      nature: "autre",
+      effet_si_omis: "Le passage ne précise pas ici l'effet d'une omission (voir la fiche tah-01-03-44 pour les ablutions faites avec l'eau lapée)."
+    },
+    explication: "Al-Ḥaṭṭāb : le lavage est un pur culte : c'est l'avis le plus répandu de l'école, parce que le chien est pur. On a dit aussi : à cause de sa saleté (قَذَارَة, qadhâra), ou de son impureté ; selon ces deux avis, le nombre sept serait lui-même un pur culte, ou viserait à durcir l'interdiction, ou s'expliquerait parce que certains Compagnons, interdits, n'avaient pas cessé — ce qui ne convient pas aux Compagnons ; on a répondu qu'il s'agit de certains Bédouins chez qui l'islam n'était pas affermi ; la différence entre ces deux dernières raisons : l'une est une rigueur d'emblée, l'autre une rigueur après une facilité. Ibn Rushd a choisi l'explication par la crainte que le chien soit enragé et que sa salive ait mis dans l'eau quelque chose comme un poison ; le nombre sept le confirme, car il est recommandé dans ce qui relève du remède, surtout contre le poison : le Prophète a dit, dans sa maladie, « versez sur moi l'eau de sept outres dont on n'a pas dénoué les cordons », et « qui mange le matin sept dattes ʿajwa, aucun poison ni sortilège ne lui nuira ce jour-là ». Ibn ʿArafa : on lui a objecté que, selon les médecins, le chien enragé refuse de laper l'eau ; son petit-fils a répondu que c'est seulement quand la rage s'est installée, non à ses débuts.\n\nFāʾida (at-Tawḍīḥ) : les juristes parlent souvent de pur culte ; cela désigne la règle dont la sagesse ne nous apparaît pas (voir les alertes), tout en étant sûrs qu'elle en a une, car l'habitude de Dieu, que nous avons constatée, est d'apporter les biens et d'écarter les maux ; Ibn ʿAbbās : quand tu entends l'appel de Dieu, il ne t'appelle qu'à un bien ou ne t'écarte que d'un mal (ainsi l'aumône et les dépenses obligatoires pour combler les besoins, l'interdiction du meurtre, de la fornication, de l'ivresse, du vol et de la calomnie pour protéger les vies, les filiations, les esprits, les biens et l'honneur). Exemple : un roi qui honore toujours les savants et méprise les ignorants honore quelqu'un : nous pensons qu'il est savant. De même, quand Dieu établit une règle, nous savons qu'il l'a établie pour une sagesse : si elle nous apparaît, nous disons que la règle est de sens intelligible (مَعْقُولُ الْمَعْنَى, maʿqoûlou l-maʿnâ) ; sinon, que c'est un pur culte.\n\nAl-Dardīr : « par pur culte » est le complément de but du lavage. Al-Dasūqī : que le lavage soit un pur culte est l'avis le plus répandu ; on l'a jugé ainsi parce que le chien est pur, et c'est pourquoi on ne le demande pas pour le porc ; on a dit aussi que la recommandation s'explique par la saleté du chien, ou par son impureté (mais, l'eau n'étant pas changée, le lavage n'est pas obligatoire ; si elle l'était, il le serait) ; selon ces deux avis, le porc rejoint le chien ; selon le premier, on peut boire cette eau, mais il ne faut pas faire ses ablutions avec elle si l'on en a une autre, à cause de la divergence sur son impureté ; selon l'avis de l'impureté, on ne peut ni la boire ni faire ses ablutions avec elle (ainsi l'expliquait son maître al-ʿAdawī) ; c'est expliquer le général par le particulier : le pur culte est une demande du Législateur dont la sagesse ne nous est pas connue, alors que la recommandation est plus large.",
+    aqwal: [
+      { auteur: "Avis le plus répandu (« وَهَذَا هُوَ الْمَشْهُورُ مِنْ الْمَذْهَبِ »)", avis: "Le lavage est un pur culte, le chien étant pur.", statut: "mashhur" },
+      { auteur: "Avis rapporté sans attribution", avis: "Le lavage s'explique par la saleté du chien.", statut: "qawl" },
+      { auteur: "Avis rapporté sans attribution", avis: "Le lavage s'explique par l'impureté du chien.", statut: "qawl" },
+      { auteur: "Ibn Rushd (son choix)", avis: "Crainte que le chien soit enragé ; le nombre sept est celui des remèdes.", statut: "qawl" }
+    ],
+    muatamad: "Confirmé par al-Dasūqī : « اعْلَمْ أَنَّ كَوْنَ الْغَسْلِ تَعَبُّدًا هُوَ الْمَشْهُورُ » ; al-Dardīr : « (تَعَبُّدًا) مَفْعُولٌ لِأَجْلِهِ ».",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Sur les Compagnons : « وَهَذَا غَيْرُ لَائِقٍ بِالصَّحَابَةِ » ; réponse : « وَأُجِيبَ بِأَنَّ الْمُرَادَ بِهِ بَعْضُ الْأَعْرَابِ الَّذِينَ لَمْ يَتَمَكَّنْ الْإِسْلَامُ مِنْ قُلُوبِهِمْ ».",
+      "Ibn Rushd : « لِأَنَّ السَّبْعَ مِنْ الْعَدَدِ مُسْتَحَبٌّ فِيمَا كَانَ طَرِيقُهُ التَّدَاوِي ».",
+      "At-Tawḍīḥ : « ثُمَّ إنْ ظَهَرَتْ لَنَا فَنَقُولُ هُوَ مَعْقُولُ الْمَعْنَى » ; sinon : « وَإِنْ لَمْ تَظْهَرْ فَنَقُولُ هُوَ تَعَبُّدٌ »."
+    ],
+    divergences: [
+      "Concordance — le pur culte, avis le plus répandu. Al-Ḥaṭṭāb : « وَهَذَا هُوَ الْمَشْهُورُ مِنْ الْمَذْهَبِ لِطَهَارَةِ الْكَلْبِ ». Al-Dasūqī : « اعْلَمْ أَنَّ كَوْنَ الْغَسْلِ تَعَبُّدًا هُوَ الْمَشْهُورُ وَإِنَّمَا حَكَمَ بِكَوْنِهِ تَعَبُّدًا لِطَهَارَةِ الْكَلْبِ ».",
+      "Concordance — saleté ou impureté. Al-Ḥaṭṭāb : « وَقِيلَ لِقَذَارَتِهِ، وَقِيلَ: لِنَجَاسَتِهِ ». Al-Dasūqī : « وَقِيلَ: إنَّ نَدْبَ الْغَسْلِ مُعَلَّلٌ بِقَذَارَةِ الْكَلْبِ، وَقِيلَ لِنَجَاسَتِهِ ».",
+      "Concordance — boire l'eau lapée. Al-Ḥaṭṭāb, d'après al-Muqaddimāt : « يَجُوزُ شُرْبُهُ، وَلَا يَنْبَغِي الْوُضُوءُ بِهِ إذَا وُجِدَ غَيْرُهُ ». Al-Dasūqī, d'après « شيخنا » (son maître al-ʿAdawī) : « وَعَلَى الْقَوْلِ الْأَوَّلِ يَجُوزُ شُرْبُ ذَلِكَ الْمَاءِ وَلَا يَنْبَغِي الْوُضُوءُ بِهِ إذَا وَجَدَ غَيْرَهُ » … « كَذَا قَرَّرَ شَيْخُنَا ».",
+      "Concordance — la définition du pur culte. Al-Ḥaṭṭāb, d'après at-Tawḍīḥ : la sagesse existe sans nous apparaître. Al-Dasūqī : « لِأَنَّ التَّعَبُّدَ طَلَبُ الشَّارِعِ أَمْرًا خَالِيًا عَنْ الْحِكْمَةِ فِي عِلْمِنَا »."
+    ],
+    exemple: "Un fidèle demande pourquoi laver sept fois le seau qu'un chien a lapé, alors que le chien est pur selon l'école. Selon l'avis le plus répandu, c'est un pur culte : on le fait parce que le Prophète l'a ordonné, sans que la raison nous soit connue, tout en sachant qu'elle existe.",
+    erreurs_frequentes: [
+      "Croire que le lavage est fait parce que le chien est impur : selon l'avis le plus répandu, le chien est pur et le lavage est un pur culte.",
+      "Croire qu'un pur culte n'a aucune sagesse : sa sagesse existe, mais ne nous apparaît pas (at-Tawḍīḥ)."
+    ],
+    termes: [
+      { ar: "قَذَارَة", translit: "qadhâra", def: "Saleté répugnante, distincte de l'impureté rituelle." },
+      { ar: "مَعْقُولُ الْمَعْنَى", translit: "maʿqoûlou l-maʿnâ", def: "De sens intelligible : règle dont la sagesse nous apparaît (contraire du pur culte)." }
+    ],
+    quiz: [
+      { q: "Selon l'avis le plus répandu, pourquoi lave-t-on sept fois le récipient lapé ?",
+        choix: ["Parce que le chien est impur", "Parce que sa salive est un poison", "Par pur culte : le chien est pur", "Parce que l'eau a changé"],
+        bonne: 2,
+        explication: "« يَعْنِي أَنَّ الْغَسْلَ الْمَذْكُورَ تَعَبُّدٌ وَهَذَا هُوَ الْمَشْهُورُ مِنْ الْمَذْهَبِ لِطَهَارَةِ الْكَلْبِ »." },
+      { q: "Qu'est-ce qu'un « pur culte », selon at-Tawḍīḥ ?",
+        choix: ["Une règle dont la sagesse ne nous apparaît pas, sans qu'elle en soit dépourvue", "Une règle sans aucune sagesse", "Une règle seulement recommandée", "Une coutume des Compagnons"],
+        bonne: 0,
+        explication: "« مَعَ أَنَّا نَجْزِمُ أَنَّهُ لَا بُدَّ مِنْ حِكْمَتِهِ »." },
+      { q: "Quelle explication Ibn Rushd a-t-il choisie ?",
+        choix: ["La saleté du chien", "La désobéissance de certains Bédouins", "L'impureté du chien", "La crainte que le chien soit enragé"],
+        bonne: 3,
+        explication: "« وَاخْتَارَ ابْنُ رُشْدٍ كَوْنَ الْمَنْعِ مَخَافَةَ أَنْ يَكُونَ الْكَلْبُ كَلْبًا »." },
+      { q: "Mise en situation : un chien a bu dans votre gourde, et vous avez une autre eau. Selon l'avis du pur culte, que dit al-Dasūqī de l'eau de la gourde ?",
+        choix: ["Il est interdit de la boire", "On peut la boire, mais il ne faut pas faire ses ablutions avec elle", "Elle est impure", "Il faut la verser avant toute chose"],
+        bonne: 1,
+        explication: "« وَعَلَى الْقَوْلِ الْأَوَّلِ يَجُوزُ شُرْبُ ذَلِكَ الْمَاءِ وَلَا يَنْبَغِي الْوُضُوءُ بِهِ إذَا وَجَدَ غَيْرَهُ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "177" },
+    alertes: [
+      "Précisé (campagne de correction) : « وَمَعْنَى ذَلِكَ الْحُكْمِ الَّذِي لَا يَظْهَرُ حُكْمُهُ » ; at-Tawḍīḥ (14442, p. 71) porte « الحكم الذي لا تظهر له الحكمة » : la sagesse de la règle. La fiche suit at-Tawḍīḥ (anomalie n° 193).",
+      "Précisé (campagne de correction) : « إذَا تَمَكَّنَ مِنْهُ الْكَلْبُ » et « أَنْ يَكُونَ الْكَلْبُ كَلْبًا » : le sens est la rage (le chien enragé) ; vocalisation imprimée ambiguë ; Ibn ʿArafa (16968, p. 42) : « وأجاب حفيده بأن المانع تمكنه » (anomalie n° 189).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 83 (Shamela 21604, page 82)."
+    ],
+    verification: "verifie"
+  },
+
+  /* ------------------------------------------------------------------ */
+  {
+    id: "tah-01-03-46",
+    kitab: "tah", bab: "01", fasl: "03", ordre: 46,
+    titre: "Pour le lapement d'un chien seulement",
+    titre_ar: "بِوُلُوغِ كَلْبٍ مُطْلَقًا لَا غَيْرِهِ",
+    objectif: "Savoir quel contact du chien entraîne le lavage, pour quels chiens, et pourquoi les autres animaux ne sont pas concernés.",
+    matn: "بِوُلُوغِ كَلْبٍ مُطْلَقًا لَا غَيْرِهِ",
+    regle_pratique: "On ne lave le récipient sept fois que si un chien y a lapé — que ce soit un chien qu'il est permis d'avoir ou non —, et non s'il y a seulement mis la patte, ni pour le lapement d'un autre animal, comme le porc.",
+    qualification: {
+      hukm: "mandub",
+      nature: "autre",
+      effet_si_omis: "Non précisé dans le passage."
+    },
+    explication: "Al-Ḥaṭṭāb : le lavage demandé n'a pour cause que le lapement du chien : s'il a mis la patte dans le récipient, on ne lave pas, contrairement à ash-Shāfiʿī, car pour nous le lavage est un pur culte, pour lui il est dû à l'impureté. L'auteur d'al-Jamʿ rapporte d'Ibn Hārūn : je pense qu'il y a là deux avis ; Sanad : mettre la patte n'équivaut pas au lapement ; chez Ibn ʿĀt, cela y équivaut ; Ibn Nājī : la lettre du hadith est qu'on ne lave pas ; Khalīl l'a rapporté de l'école, mais je ne connais pas ce qu'il en rapporte ; al-Ḥaṭṭāb : Sanad l'a rapporté (le lavage est lié au seul lapement). Sanad : si le chien lèche la main de quelqu'un, celui-ci ne la lave pas. Langue : laper (walagha), c'est boire ; Ibn al-ʿArabī : le mot s'emploie pour les chiens et les fauves, non pour l'homme ; parmi les oiseaux, seule la mouche « lape » (al-Qāmūs).\n\n« Sans restriction » : le lavage ne concerne pas seulement le chien qu'il est interdit d'avoir, mais aussi celui qu'il est permis d'avoir (مَأْذُونٌ فِي اتِّخَاذِهِ, ma'dhoûnoun fî ttikhâdhihi) : c'est l'avis le plus répandu, comme l'a dit Ibn al-Fākihānī, et le seul que donne l'auteur d'al-Wāfī (d'après as-Sayyid) ; ash-Shāmil : c'est le plus correct ; on a dit aussi : seulement le chien interdit ; ce sont deux riwāyas (Ibn ʿArafa) ; at-Tawḍīḥ : selon que l'article de « le chien », dans le hadith, désigne le genre (tous les chiens) ou le chien connu (le chien interdit). Ibn ʿArafa rapporte un troisième avis d'Ibn Rushd et d'Ibn Zarqūn : le chien de la ville seulement, attribué à Ibn al-Mājishūn ; mais al-Lakhmī l'explique par le chien interdit, ce qui empêche d'en faire un troisième avis, le chien de ville étant presque toujours de ceux qu'il est interdit d'avoir.\n\n« Non un autre » : le lavage est propre au chien ; on ne lave pas pour un autre animal ; c'est la lettre de l'école ; Ibn Rushd : c'est le correct ; on a dit que le porc s'y joint ; ce sont deux riwāyas (Ibn al-Ḥājib, Ibn ʿArafa), selon que le lavage est un pur culte ou dû à la saleté. Ibn Rushd : si l'on y joint le porc, il faut y joindre tous les fauves, qui consomment l'impureté et entrent dans le nom (le Prophète a dit de ʿUtba b. Abī Lahab : « Ô Dieu, lance contre lui l'un de tes chiens », et le lion le dévora). Ibn Hārūn : pour le petit né d'un chien et d'un porc, selon l'avis qui n'y joint pas le porc, le plus prudent est de laver ; on peut aussi le rattacher à sa mère (Ibn Nājī : tout être né d'une femelle est au rang de sa mère).\n\nAl-Dardīr : sept fois, à cause du lapement d'un chien, qu'il soit permis de l'avoir ou non ; non pour autre chose que le lapement (s'il met la patte, ou la langue sans la remuer, ou si sa bave tombe) ; on peut aussi comprendre « non un autre que le chien », comme le porc. Al-Dasūqī : le lapement, c'est mettre la gueule dans l'eau et y remuer la langue ; si le chien lèche le récipient vide, on ne le lave pas (al-Kharashī) ; pour le porc et les autres fauves, le lavage n'est pas recommandé.",
+    aqwal: [
+      { auteur: "L'école, selon Sanad (contre ash-Shāfiʿī)", avis: "La patte ne compte pas : seul le lapement entraîne le lavage.", statut: "non_precise" },
+      { auteur: "Ibn ʿĀt ; Ibn Hārūn (deux avis, selon al-Jamʿ)", avis: "Mettre la patte équivaut au lapement.", statut: "qawl" },
+      { auteur: "Avis le plus répandu (Ibn al-Fākihānī ; ash-Shāmil : « هُوَ الْأَصَحُّ »)", avis: "Tout chien, qu'il soit permis de l'avoir ou non.", statut: "mashhur" },
+      { auteur: "Riwāya (selon Ibn ʿArafa)", avis: "Seulement le chien qu'il est interdit d'avoir.", statut: "qawl" },
+      { auteur: "Ibn al-Mājishūn (selon Ibn Rushd et Ibn Zarqūn)", avis: "Seulement le chien de la ville (al-Lakhmī : le chien interdit).", statut: "qawl" },
+      { auteur: "Lettre de l'école ; Ibn Rushd : « وَهُوَ الصَّحِيحُ »", avis: "Le lavage est propre au chien.", statut: "non_precise" },
+      { auteur: "Riwāya (selon Ibn al-Ḥājib et Ibn ʿArafa)", avis: "Le porc rejoint le chien ; pour Ibn Rushd, alors tous les fauves.", statut: "qawl" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : « (بِ) سَبَبِ (وُلُوغِ كَلْبٍ مُطْلَقًا) مَأْذُونًا فِي اتِّخَاذِهِ أَمْ لَا (لَا غَيْرِهِ) أَيْ لَا غَيْرِ الْوُلُوغِ » ; al-Dasūqī : « (قَوْلُهُ: كَخِنْزِيرٍ) أَيْ أَوْ غَيْرِهِ مِنْ السِّبَاعِ فَلَا يُسْتَحَبُّ غَسْلُ الْإِنَاءِ بِوُلُوغِهِ فِيهِ ».",
+    tarjih_hattab: "Contre Ibn Nājī : « (قُلْت) نَقَلَهُ سَنَدٌ وَنَصُّهُ: وَالْغَسْلُ مُتَعَلِّقٌ » … « بِوُلُوغِ الْكَلْبِ فَقَطْ ».",
+    tanbihat: [
+      "Sanad : « إذَا لَعِقَ الْكَلْبُ يَدَ أَحَدِكُمْ لَا يَغْسِلُهَا ».",
+      "Ibn al-ʿArabī : « وَيُسْتَعْمَلُ الْوُلُوغُ فِي الْكِلَابِ وَالسِّبَاعِ، وَلَا يُسْتَعْمَلُ فِي الْآدَمِيِّ ».",
+      "Al-Lakhmī : « فَسَّرَ الْحَضَرِيَّ فِي كَلَامِ ابْنِ الْمَاجِشُونِ بِالْمَنْهِيِّ عَنْهُ ».",
+      "Ibn Hārūn : « وَالْأَحْوَطُ وُجُوبُ الْغَسْلِ، وَلَا يَبْعُدُ أَنْ يُحْكَمَ فِيهِ بِتَبَعِيَّةِ أُمِّهِ »."
+    ],
+    divergences: [
+      "Concordance — tout chien. Al-Ḥaṭṭāb : « بَلْ يَغْسِلُ مِنْ وُلُوغِ الْمَأْذُونِ فِي اتِّخَاذِهِ وَالْمَنْهِيِّ عَنْ اتِّخَاذِهِ وَهَذَا هُوَ الْمَشْهُورُ ». Al-Dardīr : « مَأْذُونًا فِي اتِّخَاذِهِ أَمْ لَا ».",
+      "Concordance — pas de lavage pour la patte. Al-Ḥaṭṭāb : « فَلَوْ أَدْخَلَ يَدَهُ فِي الْإِنَاءِ أَوْ رِجْلَهُ لَمْ يُغْسَلْ ». Al-Dardīr : « كَمَا لَوْ أَدْخَلَ رِجْلَهُ أَوْ لِسَانَهُ بِلَا تَحْرِيكٍ أَوْ سَقَطَ لُعَابُهُ ».",
+      "Concordance — le porc et les fauves. Al-Ḥaṭṭāb : « يَعْنِي أَنَّ الْغَسْلَ خَاصٌّ بِالْكَلْبِ فَلَا يُغْسَلُ الْإِنَاءُ مِنْ غَيْرِهِ ». Al-Dardīr : « وَيَحْتَمِلُ لَا غَيْرَ الْكَلْبِ كَخِنْزِيرٍ » ; al-Dasūqī : « أَيْ أَوْ غَيْرِهِ مِنْ السِّبَاعِ ».",
+      "Complément — le récipient vide. Al-Dasūqī : « فَلَوْ لَعِقَ الْكَلْبُ الْإِنَاءَ مِنْ غَيْرِ أَنْ يَكُونَ فِيهِ مَاءٌ لَا يُسْتَحَبُّ غَسْلُهُ كَمَا فِي خش » (« خش » : al-Kharashī). Al-Ḥaṭṭāb n'en parle pas sur ce segment."
+    ],
+    exemple: "Le chien de troupeau d'un berger, qu'il est permis d'avoir, boit dans sa gamelle d'eau : le berger la lave sept fois avant de s'en servir (recommandé). Si le chien y a seulement mis la patte, il ne la lave pas sept fois. Si c'est un chat ou un autre animal qui y a bu, la règle des sept lavages ne s'applique pas.",
+    erreurs_frequentes: [
+      "Laver sept fois pour une patte ou pour la bave tombée : seul le lapement compte.",
+      "Croire que seuls les chiens qu'il est interdit d'avoir sont concernés : selon l'avis le plus répandu, tout chien l'est.",
+      "Appliquer les sept lavages au porc : selon la lettre de l'école, le lavage est propre au chien."
+    ],
+    termes: [
+      { ar: "مَأْذُونٌ فِي اتِّخَاذِهِ", translit: "ma'dhoûnoun fî ttikhâdhihi", def: "Qu'il est permis d'avoir : chien de garde, de troupeau ou de chasse." }
+    ],
+    quiz: [
+      { q: "Un chien met la patte dans un seau d'eau, sans y boire. Faut-il laver le seau sept fois ?",
+        choix: ["Oui, comme pour le lapement", "Oui, mais trois fois", "Seulement si l'eau change", "Non : seul le lapement compte"],
+        bonne: 3,
+        explication: "« فَلَوْ أَدْخَلَ يَدَهُ فِي الْإِنَاءِ أَوْ رِجْلَهُ لَمْ يُغْسَلْ »." },
+      { q: "Le chien de garde, qu'il est permis d'avoir, est-il concerné ?",
+        choix: ["Non, seulement le chien interdit", "Oui, selon l'avis le plus répandu", "Seulement en ville", "Seulement s'il est enragé"],
+        bonne: 1,
+        explication: "« بَلْ يَغْسِلُ مِنْ وُلُوغِ الْمَأْذُونِ فِي اتِّخَاذِهِ وَالْمَنْهِيِّ عَنْ اتِّخَاذِهِ وَهَذَا هُوَ الْمَشْهُورُ »." },
+      { q: "Un porc a bu dans un récipient. Que dit la lettre de l'école ?",
+        choix: ["Laver sept fois", "Laver huit fois avec de la terre", "Le lavage de sept fois est propre au chien", "Jeter le récipient"],
+        bonne: 2,
+        explication: "« يَعْنِي أَنَّ الْغَسْلَ خَاصٌّ بِالْكَلْبِ فَلَا يُغْسَلُ الْإِنَاءُ مِنْ غَيْرِهِ وَهُوَ الظَّاهِرُ مِنْ الْمَذْهَبِ »." },
+      { q: "Mise en situation : votre chien lèche votre main. Que dit Sanad ?",
+        choix: ["Vous ne la lavez pas", "Vous la lavez sept fois", "Vous la lavez une fois", "Vous l'aspergez"],
+        bonne: 0,
+        explication: "« إذَا لَعِقَ الْكَلْبُ يَدَ أَحَدِكُمْ لَا يَغْسِلُهَا »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "177-178" },
+    alertes: [
+      "Ibn ʿArafa (16968, p. 42) : « وفي خصوصه بالمنهي عن اتخاذه الباجي روايتان » et « ثالثها لابن الماجشون بالحضري وتفسيره اللخمي بالمنهي عنه يمنع كونه ثالثا » ; at-Tawḍīḥ (14442, p. 74) : « الغسل مختص بالولوغ فلو أدخل يده أو رجله لم يغسل خلافا للشافعي » : citations conformes.",
+      "Précisé (campagne de correction) : « خِلَافًا لِلشَّافِعَيَّ » (deux fois) : vocalisation fautive du nom d'ash-Shāfiʿī (anomalie n° 189).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 83 (Shamela 21604, page 82)."
+    ],
+    verification: "verifie"
+  },
+
+  /* ------------------------------------------------------------------ */
+  {
+    id: "tah-01-03-47",
+    kitab: "tah", bab: "01", fasl: "03", ordre: 47,
+    titre: "Au moment de se servir du récipient",
+    titre_ar: "عِنْدَ قَصْدِ الِاسْتِعْمَالِ",
+    objectif: "Savoir à quel moment laver le récipient lapé.",
+    matn: "عِنْدَ قَصْدِ الِاسْتِعْمَالِ",
+    regle_pratique: "On ne lave le récipient lapé qu'au moment où l'on veut s'en servir, et non aussitôt après le lapement (avis le plus répandu) ; un récipient qui s'est brisé n'a pas à être lavé.",
+    qualification: {
+      hukm: "mandub",
+      nature: "autre",
+      effet_si_omis: "Non précisé dans le passage."
+    },
+    explication: "Al-Ḥaṭṭāb : on n'est invité à laver qu'au moment où l'on veut se servir du récipient : c'est l'avis le plus répandu ; Ibn ʿArafa l'attribue à la plupart des savants et à la riwāya de ʿAbd al-Ḥaqq. On a dit aussi qu'on lave aussitôt après le lapement (فَوْر, fawr) ; Ibn ʿArafa le rattache à une déduction rapportée par al-Māzirī, fondée sur la rigueur (voir les alertes), et à la transmission d'Ibn Rushd. At-Tawḍīḥ : Ibn Rushd et ʿIyāḍ fondent la divergence sur la raison du lavage : pur culte, il serait dû aussitôt, car on ne retarde pas un acte d'adoration ; dû à l'impureté, il ne le serait qu'au moment de s'en servir ; Khalīl trouve cela discutable, puisque l'avis le plus répandu est à la fois le pur culte et le lavage au moment de s'en servir ; mieux vaut fonder la divergence sur celle de l'ordre : faut-il l'exécuter aussitôt, ou peut-on le différer (تَرَاخِي, tarâkhî) ?\n\nL'auteur d'al-Jamʿ : la lettre d'adh-Dhakhīra préfère le second avis, qu'elle cite en premier ; il se demande si Ibn al-Ḥājib veut parler de ce choix entre « aussitôt » et « au moment de s'en servir », ou dire qu'on lave quand on veut se servir du récipient — que l'usage suive ou non l'intention — et qu'on ne le lave pas si l'on ne veut pas s'en servir, l'autre avis faisant alors laver même si l'on a décidé de ne plus s'en servir, jusqu'aux morceaux d'un récipient brisé ; il juge apparent le premier sens ; al-Ḥaṭṭāb : c'est le sens qui s'impose, et ce qui ressort de leurs propos. Ibn ʿAbd as-Salām : on cite parfois comme effet de la divergence le lavage du récipient brisé, ce qui est peu vraisemblable (voir les alertes). Sanad : l'école de Mālik est de laver au moment de vouloir s'en servir, non aussitôt, comme certains l'ont prétendu, car on ne le lave que pour s'en servir : laverait-on les morceaux d'un récipient brisé après le lapement ? Al-Ḥaṭṭāb : la lettre de ce texte est que personne ne dit qu'on lave les morceaux.\n\nAl-Dardīr : le temps de la recommandation est le moment où l'on veut se servir du récipient, non aussitôt après le lapement. Al-Dasūqī : c'est l'avis le plus répandu, qu'Ibn ʿArafa attribue à la plupart et à la riwāya de ʿAbd al-Ḥaqq ; on a dit qu'on lave aussitôt ; la lettre de Khalīl ferait laver dès le matin celui qui a l'intention de s'en servir le soir, alors qu'on ne lave qu'au moment de se mettre à s'en servir : il faut sous-entendre « au moment de se disposer à s'en servir ».",
+    aqwal: [
+      { auteur: "Avis le plus répandu (Ibn ʿArafa : la plupart ; riwāya de ʿAbd al-Ḥaqq)", avis: "On lave au moment de vouloir se servir du récipient.", statut: "mashhur" },
+      { auteur: "Avis rapporté (déduction rapportée par al-Māzirī ; transmission d'Ibn Rushd, selon Ibn ʿArafa)", avis: "On lave aussitôt après le lapement.", statut: "qawl" },
+      { auteur: "Ibn Rushd et ʿIyāḍ (selon at-Tawḍīḥ)", avis: "Divergence fondée sur la raison du lavage (pur culte ou impureté).", statut: "qawl" },
+      { auteur: "Khalīl (at-Tawḍīḥ)", avis: "Mieux vaut la fonder sur l'ordre : exécuté aussitôt ou différé.", statut: "non_precise" },
+      { auteur: "Sanad", avis: "L'école de Mālik : au moment de s'en servir ; on ne lave pas les morceaux d'un récipient brisé.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : « وَوَقْتُ النَّدْبِ (عِنْدَ قَصْدِ الِاسْتِعْمَالِ) لَا بِفَوْرِ الْوُلُوغِ » ; al-Dasūqī : « وَهَذَا هُوَ الْمَشْهُورُ وَعَزَاهُ ابْنُ عَرَفَةَ لِلْأَكْثَرِ وَلِرِوَايَةِ عَبْدِ الْحَقِّ ».",
+    tarjih_hattab: "« وَهُوَ الْمُتَعَيَّنُ وَهُوَ الَّذِي يَظْهَرُ مِنْ كَلَامِهِمْ » ; sur le récipient brisé : « فَظَاهِرُهُ أَنَّهُ لَا يَقُولُ أَحَدٌ بِغَسْلِ شِقَاقِهِ ».",
+    tanbihat: [
+      "At-Tawḍīḥ : « وَالْأَحْسَنُ أَنْ يُبْنَى الْخِلَافُ عَلَى الْخِلَافِ فِي الْأَمْرِ هَلْ هُوَ لِلْفَوْرِ، أَوْ لِلتَّرَاخِي ».",
+      "Sanad : « أَرَأَيْت لَوْ كُسِرَ بَعْدَ الْوُلُوغِ أَكَانَ يُغْسَلُ شِقَاقُهُ »."
+    ],
+    divergences: [
+      "Concordance — l'avis le plus répandu. Al-Ḥaṭṭāb : « هَذَا هُوَ الْمَشْهُورُ وَعَزَاهُ ابْنُ عَرَفَةَ لِلْأَكْثَرِ وَلِرِوَايَةِ عَبْدِ الْحَقِّ ». Al-Dasūqī : « وَهَذَا هُوَ الْمَشْهُورُ وَعَزَاهُ ابْنُ عَرَفَةَ لِلْأَكْثَرِ وَلِرِوَايَةِ عَبْدِ الْحَقِّ وَقِيلَ يُؤْمَرُ بِالْغَسْلِ بِفَوْرِ الْوُلُوغِ ».",
+      "Point à comparer — le moment précis. Al-Ḥaṭṭāb, d'après l'auteur d'al-Jamʿ, qu'il approuve : on lave quand on veut se servir du récipient, « سَوَاءٌ اتَّصَلَ الِاسْتِعْمَالُ بِالْقَصْدِ، أَوْ لَمْ يَتَّصِلْ ». Al-Dasūqī : « مَعَ أَنَّهُ لَا يُنْدَبُ الْغَسْلُ إلَّا عِنْدَ التَّوَجُّهِ لِلِاسْتِعْمَالِ » … « أَيْ عِنْدَ قَصْدِ التَّوَجُّهِ لِلِاسْتِعْمَالِ »."
+    ],
+    exemple: "Un soir, un chien boit dans une cruche qu'on n'utilise plus. On ne la lave pas tant qu'on ne veut pas s'en servir ; le jour où l'on veut y remettre de l'eau, on la lave d'abord sept fois. Si elle s'est brisée entre-temps, on ne lave pas ses morceaux.",
+    erreurs_frequentes: [
+      "Se croire obligé de laver le récipient aussitôt après le lapement : on le lave au moment de s'en servir.",
+      "Laver les morceaux d'un récipient brisé : personne ne le dit (Sanad, d'après al-Ḥaṭṭāb)."
+    ],
+    termes: [
+      { ar: "فَوْر", translit: "fawr", def: "Immédiateté : faire une chose aussitôt, sans délai." },
+      { ar: "تَرَاخِي", translit: "tarâkhî", def: "Délai permis : un ordre qu'on peut exécuter plus tard." }
+    ],
+    quiz: [
+      { q: "Quand lave-t-on le récipient lapé selon l'avis le plus répandu ?",
+        choix: ["Au moment où l'on veut s'en servir", "Aussitôt après le lapement", "Le lendemain", "Avant chaque prière"],
+        bonne: 0,
+        explication: "Al-Dardīr : « وَوَقْتُ النَّدْبِ (عِنْدَ قَصْدِ الِاسْتِعْمَالِ) لَا بِفَوْرِ الْوُلُوغِ »." },
+      { q: "Sur quoi Khalīl (at-Tawḍīḥ) préfère-t-il fonder la divergence ?",
+        choix: ["Sur l'impureté du chien", "Sur le nombre de lavages", "Sur la question de l'ordre : exécuté aussitôt ou différé", "Sur l'usage des Bédouins"],
+        bonne: 2,
+        explication: "« وَالْأَحْسَنُ أَنْ يُبْنَى الْخِلَافُ عَلَى الْخِلَافِ فِي الْأَمْرِ هَلْ هُوَ لِلْفَوْرِ، أَوْ لِلتَّرَاخِي »." },
+      { q: "Mise en situation : un chien a bu dans un pot qui s'est ensuite brisé. Faut-il laver les morceaux ?",
+        choix: ["Oui, sept fois", "Non : on ne lave que pour se servir du récipient", "Oui, une fois", "Seulement si on les garde"],
+        bonne: 1,
+        explication: "Sanad : « وَوَجْهُ الْمَذْهَبِ أَنَّ غَسْلَهُ إنَّمَا يُرَادُ لِيُسْتَعْمَلَ » ; « فَظَاهِرُهُ أَنَّهُ لَا يَقُولُ أَحَدٌ بِغَسْلِ شِقَاقِهِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "178" },
+    alertes: [
+      "Corrigé (campagne de correction) : « وَعَزَاهُ ابْنُ عَرَفَةَ لِتَخْرِيجِ الْمَازِرِيُّ عَلَى التَّحْرِيرِ » ; Ibn ʿArafa (16968, p. 42) porte « والمازري عن تخريج بعضهم على التشديد مع نقل ابن رشد » : la déduction est celle de « certains », rapportée par al-Māzirī, et fondée sur la rigueur. La fiche suit ce sens (anomalie n° 190).",
+      "Non résolu (sans effet) : « وَرُبَّمَا بِمَا ذُكِرَ فِي ثَمَرَةِ الْخِلَافِ هُنَا » (Ibn ʿAbd as-Salām) : phrase altérée, un mot manque sans doute ; seul le sens général est rapporté. Aucun témoin dans les pages lues (anomalie n° 194).",
+      "Ibn ʿArafa (16968, p. 42) : « وفي تراخيه لحين استعمال وفوره قولان للأكثر مع رواية عبد الحق » ; at-Tawḍīḥ (14442, p. 71) : « والأحسن أن يبني على الخلاف في الأمر هل هو على الفور أو على التراخي » : conformes.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 84 (Shamela 21604, page 83)."
+    ],
+    verification: "verifie"
+  },
+
+  /* ------------------------------------------------------------------ */
+  {
+    id: "tah-01-03-48",
+    kitab: "tah", bab: "01", fasl: "03", ordre: 48,
+    titre: "Sans intention",
+    titre_ar: "بِلَا نِيَّةٍ",
+    objectif: "Savoir que le lavage du récipient lapé n'exige ni intention ni, selon l'avis retenu, frottement.",
+    matn: "بِلَا نِيَّةٍ",
+    regle_pratique: "Laver le récipient lapé ne demande pas d'intention, comme le lavage du mort : c'est un pur culte accompli sur autre chose que soi ; verser l'eau suffit, sans frotter (al-Ḥaṭṭāb, al-Dasūqī).",
+    qualification: {
+      hukm: "mubah",
+      nature: "autre",
+      effet_si_omis: "Laver sans intention n'empêche pas le lavage de valoir (« يَعْنِي أَنَّهُ لَا يُشْتَرَطُ فِي غَسْلِ الْإِنَاءِ النِّيَّةُ »)."
+    },
+    explication: "Al-Ḥaṭṭāb : l'intention n'est pas une condition du lavage du récipient (al-Bājī et Ibn Rushd) : un pur culte ne demande l'intention que lorsque la personne l'accomplit sur elle-même ; ni pour celui-ci, ni pour le lavage du mort (غَسْلُ الْمَيِّتِ, ghaslou l-mayyit) et ce qui leur ressemble (adh-Dhakhīra). Il se peut qu'on l'exige, par analogie avec l'aspersion (pour qui l'y exige, fiche tah-01-03-39) ; mais on peut les distinguer : ce lavage ôte la salive, alors que l'aspersion n'ôte rien et est donc un pur culte ; l'origine en est l'auteur d'aṭ-Ṭirāz, qui ajoute : si l'on s'est servi du récipient sans le laver, en y mettant de l'eau une fois, doit-on le laver ensuite sept fois, ou en comptant cette eau ? Cela dépend de l'exigence de l'intention ; al-Bājī : pas d'intention ; peut-on en tirer un second avis par analogie avec l'aspersion, ou les distinguer ? La question reste ouverte. Autre cas : celui qui s'est servi du récipient avant de le laver ne se dispense pas du lavage, et n'a pas à laver ce que cette eau a touché, l'école tenant cette eau pour pure.\n\nFaut-il frotter (دَلْك) ? At-Tawḍīḥ : pas de texte, et l'apparent, selon nos fondements, est de l'exiger, car le lavage n'est complet qu'avec lui. Al-Ḥaṭṭāb : s'il veut dire « pas de texte des anciens », d'accord ; s'il veut dire que personne ne l'a dit avant lui, non : adh-Dhakhīra l'a dit, d'après l'auteur d'aṭ-Ṭirāz, mais en le rattachant à l'avis qui exige l'intention : faut-il alors frotter de la main, comme dans les ablutions, ou suffit-il de rincer ? Pas de texte du tout ; on peut dire que le frottement n'est pas exigé, l'ordre de laver suivant l'usage ordinaire de laver les récipients (on dit bien que le ciel « lave » la terre par la pluie). Al-Ḥaṭṭāb : il en ressort que, selon l'avis qui n'exige pas l'intention, le frottement n'est pas exigé, et il est suggéré qu'il ne l'est pas non plus selon l'autre ; Ibn al-ʿArabī indique qu'il n'est pas exigé et que c'est l'école : le lavage, c'est verser l'eau pour ôter quelque chose ; laver le récipient lapé, c'est verser l'eau sur lui, puisqu'il n'y a là rien à ôter.\n\nAl-Dardīr : sans intention, car c'est un pur culte portant sur autre chose que soi, comme le lavage du mort. Al-Dasūqī : « sans intention » se rattache à un mot sous-entendu (le lavage se fait sans intention), et non au lavage recommandé lui-même, sinon la recommandation porterait sur le lavage sans intention, ce qui n'est pas le cas ; il ajoute que ce lavage ne demande pas non plus de frottement (voir les alertes), car il ne vise pas à ôter une chose sensible, comme dans al-Ḥaṭṭāb.",
+    aqwal: [
+      { auteur: "Al-Bājī et Ibn Rushd", avis: "Pas d'intention : un pur culte accompli sur autre chose que soi n'en demande pas.", statut: "non_precise" },
+      { auteur: "Avis envisagé (adh-Dhakhīra, d'après aṭ-Ṭirāz)", avis: "Intention exigée par analogie avec l'aspersion.", statut: "qawl" },
+      { auteur: "Khalīl (at-Tawḍīḥ)", avis: "Le frottement est apparemment exigé, selon nos fondements.", statut: "qawl" },
+      { auteur: "L'auteur d'aṭ-Ṭirāz (adh-Dhakhīra)", avis: "On peut dire que le frottement n'est pas exigé.", statut: "non_precise" },
+      { auteur: "Ibn al-ʿArabī", avis: "Pas de frottement : c'est l'école ; verser l'eau suffit.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : « (بِلَا نِيَّةٍ) لِأَنَّهُ تَعَبُّدٌ فِي الْغَيْرِ كَغَسْلِ الْمَيِّتِ ». Pour le frottement : al-Dasūqī le dit non exigé, « لِأَنَّ ذَلِكَ الْغَسْلَ لَيْسَ لِإِزَالَةِ شَيْءٍ مَحْسُوسٍ كَمَا فِي ح » (« ح » : Muḥammad al-Ḥaṭṭāb ; voir les alertes).",
+    tarjih_hattab: "« فَظَاهِرُهُ أَنَّهُ عَلَى الْقَوْلِ بِعَدَمِ اشْتِرَاطِ النِّيَّةِ لَا يُشْتَرَطُ الدَّلْكُ » ; contre at-Tawḍīḥ : « وَإِنْ أَرَادَ أَنَّهُ لَمْ يُسْبَقْ إلَيْهِ فَمَمْنُوعٌ ».",
+    tanbihat: [
+      "Al-Bājī et Ibn Rushd : « وَإِنَّمَا يَفْتَقِرُ التَّعَبُّدُ إلَى النِّيَّةِ » … « إذَا فَعَلَهُ الشَّخْصُ فِي نَفْسِهِ ».",
+      "Distinction avec l'aspersion : « بِأَنَّ الْغَسْلَ هُنَا يُزِيلُ اللُّعَابَ فَالنَّضْحُ لَا يُزِيلُ شَيْئًا ».",
+      "Usage avant le lavage : « إذَا اسْتَعْمَلَهُ قَبْلَ غَسْلِهِ لَا يَسْقُطُ الْغَسْلُ، وَلَا يُؤْمَرُ بِغَسْلِ مَا أَصَابَهُ ذَلِكَ الْمَاءُ ».",
+      "Ibn al-ʿArabī : « أَلَا تَرَى أَنَّ غَسْلَ الْإِنَاءِ مِنْ وُلُوغِ الْكَلْبِ صَبُّ الْمَاءِ عَلَيْهِ؛ لِأَنَّهُ لَيْسَ هُنَاكَ شَيْءٌ يُزَالُ »."
+    ],
+    divergences: [
+      "Concordance — pas d'intention. Al-Ḥaṭṭāb : « يَعْنِي أَنَّهُ لَا يُشْتَرَطُ فِي غَسْلِ الْإِنَاءِ النِّيَّةُ قَالَهُ الْبَاجِيُّ وَابْنُ رُشْدٍ ». Al-Dardīr : « لِأَنَّهُ تَعَبُّدٌ فِي الْغَيْرِ كَغَسْلِ الْمَيِّتِ ».",
+      "Concordance — le frottement. Al-Ḥaṭṭāb, d'après Ibn al-ʿArabī : « لِأَنَّهُ لَيْسَ هُنَاكَ شَيْءٌ يُزَالُ ». Al-Dasūqī : « لِأَنَّ ذَلِكَ الْغَسْلَ لَيْسَ لِإِزَالَةِ شَيْءٍ مَحْسُوسٍ كَمَا فِي ح » (« ح » : Muḥammad al-Ḥaṭṭāb). At-Tawḍīḥ, cité par al-Ḥaṭṭāb, penchait pour l'exiger : « وَالظَّاهِرُ عَلَى أُصُولِنَا الِاشْتِرَاطُ ».",
+      "Complément — la construction de « بِلَا نِيَّةٍ ». Al-Dasūqī : « مُتَعَلِّقٌ بِمَحْذُوفٍ أَيْ وَيَكُونُ الْغَسْلُ بِلَا نِيَّةٍ لَا بِالْغَسْلِ الْمَذْكُورِ ». Al-Ḥaṭṭāb n'en parle pas."
+    ],
+    exemple: "Une femme lave sept fois, en pensant à autre chose, la gamelle où le chien a bu : son lavage vaut, sans intention. Il lui suffit d'y verser l'eau à chaque fois, sans frotter, selon ce que retiennent al-Ḥaṭṭāb et al-Dasūqī.",
+    erreurs_frequentes: [
+      "Croire que ce lavage demande une intention, comme les ablutions : c'est un pur culte accompli sur autre chose que soi.",
+      "Croire que s'être servi du récipient avant de le laver dispense du lavage : il reste recommandé.",
+      "Laver ce qu'a touché l'eau lapée : elle est pure selon l'école."
+    ],
+    termes: [
+      { ar: "غَسْلُ الْمَيِّتِ", translit: "ghaslou l-mayyit", def: "Lavage mortuaire : lavage rituel du corps du défunt, fait par un autre que lui." }
+    ],
+    quiz: [
+      { q: "Faut-il une intention pour laver le récipient lapé ?",
+        choix: ["Oui, comme pour les ablutions", "Non : c'est un pur culte accompli sur autre chose que soi", "Oui, si l'on lave sept fois", "Seulement pour le dernier lavage"],
+        bonne: 1,
+        explication: "Al-Dardīr : « (بِلَا نِيَّةٍ) لِأَنَّهُ تَعَبُّدٌ فِي الْغَيْرِ كَغَسْلِ الْمَيِّتِ »." },
+      { q: "Pourquoi distingue-t-on ce lavage de l'aspersion, pour l'intention ?",
+        choix: ["L'aspersion se fait à la main", "Ce lavage est plus court", "L'aspersion n'est pas un pur culte", "Ce lavage ôte la salive, l'aspersion n'ôte rien"],
+        bonne: 3,
+        explication: "« بِأَنَّ الْغَسْلَ هُنَا يُزِيلُ اللُّعَابَ فَالنَّضْحُ لَا يُزِيلُ شَيْئًا »." },
+      { q: "Mise en situation : vous vous êtes servi du récipient lapé sans le laver. Que faire ?",
+        choix: ["Le lavage reste recommandé, mais vous n'avez pas à laver ce que l'eau a touché", "Le lavage n'est plus demandé", "Il faut laver tout ce que l'eau a touché", "Il faut refaire vos prières"],
+        bonne: 0,
+        explication: "« إذَا اسْتَعْمَلَهُ قَبْلَ غَسْلِهِ لَا يَسْقُطُ الْغَسْلُ، وَلَا يُؤْمَرُ بِغَسْلِ مَا أَصَابَهُ ذَلِكَ الْمَاءُ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "178-179" },
+    alertes: [
+      "Précisé (campagne de correction) : al-Dasūqī imprime « لَا يَحْتَاجُ أَيْضًا لِذَلِكَ؛ لِأَنَّ ذَلِكَ الْغَسْلَ لَيْسَ لِإِزَالَةِ شَيْءٍ مَحْسُوسٍ » ; le sens est le frottement, comme le montrent la raison donnée et la ḥāshiya d'al-Kharashī (91, p. 117 « وفي كلام ابن العربي ما يدل على عدم الاشتراط على المذهب بل يكفي صب الماء على الإناء ») ; la fiche suit ce sens (anomalie n° 192). Cette remarque d'al-Dasūqī est placée sous « وَلَا تَتْرِيبٍ » (21604, p. 83).",
+      "At-Tawḍīḥ (14442, p. 74) : « هل يشترط الدلك أم لا ليس فيه نص والظاهر على أصولنا الاشتراط » et « لا تشترط النية في الغسل قاله الباجي وابن رشد » : citations conformes.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 84 (Shamela 21604, page 83)."
+    ],
+    verification: "verifie"
+  },
+
+  /* ------------------------------------------------------------------ */
+  {
+    id: "tah-01-03-49",
+    kitab: "tah", bab: "01", fasl: "03", ordre: 49,
+    titre: "Pas de terre",
+    titre_ar: "وَلَا تَتْرِيبَ",
+    objectif: "Savoir que l'école ne demande pas de frotter le récipient lapé avec de la terre, et pourquoi.",
+    matn: "وَلَا تَتْرِيبَ",
+    regle_pratique: "On ne frotte pas le récipient lapé avec de la terre : l'école ne le demande pas, la terre ne figurant pas dans toutes les versions du hadith.",
+    qualification: {
+      hukm: "mubah",
+      nature: "autre",
+      effet_si_omis: "Non précisé dans le passage."
+    },
+    explication: "Al-Ḥaṭṭāb : frotter le récipient de terre (تَتْرِيب, tatrîb) n'est pas demandé chez nous, parce que ce n'est pas établi dans toutes les versions du hadith (ʿIyāḍ), ou parce que les voies qui le rapportent divergent : « l'une d'elles », « la première », « la dernière » ; al-Qurṭubī : Mālik ne l'a pas dit parce que ce n'est pas dans sa version (celle du Muwaṭṭaʾ, fiche tah-01-03-44).\n\nAl-Dardīr : pas de terre, c'est-à-dire qu'on ne met de terre ni au premier lavage, ni au dernier, ni à l'un d'eux. Al-Dasūqī : parce que la terre n'est pas établie dans toutes les versions, et que celles où elle l'est sont incohérentes entre elles (اِضْطِرَاب, idtirâb).",
+    aqwal: [
+      { auteur: "ʿIyāḍ", avis: "La terre n'est pas établie dans toutes les versions ; ou leurs voies divergent.", statut: "non_precise" },
+      { auteur: "Al-Qurṭubī", avis: "La terre n'est pas dans la version de Mālik.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : « (وَلَا تَتْرِيبٍ) بِأَنْ يُجْعَلَ فِي الْأُولَى أَوْ الْأَخِيرَةِ أَوْ إحْدَاهُنَّ تُرَابٌ ».",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Al-Qurṭubī : « إنَّمَا لَمْ يَقُلْ مَالِكٌ بِالتَّعْفِيرِ؛ لِأَنَّهُ لَيْسَ فِي رِوَايَتِهِ »."
+    ],
+    divergences: [
+      "Concordance — la raison. Al-Ḥaṭṭāb, d'après ʿIyāḍ : « لِأَنَّهُ لَمْ يَثْبُتْ فِي كُلِّ الرِّوَايَاتِ ». Al-Dasūqī : « أَيْ لِأَنَّ التَّتْرِيبَ لَمْ يَثْبُتْ فِي كُلِّ الرِّوَايَاتِ، وَإِنَّمَا ثَبَتَ فِي بَعْضِهَا، وَذَلِكَ الْبَعْضُ الَّذِي ثَبَتَ فِيهِ وَقَعَ فِيهِ اضْطِرَابٌ »."
+    ],
+    exemple: "Une famille qui a lavé sept fois la gamelle lapée par le chien n'a pas à la frotter de terre en plus.",
+    erreurs_frequentes: [
+      "Ajouter de la terre à l'un des lavages comme si c'était demandé : l'école ne le demande pas.",
+      "Croire que Mālik a rejeté le hadith : la terre n'était pas dans sa version (al-Qurṭubī)."
+    ],
+    termes: [
+      { ar: "تَتْرِيب", translit: "tatrîb", def: "Frotter un récipient avec de la terre lors de son lavage." },
+      { ar: "اِضْطِرَاب", translit: "idtirâb", def: "Incohérence entre les versions d'un hadith, qui l'affaiblit sur le point concerné." }
+    ],
+    quiz: [
+      { q: "Faut-il frotter le récipient lapé avec de la terre selon l'école ?",
+        choix: ["Oui, au premier lavage", "Oui, au dernier lavage", "Non : ce n'est pas demandé", "Oui, par un huitième lavage"],
+        bonne: 2,
+        explication: "« يَعْنِي أَنَّ تَتْرِيبَ الْإِنَاءِ غَيْرُ مَطْلُوبٍ عِنْدَنَا »." },
+      { q: "Pourquoi, selon ʿIyāḍ ?",
+        choix: ["La terre n'est pas établie dans toutes les versions du hadith", "La terre est impure", "Le chien est impur", "Mālik ignorait le hadith"],
+        bonne: 0,
+        explication: "« لِأَنَّهُ لَمْ يَثْبُتْ فِي كُلِّ الرِّوَايَاتِ قَالَهُ عِيَاضٌ »." },
+      { q: "Mise en situation : un voisin vous dit qu'il faut mettre de la terre au premier lavage. Que dit al-Dardīr ?",
+        choix: ["C'est obligatoire", "C'est recommandé", "C'est seulement pour le porc", "L'école n'en demande ni au premier, ni au dernier, ni à aucun lavage"],
+        bonne: 3,
+        explication: "« (وَلَا تَتْرِيبٍ) بِأَنْ يُجْعَلَ فِي الْأُولَى أَوْ الْأَخِيرَةِ أَوْ إحْدَاهُنَّ تُرَابٌ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "179" },
+    alertes: [
+      "Précisé (campagne de correction) : matn « وَلَا تَتْرِيبَ » selon le « ص » de Mawāhib ; le Mukhtaṣar seul (11355, p. 8) et al-Dardīr portent « وَلَا تَتْرِيبٍ », coordonné à « نِيَّةٍ » ; même règle (anomalie n° 189).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 84 (Shamela 21604, page 83)."
+    ],
+    verification: "verifie"
+  },
+
+  /* ------------------------------------------------------------------ */
+  {
+    id: "tah-01-03-50",
+    kitab: "tah", bab: "01", fasl: "03", ordre: 50,
+    titre: "Pas de répétition pour plusieurs chiens",
+    titre_ar: "وَلَا يَتَعَدَّدُ بِوُلُوغِ كَلْبٍ أَوْ كِلَابٍ",
+    objectif: "Savoir que sept lavages suffisent quel que soit le nombre de lapements ou de chiens.",
+    matn: "وَلَا يَتَعَدَّدُ بِوُلُوغِ كَلْبٍ أَوْ كِلَابٍ",
+    regle_pratique: "Si un chien a lapé plusieurs fois dans un récipient, ou si plusieurs chiens y ont lapé avant qu'on le lave, sept lavages suffisent (avis le plus répandu).",
+    qualification: {
+      hukm: "mandub",
+      nature: "autre",
+      effet_si_omis: "Non précisé dans le passage."
+    },
+    explication: "Al-Ḥaṭṭāb : le lavage ne se multiplie ni par la répétition du lapement d'un chien, ni par le nombre des chiens : sept lavages suffisent ; c'est l'avis le plus répandu (Ibn al-Ḥājib), car, quand des causes ont le même effet, une seule suffit, comme pour les causes multiples d'annulation de la pureté, les oublis dans la prière et ce qui entraîne les peines légales (تَدَاخُلُ الْأَسْبَابِ, tadâkhoulou l-asbâb). On a dit qu'il se multiplie ; Ibn Bashīr, Ibn Shās et Ibn al-Ḥājib rapportent la divergence ; al-Māzirī : pas de texte, et le plus apparent est qu'il ne se répète pas ; Ibn ʿArafa : cela contredit Ibn Bashīr et Ibn Shās, qui y rapportent deux avis, et la formule d'Ibn al-Ḥājib « selon l'avis le plus répandu » ; Sanad dit qu'il ne se multiplie pas, en fait l'école, et ne rapporte de divergence que chez certains shāfiʿites. Ibn ʿAbd as-Salām : ne pas multiplier convient à l'avis de l'impureté et de la saleté, multiplier à celui du pur culte ; mais l'avis le plus répandu est contraire à ce qu'il dit. Ibn Hārūn : la divergence vient de l'article dans « le chien » : désigne-t-il la nature ou le genre ? Selon le premier, on répète ; selon le second, non. Ibn Nājī : le juste est l'avis de certains shāfiʿites : pas de répétition pour un seul chien, répétition pour plusieurs ; les shāfiʿites ont donc trois avis.\n\nAl-Dardīr : la recommandation du lavage ne se multiplie pas pour le lapement répété d'un chien, ou de plusieurs, dans un même récipient, avant le lavage, car les causes se recouvrent, comme les causes d'annulation de la pureté. Al-Dasūqī : il s'agit des effets de ces causes, comme les effets des causes d'annulation.",
+    aqwal: [
+      { auteur: "Avis le plus répandu (Ibn al-Ḥājib) ; al-Māzirī : « وَالْأَظْهَرُ فِيهِ عَدَمُ التَّكَرُّرِ » ; Sanad : l'école", avis: "Le lavage ne se multiplie pas.", statut: "mashhur" },
+      { auteur: "Avis rapporté par Ibn Bashīr, Ibn Shās et Ibn al-Ḥājib", avis: "Le lavage se multiplie.", statut: "qawl" },
+      { auteur: "Ibn Nājī (avec certains shāfiʿites)", avis: "Pas de répétition pour un chien, répétition pour plusieurs chiens.", statut: "qawl" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : « (وَلَا يَتَعَدَّدُ) نَدْبُ الْغَسْلِ (بِوُلُوغِ كَلْبٍ) مَرَّاتٍ (أَوْ كِلَابٍ) لِإِنَاءٍ وَاحِدٍ قَبْلَ الْغَسْلِ لِتَدَاخُلِ الْأَسْبَابِ كَالْأَحْدَاثِ ».",
+    tarjih_hattab: null,
+    tanbihat: [
+      "« لِأَنَّ الْأَسْبَابَ إذَا تَسَاوَتْ مُوجِبَاتُهَا اُكْتُفِيَ بِأَحَدِهَا ».",
+      "Ibn Nājī : « الصَّوَابُ قَوْلُ مَنْ قَالَ مِنْ الشَّافِعِيَّةِ بِعَدَمِ التَّعَدُّدِ فِي وُلُوغِ الْكَلْبِ وَبِالتَّعَدُّدِ فِي وُلُوغِ الْكِلَابِ »."
+    ],
+    divergences: [
+      "Concordance — les causes qui se recouvrent. Al-Ḥaṭṭāb : « لِأَنَّ الْأَسْبَابَ إذَا تَسَاوَتْ مُوجِبَاتُهَا اُكْتُفِيَ بِأَحَدِهَا كَتَعَدُّدِ النَّوَاقِضِ فِي الطَّهَارَةِ ». Al-Dardīr : « لِتَدَاخُلِ الْأَسْبَابِ كَالْأَحْدَاثِ » ; al-Dasūqī : « أَيْ مُوجَبَاتِ الْأَسْبَابِ ».",
+      "Complément — avant le lavage. Al-Dardīr : « لِإِنَاءٍ وَاحِدٍ قَبْلَ الْغَسْلِ ». Al-Ḥaṭṭāb ne le précise pas."
+    ],
+    exemple: "Trois chiens ont bu tour à tour dans le seau de la cour avant qu'on le lave : sept lavages suffisent, et non vingt et un.",
+    erreurs_frequentes: [
+      "Multiplier les sept lavages par le nombre de chiens ou de lapements : sept suffisent.",
+      "Croire que la divergence est répandue dans l'école : al-Māzirī n'y trouve pas de texte, et Sanad n'en rapporte que chez certains shāfiʿites."
+    ],
+    termes: [
+      { ar: "تَدَاخُلُ الْأَسْبَابِ", translit: "tadâkhoulou l-asbâb", def: "Recouvrement des causes : plusieurs causes au même effet n'entraînent qu'une seule fois cet effet." }
+    ],
+    quiz: [
+      { q: "Trois chiens ont lapé dans le même récipient avant qu'on le lave. Combien de lavages ?",
+        choix: ["Vingt et un", "Quatorze", "Trois", "Sept"],
+        bonne: 3,
+        explication: "« كَفَى فِي ذَلِكَ سَبْعُ غَسَلَاتٍ وَهَذَا هُوَ الْمَشْهُورُ »." },
+      { q: "Quelle raison donne-t-on ?",
+        choix: ["Le chien est pur", "Quand des causes ont le même effet, une seule suffit", "Le troisième chien ne compte pas", "Le lavage est obligatoire"],
+        bonne: 1,
+        explication: "« لِأَنَّ الْأَسْبَابَ إذَا تَسَاوَتْ مُوجِبَاتُهَا اُكْتُفِيَ بِأَحَدِهَا »." },
+      { q: "Mise en situation : un chien revient boire deux fois dans votre seau avant que vous l'ayez lavé. Que faire selon l'avis le plus répandu ?",
+        choix: ["Laver quatorze fois", "Laver une fois", "Laver sept fois", "Laver huit fois avec de la terre"],
+        bonne: 2,
+        explication: "« أَيْ لَا يَتَعَدَّدُ الْغَسْلُ الْمَذْكُورُ بِتَعَدُّدِ وُلُوغِ الْكَلْبِ فِي الْإِنَاءِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "179" },
+    alertes: [
+      "Ibn ʿArafa (16968, p. 42) : « المازري لا نص في تكرره بتعدد الكلاب والأظهر عدمه فنقل ابن بشير وابن شاس قولين وقول ابن الحاجب لا يتعدد على المشهور خلافه » ; at-Tawḍīḥ (14442, p. 71) : « ولا يتعدد الغسل بتعدده على المشهور » : conformes.",
+      "Fin du faṣl tah-01-03 (Mawāhib, t. 1, p. 179 ; Shamela 569, p. 178) : le faṣl suivant (« فَصْلٌ: فَرَائِضُ الْوُضُوءِ ») commence sur la même page.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 84 (Shamela 21604, page 83)."
+    ],
+    verification: "verifie"
+  },
+
+  /* ------------------------------------------------------------------ */
+  {
+    id: "tah-01-03-syn",
+    type: "synthese",
+    kitab: "tah", bab: "01", fasl: "03",
+    titre: "Ôter l'impureté",
+    quiz: [
+      { q: "Pendant la prière, une impureté non tolérée tombe sur vous. Que faire ?",
+        choix: ["Continuer, puis refaire la prière", "Interrompre, ôter l'impureté et recommencer la prière, s'il reste du temps", "L'essuyer et continuer", "Rien : la prière est commencée"],
+        bonne: 1, explication: "Voir la fiche 02." },
+      { q: "Une petite tache de sang, plus petite qu'un dirham, est sur votre vêtement. Que dit le texte ?",
+        choix: ["Il faut la laver avant de prier", "Il faut l'asperger", "Il faut changer de vêtement", "Elle est tolérée"],
+        bonne: 3, explication: "Voir la fiche 12." },
+      { q: "La boue de pluie des rues, mêlée d'impuretés, salit votre vêtement. Que faire ?",
+        choix: ["Rien : elle est tolérée, tant que l'impureté n'y domine pas", "La laver aussitôt", "Refaire ses ablutions", "Prier ailleurs"],
+        bonne: 0, explication: "Voir les fiches 18 et 19." },
+      { q: "Avec quoi purifie-t-on un endroit souillé ?",
+        choix: ["Avec du vinaigre", "En le laissant sécher au soleil", "Avec de l'eau purifiante seulement", "Avec n'importe quel liquide"],
+        bonne: 2, explication: "Voir les fiches 31 et 35." },
+      { q: "Vous savez qu'une chose est impure et doutez qu'elle ait touché votre vêtement. Que faire ?",
+        choix: ["Asperger d'eau l'endroit douteux", "Laver tout le vêtement", "Rien", "Changer de vêtement"],
+        bonne: 0, explication: "Voir les fiches 36 et 38." },
+      { q: "Et si vous doutez qu'elle ait touché votre corps ?",
+        choix: ["Asperger l'endroit, comme le vêtement", "Rien", "Laver l'endroit, selon l'avis retenu", "Refaire les grandes ablutions"],
+        bonne: 2, explication: "Voir la fiche 42." },
+      { q: "Cinq récipients confondus, dont deux impurs, sans autre eau. Combien d'ablutions et de prières ?",
+        choix: ["Une seule", "Cinq", "Deux", "Trois, chaque prière après ses ablutions"],
+        bonne: 3, explication: "Voir la fiche 43b." },
+      { q: "Un chien a lapé l'eau d'un seau. Que dit Khalīl ?",
+        choix: ["Il faut jeter le seau", "Il est recommandé de verser l'eau et de laver le seau sept fois", "Il faut le laver huit fois avec de la terre", "Rien n'est demandé"],
+        bonne: 1, explication: "Voir les fiches 44 à 50." }
+    ]
   }
 
-  /* FIN-UNITE-27 */
+  /* FIN-UNITE-28 */
 ]);
