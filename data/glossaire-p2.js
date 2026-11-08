@@ -1,9 +1,10 @@
-/* Données — Glossaire, partie 2 — v1.28
+/* Données — Glossaire, partie 2 — v1.29
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
    le 2026-11-07 (décision de l'utilisateur : nouveaux fichiers, sans recopie de glossaire.js).
-   v1.28 : 22 termes de l'unité 24 (tah-01-03-26 à -31). */
+   v1.28 : 22 termes de l'unité 24 (tah-01-03-26 à -31).
+   v1.29 : 14 termes de l'unité 25 (tah-01-03-32 à -37). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -38,6 +39,21 @@ App.data.ajouterTermes([
   { ar: "وَهْم", translit: "wahm", def: "Simple soupçon : possibilité jugée faible ; il ne fait pas laver (al-Dasūqī)." },
   { ar: "مُنْفَصِل", translit: "mounfasil", def: "Qui se sépare : ici, l'eau qui coule de l'endroit lavé ; elle doit être exempte des qualités de l'impureté." },
   { ar: "صَبْغ", translit: "sabgh", def: "Teinture ; sa couleur qui reste après le lavage ne nuit pas." },
-  { ar: "نِيل", translit: "nîl", def: "Indigo : plante et teinture bleue." }
+  { ar: "نِيل", translit: "nîl", def: "Indigo : plante et teinture bleue." },
+  /* Unité 25 — tah-01-03-32 à -37 */
+  { ar: "عَصْر", translit: "ʿasr", def: "Essorage : tordre ou presser un tissu mouillé pour en faire sortir l'eau ; il n'est pas exigé après le lavage d'une impureté." },
+  { ar: "طَعْم", translit: "taʿm", def: "Goût ; celui de l'impureté doit avoir disparu pour que l'endroit soit pur, même si c'est difficile." },
+  { ar: "لَوْن", translit: "lawn", def: "Couleur ; celle de l'impureté, si l'eau ne l'ôte que difficilement, ne nuit pas à la pureté." },
+  { ar: "رِيح", translit: "rîh", def: "Odeur ; celle de l'impureté, difficile à ôter, ne nuit pas à la pureté." },
+  { ar: "اِسْتِنْجَاء", translit: "istinjâ'", def: "Nettoyage des voies naturelles après le besoin." },
+  { ar: "اِسْتِظْهَار", translit: "istizhâr", def: "Précaution : faire un acte de plus pour s'assurer d'une chose." },
+  { ar: "أُشْنَان", translit: "ouchnân", def: "Plante alcaline dont on se servait comme savon pour laver." },
+  { ar: "صَابُون", translit: "sâboûn", def: "Savon." },
+  { ar: "قُلَاع", translit: "qoullâʿ", def: "Ce qui arrache l'impureté (comme le vinaigre), sans être de l'eau." },
+  { ar: "أَعْرَاض", translit: "aʿrâd", def: "Qualités qui n'existent que dans une chose (pluriel de ʿarad) ; elles ne passent pas d'une chose à une autre." },
+  { ar: "وَسْوَاس", translit: "waswâs", def: "Obsession du doute : doute répété et sans fondement sur la pureté ou l'adoration." },
+  { ar: "غَلَبَةُ الظَّنّ", translit: "ghalabatou z-zann", def: "Opinion dominante : une possibilité l'emporte nettement ; les règles de la Loi s'y fondent." },
+  { ar: "اِحْتِلَام", translit: "ihtilâm", def: "Émission nocturne : éjaculation pendant le sommeil." },
+  { ar: "الْقَرِينَانِ", translit: "al-qarînân", def: "« Les deux compagnons » : Ashhab et Ibn Nāfiʿ, cités ensemble (al-Dasūqī)." }
   /* FIN-GLOSSAIRE */
 ]);
