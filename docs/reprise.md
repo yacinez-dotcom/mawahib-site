@@ -211,7 +211,7 @@ Puis :
 - `docs/sources/anomalies-textes.md` (figé) : le n° 43 est « Confirmé » dans sa ligne mais compté parmi les « Corrigé » au bilan (si la ligne fait foi : 58 « Corrigé » et 5 « Confirmé » au lieu de 59 et 4 ; vérifier d'abord dans `campagne-corrections.md` lequel des deux est juste). Écart présent dans le Projet, recopié tel quel au lot 5 ; à corriger lors de la réunion avec `anomalies-textes-2.md` (et à répercuter sur le total « Corrigé » du bilan d'ensemble).
 - N° 166 (« بَقَاءِ » pour « نَقَاءِ » probable, auteur d'al-Jamʿ) et n° 143, 147 : à reprendre si un témoin apparaît.
 - Al-Ḥaṭṭāb attribue parfois à Mālik une réponse qu'al-Bayān donne à Ibn al-Qāsim (n° 71) : vérifier dans al-Bayān les citations de l'ʿUtbiyya quand c'est possible.
-- 68 anomalies non résolues (liste dans `docs/sources/anomalies-textes-2.md`) ; à reprendre si un nouveau témoin apparaît.
+- 75 anomalies non résolues (liste dans `docs/sources/anomalies-textes-2.md`) ; à reprendre si un nouveau témoin apparaît.
 - tah-01-02-54c : remède externe avec une impureté autre que le vin — divergence non tranchée dans les pages croisées ; à compléter si un passage ultérieur d'al-Dardīr la tranche (bāb de la boisson).
 - tah-01-08-22 : le Mukhtaṣar seul porte « تَيَمُّمِهِ أَوْ مَسْحِهِ », Mawāhib « تَيَمُّمِهِ وَمَسْحِهِ » ; à examiner en rédigeant cette masʾala.
 - int-01-01-03c : divergence sur la date de décès d'Ibn Rushd placée dans `divergences` (v1.6, 2026-11-08) ; la date de 530 de 21604, p. 21, est d'al-Dasūqī (Ḥāshiya), non d'al-Dardīr. Fait. Leçon : sur une page de 21604, vérifier qu'une citation est avant ou après « ـ[حاشية الدسوقي] » avant de l'attribuer.
