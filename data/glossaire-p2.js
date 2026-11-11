@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.33
+/* Données — Glossaire, partie 2 — v1.34
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -8,7 +8,8 @@
    v1.30 : 18 termes de l'unité 26 (tah-01-03-38 à -42).
    v1.31 : 11 termes de l'unité 27 (tah-01-03-43a à -43c).
    v1.32 : 13 termes de l'unité 28 (tah-01-03-44 à -50).
-   v1.33 : 26 termes de l'unité 29 (tah-01-04-01a à -01g). */
+   v1.33 : 26 termes de l'unité 29 (tah-01-04-01a à -01g).
+   v1.34 : 24 termes de l'unité 30 (tah-01-04-02 à -07). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -128,7 +129,32 @@ App.data.ajouterTermes([
   { ar: "مَا لَا يَتِمُّ الْوَاجِبُ إِلَّا بِهِ", translit: "mâ lâ yatimmou l-wâjibou illâ bihi", def: "Ce sans quoi l'obligation ne s'accomplit pas : règle de fondements selon laquelle il est lui-même obligatoire (discutée)." },
   { ar: "لِحْيَة", translit: "lihya", def: "Barbe : poils qui poussent sur les deux mâchoires." },
   { ar: "تَحْرِيك", translit: "tahrîk", def: "Ici : remuer la barbe en y passant la main mouillée pour que l'eau en couvre la surface ; distinct du passage des doigts." },
-  { ar: "نَفْضُ الْيَدِ", translit: "nafdou l-yad", def: "Secouer la main pour en faire tomber l'eau." }
+  { ar: "نَفْضُ الْيَدِ", translit: "nafdou l-yad", def: "Secouer la main pour en faire tomber l'eau." },
+  /* Unité 30 — tah-01-04-02 à -07 */
+  { ar: "وَتَرَة", translit: "watara", def: "Cloison qui sépare les deux narines." },
+  { ar: "مَارِن", translit: "mârin", def: "Bout du nez (adh-Dhakhīra) ; sa partie molle (al-Fākihānī)." },
+  { ar: "أَسَارِير", translit: "asârîr", def: "Plis, lignes du front et de la paume (pluriel de pluriel)." },
+  { ar: "لَمْعَة", translit: "lamʿa", def: "Petit endroit resté sec dans un membre qu'on devait laver." },
+  { ar: "بَشَرَة", translit: "bachara", def: "Peau, épiderme." },
+  { ar: "تَخْلِيلُ الشَّعْرِ", translit: "takhlîlou ch-chaʿr", def: "Faire parvenir l'eau jusqu'à la peau, sous les poils." },
+  { ar: "خَفِيف", translit: "khafîf", def: "Ici : poil léger, sous lequel la peau se voit pendant une conversation." },
+  { ar: "كَثِيف", translit: "kathîf", def: "Ici : poil épais, qui cache la peau." },
+  { ar: "عَنْفَقَة", translit: "ʿanfaqa", def: "Touffe de poils sous la lèvre inférieure." },
+  { ar: "هُدْب", translit: "houdb", def: "Cils : poils qui poussent sur le bord des paupières." },
+  { ar: "غَائِر", translit: "ghâ'ir", def: "Creux, enfoncé (un endroit du corps)." },
+  { ar: "اسْتِغْوَار", translit: "istighwâr", def: "Profondeur d'un creux ; seul un creux profond est dispensé de lavage." },
+  { ar: "أَجْفَان", translit: "ajfân", def: "Paupières (singulier جَفْن)." },
+  { ar: "قَذَى", translit: "qadhâ", def: "Saleté, chassie qui se loge au coin de l'œil." },
+  { ar: "مِرْفَق", translit: "mirfaq", def: "Coude : extrémité de l'os de l'avant-bras, à l'articulation avec le bras." },
+  { ar: "عَضُد", translit: "ʿadoud", def: "Bras, entre le coude et l'épaule." },
+  { ar: "مِعْصَم", translit: "miʿsam", def: "Place du bracelet sur le bras ; chez Khalīl, la main et l'avant-bras." },
+  { ar: "كُوع", translit: "kouʿ", def: "Tête de l'os de l'avant-bras du côté du pouce, au poignet." },
+  { ar: "كُرْسُوع", translit: "koursoûʿ", def: "Tête de l'os de l'avant-bras du côté de l'auriculaire, au poignet." },
+  { ar: "زَنْد", translit: "zand", def: "Nom de chacune des deux têtes d'os du poignet (kouʿ et koursoûʿ)." },
+  { ar: "أَقْطَع", translit: "aqtaʿ", def: "Amputé : celui à qui il manque une main ou un pied." },
+  { ar: "كَفّ", translit: "kaff", def: "Main (paume et doigts) ; mot féminin." },
+  { ar: "مَنْكِب", translit: "mankib", def: "Épaule : jonction des os du bras et de l'omoplate." },
+  { ar: "سَاعِد", translit: "sâʿid", def: "Avant-bras, entre le poignet et le coude." }
 
   /* FIN-GLOSSAIRE */
 ]);

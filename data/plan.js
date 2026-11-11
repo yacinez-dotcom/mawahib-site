@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.22 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.23 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -45,7 +45,8 @@
    v1.20 : tah-01-03-43 découpé en trois sous-fiches (43a à 43c), un seul segment du matn portant plusieurs règles (étape 3, unité 27).
    v1.21 : titres français de tah-01-03-45 à -48, alignés sur les fiches (unité 28).
    v1.22 : tah-01-04-01 découpé en sept sous-fiches (01a à 01g), un seul segment du matn de ≈ 9 pages portant plusieurs sujets
-          (définition et statuts, conditions, nombre des piliers, limites du visage, barbe, manière de laver ; unité 29). */
+          (définition et statuts, conditions, nombre des piliers, limites du visage, barbe, manière de laver ; unité 29).
+   v1.23 : tah-01-04-06 découpé en deux sous-fiches (06a : le reste de l'avant-bras amputé ; 06b : cas particuliers d'aṭ-Ṭirāz ; unité 30). */
 App.data.definirPlan({
   kutub: [
     {
@@ -334,7 +335,8 @@ App.data.definirPlan({
                 { id: "tah-01-04-03", titre: "Faire pénétrer l'eau dans les poils qui laissent voir la peau", titre_ar: "بِتَخْلِيلِ شَعْرٍ تَظْهَرُ الْبَشَرَةُ تَحْتَهُ" }, /* p. 188 */
                 { id: "tah-01-04-04", titre: "Pas la plaie guérie ni le creux de naissance", titre_ar: "لَا جُرْحًا بَرَأَ أَوْ خُلِقَ غَائِرًا" }, /* p. 190 */
                 { id: "tah-01-04-05", titre: "Les mains avec les coudes", titre_ar: "وَيَدَيْهِ بِمِرْفَقَيْهِ" }, /* p. 191 */
-                { id: "tah-01-04-06", titre: "Le reste de l'avant-bras en cas d'amputation", titre_ar: "وَبَقِيَّةُ مِعْصَمٍ إنْ قُطِعَ" }, /* p. 191 */
+                { id: "tah-01-04-06a", titre: "Le reste de l'avant-bras amputé", titre_ar: "وَبَقِيَّةُ مِعْصَمٍ إنْ قُطِعَ" }, /* p. 191 — deux sous-fiches (étape 3, v1.23) */
+                { id: "tah-01-04-06b", titre: "Amputé, doigt en plus, peau pendante, ongles longs", titre_ar: "وَبَقِيَّةُ مِعْصَمٍ إنْ قُطِعَ — فُرُوعٌ" }, /* p. 192 */
                 { id: "tah-01-04-07", titre: "Comme la main rattachée à l'épaule", titre_ar: "كَكَفٍّ بِمَنْكِبٍ" }, /* p. 193 */
                 { id: "tah-01-04-08", titre: "Passer l'eau entre les doigts", titre_ar: "بِتَخْلِيلِ أَصَابِعِهِ" }, /* p. 194 */
                 { id: "tah-01-04-09", titre: "Pas besoin de tourner la bague", titre_ar: "لَا إجَالَةِ خَاتَمِهِ" }, /* p. 196 */
