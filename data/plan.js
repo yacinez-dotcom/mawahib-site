@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.23 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.24 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -46,7 +46,9 @@
    v1.21 : titres français de tah-01-03-45 à -48, alignés sur les fiches (unité 28).
    v1.22 : tah-01-04-01 découpé en sept sous-fiches (01a à 01g), un seul segment du matn de ≈ 9 pages portant plusieurs sujets
           (définition et statuts, conditions, nombre des piliers, limites du visage, barbe, manière de laver ; unité 29).
-   v1.23 : tah-01-04-06 découpé en deux sous-fiches (06a : le reste de l'avant-bras amputé ; 06b : cas particuliers d'aṭ-Ṭirāz ; unité 30). */
+   v1.23 : tah-01-04-06 découpé en deux sous-fiches (06a : le reste de l'avant-bras amputé ; 06b : cas particuliers d'aṭ-Ṭirāz ; unité 30).
+   v1.24 : tah-01-04-10 découpé en trois sous-fiches (10a à 10c) ; titre arabe « وَنَقَضَ غَيْرَهُ » (Mukhtaṣar seul, Ibn Ghāzī, al-Dardīr ;
+          anomalie n° 220), au lieu de « وَنَقْصِ غَيْرِهِ » ; titre français de tah-01-04-09 inchangé (unité 31). */
 App.data.definirPlan({
   kutub: [
     {
@@ -340,7 +342,9 @@ App.data.definirPlan({
                 { id: "tah-01-04-07", titre: "Comme la main rattachée à l'épaule", titre_ar: "كَكَفٍّ بِمَنْكِبٍ" }, /* p. 193 */
                 { id: "tah-01-04-08", titre: "Passer l'eau entre les doigts", titre_ar: "بِتَخْلِيلِ أَصَابِعِهِ" }, /* p. 194 */
                 { id: "tah-01-04-09", titre: "Pas besoin de tourner la bague", titre_ar: "لَا إجَالَةِ خَاتَمِهِ" }, /* p. 196 */
-                { id: "tah-01-04-10", titre: "… et le cas d'une autre bague", titre_ar: "وَنَقْصِ غَيْرِهِ" }, /* p. 197 */
+                { id: "tah-01-04-10a", titre: "Ôter tout autre obstacle à l'eau", titre_ar: "وَنَقَضَ غَيْرَهُ" }, /* p. 197 — trois sous-fiches (étape 3, v1.24) */
+                { id: "tah-01-04-10b", titre: "Un peu de pâte collée : l'endroit resté sec", titre_ar: "وَنَقَضَ غَيْرَهُ — اللُّمْعَةُ الْيَسِيرَةُ" }, /* p. 199 */
+                { id: "tah-01-04-10c", titre: "Henné, encre, saleté des ongles et autres cas", titre_ar: "وَنَقَضَ غَيْرَهُ — فُرُوعٌ" }, /* p. 200 */
                 { id: "tah-01-04-11", titre: "Essuyer ce qui est sur le crâne", titre_ar: "وَمَسْحُ مَا عَلَى الْجُمْجُمَةِ" }, /* p. 202 */
                 { id: "tah-01-04-12", titre: "Jusqu'aux tempes, avec les cheveux qui pendent", titre_ar: "بِعَظْمِ صُدْغَيْهِ مَعَ الْمُسْتَرْخِي" }, /* p. 204 */
                 { id: "tah-01-04-13", titre: "Ni l'homme ni la femme ne défont leurs tresses", titre_ar: "وَلَا يَنْقُضُ ضَفْرَهُ رَجُلٌ وَلَا امْرَأَةٌ" }, /* p. 205 */

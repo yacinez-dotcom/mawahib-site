@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.34
+/* Données — Glossaire, partie 2 — v1.35
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -9,7 +9,8 @@
    v1.31 : 11 termes de l'unité 27 (tah-01-03-43a à -43c).
    v1.32 : 13 termes de l'unité 28 (tah-01-03-44 à -50).
    v1.33 : 26 termes de l'unité 29 (tah-01-04-01a à -01g).
-   v1.34 : 24 termes de l'unité 30 (tah-01-04-02 à -07). */
+   v1.34 : 24 termes de l'unité 30 (tah-01-04-02 à -07).
+   v1.35 : 15 termes de l'unité 31 (tah-01-04-08 à -10c). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -154,7 +155,23 @@ App.data.ajouterTermes([
   { ar: "أَقْطَع", translit: "aqtaʿ", def: "Amputé : celui à qui il manque une main ou un pied." },
   { ar: "كَفّ", translit: "kaff", def: "Main (paume et doigts) ; mot féminin." },
   { ar: "مَنْكِب", translit: "mankib", def: "Épaule : jonction des os du bras et de l'omoplate." },
-  { ar: "سَاعِد", translit: "sâʿid", def: "Avant-bras, entre le poignet et le coude." }
+  { ar: "سَاعِد", translit: "sâʿid", def: "Avant-bras, entre le poignet et le coude." },
+  /* Unité 31 — tah-01-04-08 à -10c */
+  { ar: "تَشْبِيك", translit: "tachbîk", def: "Entrecroiser les doigts des deux mains." },
+  { ar: "بَرَاجِم", translit: "barâjim", def: "Plis, articulations du milieu des doigts (singulier بُرْجُمَة)." },
+  { ar: "رَوَاجِب", translit: "rawâjib", def: "Articulations des doigts proches de leur bout (an-Nawawī) ; d'autres sens sont rapportés." },
+  { ar: "أَشَاجِع", translit: "achâjiʿ", def: "Articulations des doigts qui touchent le dos de la main." },
+  { ar: "سُلَامَيَات", translit: "soulâmayât", def: "Os des doigts (singulier سُلَامَى)." },
+  { ar: "إِجَالَةُ الْخَاتَمِ", translit: "ijâlatou l-khâtam", def: "Faire tourner, bouger sa bague pour que l'eau et le frottement atteignent la peau dessous." },
+  { ar: "جَبِيرَة", translit: "jabîra", def: "Attelle, bandage posé sur une fracture ou une blessure." },
+  { ar: "زِفْت", translit: "zift", def: "Poix, goudron." },
+  { ar: "شَمْع", translit: "chamʿ", def: "Cire." },
+  { ar: "عَجِين", translit: "ʿajîn", def: "Pâte (de farine)." },
+  { ar: "حِنَّاء", translit: "hinnâ'", def: "Henné." },
+  { ar: "خِضَاب", translit: "khidâb", def: "Teinture des mains, des pieds ou des cheveux (au henné par exemple)." },
+  { ar: "نَشَادِر", translit: "nachâdir", def: "Sel ammoniac, employé pour teindre ; obstacle ou non à l'eau selon les avis." },
+  { ar: "حُرْقُوص", translit: "hourqoûs", def: "Teinture noire à base de noix de galle (ʿafs) ; obstacle si elle forme une couche." },
+  { ar: "مِدَاد", translit: "midâd", def: "Encre." }
 
   /* FIN-GLOSSAIRE */
 ]);
