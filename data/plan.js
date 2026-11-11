@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.21 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.22 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -43,7 +43,9 @@
           tah-01-03-30 complété jusqu'à « بِخِلَافِ ثَوْبَيْهِ فَيَتَحَرَّى » (duel : Mukhtaṣar seul, al-Dardīr, Ibn Ghāzī ; anomalie n° 162).
    v1.19 : titres français de tah-01-03-39 (« Aspersion sans intention ») et -41 (« Doute sur les deux : rien à faire »), alignés sur les fiches (unité 26).
    v1.20 : tah-01-03-43 découpé en trois sous-fiches (43a à 43c), un seul segment du matn portant plusieurs règles (étape 3, unité 27).
-   v1.21 : titres français de tah-01-03-45 à -48, alignés sur les fiches (unité 28). */
+   v1.21 : titres français de tah-01-03-45 à -48, alignés sur les fiches (unité 28).
+   v1.22 : tah-01-04-01 découpé en sept sous-fiches (01a à 01g), un seul segment du matn de ≈ 9 pages portant plusieurs sujets
+          (définition et statuts, conditions, nombre des piliers, limites du visage, barbe, manière de laver ; unité 29). */
 App.data.definirPlan({
   kutub: [
     {
@@ -321,7 +323,13 @@ App.data.definirPlan({
               titre: "Les ablutions : piliers, sunna, convenances",
               titre_ar: "فَرَائِضُ الوُضُوءِ وَسُنَنُهُ وَفَضَائِلُهُ",
               masail: [
-                { id: "tah-01-04-01", titre: "Piliers des ablutions : laver le visage (limites)", titre_ar: "فَصْلٌ: فَرَائِضُ الْوُضُوءِ غَسْلُ مَا بَيْنَ …" }, /* p. 179 */
+                { id: "tah-01-04-01a", titre: "Les ablutions : définition et statuts", titre_ar: "فَصْلٌ: فَرَائِضُ الْوُضُوءِ" }, /* p. 179 — un seul segment, sept sous-fiches (étape 3, v1.22) */
+                { id: "tah-01-04-01b", titre: "Les conditions des ablutions", titre_ar: "فَرَائِضُ الْوُضُوءِ — الشُّرُوطُ" }, /* p. 182 */
+                { id: "tah-01-04-01c", titre: "Les sept piliers de Khalīl", titre_ar: "فَرَائِضُ الْوُضُوءِ — عَدَدُهَا" }, /* p. 182 */
+                { id: "tah-01-04-01d", titre: "Le visage en largeur : d'une oreille à l'autre", titre_ar: "غَسْلُ مَا بَيْنَ الْأُذُنَيْنِ" }, /* p. 183 */
+                { id: "tah-01-04-01e", titre: "Le visage en hauteur : de la racine des cheveux au menton", titre_ar: "وَمَنَابِتِ شَعْرِ الرَّأْسِ الْمُعْتَادِ، وَالذَّقَنِ" }, /* p. 184 */
+                { id: "tah-01-04-01f", titre: "La surface de la barbe, même longue", titre_ar: "وَظَاهِرِ اللِّحْيَةِ" }, /* p. 186 */
+                { id: "tah-01-04-01g", titre: "Laver le visage : commencer par le haut, gestes à éviter", titre_ar: "غَسْلُ مَا بَيْنَ الْأُذُنَيْنِ — فُرُوعٌ" }, /* p. 187 */
                 { id: "tah-01-04-02", titre: "Laver la cloison du nez, les rides du front, les lèvres", titre_ar: "فَيَغْسِلُ الْوَتَرَةَ وَأَسَارِيرَ جَبْهَتِهِ وَظَاهِرَ شَفَتَيْهِ" }, /* p. 188 */
                 { id: "tah-01-04-03", titre: "Faire pénétrer l'eau dans les poils qui laissent voir la peau", titre_ar: "بِتَخْلِيلِ شَعْرٍ تَظْهَرُ الْبَشَرَةُ تَحْتَهُ" }, /* p. 188 */
                 { id: "tah-01-04-04", titre: "Pas la plaie guérie ni le creux de naissance", titre_ar: "لَا جُرْحًا بَرَأَ أَوْ خُلِقَ غَائِرًا" }, /* p. 190 */

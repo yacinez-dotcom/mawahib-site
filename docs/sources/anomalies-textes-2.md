@@ -94,23 +94,38 @@ Relevées en rédaction ; 8 alertes textuelles numérotées. Témoins cherchés 
 
 **Audit de fin de faṣl tah-01-03** (2026-11-08) : il porte sur les n° 183 à 195 (unités 27 et 28), l'audit précédent (après l'unité 26) ayant couvert les n° 167 à 182. N° 183, 184, 186 à 193 : traités en rédaction (n° 187, 188 et 190 corrigés ; les autres précisés). N° 185, 194 et 195 : nouveaux témoins cherchés (al-Zurqānī, 14297, p. 93–101 ; al-Kharashī, 91, p. 115–121 ; Minaḥ al-Jalīl, 21614, p. 60–66 ; at-Tāj wa-l-Iklīl, 21611, p. 80–100) : sans résultat ; ils restent non résolus, sans effet sur les règles. Le faṣl tah-01-03 est clos (50 segments, 59 fiches avec les sous-fiches, et la synthèse tah-01-03-syn).
 
+## Ṭahāra, unité 29 — tah-01-04-01a à -01g (2026-11-11)
+
+Relevées en rédaction ; 6 alertes textuelles numérotées (sous le seuil de 8 ; prochain audit après l'unité 30). Témoins cherchés dès la rédaction : Ibn ʿArafa (16968, p. 56–57, source des citations d'al-Ḥaṭṭāb sur la largeur du visage, la barbe et la pureté des membres), al-Zurqānī et la ḥāshiya d'al-Bunānī (14297, p. 95–112), al-Kharashī (91, p. 115–128), Minaḥ al-Jalīl (21614, p. 60–72), at-Tāj wa-l-Iklīl (21611, p. 88–110), at-Tawḍīḥ (14442, p. 78–100 : le chapitre des ablutions n'y est pas). Rapport : `docs/verifications/tah-01-unite29.md`.
+
+| N° | Fiche (p.) | Sujet | Lecture imprimée | Nature | Traitement | Résultat |
+|---|---|---|---|---|---|---|
+| 196 | tah-01-04-01a (181) | Ablutions à éviter | « (وَالْوُضُوءُ الْمَمْنُوعُ) هُوَ الْمُحَدَّدُ قَبْلَ أَنْ تُفْعَلَ بِهِ عِبَادَةٌ » | Point diacritique probable (al-moujaddad, le renouvellement) | Sens : le renouvellement fait avant tout culte ; mot non cité | **Non résolu** : aucun témoin consulté ne porte la phrase ; le contexte (catégorie des ablutions recommandées) appuie le sens |
+| 197 | tah-01-04-01a (182) | Al-Qabbāb | « فَعَادَ الْخِلَافُ إلَى عِبَادَةٍ » | Mot voisin probable (ʿibâra, manière de dire) | Sens : désaccord de mots ; mot non cité | **Non résolu** : aucun témoin |
+| 198 | tah-01-04-01b (182) | Conditions d'obligation | « وَالثَّانِي سِتَّةٌ » suivi de sept éléments | Compte discordant | Énumération reproduite, signalée | **Non résolu** (sans effet) : al-Dardīr (21604, p. 83) compte cinq conditions d'obligation, avec une autre liste |
+| 199 | tah-01-04-01c (183) | Ibn ʿArafa, d'après Mawāhib (Ibn Maslama) | « وَيَغْسِلُ أَعْضَاءَهُ فَمَا قَبْلَهُ » | Particule altérée | La fiche suit Ibn ʿArafa | **Corrigé** : Ibn ʿArafa (16968, p. 57 « ويغسل أعضاءه مما قبله ») |
+| 200 | tah-01-04-01d (186), -01e | Al-Qāḍī ʿAbd al-Wahhāb et la mâchoire sous l'oreille | « وَأَخْرَجَ مِنْهُ الْقَاضِي عَبْدُ الْوَهَّابِ … فَجَعَلَ ذَلِكَ مِنْ الْوَجْهِ وَأَنَّ الْقَاضِيَ أَخْرَجَهُ مِنْهُ » | Phrase confuse, lacune probable | Sens : Sanad (aṭ-Ṭirāz) inclut, ʿAbd al-Wahhāb exclut | **Précisé** : al-Bunānī, ḥāshiya d'al-Zurqānī (14297, p. 101 « فانه مغسول عند سند خلافا لعبد الوهاب ») |
+| 201 | tah-01-04-01c (182) | Ibn ʿArafa, d'après Mawāhib (sources de la règle) | « وَسَمَاعِ ابْنِ أَبِي زَيْدٍ وَابْنِ الْقَاسِمِ » | Mots ajoutés (« ابن », « و ») | La fiche lit : audition d'Abū Zayd d'après Ibn al-Qāsim | **Corrigé** : Ibn ʿArafa (16968, p. 57 « وسماع أبي زيد ابن القاسم ») ; al-Ḥaṭṭāb lui-même plus bas « عَنْ سَمَاعِ أَبِي زَيْدٍ » |
+
+Note sans numéro (aucune lecture en cause) : Ibn ʿArafa (16968, p. 56) rattache l'avis « d'un favori à l'autre » au Shaykh d'après la riwāya d'Ibn Wahb, en accord avec la mention d'al-Majmūʿa chez al-Ḥaṭṭāb (fiche tah-01-04-01d). Al-Ḥaṭṭāb ne renvoie pas à « ح » ici ; al-Dasūqī, t. 1, p. 84–86, ne cite pas « ح » dans ces pages ; aucune mention « خِلَافًا لِـ » de sa part n'y vise al-Ḥaṭṭāb.
+
 ## Bilan
 
-- 195 anomalies : 17 dans le Module 0, 175 dans la Ṭahāra (dont 7 à l'unité 6, 9 à l'unité 7, 10 à l'unité 8, 15 à l'unité 9, 6 à l'unité 10, 10 à l'unité 11, 6 à l'unité 12, 9 à l'unité 13, 8 à l'unité 14, 5 à l'unité 15, 3 à l'unité 16, 1 à l'unité 17, 1 à l'unité 18, 2 à l'unité 19, 2 à l'unité 20, 4 à l'unité 21, 8 à l'unité 22, 6 à l'unité 23, 11 à l'unité 24, 8 à l'unité 25, 8 à l'unité 26, 5 à l'unité 27 et 8 à l'unité 28), 3 au squelette.
+- 201 anomalies : 17 dans le Module 0, 181 dans la Ṭahāra (dont 7 à l'unité 6, 9 à l'unité 7, 10 à l'unité 8, 15 à l'unité 9, 6 à l'unité 10, 10 à l'unité 11, 6 à l'unité 12, 9 à l'unité 13, 8 à l'unité 14, 5 à l'unité 15, 3 à l'unité 16, 1 à l'unité 17, 1 à l'unité 18, 2 à l'unité 19, 2 à l'unité 20, 4 à l'unité 21, 8 à l'unité 22, 6 à l'unité 23, 11 à l'unité 24, 8 à l'unité 25, 8 à l'unité 26, 5 à l'unité 27, 8 à l'unité 28 et 6 à l'unité 29), 3 au squelette.
 - Les plus lourdes de conséquences sont les négations tombées, inversées ou déplacées (n° 19, 21, 35, 36, 48, 53, 151, 154, 157), car elles renversent le sens. Aucune règle pratique ne repose sur la lecture fautive.
 
-## Bilan de la campagne de correction (2026-11-03, complété jusqu'au 2026-11-08)
+## Bilan de la campagne de correction (2026-11-03, complété jusqu'au 2026-11-11)
 
 Méthode : chaque anomalie a été recherchée dans un second témoin indépendant de l'édition de *Mawāhib* (Mukhtaṣar seul, Shifāʾ al-Ghalīl d'Ibn Ghāzī, Mukhtaṣar d'Ibn ʿArafa, at-Tawḍīḥ, al-Muntaqā, Minaḥ al-Jalīl, al-Zurqānī et sa ḥāshiya, al-Kharashī, al-Dardīr / al-Dasūqī, ʿIqd al-jawāhir d'Ibn Shās ; pour les unités 6 et 8, aussi al-Bayān d'Ibn Rushd). Une lecture n'est corrigée que si un témoin la porte en toutes lettres, ou si la syntaxe l'impose et qu'un témoin a les mêmes consonnes. Rapports : `docs/verifications/campagne-corrections.md` (n° 1 à 43), `docs/verifications/tah-01-unite6.md` (n° 44 à 50), `docs/verifications/tah-01-unite7.md` (n° 51 à 59), `docs/verifications/tah-01-unite8.md` (n° 60 à 62), `docs/verifications/audit-63-69.md` (n° 63 à 69), puis les rapports d'unité.
 
 | Résultat | Nombre | N° |
 |---|---|---|
-| Corrigé | 73 | 1, 3, 4, 5, 8, 12, 19, 25, 26, 28, 29, 34, 40, 41, 42, 43, 44, 45, 46, 47, 48, 50, 51, 52, 60, 61, 62, 63, 65, 66, 70, 71, 72, 77, 85, 88, 91, 92, 93, 94, 95, 101, 103, 105, 106, 107, 113, 116, 122, 124, 129, 130, 138, 139, 140, 141, 144, 146, 148, 152, 153, 156, 159, 160, 162, 164, 165, 175, 176, 177, 187, 188, 190 |
+| Corrigé | 75 | 1, 3, 4, 5, 8, 12, 19, 25, 26, 28, 29, 34, 40, 41, 42, 43, 44, 45, 46, 47, 48, 50, 51, 52, 60, 61, 62, 63, 65, 66, 70, 71, 72, 77, 85, 88, 91, 92, 93, 94, 95, 101, 103, 105, 106, 107, 113, 116, 122, 124, 129, 130, 138, 139, 140, 141, 144, 146, 148, 152, 153, 156, 159, 160, 162, 164, 165, 175, 176, 177, 187, 188, 190, 199, 201 |
 | Confirmé (la lecture des fiches était la bonne) | 4 | 2, 27, 38, 54 |
-| Précisé ou signalé | 50 | 33, 37, 39, 59, 64, 67, 68, 73, 78, 79, 90, 96, 104, 109, 114, 120, 121, 125, 128, 131, 132, 133, 135, 137, 142, 145, 149, 150, 151, 154, 155, 157, 158, 163, 167, 168, 169, 170, 173, 174, 178, 180, 182, 183, 184, 186, 189, 191, 192, 193 |
+| Précisé ou signalé | 51 | 33, 37, 39, 59, 64, 67, 68, 73, 78, 79, 90, 96, 104, 109, 114, 120, 121, 125, 128, 131, 132, 133, 135, 137, 142, 145, 149, 150, 151, 154, 155, 157, 158, 163, 167, 168, 169, 170, 173, 174, 178, 180, 182, 183, 184, 186, 189, 191, 192, 193, 200 |
 | Limite du texte, documentée | 2 | 7, 161 |
 | Déjà corrigé avant la campagne | 1 | 18 |
-| Non résolu (aucun second témoin trouvé, ou sans effet) | 65 | 6, 9, 10, 11, 13, 14, 15, 16, 17, 20, 21, 22, 23, 24, 30, 31, 32, 35, 36, 49, 53, 55, 56, 57, 58, 69, 74, 75, 76, 80, 81, 82, 83, 84, 86, 87, 89, 97, 98, 99, 100, 102, 108, 110, 111, 112, 115, 117, 118, 119, 123, 126, 127, 134, 136, 143, 147, 166, 171, 172, 179, 181, 185, 194, 195 |
+| Non résolu (aucun second témoin trouvé, ou sans effet) | 68 | 6, 9, 10, 11, 13, 14, 15, 16, 17, 20, 21, 22, 23, 24, 30, 31, 32, 35, 36, 49, 53, 55, 56, 57, 58, 69, 74, 75, 76, 80, 81, 82, 83, 84, 86, 87, 89, 97, 98, 99, 100, 102, 108, 110, 111, 112, 115, 117, 118, 119, 123, 126, 127, 134, 136, 143, 147, 166, 171, 172, 179, 181, 185, 194, 195, 196, 197, 198 |
 
 - Les deux fiches du Module 0 restées `a_revoir` (int-01-01-02 et int-01-01-03d) sont passées à `verifie`.
 - Corrections de fond : n° 25 (l'avis « elle n'est plus purifiante », tah-01-01-16, est d'Ibn al-Ḥājj, non d'Ibn al-Ḥājib) ; n° 65 (tah-01-02-12 : selon l'avis anonyme, la salive vient de la bouche quand la tête repose sur un oreiller, non « de la tête »).

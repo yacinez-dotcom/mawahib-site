@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.32
+/* Données — Glossaire, partie 2 — v1.33
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -7,7 +7,8 @@
    v1.29 : 14 termes de l'unité 25 (tah-01-03-32 à -37).
    v1.30 : 18 termes de l'unité 26 (tah-01-03-38 à -42).
    v1.31 : 11 termes de l'unité 27 (tah-01-03-43a à -43c).
-   v1.32 : 13 termes de l'unité 28 (tah-01-03-44 à -50). */
+   v1.32 : 13 termes de l'unité 28 (tah-01-03-44 à -50).
+   v1.33 : 26 termes de l'unité 29 (tah-01-04-01a à -01g). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -99,6 +100,35 @@ App.data.ajouterTermes([
   { ar: "غَسْلُ الْمَيِّتِ", translit: "ghaslou l-mayyit", def: "Lavage mortuaire : lavage rituel du corps du défunt, fait par un autre que lui." },
   { ar: "تَتْرِيب", translit: "tatrîb", def: "Frotter un récipient avec de la terre lors de son lavage." },
   { ar: "اِضْطِرَاب", translit: "idtirâb", def: "Incohérence entre les versions d'un hadith, qui l'affaiblit sur le point concerné." },
-  { ar: "تَدَاخُلُ الْأَسْبَابِ", translit: "tadâkhoulou l-asbâb", def: "Recouvrement des causes : plusieurs causes au même effet n'entraînent qu'une seule fois cet effet." }
+  { ar: "تَدَاخُلُ الْأَسْبَابِ", translit: "tadâkhoulou l-asbâb", def: "Recouvrement des causes : plusieurs causes au même effet n'entraînent qu'une seule fois cet effet." },
+
+  /* Unité 29 — tah-01-04-01a à -01g */
+  { ar: "وُضُوء", translit: "woudoû'", def: "Ablutions mineures : laver des membres déterminés d'une manière déterminée ; avec fatḥa (waḍoû'), l'eau des ablutions." },
+  { ar: "غُسْل", translit: "ghousl", def: "Lavage majeur : purification de tout le corps, distincte des ablutions." },
+  { ar: "فَرِيضَة", translit: "farîda", def: "Obligation, pilier (pluriel فَرَائِض) : ce dont l'accomplissement est récompensé et l'omission punie ; aussi, ce dont dépend la validité d'un culte." },
+  { ar: "مَمْنُوع", translit: "mamnoûʿ", def: "Interdit, à éviter." },
+  { ar: "غُرَّة", translit: "ghourra", def: "Marque lumineuse du visage, trace des ablutions, par laquelle cette communauté sera reconnue." },
+  { ar: "تَحْجِيل", translit: "tahjîl", def: "Marque lumineuse des mains et des pieds, trace des ablutions, propre à cette communauté avec la ghourra." },
+  { ar: "بُلُوغُ الدَّعْوَةِ", translit: "bouloûghou d-daʿwa", def: "Avoir reçu l'appel du Prophète, c'est-à-dire le message de l'islam." },
+  { ar: "شَرْطُ وُجُوبٍ", translit: "chartou woujoûb", def: "Condition d'obligation : sans elle, l'acte n'est pas dû." },
+  { ar: "شَرْطُ صِحَّةٍ", translit: "chartou sihha", def: "Condition de validité : sans elle, l'acte ne vaut pas." },
+  { ar: "مُوَالَاة", translit: "mouwâlât", def: "Continuité : enchaîner les membres des ablutions sans longue interruption ; aussi appelée immédiateté (fawr)." },
+  { ar: "تَرْتِيب", translit: "tartîb", def: "Ordre : laver les membres des ablutions dans l'ordre du verset." },
+  { ar: "عِذَار", translit: "ʿidhâr", def: "Favori : poils qui poussent sur le côté de la joue." },
+  { ar: "عَارِض", translit: "ʿârid", def: "Côté plat de la joue." },
+  { ar: "وَتَدُ الأُذُنِ", translit: "watadou l-oudhoun", def: "Petit relief saillant de l'oreille, devant son conduit." },
+  { ar: "ذَقَن", translit: "dhaqan", def: "Menton : jonction des deux mâchoires inférieures." },
+  { ar: "لَحْي", translit: "lahy", def: "Mâchoire : os où pousse la barbe (duel : les deux mâchoires)." },
+  { ar: "غَمَم", translit: "ghamam", def: "Cheveux qui descendent sur le front, au-delà de leur limite habituelle." },
+  { ar: "صَلَع", translit: "salaʿ", def: "Calvitie du devant de la tête." },
+  { ar: "نَاصِيَة", translit: "nâsiya", def: "Devant de la tête." },
+  { ar: "نَزَعَتَان", translit: "nazaʿatân", def: "Les deux golfes dégarnis de part et d'autre du devant de la tête." },
+  { ar: "صُدْغ", translit: "soudgh", def: "Tempe : entre l'œil et l'oreille." },
+  { ar: "مَوْضِعُ التَّحْذِيفِ", translit: "mawdiʿou t-tahdhîf", def: "Zone de duvet entre le haut du favori et le golfe dégarni, que l'on épile pour élargir le visage." },
+  { ar: "مَا لَا يَتِمُّ الْوَاجِبُ إِلَّا بِهِ", translit: "mâ lâ yatimmou l-wâjibou illâ bihi", def: "Ce sans quoi l'obligation ne s'accomplit pas : règle de fondements selon laquelle il est lui-même obligatoire (discutée)." },
+  { ar: "لِحْيَة", translit: "lihya", def: "Barbe : poils qui poussent sur les deux mâchoires." },
+  { ar: "تَحْرِيك", translit: "tahrîk", def: "Ici : remuer la barbe en y passant la main mouillée pour que l'eau en couvre la surface ; distinct du passage des doigts." },
+  { ar: "نَفْضُ الْيَدِ", translit: "nafdou l-yad", def: "Secouer la main pour en faire tomber l'eau." }
+
   /* FIN-GLOSSAIRE */
 ]);
