@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.24 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.25 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -48,7 +48,9 @@
           (définition et statuts, conditions, nombre des piliers, limites du visage, barbe, manière de laver ; unité 29).
    v1.23 : tah-01-04-06 découpé en deux sous-fiches (06a : le reste de l'avant-bras amputé ; 06b : cas particuliers d'aṭ-Ṭirāz ; unité 30).
    v1.24 : tah-01-04-10 découpé en trois sous-fiches (10a à 10c) ; titre arabe « وَنَقَضَ غَيْرَهُ » (Mukhtaṣar seul, Ibn Ghāzī, al-Dardīr ;
-          anomalie n° 220), au lieu de « وَنَقْصِ غَيْرِهِ » ; titre français de tah-01-04-09 inchangé (unité 31). */
+          anomalie n° 220), au lieu de « وَنَقْصِ غَيْرِهِ » ; titre français de tah-01-04-09 inchangé (unité 31).
+   v1.25 : tah-01-04-11 découpé en 11a et 11b, tah-01-04-13 en 13a à 13c ; titre arabe de 13 « رَجُلٌ أَوْ امْرَأَةٌ »
+          (Mukhtaṣar seul, al-Dardīr ; anomalie n° 231) (unité 32). */
 App.data.definirPlan({
   kutub: [
     {
@@ -345,9 +347,12 @@ App.data.definirPlan({
                 { id: "tah-01-04-10a", titre: "Ôter tout autre obstacle à l'eau", titre_ar: "وَنَقَضَ غَيْرَهُ" }, /* p. 197 — trois sous-fiches (étape 3, v1.24) */
                 { id: "tah-01-04-10b", titre: "Un peu de pâte collée : l'endroit resté sec", titre_ar: "وَنَقَضَ غَيْرَهُ — اللُّمْعَةُ الْيَسِيرَةُ" }, /* p. 199 */
                 { id: "tah-01-04-10c", titre: "Henné, encre, saleté des ongles et autres cas", titre_ar: "وَنَقَضَ غَيْرَهُ — فُرُوعٌ" }, /* p. 200 */
-                { id: "tah-01-04-11", titre: "Essuyer ce qui est sur le crâne", titre_ar: "وَمَسْحُ مَا عَلَى الْجُمْجُمَةِ" }, /* p. 202 */
+                { id: "tah-01-04-11a", titre: "Essuyer toute la tête", titre_ar: "وَمَسْحُ مَا عَلَى الْجُمْجُمَةِ" }, /* p. 202 — deux sous-fiches (étape 3, v1.25) */
+                { id: "tah-01-04-11b", titre: "L'eau de l'essuyage, la main qui sèche, le début", titre_ar: "وَمَسْحُ مَا عَلَى الْجُمْجُمَةِ — صِفَتُهُ" }, /* p. 204 */
                 { id: "tah-01-04-12", titre: "Jusqu'aux tempes, avec les cheveux qui pendent", titre_ar: "بِعَظْمِ صُدْغَيْهِ مَعَ الْمُسْتَرْخِي" }, /* p. 204 */
-                { id: "tah-01-04-13", titre: "Ni l'homme ni la femme ne défont leurs tresses", titre_ar: "وَلَا يَنْقُضُ ضَفْرَهُ رَجُلٌ وَلَا امْرَأَةٌ" }, /* p. 205 */
+                { id: "tah-01-04-13a", titre: "Ni l'homme ni la femme ne défont leurs tresses", titre_ar: "وَلَا يَنْقُضُ ضَفْرَهُ رَجُلٌ أَوْ امْرَأَةٌ" }, /* p. 205 — trois sous-fiches (étape 3, v1.25) */
+                { id: "tah-01-04-13b", titre: "Henné, voile, turban, parfum : sur quoi l'on n'essuie pas", titre_ar: "وَلَا يَنْقُضُ ضَفْرَهُ — الْحِنَّاءُ وَالْخِمَارُ وَالْعِمَامَةُ" }, /* p. 206 */
+                { id: "tah-01-04-13c", titre: "Cheveux coupés après coup, essuyage oublié : deux cas", titre_ar: "وَلَا يَنْقُضُ ضَفْرَهُ — فُرُوعٌ" }, /* p. 209 */
                 { id: "tah-01-04-14", titre: "Glisser les mains dessous au retour", titre_ar: "وَيُدْخِلَانِ يَدَيْهِمَا تَحْتَهُ فِي رَدِّ الْمَسْحِ" }, /* p. 210 */
                 { id: "tah-01-04-15", titre: "Laver la tête suffit", titre_ar: "وَغَسْلُهُ مُجْزِئٌ" }, /* p. 211 */
                 { id: "tah-01-04-16", titre: "Laver les pieds avec les chevilles", titre_ar: "وَغَسْلُ رِجْلَيْهِ بِكَعْبَيْهِ النَّاتِئَيْنِ بِمِفْصَلَيْ السَّاقَيْنِ" }, /* p. 211 */

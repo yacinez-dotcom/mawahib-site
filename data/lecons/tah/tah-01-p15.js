@@ -1,8 +1,9 @@
-/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 15 — v4.6
+/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 15 — v4.7
    Source : Mawāhib al-Jalīl, al-Ḥaṭṭāb, éd. Dār al-Fikr, 3e éd., 1412 H / 1992, tome 1 (shamela.ws/book/569).
    Croisement : al-Sharḥ al-kabīr d'al-Dardīr et Ḥāshiyat al-Dasūqī (shamela.ws/book/21604), tome 1.
    Cette partie : faṣl tah-01-04 (les ablutions), à partir de tah-01-04-08 (unités 31 et suivantes) — t. 1, p. 194 et suivantes.
    v4.6 : unité 31 — tah-01-04-08, -09, -10a à -10c (2026-11-11) ; nouvelle partie, tah-01-p14.js (≈ 166 Ko) n'ayant plus la place d'une unité.
+   v4.7 : unité 32 — tah-01-04-11a, -11b, -12, -13a à -13c (2026-11-11).
    Bāb découpé en parties de moins de 200 Ko ;
    historique des versions : tah-01-p1.js (jusqu'à v2.5) puis l'en-tête de chaque partie. */
 App.data.ajouterFiches([
@@ -372,7 +373,431 @@ App.data.ajouterFiches([
       "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 88 (Shamela 21604, page 87)."
     ],
     verification: "verifie"
+  },
+
+  /* ================================================================== */
+  /* Unité 32 — tah-01-04-11a à -13c — t. 1, p. 202–210 (Shamela 569, p. 201–209) */
+  /* Croisement : al-Dardīr / al-Dasūqī, t. 1, p. 88–89 (Shamela 21604, p. 87–88) */
+  {
+    id: "tah-01-04-11a",
+    kitab: "tah", bab: "01", fasl: "04", ordre: 11,
+    titre: "Essuyer toute la tête",
+    titre_ar: "وَمَسْحُ مَا عَلَى الْجُمْجُمَةِ",
+    objectif: "Savoir quelle partie de la tête on doit essuyer, jusqu'où, et ce que dit l'école de celui qui n'en essuie qu'une partie.",
+    matn: "وَمَسْحُ مَا عَلَى الْجُمْجُمَةِ",
+    regle_pratique: "Troisième pilier : essuyer avec la main mouillée toute la tête, des racines des cheveux du front jusqu'à la fin du crâne, sur les cheveux ou, à défaut, sur la peau ; selon l'avis le plus répandu, en laisser une partie, même petite, ne suffit pas (al-Ḥaṭṭāb ; al-Dardīr).",
+    qualification: {
+      hukm: "fard",
+      nature: "rukn",
+      effet_si_omis: "« فَإِنْ تُرِكَ بَعْضُهُ لَمْ يُجْزِهِ » ; Mālik, à qui l'on parle de celui qui n'a pas essuyé toute sa tête : « يُعِيدُ أَرَأَيْت إنْ غَسَلَ بَعْضَ وَجْهِهِ »."
+    },
+    explication: "C'est le troisième des piliers sur lesquels on s'accorde : l'essuyage de la tête, le مَسْح (mas-h). L'avis répandu exige toute la tête : « وَالْمَشْهُورُ مِنْ الْمَذْهَبِ أَنَّ مَسْحَ جَمِيعِهِ وَاجِبٌ ». Ibn Maslama se contente des deux tiers, Abū l-Faraj du tiers, Ashhab de la نَاصِيَة (nâsiya), le devant de la tête ; on rapporte aussi d'Ashhab qu'il suffit de ne pas couvrir toute la tête, sans fixer la part. Ibn Nājī lit la Risāla : laisser une partie, même petite, ne suffit pas chez Mālik.\n\nLe mot « ʿalâ » du matn peut se lire comme un verbe, « ce qui s'élève au-dessus du crâne » ; la جُمْجُمَة (joumjouma) est l'os du crâne qui contient le cerveau (al-Jawharī). Khalīl en tire deux choses. D'abord, on essuie ce qui recouvre le crâne : « مِنْ الشَّعْرِ إنْ كَانَ ثَمَّ شَعْرٌ أَوْ الْجِلْدِ إنْ لَمْ يَكُنْ هُنَاكَ شَعْرٌ » ; les cheveux sont donc l'essentiel dans l'essuyage de la tête, alors qu'ils ne sont qu'accessoires dans le lavage du visage. Adh-Dhakhīra l'explique par le verset : selon que « tête » désigne ce qui est en haut ou le membre lui-même, l'essuyage de la peau sans cheveux vient du texte ou du consensus ; « وَعَلَى كُلِّ تَقْدِيرٍ يَكُونُ الشَّعْرُ أَصْلًا فِي الرَّأْسِ فَرْعًا فِي اللِّحْيَةِ ».\n\nEnsuite, la tête finit à la fin du crâne : c'est l'avis répandu. Sanad : là où l'os de la tête rejoint les vertèbres du cou ; Ibn Shaʿbān la prolonge jusqu'à la fin de la pousse des cheveux, ce que Sanad juge faux, car cet endroit est séparé de la tête. Al-Lakhmī dit de même, suivi par Ibn al-Ḥājib et ses commentateurs, qui attribuent l'avis isolé à Ibn Shaʿbān ; al-Qarāfī, al-Fākihānī et Ibn Nājī aussi. La Mudawwana décrit l'essuyage « jusqu'à la nuque », et Ibn ʿArafa y a vu l'avis d'Ibn Shaʿbān ; at-Talqīn dit de même. Al-Ḥaṭṭāb note que les auteurs tardifs suivent al-Lakhmī et propose d'accorder les textes : la nuque, ce serait la fin des cheveux de la tête, comme dans la Risāla. Le قَفَا (qafâ), la nuque, est un mot masculin ou féminin.\n\nLes avis divergent-ils sur ce qu'il faut faire au départ, ou seulement sur celui qui n'a essuyé qu'une partie ? Al-Lakhmī et Ibn ʿAbd as-Salām : tous s'accordent qu'on doit essuyer le tout au départ ; Ibn ʿArafa le conteste, d'après al-Māzarī et l'attribution par Ibn Rushd à Ashhab de l'avis d'ash-Shāfiʿī. Sanad défend l'avis de l'école : la réponse de Mālik, le parallèle avec le visage et avec l'ablution sèche, la pratique du Prophète ﷺ ; le hadith d'al-Mughīra, où le Prophète ﷺ essuie le devant de sa tête et son turban, montre selon lui une nécessité, car le devant aurait suffi sinon.\n\nAutres remarques. Ibn ʿAbd as-Salām se demande si le second avis d'Ashhab rejoint les shāfiʿites (trois cheveux) ; at-Tawḍīḥ dit que non, il faut une part notable. Ibn ʿAṭiyya limite le désaccord au cas où l'on a essuyé le devant ; ash-Shabībī le juge faible. Ibn ʿAbd as-Salām demande enfin si la part essuyée doit être au-dessus de la tête quand les cheveux sont longs ; Ibn Nājī répond par l'avis répandu, qui fait essuyer les cheveux longs, réponse qu'al-Ḥaṭṭāb trouve faible, la question portant sur l'avis non répandu.",
+    aqwal: [
+      { auteur: "Mālik et l'école", avis: "Il faut essuyer toute la tête ; en laisser une partie ne suffit pas.", statut: "mashhur" },
+      { auteur: "Ibn Maslama", avis: "Les deux tiers suffisent.", statut: "qawl" },
+      { auteur: "Abū l-Faraj", avis: "Le tiers suffit.", statut: "qawl" },
+      { auteur: "Ashhab", avis: "Le devant de la tête suffit ; on rapporte aussi de lui qu'une partie, sans précision, suffit.", statut: "qawl" },
+      { auteur: "Ibn Shaʿbān", avis: "La tête va jusqu'à la fin de la pousse des cheveux de la nuque.", statut: "shadh" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « الثَّالِثَةُ مَسْحُ جَمِيعِ الرَّأْسِ » ; al-Dasūqī, « فَلَا يَكْفِي مَسْحُ الْبَعْضِ عَلَى الْمَشْهُورِ مِنْ الْمَذْهَبِ سَوَاءٌ كَانَ قَلِيلًا أَوْ كَثِيرًا ».",
+    tarjih_hattab: "Sur la limite : « وَيُمْكِنُ رَدُّ ذَلِكَ إلَى مَا قَالَهُ غَيْرُهُ بِأَنْ يَكُونَ الْمُرَادُ إلَى آخِرِ شَعْرِ رَأْسِهِ كَمَا قَالَ فِي الرِّسَالَةِ » ; sur Ibn ʿAṭiyya : « وَمَا قَالَهُ ابْنُ عَطِيَّةَ غَرِيبٌ وَمَا قَالَهُ الشَّبِيبِيُّ ظَاهِرٌ » ; sur Ibn Nājī : « هَذَا الرَّدُّ ضَعِيفٌ؛ لِأَنَّ بَحْثَهُ إنَّمَا هُوَ عَلَى غَيْرِ الْمَشْهُورِ ».",
+    tanbihat: [
+      "Sanad : « فَالْمَعْرُوفُ مِنْ الْمَذْهَبِ أَنَّهُ مُنْتَهَى الْجُمْجُمَةِ حَيْثُ يَتَّصِلُ عَظْمُ الرَّأْسِ بِفَقَارِ الْعُنُقِ ».",
+      "At-Tawḍīḥ, d'après al-Lakhmī et Ibn ʿAbd as-Salām : « لَا خِلَافَ أَنَّهُ مَأْمُورٌ بِالْجَمِيعِ ابْتِدَاءً وَإِنَّمَا الْخِلَافُ إذَا اقْتَصَرَ عَلَى بَعْضِهِ ».",
+      "Sanad sur le hadith d'al-Mughīra : « لِأَنَّهُ لَوْ أَجْزَأَهُ الْمَسْحُ عَلَى النَّاصِيَةِ لَمَا مَسَحَ عَلَى الْعِمَامَةِ ».",
+      "At-Tawḍīḥ sur le second avis d'Ashhab : « لِأَنَّ الَّذِي يُفْهَمُ مِنْ قَوْلِهِ إنْ لَمْ يَعُمَّ عُرْفًا أُخِذَ جُزْءٌ جَيِّدٌ مِنْهُ »."
+    ],
+    divergences: [
+      "Concordance — toute la tête. Al-Ḥaṭṭāb : « وَالْمَشْهُورُ مِنْ الْمَذْهَبِ أَنَّ مَسْحَ جَمِيعِهِ وَاجِبٌ ». Al-Dasūqī : « فَلَا يَكْفِي مَسْحُ الْبَعْضِ عَلَى الْمَشْهُورِ مِنْ الْمَذْهَبِ ».",
+      "Point à comparer — l'avis d'Ashhab. Al-Ḥaṭṭāb : « وَقَالَ أَشْهَبُ: تُجْزِئُ النَّاصِيَةُ ». Al-Dasūqī : « وَقَالَ أَشْهَبُ يَكْفِي مَسْحُ النِّصْفِ ». At-Tawḍīḥ (14442, p. 109) et Ibn ʿArafa (16968, p. 59 : « الباجي عن أشهب: مقدمه يجزئ ») vont dans le sens d'al-Ḥaṭṭāb.",
+      "Concordance — la limite. Al-Ḥaṭṭāb : la fin du crâne. Al-Dardīr : « وَهِيَ مِنْ مَنَابِتِ شَعْرِ الرَّأْسِ الْمُعْتَادِ إلَى نُقْرَةِ الْقَفَا ».",
+      "Concordance — cheveux ou peau. Al-Ḥaṭṭāb : « مِنْ الشَّعْرِ إنْ كَانَ ثَمَّ شَعْرٌ أَوْ الْجِلْدِ ». Al-Dardīr : « مِنْ جِلْدٍ أَوْ شَعْرٍ »."
+    ],
+    exemple: "Un homme se contente de passer la main mouillée sur le haut de son front, par habitude. D'après l'avis répandu, ce n'est pas assez : il doit passer les mains du front jusqu'à l'arrière du crâne, en couvrant toute la tête.",
+    erreurs_frequentes: [
+      "N'essuyer que le devant de la tête.",
+      "S'arrêter au sommet du crâne sans aller jusqu'à sa fin.",
+      "Croire qu'un chauve est dispensé : il essuie la peau du crâne."
+    ],
+    termes: [
+      { ar: "جُمْجُمَة", translit: "joumjouma", def: "Crâne : os de la tête qui contient le cerveau." },
+      { ar: "قَفَا", translit: "qafâ", def: "Nuque, arrière du cou." },
+      { ar: "نَاصِيَة", translit: "nâsiya", def: "Devant de la tête." },
+      { ar: "مَسْح", translit: "mas-h", def: "Essuyage : passer la main ou un linge sur un endroit sans le laver." }
+    ],
+    quiz: [
+      { q: "Selon l'avis le plus répandu, quelle partie de la tête doit-on essuyer ?",
+        choix: ["Le devant seulement", "Toute la tête", "Les deux tiers", "Le tiers"],
+        bonne: 1,
+        explication: "« وَالْمَشْهُورُ مِنْ الْمَذْهَبِ أَنَّ مَسْحَ جَمِيعِهِ وَاجِبٌ فَإِنْ تُرِكَ بَعْضُهُ لَمْ يُجْزِهِ »." },
+      { q: "Jusqu'où va la tête, selon l'avis répandu ?",
+        choix: ["Jusqu'aux épaules", "Jusqu'au sommet du crâne", "Jusqu'à la fin de la pousse des cheveux de la nuque, pour tous", "Jusqu'à la fin du crâne, où il rejoint le cou"],
+        bonne: 3,
+        explication: "Sanad : « حَيْثُ يَتَّصِلُ عَظْمُ الرَّأْسِ بِفَقَارِ الْعُنُقِ » ; l'avis d'Ibn Shaʿbān (fin des cheveux) est dit isolé." },
+      { q: "Mise en situation : un homme chauve se demande s'il doit encore essuyer sa tête. Que dit le passage ?",
+        choix: ["Il essuie la peau du crâne, à défaut de cheveux", "Il est dispensé", "Il essuie seulement ses tempes", "Il lave sa tête à la place"],
+        bonne: 0,
+        explication: "« أَوْ الْجِلْدِ إنْ لَمْ يَكُنْ هُنَاكَ شَعْرٌ »." },
+      { q: "Qui se contente du devant de la tête ?",
+        choix: ["Ibn Maslama", "Abū l-Faraj", "Ashhab", "Ibn al-Qāsim"],
+        bonne: 2,
+        explication: "« وَقَالَ أَشْهَبُ: تُجْزِئُ النَّاصِيَةُ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "202-204" },
+    alertes: [
+      "« بِخِلَافِ غَسْلِ الْوَجْهِ فَإِنَّهُ فِيهِ.(فَرْعٌ) قَالَ فِي الذَّخِيرَةِ » : le mot « فرع » appartient à la phrase (les cheveux sont « accessoires » dans le lavage du visage) et a été pris pour un titre ; adh-Dhakhīra (1717, p. 263 : « فرعا في اللحية ») l'éclaire (anomalie n° 226).",
+      "« وَعَلَى ذَلِكَ شَيْءٌ غَيْرُ وَاحِدٍ مِنْ أَهْلِ الْمَذْهَبِ » : on attend « مَشَى » (ont suivi cet avis) ; aucun témoin ; sens retenu d'après le contexte (anomalie n° 227).",
+      "Adh-Dhakhīra citée : « إنْ رَاعَيْنَا الِاشْتِقَاقَ مِنْ الرَّأْسِ وَهُوَ مَا عَلَا » ; adh-Dhakhīra (1717, p. 263) porte « من التراوس وهو كل ما علا » ; sans effet sur le sens (anomalie n° 228).",
+      "Ibn ʿArafa cité sur le désaccord « au départ » : dans Mawāhib, « وَرُوِيَ عَنْ ابْنِ عُمَرَ مُتَعَلِّقُ الْإِجْزَاءِ ظَاهِرُ اخْتِلَافِهِمْ » mêle deux phrases ; Ibn ʿArafa (16968, p. 59–60) place « متعلق الأجزاء » plus haut et lit « وروى عن ابن عمر. ولأن ظاهر اختلافهم » ; la fiche ne rapporte que la conclusion (anomalie n° 229).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 88 (Shamela 21604, page 87)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-04-11b",
+    kitab: "tah", bab: "01", fasl: "04", ordre: 11,
+    titre: "L'eau de l'essuyage, la main qui sèche, le début",
+    titre_ar: "وَمَسْحُ مَا عَلَى الْجُمْجُمَةِ — صِفَتُهُ",
+    objectif: "Savoir comment prendre l'eau pour essuyer la tête, que faire si la main sèche en route, et par où commencer.",
+    matn: "وَمَسْحُ مَا عَلَى الْجُمْجُمَةِ",
+    regle_pratique: "Pour essuyer la tête, on prend de l'eau dans les mains, puis on la laisse s'égoutter, ou l'on y trempe les mains et on les retire ; si la main sèche avant d'avoir couvert toute la tête, on la remouille, avis qu'aṭ-Ṭirāz renforce ; on commence à la limite du visage, en prenant un peu de celui-ci, ce qui paraît être l'avis de l'école (al-Ḥaṭṭāb).",
+    qualification: {
+      hukm: "fard",
+      nature: "rukn",
+      effet_si_omis: "Le passage ne précise pas de conséquence propre ; l'eau doit atteindre l'endroit essuyé : « لِأَنَّ الْأَصْلَ فِيمَا يَجِبُ تَطْهِيرُهُ بِالْمَاءِ أَنْ يَصِلَ الْمَاءُ إلَى الْمَحَلِّ » (aṭ-Ṭirāz)."
+    },
+    explication: "Prendre l'eau. La Risāla décrit : on prend l'eau de la main droite et on la verse dans la paume gauche. Az-Zarrūq : puis on laisse s'égoutter les mains jusqu'à ce qu'il n'y reste qu'un peu d'eau ; ou bien on les plonge dans l'eau et on les retire ; « لَكِنَّ اخْتِيَارَ ابْنِ الْقَاسِمِ الْأَوَّلُ وَاخْتِيَارَ مَالِكٍ الْأَخِيرُ اسْتِحْبَابًا فِيهِمَا ».\n\nLa main qui sèche. Si le بَلَل (balal), l'humidité de la main, s'épuise avant qu'on ait couvert toute la tête, deux avis. Le premier fait remouiller : Mālik dans al-Majmūʿa, « قَدْ يَكْثُرُ الْمَاءُ فَيَكْفِي الْمُسَبِّحَةُ الْوَاحِدَةُ وَقَدْ يَقِلُّ فَتَكُونُ اثْنَيْنِ », et Ibn Ḥabīb d'après Mālik pour la femme. Le second ne le demande pas : al-Qāḍī Ismāʿīl, et ce qui ressort d'Ibn al-Qāsim dans l'audition de Mūsā, que l'essuyage avec un seul doigt suffit. Al-Lakhmī et Ibn ʿArafa rattachent le premier avis à l'audition d'Ashhab, où al-Ḥaṭṭāb dit ne pas le trouver ; aṭ-Ṭirāz le rapporte d'al-Majmūʿa. ʿAbd al-Ḥaqq, d'après Ibn ʿArafa, limite la validité du doigt unique au cas où on le replonge plusieurs fois dans l'eau ; al-Ḥaṭṭāb fait remarquer que l'auteur d'an-Nawādir l'avait déjà dit, et Ibn Rushd aussi : cela vaut si on l'a fait, mais on ne le fait pas au départ, la sunna de l'essuyage étant celle du hadith de ʿAbd Allāh b. Zayd. Aṭ-Ṭirāz renforce le premier avis : l'eau doit atteindre l'endroit qu'on purifie ; l'essuyage des chaussures de cuir est différent, car ce n'est pas la chaussure qu'on purifie, l'essuyage de la tête est un pilier d'origine et celui de la chaussure un allègement, et l'eau abîme la chaussure.\n\nLe début. Khalīl ne fixe pas le début de l'essuyage, se contentant de ce qu'il a dit du visage : la racine des cheveux est le début du visage et de la tête. D'après Ibn Nājī, ce qui ressort de la Mudawwana est qu'on ne prend rien du visage, l'un des deux avis des auteurs tardifs ; c'est la question de « ce sans quoi l'obligation ne peut s'accomplir ». Al-Ḥaṭṭāb retient, d'après d'autres, qu'on en prend un peu.\n\nLa manière de transporter l'eau, et l'essuyage avec l'humidité de la barbe ou des bras, seront traités avec le frottement.",
+    aqwal: [
+      { auteur: "Ibn al-Qāsim ; Mālik (d'après az-Zarrūq)", avis: "Verser l'eau et laisser s'égoutter (Ibn al-Qāsim) ou tremper les mains (Mālik) ; l'un et l'autre recommandés.", statut: "non_precise" },
+      { auteur: "Mālik (al-Majmūʿa) ; Ibn Ḥabīb d'après Mālik", avis: "Si la main sèche avant de couvrir la tête, on la remouille.", statut: "non_precise" },
+      { auteur: "Al-Qāḍī Ismāʿīl ; Ibn al-Qāsim (audition de Mūsā)", avis: "On ne la remouille pas ; un seul doigt suffit.", statut: "non_precise" },
+      { auteur: "ʿAbd al-Ḥaqq ; an-Nawādir ; Ibn Rushd", avis: "Le doigt unique suffit s'il est replongé dans l'eau ; on ne le fait pas au départ.", statut: "non_precise" }
+    ],
+    muatamad: "Non tranché pour la main qui sèche : al-Dardīr et al-Dasūqī n'en parlent pas dans les pages croisées. Complément d'al-Dasūqī sur l'eau nouvelle : « وَيُنْدَبُ تَجْدِيدُ الْمَاءِ لِمَسْحِ الرَّأْسِ وَيُكْرَهُ بِغَيْرِهِ كَبَلَلِ لِحْيَتِهِ إنْ وَجَدَ غَيْرَهُ وَإِلَّا فَلَا ».",
+    tarjih_hattab: "Sur le début : « وَظَاهِرُ كَلَامِ غَيْرِهِ أَنَّ أَخْذَ شَيْءٍ مِنْهُ هُوَ الْمَذْهَبُ وَهُوَ الظَّاهِرُ » ; sur la limite du doigt unique : « سَبَقَ عَبْدَ الْحَقِّ بِالتَّقْيِيدِ الْمَذْكُورِ صَاحِبُ النَّوَادِرِ ».",
+    tanbihat: [
+      "Az-Zarrūq : « يَعْنِي وَيُرْسِلُهُمَا حَتَّى لَا يَبْقَى فِيهِمَا إلَّا الْقَلِيلُ وَإِنْ شَاءَ غَمَسَهُمَا فِي الْمَاءِ ثُمَّ رَفَعَهُمَا ».",
+      "Ibn Rushd : « يُرِيدُ أَنَّ ذَلِكَ يُجْزِئُهُ إنْ فَعَلَ وَلَا يُؤْمَرُ بِذَلِكَ ابْتِدَاءً ».",
+      "Aṭ-Ṭirāz : « وَلِأَنَّ مَسْحَ الرَّأْسِ لَهُ تَأْكِيدُ الْأَصْلِيَّةِ وَمَسْحَ الْخُفِّ لَهُ تَخْفِيفُ الْبَدَلِيَّةِ ».",
+      "Ibn al-Ḥājib : « وَمَبْدَؤُهُ مِنْ عِنْدِ الْوَجْهِ »."
+    ],
+    divergences: [
+      "Complément — l'eau nouvelle. Al-Ḥaṭṭāb renvoie la question de l'humidité de la barbe au chapitre du frottement. Al-Dasūqī : « وَيُنْدَبُ تَجْدِيدُ الْمَاءِ لِمَسْحِ الرَّأْسِ وَيُكْرَهُ بِغَيْرِهِ كَبَلَلِ لِحْيَتِهِ إنْ وَجَدَ غَيْرَهُ وَإِلَّا فَلَا ».",
+      "Complément — la main qui sèche. Al-Ḥaṭṭāb rapporte les deux avis et le renfort qu'aṭ-Ṭirāz donne au premier ; al-Dardīr et al-Dasūqī n'en parlent pas dans les pages croisées."
+    ],
+    exemple: "Une femme aux cheveux longs mouille ses mains et commence à essuyer sa tête ; arrivée au milieu, ses paumes sont sèches. Selon l'avis qu'aṭ-Ṭirāz renforce, elle les remouille et termine.",
+    erreurs_frequentes: [
+      "Essuyer la tête avec des mains presque sèches, sans que l'eau atteigne les cheveux.",
+      "Croire que l'essuyage avec un seul doigt est la manière normale.",
+      "Commencer l'essuyage au sommet du crâne au lieu de la limite du visage."
+    ],
+    termes: [
+      { ar: "بَلَل", translit: "balal", def: "Humidité, eau qui reste sur la main ou sur un membre." }
+    ],
+    quiz: [
+      { q: "Mise en situation : votre main sèche au milieu de l'essuyage de la tête. Que fait-on selon l'avis renforcé par aṭ-Ṭirāz ?",
+        choix: ["On s'arrête là", "On recommence les ablutions", "On essuie le reste avec l'humidité de la barbe", "On remouille la main et l'on termine"],
+        bonne: 3,
+        explication: "Aṭ-Ṭirāz : « لِأَنَّ الْأَصْلَ فِيمَا يَجِبُ تَطْهِيرُهُ بِالْمَاءِ أَنْ يَصِلَ الْمَاءُ إلَى الْمَحَلِّ »." },
+      { q: "Selon az-Zarrūq, quelle manière de prendre l'eau Ibn al-Qāsim préfère-t-il ?",
+        choix: ["Verser l'eau dans les paumes puis laisser s'égoutter", "Tremper les mains dans le récipient", "Verser l'eau directement sur la tête", "Prendre l'humidité des bras"],
+        bonne: 0,
+        explication: "« لَكِنَّ اخْتِيَارَ ابْنِ الْقَاسِمِ الْأَوَّلُ وَاخْتِيَارَ مَالِكٍ الْأَخِيرُ اسْتِحْبَابًا فِيهِمَا »." },
+      { q: "Que dit Ibn Rushd de l'essuyage avec un seul doigt ?",
+        choix: ["C'est la sunna", "C'est nul", "Cela suffit si on l'a fait, mais on ne le fait pas au départ", "C'est réservé aux femmes"],
+        bonne: 2,
+        explication: "« يُرِيدُ أَنَّ ذَلِكَ يُجْزِئُهُ إنْ فَعَلَ وَلَا يُؤْمَرُ بِذَلِكَ ابْتِدَاءً »." },
+      { q: "Par où commence l'essuyage de la tête, et que retient al-Ḥaṭṭāb ?",
+        choix: ["Par la nuque, sans rien du visage", "À la limite du visage, en prenant un peu de celui-ci", "Au sommet du crâne", "Aux tempes"],
+        bonne: 1,
+        explication: "« وَظَاهِرُ كَلَامِ غَيْرِهِ أَنَّ أَخْذَ شَيْءٍ مِنْهُ هُوَ الْمَذْهَبُ وَهُوَ الظَّاهِرُ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "204" },
+    alertes: [
+      "Al-Ḥaṭṭāb dit que le premier avis (remouiller) n'est pas dans l'audition d'Ashhab, à laquelle al-Lakhmī et Ibn ʿArafa le rattachent (« وَلَيْسَ فِيهِ ») ; Ibn ʿArafa (16968, p. 60) porte bien « مع سماع أشهب مطلقًا » ; la fiche suit al-Ḥaṭṭāb (al-Majmūʿa).",
+      "Coquille : « فَتَكُونُ اثْنَيْنِ » (accord) ; sens sûr : deux doigts.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 88 (Shamela 21604, page 87)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-04-12",
+    kitab: "tah", bab: "01", fasl: "04", ordre: 12,
+    titre: "Jusqu'aux tempes, avec les cheveux qui pendent",
+    titre_ar: "بِعَظْمِ صُدْغَيْهِ مَعَ الْمُسْتَرْخِي",
+    objectif: "Savoir que l'essuyage de la tête comprend les tempes au-dessus de l'os, le blanc derrière l'oreille et toute la chevelure qui pend.",
+    matn: "بِعَظْمِ صُدْغَيْهِ مَعَ الْمُسْتَرْخِي",
+    regle_pratique: "On essuie aussi la partie des tempes située au-dessus de l'os saillant de la joue, les golfes du front, le blanc derrière l'oreille, et toute la chevelure qui pend, même longue au-delà de la tête : c'est l'avis le plus répandu (al-Ḥaṭṭāb ; al-Dardīr).",
+    qualification: {
+      hukm: "fard",
+      nature: "rukn",
+      effet_si_omis: "Ibn Farḥūn, pour le blanc derrière l'oreille : « وَمَتَى تَرَكَهُ فَقَدْ تَرَكَ جُزْءًا مِنْ الرَّأْسِ »."
+    },
+    explication: "C'est la limite de la tête en largeur ; bi- signifie « avec » : on essuie le crâne avec ce qui est sur l'os des tempes, et avec les cheveux qui pendent et s'allongent, même au-delà de la tête. Le صُدْغ (soudgh), la tempe, est entre l'œil et l'oreille ; ce qui est au-dessus de l'os saillant des joues et n'entre pas dans la ligne habituelle des cheveux du visage fait partie de la tête : « فَيَدْخُلُ فِي ذَلِكَ النَّزَعَتَانِ وَمَوْضِعُ » … « التَّحْذِيفِ ». Les نَزَعَتَان (nazaʿatân) sont les deux golfes dégarnis. An-Nawādir : les cheveux des tempes sont de la tête ; al-Bājī : ce qui n'entre pas dans le tour du visage. Al-Lakhmī : on essuie les golfes, ce qui monte des cheveux des tempes vers la tête, et le blanc entre l'oreille et les cheveux ; Ibn Farḥūn précise : derrière l'oreille.\n\nLa chevelure qui pend, le مُسْتَرْخِي (moustarkhî) : l'essuyer est l'avis le plus répandu et celui de la Mudawwana : « وَتَمْسَحُ الْمَرْأَةُ عَلَى رَأْسِهَا كَالرَّجُلِ وَتَمْسَحُ عَلَى الْمُسْتَرْخِي مِنْ شَعْرِهَا نَحْوَ الدَّلَالَيْنِ », de même l'homme aux cheveux longs. Le دَلَال (dalâl) est la mèche qui pend ; ʿIyāḍ le vocalise avec fatḥa. Un autre avis ne l'exige pas : Ibn Nājī l'attribue à Abū l-Faraj, Ibn ʿArafa à al-Abharī, Ibn Rushd à ce qui ressort de l'audition de Mūsā b. Muʿāwiya d'après Ibn al-Qāsim d'après Mālik ; sa raison : les cheveux de la tête ne sont pas la tête. Ibn Rushd : « وَالْأَوَّلُ أَظْهَرُ وَأَشْهَرُ », car ce qui pousse sur la tête prend son statut, comme ce qui pousse dans l'enceinte sacrée garde le statut de l'enceinte même s'il en dépasse.\n\nAṭ-Ṭirāz se demande si, selon l'avis qui ne l'exige pas, l'essuyage de la chevelure pendante est au moins recommandé ; la phrase de l'ʿUtbiyya peut se lire dans les deux sens. Al-Ḥaṭṭāb : c'est recommandé, car sortir du désaccord est demandé. Ibn Nājī rapporte qu'on a objecté à la Mudawwana un cas du livre des sacrifices (l'oiseau sur une branche dont la racine est dans l'enceinte sacrée) ; il répond que les cheveux longs correspondent au bout de la branche, non à l'oiseau.",
+    aqwal: [
+      { auteur: "Mālik (Mudawwana)", avis: "On essuie la chevelure qui pend, même longue.", statut: "mashhur" },
+      { auteur: "Abū l-Faraj (d'après Ibn Nājī) ; al-Abharī (d'après Ibn ʿArafa) ; audition de Mūsā (d'après Ibn Rushd)", avis: "On n'est pas tenu d'essuyer ce qui pend au-delà de la tête.", statut: "qawl" },
+      { auteur: "Al-Lakhmī ; Ibn Farḥūn", avis: "On essuie les golfes, ce qui monte des tempes, et le blanc entre l'oreille et les cheveux.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « مَعَ مَسْحِ الْمُسْتَرْخِي مِنْ الشَّعْرِ وَلَوْ طَالَ جِدًّا نَظَرًا لِأَصْلِهِ » ; pour les tempes, « وَهُوَ مَا فَوْقَ الْعَظْمِ النَّاتِئِ وَأَمَّا الْعَظْمُ النَّاتِئُ فَهُوَ مِنْ الْوَجْهِ ».",
+    tarjih_hattab: "« وَالظَّاهِرُ الِاسْتِحْبَابُ؛ لِأَنَّ الْخُرُوجَ مِنْ الْخِلَافِ مَطْلُوبٌ » (pour ceux qui ne l'exigent pas).",
+    tanbihat: [
+      "Ibn Rushd : « وَالدَّلِيلُ عَلَيْهِ مِنْ جِهَةِ النَّظَرِ أَنَّ شَعْرَ الرَّأْسِ لَمَّا نَبَتَ فِيهِ وَجَبَ أَنْ يُحْكَمَ لَهُ بِحُكْمِهِ ».",
+      "Ibn Nājī répond à l'objection : « بِأَنَّ وِزَانَ مَا طَالَ مِنْ الشَّعْرِ طَرَفُ الْغُصْنِ لَا الطَّائِرُ »."
+    ],
+    divergences: [
+      "Concordance — les tempes. Al-Ḥaṭṭāb : ce qui est « فَوْقَ الْعَظْمِ النَّاتِئِ عَلَى الْعَارِضَيْنِ ». Al-Dardīr : « يَعْنِي مَا يَنْبُتُ فِيهِ الشَّعْرُ وَهُوَ مَا فَوْقَ الْعَظْمِ النَّاتِئِ » ; il ajoute : « فَلَوْ قَالَ بِشَعْرِ صُدْغَيْهِ كَانَ أَوْضَحَ » ; al-Dasūqī : « أَيْ لِأَنَّ ظَاهِرَ الْمُصَنِّفِ أَنَّهُ يَمْسَحُ الصُّدْغَ كُلَّهُ وَلَيْسَ كَذَلِكَ ».",
+      "Concordance — le blanc près de l'oreille. Al-Ḥaṭṭāb, d'après al-Lakhmī et Ibn Farḥūn. Al-Dardīr : « وَيَدْخُلُ فِيهِ الْبَيَاضُ وَاَلَّذِي فَوْقَ وَتَدَيْ الْأُذُنَيْنِ وَاَلَّذِي فَوْقَ الْأُذُنَيْنِ ».",
+      "Concordance — la chevelure qui pend. Al-Ḥaṭṭāb : « هُوَ الْمَشْهُورُ وَهُوَ مَذْهَبُ الْمُدَوَّنَةِ ». Al-Dardīr : « وَلَوْ طَالَ جِدًّا نَظَرًا لِأَصْلِهِ »."
+    ],
+    exemple: "Un homme aux cheveux longs attachés en queue essuie le dessus de sa tête, puis fait glisser ses mains jusqu'au bout de ses cheveux ; il n'oublie pas la zone sans cheveux derrière les oreilles.",
+    erreurs_frequentes: [
+      "S'arrêter à la nuque sans essuyer les cheveux longs qui pendent.",
+      "Oublier les golfes et la zone derrière les oreilles.",
+      "Essuyer toute la tempe, alors que sa partie sous l'os saillant appartient au visage."
+    ],
+    termes: [
+      { ar: "صُدْغ", translit: "soudgh", def: "Tempe : entre l'œil et l'oreille." },
+      { ar: "نَزَعَتَان", translit: "nazaʿatân", def: "Les deux golfes dégarnis de part et d'autre du devant de la tête." },
+      { ar: "مُسْتَرْخِي", translit: "moustarkhî", def: "Chevelure qui pend et dépasse la tête." },
+      { ar: "دَلَال", translit: "dalâl", def: "Mèche de cheveux qui pend (au duel : الدَّلَالَانِ)." }
+    ],
+    quiz: [
+      { q: "Faut-il essuyer les cheveux longs qui pendent au-delà de la tête ?",
+        choix: ["Oui, selon l'avis le plus répandu, celui de la Mudawwana", "Non, jamais", "Seulement pour la femme", "Seulement s'ils sont tressés"],
+        bonne: 0,
+        explication: "« هُوَ الْمَشْهُورُ وَهُوَ مَذْهَبُ الْمُدَوَّنَةِ » ; la Mudawwana ajoute : « وَكَذَلِكَ الطَّوِيلُ الشَّعْرِ مِنْ الرِّجَالِ »." },
+      { q: "Quelle partie des tempes appartient à la tête ?",
+        choix: ["Toute la tempe", "Rien de la tempe", "Ce qui est au-dessus de l'os saillant de la joue", "Seulement les cheveux sous l'os"],
+        bonne: 2,
+        explication: "Al-Dardīr : « وَهُوَ مَا فَوْقَ الْعَظْمِ النَّاتِئِ وَأَمَّا الْعَظْمُ النَّاتِئُ فَهُوَ مِنْ الْوَجْهِ »." },
+      { q: "Mise en situation : en essuyant sa tête, une femme oublie la zone sans cheveux derrière ses oreilles. Que dit Ibn Farḥūn ?",
+        choix: ["Ce n'est pas grave", "Elle a laissé une partie de la tête", "C'est une partie du visage", "Elle doit refaire le grand lavage"],
+        bonne: 1,
+        explication: "« وَمَتَى تَرَكَهُ فَقَدْ تَرَكَ جُزْءًا مِنْ الرَّأْسِ »." },
+      { q: "Pour ceux qui n'exigent pas l'essuyage des cheveux qui pendent, que retient al-Ḥaṭṭāb ?",
+        choix: ["Il est déconseillé", "Il est interdit", "Il est indifférent", "Il est recommandé, car sortir du désaccord est demandé"],
+        bonne: 3,
+        explication: "« وَالظَّاهِرُ الِاسْتِحْبَابُ؛ لِأَنَّ الْخُرُوجَ مِنْ الْخِلَافِ مَطْلُوبٌ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "204-205" },
+    alertes: [
+      "La phrase « وَمَوْضِعُ التَّحْذِيفِ » est coupée par le changement de page (569/203–204) ; citée en deux morceaux.",
+      "Témoin : Ibn ʿArafa (16968, p. 59) : « وسمع موسى رواية ابن القاسم: ليس عليهما مسح ما طال عنه، وقاله الأبهري ».",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 88 (Shamela 21604, page 87)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-04-13a",
+    kitab: "tah", bab: "01", fasl: "04", ordre: 13,
+    titre: "Ni l'homme ni la femme ne défont leurs tresses",
+    titre_ar: "وَلَا يَنْقُضُ ضَفْرَهُ رَجُلٌ أَوْ امْرَأَةٌ",
+    objectif: "Savoir qu'on essuie sur les tresses sans les défaire, et quand des fils ou des rajouts obligent à les défaire.",
+    matn: "وَلَا يَنْقُضُ ضَفْرَهُ رَجُلٌ أَوْ امْرَأَةٌ",
+    regle_pratique: "Pour essuyer la tête, ni l'homme ni la femme n'ont à défaire leurs tresses ou leur chignon : on essuie dessus ; mais des tresses serrées par de nombreux fils, ou des cheveux rallongés de laine ou de cheveux étrangers qui empêchent l'eau d'atteindre les cheveux, doivent être défaits ou ôtés (al-Ḥaṭṭāb ; al-Dardīr).",
+    qualification: {
+      hukm: "mubah",
+      nature: "autre",
+      effet_si_omis: "Rajouts qui empêchent l'eau d'atteindre les cheveux : « لَمْ يُجْزِهَا الْمَسْحُ عَلَيْهِ حَتَّى تَنْزِعَهُ » (Ibn Ḥabīb)."
+    },
+    explication: "Le ضَفْر (dafr) est le tressage des cheveux entre eux ; le عَقْص (ʿaqs), d'après at-Tanbīhāt, consiste à rassembler les tresses en petites cornes de chaque côté ; d'autres le décrivent comme des cheveux roulés sur la tête ou noués à la nuque, chaque mèche roulée étant une عَقِيصَة (ʿaqîsa) (Abū ʿUbayd, al-Layth, Ibn Sīdah, Ibn Hārūn).\n\nLa Mudawwana : « وَإِنْ كَانَ شَعْرُهَا مَعْقُوصًا مَسَحَتْ عَلَى ضَفْرِهَا وَلَا تَنْقُضُ شَعْرَهَا ». Aṭ-Ṭirāz : l'essuyage est un allègement, défaire les cheveux à chaque ablution serait une très grande peine, et le chignon est à la nuque, où l'essuyage passe déjà. Le pronom de « ses tresses » renvoie, selon al-Ḥaṭṭāb, à ce qui suit (« l'homme ou la femme ») ; le commentateur, dans son petit commentaire, le rapporte aux cheveux ; « وَالْأَوَّلُ أَحْسَنُ ». Al-Ḥaṭṭāb trouve meilleure la formule de la Mudawwana, de la Risāla et d'Ibn al-Ḥājib, qui parlent du chignon : si l'on n'a pas à défaire le chignon, à plus forte raison les tresses, alors que l'inverse ne se déduit pas.\n\nLes fils et les rajouts. At-Tawḍīḥ : la ʿaqîsa sur laquelle on peut essuyer est celle d'un fil léger ; avec beaucoup de fils, c'est un écran. Al-Bājī : si elle a grossi ses cheveux avec de la laine ou des cheveux, elle ne peut essuyer dessus. C'est l'avis d'Ibn Ḥabīb dans al-Wāḍiḥa, avec le hadith : « لَعَنَ اللَّهُ الْوَاصِلَةَ وَالْمُسْتَوْصِلَة » ; la وَاصِلَة (wâsila) est celle qui rallonge les cheveux. Aṭ-Ṭirāz : si ce rajout est attaché à la nuque ou plus bas, il entre dans le désaccord sur la chevelure qui pend. Yūsuf b. ʿUmar, d'après certains maîtres : les petites tresses à la manière des Arabes, liées d'un ou deux fils, ne gênent pas ; si elle les a roulées en deux masses chargées de fils, elle doit les défaire. Al-Ḥaṭṭāb précise : le rajout ne gêne que s'il est visible au-dessus des cheveux, non s'il est caché à l'intérieur. Il rappelle que rallonger ses cheveux par ce qui ressemble à des cheveux est interdit, pour les hommes comme pour les femmes, non un fil de soie qui ne leur ressemble pas.\n\nAutres remarques. Ibn Farḥūn écrit qu'elle doit imbiber et presser ses cheveux jusqu'à mouiller la peau : al-Ḥaṭṭāb y voit une confusion avec le grand lavage. Aṭ-Ṭirāz : si elle relève ses tresses des côtés et les noue au milieu du crâne, alors que, dénouées, elles pendraient, l'essuyage dessus ne suffit pas, car c'est un écran devant ce qu'il faut essuyer ; adh-Dhakhīra l'accepte. Khalīl nomme l'homme pour dire qu'aux cheveux longs, tressés ou noués, il suit la règle de la femme (Ibn Yūnus, d'après at-Tawḍīḥ) ; al-Balansī rapporte qu'il ne peut tordre ses cheveux, Ibn Farḥūn y voyant l'imitation des femmes ; Ibn Nājī tient que l'homme aux cheveux longs essuie dessus même tressés ; al-Maghribī rapporte un avis contraire, qu'Ibn Nājī trouve difficile.",
+    aqwal: [
+      { auteur: "Mālik (Mudawwana)", avis: "La femme essuie sur ses cheveux noués sans les défaire.", statut: "non_precise" },
+      { auteur: "Ibn Ḥabīb (al-Wāḍiḥa), repris par an-Nawādir, aṭ-Ṭirāz, Ibn ʿArafa", avis: "Des rajouts de cheveux étrangers ou de laine empêchent l'essuyage : il faut les ôter.", statut: "non_precise" },
+      { auteur: "Ibn Yūnus (d'après at-Tawḍīḥ) ; Ibn Nājī", avis: "L'homme qui tord ou tresse ses cheveux essuie dessus comme la femme.", statut: "non_precise" },
+      { auteur: "Al-Balansī (d'après at-Tawḍīḥ)", avis: "L'homme ne peut tordre ses cheveux.", statut: "qawl" },
+      { auteur: "Avis rapporté par al-Maghribī", avis: "L'homme n'essuie pas sur ses tresses.", statut: "qawl" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « أَيْ لَا يَجِبُ وَلَا يُنْدَبُ وَلَوْ اشْتَدَّ بِنَفْسِهِ بِخِلَافِ الْغَسْلِ » ; et pour les fils : « وَأَمَّا مَا ضُفِرَ بِخُيُوطٍ كَثِيرَةٍ فَيَجِبُ نَقْضُهُ فِي وُضُوءٍ وَغَسْلٍ ».",
+    tarjih_hattab: "Sur Ibn Farḥūn : « وَهَذَا سَهْوٌ ظَاهِرٌ » ; sur le rajout caché : « فَأَمَّا إذَا كَانَ فِي مُسْتَبْطَنِ الشَّعْرِ فَلَا يَضُرُّ » ; sur le pronom : « وَالْأَوَّلُ أَحْسَنُ ».",
+    tanbihat: [
+      "Aṭ-Ṭirāz : « لِأَنَّ مَوْضِعَ الْمَسْحِ التَّخْفِيفُ وَفِي نَقْضِ الشَّعْرِ عِنْدَ كُلِّ وُضُوءٍ أَعْظَمُ مَشَقَّةٍ ».",
+      "At-Tawḍīḥ : « وَالْعَقِيصَةُ الَّتِي يَجُوزُ الْمَسْحُ عَلَيْهَا مَا تَكُونُ بِخَيْطٍ يَسِيرٍ ».",
+      "Aṭ-Ṭirāz, chignon au sommet : « فَالظَّاهِرُ أَنَّهُ لَا يُجْزِئُهُ مَسْحُهُ؛ لِأَنَّهُ حَائِلٌ دُونَ مَا يَجِبُ مَسْحُهُ ».",
+      "Al-Ḥaṭṭāb : « وَوَصْلُ الشَّعْرِ حَرَامٌ لَا يَجُوزُ وَالرِّجَالُ وَالنِّسَاءُ فِي ذَلِكَ سَوَاءٌ »."
+    ],
+    divergences: [
+      "Concordance — ne pas défaire les tresses. Al-Ḥaṭṭāb, d'après la Mudawwana et aṭ-Ṭirāz. Al-Dardīr : « أَيْ لَا يَجِبُ وَلَا يُنْدَبُ » ; al-Dasūqī : « أَيْ لِأَنَّ الْمَسْحَ مَبْنِيٌّ عَلَى التَّخْفِيفِ وَفِي نَقْضِ الشَّعْرِ الْمَضْفُورِ عِنْدَ كُلِّ وُضُوءٍ مَشَقَّةٌ ».",
+      "Point à comparer — combien de fils. Al-Ḥaṭṭāb, d'après Yūsuf b. ʿUmar : les petites tresses liées « بِالْخَيْطِ وَالْخَيْطَيْنِ » ne gênent pas ; chargées de fils, « فَلَا بُدَّ مِنْ حَلِّهِ ». Al-Dardīr : « وَأَمَّا بِالْخَيْطَيْنِ فَلَا يَجِبُ نَقْضُهُ فِيهِمَا إلَّا أَنْ يَشْتَدَّ » ; al-Dasūqī fixe le nombre : « أَيْ ثَلَاثَةٍ فَأَكْثَرَ فِي كُلِّ ضَفِيرَةٍ ». Al-Dardīr ajoute la condition du serrage pour deux fils.",
+      "Complément — tresses de cheveux seuls. Al-Dasūqī : « وَمَا ضُفِرَ بِنَفْسِهِ لَا يُنْقَضُ فِي الْوُضُوءِ مُطْلَقًا اشْتَدَّ أَمْ لَا وَيُنْقَضُ فِي الْغُسْلِ إنْ اشْتَدَّ »."
+    ],
+    exemple: "Une femme porte des tresses africaines très fines, nouées de quelques fils légers : elle passe ses mains mouillées dessus sans les défaire. Sa sœur porte des rajouts épais posés par-dessus ses cheveux : l'eau n'atteint pas ses cheveux, elle doit les ôter pour essuyer.",
+    erreurs_frequentes: [
+      "Défaire ses tresses à chaque ablution, alors que ce n'est pas demandé.",
+      "Essuyer sur des rajouts épais qui recouvrent les cheveux.",
+      "Croire que la règle des tresses ne concerne que la femme."
+    ],
+    termes: [
+      { ar: "ضَفْر", translit: "dafr", def: "Tressage des cheveux, tresse." },
+      { ar: "عَقْص", translit: "ʿaqs", def: "Chignon : rassembler ses tresses et les nouer." },
+      { ar: "عَقِيصَة", translit: "ʿaqîsa", def: "Mèche roulée et nouée ; chignon." },
+      { ar: "وَاصِلَة", translit: "wâsila", def: "Celle qui rallonge les cheveux avec d'autres cheveux (acte maudit par le hadith)." }
+    ],
+    quiz: [
+      { q: "Une femme aux cheveux tressés doit-elle défaire ses tresses pour essuyer sa tête dans les ablutions ?",
+        choix: ["Oui, toujours", "Seulement le vendredi", "Non : elle essuie sur ses tresses", "Elle doit couper ses tresses"],
+        bonne: 2,
+        explication: "La Mudawwana : « مَسَحَتْ عَلَى ضَفْرِهَا وَلَا تَنْقُضُ شَعْرَهَا » ; al-Dardīr : « أَيْ لَا يَجِبُ وَلَا يُنْدَبُ »." },
+      { q: "Mise en situation : une femme a grossi sa chevelure avec de la laine posée sur ses cheveux, si bien que l'eau ne les atteint pas. Que dit Ibn Ḥabīb ?",
+        choix: ["Elle peut essuyer dessus", "L'essuyage dessus ne suffit pas tant qu'elle ne l'a pas ôtée", "Elle fait l'ablution sèche", "Elle lave sa tête à la place"],
+        bonne: 1,
+        explication: "« لَمْ يُجْزِهَا الْمَسْحُ عَلَيْهِ حَتَّى تَنْزِعَهُ إذَا لَمْ يَصِلْ الْمَاءُ إلَى شَعْرِهَا مِنْ أَجَلِهِ »." },
+      { q: "Qu'en est-il de l'homme aux cheveux longs et tressés ?",
+        choix: ["Il doit raser sa tête", "Il doit défaire ses tresses", "Il est dispensé d'essuyer", "Il suit la règle de la femme : il essuie dessus"],
+        bonne: 3,
+        explication: "« ذَكَرَ الْمُصَنِّفُ الرَّجُلَ تَنْبِيهًا عَلَى أَنَّهُ إذَا كَانَ لَهُ شَعْرٌ طَوِيلٌ وَضَفْرُهُ أَوْ عَقَصَهُ فَحُكْمُهُ كَحُكْمِ الْمَرْأَةِ »." },
+      { q: "Que pense al-Ḥaṭṭāb de l'avis d'Ibn Farḥūn qui fait imbiber et presser les cheveux jusqu'à mouiller la peau ?",
+        choix: ["C'est une confusion avec le grand lavage", "C'est l'avis le plus répandu", "C'est recommandé", "C'est l'avis de la Mudawwana"],
+        bonne: 0,
+        explication: "« وَهَذَا سَهْوٌ ظَاهِرٌ سَرَى ذِهْنُهُ - رَحِمَهُ اللَّهُ تَعَالَى - إلَى الْغُسْلِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "205-206, 209" },
+    alertes: [
+      "Corrigé (rédaction) : le « ص » de Mawāhib porte « رَجُلٌ وَلَا امْرَأَةٌ » ; le Mukhtaṣar seul (11355, p. 8 : « رجل أو امرأة »), al-Dardīr (21604, p. 87) et le commentateur cité par al-Ḥaṭṭāb lui-même (p. 209 : « قَوْلُهُ: رَجُلٌ أَوْ امْرَأَةٌ ») portent « أَوْ » ; le matn de la fiche suit ces témoins (anomalie n° 231).",
+      "At-Tawḍīḥ cité : al-Bājī « وَكَذَلِكَ لَوْ كَثَّرَتْ شَعْرَهَا بِصُوفٍ » ; at-Tawḍīḥ (14442, p. 110) porte « ضفرت شعرها بصوف » ; Ibn ʿArafa (16968, p. 60), d'après Ibn Ḥabīb, porte « إن كثرت شعرها بصوف » ; sans effet (anomalie n° 230).",
+      "Le commentateur (ash-shâriḥ) et son petit commentaire ne sont pas nommés dans le passage ; la fiche ne les nomme pas.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 88 (Shamela 21604, page 87)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-04-13b",
+    kitab: "tah", bab: "01", fasl: "04", ordre: 13,
+    titre: "Henné, voile, turban, parfum : sur quoi l'on n'essuie pas",
+    titre_ar: "وَلَا يَنْقُضُ ضَفْرَهُ — الْحِنَّاءُ وَالْخِمَارُ وَالْعِمَامَةُ",
+    objectif: "Savoir qu'on n'essuie ni sur le voile, ni sur le turban, ni sur une couche de henné, sauf nécessité, et ce qui ne fait pas écran.",
+    matn: "وَلَا يَنْقُضُ ضَفْرَهُ رَجُلٌ أَوْ امْرَأَةٌ",
+    regle_pratique: "On n'essuie ni sur le voile, ni sur le turban, ni sur une couche de henné qui recouvre les cheveux, sauf nécessité (un soin qu'on ne peut ôter sans dommage) ; sans nécessité, il faut l'ôter et essuyer les cheveux, sinon les ablutions et la prière sont à refaire ; un parfum, une huile ou un henné sans épaisseur, ou logé à l'intérieur de la chevelure, ne gênent pas (al-Ḥaṭṭāb, d'après la Mudawwana et aṭ-Ṭirāz).",
+    qualification: {
+      hukm: "wajib",
+      nature: "shart",
+      effet_si_omis: "La Mudawwana, pour la femme qui essuie sur son voile : « فَإِنْ فَعَلَتْ أَعَادَتْ الْوُضُوءَ وَالصَّلَاةَ »."
+    },
+    explication: "Le henné. La Mudawwana : « وَإِنْ كَانَ عَلَى الرَّأْسِ حِنَّاءُ فَلَا تَمْسَحُ حَتَّى تَنْزِعَهُ فَتَمْسَحُ عَلَى الشَّعْرِ ». Aṭ-Ṭirāz : si le henné est mis par nécessité, pour se soigner de la chaleur ou d'autre chose, c'est permis et l'on n'a pas à l'ôter, comme le papier posé sur la tempe ; sans nécessité, c'est le cas de la Mudawwana, l'essuyage dessus ne suffit pas, comme sur un tissu. Al-Ḥaṭṭāb précise : pour un soin, si l'on craint un dommage à l'ôter ; sur une partie de la tête, avec nécessité, on essuie le reste et le henné ; sans nécessité, on l'ôte, et si l'on a essuyé dessus alors qu'il couvrait toute la tête, cela ne suffit pas. Az-Zarrūq rapporte que son maître al-Qūrī donnait aux femmes la fatwa d'essuyer sur le henné, de peur qu'elles n'abandonnent la prière ; al-Ḥaṭṭāb y voit un renvoi à l'avis d'Aḥmad, de Dāwūd, d'ath-Thawrī et d'al-Awzāʿī sur le turban.\n\nLe voile et le turban. La Mudawwana : « وَلَا تَمْسَحُ عَلَى خِمَارِهَا وَلَا غَيْرِهِ » ; le خِمَار (khimâr) est le voile de tête ; l'عِمَامَة (ʿimâma), le turban. Aṭ-Ṭirāz : si elle peut essuyer sa tête ; c'est l'avis de Mālik, d'ash-Shāfiʿī et d'Abū Ḥanīfa ; Aḥmad permet l'essuyage sur le turban et le voile par choix, à certaines conditions. Aṭ-Ṭirāz répond par le verset (le turban ne s'appelle pas « tête »), par d'autres hadiths, par la réponse de Jābir dans al-Muwaṭṭaʾ (« لَا، حَتَّى تَمْسَحَ الشَّعْرَ بِالْمَاءِ ») et par l'analogie avec le visage et les mains ; leurs hadiths s'expliquent par une excuse. Ibn Wahb rapporte de Mālik qu'elle refait les ablutions ; Saḥnūn : parce qu'elle l'a fait exprès, l'ignorant étant comme celui qui agit exprès. Al-Ḥaṭṭāb détaille : exprès ou par ignorance, on refait les ablutions et la prière ; par oubli, on essuie seulement la tête, mais la prière est nulle dans tous les cas ; découvert avant la prière, on rattrape selon que le délai est court ou long, comme il le précisera à propos de la continuité. Ibn Nājī trouve l'avis d'Aḥmad plus proche, et rapporte qu'al-Burzulī le préférait sans donner de fatwa selon lui ; al-Ḥaṭṭāb répond que les preuves citées le réfutent. Ibn Nājī rapporte aussi qu'Ibn Rāshid réduisit au silence un professeur ḥanafite qui disait : les cheveux sont eux-mêmes un écran.\n\nCe qui ne fait pas écran. Aṭ-Ṭirāz : un henné logé à l'intérieur de la chevelure, non à sa surface, ne gêne pas, puisqu'on n'est pas tenu d'atteindre l'intérieur des cheveux, comme pour le تَلْبِيد (talbîd), les cheveux collés de l'homme en état de sacralisation. Ibn Hārūn : on n'essuie pas sur le henné s'il forme une couche, sinon on peut essuyer sur sa teinte ; Ibn Farḥūn : de même le parfum sans épaisseur, que les femmes des Compagnons mettaient sur leur tête, et le نَضُوح (nadoûh), lotion parfumée de dattes et de raisins. Faut-il ôter le henné avec de l'eau, pour que l'eau de l'essuyage ne soit pas altérée ? Al-Jazūlī le dit « plus clair » ; Abū l-Ḥasan aṣ-Ṣaghīr et Ibn Farḥūn le rejettent : la plupart des membres ne sont pas parfaitement propres, et l'eau reste purifiante tant qu'elle est sur le membre. Al-Ḥaṭṭāb suit ces derniers. Selon le même avis, on essuie sur le دُهْن (douhn), l'huile, sauf s'il forme une couche ; sur le قَطِرَان (qatirân) que les jeunes filles mettent sur leur tête (Abū l-Ḥasan) ; et la femme qui a essuyé sur un henné de soin puis l'ôte, encore en état de pureté, essuie la tête pour la suite, comme pour une attelle (Ibn Farḥūn).\n\nEnfin, Abū ʿImrān al-Fāsī accordait à la jeune mariée, pendant sa première semaine, d'essuyer sur le parfum de ses cheveux, pour ne pas gaspiller un bien ; al-Ḥaṭṭāb : « وَهَذَا خِلَافُ الْمَعْرُوفِ مِنْ الْمَذْهَبِ ».",
+    aqwal: [
+      { auteur: "Mālik (Mudawwana)", avis: "On n'essuie ni sur le henné, ni sur le voile ; on l'ôte et l'on essuie les cheveux ; sinon on refait ablutions et prière.", statut: "non_precise" },
+      { auteur: "Aṭ-Ṭirāz ; al-Lakhmī (d'après Ibn Farḥūn)", avis: "Le henné mis par nécessité, pour un soin, s'essuie comme un écran permis.", statut: "non_precise" },
+      { auteur: "Aḥmad b. Ḥanbal, Dāwūd, ath-Thawrī, al-Awzāʿī (hors de l'école, rapportés par aṭ-Ṭirāz)", avis: "On peut essuyer sur le turban et le voile, même sans excuse.", statut: "qawl" },
+      { auteur: "Al-Jazūlī", avis: "On ôte le henné avec de l'eau avant d'essuyer.", statut: "qawl" },
+      { auteur: "Abū l-Ḥasan aṣ-Ṣaghīr ; Ibn Farḥūn", avis: "On l'ôte par n'importe quel moyen ; une couleur ou un parfum sans épaisseur ne gênent pas.", statut: "non_precise" },
+      { auteur: "Abū ʿImrān al-Fāsī", avis: "La jeune mariée peut essuyer, sa première semaine, sur le parfum de ses cheveux.", statut: "shadh" }
+    ],
+    muatamad: "Non tranché : al-Dardīr et al-Dasūqī ne traitent ni du henné, ni du voile, ni du turban dans les pages croisées (t. 1, p. 88–89).",
+    tarjih_hattab: "Sur le henné ôté à l'eau : « وَالظَّاهِرُ مَا قَالَهُ أَبُو الْحَسَنِ وَابْنُ فَرْحُونٍ وَغَيْرُهُمَا » ; sur l'avis d'Aḥmad défendu par Ibn Nājī : « يَرُدُّ مَا قَالَهُ مِنْ الْأَدِلَّةِ » ; sur la jeune mariée : « وَهَذَا خِلَافُ الْمَعْرُوفِ مِنْ الْمَذْهَبِ ».",
+    tanbihat: [
+      "Aṭ-Ṭirāz : « إنَّ جَعْلَ الْحِنَّاءِ لِلضَّرُورَةِ وَالتَّدَاوِي مِنْ حَرٍّ وَشِبْهِهِ جَازَ وَلَا يَجِبُ نَزْعُهُ كَالْقِرْطَاسِ عَلَى الصُّدْغِ ».",
+      "Aṭ-Ṭirāz : « فَإِنْ كَانَتْ الْحِنَّاءُ فِي مُسْتَبْطَنِ الشَّعْرِ لَيْسَ عَلَى ظَاهِرِهِ لَمْ يَمْنَعْ ».",
+      "Ibn Hārūn : « يُرِيدُ إذَا كَانَ مُتَجَسِّدًا وَإِلَّا فَيَجُوزُ الْمَسْحُ عَلَى صَبْغِهِ ».",
+      "Ibn Farḥūn : « وَحُكْمُهُ كَحُكْمِ الْجَبِيرَةِ » (essuyage refait après avoir ôté le henné de soin).",
+      "Al-Ḥaṭṭāb : « وَالصَّلَاةُ بَاطِلَةٌ فِي الْوُجُوهِ كُلِّهَا »."
+    ],
+    divergences: [
+      "Complément — ces cas ne sont pas traités par al-Dardīr ni al-Dasūqī dans les pages croisées. Pour les membres lavés, al-Dardīr pose le principe général : « وَدَخَلَ فِي الْغَيْرِ كُلُّ حَائِلٍ مِنْ شَمْعٍ وَزِفْتٍ » (voir tah-01-04-10a)."
+    ],
+    exemple: "Une femme a mis du henné épais sur ses cheveux pour la beauté et veut prier : elle le rince avant les ablutions et essuie ses cheveux. Une autre l'a mis sur ordre d'un soignant contre une irritation du cuir chevelu et ne peut l'ôter sans dommage : elle essuie dessus.",
+    erreurs_frequentes: [
+      "Essuyer sur son voile ou son turban par commodité.",
+      "Croire qu'il faut toujours laver ses cheveux à l'eau pour ôter le henné avant d'essuyer.",
+      "Croire qu'un parfum ou une huile sans épaisseur empêchent l'essuyage."
+    ],
+    termes: [
+      { ar: "خِمَار", translit: "khimâr", def: "Voile qui couvre la tête de la femme." },
+      { ar: "عِمَامَة", translit: "ʿimâma", def: "Turban." },
+      { ar: "تَلْبِيد", translit: "talbîd", def: "Fait de coller les cheveux avec une gomme ou un onguent (pratique de l'état de sacralisation)." },
+      { ar: "نَضُوح", translit: "nadoûh", def: "Lotion parfumée dont on asperge ou peigne les cheveux." },
+      { ar: "دُهْن", translit: "douhn", def: "Huile, graisse." },
+      { ar: "قَطِرَان", translit: "qatirân", def: "Goudron végétal (genévrier, cèdre) dont on enduisait les outres." }
+    ],
+    quiz: [
+      { q: "Une femme peut-elle, dans les ablutions, essuyer sur son voile sans excuse ?",
+        choix: ["Oui, toujours", "Oui, si le voile est fin", "Oui, si elle l'a mis en état de pureté", "Non : si elle le fait, elle refait ablutions et prière"],
+        bonne: 3,
+        explication: "La Mudawwana : « وَلَا تَمْسَحُ عَلَى خِمَارِهَا وَلَا غَيْرِهِ فَإِنْ فَعَلَتْ أَعَادَتْ الْوُضُوءَ وَالصَّلَاةَ »." },
+      { q: "Mise en situation : une femme a sur la tête un henné de soin qu'elle ne peut ôter sans dommage. Que dit aṭ-Ṭirāz ?",
+        choix: ["Elle doit l'ôter quand même", "Elle fait l'ablution sèche", "C'est permis : elle n'a pas à l'ôter", "Elle laisse la prière"],
+        bonne: 2,
+        explication: "« إنَّ جَعْلَ الْحِنَّاءِ لِلضَّرُورَةِ وَالتَّدَاوِي مِنْ حَرٍّ وَشِبْهِهِ جَازَ وَلَا يَجِبُ نَزْعُهُ »." },
+      { q: "Un henné logé à l'intérieur de la chevelure, non à sa surface, empêche-t-il l'essuyage ?",
+        choix: ["Non, car on n'est pas tenu d'atteindre l'intérieur des cheveux", "Oui, toujours", "Oui, s'il est rouge", "Seulement pour l'homme"],
+        bonne: 0,
+        explication: "« لِأَنَّ مُسْتَبْطَنَ الشَّعْرِ لَا يَجِبُ إيصَالُ الْمَاءِ إلَيْهِ فِي الْوُضُوءِ »." },
+      { q: "Que pense al-Ḥaṭṭāb de l'idée qu'il faut ôter le henné avec de l'eau pour que l'eau de l'essuyage ne soit pas altérée ?",
+        choix: ["Il l'approuve", "Il suit Abū l-Ḥasan et Ibn Farḥūn qui la rejettent", "Il la réserve aux hommes", "Il n'en parle pas"],
+        bonne: 1,
+        explication: "« وَالظَّاهِرُ مَا قَالَهُ أَبُو الْحَسَنِ وَابْنُ فَرْحُونٍ وَغَيْرُهُمَا »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "206-209" },
+    alertes: [
+      "Témoins : Ibn ʿArafa (16968, p. 60) : « وفيها: إن كان معقوصًا مسحت على ضفرها ولا تمسح على حناء أو خمار أو غيره » et « الطراز: إن كانت الحناء بباطن الشعر لم يمنع كالتلبيد », conformes aux citations d'al-Ḥaṭṭāb.",
+      "Les références au « faṣl de la continuité » (délai court ou long) sont des renvois d'al-Ḥaṭṭāb à un passage à venir ; la fiche n'en tire pas de règle chiffrée.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 88–89 (Shamela 21604, pages 87–88)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-04-13c",
+    kitab: "tah", bab: "01", fasl: "04", ordre: 13,
+    titre: "Cheveux coupés après coup, essuyage oublié : deux cas",
+    titre_ar: "وَلَا يَنْقُضُ ضَفْرَهُ — فُرُوعٌ",
+    objectif: "Savoir que faire si l'on découvre un écran dans ses cheveux après les ablutions, ou si l'on a oublié d'essuyer sa tête dans l'une de deux ablutions.",
+    matn: "وَلَا يَنْقُضُ ضَفْرَهُ رَجُلٌ أَوْ امْرَأَةٌ",
+    regle_pratique: "Si l'on découvre après les ablutions de la cire ou de la laine collée aux cheveux et qu'on coupe ces cheveux, on lave l'endroit (al-Ḥaṭṭāb) ; celui qui a oublié d'essuyer sa tête dans l'une de deux ablutions sans savoir laquelle l'essuie et refait toutes les prières en cause, puis, s'il oublie encore en les refaisant avec la seconde, seulement la prière faite avec celle-ci (adh-Dhakhīra, Ibn ʿArafa).",
+    qualification: {
+      hukm: "wajib",
+      nature: "autre",
+      effet_si_omis: "Aṭ-Ṭirāz envisage de faire refaire toute la purification (« وَإِنْ قُلْنَا: لَا يَرْتَفِعُ أَعَادَ الطَّهَارَةَ ») ; al-Ḥaṭṭāb retient le seul lavage de l'endroit."
+    },
+    explication: "Les cheveux coupés. Aṭ-Ṭirāz : si de la laine ou autre chose recouvre les cheveux, ou si de la cire y est collée au point d'empêcher le lavage et l'essuyage, et qu'on s'en aperçoit après les ablutions et coupe ces cheveux aux ciseaux, la question se ramène à un principe : un membre lavé est-il purifié dès qu'on l'a lavé, ou seulement quand toutes les ablutions sont faites ? Dans le premier cas, on prie avec cette purification, il n'en reste rien à faire ; dans le second, on la refait. Al-Ḥaṭṭāb : l'avis répandu est le second, « أَعْنِي أَنَّهُ لَا يَطْهُرُ إلَّا بِغَسْلِ الْجَمِيعِ » ; mais refaire toute la purification lui paraît difficile : il suffit de laver l'endroit, car ce qui reste des cheveux coupés tient lieu de ce qui a été coupé, et, s'ils ont été arrachés, leur place en tient lieu.\n\nL'essuyage oublié. Adh-Dhakhīra rapporte des notes de l'école qu'un homme vint dire à Saḥnūn : il avait fait ses ablutions pour l'aube et prié avec elles quatre prières, puis, après une impureté, d'autres ablutions pour la prière du soir ; il se rappelait avoir oublié d'essuyer sa tête dans l'une des deux sans savoir laquelle. Réponse : essuie ta tête et refais les cinq prières. L'homme les refit avec ses secondes ablutions et oublia encore d'essuyer sa tête ; on lui dit alors : essuie ta tête et refais seulement la prière du soir. La raison : la première fois, le doute touchait toutes les prières ; la seconde fois, les quatre premières avaient été faites avec chacune des deux ablutions, dont l'une est sûrement valide, alors que la prière du soir n'a été faite qu'avec les secondes, peut-être défectueuses. Ibn ʿArafa rapporte la même réponse d'Ibn Rushd, la juge clairement juste, et dit n'avoir pas trouvé l'attribution de ce cas à Saḥnūn faite par al-Qarāfī.\n\nAl-Ḥaṭṭāb clôt le segment par la liste d'al-Jazūlī des quatorze points disputés sur la tête (prendre l'eau d'une main ou des deux, renouveler l'eau, la transporter, laver au lieu d'essuyer, la manière, une ou trois fois, la tête rasée, le début, le retour des mains, la main qui sèche, les cheveux longs, l'essuyage partiel, le turban, la nuque), plus un quinzième d'Ibn al-ʿArabī : prendre un peu du visage ; six ont été traités, les autres viendront.",
+    aqwal: [
+      { auteur: "Aṭ-Ṭirāz", avis: "Selon que le membre lavé est purifié aussitôt ou à la fin des ablutions, on prie avec elles ou l'on refait la purification.", statut: "non_precise" },
+      { auteur: "Saḥnūn (d'après adh-Dhakhīra) ; Ibn Rushd (d'après Ibn ʿArafa)", avis: "Essuie ta tête et refais les cinq prières ; si tu oublies encore en les refaisant, refais seulement la dernière.", statut: "non_precise" }
+    ],
+    muatamad: "Non tranché : al-Dardīr et al-Dasūqī ne traitent pas ces deux cas dans les pages croisées (voir divergences pour le cas voisin des cheveux rasés après les ablutions).",
+    tarjih_hattab: "« وَالظَّاهِرُ أَنَّهُ يَغْسِلُ ذَلِكَ الْمَوْضِعَ » ; « لِأَنَّ مَا بَقِيَ مِنْ الشَّعْرِ إذَا قُرِضَ يَقُومُ مَقَامَهُ ».",
+    tanbihat: [
+      "Al-Ḥaṭṭāb : « الْمَشْهُورُ هُوَ الثَّانِي كَمَا سَيَأْتِي أَعْنِي أَنَّهُ لَا يَطْهُرُ إلَّا بِغَسْلِ الْجَمِيعِ ».",
+      "Adh-Dhakhīra : « وَهَذَا فَرْعٌ لَا يَكَادُ يَخْتَلِفُ الْعُلَمَاءُ فِيهِ ».",
+      "Ibn ʿArafa : « وَعَزْوُ الْقَرَافِيِّ جَوَابَ ابْنِ رُشْدٍ عَنْ بَعْضِ التَّعَالِيقِ لِسَحْنُونٍ لَمْ أَجِدْهُ »."
+    ],
+    divergences: [
+      "Point à comparer — le membre purifié avant la fin des ablutions. Al-Ḥaṭṭāb : « الْمَشْهُورُ هُوَ الثَّانِي … أَعْنِي أَنَّهُ لَا يَطْهُرُ إلَّا بِغَسْلِ الْجَمِيعِ ». Al-Dardīr, pour le segment suivant (ongles coupés, tête rasée après les ablutions) : on ne relave pas l'endroit « لِأَنَّ حَدَثَهُ قَدْ ارْتَفَعَ » ; les deux cas diffèrent (ici, l'endroit n'avait pas été atteint par l'eau)."
+    ],
+    exemple: "Après ses ablutions, un garçon découvre un morceau de cire de bougie collé dans ses cheveux ; il coupe la mèche aux ciseaux. D'après al-Ḥaṭṭāb, il passe sa main mouillée sur l'endroit avant de prier, sans refaire toutes ses ablutions.",
+    erreurs_frequentes: [
+      "Croire qu'en coupant les cheveux couverts d'un écran, on est dispensé d'essuyer l'endroit.",
+      "Dans le cas des deux ablutions, refaire toutes les prières une seconde fois alors qu'une seule est en cause.",
+      "Croire que le cas des deux ablutions est attribué à Saḥnūn de façon certaine."
+    ],
+    termes: [
+      { ar: "مِقْرَاض", translit: "miqrâd", def: "Ciseaux." }
+    ],
+    quiz: [
+      { q: "Mise en situation : après les ablutions, vous coupez une mèche couverte de cire. Que retient al-Ḥaṭṭāb ?",
+        choix: ["Laver (essuyer) l'endroit", "Rien à faire", "Refaire toutes les ablutions", "Faire une ablution sèche"],
+        bonne: 0,
+        explication: "« وَالظَّاهِرُ أَنَّهُ يَغْسِلُ ذَلِكَ الْمَوْضِعَ »." },
+      { q: "Selon l'avis répandu rapporté par al-Ḥaṭṭāb, quand un membre lavé est-il purifié ?",
+        choix: ["Dès qu'on l'a lavé", "Quand toutes les ablutions sont faites", "Après la prière", "Après trois lavages"],
+        bonne: 1,
+        explication: "« الْمَشْهُورُ هُوَ الثَّانِي كَمَا سَيَأْتِي أَعْنِي أَنَّهُ لَا يَطْهُرُ إلَّا بِغَسْلِ الْجَمِيعِ »." },
+      { q: "Dans le cas rapporté par adh-Dhakhīra, que dit-on à l'homme qui a de nouveau oublié d'essuyer sa tête en refaisant ses prières ?",
+        choix: ["Refais les cinq prières", "Ne refais rien", "Essuie ta tête et refais seulement la prière du soir", "Refais seulement la prière de l'aube"],
+        bonne: 2,
+        explication: "« امْسَحْ رَأْسَكَ وَأَعِدْ الْعِشَاءَ وَحْدَهَا »." },
+      { q: "Qu'écrit Ibn ʿArafa sur l'attribution de ce cas à Saḥnūn par al-Qarāfī ?",
+        choix: ["Il la confirme", "Il l'attribue à Mālik", "Il la juge isolée", "Il dit ne pas l'avoir trouvée"],
+        bonne: 3,
+        explication: "« وَعَزْوُ الْقَرَافِيِّ جَوَابَ ابْنِ رُشْدٍ عَنْ بَعْضِ التَّعَالِيقِ لِسَحْنُونٍ لَمْ أَجِدْهُ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "209-210" },
+    alertes: [
+      "Témoins : adh-Dhakhīra (1717, p. 256 : « حكي في تعاليق المذهب ان رجلا جاء لسحنون ») et Ibn ʿArafa (16968, p. 61), conformes à la citation d'al-Ḥaṭṭāb.",
+      "Le mot مِقْرَاض est employé par aṭ-Ṭirāz (« قَرَضَهُ بِمِقْرَاضٍ ») ; la fiche le met en terme pour la lecture.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 88–89 (Shamela 21604, pages 87–88)."
+    ],
+    verification: "verifie"
   }
 
-  /* FIN-UNITE-31 */
+  /* FIN-UNITE-32 */
 ]);

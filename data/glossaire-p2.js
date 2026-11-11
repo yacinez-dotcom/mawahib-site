@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.35
+/* Données — Glossaire, partie 2 — v1.36
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -10,7 +10,8 @@
    v1.32 : 13 termes de l'unité 28 (tah-01-03-44 à -50).
    v1.33 : 26 termes de l'unité 29 (tah-01-04-01a à -01g).
    v1.34 : 24 termes de l'unité 30 (tah-01-04-02 à -07).
-   v1.35 : 15 termes de l'unité 31 (tah-01-04-08 à -10c). */
+   v1.35 : 15 termes de l'unité 31 (tah-01-04-08 à -10c).
+   v1.36 : 13 termes de l'unité 32 (tah-01-04-11a à -13c). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -171,7 +172,21 @@ App.data.ajouterTermes([
   { ar: "خِضَاب", translit: "khidâb", def: "Teinture des mains, des pieds ou des cheveux (au henné par exemple)." },
   { ar: "نَشَادِر", translit: "nachâdir", def: "Sel ammoniac, employé pour teindre ; obstacle ou non à l'eau selon les avis." },
   { ar: "حُرْقُوص", translit: "hourqoûs", def: "Teinture noire à base de noix de galle (ʿafs) ; obstacle si elle forme une couche." },
-  { ar: "مِدَاد", translit: "midâd", def: "Encre." }
+  { ar: "مِدَاد", translit: "midâd", def: "Encre." },
+  /* Unité 32 — tah-01-04-11a à -13c */
+  { ar: "جُمْجُمَة", translit: "joumjouma", def: "Crâne : os de la tête qui contient le cerveau." },
+  { ar: "قَفَا", translit: "qafâ", def: "Nuque, arrière du cou." },
+  { ar: "بَلَل", translit: "balal", def: "Humidité, eau qui reste sur la main ou sur un membre." },
+  { ar: "مُسْتَرْخِي", translit: "moustarkhî", def: "Chevelure qui pend et dépasse la tête." },
+  { ar: "دَلَال", translit: "dalâl", def: "Mèche de cheveux qui pend (au duel : الدَّلَالَانِ)." },
+  { ar: "ضَفْر", translit: "dafr", def: "Tressage des cheveux, tresse." },
+  { ar: "عَقْص", translit: "ʿaqs", def: "Chignon : rassembler ses tresses et les nouer." },
+  { ar: "عَقِيصَة", translit: "ʿaqîsa", def: "Mèche roulée et nouée ; chignon." },
+  { ar: "وَاصِلَة", translit: "wâsila", def: "Celle qui rallonge les cheveux avec d'autres cheveux (acte maudit par le hadith)." },
+  { ar: "خِمَار", translit: "khimâr", def: "Voile qui couvre la tête de la femme." },
+  { ar: "تَلْبِيد", translit: "talbîd", def: "Fait de coller les cheveux avec une gomme ou un onguent (pratique de l'état de sacralisation)." },
+  { ar: "نَضُوح", translit: "nadoûh", def: "Lotion parfumée dont on asperge ou peigne les cheveux." },
+  { ar: "مِقْرَاض", translit: "miqrâd", def: "Ciseaux." }
 
   /* FIN-GLOSSAIRE */
 ]);
