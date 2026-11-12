@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.25 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.26 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -50,7 +50,9 @@
    v1.24 : tah-01-04-10 découpé en trois sous-fiches (10a à 10c) ; titre arabe « وَنَقَضَ غَيْرَهُ » (Mukhtaṣar seul, Ibn Ghāzī, al-Dardīr ;
           anomalie n° 220), au lieu de « وَنَقْصِ غَيْرِهِ » ; titre français de tah-01-04-09 inchangé (unité 31).
    v1.25 : tah-01-04-11 découpé en 11a et 11b, tah-01-04-13 en 13a à 13c ; titre arabe de 13 « رَجُلٌ أَوْ امْرَأَةٌ »
-          (Mukhtaṣar seul, al-Dardīr ; anomalie n° 231) (unité 32). */
+          (Mukhtaṣar seul, al-Dardīr ; anomalie n° 231) (unité 32).
+   v1.26 : tah-01-04-16 découpé en 16a et 16b (« بِمَفْصِلَيْ » d'après al-Dardīr, anomalie n° 235), tah-01-04-19 en 19a et 19b ;
+          titre arabe de tah-01-04-18 complété (unité 33). */
 App.data.definirPlan({
   kutub: [
     {
@@ -355,10 +357,12 @@ App.data.definirPlan({
                 { id: "tah-01-04-13c", titre: "Cheveux coupés après coup, essuyage oublié : deux cas", titre_ar: "وَلَا يَنْقُضُ ضَفْرَهُ — فُرُوعٌ" }, /* p. 209 */
                 { id: "tah-01-04-14", titre: "Glisser les mains dessous au retour", titre_ar: "وَيُدْخِلَانِ يَدَيْهِمَا تَحْتَهُ فِي رَدِّ الْمَسْحِ" }, /* p. 210 */
                 { id: "tah-01-04-15", titre: "Laver la tête suffit", titre_ar: "وَغَسْلُهُ مُجْزِئٌ" }, /* p. 211 */
-                { id: "tah-01-04-16", titre: "Laver les pieds avec les chevilles", titre_ar: "وَغَسْلُ رِجْلَيْهِ بِكَعْبَيْهِ النَّاتِئَيْنِ بِمِفْصَلَيْ السَّاقَيْنِ" }, /* p. 211 */
+                { id: "tah-01-04-16a", titre: "Laver les pieds : la quatrième obligation", titre_ar: "وَغَسْلُ رِجْلَيْهِ بِكَعْبَيْهِ النَّاتِئَيْنِ بِمَفْصِلَيْ السَّاقَيْنِ" }, /* p. 211 — deux sous-fiches (étape 3, v1.26) ; « بِمَفْصِلَيْ » d'après al-Dardīr (anomalie n° 235) */
+                { id: "tah-01-04-16b", titre: "Les chevilles : avec le pied, et lesquelles", titre_ar: "بِكَعْبَيْهِ النَّاتِئَيْنِ بِمَفْصِلَيْ السَّاقَيْنِ" }, /* p. 212 */
                 { id: "tah-01-04-17", titre: "Recommandé : passer l'eau entre les orteils", titre_ar: "وَنُدِبَ تَخْلِيلُ أَصَابِعِهِمَا" }, /* p. 213 */
-                { id: "tah-01-04-18", titre: "Ongles coupés, tête rasée : pas à refaire", titre_ar: "وَلَا يُعِيدُ مَنْ قَلَمَ ظُفْرَهُ أَوْ …" }, /* p. 214 */
-                { id: "tah-01-04-19", titre: "La barbe rasée : deux avis", titre_ar: "وَفِي لِحْيَتِهِ قَوْلَانِ" }, /* p. 216 */
+                { id: "tah-01-04-18", titre: "Ongles coupés, tête rasée : rien à refaire", titre_ar: "وَلَا يُعِيدُ مَنْ قَلَمَ ظُفْرَهُ أَوْ حَلَقَ رَأْسَهُ" }, /* p. 214 */
+                { id: "tah-01-04-19a", titre: "La barbe rasée après les ablutions : deux avis", titre_ar: "وَفِي لِحْيَتِهِ قَوْلَانِ" }, /* p. 216 — deux sous-fiches (étape 3, v1.26) */
+                { id: "tah-01-04-19b", titre: "Peau, croûte ou chair ôtées après les ablutions", titre_ar: "وَفِي لِحْيَتِهِ قَوْلَانِ — مَنْ قُطِعَتْ مِنْهُ بِضْعَةٌ" }, /* p. 217 */
                 { id: "tah-01-04-20", titre: "Le frottement (dalk)", titre_ar: "وَالدَّلْكُ" }, /* p. 218 */
                 { id: "tah-01-04-21", titre: "La continuité (mouwâlât) : obligatoire ? (khilâf)", titre_ar: "وَهَلْ الْمُوَالَاةُ وَاجِبَةٌ إنْ ذَكَرَ وَقَدَرَ …" }, /* p. 223 */
                 { id: "tah-01-04-22", titre: "L'intention : lever le hadath, le fard, ou l'autorisation", titre_ar: "وَنِيَّةُ رَفْعِ الْحَدَثِ عِنْدَ وَجْهِهِ أَوْ …" }, /* p. 230 */

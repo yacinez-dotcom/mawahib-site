@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.36
+/* Données — Glossaire, partie 2 — v1.37
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -11,7 +11,8 @@
    v1.33 : 26 termes de l'unité 29 (tah-01-04-01a à -01g).
    v1.34 : 24 termes de l'unité 30 (tah-01-04-02 à -07).
    v1.35 : 15 termes de l'unité 31 (tah-01-04-08 à -10c).
-   v1.36 : 13 termes de l'unité 32 (tah-01-04-11a à -13c). */
+   v1.36 : 13 termes de l'unité 32 (tah-01-04-11a à -13c).
+   v1.37 : 21 termes de l'unité 33 (tah-01-04-14 à -19b). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -186,7 +187,29 @@ App.data.ajouterTermes([
   { ar: "خِمَار", translit: "khimâr", def: "Voile qui couvre la tête de la femme." },
   { ar: "تَلْبِيد", translit: "talbîd", def: "Fait de coller les cheveux avec une gomme ou un onguent (pratique de l'état de sacralisation)." },
   { ar: "نَضُوح", translit: "nadoûh", def: "Lotion parfumée dont on asperge ou peigne les cheveux." },
-  { ar: "مِقْرَاض", translit: "miqrâd", def: "Ciseaux." }
+  { ar: "مِقْرَاض", translit: "miqrâd", def: "Ciseaux." },
+  /* Unité 33 — tah-01-04-14 à -19b */
+  { ar: "رَدُّ الْمَسْحِ", translit: "raddou l-mas-h", def: "Retour des mains de l'arrière de la tête vers l'avant, après le premier passage." },
+  { ar: "مَسْدُول", translit: "masdoûl", def: "Cheveux laissés pendre, sans tresse ni chignon." },
+  { ar: "عِقَاص", translit: "ʿiqâs", def: "Pluriel de عَقِيصَة : mèches roulées et nouées en chignon." },
+  { ar: "ذَاتُ الْقُرُونِ", translit: "dhâtou l-qouroûn", def: "La femme aux longues tresses." },
+  { ar: "إِجْزَاء", translit: "ijzâ'", def: "Fait qu'un acte suffit et acquitte de l'obligation, même s'il n'est pas la manière demandée." },
+  { ar: "خَفْضٌ عَلَى الْجِوَارِ", translit: "khafdoun ʿalâ l-jiwâr", def: "Génitif par voisinage : un mot prend la marque du génitif parce qu'il suit un mot au génitif, sans lui être rattaché par le sens." },
+  { ar: "كَعْب", translit: "kaʿb", def: "Cheville : selon l'avis répandu, chacun des deux os saillants de part et d'autre du bas de la jambe." },
+  { ar: "مَفْصِل", translit: "mafsil", def: "Articulation d'un membre ; avec les voyelles inversées (mifsal), la langue (d'après al-Dardīr)." },
+  { ar: "عُرْقُوب", translit: "ʿourqoûb", def: "Arrière de la cheville, là où la jambe se rattache au pied (d'après al-Dardīr)." },
+  { ar: "عَقِب", translit: "ʿaqib", def: "Talon, au-dessous de l'arrière de la cheville." },
+  { ar: "مَعْقِدُ الشِّرَاكِ", translit: "maʿqidou ch-chirâk", def: "Endroit du dessus du pied où se noue la lanière de la sandale." },
+  { ar: "تَخْلِيلُ الْأَصَابِعِ", translit: "takhlîlou l-asâbiʿ", def: "Passer les doigts mouillés entre les doigts ou les orteils pour que l'eau y parvienne." },
+  { ar: "إِبْهَام", translit: "ibhâm", def: "Pouce ; gros orteil." },
+  { ar: "سَبَّابَة", translit: "sabbâba", def: "Index, le doigt qui suit le pouce." },
+  { ar: "لَحْن", translit: "lahn", def: "Avec la ḥāʾ quiescente, la faute ; avec la fatḥa (lahan), la justesse, à l'origine la finesse (d'après al-Ḥaṭṭāb)." },
+  { ar: "تَقْلِيم", translit: "taqlîm", def: "Fait de couper les ongles." },
+  { ar: "شَارِب", translit: "chârib", def: "Moustache." },
+  { ar: "مُثْلَة", translit: "mouthla", def: "Défiguration : ce qui enlaidit l'aspect d'une personne." },
+  { ar: "إِحْفَاء", translit: "ihfâ'", def: "Fait de couper la moustache au ras." },
+  { ar: "قِشْرَة", translit: "qichra", def: "Croûte ou petite peau qui se détache." },
+  { ar: "سَيْف", translit: "sayf", def: "Épée ; chez Ibn Nājī, petite excroissance de peau qui pousse le long de l'ongle." }
 
   /* FIN-GLOSSAIRE */
 ]);
