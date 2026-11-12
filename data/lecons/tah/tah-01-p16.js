@@ -1,8 +1,9 @@
-/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 16 — v4.8
+/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 16 — v4.9
    Source : Mawāhib al-Jalīl, al-Ḥaṭṭāb, éd. Dār al-Fikr, 3e éd., 1412 H / 1992, tome 1 (shamela.ws/book/569).
    Croisement : al-Sharḥ al-kabīr d'al-Dardīr et Ḥāshiyat al-Dasūqī (shamela.ws/book/21604), tome 1.
    Cette partie : faṣl tah-01-04 (les ablutions), à partir de tah-01-04-14 (unités 33 et suivantes) — t. 1, p. 210 et suivantes.
    v4.8 : unité 33 — tah-01-04-14, -15, -16a, -16b, -17, -18, -19a, -19b (2026-11-12) ; nouvelle partie, tah-01-p15.js (≈ 130 Ko) n'ayant plus la place d'une unité.
+   v4.9 : unité 34 — tah-01-04-20a à -20c, -21a à -21d (2026-11-12).
    Bāb découpé en parties de moins de 200 Ko ;
    historique des versions : tah-01-p1.js (jusqu'à v2.5) puis l'en-tête de chaque partie. */
 App.data.ajouterFiches([
@@ -205,7 +206,7 @@ App.data.ajouterFiches([
     ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "211-213" },
     alertes: [
       "Le matn suit la vocalisation d'al-Dardīr pour « بِمَفْصِلَيْ » (voir la fiche 16b, anomalie n° 235).",
-      "Précisé (rédaction) : « مَخْفُوضَةٌ عَلَى الْجَوَازِ » (avec zāy) ; la suite du passage porte la notion avec rāʾ (« الْخَفْضَ عَلَى الْجِوَارِ », puis « لِلْمُجَاوَرَةِ ») ; la fiche suit cette seconde forme ; aucun témoin extérieur (anomalie n° 243).",
+      "Corrigé (campagne de correction) : « مَخْفُوضَةٌ عَلَى الْجَوَازِ » (avec zāy) ; la suite du passage porte « الْخَفْضَ عَلَى الْجِوَارِ » ; al-Kharashī (91, p. 124 : « وإنما هي مخفوضة على الجوار ») et adh-Dhakhīra (1717, p. 265 : « وإنما الخفض على الجوار ») portent le rāʾ ; la fiche suit ces témoins (anomalie n° 243, audit après l'unité 34).",
       "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 89 (Shamela 21604, page 88)."
     ],
     verification: "verifie"
@@ -567,7 +568,492 @@ App.data.ajouterFiches([
       "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 89 (Shamela 21604, page 88)."
     ],
     verification: "verifie"
+  },
+
+  /* ================================================================== */
+  /* Unité 34 — tah-01-04-20a à -21d — t. 1, p. 218–230 (Shamela 569, p. 217–229) */
+  /* Croisement : al-Dardīr / al-Dasūqī, t. 1, p. 88–93 (Shamela 21604, p. 87–92) */
+  {
+    id: "tah-01-04-20a",
+    kitab: "tah", bab: "01", fasl: "04", ordre: 20,
+    titre: "Le frottement : une obligation",
+    titre_ar: "وَالدَّلْكُ",
+    objectif: "Savoir que le frottement des membres lavés est une obligation des ablutions, ce qu'il est, et connaître les autres avis.",
+    matn: "وَالدَّلْكُ",
+    regle_pratique: "Dans les ablutions, on passe la main sur chaque membre que l'on lave : verser l'eau ou plonger le membre sans le frotter ne suffit pas ; c'est l'avis le plus répandu (al-Ḥaṭṭāb ; al-Dardīr).",
+    qualification: {
+      hukm: "fard",
+      nature: "rukn",
+      effet_si_omis: "La Mudawwana : « وَكَذَلِكَ لَا يُجْزِيهِ الْوُضُوءُ حَتَّى يَمُرَّ بِيَدَيْهِ عَلَى مَوَاضِعِ الْوُضُوءِ »."
+    },
+    explication: "Après les quatre obligations du verset, admises de tous, Khalīl passe aux obligations discutées et commence par le frottement, parce que certains le comptent dans la définition même du lavage ; Ibn al-Ḥājib ne l'a donc pas compté à part, mais l'a nommé avec le visage. Al-Ḥaṭṭāb : « وَمَا فَعَلَهُ الْمُصَنِّفُ أَحْسَنُ », car on comprend ainsi que le frottement est obligatoire dans tous les membres lavés : visage, mains et pieds. C'est la cinquième obligation.\n\nTrois avis. « الْمَشْهُورُ الْوُجُوبُ وَهُوَ قَوْلُ مَالِكٍ فِي الْمُدَوَّنَةِ », le frottement étant une condition pour qu'il y ait « lavage » ; Ibn Yūnus cite la parole du Prophète ﷺ à ʿĀʾisha : « وَادْلُكِي جَسَدَكِ بِيَدِكِ », et rappelle que la langue distingue laver et plonger. Deuxième avis : il n'est pas obligatoire (Ibn ʿAbd al-Ḥakam), le mot « laver » s'appliquant sans lui. Troisième : il est obligatoire, non pour lui-même, mais pour s'assurer que l'eau arrive ; celui qui en est sûr parce qu'il est resté longtemps dans l'eau est quitte ; al-Lakhmī l'attribue à Abū l-Faraj, et Ibn ʿArafa attribue le deuxième avis à Abū l-Faraj et à Ibn ʿAbd al-Ḥakam ; selon at-Tawḍīḥ, certains ramènent le troisième au deuxième. Le désaccord est le même pour le grand lavage ; Ibn ʿArafa relève qu'Ibn ʿAbd al-Barr semble le limiter au grand lavage, le frottement étant alors obligatoire sans désaccord dans les ablutions.\n\nIbn Nājī rapporte un avis qui en fait une sunna, qu'il dit ne pas connaître, et compte quatre avis. Al-Ḥaṭṭāb : « (قُلْتُ) بَلْ خَمْسَةٌ », le cinquième distinguant ablutions et grand lavage ; et le refus de l'avis de la sunna est étonnant, car Ibn Yūnus rapporte d'Ibn al-Qaṣṣār : le frottement est obligatoire dans le grand lavage selon Mālik, « وَقَالَ أَبُو الْفَرَجِ الْمَالِكِيِّ وَغَيْرُهُ: مُسْتَحَبٌّ » ; or les Irakiens appellent « recommandé » ce qui est sunna. Abū l-Ḥasan aṣ-Ṣaghīr rapporte qu'Ibn Baṭṭāl donne l'accord sur le frottement dans les ablutions, non dans le grand lavage : le verset des ablutions dit « lavez », celui du grand lavage « purifiez-vous », et les hadiths des ablutions montrent le frottement, ceux du grand lavage seulement l'eau répandue.\n\nCe qu'est le frottement : « فَهِيَ إمْرَارُ الْيَدِ عَلَى الْعُضْوِ ». La Mudawwana : celui qui se plonge dans une rivière pour le grand lavage n'est quitte que s'il passe les mains sur tout son corps, et de même pour les ablutions. Az-Zarrūq : un frottement moyen, avec l'eau ou sa trace, sans devoir ôter la saleté cachée, seulement celle qui se voit et empêche l'eau de toucher le membre ; dans son commentaire d'al-Irshād : « وَلَا يَلْزَمُ إزَالَةُ الْوَسَخِ إلَّا أَنْ يَكُونَ مُتَجَسِّدًا ». Ibn Shaʿbān (az-Zāhī) : laver le visage, c'est y passer la main, non y laisser couler l'eau seulement ; un passage léger suffit s'il mérite le nom de lavage, et bien nettoyer la peau est meilleur.",
+    aqwal: [
+      { auteur: "Mālik (Mudawwana)", avis: "Le frottement est obligatoire, condition de ce qu'on appelle laver.", statut: "mashhur" },
+      { auteur: "Ibn ʿAbd al-Ḥakam ; Abū l-Faraj (d'après Ibn ʿArafa)", avis: "Le frottement n'est pas obligatoire.", statut: "qawl" },
+      { auteur: "Abū l-Faraj (d'après al-Lakhmī ; Ibn Rushd d'après Ibn Nājī)", avis: "Obligatoire seulement pour s'assurer que l'eau arrive ; qui en est sûr est quitte.", statut: "qawl" },
+      { auteur: "Abū l-Faraj et d'autres (d'après Ibn al-Qaṣṣār, cité par Ibn Yūnus)", avis: "Recommandé dans le grand lavage, ce qui chez les Irakiens veut dire sunna.", statut: "qawl" },
+      { auteur: "Ibn ʿAbd al-Barr (d'après Ibn ʿArafa) ; Ibn Baṭṭāl (d'après Abū l-Ḥasan)", avis: "Le désaccord ne porte que sur le grand lavage ; dans les ablutions, le frottement est obligatoire sans désaccord.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « الْفَرِيضَةُ الْخَامِسَةُ (الدَّلْكُ) وَهُوَ إمْرَارُ الْيَدِ عَلَى الْعُضْوِ » ; al-Dasūqī : « هُوَ وَاجِبٌ لِنَفْسِهِ وَلَوْ وَصَلَ الْمَاءُ لِلْبَشَرَةِ عَلَى الْمَشْهُورِ ».",
+    tarjih_hattab: "« (قُلْتُ) بَلْ خَمْسَةٌ » ; « وَإِنْكَارُ الْقَوْلِ بِالسُّنِّيَّةِ عَجِيبٌ ».",
+    tanbihat: [
+      "La saleté qui fait couche doit être ôtée : « وَلَا يَلْزَمُ إزَالَةُ الْوَسَخِ إلَّا أَنْ يَكُونَ مُتَجَسِّدًا » (az-Zarrūq).",
+      "Ibn Shaʿbān : « وَالْغَسْلُ إمْرَارُ الْيَدِ عَلَى الْوَجْهِ لَا إرْسَالُ الْمَاءِ فَقَطْ ».",
+      "Abū l-Ḥasan aṣ-Ṣaghīr : « الْفَرْقُ بَيْنَهُمَا أَنَّ آيَةَ الْوُضُوءِ فِيهَا فَاغْسِلُوا وَآيَةَ الْغُسْلِ فِيهَا فَاطَّهَّرُوا »."
+    ],
+    divergences: [
+      "Concordance — l'obligation. Al-Ḥaṭṭāb : « الْمَشْهُورُ الْوُجُوبُ ». Al-Dasūqī : « هُوَ وَاجِبٌ لِنَفْسِهِ وَلَوْ وَصَلَ الْمَاءُ لِلْبَشَرَةِ عَلَى الْمَشْهُورِ بِنَاءً عَلَى دُخُولِهِ فِي مُسَمَّى الْغَسْلِ ».",
+      "Point à comparer — pourquoi Khalīl le nomme à part. Al-Ḥaṭṭāb : pour montrer qu'il est obligatoire dans tous les membres lavés. Al-Dasūqī, d'après son maître al-ʿAdawī (« كَذَا قَرَّرَ شَيْخُنَا ») : « ذَكَرَهُ لِلرَّدِّ عَلَى الْمُخَالِفِ الْقَوِيِّ الْقَائِلِ إنَّهُ وَاجِبٌ لِإِيصَالِ الْمَاءِ لِلْبَشَرَةِ ».",
+      "Concordance — la saleté. Al-Ḥaṭṭāb, d'après az-Zarrūq : seulement la saleté qui fait couche. Al-Dasūqī : « أَيْ إمْرَارًا مُتَوَسِّطًا وَلَوْ لَمْ تَزُلْ الْأَوْسَاخُ إلَّا أَنْ تَكُونَ مُتَجَسِّدَةً فَتَكُونَ حَائِلًا »."
+    ],
+    exemple: "Sous un robinet, une personne laisse l'eau couler sur ses avant-bras sans y passer la main : cela ne suffit pas. Elle passe sa paume sur chaque partie pendant que l'eau coule, ou juste après.",
+    erreurs_frequentes: [
+      "Croire que l'eau qui coule suffit, sans passer la main.",
+      "Croire qu'il faut frotter jusqu'à ôter toute saleté invisible : seule compte la saleté qui fait couche.",
+      "Croire que le frottement ne concerne que le grand lavage."
+    ],
+    termes: [
+      { ar: "تَدَلُّك", translit: "tadallouk", def: "Frottement des membres avec la main pendant qu'on les lave." },
+      { ar: "انْغِمَاس", translit: "inghimâs", def: "Fait de se plonger entièrement dans l'eau." },
+      { ar: "مُتَجَسِّد", translit: "moutajassid", def: "Qui a de l'épaisseur et forme une couche (saleté qui empêche l'eau d'atteindre la peau)." }
+    ],
+    quiz: [
+      { q: "Selon l'avis le plus répandu, le frottement des membres lavés est :",
+        choix: ["Recommandé", "Obligatoire", "Déconseillé", "Permis sans plus"],
+        bonne: 1,
+        explication: "« الْمَشْهُورُ الْوُجُوبُ وَهُوَ قَوْلُ مَالِكٍ فِي الْمُدَوَّنَةِ »." },
+      { q: "Qu'est-ce que le frottement ?",
+        choix: ["Verser l'eau trois fois", "Plonger le membre dans l'eau", "Sécher le membre avec un linge", "Passer la main sur le membre"],
+        bonne: 3,
+        explication: "« فَهِيَ إمْرَارُ الْيَدِ عَلَى الْعُضْوِ »." },
+      { q: "Mise en situation : quelqu'un se plonge dans une rivière avec l'intention du grand lavage, sans passer les mains sur son corps. Que dit la Mudawwana ?",
+        choix: ["Il n'est pas quitte tant qu'il ne passe pas les mains sur tout son corps", "Il est quitte", "Il est quitte s'il reste longtemps", "Il doit seulement se rincer la bouche"],
+        bonne: 0,
+        explication: "« لَمْ يُجْزِهِ حَتَّى يَمُرَّ بِيَدَيْهِ عَلَى جَمِيعِ جَسَدِهِ »." },
+      { q: "Faut-il frotter jusqu'à ôter toute saleté ?",
+        choix: ["Oui, toute saleté", "Oui, au moins trois fois", "Non, seulement la saleté qui fait couche et empêche l'eau", "Non, la saleté n'a aucune importance"],
+        bonne: 2,
+        explication: "« وَلَا يَلْزَمُ إزَالَةُ الْوَسَخِ إلَّا أَنْ يَكُونَ مُتَجَسِّدًا »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "218-219" },
+    alertes: [
+      "« وَحَكَى الْمِسْنَاوِيُّ قَوْلًا بِأَنَّهُ سُنَّةٌ » (Ibn Nājī cité) : nom non vérifié ; le commentaire d'Ibn Nājī sur la Risāla (14555, p. 103) donne trois avis sans ce nom ; la fiche dit « un avis » (anomalie n° 244).",
+      "« وَقَالَ الْحَسَنُ: إنَّ ظَاهِرَ كَلَامِ ابْنِ يُونُسَ » : nom incomplet, après une citation d'Abū l-Ḥasan aṣ-Ṣaghīr ; aucun témoin ; la fiche ne rapporte pas cette phrase (anomalie n° 245).",
+      "Témoins : Ibn ʿArafa (16968, p. 54 : « عياض: في وجوب التدلك في الوضوء والغسل قولا المشهور وابن عبد الحكم ») ; Ibn Nājī (14555, p. 103 : « المشهور من المذهب أن التدلك فرض »).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 90 (Shamela 21604, page 89)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-04-20b",
+    kitab: "tah", bab: "01", fasl: "04", ordre: 20,
+    titre: "Frotter pendant ou après l'eau ; se faire aider",
+    titre_ar: "وَالدَّلْكُ — الْمُقَارَنَةُ وَالِاسْتِنَابَةُ",
+    objectif: "Savoir que le frottement peut suivre l'eau versée, et quand on peut se faire aider par un autre pour les ablutions.",
+    matn: "وَالدَّلْكُ",
+    regle_pratique: "Le frottement peut se faire juste après avoir versé l'eau, tant que le membre est mouillé, le faire en même temps étant préférable ; un autre peut verser l'eau, mais on ne se fait frotter par un autre qu'en cas de nécessité (al-Ḥaṭṭāb ; al-Dardīr).",
+    qualification: {
+      hukm: "mubah",
+      nature: "autre",
+      effet_si_omis: "Se faire frotter sans nécessité est interdit ; pour la validité, deux avis : Yūsuf b. ʿUmar, « وَالْمَشْهُورُ أَنَّهُ فَعَلَ حَرَامًا وَيُجْزِيهِ »."
+    },
+    explication: "Frotter en même temps que l'on verse l'eau est sans doute le plus complet. Est-ce une condition ? Al-Qābisī l'exige ; Ibn Abī Zayd admet le frottement qui suit l'eau versée ; Ibn Farḥūn : « وَهُوَ الصَّحِيحُ لِلُزُومِ الْحَرَجِ وَالْمَشَقَّةِ بِذَلِكَ » (d'après Ibn Hārūn). Ibn al-Ḥājib, au grand lavage : « أَجْزَأَهُ عَلَى الْأَصَحِّ », et Khalīl dira au grand lavage : « وَدَلَكَ وَلَوْ بَعْدَ الْمَاءِ ». Al-Fākihānī : deux avis, « أَظْهَرُهُمَا عَدَمُ اشْتِرَاطِ الْمُقَارَنَةِ », car l'eau reste un moment sur le corps. Az-Zarrūq : il convient que le frottement suive aussitôt l'eau, « لِأَنَّهُ أَبْرَأُ مِنْ الْخِلَافِ », même si l'avis répandu admet qu'il vienne après, sans interruption ; dans son commentaire d'al-Irshād, le frottement avec l'eau est l'avis d'Ibn al-Qāsim, après l'eau celui d'Ibn Abī Zayd, « وَهُوَ الْمَشْهُورُ ». Ibn ʿArafa rapporte d'al-Bājī la condition de passer la main avant que l'eau ne quitte le membre, sinon c'est un essuyage.\n\nSe faire aider. Pour verser l'eau, c'est permis sans désaccord (hadith d'al-Mughīra, qui versait l'eau sur le Prophète ﷺ). Pour le frottement : par nécessité, c'est permis sans désaccord, et l'intention est celle de la personne lavée ; sans nécessité, ce n'est pas permis, et, si c'est fait, deux avis sur la validité (al-Jazūlī ; Yūsuf b. ʿUmar). Ibn Rushd (audition d'Ashhab) : Mālik, interrogé sur les servantes qui lavaient les pieds de ʿAbd Allāh b. ʿUmar pour la prière, répondit oui ; Ibn ʿUmar ne le faisait que par occupation ou excuse. Aṭ-Ṭaḥāwī compte Mālik parmi ceux qui n'admettent pas la validité ; Ibn Rushd : son école dit le contraire, sauf si on le fait par dédain de l'adoration. Ibn Shaʿbān (az-Zāhī) : celui que sa main empêche de se laver le visage en charge un autre, et c'est son intention à lui qui compte ; contraint par un autre, il n'est pas quitte, sauf s'il pouvait le repousser et a formé l'intention au début. Al-Ḥaṭṭāb : se faire aider peut même devenir obligatoire, comme pour l'amputé.\n\nAvec quoi frotter ? Ibn Rushd rapporte l'audition de Muḥammad b. Khālid : celui qui remue ses pieds dans une rivière après ses ablutions doit les laver ; s'il frotte un pied avec l'autre, Ibn al-Qāsim répond : « إنْ كَانَ يَقْدِرُ عَلَى ذَلِكَ فَذَلِكَ يُجْزِيهِ » ; Ibn Rushd : « لِأَنَّ الْغَسْلَ فِي اللُّغَةِ لَا يُفْعَلُ إلَّا بِصَبِّ الْمَاءِ وَإِمْرَارِ الْيَدِ أَوْ مَا يَقُومُ مَقَامَ ذَلِكَ ».",
+    aqwal: [
+      { auteur: "Ibn Abī Zayd ; Ibn Farḥūn ; al-Fākihānī", avis: "Le frottement peut suivre l'eau versée, tant que le membre est mouillé ; az-Zarrūq le dit le plus répandu.", statut: "mashhur" },
+      { auteur: "Al-Qābisī ; al-Bājī (d'après Ibn ʿArafa)", avis: "Le frottement doit accompagner l'eau, ou au moins précéder son départ du membre.", statut: "qawl" },
+      { auteur: "Yūsuf b. ʿUmar ; al-Jazūlī", avis: "Se faire frotter sans nécessité est interdit, mais les ablutions sont valables.", statut: "mashhur" },
+      { auteur: "Avis rapporté sans attribution (al-Jazūlī, Yūsuf b. ʿUmar)", avis: "Se faire frotter sans nécessité invalide les ablutions.", statut: "qawl" }
+    ],
+    muatamad: "Confirmé pour le moment du frottement : al-Dardīr, « وَلَوْ بَعْدَ صَبِّ الْمَاءِ قَبْلَ جَفَافِهِ وَتُنْدَبُ الْمُقَارَنَةُ هُنَا دُونَ الْغَسْلِ لِلْمَشَقَّةِ » ; al-Dasūqī : « وَهُوَ الْمُعْتَمَدُ خِلَافًا لِأَبِي الْحَسَنِ الْقَابِسِيِّ ». La délégation n'est pas traitée dans les pages croisées.",
+    tarjih_hattab: "« (قُلْتُ) وَقَدْ تَجِبُ الِاسْتِنَابَةُ كَمَا تَقَدَّمَ فِي الْأَقْطَعِ ».",
+    tanbihat: [
+      "Ibn Farḥūn (al-Alghāz), d'après Ibn al-ʿArabī : « أَمَّا فِي صَبِّ الْمَاءِ عَلَى الْعُضْوِ فَتَجُوزُ، وَأَمَّا فِي الدَّلْكِ فَلَا تَجُوزُ إلَّا أَنْ يَكُونَ الْمُسْتَنِيبُ مَرِيضًا ».",
+      "Charger plusieurs personnes de laver chacune un membre : deux avis, celui qui tient l'ordre pour obligatoire ne l'admettant pas (al-Jazūlī).",
+      "Ibn Shaʿbān : si l'intention n'est formée qu'après le lavage de certains membres, on refait la purification."
+    ],
+    divergences: [
+      "Concordance — le frottement après l'eau. Al-Ḥaṭṭāb : avis d'Ibn Abī Zayd, « وَهُوَ الْمَشْهُورُ » (az-Zarrūq). Al-Dardīr : « وَلَوْ بَعْدَ صَبِّ الْمَاءِ قَبْلَ جَفَافِهِ » ; al-Dasūqī : « كَمَا قَالَهُ ابْنُ أَبِي زَيْدٍ وَهُوَ الْمُعْتَمَدُ خِلَافًا لِأَبِي الْحَسَنِ الْقَابِسِيِّ ».",
+      "Complément — la simultanéité. Al-Ḥaṭṭāb : le plus complet, et selon az-Zarrūq « أَبْرَأُ مِنْ الْخِلَافِ ». Al-Dardīr : recommandée dans les ablutions, non dans le grand lavage : « وَتُنْدَبُ الْمُقَارَنَةُ هُنَا دُونَ الْغَسْلِ لِلْمَشَقَّةِ ».",
+      "Divergence — avec quoi frotter. Al-Ḥaṭṭāb, d'après l'audition de Muḥammad b. Khālid et Ibn Rushd : frotter un pied avec l'autre suffit si on le peut. Al-Dardīr : « وَالْمُرَادُ بِالْيَدِ هُنَا بَاطِنُ الْكَفِّ عَلَى مَا اُسْتُظْهِرَ » ; al-Dasūqī : « فَعَلَى هَذَا لَا يُجْزِئُ دَلْكُ إحْدَى الرِّجْلَيْنِ بِالْأُخْرَى فِي الْوُضُوءِ وَيُجْزِئُ فِي الْغُسْلِ » ; puis il cite al-Bunānī (« بْن ») rapportant d'Abū ʿAlī al-Misnāwī le contraire : la paume ou le dos de la main, l'avant-bras, un chiffon, ou un pied contre l'autre, « خِلَافًا لِتَخْصِيصِ عج وَمَنْ تَبِعَهُ الدَّلْكُ بِبَاطِنِ الْكَفِّ » (« عج » : sigle non défini dans la liste d'al-Dasūqī)."
+    ],
+    exemple: "Une personne âgée qui ne peut plus lever les bras demande à son fils de lui frotter le visage pendant ses ablutions : c'est permis, et c'est son intention à elle qui compte. Une personne valide peut se faire verser l'eau, mais frotte elle-même.",
+    erreurs_frequentes: [
+      "Croire qu'un frottement fait juste après l'eau versée ne compte pas.",
+      "Se faire frotter par un autre sans aucune nécessité.",
+      "Croire que celui qui aide doit avoir l'intention à la place de la personne lavée."
+    ],
+    termes: [
+      { ar: "مُقَارَنَة", translit: "mouqârana", def: "Simultanéité ; pour le frottement, le faire en même temps que l'eau est versée." },
+      { ar: "اسْتِنَابَة", translit: "istinâba", def: "Fait de charger un autre d'accomplir à sa place une partie d'un acte." }
+    ],
+    quiz: [
+      { q: "Le frottement fait juste après avoir versé l'eau, le membre étant encore mouillé, est-il valable ?",
+        choix: ["Non, il doit accompagner l'eau", "Seulement dans le grand lavage", "Oui, selon l'avis retenu ; le faire en même temps est préférable", "Seulement pour les pieds"],
+        bonne: 2,
+        explication: "Al-Dardīr : « وَلَوْ بَعْدَ صَبِّ الْمَاءِ قَبْلَ جَفَافِهِ » ; al-Dasūqī : « وَهُوَ الْمُعْتَمَدُ »." },
+      { q: "Peut-on demander à quelqu'un de nous verser l'eau des ablutions ?",
+        choix: ["Oui, sans désaccord", "Non, jamais", "Seulement en voyage", "Seulement pour le grand lavage"],
+        bonne: 0,
+        explication: "« لَا خِلَافَ فِي النِّيَابَةِ عَلَى صَبِّ الْمَاءِ أَنَّهَا جَائِزَةٌ » (al-Jazūlī)." },
+      { q: "Mise en situation : un homme en bonne santé se fait frotter les bras par un autre pendant ses ablutions, sans raison. Que dit Yūsuf b. ʿUmar ?",
+        choix: ["C'est permis sans réserve", "C'est recommandé", "Ses ablutions sont nulles selon l'avis répandu", "Il a commis un acte interdit, mais ses ablutions sont valables selon l'avis répandu"],
+        bonne: 3,
+        explication: "« وَالْمَشْهُورُ أَنَّهُ فَعَلَ حَرَامًا وَيُجْزِيهِ »." },
+      { q: "Qui doit avoir l'intention quand un malade se fait laver par un autre ?",
+        choix: ["Celui qui lave", "Le malade lui-même", "Les deux", "Personne"],
+        bonne: 1,
+        explication: "« وَيَنْوِي الْمَغْسُولُ لَا الْغَاسِلُ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "219-220" },
+    alertes: [
+      "Témoins : Ibn ʿArafa (16968, p. 55 : « شرط إمرار اليد على العضو قبل ذهاب الماء عنه لأنه بعده مسح ») ; az-Zarrūq (14556, p. 141).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 90 (Shamela 21604, page 89)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-04-20c",
+    kitab: "tah", bab: "01", fasl: "04", ordre: 20,
+    titre: "L'eau doit atteindre le membre : pluie, rivière, mains secouées",
+    titre_ar: "وَالدَّلْكُ — نَقْلُ الْمَاءِ إلَى الْعُضْوِ",
+    objectif: "Savoir que l'eau doit atteindre le membre lavé, mais qu'il n'est pas nécessaire de la porter avec la main, sauf pour l'essuyage de la tête.",
+    matn: "وَالدَّلْكُ",
+    regle_pratique: "L'eau doit atteindre le membre : secouer l'eau de ses mains puis les passer humides sur le visage ne suffit pas ; mais on n'a pas à porter l'eau avec la main : la pluie ou la rivière, avec le frottement, suffisent selon l'avis retenu, sauf pour la tête, qu'on n'essuie pas avec la pluie qui la mouille (al-Ḥaṭṭāb).",
+    qualification: {
+      hukm: "fard",
+      nature: "rukn",
+      effet_si_omis: "Mains secouées puis passées sur le visage, d'après ʿAbd al-Malik : « فَعَلَيْهِ أَنْ يُعِيدَ الْوُضُوءَ وَكُلَّ صَلَاةٍ صَلَّاهَا بِمِثْلِ ذَلِكَ أَبَدًا »."
+    },
+    explication: "« نَقْلُ الْمَاءِ » a deux sens. Si l'on entend que l'eau arrive au membre, c'est obligatoire : celui qui laisse l'eau quitter ses mains puis les passe sur le visage n'est pas quitte ; Ibn Rushd : « اتِّفَاقًا لِأَنَّهُ مَسْحٌ وَلَيْسَ بِغَسْلٍ ». Si l'on entend porter l'eau avec la main, « فَالْمَشْهُورُ مِنْ الْمَذْهَبِ أَنَّهُ لَا يَجِبُ » : la pluie sur les membres, les pieds dans l'eau, les ablutions faites dans l'eau, avec le frottement, suffisent ; celui qui est en état d'impureté majeure et se plonge dans une rivière en se frottant est quitte par accord ; celui qui tend les mains à la pluie et s'en lave est quitte sans désaccord.\n\nAt-Tawḍīḥ distingue trois cas. La rivière : accord, Ibn Rushd disant « وَقَدْ أَجْمَعُوا عَلَى أَنَّ الْجُنُبَ إذَا انْغَمَسَ فِي النَّهْرِ وَتَدَلَّكَ فِيهِ لِلْغُسْلِ أَنَّ ذَلِكَ يُجْزِئُهُ ». La pluie : désaccord. Saḥnūn admet qu'on tende les mains à la pluie pour les ablutions, et que celui qui est en état d'impureté majeure se déshabille sous la pluie ; Ibn Rushd : pour les mains tendues, aucun désaccord ; mais Ibn Ḥabīb, d'après Ibn al-Mājishūn, refuse qu'on s'essuie la tête avec ce qui l'a mouillée, ou qu'on se lave avant-bras et pieds avec la pluie qui les a touchés sans y porter l'eau ; Ibn al-Qāsim admet tout cela, et la Mudawwana l'indique (les pieds lavés en traversant une rivière). Ibn ʿArafa met en doute que l'accord d'Ibn Rushd couvre tout grand lavage : « نَظَرٌ، وَالثَّانِي أَظْهَرُ », et Ibn Nājī dit qu'al-Burzulī tranche ainsi. Enfin les mains secouées : accord pour l'obligation de porter l'eau ; Mālik l'a dit dans l'ʿUtbiyya ; Ibn Rushd : « وَلَا خِلَافَ فِيهِ ». Le Mukhtaṣar al-Wāḍiḥa rapporte de ʿAbd al-Malik qu'il refait ses ablutions et toutes ses prières, « لِأَنَّهُ مَاسِحٌ » ; cela ne vaut que pour ce que Dieu a prescrit d'essuyer (chaussures de cuir, tête, oreilles), et Aṣbagh disait de même. Az-Zarrūq : secouer la main avant que l'eau n'atteigne le visage annule par accord ; de même verser l'eau sous le front. Ibn al-Faras rapporte pourtant un désaccord, « فَالْمَشْهُورُ فِي الْمَذْهَبِ النَّقْلُ ».\n\nLa tête. Ibn ʿAbd as-Salām : « الْمَنْصُوصُ أَنَّهُ لَا يَكْفِي » de recevoir la pluie sur la tête puis de l'essuyer de la main ; at-Tawḍīḥ, d'après al-Muntaqā, l'attribue à Ibn al-Qāsim, alors qu'Ibn Rushd lui attribue l'avis contraire ; « وَالظَّاهِرُ أَنَّ لَهُ قَوْلَيْنِ ». Al-Bājī explique : l'eau de l'essuyage est peu abondante, et la main sèche passée sur une tête mouillée n'essuie pas avec l'eau ; at-Tawḍīḥ tire du verset « et essuyez vos têtes » l'obligation de porter l'humidité des mains. Ibn ʿAbd as-Salām précise que pour le lavage, « porter l'eau » veut dire que l'eau est sur le membre de quelque manière que ce soit, même d'une gouttière ou d'une forte pluie, suivie du frottement ; Ibn ʿArafa lui reproche d'avoir taxé d'erreur certains auteurs tardifs, le désaccord étant rapporté. Al-Ḥaṭṭāb note qu'al-Bājī et Ibn Hārūn ne rapportent d'Ibn al-Qāsim que la non-validité pour la tête, et qu'Ibn al-Faras juge valables les ablutions faites en étant plongé dans l'eau : « لِأَنَّ هَذَا غُسْلٌ وَإِنْ لَمْ يَنْقُلْ إلَيْهِ الْمَاءَ ».",
+    aqwal: [
+      { auteur: "Ibn al-Qāsim (d'après Ibn Rushd ; Mudawwana) ; Saḥnūn pour les mains tendues", avis: "Pluie ou rivière, avec le frottement, suffisent sans porter l'eau avec la main.", statut: "mashhur" },
+      { auteur: "Ibn Ḥabīb (d'après Ibn al-Mājishūn)", avis: "Il faut porter l'eau avec la main sur les membres ; la pluie qui les touche ne suffit pas.", statut: "qawl" },
+      { auteur: "Ibn al-Qāsim (d'après al-Bājī et al-Muntaqā) ; Ibn ʿAbd as-Salām (« الْمَنْصُوصُ »)", avis: "La tête ne s'essuie pas avec la pluie qui la mouille.", statut: "rajih" },
+      { auteur: "Ibn al-Qāsim (d'après Ibn Rushd)", avis: "La tête peut s'essuyer avec l'eau qui l'a touchée.", statut: "qawl" },
+      { auteur: "Mālik (ʿUtbiyya) ; ʿAbd al-Malik ; Aṣbagh ; Ibn Rushd (« وَلَا خِلَافَ فِيهِ »)", avis: "Mains secouées puis passées humides sur le membre : ce n'est pas un lavage ; Ibn al-Faras rapporte un désaccord, l'avis répandu exigeant l'eau.", statut: "mashhur" }
+    ],
+    muatamad: "Non tranché : les pages croisées d'al-Dardīr et d'al-Dasūqī ne traitent ni de la pluie, ni de la rivière, ni des mains secouées.",
+    tarjih_hattab: "« (قُلْتُ) فَتَحَصَّلَ مِنْ هَذَا أَنَّ نَقْلَ الْمَاءِ إلَى الْعُضْوِ - بِمَعْنَى إيصَالِ الْمَاءِ إلَيْهِ - وَاجِبٌ اتِّفَاقًا » ; pour la pluie et la rivière, « فَعَلَى الرَّاجِحِ وَهُوَ مَذْهَبُ ابْنِ الْقَاسِمِ » ; « إلَّا فِي مَسْأَلَةِ مَسْحِ الرَّأْسِ فَالرَّاجِحُ أَنَّهُ لَا يَكْفِي مَسْحُهُ بِالْبَلَلِ الْحَاصِلِ عَلَيْهِ ».",
+    tanbihat: [
+      "La Mudawwana : celui qui a laissé ses pieds, puis les lave en traversant une rivière sans former l'intention de compléter ses ablutions, n'est pas quitte « حَتَّى يَنْوِيَهُ ». Ibn Rushd : s'il les avait laissés exprès pour les laver dans la rivière, il n'a pas à renouveler l'intention, si c'est proche.",
+      "Al-Bājī : « وَالْفَرْقُ بَيْنَهُمَا أَنَّ مَاءَ الْمَسْحِ يَسِيرٌ » ; l'eau du lavage s'accroche à la main et la suit sur le membre.",
+      "Saḥnūn : si la pluie n'est pas abondante, « إذَا وَقَعَ عَلَيْهِ مَا يَبُلُّ جِلْدَهُ فَعَلَيْهِ أَنْ يَتَجَرَّدَ وَيَتَطَهَّرَ »."
+    ],
+    divergences: [
+      "Complément — l'eau changée par le frottement. Al-Ḥaṭṭāb n'en parle pas ici. Al-Dasūqī, d'après al-Majmūʿ d'al-Amīr (« المج ») : « لَا يَضُرُّ إضَافَةُ الْمَاءِ بِسَبَبِ الدَّلْكِ حَيْثُ عَمَّ الْمَاءُ الْعُضْوَ حَالَةَ كَوْنِهِ طَهُورًا إلَّا أَنْ يَتَجَسَّدَ الْوَسَخُ »."
+    ],
+    exemple: "Surpris par une forte pluie en pleine campagne, un voyageur sans eau tend ses mains et se lave avec l'eau recueillie ; il frotte ses avant-bras mouillés par la pluie. Pour la tête, il essuie avec l'eau de ses mains, non avec la pluie tombée sur ses cheveux.",
+    erreurs_frequentes: [
+      "Secouer l'eau de ses mains avant de les passer sur le visage.",
+      "Croire qu'il faut toujours prendre l'eau dans la main, même sous la pluie ou dans une rivière.",
+      "Essuyer sa tête avec la pluie qui l'a mouillée."
+    ],
+    termes: [
+      { ar: "نَقْلُ الْمَاءِ", translit: "naqlou l-mâ'", def: "« Porter l'eau » au membre : soit qu'elle l'atteigne (obligatoire), soit qu'on la porte avec la main (discuté)." }
+    ],
+    quiz: [
+      { q: "Quelqu'un prend de l'eau, la laisse couler de ses mains, puis passe ses mains humides sur son visage. Est-ce un lavage ?",
+        choix: ["Non : c'est un essuyage, non un lavage", "Oui", "Oui, s'il le fait trois fois", "Oui, en hiver seulement"],
+        bonne: 0,
+        explication: "Ibn Rushd : « اتِّفَاقًا لِأَنَّهُ مَسْحٌ وَلَيْسَ بِغَسْلٍ »." },
+      { q: "Faut-il toujours porter l'eau avec la main jusqu'au membre ?",
+        choix: ["Oui, toujours", "Oui, sauf pour le visage", "Non : selon l'avis répandu, la pluie ou la rivière avec le frottement suffisent", "Non, et le frottement n'est pas nécessaire non plus"],
+        bonne: 2,
+        explication: "« فَالْمَشْهُورُ مِنْ الْمَذْهَبِ أَنَّهُ لَا يَجِبُ »." },
+      { q: "Selon la conclusion d'al-Ḥaṭṭāb, peut-on essuyer sa tête avec la pluie qui la mouille ?",
+        choix: ["Oui, sans réserve", "Non, selon l'avis le plus fort", "Oui, si la pluie est forte", "Seulement en voyage"],
+        bonne: 1,
+        explication: "« فَالرَّاجِحُ أَنَّهُ لَا يَكْفِي مَسْحُهُ بِالْبَلَلِ الْحَاصِلِ عَلَيْهِ »." },
+      { q: "Mise en situation : en état d'impureté majeure, une personne entre dans une rivière, s'y plonge et frotte tout son corps. Son grand lavage est-il valable ?",
+        choix: ["Non, il faut verser l'eau avec un récipient", "Seulement si elle sort puis verse l'eau", "Non, la rivière ne purifie pas", "Oui, par accord"],
+        bonne: 3,
+        explication: "« كَمَا أَنَّ الْجُنُبَ إذَا انْغَمَسَ فِي نَهْرٍ وَتَدَلَّكَ فَإِنَّهُ يُجْزِئُهُ اتِّفَاقًا »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "220-223" },
+    alertes: [
+      "Témoins : Ibn ʿArafa (16968, p. 55–56 : « وفي شرط نقله الغاسل لمغسوله قولا ابن حبيب مع ابن رشد عن دليل سحنون وابن الماجشون وابن القاسم معها » ; « نظر والثاني أظهر ») ; at-Tawḍīḥ (14442, p. 106).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 90 (Shamela 21604, page 89)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-04-21a",
+    kitab: "tah", bab: "01", fasl: "04", ordre: 21,
+    titre: "La continuité : son statut, et la petite interruption",
+    titre_ar: "وَهَلْ الْمُوَالَاةُ وَاجِبَةٌ إنْ ذَكَرَ وَقَدَرَ … أَوْ سُنَّةٌ؟ خِلَافٌ",
+    objectif: "Savoir qu'on enchaîne les membres des ablutions sans longue interruption, ce qui arrive si on l'interrompt exprès, et ce qu'il en est d'une courte pause.",
+    matn: "وَهَلْ الْمُوَالَاةُ وَاجِبَةٌ إنْ ذَكَرَ وَقَدَرَ وَبَنَى بِنِيَّةٍ إنْ نَسِيَ مُطْلَقًا وَإِنْ عَجَزَ بَنَى مَا لَمْ يَطُلْ بِجَفَافِ أَعْضَاءٍ بِزَمَنٍ اعْتَدَلَا أَوْ سُنَّةٌ؟ خِلَافٌ",
+    regle_pratique: "On fait ses ablutions d'un seul tenant : qui les interrompt longuement de propos délibéré les refait, et refait les prières faites avec elles ; une courte pause, même voulue, ne les annule pas, mais elle est déconseillée sans raison (al-Ḥaṭṭāb ; al-Dardīr ; al-Dasūqī).",
+    qualification: {
+      hukm: "wajib",
+      nature: "rukn",
+      effet_si_omis: "Al-Ḥaṭṭāb : « أَنَّ مَنْ فَرَّقَ الطَّهَارَةَ عَامِدًا أَعَادَ الْوُضُوءَ وَالصَّلَاةَ أَبَدًا » ; l'oubli et l'incapacité ont leurs règles (fiches 21b et 21c)."
+    },
+    explication: "C'est la sixième obligation. Adh-Dhakhīra : le mot désigne au sens propre le voisinage des corps, au sens figuré la suite des actes. En droit : faire toute la purification en un temps continu, sans interruption grave ; certains disent « l'immédiateté » (fawr). Ibn ʿAbd as-Salām préfère le premier mot, qui ne vise que la suite des membres, alors que fawr ferait croire qu'il faut faire ses ablutions au début du temps de la prière ; il est juste de la compter parmi les obligations, même si certains la rangent dans les interdits, puisque l'avis répandu distingue l'acte voulu de l'oubli.\n\nKhalīl donne deux avis. Obligatoire quand on s'en souvient et qu'on le peut, sans effet en cas d'oubli ou d'incapacité : Ibn Nājī le dit le plus répandu, et al-Fākihānī l'attribue à Mālik et à Ibn al-Qāsim. Sunna : at-Tawḍīḥ rapporte qu'Ibn Rushd l'a déclarée la plus répandue dans al-Muqaddimāt ; ʿIyāḍ aussi selon Ibn Nājī. Al-Ḥaṭṭāb note qu'Ibn Rushd, dans les conséquences, rejoint le premier avis : selon Ibn al-Qāsim, l'interruption voulue annule. Ibn Rushd donne trois avis : obligation absolue (ʿAbd al-ʿAzīz b. Abī Salama), sunna absolue (« وَهُوَ الْمَشْهُورُ فِي الْمَذْهَبِ »), obligation pour ce qui se lave et sunna pour ce qui s'essuie (« وَهُوَ أَضْعَفُ الْأَقْوَالِ ») ; selon le deuxième, l'oubli n'entraîne rien, et pour l'acte voulu Ibn ʿAbd al-Ḥakam ne demande rien, Ibn al-Qāsim fait refaire ablutions et prière, « لِأَنَّهُ كَاللَّاعِبِ الْمُتَهَاوِنِ ». Ibn Nājī compte sept avis, dont : obligatoire dans ce qui se lave et dans l'essuyage de substitution (ʿAbd al-Malik), recommandée (Ibn al-Qaṣṣār, d'après certains compagnons de Mālik ; peut-être la sunna, selon Ibn ʿAbd as-Salām), obligatoire seulement si l'on fait ses ablutions dans le temps de la prière (Ibn Jamāʿa).\n\nArguments de l'obligation : le verset (la conjonction fa- et le lien entre les membres), l'ordre à exécuter aussitôt, la condition suivie de sa réponse, et le hadith des ablutions faites une fois chacune d'un seul tenant : « هَذَا وُضُوءٌ لَا يَقْبَلُ اللَّهُ الصَّلَاةَ إلَّا بِهِ », qu'al-Qarāfī discute.\n\nLa courte interruption. Le matn semble dire que toute interruption voulue annule ; ce n'est pas le sens : l'interruption brève ne nuit pas, même voulue. Al-Qāḍī ʿAbd al-Wahhāb : « لَا يَخْتَلِفُ الْمَذْهَبُ فِيهِ » ; ʿAbd al-Ḥaqq, d'après al-Fākihānī, de même ; Ibn Farḥūn, Ibn Nājī et d'autres rapportent pourtant un désaccord, et aṭ-Ṭirāz dit l'avis répandu : elle ne nuit pas. Mālik : celui qui touche son sexe pendant le grand lavage passe les mains sur les membres des ablutions et est quitte ; il s'essuyait avant de laver ses pieds ; Ibn al-Jallāb ne permet pas d'interrompre ; on cite le hadith d'al-Bukhārī où le Prophète ﷺ s'écarte puis lave ses pieds. Est-elle déconseillée ? Ibn Nājī rapporte que ʿAbd al-Wahhāb la dit déconseillée sans désaccord et le conteste ; al-Ḥaṭṭāb : rien ne l'impose dans ses livres, mais la déconseillance est claire quand l'interruption est sans excuse, ce que dit ash-Shabībī. Sa limite : Ibn Farḥūn, d'après Ibn ʿAbd as-Salām, la fixe au séchage des membres ; Ibn Hārūn la veut plus courte que cela, puisqu'il n'y a pas d'excuse.",
+    aqwal: [
+      { auteur: "Mālik et Ibn al-Qāsim (d'après al-Fākihānī) ; Khalīl, premier avis", avis: "Obligatoire si l'on s'en souvient et qu'on le peut ; sans effet en cas d'oubli ou d'incapacité ; Ibn Nājī et al-Fākihānī la disent la plus répandue.", statut: "mashhur" },
+      { auteur: "Ibn Rushd (al-Muqaddimāt) ; ʿIyāḍ (d'après Ibn Nājī)", avis: "Sunna, déclarée la plus répandue.", statut: "mashhur" },
+      { auteur: "ʿAbd al-ʿAzīz b. Abī Salama (d'après Ibn Rushd)", avis: "Obligatoire dans tous les cas, oubli compris.", statut: "qawl" },
+      { auteur: "Avis rapporté par Ibn Rushd", avis: "Obligatoire pour ce qui se lave, sunna pour ce qui s'essuie ; « وَهُوَ أَضْعَفُ الْأَقْوَالِ ».", statut: "qawl" },
+      { auteur: "ʿAbd al-Malik (riwāya) ; Ibn al-Qaṣṣār (d'après certains compagnons) ; Ibn Jamāʿa", avis: "Obligatoire dans ce qui se lave et l'essuyage de substitution ; recommandée ; obligatoire seulement dans le temps de la prière.", statut: "qawl" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, l'obligation quand on s'en souvient et qu'on le peut, « (خِلَافٌ) فِي التَّشْهِيرِ », le premier avis étant le plus répandu ; pour la courte interruption, al-Dasūqī : « لِأَنَّ التَّفْرِيقَ الْيَسِيرَ لَا يَضُرُّ مُطْلَقًا سَهْوًا كَانَ أَوْ عَجْزًا أَوْ عَمْدًا » … « فَيُكْرَهُ إنْ كَانَ عَمْدًا عَلَى الْمُعْتَمَدِ ».",
+    tarjih_hattab: "« (قُلْتُ) فَتَحَصَّلَ مِنْ هَذَا أَنَّ الْمُعْتَمَدَ فِي الْمَذْهَبِ أَنَّ مَنْ فَرَّقَ الطَّهَارَةَ عَامِدًا أَعَادَ الْوُضُوءَ وَالصَّلَاةَ أَبَدًا » … « فَالْخِلَافُ إنَّمَا هُوَ فِي التَّعْبِيرِ » ; pour la limite de la courte interruption, avec Ibn Hārūn : « (قُلْتُ) وَهَذَا هُوَ الظَّاهِرُ مِنْ كَلَامِ أَهْلِ الْمَذْهَبِ ».",
+    tanbihat: [
+      "Ibn Rushd : « وَمِنْ أَصْحَابِنَا مَنْ يُعَبِّرُ عَلَى مَذْهَبِهِ هَذَا فِي الْفَوْرِ أَنَّهُ فَرْضٌ بِالذِّكْرِ يَسْقُطُ بِالنِّسْيَانِ ».",
+      "Ash-Shabībī : « وَأَمَّا التَّفْرِقَةُ الْيَسِيرَةُ فَغَيْرُ مُفْسِدَةٍ بِغَيْرِ خِلَافٍ إلَّا أَنَّهَا تُكْرَهُ مِنْ غَيْرِ ضَرُورَةٍ ».",
+      "Ibn Farḥūn rattache le désaccord sur la courte interruption à la question : ce qui est proche d'une chose prend-il son statut ?"
+    ],
+    divergences: [
+      "Concordance — le mot. Al-Ḥaṭṭāb, d'après Ibn ʿAbd as-Salām : fawr ferait croire aux ablutions dès le début du temps. Al-Dardīr : « وَالتَّعْبِيرُ بِالْمُوَالَاةِ أَوْلَى » … « وَالْفَوْرُ رُبَّمَا يُفِيدُ فِعْلَهُ أَوَّلَ الْوَقْتِ ».",
+      "Concordance — l'avis retenu. Al-Ḥaṭṭāb : l'interruption voulue fait refaire ablutions et prières, le reste n'étant qu'une question de mots. Al-Dardīr : le désaccord porte sur l'avis à déclarer le plus répandu, « (خِلَافٌ) فِي التَّشْهِيرِ », et il donne la préférence au premier.",
+      "Concordance — la courte interruption voulue, déconseillée. Al-Ḥaṭṭāb : « لَكِنَّ وَجْهَ الْكَرَاهَةِ ظَاهِرٌ إذَا كَانَ التَّفْرِيقُ لِغَيْرِ عُذْرٍ ». Al-Dasūqī : « فَيُكْرَهُ إنْ كَانَ عَمْدًا عَلَى الْمُعْتَمَدِ » ; al-Dardīr : « وَكَذَا لَوْ فَرَّقَ عَمْدًا مُخْتَارًا أَيْ مِنْ غَيْرِ نِيَّةٍ رَفَضَ فَيَبْنِي مَا لَمْ يُطِلْ عَلَى التَّحْقِيقِ ».",
+      "Divergence — la limite de la courte interruption. Al-Ḥaṭṭāb : plus courte que le séchage des membres (Ibn Hārūn), contre Ibn Farḥūn. Al-Dasūqī : « وَالْيَسِيرُ مُقَدَّرٌ بِعَدَمِ الْجَفَافِ »."
+    ],
+    exemple: "Au milieu de ses ablutions, une personne répond longuement au téléphone, au point que ses bras et son visage ont séché, puis reprend aux pieds : elle a interrompu exprès et longuement ; elle recommence ses ablutions. Une pause de quelques secondes pour ajuster sa manche ne les annule pas.",
+    erreurs_frequentes: [
+      "Croire que toute pause, même de quelques secondes, oblige à recommencer.",
+      "Croire qu'on peut s'interrompre longuement exprès et reprendre où l'on s'était arrêté.",
+      "Croire que la continuité oblige à faire ses ablutions dès le début du temps de la prière."
+    ],
+    termes: [
+      { ar: "مُوَالَاة", translit: "mouwâlât", def: "Continuité : enchaîner les membres des ablutions sans longue interruption." },
+      { ar: "فَوْر", translit: "fawr", def: "Immédiateté : faire une chose aussitôt, sans délai." },
+      { ar: "تَفْرِيق", translit: "tafrîq", def: "Interruption : séparer dans le temps les membres des ablutions." }
+    ],
+    quiz: [
+      { q: "Qu'arrive-t-il à celui qui interrompt longuement ses ablutions de propos délibéré, selon la conclusion d'al-Ḥaṭṭāb ?",
+        choix: ["Rien", "Il reprend là où il s'était arrêté", "Il refait seulement le membre suivant", "Il refait ses ablutions et les prières faites avec elles"],
+        bonne: 3,
+        explication: "« أَنَّ مَنْ فَرَّقَ الطَّهَارَةَ عَامِدًا أَعَادَ الْوُضُوءَ وَالصَّلَاةَ أَبَدًا »." },
+      { q: "Une courte pause voulue annule-t-elle les ablutions ?",
+        choix: ["Oui, toujours", "Non ; elle est seulement déconseillée sans raison", "Oui, si elle est voulue", "Non, et elle est recommandée"],
+        bonne: 1,
+        explication: "Al-Dasūqī : « لِأَنَّ التَّفْرِيقَ الْيَسِيرَ لَا يَضُرُّ مُطْلَقًا » ; « فَيُكْرَهُ إنْ كَانَ عَمْدًا عَلَى الْمُعْتَمَدِ »." },
+      { q: "Pourquoi al-Dardīr préfère-t-il le mot « continuité » à « immédiateté » ?",
+        choix: ["« Immédiateté » ferait croire qu'il faut faire ses ablutions au début du temps", "Parce que c'est le mot du Coran", "Parce que l'immédiateté est une sunna", "Il n'a pas de préférence"],
+        bonne: 0,
+        explication: "« وَالْفَوْرُ رُبَّمَا يُفِيدُ فِعْلَهُ أَوَّلَ الْوَقْتِ »." },
+      { q: "Mise en situation : pendant ses ablutions, une personne s'arrête volontairement et attend ; ses membres commencent à peine à sécher. Comment al-Ḥaṭṭāb mesure-t-il la courte pause, à la différence d'al-Dasūqī ?",
+        choix: ["Jusqu'au séchage complet des membres", "Il n'y a aucune limite", "Plus courte que le séchage des membres, puisqu'il n'y a pas d'excuse", "Une heure"],
+        bonne: 2,
+        explication: "Ibn Hārūn : « وَهَذَا عِنْدِي لَا يُحَدُّ بِجَفَافِ الْأَعْضَاءِ » ; al-Ḥaṭṭāb : « وَهَذَا هُوَ الظَّاهِرُ » ; al-Dasūqī : « وَالْيَسِيرُ مُقَدَّرٌ بِعَدَمِ الْجَفَافِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "223-225" },
+    alertes: [
+      "Corrigé (rédaction) : le « ص » de Mawāhib porte « أَوْ سَنَةٍ » ; al-Dardīr (21604, p. 92 : « (سُنَّةٌ) ») et le commentaire d'al-Ḥaṭṭāb (« وَالْقَوْلُ الثَّانِي أَنَّهَا سُنَّةٌ ») portent la sunna ; le matn de la fiche suit al-Dardīr (anomalie n° 246).",
+      "Corrigé (rédaction) : dans la citation d'al-Muqaddimāt, Mawāhib porte « عَبْدِ الْعَزِيزِ بْنِ أَبِي مَسْلَمَةَ » ; Ibn ʿArafa (16968, p. 62) attribue l'avis « لابن أبي سلمة » ; la fiche écrit Ibn Abī Salama, comme à la fiche 18 (anomalie n° 247).",
+      "Témoin : Ibn ʿArafa (16968, p. 62 : « ابن رشد: في فرضها وسنتها ثالثها في المغسول سنة في الممسوح لابن أبي سلمة والمشهور ورواية الأخوين »).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 90–93 (Shamela 21604, pages 89–92)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-04-21b",
+    kitab: "tah", bab: "01", fasl: "04", ordre: 21,
+    titre: "L'oubli : reprendre avec l'intention",
+    titre_ar: "وَبَنَى بِنِيَّةٍ إنْ نَسِيَ مُطْلَقًا",
+    objectif: "Savoir ce que fait celui qui découvre qu'il a oublié un membre ou un endroit sec dans ses ablutions.",
+    matn: "وَهَلْ الْمُوَالَاةُ وَاجِبَةٌ إنْ ذَكَرَ وَقَدَرَ وَبَنَى بِنِيَّةٍ إنْ نَسِيَ مُطْلَقًا وَإِنْ عَجَزَ بَنَى مَا لَمْ يَطُلْ بِجَفَافِ أَعْضَاءٍ بِزَمَنٍ اعْتَدَلَا أَوْ سُنَّةٌ؟ خِلَافٌ",
+    regle_pratique: "Qui a oublié un membre ou un endroit resté sec le lave dès qu'il s'en souvient, avec l'intention de compléter ses ablutions, même longtemps après ; s'il s'en souvient vite, il refait aussi ce qui suit, pour l'ordre ; s'il tarde exprès et longuement après s'en être souvenu, il recommence tout (al-Ḥaṭṭāb ; al-Dardīr).",
+    qualification: {
+      hukm: "wajib",
+      nature: "autre",
+      effet_si_omis: "La Mudawwana : « فَإِنْ لَمْ يَغْسِلْهُ حِينَ ذَكَرَهُ اسْتَأْنَفَ الْغُسْلَ أَوْ الْوُضُوءَ »."
+    },
+    explication: "Celui qui a oublié un membre ou un endroit sec reprend sur ses ablutions et lave ce qu'il a oublié, « مُطْلَقًا طَالَ أَوْ لَمْ يَطُلْ ». S'il s'en souvient vite, avant que ses membres sèchent, il refait aussi les membres qui suivent, obligatoires ou sunna (an-Nawādir, al-Jazūlī) ; après un long moment, non. La Risāla : « فَإِنْ كَانَ بِالْقُرْبِ مِنْهُ أَعَادَ ذَلِكَ وَمَا يَلِيهِ وَإِنْ تَطَاوَلَ ذَلِكَ أَعَادَهُ فَقَطْ » ; la limite du long moment est le séchage (Mudawwana). Refaire ce qui suit sert l'ordre : s'il ne le fait pas, il ne lui est rien demandé (Ibn Nājī, az-Zarrūq, al-Jazūlī, Yūsuf b. ʿUmar). Al-Ḥaṭṭāb en déduit que c'est une sunna, selon az-Zarrūq (« وَالْمَشْهُورُ أَنَّ التَّرْتِيبَ بَيْنَ الْفَرَائِضِ سُنَّةٌ ») et Ibn Bashīr ; quand Ibn Nājī dit « recommandé », il entend ce qui n'est pas obligatoire. Les sunna qui suivent ne se refont que par accompagnement.\n\nL'intention est nécessaire : la Mudawwana dit que celui qui a laissé ses pieds puis les frotte en traversant une rivière sans former l'intention de compléter n'est pas quitte ; Ibn Yūnus : il avait oublié ses pieds et croyait avoir fini, d'où le besoin d'une intention nouvelle.\n\nCas particuliers. Il doit se hâter dès qu'il se souvient ; s'il tarde exprès, ses ablutions sont annulées si le délai est grave (Ibn al-Ḥājib : « فَإِنْ أَخَّرَ حِينَ ذَكَرَهُ فَكَالْمُتَعَمِّدِ » ; an-Nukat). Celui qui oublie une deuxième fois après s'être souvenu : deux avis (al-Jazūlī, Yūsuf b. ʿUmar) ; Ibn Nājī : la Mudawwana ne l'excuse pas ; mais Ibn Rushd, pour celui qui a refait ses cinq prières en oubliant encore l'essuyage de la tête, demande seulement d'essuyer et de refaire la prière du soir ; al-Ḥaṭṭāb : « وَهَذَا هُوَ الظَّاهِرُ ». L'endroit sec d'un membre lavé se lave trois fois ; si l'on refait aussi ce qui suit, ce qui suit se lave une fois (ʿAbd al-Ḥaqq, al-Fākihānī, al-Jazūlī, Yūsuf b. ʿUmar, ash-Shabībī). Si l'on ne sait pas où est l'endroit sec, on lave tout le membre. Si l'on doute d'avoir lavé, la Mudawwana demande de laver ; al-Lakhmī : juste après les ablutions, l'humidité du membre prouve qu'il a été lavé, sauf pour celui à qui le doute revient souvent. Pour le grand lavage, même règle, mais sans refaire ce qui suit (pas d'ordre) ni laver trois fois. An-Nawādir : celui qui ne sait pas sur quelle main est l'endroit sec, s'il est près de l'eau, lave l'endroit à droite puis la main gauche et refait la suite ; après longtemps, l'endroit sur les deux mains.",
+    aqwal: [
+      { auteur: "Mudawwana ; Khalīl", avis: "Celui qui oublie reprend, avec intention, quel que soit le temps écoulé.", statut: "non_precise" },
+      { auteur: "Ibn Nājī (d'après la Mudawwana)", avis: "Le second oubli, après s'être souvenu, n'excuse pas : on recommence.", statut: "qawl" },
+      { auteur: "Ibn Rushd (sa réponse sur les cinq prières)", avis: "Le second oubli excuse : on lave l'endroit et l'on refait seulement ce qui en dépend.", statut: "qawl" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « (بِنِيَّةٍ) شَرْطًا » … « فَإِنْ بَنَى بِغَيْرِهَا لَمْ يُجْزِهِ » ; « (مُطْلَقًا) طَالَ مَا قَبْلَ التَّذَكُّرِ أَوْ لَمْ يَطُلْ ».",
+    tarjih_hattab: "Refaire ce qui suit est une sunna : « فَتَكُونُ الْإِعَادَةُ سُنَّةً » ; sur le second oubli : « وَهَذَا هُوَ الظَّاهِرُ » (excusé, selon la réponse d'Ibn Rushd).",
+    tanbihat: [
+      "Ibn al-Ḥājib : « فَإِنْ أَخَّرَ حِينَ ذَكَرَهُ فَكَالْمُتَعَمِّدِ ».",
+      "Al-Lakhmī, sur le doute : « فَإِنْ كَانَ عَلَى الْعُضْوِ بَلَلٌ كَانَ ذَلِكَ دَلِيلًا عَلَى أَنَّهُ غَسَلَهُ » ; sauf « مِمَّنْ يَتَكَرَّرُ ذَلِكَ عَلَيْهِ ».",
+      "Grand lavage : on ne refait pas ce qui suit, « لِأَنَّ الْغُسْلَ لَا تَرْتِيبَ فِيهِ »."
+    ],
+    divergences: [
+      "Concordance — l'intention. Al-Ḥaṭṭāb : la Mudawwana, « وَلَمْ يَنْوِ تَمَامَ وُضُوئِهِ لَمْ يُجْزِهِ حَتَّى يَنْوِيَهُ ». Al-Dasūqī : « وَذَلِكَ لَوْ خَاضَ بَحْرًا بَعْدَ تَذَكُّرِهِ بِلَا نِيَّةِ إتْمَامِ الْوُضُوءِ كَمَا فِي شب عَنْهَا » (« شب » : Ibrāhīm ash-Shabrakhītī).",
+      "Point à comparer — reprendre ou recommencer. Al-Ḥaṭṭāb n'en parle pas ici. Al-Dardīr : on reprend « وَلَا يَبْتَدِئُهُ أَيْ يُكْرَهُ أَوْ يَحْرُمُ » si l'on a fait le tiers des membres ; al-Dasūqī : « وَفِيهِ نَظَرٌ فَقَدْ صَرَّحُوا بِأَنَّ الْمُتَوَضِّئَ مُخَيَّرٌ فِي إتْمَامِ وُضُوئِهِ وَتَرْكِهِ » ; « وَيَجُوزُ لَهُ ابْتِدَاؤُهُ مِنْ أَوَّلِهِ »."
+    ],
+    exemple: "Arrivée au travail, une femme remarque une tache sèche sur son avant-bras, oubliée lors de ses ablutions du matin. Elle la lave trois fois, avec l'intention de compléter ses ablutions, sans refaire la suite puisque beaucoup de temps a passé.",
+    erreurs_frequentes: [
+      "Recommencer toutes ses ablutions pour un endroit sec découvert longtemps après.",
+      "Laver l'endroit oublié sans intention de compléter ses ablutions.",
+      "Remettre à plus tard le lavage de l'endroit oublié après s'en être souvenu."
+    ],
+    termes: [
+      { ar: "لَمْعَة", translit: "lamʿa", def: "Petit endroit resté sec dans un membre qu'on devait laver." }
+    ],
+    quiz: [
+      { q: "Celui qui découvre, longtemps après, qu'il a oublié un membre de ses ablutions :",
+        choix: ["Recommence toutes ses ablutions", "Lave ce membre seulement, avec l'intention de compléter", "Ne fait rien", "Fait l'ablution sèche"],
+        bonne: 1,
+        explication: "« وَإِنْ تَطَاوَلَ ذَلِكَ أَعَادَهُ فَقَطْ » ; Khalīl : « وَبَنَى بِنِيَّةٍ إنْ نَسِيَ مُطْلَقًا »." },
+      { q: "S'il s'en souvient juste après ses ablutions, membres encore mouillés, que fait-il en plus ?",
+        choix: ["Il refait aussi les membres qui suivent, pour l'ordre", "Rien de plus", "Il recommence tout", "Il refait seulement l'essuyage de la tête"],
+        bonne: 0,
+        explication: "« فَإِنْ كَانَ بِالْقُرْبِ مِنْهُ أَعَادَ ذَلِكَ وَمَا يَلِيهِ »." },
+      { q: "Mise en situation : un homme se souvient d'un endroit sec sur son pied, mais décide de le laver plus tard ; une heure passe. Que dit Ibn al-Ḥājib ?",
+        choix: ["Il lave l'endroit quand il veut", "Il n'a rien à faire", "Il est comme celui qui a interrompu exprès", "Il fait l'ablution sèche"],
+        bonne: 2,
+        explication: "« فَإِنْ أَخَّرَ حِينَ ذَكَرَهُ فَكَالْمُتَعَمِّدِ »." },
+      { q: "Combien de fois lave-t-on l'endroit sec retrouvé sur un membre lavé ?",
+        choix: ["Une fois", "Deux fois", "Sept fois", "Trois fois"],
+        bonne: 3,
+        explication: "« إذَا كَانَتْ اللُّمْعَةُ مِنْ مَغْسُولِ الْوُضُوءِ غَسَلَ مَوْضِعَهَا ثَلَاثًا »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "225-228" },
+    alertes: [
+      "Le terme est donné sous la forme du glossaire (« لَمْعَة ») ; Mawāhib vocalise « اللُّمْعَةُ ».",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 91–92 (Shamela 21604, pages 90–91)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-04-21c",
+    kitab: "tah", bab: "01", fasl: "04", ordre: 21,
+    titre: "L'eau qui manque : reprendre si le délai n'est pas long",
+    titre_ar: "وَإِنْ عَجَزَ بَنَى مَا لَمْ يَطُلْ بِجَفَافِ أَعْضَاءٍ بِزَمَنٍ اعْتَدَلَا",
+    objectif: "Savoir ce que fait celui dont l'eau s'épuise pendant les ablutions, et comment se mesure la longue interruption.",
+    matn: "وَهَلْ الْمُوَالَاةُ وَاجِبَةٌ إنْ ذَكَرَ وَقَدَرَ وَبَنَى بِنِيَّةٍ إنْ نَسِيَ مُطْلَقًا وَإِنْ عَجَزَ بَنَى مَا لَمْ يَطُلْ بِجَفَافِ أَعْضَاءٍ بِزَمَنٍ اعْتَدَلَا أَوْ سُنَّةٌ؟ خِلَافٌ",
+    regle_pratique: "Celui dont l'eau s'épuise en cours d'ablutions et qui va en chercher reprend là où il s'était arrêté si ses membres n'ont pas encore séché (pour une personne et un temps moyens) ; sinon il recommence ; mais s'il avait préparé assez d'eau et qu'on la lui a renversée ou prise, il reprend même après longtemps (al-Ḥaṭṭāb ; al-Dardīr).",
+    qualification: {
+      hukm: "wajib",
+      nature: "autre",
+      effet_si_omis: "La Mudawwana : « وَإِنْ تَبَاعَدَ وَجَفَّ وَضُوءُهُ ابْتَدَأَ وُضُوءَهُ »."
+    },
+    explication: "Celui qui a interrompu par incapacité, comme celui dont l'eau s'épuise et qui va en chercher, reprend si le délai n'est pas long. La Mudawwana : « فَإِنْ قَرُبَ بَنَى وَإِنْ تَبَاعَدَ وَجَفَّ وَضُوءُهُ ابْتَدَأَ وُضُوءَهُ ». Le texte semble général, que l'eau préparée ait suffi puis ait été renversée ou prise, ou qu'il ait cru qu'elle suffirait : c'est la lecture d'al-Bājī et d'autres, qu'al-Fākihānī juge la plus apparente. ʿIyāḍ rapporte que certains maîtres — al-Lakhmī, précise al-Ḥaṭṭāb — y voient celui qui n'a pas préparé assez d'eau, comme un négligent ; celui dont l'eau suffisante a été renversée ou prise est comme l'oublieux et reprend même après longtemps. Ibn Rushd (d'après al-Jamʿ) distingue trois cas : contraint d'interrompre, il reprend sans désaccord ; oublieux, il reprend même après longtemps ; eau épuisée alors qu'il la croyait suffisante, il reprend si c'est proche. Az-Zuhrī rapporte d'Ibn al-Qaṣṣār la même chose. Ibn Bazīza distingue : sûr que l'eau suffit, pas sûr, ou dans le doute ; « وَالْمَشْهُورُ فِي الْأُولَى الْبِنَاءُ وَفِي الثَّانِيَةِ وَالثَّالِثَةِ الِابْتِدَاءُ ». Al-Fākihānī : al-Lakhmī assimile l'eau renversée à l'oubli, Ibn al-Jallāb non, et ce dernier lui paraît plus juste, l'oubli étant inévitable et l'eau renversée rare.\n\nBilan d'al-Ḥaṭṭāb : celui qui avait préparé assez d'eau et se l'est vu prendre ou renverser, ou qui a été contraint d'interrompre, reprend même après longtemps, comme l'oublieux, sans désaccord selon les uns, selon l'avis le plus fort selon les autres ; Khalīl aurait dû excepter ce cas ou signaler le désaccord. Ar-Rajrājī exclut celui qui savait l'eau insuffisante : il ne reprend jamais, ayant voulu interrompre ; al-Mashadhdhālī de même ; al-Ḥaṭṭāb : « وَهَذَا هُوَ الظَّاهِرُ », sauf si l'interruption est assez courte pour être tolérée.\n\nLa mesure du long délai. « وَالْمَشْهُورُ أَنَّهُ مُقَدَّرٌ بِجَفَافِ الْأَعْضَاءِ مِنْ الْجِسْمِ الْمُعْتَدِلِ فِي الزَّمَانِ الْمُعْتَدِلِ », le non-séchage étant le signe ordinaire de la proximité ; adh-Dhakhīra : c'est l'avis de la plupart des juristes, Mālik, ash-Shāfiʿī, Ibn Ḥanbal. Autre avis : selon l'usage (al-Qābisī, ʿIyāḍ). Ibn Nājī reproche à al-Fākihānī de n'attribuer le premier qu'à Ibn Ḥabīb, alors que c'est le texte de la Mudawwana ; al-Ḥaṭṭāb montre qu'al-Fākihānī l'attribue ailleurs à la Mudawwana. « Moyen » vise le tempérament de la personne, non son âge, qui n'en est qu'un signe habituel. Al-Jazūlī et Yūsuf b. ʿUmar disent l'usage plus répandu, mais Khalīl suit la Mudawwana. Ibn Farḥūn, d'après Taqī d-Dīn, demande si l'on compte le séchage depuis le dernier membre ou le premier, la dernière ou la première fois lavée ; al-Ḥaṭṭāb : tout cela est toléré tant que l'humidité est là.\n\nCas voisin : celui qui se souvient d'un endroit oublié là où il n'a pas d'eau. An-Nukat, d'après plusieurs maîtres, et al-Wāḍiḥa : il est comme celui dont l'eau s'épuise ; al-Ibyānī : il reprend dans tous les cas s'il ne néglige rien et part aussitôt.",
+    aqwal: [
+      { auteur: "Mudawwana (lecture d'al-Bājī) ; Khalīl", avis: "Celui dont l'eau s'épuise reprend si le délai n'est pas long, sinon il recommence.", statut: "non_precise" },
+      { auteur: "Al-Lakhmī ; Ibn Rushd (d'après al-Jamʿ) ; Ibn al-Qaṣṣār (d'après az-Zuhrī)", avis: "Eau suffisante renversée ou prise, ou interruption contrainte : il reprend même après longtemps.", statut: "non_precise" },
+      { auteur: "Ibn Bazīza", avis: "Sûr que l'eau suffit : il reprend ; sûr qu'elle ne suffit pas, ou dans le doute : il recommence.", statut: "mashhur" },
+      { auteur: "Ar-Rajrājī ; al-Mashadhdhālī", avis: "Celui qui savait l'eau insuffisante ne reprend jamais.", statut: "qawl" },
+      { auteur: "Mudawwana (mesure du délai)", avis: "Le long délai se mesure au séchage des membres, pour un corps et un temps moyens.", statut: "mashhur" },
+      { auteur: "Al-Qābisī ; ʿIyāḍ ; al-Jazūlī et Yūsuf b. ʿUmar (qui le disent le plus répandu)", avis: "Le long délai se mesure à l'usage.", statut: "qawl" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, pour l'eau renversée, prise, ou l'interruption contrainte : « فَإِنَّهُ مُلْحَقٌ فِي هَذِهِ الْخَمْسَةِ بِالنَّاسِي عَلَى الْمُعْتَمَدِ فَيَبْنِي مُطْلَقًا » ; pour la mesure : « وَالطُّولُ مُقَدَّرٌ (بِجَفَافِ أَعْضَاءٍ بِزَمَنٍ) أَيْ فِي زَمَنٍ (اعْتَدَلَا) ».",
+    tarjih_hattab: "Pour celui qui savait l'eau insuffisante : « (قُلْتُ) وَهَذَا هُوَ الظَّاهِرُ إلَّا أَنْ يَكُونَ التَّفْرِيقُ يَسِيرًا » ; pour le séchage : « (قُلْتُ) وَالظَّاهِرُ مِنْ كَلَامِهِمْ اغْتِفَارُ ذَلِكَ جَمِيعِهِ ».",
+    tanbihat: [
+      "Khalīl aurait dû excepter l'eau renversée ou prise : « فَكَانَ يَنْبَغِي » … « لِلْمُصَنِّفِ أَنْ يَسْتَثْنِيَ هَذِهِ الصُّورَةَ أَوْ يَحْكِيَ فِيهَا خِلَافًا ».",
+      "Aṭ-Ṭirāz rapporte une hésitation d'at-Tūnisī, sans préférence.",
+      "Adh-Dhakhīra : l'humidité qui reste montre que l'effet des ablutions demeure, et le dernier membre se rattache au lavage précédent."
+    ],
+    divergences: [
+      "Divergence — l'eau qu'on savait insuffisante. Al-Ḥaṭṭāb : il ne reprend pas, sauf courte interruption (ar-Rajrājī : « وَهَذَا هُوَ الظَّاهِرُ ») ; Ibn Bazīza : il recommence. Al-Dardīr : « وَكَذَا لَوْ أَعَدَّ مِنْ الْمَاءِ مَا لَا يَكْفِيهِ جَزْمًا أَوْ ظَنًّا » il reprend si le délai n'est pas long, « وَقِيلَ لَا يَبْنِي مُطْلَقًا » ; al-Dasūqī le range parmi les cas où l'on reprend « عَلَى الرَّاجِحِ ».",
+      "Point à comparer — le doute sur la quantité. Ibn Bazīza, rapporté par al-Ḥaṭṭāb : on recommence. Al-Dardīr : « أَوْ يَشُكُّ فِي كِفَايَتِهِ فَلَمْ يَكْفِهِ » il reprend si le délai n'est pas long.",
+      "Concordance — l'eau renversée ou prise. Al-Ḥaṭṭāb : il reprend même après longtemps, comme l'oublieux. Al-Dardīr : « فَإِنَّهُ مُلْحَقٌ فِي هَذِهِ الْخَمْسَةِ بِالنَّاسِي عَلَى الْمُعْتَمَدِ ».",
+      "Complément — l'intention. Al-Ḥaṭṭāb n'en parle pas pour l'incapable. Al-Dardīr : il reprend « بِغَيْرِ تَجْدِيدِ نِيَّةٍ لِحُصُولِهَا حَقِيقَةً أَوْ حُكْمًا ».",
+      "Complément — qui est l'incapable du matn. Al-Dasūqī cite al-Bunānī (« بْن ») : « وَلِذَا حَمَلُوا الْعَاجِزَ فِي كَلَامِهِ عَلَى غَيْرِ الْحَقِيقِيِّ وَهُوَ مَنْ عِنْدَهُ نَوْعُ تَفْرِيطٍ ».",
+      "Point à comparer — la personne « moyenne ». Al-Ḥaṭṭāb : le tempérament, « لَا كَوْنُ الشَّخْصِ بَيْنَ الشَّبَابِ وَالشُّيُوخَةِ ». Al-Dardīr : « فَاعْتِدَالُ الْأَعْضَاءِ مِنْ حَيْثُ اعْتِدَالُ صَاحِبِهَا بَيْنَ الشُّيُوخَةِ وَالشَّبُوبَةِ حَالَ الصِّحَّةِ »."
+    ],
+    exemple: "En camping, une personne a pris une bouteille qu'elle croyait suffisante ; l'eau manque avant les pieds. Elle va remplir la bouteille à la source voisine et revient avant que ses bras aient séché : elle lave ses pieds sans recommencer.",
+    erreurs_frequentes: [
+      "Recommencer toutes ses ablutions quand on revient vite avec de l'eau.",
+      "Reprendre après un long délai alors qu'on savait l'eau insuffisante.",
+      "Mesurer le délai à sa propre impression au lieu du séchage des membres."
+    ],
+    termes: [
+      { ar: "جَفَاف", translit: "jafâf", def: "Séchage ; dans les ablutions, le dessèchement des membres lavés, qui mesure la longue interruption." },
+      { ar: "مِزَاج", translit: "mizâj", def: "Tempérament : complexion physique d'une personne." }
+    ],
+    quiz: [
+      { q: "Selon l'avis répandu, comment mesure-t-on la longue interruption ?",
+        choix: ["À une heure", "Au séchage des membres, pour un corps et un temps moyens", "À l'impression de chacun", "Au temps de la prière"],
+        bonne: 1,
+        explication: "« وَالْمَشْهُورُ أَنَّهُ مُقَدَّرٌ بِجَفَافِ الْأَعْضَاءِ مِنْ الْجِسْمِ الْمُعْتَدِلِ فِي الزَّمَانِ الْمُعْتَدِلِ »." },
+      { q: "Quelqu'un avait préparé assez d'eau, mais un enfant la renverse ; il revient longtemps après avec de l'eau. Que retient al-Dardīr ?",
+        choix: ["Il recommence tout", "Il fait l'ablution sèche", "Il reprend, comme l'oublieux, même après longtemps", "Il refait seulement le visage"],
+        bonne: 2,
+        explication: "« فَإِنَّهُ مُلْحَقٌ فِي هَذِهِ الْخَمْسَةِ بِالنَّاسِي عَلَى الْمُعْتَمَدِ فَيَبْنِي مُطْلَقًا »." },
+      { q: "Mise en situation : un homme sait que sa petite bouteille ne suffira pas, commence quand même, puis part longuement chercher de l'eau. Que retient al-Ḥaṭṭāb ?",
+        choix: ["Il ne reprend pas : il recommence, sauf si l'interruption est courte", "Il reprend toujours", "Il reprend s'il le veut", "Il refait seulement les pieds"],
+        bonne: 0,
+        explication: "« (قُلْتُ) وَهَذَا هُوَ الظَّاهِرُ إلَّا أَنْ يَكُونَ التَّفْرِيقُ يَسِيرًا »." },
+      { q: "Celui qui reprend après une incapacité doit-il renouveler son intention, selon al-Dardīr ?",
+        choix: ["Oui, toujours", "Oui, s'il a quitté les lieux", "Seulement pour le grand lavage", "Non, car son intention demeure"],
+        bonne: 3,
+        explication: "« بِغَيْرِ تَجْدِيدِ نِيَّةٍ لِحُصُولِهَا حَقِيقَةً أَوْ حُكْمًا »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "226-228" },
+    alertes: [
+      "Témoin : Ibn ʿArafa (16968, p. 62 : « ولو عجز ماؤه وجف وضوءه ففي بنائه ثالثها إن أعد مما يكفيه فغضب أو أريق ») ; le mot « فغضب » y est sans doute pour « فغصب » ; sans effet sur la fiche.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 91–92 (Shamela 21604, pages 90–91)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-04-21d",
+    kitab: "tah", bab: "01", fasl: "04", ordre: 21,
+    titre: "Essuyer la tête avec l'humidité de la barbe : non",
+    titre_ar: "مَسْحُ الرَّأْسِ بِبَلَلِ اللِّحْيَةِ أَوْ الذِّرَاعَيْنِ",
+    objectif: "Savoir que celui qui a oublié d'essuyer sa tête reprend de l'eau neuve, et pourquoi l'humidité de la barbe ou des avant-bras ne suffit pas.",
+    matn: "وَهَلْ الْمُوَالَاةُ وَاجِبَةٌ إنْ ذَكَرَ وَقَدَرَ وَبَنَى بِنِيَّةٍ إنْ نَسِيَ مُطْلَقًا وَإِنْ عَجَزَ بَنَى مَا لَمْ يَطُلْ بِجَفَافِ أَعْضَاءٍ بِزَمَنٍ اعْتَدَلَا أَوْ سُنَّةٌ؟ خِلَافٌ",
+    regle_pratique: "Celui qui se souvient d'avoir oublié d'essuyer sa tête prend de l'eau neuve : l'humidité restée dans sa barbe ou sur ses avant-bras ne suffit pas ; Ibn al-Mājishūn admet seulement l'eau d'une grande barbe quand l'eau est loin (al-Ḥaṭṭāb).",
+    qualification: {
+      hukm: "wajib",
+      nature: "autre",
+      effet_si_omis: "Ibn al-Qāsim, de celui qui a essuyé avec l'humidité des avant-bras ou de la barbe puis a prié : « يُعِيدُ وَإِنْ ذَهَبَ الْوَقْتُ وَلَيْسَ هَذَا بِمَسْحٍ »."
+    },
+    explication: "Celui qui se souvient d'avoir oublié d'essuyer sa tête ne peut pas l'essuyer avec ce qui reste d'eau sur ses avant-bras ou dans sa barbe, parce qu'il y en a trop peu ; sauf une grande barbe qui en contient assez : Ibn al-Mājishūn l'admet, Mālik le refuse dans la Mudawwana. La Mudawwana : s'il s'en souvient pendant la prière, il l'interrompt, essuie sa tête de nouveau, sans se servir de l'humidité de sa barbe, recommence la prière, et ne relave pas ses pieds si ses ablutions ont séché. Ibn Nājī : s'il l'a fait, il refait la prière pour toujours ; al-ʿUtbī l'attribue à Ibn al-Qāsim, d'autres à Mālik.\n\nL'ʿUtbiyya : interrogé sur l'essuyage de la tête avec le reste d'eau des avant-bras, Mālik répond « لَا أُحِبُّ ذَلِكَ » ; Ibn al-Qāsim fait refaire la prière même après le temps. Ibn Rushd : avec les avant-bras, ce n'est pas permis, car il n'y reste pas assez d'eau ; « je n'aime pas » ne marque pas la validité, car les savants évitent de dire « permis » ou « interdit » dans ce qui relève de l'effort d'interprétation et disent « je le déconseille », « je n'aime pas ». De même pour la barbe qui ne retient pas assez d'eau. Pour la grande barbe, le désaccord entre Ibn al-Mājishūn et Mālik suit celui sur l'eau déjà utilisée, en cas de nécessité ; al-Lakhmī et Ibn Bashīr font de même.\n\nAl-Ḥaṭṭāb discute ce rattachement : l'avis répandu tient l'eau utilisée pour déconseillée quand on en a d'autre. Il faut donc lire la Mudawwana du cas où l'humidité ne suffit pas, où elle est changée, ou où l'eau est proche ; quand l'humidité est abondante et qu'on n'a pas d'autre eau, comme le dit Ibn al-Mājishūn, il faut s'en servir, et son avis explique la Mudawwana au lieu de la contredire. Sanad le dit aussi : l'humidité des poils du visage suffit rarement à mouiller les mains, encore moins toute la tête. Ibn Rāshid (d'après al-Jamʿ) : si l'humidité ne couvre pas la tête, il n'est pas quitte ; si elle est changée par la saleté, c'est de l'eau mêlée ; sinon c'est de l'eau utilisée : déconseillée si l'eau est proche, suffisante si elle est loin, « وَهُوَ تَفْسِيرٌ لَا خِلَافٌ ». Ibn Nājī le juge peu probable ; al-Ḥaṭṭāb : « وَلَيْسَ بِبَعِيدٍ بَلْ هُوَ الظَّاهِرُ ». Ibn ʿArafa : al-Māzirī suppose l'accord pour l'interdire d'emblée, ce que dément ce que le Shaykh rapporte d'Ibn al-Mājishūn ; et Ibn Zarqūn, qui rapporte qu'Ibn al-Mājishūn met les avant-bras au même rang que la barbe, est démenti par ce que le Shaykh rapporte de lui : « إنْ مَسَحَ بِبَلَلِ ذِرَاعَيْهِ لَمْ يُجْزِهِ ».",
+    aqwal: [
+      { auteur: "Mālik (Mudawwana) ; Ibn al-Qāsim (ʿUtbiyya)", avis: "L'humidité de la barbe ou des avant-bras ne suffit pas ; s'il prie ainsi, il refait la prière même après le temps.", statut: "non_precise" },
+      { auteur: "Ibn al-Mājishūn", avis: "L'eau d'une grande barbe suffit quand l'eau est loin ; pas celle des avant-bras.", statut: "qawl" },
+      { auteur: "Ibn Rāshid (d'après al-Jamʿ) ; Sanad", avis: "Avis d'Ibn al-Mājishūn : explication de la Mudawwana, non désaccord.", statut: "non_precise" }
+    ],
+    muatamad: "Non confirmé pour ce cas : al-Dasūqī en parle au chapitre de l'essuyage de la tête (21604, p. 87) : « وَيُنْدَبُ تَجْدِيدُ الْمَاءِ لِمَسْحِ الرَّأْسِ وَيُكْرَهُ بِغَيْرِهِ كَبَلَلِ لِحْيَتِهِ إنْ وَجَدَ غَيْرَهُ وَإِلَّا فَلَا » ; il ne vise pas expressément l'oubli.",
+    tarjih_hattab: "« وَيَكُونُ قَوْلُهُ تَفْسِيرًا لِلْمُدَوَّنَةِ لَا خِلَافًا » ; sur Ibn Rāshid : « وَلَيْسَ بِبَعِيدٍ بَلْ هُوَ الظَّاهِرُ ».",
+    tanbihat: [
+      "Ibn Rushd, sur « je n'aime pas » : « لِأَنَّ الْعُلَمَاءَ يَكْرَهُونَ أَنْ يَقُولُوا هَذَا حَلَالٌ وَهَذَا حَرَامٌ فِيمَا طَرِيقُهُ الِاجْتِهَادِ ».",
+      "Sanad : « لَا يَكَادُ فِي غَالِبِ النَّاسِ أَنْ تَقَعَ بِهِ الْكِفَايَةُ فِي إيعَابِ يَدَيْهِ ».",
+      "La Mudawwana : il ne relave pas ses pieds « إنْ كَانَ وَضَوْءُهُ قَدْ جَفَّ »."
+    ],
+    divergences: [
+      "Point à comparer — la validité. Al-Ḥaṭṭāb : selon Mālik et Ibn al-Qāsim, l'humidité de la barbe ne suffit pas, sauf, selon sa lecture, une humidité abondante sans autre eau. Al-Dasūqī, à l'essuyage de la tête : « وَيُكْرَهُ بِغَيْرِهِ كَبَلَلِ لِحْيَتِهِ إنْ وَجَدَ غَيْرَهُ وَإِلَّا فَلَا » : déconseillé si l'on a d'autre eau, sinon non."
+    ],
+    exemple: "En sortant de la salle d'ablutions, un homme se rend compte qu'il n'a pas essuyé sa tête. Il ne passe pas ses mains sur sa barbe encore mouillée pour s'essuyer la tête : il retourne au robinet, prend de l'eau et essuie sa tête, puis, ses ablutions ayant séché, ne relave pas ses pieds.",
+    erreurs_frequentes: [
+      "Essuyer sa tête avec l'eau restée dans sa barbe ou sur ses avant-bras.",
+      "Relaver ses pieds après avoir essuyé sa tête oubliée alors que les ablutions ont séché.",
+      "Croire que « je n'aime pas » de Mālik veut dire que c'est permis."
+    ],
+    termes: [
+      { ar: "مُسْتَعْمَل", translit: "moustaʿmal", def: "Eau « utilisée » : celle qui a coulé sur les membres lors d'une purification." }
+    ],
+    quiz: [
+      { q: "Celui qui a oublié d'essuyer sa tête peut-il l'essuyer avec l'eau restée sur ses avant-bras ?",
+        choix: ["Oui", "Oui, s'il est pressé", "Non, il n'y reste pas assez d'eau ; il prend de l'eau neuve", "Seulement en voyage"],
+        bonne: 2,
+        explication: "Ibn Rushd : « لِأَنَّهُ لَا يُمْكِنُ أَنْ يَتَعَلَّقَ بِهِمَا مِنْ الْمَاءِ مَا يُمْكِنُهُ بِهِ الْمَسْحُ »." },
+      { q: "Qui admet l'eau d'une grande barbe quand l'eau est loin ?",
+        choix: ["Ibn al-Mājishūn", "Mālik dans la Mudawwana", "Ibn al-Qāsim", "Al-Māzirī"],
+        bonne: 0,
+        explication: "« فَأَجَازَ ذَلِكَ ابْنُ الْمَاجِشُونِ وَمَنَعَهُ مَالِكٌ فِي الْمُدَوَّنَةِ »." },
+      { q: "Que signifie, selon Ibn Rushd, la réponse de Mālik « je n'aime pas » ?",
+        choix: ["Que c'est permis", "Que c'est recommandé", "Que c'est indifférent", "Que ce n'est pas valable : les savants évitent de dire « interdit » dans ce qui relève de l'interprétation"],
+        bonne: 3,
+        explication: "« وَلَيْسَ فِي قَوْلِ مَالِكٍ لَا أُحِبُّ دَلِيلٌ عَلَى الْإِجْزَاءِ »." },
+      { q: "Mise en situation : pendant la prière, une femme se souvient qu'elle n'a pas essuyé sa tête. Que dit la Mudawwana ?",
+        choix: ["Elle continue sa prière", "Elle interrompt, essuie sa tête avec de l'eau neuve et recommence la prière", "Elle essuie avec l'humidité de ses mains et continue", "Elle refait toutes ses ablutions et toutes ses prières du jour"],
+        bonne: 1,
+        explication: "« قَطَعَ وَلَمْ يُجْزِهِ مَسْحُهُ بِمَا فِي لِحْيَتِهِ مِنْ بَلَلٍ وَيَسْتَأْنِفُ مَسْحَهُ وَيَبْتَدِئُ الصَّلَاةَ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "228-230" },
+    alertes: [
+      "Précisé (rédaction) : Mawāhib porte « قَالَ ابْنُ رُشْدٍ فِي شَرْحِ ابْنِ الْحَاجِبِ » puis, à propos du même passage, « وَذَكَرَ ابْنُ نَاجِي كَلَامَ ابْنِ رَاشِدٍ » ; la fiche attribue le passage à Ibn Rāshid ; aucun témoin extérieur (anomalie n° 248).",
+      "Témoins : Ibn ʿArafa (16968, p. 60 : « وأجازه ابن الماجشون إن كفى وبعد عن الماء فخرجهما اللخمي وابن رشد على طهورية المستعمل وعدمها ») ; at-Tawḍīḥ (14442, p. 113–114).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 88 (Shamela 21604, page 87, essuyage de la tête) et p. 90–93 (pages 89–92), qui ne traitent pas ce cas."
+    ],
+    verification: "verifie"
   }
 
-  /* FIN-UNITE-33 */
+  /* FIN-UNITE-34 */
 ]);

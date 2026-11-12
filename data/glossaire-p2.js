@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.37
+/* Données — Glossaire, partie 2 — v1.38
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -12,7 +12,8 @@
    v1.34 : 24 termes de l'unité 30 (tah-01-04-02 à -07).
    v1.35 : 15 termes de l'unité 31 (tah-01-04-08 à -10c).
    v1.36 : 13 termes de l'unité 32 (tah-01-04-11a à -13c).
-   v1.37 : 21 termes de l'unité 33 (tah-01-04-14 à -19b). */
+   v1.37 : 21 termes de l'unité 33 (tah-01-04-14 à -19b).
+   v1.38 : 9 termes de l'unité 34 (tah-01-04-20a à -21d). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -209,7 +210,17 @@ App.data.ajouterTermes([
   { ar: "مُثْلَة", translit: "mouthla", def: "Défiguration : ce qui enlaidit l'aspect d'une personne." },
   { ar: "إِحْفَاء", translit: "ihfâ'", def: "Fait de couper la moustache au ras." },
   { ar: "قِشْرَة", translit: "qichra", def: "Croûte ou petite peau qui se détache." },
-  { ar: "سَيْف", translit: "sayf", def: "Épée ; chez Ibn Nājī, petite excroissance de peau qui pousse le long de l'ongle." }
+  { ar: "سَيْف", translit: "sayf", def: "Épée ; chez Ibn Nājī, petite excroissance de peau qui pousse le long de l'ongle." },
+  /* Unité 34 — tah-01-04-20a à -21d */
+  { ar: "تَدَلُّك", translit: "tadallouk", def: "Frottement des membres avec la main pendant qu'on les lave." },
+  { ar: "انْغِمَاس", translit: "inghimâs", def: "Fait de se plonger entièrement dans l'eau." },
+  { ar: "مُتَجَسِّد", translit: "moutajassid", def: "Qui a de l'épaisseur et forme une couche (saleté qui empêche l'eau d'atteindre la peau)." },
+  { ar: "مُقَارَنَة", translit: "mouqârana", def: "Simultanéité ; pour le frottement, le faire en même temps que l'eau est versée." },
+  { ar: "اسْتِنَابَة", translit: "istinâba", def: "Fait de charger un autre d'accomplir à sa place une partie d'un acte." },
+  { ar: "نَقْلُ الْمَاءِ", translit: "naqlou l-mâ'", def: "« Porter l'eau » au membre : soit qu'elle l'atteigne (obligatoire), soit qu'on la porte avec la main (discuté)." },
+  { ar: "تَفْرِيق", translit: "tafrîq", def: "Interruption : séparer dans le temps les membres des ablutions." },
+  { ar: "جَفَاف", translit: "jafâf", def: "Séchage ; dans les ablutions, le dessèchement des membres lavés, qui mesure la longue interruption." },
+  { ar: "مِزَاج", translit: "mizâj", def: "Tempérament : complexion physique d'une personne." }
 
   /* FIN-GLOSSAIRE */
 ]);
