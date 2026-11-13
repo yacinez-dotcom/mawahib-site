@@ -1,8 +1,9 @@
-/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 18 — v5.2
+/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 18 — v5.3
    Source : Mawāhib al-Jalīl, al-Ḥaṭṭāb, éd. Dār al-Fikr, 3e éd., 1412 H / 1992, tome 1 (shamela.ws/book/569).
    Croisement : al-Sharḥ al-kabīr d'al-Dardīr et Ḥāshiyat al-Dasūqī (shamela.ws/book/21604), tome 1.
    Cette partie : faṣl tah-01-04 (les ablutions), à partir de tah-01-04-35 (unités 37 et suivantes) — t. 1, p. 245 et suivantes.
    v5.2 : unité 37 — tah-01-04-35 à -42 (2026-11-13) ; nouvelle partie, tah-01-p17.js (≈ 169 Ko) étant pleine.
+   v5.3 : unité 38 — tah-01-04-43a, -43b, -44a, -44b, -45 à -48 (2026-11-13) ; matn de tah-01-04-48 corrigé (« وَبَدْءٌ », n° 277).
    Bāb découpé en parties de moins de 200 Ko ;
    historique des versions : tah-01-p1.js (jusqu'à v2.5) puis l'en-tête de chaque partie. */
 App.data.ajouterFiches([
@@ -548,6 +549,553 @@ App.data.ajouterFiches([
     ],
     verification: "verifie"
   }
+  ,
 
-  /* FIN-UNITE-37 */
+  /* ================================================================== */
+  /* Unité 38 — tah-01-04-43a à -48 — t. 1, p. 250–259 (Shamela 569, p. 249–258) */
+  /* Croisement : al-Dardīr / al-Dasūqī, t. 1, p. 99–101 (Shamela 21604, p. 98–100) */
+  {
+    id: "tah-01-04-43a",
+    kitab: "tah", bab: "01", fasl: "04", ordre: 43,
+    titre: "Membre fait hors ordre : seul ou avec la suite",
+    titre_ar: "فَيُعَادُ الْمُنَكَّسُ وَحْدَهُ إنْ بَعُدَ بِجَفَافٍ … — الْحُكْمُ",
+    objectif: "Savoir quoi refaire quand on a fait une obligation des ablutions avant son tour.",
+    matn: "فَيُعَادُ الْمُنَكَّسُ وَحْدَهُ إنْ بَعُدَ بِجَفَافٍ وَإِلَّا مَعَ تَابِعِهِ",
+    regle_pratique: "Celui qui a fait par oubli une obligation avant son tour la refait : s'il s'en aperçoit quand ses ablutions ont séché, il refait ce membre seul ; sinon, il le refait avec les membres qui le suivent (al-Ḥaṭṭāb ; al-Dardīr).",
+    qualification: {
+      hukm: "sunna",
+      nature: "autre",
+      effet_si_omis: "Par oubli, ablutions et prière restent valables : l'ordre est une sunna. Inversion voulue, après un long délai : selon al-Dardīr, « أَعَادَ الْوُضُوءَ نَدْبًا »."
+    },
+    explication: "Si l'ordre est une sunna, celui qui a inversé ses membres refait le membre inversé seul, sans ce qui le suit, s'il est loin de l'eau ; sinon, il le refait avec ce qui le suit. C'est l'avis d'Ibn al-Qāsim. Ibn Ḥabīb : il refait le membre inversé et ce qui le suit, proche ou loin. Ce que dit Khalīl pour la proximité est le texte d'Ibn Rushd et d'Ibn Bashīr ; at-Tawḍīḥ : Ibn Shās semble dire qu'on recommence les ablutions : « إنْ كَانَ بِحَضْرَةِ الْمَاءِ فَإِنَّهُ يَبْتَدِئُ لِيَسَارَةِ الْأَمْرِ عَلَيْهِ ». Al-Ḥaṭṭāb retient Ibn Rushd et Ibn Bashīr, comme aṭ-Ṭirāz et Khalīl.\n\nUne partie de membre inversée a le même statut (farʿ). Ibn Yūnus, sur celui qui s'est lavé les mains au début et ne relave pas ses paumes après le visage : s'il visait la sunna par ce premier lavage, cela ne vaut pas et il refait ce qu'il a prié ; s'il visait l'obligation, sa prière vaut, mais il est comme celui qui a inversé (Abū Bakr b. ʿAbd ar-Raḥmān et Abū Muḥammad).\n\nL'inversion voulue (première remarque). Ibn al-Ḥājib rapporte deux avis ; at-Tawḍīḥ, d'après Ibn Shās : il refait, proche ou loin ; ou il est comme l'oublieux et ne refait pas ; cela suit le désaccord sur celui qui omet exprès une sunna de la prière. Ibn Rāshid : le désaccord est ici plus faible, les sunna de la prière étant plus fortes, et « وَالْقَوْلُ بِالصِّحَّةِ فِي الْمَوْضِعَيْنِ أَصَحُّ ». Al-Muqaddimāt : près de l'eau, il remet en place ce qu'il a avancé puis lave ce qui suit, oubli ou non ; loin, ses ablutions sèches, s'il l'a fait exprès, trois avis : il refait ablutions et prière ; il refait les ablutions et non la prière (Ibn Ḥabīb) ; il ne refait rien, ce qui est le mot de la Mudawwana « لَا أَدْرِي مَا وُجُوبُهُ ». Ibn ʿArafa rapporte d'Ibn Zarqūn que la Mudawwana fait refaire les ablutions, par recommandation.\n\nDeuxième remarque : refaire ce qui suit, quand on est proche, est sunna, pour obtenir l'ordre, contre Ibn Nājī, al-Jazūlī et Yūsuf b. ʿUmar, qui le disent recommandé ; Ibn Bashīr et Ibn al-Ḥājib vont dans ce sens. Troisième remarque : Ibn Rushd prend le séchage comme limite de l'éloignement, que l'inversion soit voulue ou oubliée ; mais pour l'interruption voulue, la limite est en deçà du séchage (voir la continuité), et il faudrait dire de même ici.",
+    aqwal: [
+      { auteur: "Ibn al-Qāsim", avis: "Loin de l'eau (ablutions sèches) : le membre inversé seul ; proche : avec ce qui le suit.", statut: "non_precise" },
+      { auteur: "Ibn Ḥabīb", avis: "Le membre inversé et ce qui le suit, proche ou loin.", statut: "non_precise" },
+      { auteur: "Ibn Shās (sens apparent, d'après at-Tawḍīḥ)", avis: "Près de l'eau, on recommence les ablutions.", statut: "non_precise" },
+      { auteur: "Ibn Rushd (al-Muqaddimāt) ; Ibn Ḥabīb ; la Mudawwana", avis: "Inversion voulue, ablutions sèches : refaire ablutions et prière ; ou les ablutions seules (Ibn Ḥabīb) ; ou rien (Mudawwana).", statut: "non_precise" },
+      { auteur: "Ibn Rāshid", avis: "Inversion voulue : ablutions et prière valables.", statut: "non_precise" },
+      { auteur: "Ibn Nājī ; al-Jazūlī ; Yūsuf b. ʿUmar", avis: "Refaire ce qui suit le membre inversé est seulement recommandé.", statut: "qawl" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « فَإِنْ نَكَّسَ (فَيُعَادُ) اسْتِنَانًا الْفَرْضُ (الْمُنَكَّسُ) لَا السُّنَّةُ » ; « (وَإِلَّا) يَحْصُلْ بَعْدُ بِمَا مَرَّ أَعَادَ الْمُنَكِّسُ اسْتِنَانًا مَرَّةً عَلَى الْمُعْتَمَدِ (مَعَ) إعَادَةِ (تَابِعِهِ) شَرْعًا نَدْبًا مَرَّةً مَرَّةً » ; inversion voulue, après un long délai : « أَعَادَ الْوُضُوءَ نَدْبًا ».",
+    tarjih_hattab: "« وَالظَّاهِرُ مَا قَالَهُ ابْنُ رُشْدٍ وَابْنُ بَشِيرٍ » ; refaire ce qui suit : « مَسْنُونَةٌ لِأَجْلِ تَحْصِيلِ التَّرْتِيبِ » ; pour l'inversion voulue, une limite en deçà du séchage : « وَيَنْبَغِي أَنْ يُقَالَ هُنَا كَذَلِكَ أَيْضًا ».",
+    tanbihat: [
+      "Ibn Yūnus (farʿ) : celui qui visait la sunna par le premier lavage des mains, « فَلَا يُجْزِئُهُ وَلْيُعِدْ مَا صَلَّى بِذَلِكَ »."
+    ],
+    divergences: [
+      "Divergence — ce qui suit le membre inversé. Al-Ḥaṭṭāb : le refaire est sunna, « خِلَافًا لِابْنِ نَاجِي وَالْجُزُولِيِّ وَالشَّيْخِ يُوسُفَ بْنِ عُمَرَ فِي قَوْلِهِمْ: إنَّهَا مُسْتَحَبَّةٌ ». Al-Dardīr : « (مَعَ) إعَادَةِ (تَابِعِهِ) شَرْعًا نَدْبًا » ; al-Dasūqī : « وَيُعِيدُ نَدْبًا مَا بَعْدَهُ مَرَّةً مَرَّةً ».",
+      "Concordance — l'inversion voulue après un long délai. Al-Ḥaṭṭāb : d'après Ibn Zarqūn, la Mudawwana fait refaire les ablutions « اسْتِحْبَابًا ». Al-Dardīr : « فَإِنْ نَكَّسَ عَمْدًا وَلَوْ جَاهِلًا أَعَادَ الْوُضُوءَ نَدْبًا » ; al-Dasūqī : « فَإِنْ كَانَ عَامِدًا وَالْفَرْضُ أَنَّهُ حَصَلَ طُولٌ ابْتَدَأَ الْوُضُوءَ نَدْبًا ».",
+      "Point à comparer — la limite de l'éloignement. Al-Ḥaṭṭāb : pour l'inversion voulue, une limite en deçà du séchage serait plus juste. Al-Dardīr : « بُعْدًا مُقَدَّرًا (بِجَفَافٍ) لِعُضْوٍ أَخِيرٍ وَزَمَنٍ اعْتَدَلَا », sans distinguer.",
+      "Concordance — oubli ou intention, quand on est proche. Al-Ḥaṭṭāb, d'après al-Muqaddimāt : près de l'eau, même règle, oubli ou non. Al-Dardīr : « وَسَوَاءٌ نَكَّسَ نَاسِيًا أَوْ عَامِدًا » ; al-Dasūqī : « هَذَا هُوَ الْمُوَافِقُ لِمَا عَزَاهُ ابْنُ رُشْدٍ لِلْمُدَوَّنَةِ قَالَ ابْنُ رَاشِدٍ وَهُوَ الْأَصَحُّ ».",
+      "Complément — combien de fois. Al-Ḥaṭṭāb ne le dit pas. Al-Dasūqī : le membre inversé se refait « مَرَّةً عَلَى الْمُعْتَمَدِ » (d'après ash-Shaykh Sālim, aṭ-Ṭikhīkhī, et « طفى », Muṣṭafā ar-Rammāṣī) ; « عج » (sigle non défini dans la liste d'al-Dasūqī) voulait trois fois en cas de proximité, ce que « طفى » n'a vu chez personne d'autre."
+    ],
+    exemple: "Un homme se lave les bras avant le visage, puis termine ses ablutions. Il s'en rend compte aussitôt : il relave les bras, puis s'essuie la tête et lave les pieds. S'il ne s'en était aperçu qu'une fois tout sec, il aurait relavé les bras seuls.",
+    erreurs_frequentes: [
+      "Recommencer toutes les ablutions pour une inversion oubliée : on refait le membre inversé, et la suite si l'on est proche.",
+      "Croire nulle la prière faite avec des ablutions inversées par oubli : l'ordre est une sunna."
+    ],
+    termes: [
+      { ar: "مُنَكَّس", translit: "mounakkas", def: "Membre inversé : celui qu'on a fait avant sa place dans les ablutions." },
+      { ar: "تَنْكِيس", translit: "tankîs", def: "Inversion : faire un membre des ablutions avant celui qui doit le précéder." }
+    ],
+    quiz: [
+      { q: "Mise en situation : un homme s'est lavé les bras avant le visage, par oubli ; il s'en aperçoit bien après, ses ablutions étant sèches. Que refait-il selon Ibn al-Qāsim ?",
+        choix: ["Toutes les ablutions", "Les bras seulement", "Les bras, la tête et les pieds", "Rien du tout"],
+        bonne: 1,
+        explication: "« فَإِنَّهُ يُعِيدُ الْمُنَكَّسَ وَحْدَهُ وَلَا يُعِيدُ مَا بَعْدَهُ إنْ بَعُدَ عَنْ مَحَلِّ الْمَاءِ »." },
+      { q: "Que dit Ibn Ḥabīb ?",
+        choix: ["Le membre inversé seul", "Rien n'est à refaire", "Toutes les ablutions et la prière", "Le membre inversé et ce qui le suit, proche ou loin"],
+        bonne: 3,
+        explication: "« يُعِيدُ الْمُنَكَّسَ وَمَا بَعْدَهُ سَوَاءٌ كَانَ بَعِيدًا أَوْ قَرِيبًا »." },
+      { q: "Selon al-Ḥaṭṭāb, refaire ce qui suit le membre inversé, quand on est proche, est :",
+        choix: ["Sunna", "Recommandé", "Obligatoire", "Déconseillé"],
+        bonne: 0,
+        explication: "« مَسْنُونَةٌ لِأَجْلِ تَحْصِيلِ التَّرْتِيبِ » ; al-Dardīr, lui, le dit recommandé." },
+      { q: "Selon Ibn Rāshid, quel avis est le plus juste pour celui qui inverse exprès ?",
+        choix: ["Il refait la prière à jamais", "Il refait la prière dans le temps", "Ses ablutions et sa prière sont valables", "Il refait ses ablutions seulement"],
+        bonne: 2,
+        explication: "« وَالْقَوْلُ بِالصِّحَّةِ فِي الْمَوْضِعَيْنِ أَصَحُّ؛ لِأَنَّ السُّنَّةَ لَا يُذَمُّ تَارِكُهَا »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "250-251" },
+    alertes: [
+      "Corrigé (rédaction) : Mawāhib (569/250), citant al-Muqaddimāt, porte « وَإِنْ كَانَ قَدْ تَبَاعَدَ وَجَفَّ وَضُوءُهُ » puis « وَإِنْ كَانَ مُتَعَمِّدًا », ce qui fait deux cas ; al-Muqaddimāt (21735, p. 74 : « وإن كان قد تباعد وجف وضوؤه وكان متعمدا ») n'en fait qu'un : loin et voulu ; la fiche suit le témoin (n° 268).",
+      "Témoin : Ibn ʿArafa (16968, p. 67 : « ابن زرقون: في إعادته خمسة: فيها استحبابًا »).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 99 (Shamela 21604, page 98)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-04-43b",
+    kitab: "tah", bab: "01", fasl: "04", ordre: 43,
+    titre: "Inversions : cas pratiques et objections",
+    titre_ar: "فَيُعَادُ الْمُنَكَّسُ … — الصُّوَرُ وَالْإِشْكَالَاتُ",
+    objectif: "Savoir appliquer la règle de l'inversion à plusieurs cas et connaître les objections faites à l'avis d'Ibn al-Qāsim.",
+    matn: "فَيُعَادُ الْمُنَكَّسُ وَحْدَهُ إنْ بَعُدَ بِجَفَافٍ وَإِلَّا مَعَ تَابِعِهِ",
+    regle_pratique: "Le membre inversé est celui qu'on a fait avant sa place : on le refait après le membre qui doit le précéder (et, si l'on est proche, avec ce qui suit) ; ainsi, qui a lavé les bras avant le visage relave les bras (al-Ḥaṭṭāb ; al-Dardīr).",
+    qualification: {
+      hukm: "sunna",
+      nature: "autre",
+      effet_si_omis: "Comme à la fiche 43a : par oubli, ablutions et prière valables."
+    },
+    explication: "Quatrième remarque : le membre inversé est celui qu'on a avancé avant sa place légale. Bras, puis visage, puis tête, puis pieds : Ibn al-Qāsim fait remettre après le visage ce qui a été avancé, les bras, sans refaire la suite ; Ibn Ḥabīb : il lave les bras, puis essuie la tête, puis lave les pieds. Visage, tête, bras, pieds : il refait la tête seule (Ibn al-Qāsim), la tête et les pieds (Ibn Ḥabīb). Si, dans ce cas, il avait lavé les pieds avant les bras, tous s'accordent qu'il refait la tête et les pieds ; et si, en refaisant, il lave les pieds avant d'essuyer la tête, il essuie la tête sans relaver les pieds selon Ibn al-Qāsim, car les pieds viennent désormais après les bras et après la tête de la première fois ; Ibn Ḥabīb : il relave les pieds (aṭ-Ṭirāz). Visage, pieds, tête, bras : on s'accorde qu'il essuie la tête et lave les pieds. Aṭ-Ṭirāz donne beaucoup d'autres cas, qui reviennent à cela.\n\nCinquième remarque : Ibn Rushd (al-Muqaddimāt) et at-Tūnisī objectent à Ibn al-Qāsim que refaire le seul membre avancé ne rétablit pas l'ordre : les bras relavés viennent après la tête et les pieds. Al-Muqaddimāt : selon le principe d'Ibn al-Qāsim sur l'interruption par oubli, il ne devrait rien avoir à faire ; sa raison serait que le membre avancé est comme un membre oublié dont on se souvient après un long délai, qu'on fait seul ; mais alors l'inversion voulue obligerait à refaire ablutions et prière, contrairement à la Mudawwana. At-Tawḍīḥ fait la même objection ; al-Ḥaṭṭāb répond que le membre inversé ressemble au membre oublié sans lui être identique en tout. Autre réponse, donnée par at-Tawḍīḥ et attribuée par Ibn ʿArafa à certains Andalous : on refait le membre avancé pour l'ordre entre lui et celui qu'il a devancé, l'ordre avec la suite étant déjà acquis ; al-Māzarī : il faudrait alors le dire aussi quand on est proche ; al-Ḥaṭṭāb : près de l'eau, on refait la suite pour faire les ablutions de la manière la plus complète et sortir du désaccord.\n\nSixième remarque : Ibn Rushd objecte aussi à Ibn Ḥabīb qu'en refaisant le membre et la suite sans reprendre du début, les ablutions deviennent interrompues, ce qui, pour Ibn Ḥabīb, oblige à refaire ablutions et prière ; Ibn ʿArafa répond que la continuité a été obtenue la première fois. Septième remarque : si l'ordre est obligatoire, at-Tawḍīḥ rapporte d'al-Jawāhir un désaccord : recommence-t-on les ablutions ou non ?",
+    aqwal: [
+      { auteur: "Ibn al-Qāsim", avis: "On refait le seul membre avancé, après celui qu'il a devancé.", statut: "non_precise" },
+      { auteur: "Ibn Ḥabīb", avis: "On refait le membre avancé et tout ce qui le suit.", statut: "non_precise" },
+      { auteur: "Ibn Rushd (al-Muqaddimāt) ; at-Tūnisī", avis: "Refaire le seul membre avancé ne rétablit pas l'ordre.", statut: "non_precise" },
+      { auteur: "Certains Andalous (d'après Ibn ʿArafa) ; at-Tawḍīḥ", avis: "On le refait seulement pour l'ordre avec le membre qu'il a devancé.", statut: "non_precise" },
+      { auteur: "Al-Māzarī", avis: "Il faudrait alors le dire aussi quand on est proche.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « فَإِذَا بَدَأَ بِذِرَاعَيْهِ ثُمَّ بِوَجْهِهِ فَرَأْسُهُ فَرِجْلَيْهِ وَتَذَكَّرَ بِالْقُرْبِ أَعَادَ الذِّرَاعَيْنِ وَأَعَادَ الْمَسْحَ وَغَسَلَ الرِّجْلَيْنِ مَرَّةً مَرَّةً » ; « وَإِنْ تَذَكَّرَ بَعْدَ طُولٍ أَعَادَ الذِّرَاعَيْنِ فَقَطْ مَرَّةً إنْ نَكَّسَ سَهْوًا ».",
+    tarjih_hattab: "« قَدْ يُقَالُ: لَا يَلْزَمُ ذَلِكَ؛ لِأَنَّ الْمُنَكَّسَ مُشَبَّهٌ بِالْمَنْسِيِّ وَلَا يَلْزَمُ أَنْ يَتَنَزَّلَ مَنْزِلَتَهُ مِنْ كُلِّ الْوُجُوهِ » ; contre al-Māzarī : on refait la suite près de l'eau « لِيَأْتِيَ بِالْوُضُوءِ عَلَى الْوَجْهِ الْأَكْمَلِ مِنْ مُرَاعَاةِ الْمُوَالَاةِ وَالتَّرْتِيبِ ».",
+    tanbihat: [
+      "Aṭ-Ṭirāz cite « صُوَرًا كَثِيرَةً مَرْجِعُهَا إلَى مَا ذَكَرْنَاهُ ».",
+      "Ibn ʿArafa, contre l'objection d'Ibn Rushd à Ibn Ḥabīb : « وَيُجَابُ بِحُصُولِ الْمُوَالَاةِ أَوَّلًا »."
+    ],
+    divergences: [
+      "Concordance — ce qu'est le membre inversé. Al-Ḥaṭṭāb : « الْمُنَكَّسُ هُوَ الْمُقَدَّمُ عَنْ مَوْضِعِهِ الْمَشْرُوعِ لَهُ ». Al-Dardīr : « وَهُوَ الْمُقَدَّمُ عَنْ مَوْضِعِهِ الْمَشْرُوعِ لَهُ », avec le même exemple (les bras avant le visage) ; al-Dasūqī : « أَيْ قَدَّمَ بَعْضَ الْفَرَائِضِ عَنْ مَحَلِّهِ ».",
+      "Complément — la sunna inversée. Al-Ḥaṭṭāb ne traite ici que des obligations. Al-Dardīr : « لَا السُّنَّةُ » ; al-Dasūqī : « فَلَا يُطَالَبُ بِإِعَادَتِهَا مُطْلَقًا سَوَاءٌ طَالَ الْأَمْرُ أَوْ قَرُبَ نَكَّسَهَا سَهْوًا أَوْ عَمْدًا »."
+    ],
+    exemple: "Une femme se lave le visage, s'essuie la tête, puis se lave les bras et les pieds. Elle s'en aperçoit longtemps après : selon Ibn al-Qāsim, elle réessuie seulement la tête ; si elle avait encore été près de l'eau, elle aurait aussi relavé les pieds.",
+    erreurs_frequentes: [
+      "Croire que le membre inversé est celui qu'on a fait en retard : c'est celui qu'on a fait trop tôt.",
+      "Relaver tout ce qui suit quand on s'en aperçoit tard : selon Ibn al-Qāsim, le membre avancé suffit."
+    ],
+    termes: [
+      { ar: "مُنَكَّس", translit: "mounakkas", def: "Membre inversé : celui qu'on a fait avant sa place dans les ablutions." }
+    ],
+    quiz: [
+      { q: "Qu'est-ce que le membre inversé ?",
+        choix: ["Le membre oublié", "Le membre fait en dernier", "Le membre fait avant sa place", "Le membre lavé quatre fois"],
+        bonne: 2,
+        explication: "« الْمُنَكَّسُ هُوَ الْمُقَدَّمُ عَنْ مَوْضِعِهِ الْمَشْرُوعِ لَهُ »." },
+      { q: "Mise en situation : un homme se lave le visage, s'essuie la tête, puis lave bras et pieds ; il s'en aperçoit longtemps après. Selon Ibn al-Qāsim, que refait-il ?",
+        choix: ["L'essuyage de la tête seul", "Les bras seuls", "Toutes les ablutions", "La tête et les pieds"],
+        bonne: 0,
+        explication: "« أَعَادَ عِنْدَ ابْنِ الْقَاسِمِ رَأْسَهُ فَقَطْ » ; Ibn Ḥabīb : « يُعِيدُ رَأْسَهُ وَرِجْلَيْهِ »." },
+      { q: "Quelle objection Ibn Rushd et at-Tūnisī font-ils à Ibn al-Qāsim ?",
+        choix: ["Il rend la prière nulle", "Il oublie l'intention", "Il exige trop d'eau", "Refaire le seul membre avancé ne rétablit pas l'ordre"],
+        bonne: 3,
+        explication: "« لِأَنَّهُ لَا يَتَخَلَّصُ بِمَا يَأْتِي مِنْ التَّنْكِيسِ »." },
+      { q: "Selon al-Dasūqī, une sunna faite hors de son ordre (par exemple le rinçage après le visage) :",
+        choix: ["Se refait toujours", "Ne se refait pas, proche ou loin, oubli ou non", "Se refait seulement si l'on est proche", "Annule les ablutions"],
+        bonne: 1,
+        explication: "« فَلَا يُطَالَبُ بِإِعَادَتِهَا مُطْلَقًا »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "251-252" },
+    alertes: [
+      "Témoin : Ibn ʿArafa (16968, p. 67 : « وبعض الأندلسيين بحصوله بمجموع فعله أولًا وثانيًا، ورده المازري بلزومه في حضرة وضوئه »).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 99 (Shamela 21604, page 98)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-04-44a",
+    kitab: "tah", bab: "01", fasl: "04", ordre: 44,
+    titre: "Obligation ou sunna oubliée",
+    titre_ar: "وَمَنْ تَرَكَ فَرْضًا أَتَى بِهِ وَبِالصَّلَاةِ … — النِّسْيَانُ",
+    objectif: "Savoir que faire quand on s'aperçoit qu'on a oublié une obligation ou une sunna des ablutions.",
+    matn: "وَمَنْ تَرَكَ فَرْضًا أَتَى بِهِ وَبِالصَّلَاةِ وَسُنَّةٍ فَعَلَهَا لِمَا يُسْتَقْبَلُ",
+    regle_pratique: "Qui a oublié une obligation des ablutions la fait (avec la suite s'il est proche, seule sinon) et refait la prière faite avec ces ablutions ; qui a oublié une sunna qu'on peut rattraper (rinçage, aspiration, oreilles) la fait seule, pour les prières à venir, et ne refait pas la prière (al-Ḥaṭṭāb ; al-Dardīr).",
+    qualification: {
+      hukm: "fard",
+      nature: "autre",
+      effet_si_omis: "Prière faite sans une obligation : à refaire, « فَإِنَّهُ يُعِيدُ الصَّلَاةَ أَيْضًا فِي الْوَقْتِ وَبَعْدَهُ » ; sunna oubliée : la prière vaut."
+    },
+    explication: "L'obligation oubliée. On la fait ; si l'on a prié avec ces ablutions, on refait la prière, dans le temps et après. « أَتَى بِهِ » : avec la suite si l'on s'en souvient tôt, seule si c'est tard ; Khalīl ne le précise pas, renvoyant à l'inversion, car chez Ibn al-Qāsim le membre inversé et le membre oublié ont le même statut. Le cas de celui qui tarde après s'être souvenu (exprès, par oubli, faute d'eau) a été vu avec la continuité.\n\nLa sunna oubliée. Khalīl la cite ici pour en donner la règle : on la fait seule, qu'on s'en souvienne tôt ou tard, et l'on ne refait pas la prière. Première remarque : cela vaut pour une sunna distincte, à la place de laquelle rien n'a été fait. Ibn Bashīr : toute sunna omise sans rien à sa place se refait (rinçage, aspiration, intérieur des oreilles, ordre) ; celle dont la place a reçu un lavage ou un essuyage ne se refait pas (lavage des mains avant de les plonger, retour de l'essuyage de la tête) ; d'après Ibn Nājī, il y range aussi le rejet de l'eau du nez. Ibn ʿArafa lui oppose un propos d'Ibn Ḥabīb (refaire toute sunna omise) ; al-Ḥaṭṭāb : le lavage des mains ne se rattrape pas, et le retour de l'essuyage et le rejet de l'eau du nez ne se refont pas, car ce serait réessuyer avec une eau nouvelle ou sans humidité, ou refaire l'aspiration. Ibn al-Qaṣṣār (d'après al-Fākihānī) : qui oublie le retour le fait s'il s'en souvient avant de prendre l'eau pour les pieds ; s'il a mouillé ses mains après l'essuyage, il ne le refait pas. Bilan d'al-Ḥaṭṭāb : se refont le rinçage, l'aspiration, l'essuyage des oreilles, l'eau nouvelle pour elles, et l'ordre.\n\nDeuxième remarque : on fait la sunna oubliée sans refaire ce qui suit (le Muwaṭṭaʾ) ; aṭ-Ṭirāz dit ce point admis de tous pour l'oubli, le désaccord ne portant que sur l'omission voulue ; Ibn Nājī et Yūsuf b. ʿUmar étendent le désaccord à l'oubli ; Ibn Ḥabīb fait refaire ce qui suit, comme pour les obligations ; Ibn Rāshid : ne pas le refaire est l'avis de Mālik dans al-Mukhtaṣar, « وَهُوَ الصَّحِيحُ ». La raison : l'ordre entre les sunna, et avec les obligations, n'est que recommandé, et ajouter aux lavages est interdit ou déconseillé.\n\nTroisième remarque : on ne demande de faire la sunna que si l'on veut prier avec ces ablutions ; si l'on veut les annuler, non.",
+    aqwal: [
+      { auteur: "Ibn Bashīr", avis: "Une sunna omise sans rien à sa place se refait ; celle dont la place a reçu un lavage ou un essuyage ne se refait pas.", statut: "non_precise" },
+      { auteur: "Ibn Ḥabīb (d'après ash-Shaykh, cité par Ibn ʿArafa)", avis: "Toute sunna omise se refait.", statut: "non_precise" },
+      { auteur: "Mālik (al-Mukhtaṣar, d'après Ibn Rāshid) ; Yūsuf b. ʿUmar", avis: "On fait la sunna oubliée sans refaire ce qui suit.", statut: "mashhur" },
+      { auteur: "Ibn Ḥabīb", avis: "On refait aussi ce qui suit la sunna, comme pour les obligations.", statut: "qawl" },
+      { auteur: "Ibn al-Qaṣṣār (d'après al-Fākihānī)", avis: "Le retour oublié se fait si l'on n'a pas encore pris l'eau pour les pieds.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « (أَتَى بِهِ) بَعْدَ تَذَكُّرِهِ فَوْرًا وُجُوبًا وَإِلَّا بَطَلَ وُضُوءُهُ » ; « (فَعَلَهَا) اسْتِنَانًا دُونَ مَا بَعْدَهَا طَالَ التَّرْكُ أَوْ لَا » ; « وَلَا يُعِيدُ مَا صَلَّى إنْ كَانَ التَّرْكُ سَهْوًا اتِّفَاقًا ».",
+    tarjih_hattab: "Sur Ibn ʿArafa : « فَالصَّوَابُ تَقْيِيدُ مَا نَقَلَهُ الشَّيْخُ عَنْ ابْنِ حَبِيبٍ بِمَا عَدَا الثَّلَاثَةَ الْمَذْكُورَةَ » ; puis « فَتَحَصَّلَ مِنْ هَذَا أَنَّ السُّنَنَ الَّتِي تُفْعَلُ إذَا تُرِكَتْ الْمَضْمَضَةُ », l'aspiration, l'essuyage des oreilles, l'eau nouvelle pour elles et l'ordre.",
+    tanbihat: [
+      "« إنَّمَا يُؤْمَرُ بِالْإِتْيَانِ بِالسُّنَّةِ إذَا كَانَ قَصْدُهُ أَنْ يُصَلِّيَ بِذَلِكَ الْوُضُوءِ ».",
+      "Aṭ-Ṭirāz sur l'avis d'Ibn Ḥabīb : « وَلَعَمْرِي أَنَّهُ خِلَافُ مَا يُعْرَفُ فِي الْمَذْهَبِ »."
+    ],
+    divergences: [
+      "Divergence — l'eau nouvelle des oreilles oubliée. Al-Ḥaṭṭāb la range parmi les sunna qui se refont : « وَمَسْحُ الْأُذُنَيْنِ » et « وَتَجْدِيدُ الْمَاءِ لَهُمَا ». Al-Dardīr la range parmi celles qu'on ne refait pas : « وَأَمَّا رَدُّ مَسْحِ الرَّأْسِ وَالِاسْتِنْثَارُ وَتَجْدِيدُ الْمَاءِ لِمَسْحِ الْأُذُنَيْنِ فَفِعْلُهَا » … « يُوقِعُ فِي مَكْرُوهٍ ». Al-Dasūqī rapporte l'objection de « بْن » (Muḥammad al-Bunānī) : « مَعَ أَنَّ الَّذِي فِي ح أَنَّ التَّجْدِيدَ يُفْعَلُ » (« ح » : Muḥammad al-Ḥaṭṭāb), avec le texte d'Ibn Shaʿbān, puis donne raison à al-Dardīr : « فَإِنَّ الزِّيَادَةَ عَلَى الْمَرَّةِ فِي الْأُذُنَيْنِ مَنْهِيٌّ عَنْهَا وَدَرْءُ الْمَفَاسِدِ مُقَدَّمٌ ».",
+      "Complément — la sunna oubliée, sunna ou recommandée. Al-Ḥaṭṭāb : on la fait. Al-Dasūqī : « مَا ذَكَرَهُ مِنْ أَنَّهُ يَفْعَلُهَا اسْتِنَانًا هُوَ الْمُعْتَمَدُ خِلَافًا لعج حَيْثُ قَالَ يَفْعَلُهَا نَدْبًا » (« عج » : sigle non défini dans la liste d'al-Dasūqī) ; souvenue au milieu d'une obligation, on ne revient pas en arrière ; selon al-Qarāfī, on la fait après avoir fini les ablutions, « وَهُوَ الْمُعْتَمَدُ ».",
+      "Concordance — l'intention de prier. Al-Ḥaṭṭāb : on ne fait la sunna que si l'on veut prier avec ces ablutions. Al-Dardīr : « (لِمَا يُسْتَقْبَلُ) مِنْ الصَّلَوَاتِ لَا إنْ أَرَادَ مُجَرَّدَ الْبَقَاءِ عَلَى الطَّهَارَةِ إلَّا أَنْ يَكُونَ بِالْقُرْبِ ».",
+      "Concordance — ce qui suit la sunna. Al-Ḥaṭṭāb : on ne le refait pas. Al-Dardīr : « لِنَدْبِ تَرْتِيبِ السُّنَنِ فِي أَنْفُسِهَا أَوْ مَعَ الْفَرَائِضِ »."
+    ],
+    exemple: "Après la prière du ẓuhr, une femme se souvient qu'elle a oublié de se rincer la bouche : sa prière vaut ; avant l'ʿaṣr, elle se rince la bouche, sans refaire le reste. Si elle avait oublié d'essuyer sa tête, elle l'essuierait et referait le ẓuhr.",
+    erreurs_frequentes: [
+      "Refaire la prière pour une sunna oubliée : elle vaut.",
+      "Relaver tout ce qui suit la sunna oubliée : on fait la sunna seule.",
+      "Reprendre le retour de l'essuyage de la tête ou le rejet de l'eau du nez oubliés : on ne les refait pas."
+    ],
+    termes: [],
+    quiz: [
+      { q: "Que fait celui qui découvre, après avoir prié, qu'il a oublié d'essuyer sa tête ?",
+        choix: ["Rien, la prière vaut", "Il refait seulement la prière", "Il recommence le grand lavage", "Il essuie sa tête et refait la prière"],
+        bonne: 3,
+        explication: "« فَإِنَّهُ يَأْتِي بِذَلِكَ الْفَرْضِ الَّذِي نَسِيَهُ » ; « فَإِنَّهُ يُعِيدُ الصَّلَاةَ أَيْضًا فِي الْوَقْتِ وَبَعْدَهُ »." },
+      { q: "Mise en situation : après le ẓuhr, un homme se rappelle avoir oublié l'aspiration. Que fait-il ?",
+        choix: ["Il refait le ẓuhr", "Il aspire l'eau pour les prières à venir, sans refaire le ẓuhr", "Il refait toutes ses ablutions", "Rien, la sunna est perdue"],
+        bonne: 1,
+        explication: "« وَأَمَّا مَنْ تَرَكَ سُنَّةً مِنْ سُنَنِ الْوُضُوءِ نَاسِيًا لَهَا فَإِنَّهُ يَأْتِي بِهَا فَقَطْ »." },
+      { q: "Quelle sunna oubliée ne se refait pas, selon al-Ḥaṭṭāb ?",
+        choix: ["Le retour de l'essuyage de la tête", "Le rinçage de la bouche", "L'aspiration", "L'essuyage des oreilles"],
+        bonne: 0,
+        explication: "« فَلَمْ يَبْقَ إلَّا رَدُّ مَسْحِ الرَّأْسِ وَالِاسْتِنْثَارُ وَهُمَا أَوْلَى بِعَدَمِ الْإِعَادَةِ »." },
+      { q: "Quand demande-t-on de faire la sunna oubliée ?",
+        choix: ["Toujours, même pour annuler ses ablutions", "Seulement le vendredi", "Quand on veut prier avec ces ablutions", "Jamais"],
+        bonne: 2,
+        explication: "« إنَّمَا يُؤْمَرُ بِالْإِتْيَانِ بِالسُّنَّةِ إذَا كَانَ قَصْدُهُ أَنْ يُصَلِّيَ بِذَلِكَ الْوُضُوءِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "252-253" },
+    alertes: [
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 99–100 (Shamela 21604, pages 98–99)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-04-44b",
+    kitab: "tah", bab: "01", fasl: "04", ordre: 44,
+    titre: "Omission voulue, oreilles, doute",
+    titre_ar: "وَمَنْ تَرَكَ فَرْضًا … — الْعَمْدُ وَالْأُذُنَانِ وَالشَّكُّ",
+    objectif: "Savoir ce que devient la prière de celui qui omet exprès une obligation ou une sunna, et que faire en cas de doute.",
+    matn: "وَمَنْ تَرَكَ فَرْضًا أَتَى بِهِ وَبِالصَّلَاةِ وَسُنَّةٍ فَعَلَهَا لِمَا يُسْتَقْبَلُ",
+    regle_pratique: "Omettre exprès une obligation jusqu'à un long délai annule les ablutions et la prière ; qui omet exprès une sunna la fait, et pour la prière déjà faite il y a désaccord (la refaire dans le temps, ou non) ; qui doute d'avoir fait une partie des ablutions la fait, sauf s'il est sujet au doute obsédant, qui n'en tient pas compte (al-Ḥaṭṭāb ; al-Dardīr).",
+    qualification: {
+      hukm: "sunna",
+      nature: "autre",
+      effet_si_omis: "Obligation omise exprès jusqu'à un long délai : « فَقَدْ بَطَلَ وُضُوءُهُ » ; sunna omise exprès : prière à refaire dans le temps selon Ibn al-Qāsim (audition de Yaḥyā), non selon d'autres."
+    },
+    explication: "L'obligation omise exprès (quatrième remarque). Jusqu'à un long délai, les ablutions sont annulées ; on ne bâtit pas dessus, et la prière faite avec elles est nulle ; une courte interruption voulue ne nuit pas, mais elle est déconseillée ou interdite (voir la continuité).\n\nLa sunna omise exprès. On la fait si l'on est proche, sans difficulté (aṭ-Ṭirāz) ; al-Jawāhir semble dire qu'on la fait même après un long délai, de même az-Zāhī et Ibn al-Ḥājib : « وَمَنْ تَرَكَهُمَا وَصَلَّى أُمِرَ بِفِعْلِهِمَا » (pour les prières à venir, précise at-Tawḍīḥ). Et la prière déjà faite ? Pour le rinçage et l'aspiration omis exprès, trois avis : rien à refaire (Ibn Ḥabīb ; Ibn Rāshid le juge le plus juste) ; refaire dans le temps (texte d'Ibn al-Qāsim, audition de Yaḥyā ; al-Bisāṭī le dit le plus répandu ; Ibn al-Ḥājib semble le préférer) ; refaire à jamais (rapporté par aṭ-Ṭirāz d'un autre qu'Ibn al-Qāsim, et jugé faible ; Ibn Rushd le tire de l'avis qui annule la prière de qui omet exprès une sunna de la prière ; Ibn Nājī répond que la sunna de la prière est plus forte, la prière étant le but et les ablutions le moyen). Al-Ḥaṭṭāb précise que le « plus répandu » d'Ibn Rushd porte sur les sunna de la prière, non sur le rinçage. Ibn Bashīr : les sunna n'ont pas toutes le même degré.\n\nLa sunna oubliée et la prière. Selon la Mudawwana, celui qui a oublié le rinçage, l'aspiration et l'intérieur des oreilles, dans les ablutions et le grand lavage, et a prié, « أَجْزَأَتْهُ صَلَاتُهُ وَأَعَادَ مَا تَرَكَ لِمَا يُسْتَقْبَلُ ». Sanad : selon l'avis répandu, on ne recommande pas de refaire la prière dans le temps ; on rapporte d'Ibn al-Qāsim qu'on le recommande ; Ibn Rushd : pas de reprise, sans désaccord ; al-Lakhmī : on refait dans le temps, son propre choix semble-t-il. Après le temps, rien, sans désaccord connu d'al-Ḥaṭṭāb. Pour les autres sunna : celles qu'on ne peut rattraper n'ont pas de reprise ; l'ordre, selon la Mudawwana, n'oblige à refaire ni les ablutions ni la prière ; l'essuyage des oreilles et l'eau nouvelle semblent suivre le rinçage (Ibn Bashīr).\n\nLes oreilles. Ibn Bashīr : l'intérieur est sunna sans désaccord ; l'extérieur, obligation ou sunna, la sunna étant ce sur quoi l'on s'appuie ; même obligatoires, leur oubli laisse la prière valable selon l'avis répandu, car elles sont essuyées avec la tête et l'essuyage repose sur l'allègement ; Ibn al-Jallāb : l'analogie voudrait qu'on refasse. Aṭ-Ṭirāz : l'école ne diverge pas sur la validité de la prière de celui qui les a oubliées ; pour l'omission voulue, les tenants de l'obligation divergent. Ibn Shaʿbān : celui qui les essuie avec la tête, ou les omet, exprès ou non, ne refait pas sa prière ; on lui ordonne l'essuyage pour l'avenir, et on l'exhorte s'il l'a fait exprès (lecture corrigée, voir les alertes). Aṭ-Ṭirāz (d'après adh-Dhakhīra) : la sunna omise se fait sans refaire la prière ; la convenance (faḍīla) ne se fait pas ; l'obligation fait refaire la prière.\n\nLe doute (cinquième remarque). La Mudawwana : celui qui doute d'avoir lavé une partie de ses ablutions la lave ; cela vaut aussi pour les sunna (Yūsuf b. ʿUmar), sauf pour celui qui est sujet au doute obsédant (moustankih). Yūsuf b. ʿUmar le fait suivre sa première pensée ; al-Ḥaṭṭāb : c'est l'avis suivi par Ibn al-Ḥājib ; selon l'avis répandu, il rejette le doute et s'en détourne. Az-Zāhī : celui qui, en prière, doute d'avoir essuyé sa tête continue si cela lui arrive souvent ; sinon il l'essuie puis prie ; s'il est certain de l'avoir omis, il interrompt, l'essuie et recommence la prière.",
+    aqwal: [
+      { auteur: "Ibn Ḥabīb ; Ibn Rāshid (le plus juste)", avis: "Sunna omise exprès : la prière ne se refait pas.", statut: "non_precise" },
+      { auteur: "Ibn al-Qāsim (audition de Yaḥyā) ; al-Bisāṭī (le plus répandu)", avis: "Elle se refait dans le temps.", statut: "mashhur" },
+      { auteur: "Un autre qu'Ibn al-Qāsim (al-ʿUtbiyya, d'après aṭ-Ṭirāz) ; Ibn Rushd (par dérivation)", avis: "Elle se refait à jamais.", statut: "qawl" },
+      { auteur: "Sanad", avis: "Sunna oubliée : on ne recommande pas de refaire la prière dans le temps.", statut: "mashhur" },
+      { auteur: "Al-Lakhmī ; Ibn al-Qāsim (rapporté par Sanad)", avis: "Sunna oubliée : on refait la prière dans le temps.", statut: "qawl" },
+      { auteur: "Ibn Shaʿbān", avis: "Oreilles omises, exprès ou non : la prière vaut ; on exhorte celui qui l'a fait exprès.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé pour l'obligation omise exprès et pour la sunna oubliée : al-Dardīr, « فَإِنْ طَالَ بَطَلَ لِعَدَمِ الْمُوَالَاةِ » ; « وَلَا يُعِيدُ مَا صَلَّى إنْ كَانَ التَّرْكُ سَهْوًا اتِّفَاقًا ». Pour la sunna omise exprès : « وَكَذَا إنْ كَانَ عَمْدًا عَلَى قَوْلٍ وَالْمُعْتَمَدُ نَدْبُ الْإِعَادَةِ ».",
+    tarjih_hattab: "« وَأَمَّا قَوْلُ ابْنِ رُشْدٍ وَهُوَ الْمَشْهُورُ فِي الْمَذْهَبِ الْمَعْلُومِ مِنْ قَوْلِ ابْنِ الْقَاسِمِ فَلَيْسَ رَاجِعًا إلَى تَرْكِ الْمَضْمَضَةِ وَالِاسْتِنْشَاقِ » ; sur le moustankih : « وَأَمَّا عَلَى الْمَشْهُورِ فَإِنَّهُ يَطْرَحُ الشَّكَّ وَيُلْهِي عَنْهُ ».",
+    tanbihat: [
+      "Aṭ-Ṭirāz, d'après adh-Dhakhīra : « وَالْفَرْقُ بَيْنَ السُّنَّةِ وَالْفَضِيلَةِ وَالْفَرِيضَةِ أَنَّ الْأَوَّلَ يُؤْمَرُ بِفِعْلِهِ إذَا تَرَكَهُ مِنْ غَيْرِ إعَادَةِ الصَّلَاةِ ».",
+      "Ibn Nājī, contre la dérivation d'Ibn Rushd : « يُرَدُّ تَخْرِيجُهُ بِأَنَّ سُنَّةَ الصَّلَاةِ أَقْوَى »."
+    ],
+    divergences: [
+      "Concordance — l'obligation omise exprès. Al-Ḥaṭṭāb : jusqu'à un long délai, « فَقَدْ بَطَلَ وُضُوءُهُ ». Al-Dardīr : « فَإِنْ طَالَ بَطَلَ لِعَدَمِ الْمُوَالَاةِ » ; proche, on fait l'obligation « وُجُوبًا وَبِمَا بَعْدَهُ نَدْبًا ».",
+      "Point à comparer — la prière de qui omet exprès une sunna. Al-Ḥaṭṭāb : trois avis, sans trancher ; « وَيَظْهَرُ مِنْ كَلَامِ ابْنِ الْحَاجِبِ تَرْجِيحُ الْقَوْلِ بِالْإِعَادَةِ فِي الْوَقْتِ ». Al-Dardīr : « وَالْمُعْتَمَدُ نَدْبُ الْإِعَادَةِ » ; al-Dasūqī : on ne l'a pas dite obligatoire, comme pour une sunna de la prière, « لِضَعْفِ أَمْرِ الْوُضُوءِ لِكَوْنِهِ وَسِيلَةً ».",
+      "Complément — Ibn Shaʿbān et l'eau nouvelle des oreilles (voir la fiche 44a). Al-Dasūqī rapporte que « بْن » (Muḥammad al-Bunānī) cite, d'après « ح » (Muḥammad al-Ḥaṭṭāb), le texte d'Ibn Shaʿbān « إلَّا أَنَّا نَأْمُرُهُ بِالْمَسْحِ لِمَا يُسْتَقْبَلُ وَنَعِظُهُ فِي الْعَمْدِ » ; puis : « وَقَدْ يُقَالُ: إنَّ هَذَا لَيْسَ نَصًّا صَرِيحًا ».",
+      "Concordance — le doute. Al-Ḥaṭṭāb : le doute vaut comme la certitude, sauf pour le moustankih. Al-Dardīr : « أَوْ لُمْعَةً تَحْقِيقًا أَوْ ظَنًّا كَشَكٍّ لِغَيْرِ مُسْتَنْكِحٍ وَإِلَّا لَمْ يَعْمَلْ بِهِ »."
+    ],
+    exemple: "Un homme se met à prier et se demande s'il a bien essuyé sa tête. S'il n'est pas sujet à ce genre de doute, il interrompt, s'essuie la tête et recommence la prière ; s'il en doute sans cesse, il continue et n'en tient pas compte.",
+    erreurs_frequentes: [
+      "Continuer à prier en étant certain d'avoir omis l'essuyage de la tête : on interrompt, on s'essuie et on recommence.",
+      "Suivre chaque doute quand on en est envahi : selon l'avis répandu, on le rejette.",
+      "Croire l'omission voulue d'une sunna sans conséquence : la reprise de la prière est discutée."
+    ],
+    termes: [
+      { ar: "مُسْتَنْكِح", translit: "moustankih", def: "Chronique : ce qui revient sans cesse et domine la personne (au moins une fois par jour)." }
+    ],
+    quiz: [
+      { q: "Mise en situation : un homme omet exprès d'essuyer sa tête et laisse passer un long moment. Qu'en est-il de ses ablutions ?",
+        choix: ["Elles sont annulées", "Il essuie la tête et c'est tout", "Elles valent, la tête étant une sunna", "Il refait seulement la prière"],
+        bonne: 0,
+        explication: "« إذَا تَرَكَ شَيْئًا مِنْ فَرَائِضِ الْوُضُوءِ عَامِدًا حَتَّى طَالَ فَقَدْ بَطَلَ وُضُوءُهُ »." },
+      { q: "Selon la Mudawwana, la prière de celui qui a oublié le rinçage de la bouche :",
+        choix: ["Est nulle", "Se refait à jamais", "Vaut ; il fait le rinçage pour l'avenir", "Se refait obligatoirement dans le temps"],
+        bonne: 2,
+        explication: "« أَجْزَأَتْهُ صَلَاتُهُ وَأَعَادَ مَا تَرَكَ لِمَا يُسْتَقْبَلُ »." },
+      { q: "Pour la prière de celui qui omet exprès le rinçage, que retient al-Dardīr ?",
+        choix: ["Rien à refaire", "Il est recommandé de la refaire", "Elle est nulle", "Il faut la refaire à jamais"],
+        bonne: 1,
+        explication: "« وَالْمُعْتَمَدُ نَدْبُ الْإِعَادَةِ »." },
+      { q: "Selon l'avis répandu rapporté par al-Ḥaṭṭāb, que fait celui qui est sujet au doute obsédant ?",
+        choix: ["Il suit sa première pensée", "Il refait tout", "Il refait la partie douteuse", "Il rejette le doute et s'en détourne"],
+        bonne: 3,
+        explication: "« وَأَمَّا عَلَى الْمَشْهُورِ فَإِنَّهُ يَطْرَحُ الشَّكَّ وَيُلْهِي عَنْهُ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "253-255" },
+    alertes: [
+      "Corrigé (rédaction) : Mawāhib (569/252), citant at-Tawḍīḥ, porte « يُسْتَحَبُّ لِلْمُعْتَمَدِ » ; at-Tawḍīḥ (14442, p. 117 : « وَيُسْتَحَبُّ لِلْمُتَعَمِّدِ أَنْ يُعيد الصَّلاةَ فِي الْوَقْتِ ») et la citation d'Ibn al-Ḥājib juste avant portent « لِلْمُتَعَمِّدِ » (n° 269).",
+      "Corrigé (rédaction) : Mawāhib (569/252), citant Ibn ʿArafa, porte « وَسَمَاعِ يَحْيَى بْنِ الْقَاسِمِ » ; Ibn ʿArafa (16968, p. 65 : « وسماع يحيى ابن القاسم ») : l'audition de Yaḥyā auprès d'Ibn al-Qāsim, comme le dit al-Ḥaṭṭāb juste après (« فِي أَوَّلِ سَمَاعِ يَحْيَى ») (n° 270).",
+      "Non résolu (rédaction) : Ibn Bashīr, cité en 569/253, porte « وَلَا خِلَافَ هَاهُنَا أَنَّهُ يُعِيدُ لَا الصَّلَاةَ بَعْدَ الْوَقْتِ » ; l'ordre des mots est fautif (sens probable : pas de reprise après le temps) ; aucun témoin ; la fiche n'en tire rien (n° 271).",
+      "Corrigé (rédaction) : Ibn Shaʿbān, cité en 569/254, porte « وَنَقْصِدُ فِي الْعَمْدِ كَذَلِكَ » ; al-Dasūqī (21604, p. 99 : « وَنَعِظُهُ فِي الْعَمْدِ ») et al-Bunānī (14297, p. 126 : « ونعظه في العمد لذلك ») citent al-Ḥaṭṭāb avec « on l'exhorte » (n° 272).",
+      "Précisé (rédaction) : en 569/254, « وَكَلَامُ سَنَدٍ الَّذِي ذَكَرَهُ فِي أَوَائِلِ بَابِ تَرْتِيبِ الْوُضُوءِ » reste sans suite et se colle au début de la cinquième remarque (« الْخَامِس ») ; la fiche ne le rapporte pas (n° 273).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 99–100 (Shamela 21604, pages 98–99)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-04-45",
+    kitab: "tah", bab: "01", fasl: "04", ordre: 45,
+    titre: "Convenances : un lieu pur",
+    titre_ar: "وَفَضَائِلُهُ مَوْضِعٌ طَاهِرٌ",
+    objectif: "Connaître la première convenance des ablutions : le lieu pur.",
+    matn: "وَفَضَائِلُهُ مَوْضِعٌ طَاهِرٌ",
+    regle_pratique: "Il est recommandé de faire ses ablutions dans un lieu pur, et non aux toilettes ni dans un lieu impur (al-Ḥaṭṭāb ; al-Dardīr).",
+    qualification: {
+      hukm: "mandub",
+      nature: "autre",
+      effet_si_omis: "Omettre une convenance n'oblige ni à la faire ni à refaire la prière (aṭ-Ṭirāz, fiche 44b)."
+    },
+    explication: "Après les obligations et les sunna, Khalīl donne les convenances (faḍâ'il), c'est-à-dire les actes recommandés. La première : un lieu pur. Ibn Yūnus et Ibn Rushd comptent parmi les convenances de ne pas faire ses ablutions aux toilettes ; Ibn Yūnus en donne la raison : le Prophète ﷺ l'a interdit « مَخَافَةَ الْوَسْوَاسِ » (adh-Dhakhīra le rapporte de lui). Ibn Bashīr compte de ne pas les faire dans un lieu impur, ce qui est plus général ; ʿIyāḍ et ash-Shabībī comptent le lieu pur, comme Khalīl ; l'auteur d'al-Madkhal : ni aux toilettes ni dans un lieu impur.\n\nRemarque. Ibn Bashīr dit ensuite que la proximité d'un lieu impur ne se range pas parmi les convenances : si l'on craint d'être atteint par l'impureté, on n'y fait pas ses ablutions du tout ; sinon, mieux vaut s'en abstenir. Al-Ḥaṭṭāb y voit une discussion, puisque Ibn Bashīr compte ce point parmi les convenances dans at-Tanbīh et at-Taḥrīr, comme d'autres maîtres.\n\nAutres convenances rapportées (furūʿ) : faire face à la qibla (al-Madkhal, ash-Shabībī) ; garder présente l'intention pendant toutes les ablutions ; s'asseoir sur un endroit élevé, pour que les éclaboussures du sol ne vous atteignent pas (al-Madkhal). Az-Zarrūq, sur le vers de la Qurṭubiyya « وَأَنْتَ جَالِسٌ » : la position assise est ajoutée pour le mètre ; elle n'est pas une condition, même si elle est recommandée pour être à l'aise ; dans d'autres copies, il ajoute que croire, comme le commun ignorant, que se lever ou parler annule les ablutions est « جَهْلٌ عَظِيمٌ ».",
+    aqwal: [
+      { auteur: "Ibn Yūnus ; Ibn Rushd", avis: "Ne pas faire ses ablutions aux toilettes est une convenance.", statut: "non_precise" },
+      { auteur: "Ibn Bashīr", avis: "Ne pas les faire dans un lieu impur est une convenance.", statut: "non_precise" },
+      { auteur: "ʿIyāḍ ; ash-Shabībī ; Khalīl", avis: "Le lieu pur est une convenance.", statut: "non_precise" },
+      { auteur: "Ibn Bashīr (discussion)", avis: "La proximité d'un lieu impur ne relève pas des convenances : interdite si l'on craint l'impureté, à éviter sinon.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « (وَفَضَائِلُهُ) أَيْ مُسْتَحَبَّاتُهُ (مَوْضِعٌ طَاهِرٌ) أَيْ إيقَاعُهُ فِي مَوْضِعٍ طَاهِرٍ بِالْفِعْلِ وَشَأْنُهُ الطَّهَارَةُ فَيَخْرُجُ بَيْتُ الْخَلَاءِ قَبْلَ الِاسْتِعْمَالِ فَيُكْرَهُ الْوُضُوءُ فِيهِ ».",
+    tarjih_hattab: "Sur Ibn Bashīr : « فَكَانَ هَذَا مِنْهُ عَلَى طَرِيقِ الْبَحْثِ ».",
+    tanbihat: [
+      "Al-Madkhal : s'asseoir en hauteur « لِئَلَّا يَتَطَايَرَ عَلَيْهِ مَا يَنْزِلُ فِي الْأَرْضِ ».",
+      "Az-Zarrūq : « وَإِلَّا فَلَا يُشْتَرَطُ الْجُلُوسُ فِي الْوُضُوءِ وَإِنْ كَانَ مَنْدُوبًا لِلتَّمَكُّنِ »."
+    ],
+    divergences: [
+      "Complément — les toilettes propres. Al-Ḥaṭṭāb : Ibn Yūnus et Ibn Rushd écartent le lieu d'aisance. Al-Dardīr : il faut un lieu pur en fait et par nature ; les toilettes, même avant usage, en sont exclues ; al-Dasūqī : elles sont pures en fait, « لَكِنْ لَيْسَ شَأْنُهُ الطَّهَارَةَ » ; a fortiori les lieux rendus impurs.",
+      "Complément — ce qu'est une convenance. Al-Ḥaṭṭāb : « وَهِيَ الْمُسْتَحَبَّاتُ ». Al-Dasūqī : « الَّتِي يُثَابُ عَلَيْهَا وَلَا يُعَاقَبُ عَلَى تَرْكِهَا »."
+    ],
+    exemple: "En voyage, un homme qui doit faire ses ablutions évite la cabine des toilettes et va au lavabo du couloir, sur un sol propre.",
+    erreurs_frequentes: [
+      "Faire ses ablutions dans les toilettes parce qu'elles viennent d'être nettoyées : al-Dardīr le déconseille quand même.",
+      "Croire qu'il faut rester assis pendant les ablutions, ou qu'on les annule en se levant ou en parlant : az-Zarrūq y voit une grave ignorance."
+    ],
+    termes: [
+      { ar: "فَضَائِل", translit: "fadâ'il", def: "Pluriel de faḍīla ; chez al-Māzirī, deuxième rang du recommandé." },
+      { ar: "وَسْوَاس", translit: "waswâs", def: "Obsession du doute : doute répété et sans fondement sur la pureté ou l'adoration." }
+    ],
+    quiz: [
+      { q: "Quel est le statut du lieu pur pour les ablutions ?",
+        choix: ["Obligation", "Convenance (recommandé)", "Sunna confirmée", "Condition de validité"],
+        bonne: 1,
+        explication: "« لَمَّا فَرَغَ مِنْ الْفَرَائِضِ وَالسُّنَنِ شَرَعَ يَذْكُرُ الْفَضَائِلَ وَهِيَ الْمُسْتَحَبَّاتُ »." },
+      { q: "Pourquoi Ibn Yūnus déconseille-t-il les ablutions aux toilettes ?",
+        choix: ["Par crainte du doute obsédant", "Parce que l'eau y est impure", "Parce qu'on y est debout", "Parce que la qibla n'y est pas"],
+        bonne: 0,
+        explication: "« لِنَهْيِهِ - عَلَيْهِ الصَّلَاةُ وَالسَّلَامُ - عَنْ ذَلِكَ مَخَافَةَ الْوَسْوَاسِ »." },
+      { q: "Mise en situation : une femme fait ses ablutions debout, puis parle à quelqu'un avant de prier. Selon az-Zarrūq ?",
+        choix: ["Ses ablutions sont nulles", "Elle aurait dû rester assise", "Elle doit recommencer depuis le début", "Rien ne les annule : ni se lever, ni parler"],
+        bonne: 3,
+        explication: "« وَأَنَّ مَنْ قَامَ مِنْ مَوْضِعِهِ أَوْ تَكَلَّمَ بَطَلَ وُضُوءُهُ وَهَذَا جَهْلٌ عَظِيمٌ »." },
+      { q: "Quelle convenance l'auteur d'al-Madkhal et ash-Shabībī ajoutent-ils ?",
+        choix: ["Se laver quatre fois", "Parler pendant les ablutions", "Faire face à la qibla", "Utiliser de l'eau chaude"],
+        bonne: 2,
+        explication: "« عَدَّ صَاحِبُ الْمَدْخَلِ وَالشَّبِيبِيُّ مِنْ فَضَائِلِ الْوُضُوءِ اسْتِقْبَالَ الْقِبْلَةِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "255-256" },
+    alertes: [
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 100 (Shamela 21604, page 99)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-04-46",
+    kitab: "tah", bab: "01", fasl: "04", ordre: 46,
+    titre: "Peu d'eau, sans limite",
+    titre_ar: "وَقِلَّةُ مَاءٍ بِلَا حَدٍّ كَالْغُسْلِ",
+    objectif: "Savoir qu'on économise l'eau dans les ablutions et le grand lavage, sans quantité fixée, et ce qu'est le gaspillage.",
+    matn: "وَقِلَّةُ مَاءٍ بِلَا حَدٍّ كَالْغُسْلِ",
+    regle_pratique: "Il est recommandé d'utiliser peu d'eau dans les ablutions comme dans le grand lavage, sans mesure fixée, pourvu que l'eau couvre et coule sur les membres ; le gaspillage est déconseillé, sauf pour celui qui est atteint de doute obsédant (al-Ḥaṭṭāb ; al-Dardīr).",
+    qualification: {
+      hukm: "mandub",
+      nature: "autre",
+      effet_si_omis: "Non précisé ; le gaspillage est déconseillé : an-Nawādir, « وَالسَّرَفُ مِنْهُ مَكْرُوهٌ »."
+    },
+    explication: "Réduire l'eau, sans la mesurer, est recommandé dans les ablutions et dans le grand lavage : ʿIyāḍ (al-Qawāʿid), al-Qarāfī (adh-Dhakhīra), ash-Shabībī et an-Nawādir le disent. La Mudawwana : Mālik a rejeté le mot de ceux qui disent « jusqu'à ce que l'eau goutte ou coule » ; certains anciens faisaient leurs ablutions avec un tiers de mudd ; dans al-Umm, Mālik répétait « قَطِّرْ قَطِّرْ » pour s'en moquer. Al-ʿUtbiyya : Mālik admirait ʿAbbās b. ʿAbd Allāh, qui faisait ses ablutions avec un tiers du mudd de Hishām, en laissait, puis dirigeait la prière ; Ibn Rushd : la sunna, dans le lavage et les ablutions, est de bien laver avec peu d'eau ; le Prophète ﷺ « تَوَضَّأَ بِمُدٍّ وَتَطَهَّرَ بِصَاعٍ » ; seul le savant à l'abri des insinuations de Satan y parvient ; le tiers est celui du mudd de Hishām (un mudd et deux tiers du mudd du Prophète ﷺ, selon l'avis répandu). La Risāla appelle cela sunna : au sens de recommandé (al-Bisāṭī) ; par opposition à l'innovation (Yūsuf b. ʿUmar) ; une sunna dont la pratique est recommandée (az-Zarrūq).\n\nPas de limite : c'est l'avis répandu. Ibn Shaʿbān (attribué aussi au shaykh Abū Isḥāq, et par al-Fākihānī à Abū Isḥāq at-Tūnisī ; al-Bājī dit de même) : pas moins d'un ṣāʿ pour le lavage ni d'un mudd pour les ablutions. Al-ʿĀriḍa : la mesure est celle dont se contentait le meilleur des hommes ; et elle s'entend en volume, non en poids. Al-Fākihānī : une limite n'a pas de sens, chacun selon son besoin ; il est recommandé, à qui peut bien couvrir avec peu, de réduire l'eau.\n\nCe qui est exigé : que l'eau couvre (al-isbâgh). Mālik a rejeté la limite « qu'elle coule ou goutte » parce qu'elle est sans preuve ; sans écoulement, ce serait un essuyage (Faḍl b. Maslama). Ibn Muḥriz : couler ou goutter n'entre pas dans la définition ; Ibn Rāshid : il s'agit de l'écoulement hors du membre, non sur le membre, qui est indispensable. Deux avis, donc, sur l'écoulement exigé.\n\nLe gaspillage. C'est ce qu'on ajoute après être sûr d'avoir fait l'obligatoire ; il est déconseillé (an-Nawādir, Ibn al-ʿArabī, ʿIyāḍ, ash-Shabībī, Ibn Nājī) ; az-Zarrūq : c'est une innovation déconseillée, non interdite ; al-Burzulī rapporte d'an-Nawawī le consensus qu'il n'est pas permis, même au bord d'un fleuve, sauf pour celui qui a le doute obsédant, excusé de ce dont il est éprouvé. Az-Zarrūq en énumère les méfaits : négliger le frottement, manquer la prière en commun, priver d'eau les autres, perdre l'habitude du peu, troubler le cœur, engendrer le doute obsédant.",
+    aqwal: [
+      { auteur: "Khalīl ; ʿIyāḍ ; al-Qarāfī ; an-Nawādir", avis: "Réduire l'eau est recommandé, sans limite.", statut: "mashhur" },
+      { auteur: "Ibn Shaʿbān (ou Abū Isḥāq) ; al-Bājī", avis: "Pas moins d'un mudd pour les ablutions, d'un ṣāʿ pour le grand lavage.", statut: "qawl" },
+      { auteur: "Ibn Muḥriz ; Ibn Rāshid ; Saḥnūn (d'après al-Burzulī)", avis: "L'eau n'a pas à couler hors du membre.", statut: "non_precise" },
+      { auteur: "Faḍl b. Maslama", avis: "Sans écoulement, c'est un essuyage.", statut: "non_precise" },
+      { auteur: "An-Nawādir ; az-Zarrūq", avis: "Le gaspillage est déconseillé.", statut: "non_precise" },
+      { auteur: "An-Nawawī (d'après al-Burzulī)", avis: "Consensus : le gaspillage n'est pas permis, même au bord d'un fleuve.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « (وَقِلَّةُ الْمَاءِ) يَعْنِي تَقْلِيلَهُ » ; « (بِلَا حَدٍّ) فِي التَّقْلِيلِ وَلَا يُشْتَرَطُ تَقَاطُرُهُ عَنْ الْعُضْوِ بَلْ الشَّرْطُ جَرَيَانُهُ عَلَيْهِ » ; al-Dasūqī : « وَهَذَا هُوَ الْمُعْتَمَدُ ».",
+    tarjih_hattab: "« فَتَحَصَّلَ مِنْ كَلَامِ الشُّيُوخِ أَنَّ فِي اشْتِرَاطِ السَّيَلَانِ قَوْلَيْنِ » ; « أَنَّ السَّرَفَ هُوَ مَا زِيدَ بَعْدَ تَيَقُّنِ الْوَاجِبِ وَهُوَ مَكْرُوهٌ ».",
+    tanbihat: [
+      "Al-ʿĀriḍa : la mesure du mudd et du ṣāʿ s'entend en volume, « فَتَفَطَّنْ لِهَذِهِ الدَّقِيقَةِ ».",
+      "Al-Jazūlī : ces ablutions avec un mudd étaient-elles faites une, deux ou trois fois ? « لَمْ أَرَ فِيهِ نَصًّا ».",
+      "ʿIyāḍ (at-Tanbīhāt) : le nom est ʿAbbās, non ʿAyyāsh, « وَهُوَ خَطَأٌ »."
+    ],
+    divergences: [
+      "Concordance — l'écoulement. Al-Ḥaṭṭāb, d'après Ibn Rāshid : l'eau doit couler sur le membre, non hors de lui ; deux avis sur l'écoulement exigé. Al-Dasūqī : « وَأَمَّا السَّيَلَانُ عَلَيْهِ بِحَسَبِ الْإِمْكَانِ فَلَا بُدَّ مِنْهُ وَإِلَّا كَانَ مَسْحًا وَهَذَا هُوَ الْمُعْتَمَدُ خِلَافًا لِمَنْ قَالَ: إنَّهُ لَا بُدَّ مِنْ سَيَلَانِ الْمَاءِ عَلَى الْعُضْوِ وَتَقْطِيرِهِ عَنْهُ ».",
+      "Complément — quelle eau réduire. Al-Ḥaṭṭāb ne le précise pas. Al-Dasūqī : l'eau qu'on met sur le membre, non la réserve, « وَإِلَّا كَانَ الْمُتَوَضِّئُ مِنْ الْبَحْرِ مَثَلًا تَارِكًا لِلْفَضِيلَةِ وَلَا قَائِلَ بِهِ ».",
+      "Complément — le grand lavage. Al-Dardīr : « فَإِنَّهُ يُنْدَبُ فِيهِ الْمَوْضِعُ الطَّاهِرُ وَالتَّقْلِيلُ بِلَا حَدٍّ »."
+    ],
+    exemple: "Au lieu d'ouvrir le robinet en grand, une femme laisse couler un filet d'eau, frotte bien chaque membre pour que l'eau le couvre, et ferme le robinet entre deux gestes.",
+    erreurs_frequentes: [
+      "Croire qu'il faut une quantité minimale (un mudd) : selon l'avis répandu, il n'y a pas de limite.",
+      "Croire que l'eau doit goutter des membres : il suffit qu'elle coule sur eux.",
+      "Ajouter de l'eau quand on est déjà sûr d'avoir lavé : c'est du gaspillage, déconseillé."
+    ],
+    termes: [
+      { ar: "سَرَف", translit: "saraf", def: "Gaspillage, dépense excessive." },
+      { ar: "إِسْبَاغ", translit: "isbâgh", def: "Faire couvrir tout le membre par l'eau ; c'est ce qui est exigé, non une quantité fixée." },
+      { ar: "مُوَسْوِس", translit: "mouwaswis", def: "Celui qui est atteint de doute obsédant ; excusé de ce dont il est éprouvé (al-Burzulī)." }
+    ],
+    quiz: [
+      { q: "Quelle quantité d'eau faut-il pour les ablutions, selon l'avis répandu ?",
+        choix: ["Au moins un mudd", "Au moins un ṣāʿ", "Aucune limite : peu, pourvu que l'eau couvre", "Trois mudds"],
+        bonne: 2,
+        explication: "« مَا ذَكَرَهُ الْمُصَنِّفُ مِنْ نَفْيِ التَّحْدِيدِ فِي الْوُضُوءِ وَالْغُسْلِ هُوَ الْمَشْهُورُ »." },
+      { q: "Pourquoi Mālik répétait-il « qaṭṭir, qaṭṭir » ?",
+        choix: ["Pour ordonner de laisser goutter l'eau", "Pour compter les lavages", "Pour réciter une invocation", "Pour rejeter la limite « jusqu'à ce que l'eau goutte »"],
+        bonne: 3,
+        explication: "« فَسَمِعْتُهُ يَقُولُ: قَطِّرْ قَطِّرْ إنْكَارًا لِذَلِكَ »." },
+      { q: "Qu'est-ce que le gaspillage, selon al-Ḥaṭṭāb ?",
+        choix: ["Ce qu'on ajoute après être sûr d'avoir fait l'obligatoire", "Le troisième lavage", "L'eau qui tombe par terre", "L'eau chaude"],
+        bonne: 0,
+        explication: "« أَنَّ السَّرَفَ هُوَ مَا زِيدَ بَعْدَ تَيَقُّنِ الْوَاجِبِ »." },
+      { q: "Mise en situation : un homme atteint de doute obsédant reprend sans cesse l'eau sur ses bras. Que dit al-Burzulī ?",
+        choix: ["Il est blâmé comme les autres", "Il est excusé de ce dont il est éprouvé", "Ses ablutions sont nulles", "Il doit faire l'ablution sèche"],
+        bonne: 1,
+        explication: "« وَأَمَّا الْمُوَسْوِسُ فَهُوَ شَبِيهٌ بِمَنْ لَا عَقْلَ لَهُ فَيُغْتَفَرُ فِي حَقِّهِ لِمَا اُبْتُلِيَ بِهِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "256-258" },
+    alertes: [
+      "Précisé (rédaction) : le « ص » de Mawāhib et al-Kharashī (91, p. 136 : « وَقِلَّةُ مَاءٍ بِلَا حَدٍّ كَالْغُسْلِ ») portent « مَاءٍ » ; le Mukhtaṣar seul (11355, p. 13 : « وقلة الماء بلا حد كالغسل ») et al-Dardīr portent « الْمَاءِ » ; sens identique, matn laissé selon le « ص » (n° 276).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 100–101 (Shamela 21604, pages 99–100)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-04-47",
+    kitab: "tah", bab: "01", fasl: "04", ordre: 47,
+    titre: "Commencer par la droite ; récipient ouvert",
+    titre_ar: "وَتَيَمُّنُ أَعْضَاءٍ وَإِنَاءٍ إنْ فُتِحَ",
+    objectif: "Savoir commencer par le côté droit et où placer le récipient.",
+    matn: "وَتَيَمُّنُ أَعْضَاءٍ وَإِنَاءٍ إنْ فُتِحَ",
+    regle_pratique: "Il est recommandé de commencer par la main et le pied droits, et de placer à sa droite un récipient ouvert, où l'on puise avec la main ; un récipient étroit, comme une aiguière, se place à gauche pour verser sur la main droite (al-Ḥaṭṭāb ; al-Dardīr).",
+    qualification: {
+      hukm: "mandub",
+      nature: "autre",
+      effet_si_omis: "Commencer par la gauche vaut (al-Lakhmī et d'autres) ; la main gauche n'est pas relavée."
+    },
+    explication: "Commencer par la droite des membres : la main droite avant la gauche, le pied droit avant le gauche. Adh-Dhakhīra : d'après le hadith « إذَا تَوَضَّأَ أَحَدُكُمْ فَلْيَبْدَأْ بِيَمِينِهِ » (rapporté par Ibn Wahb, inséré par Saḥnūn dans le Livre), et c'est admis de tous ; az-Zarrūq : les auteurs des Sunan rapportent d'Abū Hurayra « إذَا تَوَضَّأْتُمْ فَابْدَءُوا بِمَيَامِنِكُمْ », jugé authentique par Ibn Khuzayma ; Ibn Bashīr : commencer par la droite est recommandé dans tous les actes de bien.\n\nCelui qui commence par la gauche : cela vaut (al-Lakhmī et d'autres). Al-Ḥaṭṭāb ajoute, semble-t-il, qu'il ne relave pas la gauche (voir les alertes), car commencer par la droite n'est que recommandé, et dépasser trois lavages est interdit ou déconseillé.\n\nAl-Qarāfī : la Loi fait commencer par la droite pour les mains, les pieds, et les côtés du corps dans le grand lavage, non pour les oreilles, les yeux, les joues, les tempes : la droite des premiers a plus de force et d'aptitude, les seconds sont égaux. Al-Ḥaṭṭāb en tire que le gaucher commence aussi par la droite.\n\nLe récipient. S'il est ouvert, on le met à sa droite : Ibn Yūnus et Ibn Rushd le comptent parmi les convenances ; adh-Dhakhīra : le Prophète ﷺ l'a fait, et c'est plus commode ; mais cela ne vaut que pour les coupes où l'on plonge la main ; l'aiguière se met à gauche, pour verser de la gauche dans la droite. ʿIyāḍ : ce qui est trop étroit pour la main se met à gauche. Ibn Bashīr dit que placer le récipient à droite n'atteint pas le rang des convenances, faute d'ordre et parce que ce n'est pas faisable avec tout récipient ; al-Ḥaṭṭāb y voit une discussion, Ibn Bashīr le comptant ailleurs parmi les convenances.",
+    aqwal: [
+      { auteur: "Adh-Dhakhīra ; az-Zarrūq ; Ibn Bashīr", avis: "Commencer par la droite est recommandé (admis de tous, selon adh-Dhakhīra).", statut: "non_precise" },
+      { auteur: "Al-Lakhmī", avis: "Commencer par la gauche vaut.", statut: "non_precise" },
+      { auteur: "Ibn Yūnus ; Ibn Rushd", avis: "Placer le récipient à droite est une convenance.", statut: "non_precise" },
+      { auteur: "Adh-Dhakhīra ; ʿIyāḍ", avis: "Un récipient étroit (aiguière) se met à gauche.", statut: "non_precise" },
+      { auteur: "Ibn Bashīr (discussion)", avis: "Placer le récipient à droite n'atteint pas le rang des convenances.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « (وَتَيَمُّنُ أَعْضَاءٍ) بِأَنْ يُقَدِّمَ يَدَهُ أَوْ رِجْلَهُ الْيُمْنَى عَلَى الْيُسْرَى » ; « (إنْ فُتِحَ) فَتْحًا وَاسِعًا يُمْكِنُ الِاغْتِرَافُ مِنْهُ لَا كَإِبْرِيقٍ، فَإِنَّهُ يَجْعَلُهُ عَلَى الْيَسَارِ ».",
+    tarjih_hattab: "« يُفْهَمُ مِنْهُ أَنَّ الْأَعْسَرَ يُقَدِّمُ الْيُمْنَى » ; sur Ibn Bashīr : « وَهَذَا وَاَللَّهُ أَعْلَمُ عَلَى سَبِيلِ الْبَحْثِ مِنْهُ ».",
+    tanbihat: [
+      "Al-Qarāfī, sur la force de la droite : « حَتَّى أَنَّ الْخَاتَمَ يَضِيقُ فِي الْيُمْنَى وَيَتَّسِعُ فِي الْيُسْرَى »."
+    ],
+    divergences: [
+      "Concordance — le gaucher et les membres. Al-Ḥaṭṭāb : le gaucher commence par la droite. Al-Dasūqī : « يُنْدَبُ الِابْتِدَاءُ بِيَمِينِ أَعْضَائِهِ عَلَى الْيَسَارِ مِنْهَا وَلَوْ كَانَ أَعْسَرَ » ; non pour les oreilles, les joues et les côtés de la tête, « لِاسْتِوَاءِ يَمِينِ مَا ذُكِرَ مَعَ يُسْرَاهُ فِي الْمَنْفَعَةِ ».",
+      "Complément — le gaucher et le récipient. Al-Ḥaṭṭāb ne le dit pas. Al-Dardīr : « إلَّا الْأَعْسَرَ فَبِالْعَكْسِ » ; al-Dasūqī : il met le récipient ouvert à sa gauche et l'étroit à sa droite ; l'ambidextre est comme le droitier.",
+      "Concordance — l'aiguière. Al-Ḥaṭṭāb, d'après ʿIyāḍ : « الِاخْتِيَارُ فِيمَا ضَاقَ عَنْ إدْخَالِ الْيَدِ فِيهِ وَضْعُهُ عَلَى الْيَسَارِ ». Al-Dasūqī, d'après al-Mawwāq : « اخْتَارَ أَهْلُ الْعِلْمِ فِيمَا ضَاقَ عَنْ إدْخَالِ الْيَدِ فِيهِ وَضْعَهُ عَلَى الْيَسَارِ »."
+    ],
+    exemple: "Une femme se lave d'abord la main droite, puis la gauche ; elle pose la bassine à sa droite pour y puiser ; avec une aiguière, elle la tient à gauche et verse sur sa main droite.",
+    erreurs_frequentes: [
+      "Relaver la main gauche quand on a commencé par elle : cela vaut, et on ne la relave pas.",
+      "Commencer par l'oreille droite comme par la main droite : les oreilles, égales, n'ont pas d'ordre.",
+      "Placer une aiguière à droite : elle se met à gauche, pour verser dans la main droite."
+    ],
+    termes: [
+      { ar: "تَيَمُّن", translit: "tayammoun", def: "Commencer par la droite (main, pied, côté du corps) ; recommandé dans les ablutions et le grand lavage." },
+      { ar: "أَعْسَر", translit: "aʿsar", def: "Gaucher : il commence aussi ses membres par la droite, mais place le récipient à l'inverse du droitier." }
+    ],
+    quiz: [
+      { q: "Mise en situation : un homme se lave la main gauche avant la droite. Que dit al-Lakhmī ?",
+        choix: ["Il doit tout recommencer", "Il relave la gauche après la droite", "Ses ablutions sont nulles", "Cela vaut"],
+        bonne: 3,
+        explication: "« فَإِنْ ابْتَدَأَ بِغَسْلِ الْيَدِ الْيُسْرَى قَبْلَ الْيُمْنَى أَجْزَأَهُ »." },
+      { q: "Pour quels membres la Loi fait-elle commencer par la droite, selon al-Qarāfī ?",
+        choix: ["Les oreilles et les yeux", "Les joues et les tempes", "Les mains, les pieds et les côtés du corps", "Tous les membres sans exception"],
+        bonne: 2,
+        explication: "« نَدَبَ الشَّرْعُ لِتَقْدِيمِ الْيَمِينِ مِنْ الْيَدَيْنِ وَالرِّجْلَيْنِ وَالْجَنْبَيْنِ »." },
+      { q: "Où place-t-on une aiguière (récipient étroit) ?",
+        choix: ["À droite", "À gauche", "Devant soi", "Derrière soi"],
+        bonne: 1,
+        explication: "« وَأَمَّا الْأَبَارِيقُ فَالتَّمَكُّنُ إنَّمَا يَحْصُلُ بِجَعْلِهِ عَلَى الْيَسَارِ »." },
+      { q: "Le gaucher commence-t-il ses ablutions par la droite ?",
+        choix: ["Oui, comme tout le monde", "Non, par la gauche", "Seulement pour les pieds", "Il a le choix, sans préférence"],
+        bonne: 0,
+        explication: "« يُفْهَمُ مِنْهُ أَنَّ الْأَعْسَرَ يُقَدِّمُ الْيُمْنَى »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "258-259" },
+    alertes: [
+      "Non résolu (rédaction) : en 569/257, « (قُلْتُ) غَسَلَ الْيُسْرَى » suivi de « لِأَنَّ التَّيَامُنَ مُسْتَحَبٌّ » semble avoir perdu un mot ; le sens le plus probable, d'après les deux raisons données, est qu'il ne relave pas la gauche ; aucun témoin ; la fiche donne ce sens avec réserve (n° 274).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 101 (Shamela 21604, page 100)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-04-48",
+    kitab: "tah", bab: "01", fasl: "04", ordre: 48,
+    titre: "Commencer par l'avant de la tête",
+    titre_ar: "وَبَدْءٌ بِمُقَدَّمِ رَأْسِهِ",
+    objectif: "Savoir par où commencer l'essuyage de la tête, et les autres membres.",
+    matn: "وَبَدْءٌ بِمُقَدَّمِ رَأْسِهِ",
+    regle_pratique: "Il est recommandé de commencer l'essuyage de la tête par l'avant (la naissance des cheveux), et de même chaque membre par son début ; commencer par l'arrière vaut, mais on avertit celui qui le fait (al-Ḥaṭṭāb ; al-Dardīr).",
+    qualification: {
+      hukm: "mandub",
+      nature: "autre",
+      effet_si_omis: "Commencer par l'arrière vaut ; az-Zāhī : « لَوْ بَدَأَ الْمَاسِحُ مِنْ مُؤَخَّرِهِ أَجْزَأَهُ »."
+    },
+    explication: "Commencer l'essuyage par l'avant de la tête est une convenance. Ibn Bashīr : c'est ce que rapporte le hadith de ʿAbd Allāh b. Zayd, « وَهَذَا هُوَ الْمَشْهُورُ ». At-Tawḍīḥ : Ibn Rushd rapporte un avis qui en fait une sunna ; il y a dans l'école un avis qui fait commencer par l'arrière ; on a dit aussi : par le milieu, vers la naissance des cheveux du côté du visage, puis vers la nuque, puis retour au point de départ.\n\nL'origine du désaccord est le hadith de ʿAbd Allāh b. Zayd : « مَسَحَ رَأْسَهُ بِيَدَيْهِ أَقْبَلَ بِهِمَا وَأَدْبَرَ ». Le « wa » n'ordonne pas, et certaines voies portent « il les ramena en arrière et en avant » ; sur la version connue, Ibn Bashīr : il a nommé « en avant » d'abord par bon augure ; ou bien « en avant » veut dire vers la nuque ; ou bien il a commencé au milieu ; mais le hadith dit « بَدَأَ بِمُقَدَّمِ رَأْسِهِ ». ʿIyāḍ (at-Tanbīhāt) : muqaddam et muʾakhkhar se disent avec shadda, c'est le connu, et aussi sans.\n\nCommencer par l'avant ne concerne pas que la tête : Ibn Bashīr (d'après Ibn Rāshid) l'étend à tous les membres, et aṭ-Ṭirāz compte parmi les convenances de laver le haut du membre avant le bas. Az-Zāhī : qui essuie depuis l'arrière, cela vaut, car l'obligation est l'essuyage et la sunna est de commencer par l'avant ; mais on l'exhorte et on le blâme s'il sait, on l'enseigne s'il ignore ; de même s'il commence le visage par le menton, les bras par les coudes, les pieds par les chevilles.\n\nLa manière d'Ibn al-Jallāb (seul à la donner, at-Tafrīʿ) : prendre l'eau, la laisser couler, coller le bout des doigts à l'avant de la tête, aller vers l'arrière en levant les paumes des côtés de la tête, puis revenir à l'avant en collant les paumes aux côtés. ʿAbd al-Wahhāb l'interrogea : il l'a choisie pour ne pas répéter l'essuyage, le mérite de la répétition étant propre au lavage ; Ibn al-Qaṣṣār : cela n'est conservé ni de Mālik ni des compagnons, et la répétition sans mérite est celle faite avec une eau nouvelle ; Ibn al-Ḥājib rapporte la même réfutation.",
+    aqwal: [
+      { auteur: "Ibn Bashīr ; Khalīl", avis: "Commencer par l'avant est une convenance.", statut: "mashhur" },
+      { auteur: "Avis rapporté par Ibn Rushd (d'après at-Tawḍīḥ)", avis: "C'est une sunna.", statut: "qawl" },
+      { auteur: "Avis rapporté sans attribution (d'après at-Tawḍīḥ)", avis: "On commence par l'arrière.", statut: "qawl" },
+      { auteur: "Avis rapporté sans attribution", avis: "On commence par le milieu de la tête.", statut: "qawl" },
+      { auteur: "Ibn al-Jallāb", avis: "Aller vers l'arrière paumes levées, revenir paumes collées, pour ne pas répéter l'essuyage.", statut: "non_precise" },
+      { auteur: "Ibn al-Qaṣṣār", avis: "Cette manière n'est conservée ni de Mālik ni des compagnons.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « (وَبَدْءٌ بِمُقَدَّمِ رَأْسِهِ) فِي الْمَسْحِ وَكَذَا بَقِيَّةُ الْأَعْضَاءِ يُنْدَبُ الْبَدْءُ بِمُقَدَّمِهَا ».",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Az-Zāhī : « وَيُوعَظُ فَاعِلُ هَذَا وَيُجْفَى وَيُقَبَّحُ لَهُ فِعْلُهُ لِخِلَافِ مَا أَتَى مِنْ السُّنَّةِ إنْ كَانَ عَالِمًا ».",
+      "Ibn al-Qaṣṣār sur la manière d'Ibn al-Jallāb : « هَذَا غَيْرُ مَحْفُوظٍ عَنْ مَالِكٍ وَلَا عَنْ أَحَدٍ مِنْ أَصْحَابِنَا »."
+    ],
+    divergences: [
+      "Concordance — tous les membres. Al-Ḥaṭṭāb : d'après Ibn Bashīr et aṭ-Ṭirāz, commencer par le début vaut pour tous les membres. Al-Dardīr : « وَكَذَا بَقِيَّةُ الْأَعْضَاءِ يُنْدَبُ الْبَدْءُ بِمُقَدَّمِهَا » ; al-Dasūqī : Khalīl nomme la tête pour répondre à ceux qui commencent par l'arrière ou par le milieu ; « وَأَمَّا غَيْرُ الرَّأْسِ مِنْ الْأَعْضَاءِ فَلَا خِلَافَ فِيهِ » ; le début des mains et des pieds est le bout des doigts.",
+      "Concordance — l'avertissement. Al-Ḥaṭṭāb, d'après az-Zāhī : on exhorte celui qui sait, on enseigne celui qui ignore. Al-Dasūqī : « وُعِظَ وَقُبِّحَ عَلَيْهِ إنْ كَانَ عَالِمًا وَعُلِّمَ إنْ كَانَ جَاهِلًا »."
+    ],
+    exemple: "Une femme pose ses mains mouillées à la naissance de ses cheveux, les passe jusqu'à la nuque, puis revient ; pour les bras, elle commence par le bout des doigts.",
+    erreurs_frequentes: [
+      "Commencer l'essuyage par la nuque : cela vaut, mais c'est contraire à la convenance.",
+      "Commencer le lavage des bras par les coudes ou celui du visage par le menton : on commence chaque membre par son début."
+    ],
+    termes: [
+      { ar: "مُقَدَّمُ الرَّأْسِ", translit: "mouqaddamou r-ra's", def: "L'avant de la tête : la naissance des cheveux, du côté du visage ; on y commence l'essuyage." },
+      { ar: "فَوْد", translit: "fawd", def: "Côté de la tête, au-dessus de l'oreille (duel : les deux côtés)." }
+    ],
+    quiz: [
+      { q: "Selon l'avis répandu, commencer l'essuyage par l'avant de la tête est :",
+        choix: ["Une convenance", "Une sunna", "Une obligation", "Déconseillé"],
+        bonne: 0,
+        explication: "Ibn Bashīr : « وَهَذَا هُوَ الْمَشْهُورُ » ; Ibn Rushd rapporte aussi un avis qui en fait une sunna." },
+      { q: "Mise en situation : un homme commence l'essuyage de sa tête par la nuque. Selon az-Zāhī :",
+        choix: ["Son essuyage est nul", "Cela vaut, mais on l'avertit s'il sait, on l'enseigne s'il ignore", "Il doit refaire toutes les ablutions", "C'est la meilleure manière"],
+        bonne: 1,
+        explication: "« لَوْ بَدَأَ الْمَاسِحُ مِنْ مُؤَخَّرِهِ أَجْزَأَهُ إذْ الْمُفْتَرَضُ الْمَسْحُ بِالرَّأْسِ »." },
+      { q: "D'où vient le désaccord sur le point de départ ?",
+        choix: ["D'une variante du Coran", "D'un propos d'Ibn al-Qāsim", "Du hadith de ʿAbd Allāh b. Zayd : « il avança et recula »", "D'un usage des gens de Médine"],
+        bonne: 2,
+        explication: "« سَبَبُ الِاخْتِلَافِ قَوْلُهُ: فِي حَدِيثِ عَبْدِ اللَّهِ بْنِ زَيْدٍ »." },
+      { q: "Pourquoi Ibn al-Jallāb a-t-il choisi sa manière particulière ?",
+        choix: ["Pour économiser l'eau", "Pour suivre Ibn al-Qaṣṣār", "Pour commencer par l'arrière", "Pour ne pas répéter l'essuyage"],
+        bonne: 3,
+        explication: "« اخْتَرْتُهَا لِئَلَّا يَكُونَ مُكَرِّرًا لِلْمَسْحِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "259" },
+    alertes: [
+      "Corrigé (rédaction) : le « ص » de Mawāhib (569/258) porte « وَبَدَأَ بِمُقَدَّمِ رَأْسِهِ » (verbe) ; le Mukhtaṣar seul (11355, p. 13), al-Dardīr, al-Kharashī (91, p. 136 : « وَبَدْءٌ بِمُقَدَّمِ رَأْسِهِ ») et al-Zurqānī (14297, p. 128 : « وبدء بمقدم رأسه ») portent « وَبَدْءٌ » (nom), coordonné aux autres convenances ; matn et titre arabe du plan corrigés (n° 277).",
+      "Corrigé (rédaction) : Mawāhib (569/258) vocalise, d'après Ibn al-Ḥājib, « وَرَدَ بِأَنَّ التَّكْرَارَ » ; at-Tawḍīḥ (14442, p. 124 : « وَرُدَّ بِأَنَّ التَّكْرَارَ الْمَكْرُوهَ بِمَاءٍ جَديدٍ ») porte « وَرُدَّ » (fut réfuté), comme le demande le sens (n° 275).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 101 (Shamela 21604, page 100)."
+    ],
+    verification: "verifie"
+  }
+
+  /* FIN-UNITE-38 */
 ]);

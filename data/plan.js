@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.30 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.31 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -56,7 +56,8 @@
    v1.27 : tah-01-04-20 découpé en 20a à 20c, tah-01-04-21 en 21a à 21d ; « أَوْ سُنَّةٌ » d'après al-Dardīr (anomalie n° 246) (unité 34).
    v1.28 : tah-01-04-22 découpé en 22a à 22d (unité 35).
    v1.29 : tah-01-04-32 découpé en 32a et 32b, tah-01-04-34 en 34a et 34b ; titre arabe de tah-01-04-29 « حَدَثُهُ » (anomalie n° 254) (unité 36).
-   v1.30 : titre arabe de tah-01-04-37 « أَوْ إحْدَاهُمَا » (anomalie n° 261) (unité 37). */
+   v1.30 : titre arabe de tah-01-04-37 « أَوْ إحْدَاهُمَا » (anomalie n° 261) (unité 37).
+   v1.31 : tah-01-04-43 découpé en 43a et 43b, tah-01-04-44 en 44a et 44b ; titre arabe de tah-01-04-48 « وَبَدْءٌ » (anomalie n° 277) (unité 38). */
 App.data.definirPlan({
   kutub: [
     {
@@ -400,12 +401,14 @@ App.data.definirPlan({
                 { id: "tah-01-04-40", titre: "Reprendre de l'eau pour les oreilles", titre_ar: "وَتَجْدِيدُ مَائِهِمَا" }, /* p. 248 */
                 { id: "tah-01-04-41", titre: "Revenir en essuyant la tête", titre_ar: "وَرَدُّ مَسْحِ رَأْسِهِ" }, /* p. 249 */
                 { id: "tah-01-04-42", titre: "L'ordre des piliers", titre_ar: "وَتَرْتِيبُ فَرَائِضِهِ" }, /* p. 249 */
-                { id: "tah-01-04-43", titre: "Membre fait hors ordre : seul ou avec la suite", titre_ar: "فَيُعَادُ الْمُنَكَّسُ وَحْدَهُ إنْ بَعُدَ بِجَفَافٍ …" }, /* p. 250 */
-                { id: "tah-01-04-44", titre: "Pilier ou sunna omis : que faire", titre_ar: "وَمَنْ تَرَكَ فَرْضًا أَتَى بِهِ وَبِالصَّلَاةِ …" }, /* p. 252 */
+                { id: "tah-01-04-43a", titre: "Membre fait hors ordre : seul ou avec la suite", titre_ar: "فَيُعَادُ الْمُنَكَّسُ وَحْدَهُ إنْ بَعُدَ بِجَفَافٍ … — الْحُكْمُ" }, /* p. 250 — deux sous-fiches (étape 3, v1.31) */
+                { id: "tah-01-04-43b", titre: "Inversions : cas pratiques et objections", titre_ar: "فَيُعَادُ الْمُنَكَّسُ … — الصُّوَرُ وَالْإِشْكَالَاتُ" }, /* p. 251 */
+                { id: "tah-01-04-44a", titre: "Obligation ou sunna oubliée", titre_ar: "وَمَنْ تَرَكَ فَرْضًا أَتَى بِهِ وَبِالصَّلَاةِ … — النِّسْيَانُ" }, /* p. 252 — deux sous-fiches (étape 3, v1.31) */
+                { id: "tah-01-04-44b", titre: "Omission voulue, oreilles, doute", titre_ar: "وَمَنْ تَرَكَ فَرْضًا … — الْعَمْدُ وَالْأُذُنَانِ وَالشَّكُّ" }, /* p. 253 */
                 { id: "tah-01-04-45", titre: "Convenances : un lieu pur", titre_ar: "وَفَضَائِلُهُ مَوْضِعٌ طَاهِرٌ" }, /* p. 255 */
                 { id: "tah-01-04-46", titre: "Peu d'eau, sans limite", titre_ar: "وَقِلَّةُ مَاءٍ بِلَا حَدٍّ كَالْغُسْلِ" }, /* p. 256 */
                 { id: "tah-01-04-47", titre: "Commencer par la droite ; récipient ouvert", titre_ar: "وَتَيَمُّنُ أَعْضَاءٍ وَإِنَاءٍ إنْ فُتِحَ" }, /* p. 258 */
-                { id: "tah-01-04-48", titre: "Commencer par l'avant de la tête", titre_ar: "وَبَدَأَ بِمُقَدَّمِ رَأْسِهِ" }, /* p. 259 */
+                { id: "tah-01-04-48", titre: "Commencer par l'avant de la tête", titre_ar: "وَبَدْءٌ بِمُقَدَّمِ رَأْسِهِ" }, /* p. 259 */
                 { id: "tah-01-04-49", titre: "Deuxième et troisième lavage", titre_ar: "وَشَفْعُ غَسْلِهِ وَتَثْلِيثُهُ" }, /* p. 259 */
                 { id: "tah-01-04-50", titre: "Les pieds aussi ? La quatrième fois déconseillée ou interdite ? (khilâf)", titre_ar: "وَهَلْ الرِّجْلَانِ كَذَلِكَ أَوْ الْمَطْلُوبُ الْإِنْقَاءُ؟ …" }, /* p. 261 */
                 { id: "tah-01-04-51", titre: "Ordre des sunna, entre elles ou avec les piliers", titre_ar: "وَتَرْتِيبُ سُنَنِهِ أَوْ مَعَ فَرَائِضِهِ" }, /* p. 263 */

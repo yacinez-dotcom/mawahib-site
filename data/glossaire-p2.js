@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.41
+/* Données — Glossaire, partie 2 — v1.42
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -16,7 +16,8 @@
    v1.38 : 9 termes de l'unité 34 (tah-01-04-20a à -21d).
    v1.39 : 17 termes de l'unité 35 (tah-01-04-22a à -29).
    v1.40 : 6 termes de l'unité 36 (tah-01-04-30 à -34b).
-   v1.41 : 11 termes de l'unité 37 (tah-01-04-35 à -42). */
+   v1.41 : 11 termes de l'unité 37 (tah-01-04-35 à -42).
+   v1.42 : 6 termes de l'unité 38 (tah-01-04-43a à -48). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -260,7 +261,14 @@ App.data.ajouterTermes([
   { ar: "غُضُون", translit: "ghoudoûn", def: "Replis (de l'oreille, de la peau) ; on ne les suit pas dans l'essuyage, qui vise l'allègement." },
   { ar: "تَجْدِيدُ الْمَاءِ", translit: "tajdîdou l-mâ'", def: "Prendre une eau nouvelle pour un membre, au lieu de l'humidité restée sur la main (ici pour les oreilles)." },
   { ar: "فَوْد", translit: "fawd", def: "Côté de la tête, au-dessus de l'oreille (duel : les deux côtés)." },
-  { ar: "تَنْكِيس", translit: "tankîs", def: "Inversion : faire un membre des ablutions avant celui qui doit le précéder." }
+  { ar: "تَنْكِيس", translit: "tankîs", def: "Inversion : faire un membre des ablutions avant celui qui doit le précéder." },
+  /* Unité 38 — tah-01-04-43a à -48 */
+  { ar: "مُنَكَّس", translit: "mounakkas", def: "Membre inversé : celui qu'on a fait avant sa place dans les ablutions." },
+  { ar: "إِسْبَاغ", translit: "isbâgh", def: "Faire couvrir tout le membre par l'eau ; c'est ce qui est exigé, non une quantité fixée." },
+  { ar: "مُوَسْوِس", translit: "mouwaswis", def: "Celui qui est atteint de doute obsédant ; excusé de ce dont il est éprouvé (al-Burzulī)." },
+  { ar: "تَيَمُّن", translit: "tayammoun", def: "Commencer par la droite (main, pied, côté du corps) ; recommandé dans les ablutions et le grand lavage." },
+  { ar: "أَعْسَر", translit: "aʿsar", def: "Gaucher : il commence aussi ses membres par la droite, mais place le récipient à l'inverse du droitier." },
+  { ar: "مُقَدَّمُ الرَّأْسِ", translit: "mouqaddamou r-ra's", def: "L'avant de la tête : la naissance des cheveux, du côté du visage ; on y commence l'essuyage." }
 
   /* FIN-GLOSSAIRE */
 ]);
