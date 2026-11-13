@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.39
+/* Données — Glossaire, partie 2 — v1.40
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -14,7 +14,8 @@
    v1.36 : 13 termes de l'unité 32 (tah-01-04-11a à -13c).
    v1.37 : 21 termes de l'unité 33 (tah-01-04-14 à -19b).
    v1.38 : 9 termes de l'unité 34 (tah-01-04-20a à -21d).
-   v1.39 : 17 termes de l'unité 35 (tah-01-04-22a à -29). */
+   v1.39 : 17 termes de l'unité 35 (tah-01-04-22a à -29).
+   v1.40 : 6 termes de l'unité 36 (tah-01-04-30 à -34b). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -239,7 +240,14 @@ App.data.ajouterTermes([
   { ar: "مُتَلَاعِب", translit: "moutalâʿib", def: "Qui joue avec l'acte d'adoration : il vise exprès ce qu'il sait faux ; son intention ne vaut pas." },
   { ar: "مُطْلَقُ الطَّهَارَةِ", translit: "moutlaqou t-tahâra", def: "Purification en général : visée qui peut porter sur le ḥadath comme sur l'impureté matérielle." },
   { ar: "تَعْلِيقُ النِّيَّةِ", translit: "taʿlîqou n-niyya", def: "Intention conditionnelle : la suspendre à un fait incertain (« si… ») ; elle ne vaut pas, faute de fermeté." },
-  { ar: "مُجَدِّد", translit: "moujaddid", def: "Celui qui renouvelle ses ablutions alors qu'il se croit en état de pureté." }
+  { ar: "مُجَدِّد", translit: "moujaddid", def: "Celui qui renouvelle ses ablutions alors qu'il se croit en état de pureté." },
+  /* Unité 36 — tah-01-04-30 à -34b */
+  { ar: "غَسْلَة", translit: "ghasla", def: "Un lavage : un passage de l'eau sur le membre (le premier, le deuxième, le troisième)." },
+  { ar: "تَفْرِيقُ النِّيَّةِ", translit: "tafrîqou n-niyya", def: "Intention répartie : viser chaque membre séparément, sans viser l'ensemble des ablutions." },
+  { ar: "عُزُوبُ النِّيَّةِ", translit: "ʿouzoûbou n-niyya", def: "Perte de vue de l'intention : cesser d'y penser après l'avoir formée ; tolérée dans les ablutions." },
+  { ar: "تَقَدُّمُ النِّيَّةِ", translit: "taqaddoumou n-niyya", def: "Intention anticipée : formée avant son moment (le lavage du visage)." },
+  { ar: "مِهْرَاس", translit: "mihrâs", def: "Grand récipient de pierre, d'où l'on ne peut pas verser l'eau sur les mains." },
+  { ar: "تَحَيُّل", translit: "tahayyoul", def: "Recours à un moyen détourné (prendre l'eau avec la bouche, un tissu) pour se laver les mains hors du récipient." }
 
   /* FIN-GLOSSAIRE */
 ]);

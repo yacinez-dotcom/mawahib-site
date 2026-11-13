@@ -1,8 +1,9 @@
-/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 17 — v5.0
+/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 17 — v5.1
    Source : Mawāhib al-Jalīl, al-Ḥaṭṭāb, éd. Dār al-Fikr, 3e éd., 1412 H / 1992, tome 1 (shamela.ws/book/569).
    Croisement : al-Sharḥ al-kabīr d'al-Dardīr et Ḥāshiyat al-Dasūqī (shamela.ws/book/21604), tome 1.
    Cette partie : faṣl tah-01-04 (les ablutions), à partir de tah-01-04-22 (unités 35 et suivantes) — t. 1, p. 230 et suivantes.
    v5.0 : unité 35 — tah-01-04-22a à -22d, -23 à -29 (2026-11-13) ; nouvelle partie, tah-01-p16.js (≈ 164 Ko) étant pleine.
+   v5.1 : unité 36 — tah-01-04-30, -31, -32a, -32b, -33, -34a, -34b (2026-11-13) ; audit des n° 249 à 258 : matn de tah-01-04-29 corrigé (« حَدَثُهُ », n° 254), témoin ajouté à tah-01-04-24 (n° 251).
    Bāb découpé en parties de moins de 200 Ko ;
    historique des versions : tah-01-p1.js (jusqu'à v2.5) puis l'en-tête de chaque partie. */
 App.data.ajouterFiches([
@@ -404,7 +405,7 @@ App.data.ajouterFiches([
     ],
     ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "236" },
     alertes: [
-      "Précisé (rédaction) : Mawāhib porte « لَوْ نَوَى اسْتِنَابَةَ شَيْءٍ مَخْصُوصٍ وَلَمْ يَخْرُجْ غَيْرُهُ » puis « جَارِيَةٌ فِي السُّورَتَيْنِ » ; le sens demande « l'autorisation » (اسْتِبَاحَة), « exclure » (يُخْرِجْ) et « les deux cas » (الصُّورَتَيْنِ) ; Ibn ʿArafa (16968, p. 50) traite bien de l'autorisation d'une partie ; la fiche suit ce sens, sans corriger les citations (anomalie n° 251).",
+      "Précisé (rédaction) : Mawāhib porte « لَوْ نَوَى اسْتِنَابَةَ شَيْءٍ مَخْصُوصٍ وَلَمْ يَخْرُجْ غَيْرُهُ » puis « جَارِيَةٌ فِي السُّورَتَيْنِ » ; le sens demande « l'autorisation » (اسْتِبَاحَة), « exclure » (يُخْرِجْ) et « les deux cas » (الصُّورَتَيْنِ) ; Ibn ʿArafa (16968, p. 50) traite bien de l'autorisation d'une partie ; at-Tawḍīḥ (14442, p. 99–100 : « فَإِنْ أَخْرَجَ بَعْضَ الْمُسْتَبَاحِ فَثَالِثُهَا: يَسْتَبِيحُ مَا نَوَاهُ », puis, d'après Ibn Zarqūn, « فيمن توضأ ينوي صلاةً واحدًة ») confirme les deux cas ; la fiche suit ce sens, sans corriger les citations, les consonnes différant (anomalie n° 251).",
       "Précisé (rédaction) : le troisième avis, « وَقِيلَ: يُسْتَحَبُّ », est aussi chez Ibn ʿArafa (16968, p. 50 : « ولغيره ثالثها ») ; le passage ne dit pas ce qui est recommandé (anomalie n° 252).",
       "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 94 (Shamela 21604, page 93)."
     ],
@@ -683,9 +684,9 @@ App.data.ajouterFiches([
     id: "tah-01-04-29",
     kitab: "tah", bab: "01", fasl: "04", ordre: 29,
     titre: "Renouveler ses ablutions, puis découvrir un ḥadath",
-    titre_ar: "أَوْ جَدَّدَ فَتَبَيَّنَ حَدَثَهُ",
+    titre_ar: "أَوْ جَدَّدَ فَتَبَيَّنَ حَدَثُهُ",
     objectif: "Savoir que des ablutions de renouvellement ne valent pas pour celui qui découvre ensuite qu'il avait un ḥadath.",
-    matn: "أَوْ جَدَّدَ فَتَبَيَّنَ حَدَثَهُ",
+    matn: "أَوْ جَدَّدَ فَتَبَيَّنَ حَدَثُهُ",
     regle_pratique: "Celui qui se croit en état de pureté et refait ses ablutions par mérite (renouvellement), puis découvre qu'il avait un ḥadath, n'est pas quitte selon l'avis répandu : il doit refaire ses ablutions (al-Ḥaṭṭāb ; al-Dardīr).",
     qualification: {
       hukm: "mandub",
@@ -738,12 +739,490 @@ App.data.ajouterFiches([
     ],
     ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "239" },
     alertes: [
-      "Matn : Mawāhib vocalise « فَتَبَيَّنَ حَدَثَهُ » (de même dans le commentaire : « ثُمَّ تَبَيَّنَ حَدَثَهُ ») ; al-Dardīr porte « (فَتَبَيَّنَ) لَهُ (حَدَثُهُ) » ; la fiche suit Mawāhib (anomalie n° 254).",
+      "Corrigé (audit après l'unité 36) : le « ص » de Mawāhib vocalise « فَتَبَيَّنَ حَدَثَهُ » (de même dans le commentaire : « ثُمَّ تَبَيَّنَ حَدَثَهُ ») ; al-Dardīr porte « (فَتَبَيَّنَ) لَهُ (حَدَثُهُ) » et al-Kharashī (91, p. 130 : « أَوْ جَدَّدَ فَتَبَيَّنَ حَدَثُهُ ») ; le matn suit ces deux témoins (anomalie n° 254).",
       "Témoin : Ibn ʿArafa (16968, p. 53 : « وفي صحة نية وضوء مجدد بان حدثه قولا أشهب وسحنون مع ابن عبد الحكم »), d'après al-Bājī ; la fiche ne rattache pas les avis à ces noms, le passage de Mawāhib ne le faisant pas.",
       "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 94–95 (Shamela 21604, pages 93–94)."
     ],
     verification: "verifie"
+  },
+
+  /* ================================================================== */
+  /* Unité 36 — tah-01-04-30 à -34b — t. 1, p. 239–245 (Shamela 569, p. 238–244) */
+  /* Croisement : al-Dardīr / al-Dasūqī, t. 1, p. 95–97 (Shamela 21604, p. 94–96) */
+  {
+    id: "tah-01-04-30",
+    kitab: "tah", bab: "01", fasl: "04", ordre: 30,
+    titre: "L'endroit oublié, lavé avec l'intention du surplus",
+    titre_ar: "أَوْ تَرَكَ لُمْعَةً فَانْغَسَلَتْ بِنِيَّةِ الْفَضْلِ",
+    objectif: "Savoir que l'endroit oublié au premier lavage doit être relavé avec l'intention de l'obligation.",
+    matn: "أَوْ تَرَكَ لُمْعَةً فَانْغَسَلَتْ بِنِيَّةِ الْفَضْلِ",
+    regle_pratique: "Celui qui laisse un petit endroit sec au premier lavage d'un membre, et que l'eau n'atteint qu'au deuxième ou au troisième lavage, faits comme surplus, n'est pas quitte selon l'avis répandu : il relave cet endroit avec l'intention de l'obligation ; s'il tarde exprès longtemps, ses ablutions sont nulles (al-Ḥaṭṭāb ; al-Dardīr).",
+    qualification: {
+      hukm: "fard",
+      nature: "autre",
+      effet_si_omis: "« فَإِنْ أَخَّرَ غَسْلَهَا عَمْدًا حَتَّى طَالَ بَطَلَ وُضُوءُهُ »."
+    },
+    explication: "Le Qāmūs, cité par al-Ḥaṭṭāb : la lumʿa est, entre autres sens, « l'endroit que l'eau n'atteint pas dans les ablutions ou le grand lavage ». Le sens du matn : celui qui laisse un tel endroit au premier lavage d'un membre, et que l'eau atteint au deuxième ou au troisième, fait avec l'intention du mérite, n'est pas quitte selon l'avis répandu ; il doit le laver avec l'intention de l'obligation, et s'il tarde exprès jusqu'à un long délai, ses ablutions sont nulles. Autre avis : il est quitte.\n\nIbn ʿAbd as-Salām : les deux avis ressemblent à ceux du renouvellement (fiche 29). Certains jugent la validité plus juste ici, parce que l'intention de l'obligation se prolonge encore, ce qui n'est pas le cas du renouvellement ; on leur répond que cette prolongation ne vaut que si aucune intention contraire n'est là, alors qu'ici l'intention du mérite est présente et contraire à celle de l'obligation.\n\nAl-Ḥaṭṭāb renvoie à plus loin la question : aux deuxième et troisième lavages, vise-t-on l'obligation ou le mérite ?",
+    aqwal: [
+      { auteur: "Avis rapporté sans attribution (Khalīl)", avis: "Il n'est pas quitte : il doit relaver l'endroit avec l'intention de l'obligation.", statut: "mashhur" },
+      { auteur: "Avis rapporté sans attribution", avis: "Il est quitte.", statut: "qawl" },
+      { auteur: "Certains (d'après Ibn ʿAbd as-Salām)", avis: "La validité est ici plus juste que pour le renouvellement, l'intention de l'obligation se prolongeant ; on leur répond que l'intention du mérite, contraire, est présente.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « فَلَا يُجْزِئُ لِأَنَّ نِيَّةَ غَيْرِ الْفَرْضِ لَا تُجْزِئُ عَنْهُ ».",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Ibn ʿAbd as-Salām : « وَالْقَوْلَانِ يُشْبِهَانِ الْقَوْلَيْنِ فِي مَسْأَلَةِ الْمُجَدِّدِ » (fiche 29).",
+      "Question renvoyée à plus loin : « هَلْ يَنْوِي فِي الْغَسْلَةِ الثَّانِيَةِ وَالثَّالِثَةِ الْفَرِيضَةَ أَوْ الْفَضِيلَةَ »."
+    ],
+    divergences: [
+      "Complément — quand la règle s'applique. Al-Ḥaṭṭāb ne le précise pas. Al-Dardīr : « وَهَذَا إذَا أَحْدَثَ نِيَّةَ الْفَضِيلَةِ وَإِلَّا أَجْزَأَهُ » ; al-Dasūqī : s'il a visé que l'obligation est ce qui couvre le membre au fil des lavages, « فَإِنَّ الْغَسْلَ يُجْزِي ».",
+      "Complément — l'essuyage. Al-Ḥaṭṭāb ne parle que du lavage. Al-Dardīr : « وَمِثْلُ الْغَسْلِ الْمَسْحُ » ; al-Dasūqī : l'endroit oublié de la tête, essuyé au retour de la main fait comme sunna, ne suffit pas non plus.",
+      "Point à comparer — Sanad. Al-Dasūqī rapporte de « عبق » (ʿAbd al-Bāqī az-Zurqānī) que, selon Sanad, l'intention du mérite ne compte que si le premier lavage a tout couvert, d'où la validité ; al-Bunānī (« بْن ») objecte : « فَإِنَّ مَا نَقَلَهُ ح عَنْ سَنَدٍ عِنْدَ قَوْلِ الْمُصَنِّفِ وَشَفْعُ غَسْلِهِ وَتَثْلِيثُهُ صَرِيحٌ فِي أَنَّهُ يَعْتَبِرُ نِيَّةَ الْفَضِيلَةِ كَغَيْرِهِ » (« ح » : al-Ḥaṭṭāb). Ce passage d'al-Ḥaṭṭāb, au segment « وَشَفْعُ غَسْلِهِ وَتَثْلِيثُهُ », n'a pas encore été lu."
+    ],
+    exemple: "En se lavant les bras, une femme laisse sec un coin du coude au premier lavage ; l'eau l'atteint au deuxième, qu'elle fait comme surplus. S'en rendant compte avant de finir, elle relave aussitôt ce coin avec l'intention de l'obligation.",
+    erreurs_frequentes: [
+      "Croire que le deuxième ou le troisième lavage rattrape l'endroit oublié au premier.",
+      "Tarder exprès à relaver l'endroit oublié : après un long délai, les ablutions sont nulles.",
+      "Oublier que la règle vaut aussi pour l'essuyage de la tête (al-Dardīr)."
+    ],
+    termes: [
+      { ar: "غَسْلَة", translit: "ghasla", def: "Un lavage : un passage de l'eau sur le membre (le premier, le deuxième, le troisième)." },
+      { ar: "فَضِيلَة", translit: "fadîla", def: "Mérite : nom d'un rang du recommandé (le deuxième chez Khalīl selon al-Ḥaṭṭāb, et chez al-Māzirī)." }
+    ],
+    quiz: [
+      { q: "Selon l'avis répandu, l'endroit oublié au premier lavage et atteint au deuxième, fait comme surplus, est-il valablement lavé ?",
+        choix: ["Oui, cela suffit", "Oui, si on le frotte", "Non : il faut le relaver avec l'intention de l'obligation", "Non, et il faut faire un grand lavage"],
+        bonne: 2,
+        explication: "« فَالْمَشْهُورُ أَنَّهُ لَا يُجْزِئُهُ ذَلِكَ وَلَا بُدَّ مِنْ غَسْلِهَا بِنِيَّةِ الْفَرِيضَةِ »." },
+      { q: "Que se passe-t-il si l'on tarde exprès longtemps à relaver cet endroit ?",
+        choix: ["Les ablutions sont nulles", "Rien", "Il faut seulement relaver le membre suivant", "Il faut relaver tout le membre, sans plus"],
+        bonne: 0,
+        explication: "« فَإِنْ أَخَّرَ غَسْلَهَا عَمْدًا حَتَّى طَالَ بَطَلَ وُضُوءُهُ »." },
+      { q: "Mise en situation : en commençant, un homme vise que l'obligation est ce qui couvrira tout le bras, quel que soit le lavage ; un endroit sec au premier lavage est atteint au deuxième. Que dit al-Dasūqī ?",
+        choix: ["Il doit relaver l'endroit", "Il doit recommencer ses ablutions", "Il doit faire l'ablution sèche", "Son lavage vaut"],
+        bonne: 3,
+        explication: "« وَأَمَّا لَوْ نَوَى أَنَّ الْفَرْضَ مَا عَمَّمَ مِنْ الْغَسَلَاتِ » … « فَإِنَّ الْغَسْلَ يُجْزِي »." },
+      { q: "Pourquoi, selon la réponse rapportée par Ibn ʿAbd as-Salām, la prolongation de l'intention de l'obligation ne suffit-elle pas ici ?",
+        choix: ["Parce que l'eau a manqué", "Parce que l'intention du mérite, contraire, est présente", "Parce que le délai est long", "Parce que la tête n'a pas été essuyée"],
+        bonne: 1,
+        explication: "« وَهُنَا نِيَّةُ الْفَضِيلَةِ مَوْجُودَةٌ وَهِيَ مُضَادَّةٌ لِنِيَّةِ الْفَرِيضَةِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "239" },
+    alertes: [
+      "Le Qāmūs, cité par al-Ḥaṭṭāb, vocalise le mot avec ḍamma, « اللُّمْعَةُ بِالضَّمِّ », comme le matn ; le glossaire (`glossaire-p2.js`, terme « لَمْعَة », employé aux fiches de tah-01-p14 et -p16) porte une fatḥa ; à corriger lors de la réunion des glossaires ; la fiche ne le reprend pas en terme (anomalie n° 256).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 95 (Shamela 21604, page 94)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-04-31",
+    kitab: "tah", bab: "01", fasl: "04", ordre: 31,
+    titre: "L'intention répartie sur les membres",
+    titre_ar: "أَوْ فَرَّقَ النِّيَّةَ عَلَى الْأَعْضَاءِ",
+    objectif: "Savoir que former une intention séparée pour chaque membre, sans viser l'ensemble des ablutions, ne vaut pas.",
+    matn: "أَوْ فَرَّقَ النِّيَّةَ عَلَى الْأَعْضَاءِ وَالْأَظْهَرُ فِي الْأَخِيرِ الصِّحَّةُ",
+    regle_pratique: "Celui qui lave son visage avec l'intention de lever le ḥadath sans viser la suite, puis se décide à laver ses bras avec une nouvelle intention, et ainsi jusqu'à la fin, n'a pas d'ablutions valables selon l'avis juste de l'école ; celui qui vise chaque membre en voulant achever aussitôt le tout n'est pas concerné (al-Ḥaṭṭāb ; al-Dardīr).",
+    qualification: {
+      hukm: "fard",
+      nature: "autre",
+      effet_si_omis: "Les ablutions ne valent pas : « وَالصَّحِيحُ مِنْ الْمَذْهَبِ عَدَمُ الصِّحَّةِ »."
+    },
+    explication: "Sanad décrit le cas : laver son visage avec l'intention de lever le ḥadath, sans intention pour la suite des ablutions, puis se décider après le visage à laver ses bras, et ainsi jusqu'à la fin. Celui qui lave son visage en visant la levée du ḥadath de ce membre et l'achèvement immédiat des ablutions, pensant que le ḥadath ne se lève et que les ablutions ne s'achèvent qu'avec le tout, n'est pas dans ce cas.\n\nIbn ʿArafa rapporte la difficulté : si l'on ne vise pas un membre précis, c'est ce qui est demandé ; si on le vise, on vise davantage, car viser le membre lui-même dit plus que le viser comme partie des ablutions. Sa réponse : si on vise le membre en pensant que le ḥadath se lève par l'ensemble, c'est bien davantage ; si on le vise en pensant qu'il se lève par ce membre lui-même, et de même pour les autres, c'est le lieu des deux avis.\n\nL'avis juste de l'école est que ces ablutions ne valent pas ; Ibn Bazīza dit même que c'est le texte de l'école. Ibn Rushd a jugé plus apparent le second avis et l'a attribué à Ibn al-Qāsim, ce que rapporte at-Tawḍīḥ ; c'est à quoi Khalīl renvoie par « وَالْأَظْهَرُ فِي الْأَخِيرِ الصِّحَّةُ ».",
+    aqwal: [
+      { auteur: "Ibn Bazīza (« الْمَنْصُوصُ ») ; al-Ḥaṭṭāb (« وَالصَّحِيحُ مِنْ الْمَذْهَبِ »)", avis: "Les ablutions faites avec une intention répartie ne valent pas.", statut: "non_precise" },
+      { auteur: "Ibn Rushd, qui l'attribue à Ibn al-Qāsim (d'après at-Tawḍīḥ) ; Khalīl (« وَالْأَظْهَرُ »)", avis: "Elles valent.", statut: "qawl" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « وَالْمُعْتَمَدُ مَا صَدَّرَ بِهِ » ; al-Dasūqī : « مِنْ عَدَمِ الصِّحَّةِ ».",
+    tarjih_hattab: "« وَالصَّحِيحُ مِنْ الْمَذْهَبِ عَدَمُ الصِّحَّةِ ».",
+    tanbihat: [
+      "Ibn ʿArafa : viser chaque membre en tant qu'il lève à lui seul le ḥadath, « فَهُوَ مَحَلُّ الْقَوْلَيْنِ »."
+    ],
+    divergences: [
+      "Concordance — l'avis retenu. Al-Ḥaṭṭāb : « وَالصَّحِيحُ مِنْ الْمَذْهَبِ عَدَمُ الصِّحَّةِ ». Al-Dardīr : « وَالْمُعْتَمَدُ مَا صَدَّرَ بِهِ », contre le « وَالْأَظْهَرُ » de Khalīl.",
+      "Point à comparer — ce qu'Ibn Rushd a jugé plus apparent. Al-Ḥaṭṭāb : « وَاسْتَظْهَرَ ابْنُ رُشْدٍ الْقَوْلَ الثَّانِيَ وَعَزَاهُ لِابْنِ الْقَاسِمِ ». Al-Dasūqī rapporte l'objection faite à Khalīl : « بِأَنَّ ابْنَ رُشْدٍ لَمْ يَسْتَظْهِرْ فِي مَسْأَلَةِ التَّفْرِيقِ شَيْئًا أَصْلًا » ; il a seulement jugé plus apparent l'avis d'Ibn al-Qāsim selon lequel le ḥadath se lève de chaque membre séparément (al-Bayān), sans que la validité de l'intention répartie s'ensuive (renvoi à al-Bunānī).",
+      "Concordance — viser chaque membre en voulant tout achever. Al-Ḥaṭṭāb : « فَلَيْسَ مِنْ هَذَا الْبَابِ ». Al-Dasūqī : « فَهَذَا مِنْ بَابِ التَّأْكِيدِ فَلَا يَضُرُّ ».",
+      "Complément — partager l'intention en parts. Al-Ḥaṭṭāb n'en parle pas. Al-Dardīr : donner à chaque membre un quart de l'intention ne nuit pas, « لِأَنَّ النِّيَّةَ مَعْنًى لَا تَقْبَلُ التَّجَزِّي » ; al-Dasūqī : « وَهَذَا هُوَ الْمُعْتَمَدُ », malgré l'objection d'Ibn Marzūq."
+    ],
+    exemple: "Un homme lave son visage en visant la levée de son ḥadath, sans penser à continuer ; puis il se décide à laver ses bras avec une nouvelle intention, et ainsi jusqu'aux pieds. Selon l'avis retenu, ses ablutions ne valent pas : il les refait avec une seule intention pour l'ensemble.",
+    erreurs_frequentes: [
+      "Former, pour chaque membre, une intention séparée sans viser l'ensemble des ablutions.",
+      "Croire que viser chaque membre en voulant tout achever aussitôt est interdit : cela ne nuit pas.",
+      "Prendre le « plus apparent » de Khalīl pour l'avis retenu dans la pratique."
+    ],
+    termes: [
+      { ar: "تَفْرِيقُ النِّيَّةِ", translit: "tafrîqou n-niyya", def: "Intention répartie : viser chaque membre séparément, sans viser l'ensemble des ablutions." }
+    ],
+    quiz: [
+      { q: "Selon l'avis juste de l'école, que valent des ablutions faites avec une intention séparée pour chaque membre, sans viser l'ensemble ?",
+        choix: ["Elles valent", "Elles ne valent pas", "Elles valent pour la prière surérogatoire", "Elles valent si le délai est court"],
+        bonne: 1,
+        explication: "« وَالصَّحِيحُ مِنْ الْمَذْهَبِ عَدَمُ الصِّحَّةِ » ; al-Dardīr : « وَالْمُعْتَمَدُ مَا صَدَّرَ بِهِ »." },
+      { q: "Que vise le « وَالْأَظْهَرُ فِي الْأَخِيرِ الصِّحَّةُ » de Khalīl ?",
+        choix: ["Le renouvellement", "L'endroit oublié", "L'intention conditionnelle", "L'intention répartie sur les membres, d'après Ibn Rushd"],
+        bonne: 3,
+        explication: "« وَإِلَى اسْتِظْهَارِ ابْنِ رُشْدٍ أَشَارَ بِقَوْلِهِ »." },
+      { q: "Mise en situation : une femme lave chaque membre en visant la levée du ḥadath de ce membre, tout en voulant achever aussitôt ses ablutions. Que retiennent al-Ḥaṭṭāb et al-Dasūqī ?",
+        choix: ["Ce n'est pas l'intention répartie : ses ablutions valent", "Ses ablutions sont nulles", "Elle doit recommencer depuis le visage", "Elle doit ajouter une intention finale"],
+        bonne: 0,
+        explication: "Al-Ḥaṭṭāb : « فَلَيْسَ مِنْ هَذَا الْبَابِ » ; al-Dasūqī : « فَهَذَا مِنْ بَابِ التَّأْكِيدِ فَلَا يَضُرُّ »." },
+      { q: "Selon al-Dardīr, que vaut le fait de donner à chaque membre un quart de l'intention ?",
+        choix: ["Les ablutions sont nulles", "Il faut recommencer", "Cela ne nuit pas : l'intention ne se divise pas", "Cela ne vaut que pour la tête"],
+        bonne: 2,
+        explication: "« لِأَنَّ النِّيَّةَ مَعْنًى لَا تَقْبَلُ التَّجَزِّي »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "239" },
+    alertes: [
+      "Matn : le « ص » de Mawāhib s'arrête à « عَلَى الْأَعْضَاءِ » ; al-Ḥaṭṭāb commente aussi « وَالْأَظْهَرُ فِي الْأَخِيرِ الصِّحَّةُ » ; la fiche ajoute ces mots d'après al-Dardīr (« (فِي) هَذَا الْفَرْعِ (الْأَخِيرِ الصِّحَّةُ) »).",
+      "Témoin : Ibn ʿArafa (16968, p. 51 : « ابن بشير: في صحتها مفرقة على الأعضاء قولان »).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 95 (Shamela 21604, page 94)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-04-32a",
+    kitab: "tah", bab: "01", fasl: "04", ordre: 32,
+    titre: "Perdre de vue l'intention après l'avoir formée",
+    titre_ar: "وَعُزُوبُهَا بَعْدَهُ … مُغْتَفَرٌ",
+    objectif: "Savoir qu'on n'a pas à garder l'intention à l'esprit jusqu'à la fin des ablutions.",
+    matn: "وَعُزُوبُهَا بَعْدَهُ وَرَفْضُهَا مُغْتَفَرٌ",
+    regle_pratique: "Après avoir formé l'intention au lavage du visage, on peut penser à autre chose jusqu'à la fin des ablutions : c'est toléré à cause de la difficulté, sauf si l'on forme une intention contraire (celle du surplus) ou si l'on croit avoir fini alors qu'une partie manque (al-Ḥaṭṭāb ; al-Dardīr).",
+    qualification: {
+      hukm: "mubah",
+      nature: "autre",
+      effet_si_omis: "Non précisé ; la tolérance cesse avec une intention contraire, ou quand on croit avoir fini et qu'on fait ensuite la partie oubliée sans intention : « فَلَا يُجْزِئُ »."
+    },
+    explication: "Le matn traite deux questions. La première est la perte de vue de l'intention : son interruption, le fait de ne plus y penser. Le pronom de « بَعْدَهُ » renvoie au visage : après avoir formé l'intention à sa place, au lavage du visage, cesser d'y penser est toléré. Ibn ʿAbd as-Salām et Khalīl (at-Tawḍīḥ) : le mot « toléré » montre qu'en principe il faudrait garder l'intention jusqu'à la fin de la purification ; on en est dispensé à cause de la difficulté.\n\nAl-Ḥaṭṭāb ajoute deux limites : il ne faut pas que vienne ce qui la contredit — une intention contraire, comme celle du mérite aux deuxième et troisième lavages (fiche 30, d'après Ibn ʿAbd as-Salām) — ni qu'on croie la purification achevée alors qu'on en a laissé une partie, faite ensuite sans intention, ce qui ne suffit pas (voir la continuité, fiche 21b).",
+    aqwal: [
+      { auteur: "Ibn ʿAbd as-Salām ; Khalīl (at-Tawḍīḥ)", avis: "En principe, l'intention doit être gardée jusqu'à la fin ; on en est dispensé à cause de la difficulté.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « أَيْ بَعْدَ وُقُوعِهَا فِي مَحَلِّهَا وَهُوَ أَوَّلُ مَفْعُولٍ مُغْتَفَرٌ لِمَشَقَّةِ الِاسْتِصْحَابِ ».",
+    tarjih_hattab: "« (قُلْتُ) مَا لَمْ يَأْتِ مَا يُضَادُّهَا » : une intention contraire, ou la croyance d'avoir fini.",
+    tanbihat: [
+      "Le pronom renvoie au visage : « عَائِدٌ إلَى الْوَجْهِ فِي قَوْلِهِ عِنْدَ وَجْهِهِ »."
+    ],
+    divergences: [
+      "Concordance — les deux limites. Al-Ḥaṭṭāb : sauf intention contraire ou croyance d'avoir fini. Al-Dasūqī, d'après al-Bunānī (« بْن ») : « اغْتِفَارُ عُزُوبِهَا مُقَيَّدٌ بِمَا إذَا لَمْ يَأْتِ بِنِيَّةٍ مُضَادَّةٍ كَنِيَّةِ الْفَضِيلَةِ » … « وَمُقَيَّدٌ أَيْضًا بِمَا إذَا لَمْ يَعْتَقِدْ فِي الْأَثْنَاءِ انْقِضَاءَ الطَّهَارَةِ ».",
+      "Complément — le visage ou un autre membre. Al-Ḥaṭṭāb parle du visage. Al-Dardīr : après le premier membre lavé, « وَهُوَ أَوَّلُ مَفْعُولٍ » ; al-Dasūqī : « أَيْ سَوَاءٌ كَانَ الْوَجْهَ أَوْ غَيْرَهُ »."
+    ],
+    exemple: "Une femme forme l'intention en lavant son visage, puis, en lavant ses bras, pense à ses enfants jusqu'à la fin. Ses ablutions sont valables.",
+    erreurs_frequentes: [
+      "Recommencer ses ablutions parce qu'on a pensé à autre chose en cours de route.",
+      "Croire qu'il faut répéter l'intention à chaque membre.",
+      "Oublier qu'une intention contraire, comme celle du surplus, fait cesser la tolérance."
+    ],
+    termes: [
+      { ar: "عُزُوبُ النِّيَّةِ", translit: "ʿouzoûbou n-niyya", def: "Perte de vue de l'intention : cesser d'y penser après l'avoir formée ; tolérée dans les ablutions." },
+      { ar: "نِيَّةٌ حُكْمِيَّةٌ", translit: "niyyatoun houkmiyya", def: "Intention « de règle » : celle à laquelle on ne pense plus, mais que la Loi tient pour toujours présente." }
+    ],
+    quiz: [
+      { q: "Que dit Khalīl de celui qui cesse de penser à l'intention après le lavage du visage ?",
+        choix: ["C'est toléré", "Ses ablutions sont nulles", "Il doit la répéter", "Il doit relaver le visage"],
+        bonne: 0,
+        explication: "Matn : « وَعُزُوبُهَا بَعْدَهُ وَرَفْضُهَا مُغْتَفَرٌ »." },
+      { q: "Pourquoi est-ce toléré ?",
+        choix: ["Parce que l'intention n'est pas obligatoire", "Parce qu'elle se répète d'elle-même", "À cause de la difficulté de la garder à l'esprit", "Parce que le visage suffit"],
+        bonne: 2,
+        explication: "Al-Dardīr : « لِمَشَقَّةِ الِاسْتِصْحَابِ »." },
+      { q: "Mise en situation : un homme croit avoir fini ses ablutions, puis remarque qu'il a oublié son pied gauche et le lave sans aucune intention. Que dit al-Ḥaṭṭāb ?",
+        choix: ["C'est valable", "Ce lavage ne suffit pas", "Il doit seulement prier assis", "Il doit faire un grand lavage"],
+        bonne: 1,
+        explication: "« وَإِمَّا بِأَنْ يَعْتَقِدَ انْقِضَاءَ الطَّهَارَةِ وَكَمَالَهَا » … « ثُمَّ يَأْتِي بِهِ مِنْ غَيْرِ نِيَّةٍ فَلَا يُجْزِئُ »." },
+      { q: "Selon at-Tawḍīḥ et Ibn ʿAbd as-Salām, que laisse entendre le mot « toléré » ?",
+        choix: ["Que l'intention est recommandée", "Que l'intention peut être omise", "Que le visage n'a pas besoin d'intention", "Qu'en principe il faudrait garder l'intention jusqu'à la fin"],
+        bonne: 3,
+        explication: "« قَوْلُهُ مُغْتَفَرٌ يُعْطِي أَنَّ الْأَصْلَ اسْتِصْحَابُهَا »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "239-240" },
+    alertes: [
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 95 (Shamela 21604, page 94)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-04-32b",
+    kitab: "tah", bab: "01", fasl: "04", ordre: 32,
+    titre: "Rejeter l'intention : pendant ou après les ablutions",
+    titre_ar: "وَرَفْضُهَا مُغْتَفَرٌ",
+    objectif: "Savoir ce que devient la purification de celui qui décide de la tenir pour nulle.",
+    matn: "وَعُزُوبُهَا بَعْدَهُ وَرَفْضُهَا مُغْتَفَرٌ",
+    regle_pratique: "Celui qui, après avoir achevé ses ablutions, décide de les tenir pour nulles n'annule rien : elles restent valables ; s'il le fait au milieu des ablutions, elles sont nulles selon l'avis retenu par al-Dardīr, alors qu'al-Ḥaṭṭāb rapporte un désaccord quand on les achève aussitôt (al-Ḥaṭṭāb ; al-Dardīr).",
+    qualification: {
+      hukm: "mubah",
+      nature: "mubtil",
+      effet_si_omis: "Au milieu des ablutions, selon al-Dardīr, le rejet « وَلَا يُغْتَفَرُ فِي الْأَثْنَاءِ عَلَى الرَّاجِحِ »."
+    },
+    explication: "La seconde question est le rejet de l'intention. Le mot signifie « abandonner » ; ici, « وَمَعْنَاهُ هُنَا تَقْدِيرُ مَا وُجِدَ مِنْ الْعِبَادَةِ وَالنِّيَّةُ كَالْمَعْدُومِ ». Le matn laisse entendre que le rejet ne nuit pas, après les ablutions, ou en cours si l'on revient aussitôt les achever avec l'intention de lever le ḥadath ; at-Tawḍīḥ laisse entendre qu'il y a désaccord dans les deux cas.\n\nAu milieu des ablutions. S'il ne les achève pas, ou les achève avec l'intention de se rafraîchir ou de se nettoyer, ou avec l'intention de lever le ḥadath après un long délai, elles sont nulles sans difficulté. S'il les achève aussitôt : ʿAbd al-Ḥaqq (an-Nukat) affirme que cela ne nuit pas, et Khalīl semble le retenir dans at-Tawḍīḥ ; Ibn Jamāʿa et Sanad (aṭ-Ṭirāz) affirment que cela annule les ablutions ; Ibn Nājī : c'est l'avis de la plupart des maîtres, et ce qu'an-Nukat rapporte est une de ses transmissions étranges.\n\nAprès les ablutions. Ibn Jamāʿa at-Tūnisī : sans effet, sans désaccord ; al-Lakhmī et al-Qarāfī rapportent un désaccord ; Ibn Nājī aussi, mais « la fatwa est que cela ne nuit pas » ; Sanad préfère l'absence d'effet après l'acte, et al-Lakhmī dit que c'est l'analogie ; Ibn al-Ḥājib : deux riwāyas. At-Tawḍīḥ : le désaccord touche les ablutions, la prière, le jeûne et le pèlerinage ; al-Qarāfī rapporte d'al-ʿAbdī que l'avis répandu est l'absence de rejet pour les ablutions et le pèlerinage, l'inverse pour la prière et le jeûne. Un maître d'Ibn ʿAbd as-Salām distinguait l'acte fini en fait et en effet (prière dont le temps est passé : rejet sans effet), l'acte en cours (rejet efficace) et l'acte fini en fait mais dont l'effet demeure (ablutions achevées : seul lieu du désaccord).\n\nAl-Ḥaṭṭāb juge difficile ce que dit at-Tawḍīḥ du pèlerinage : l'iḥrām n'est jamais annulé, même rejeté en cours ; Sanad : c'est l'avis de tous sauf Dāwūd ; adh-Dhakhīra de même ; et s'il ne l'est pas en cours, il l'est encore moins après. Pour la prière et le jeûne, le désaccord vaut pendant et après ; pendant, l'avis connu de l'école est la nullité. Ibn Rāshid (d'après al-Jamʿ) juge plus juste l'absence d'effet après l'acte : ce qui est arrivé ne peut être rejeté, et l'obligation est tombée. Ibn Nājī : selon la riwāya d'Ashhab, le rejet annule la purification (celui qui se prépare à dormir refait ses ablutions même s'il n'a pas dormi), Abū Isḥāq en tire que le rejet des ablutions est valable ; Ibn al-Qāsim est d'avis contraire et le compare au pèlerinage.",
+    aqwal: [
+      { auteur: "ʿAbd al-Ḥaqq (an-Nukat) ; Khalīl (at-Tawḍīḥ, semble-t-il)", avis: "Rejet au milieu des ablutions, achevées aussitôt : sans effet.", statut: "non_precise" },
+      { auteur: "Sanad (aṭ-Ṭirāz) ; Ibn Jamāʿa ; la plupart des maîtres (d'après Ibn Nājī)", avis: "Rejet au milieu des ablutions : elles sont nulles.", statut: "non_precise" },
+      { auteur: "Ibn Jamāʿa at-Tūnisī ; Sanad ; Ibn Rāshid ; Ibn al-Qāsim (d'après Ibn Nājī) ; la fatwa (d'après Ibn Nājī)", avis: "Rejet après avoir achevé les ablutions : sans effet.", statut: "non_precise" },
+      { auteur: "Mālik, selon Ashhab (d'après Ibn Nājī) ; Abū Isḥāq", avis: "Le rejet annule la purification, même achevée.", statut: "qawl" },
+      { auteur: "Al-ʿAbdī (d'après al-Qarāfī)", avis: "Pas de rejet pour les ablutions et le pèlerinage ; rejet pour la prière et le jeûne.", statut: "mashhur" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « لَا يُؤَثِّرُ بُطْلَانًا إنْ وَقَعَ بَعْدَ الْفَرَاغِ مِنْهُ وَلَا يُغْتَفَرُ فِي الْأَثْنَاءِ عَلَى الرَّاجِحِ وَإِنْ كَانَ ظَاهِرُ الْمُصَنِّفِ اغْتِفَارَهُ ».",
+    tarjih_hattab: "Sur le pèlerinage, contre at-Tawḍīḥ : « وَلَمْ أَرَ فِي ذَلِكَ خِلَافًا » ; ce que dit at-Tawḍīḥ « وَهُوَ مُشْكِلٌ ».",
+    tanbihat: [
+      "Al-Qarāfī : « وَالْقَاعِدَةُ الْعَقْلِيَّةُ أَنَّ رَفْعَ الْوَاقِعِ مُحَالٌ » ; il juge la question parmi les plus difficiles et avoue n'en pas trouver la solution.",
+      "Ibn ʿAbd as-Salām trouve la distinction de son maître « أَحْسَنُ مِنْ جِهَةِ الْفِقْهِ لَوْ سَاعَدَتْ الْأَنْقَالُ ».",
+      "At-Tawḍīḥ explique la différence : les ablutions ont un sens saisissable (les ḥanafites n'y exigent pas l'intention) et le pèlerinage mêle biens et corps, d'où une intention moins appuyée, dont le rejet compte moins."
+    ],
+    divergences: [
+      "Divergence — le rejet au milieu des ablutions, achevées aussitôt. Al-Ḥaṭṭāb rapporte les deux avis : ʿAbd al-Ḥaqq, « أَنَّ ذَلِكَ لَا يَضُرُّ », qu'at-Tawḍīḥ semble retenir, et Sanad et Ibn Jamāʿa, « أَنَّ ذَلِكَ مُبْطِلٌ لِلْوُضُوءِ ». Al-Dardīr : « وَلَا يُغْتَفَرُ فِي الْأَثْنَاءِ عَلَى الرَّاجِحِ » ; al-Dasūqī : le désaccord ne vise que celui qui achève aussitôt avec la première intention ; sinon, « لَمْ يُخْتَلَفْ فِي بُطْلَانِهِ ».",
+      "Concordance — le pèlerinage. Al-Ḥaṭṭāb : l'iḥrām n'est pas annulé, « وَلَمْ أَرَ فِي ذَلِكَ خِلَافًا ». Al-Dardīr : « وَأَمَّا الْحَجُّ وَالْعُمْرَةُ فَلَا يُرْتَفَضَانِ مُطْلَقًا ».",
+      "Point à comparer — la prière et le jeûne. Al-Ḥaṭṭāb : désaccord, pendant comme après ; pendant, l'avis connu est la nullité. Al-Dardīr : « فَيَبْطُلَانِ بِرَفْضِهِمَا فِي الْأَثْنَاءِ قَطْعًا » ; après, « قَوْلَانِ مُرَجَّحَانِ » ; al-Dasūqī : « وَإِنْ كَانَ الْأَقْوَى مِنْهُمَا عَدَمَ الْبُطْلَانِ كَمَا قَرَّرَ شَيْخُنَا » (son maître al-ʿAdawī).",
+      "Point à comparer — le grand lavage. Al-Ḥaṭṭāb, d'après Ibn Nājī : « وَظَاهِرُ كَلَامِهِ أَنَّ الْغُسْلَ لَا يُرْتَفَضُ بِلَا خِلَافٍ ». Al-Dardīr : « وَالْغُسْلُ كَالْوُضُوءِ », donc annulé par un rejet en cours.",
+      "Complément — l'ablution sèche et la licéité du rejet. Al-Ḥaṭṭāb n'en parle pas ici. Al-Dasūqī : l'ablution sèche « فَيَبْطُلُ بِرَفْضِ النِّيَّةِ فِي الْأَثْنَاءِ وَبَعْدَهُ قَوْلًا وَاحِدًا » ; et, d'après son maître al-ʿAdawī, « وَحِينَئِذٍ فَرَفْضُ الْوُضُوءِ كَنَقْضِهِ جَائِزٌ »."
+    ],
+    exemple: "Après avoir fini ses ablutions, un homme irrité se dit : « je tiens ces ablutions pour nulles », puis se reprend. Ses ablutions restent valables. S'il s'était dit cela après le lavage du visage, il devrait, selon al-Dardīr, recommencer ses ablutions.",
+    erreurs_frequentes: [
+      "Croire qu'une pensée de rejet, après les ablutions, oblige à les refaire.",
+      "Continuer des ablutions qu'on a décidé, en cours de route, de tenir pour nulles, comme si de rien n'était.",
+      "Croire que le rejet annule l'iḥrām du pèlerinage."
+    ],
+    termes: [
+      { ar: "رَفْضُ الطَّهَارَةِ", translit: "rafdou t-tahâra", def: "Annulation de la pureté par l'intention : la tenir pour nulle ; sa validité est discutée dans l'école." }
+    ],
+    quiz: [
+      { q: "Selon al-Dardīr, que deviennent des ablutions achevées qu'on décide ensuite de tenir pour nulles ?",
+        choix: ["Elles sont nulles", "Elles valent pour le Coran seulement", "Il faut les refaire avant la prière suivante", "Elles restent valables"],
+        bonne: 3,
+        explication: "« لَا يُؤَثِّرُ بُطْلَانًا إنْ وَقَعَ بَعْدَ الْفَرَاغِ مِنْهُ »." },
+      { q: "Mise en situation : en lavant ses bras, une femme décide de tenir ses ablutions pour nulles, puis se reprend aussitôt et les achève. Que retient al-Dardīr ?",
+        choix: ["Ses ablutions valent", "Ses ablutions sont nulles : le rejet en cours n'est pas toléré", "Elle doit seulement relaver les bras", "Elle doit faire l'ablution sèche"],
+        bonne: 1,
+        explication: "« وَلَا يُغْتَفَرُ فِي الْأَثْنَاءِ عَلَى الرَّاجِحِ »." },
+      { q: "Que dit al-Ḥaṭṭāb du rejet de l'iḥrām du pèlerinage ?",
+        choix: ["Il l'annule toujours", "Il l'annule s'il est fait au début", "Il ne l'annule pas, et il ne connaît pas de désaccord", "Il l'annule après le tawâf"],
+        bonne: 2,
+        explication: "« لَا يُرْتَفَضُ وَلَوْ رَفَضَهُ فِي أَثْنَائِهِ، وَلَمْ أَرَ فِي ذَلِكَ خِلَافًا »." },
+      { q: "Qu'est-ce que le « rejet » de l'intention ?",
+        choix: ["Tenir pour inexistant ce qui a été fait de l'adoration, avec son intention", "Oublier l'intention", "Former l'intention trop tôt", "Répartir l'intention sur les membres"],
+        bonne: 0,
+        explication: "« وَمَعْنَاهُ هُنَا تَقْدِيرُ مَا وُجِدَ مِنْ الْعِبَادَةِ وَالنِّيَّةُ كَالْمَعْدُومِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "240-242" },
+    alertes: [
+      "Témoin : Ibn ʿArafa (16968, p. 51 : « وفي إبطال رفضها الوضوء روايتا ابن القصار »).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 95–96 (Shamela 21604, pages 94–95)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-04-33",
+    kitab: "tah", bab: "01", fasl: "04", ordre: 33,
+    titre: "L'intention formée un peu avant : désaccord",
+    titre_ar: "وَفِي تَقَدُّمِهَا بِيَسِيرٍ خِلَافٌ",
+    objectif: "Savoir ce que vaut une intention formée peu avant les ablutions.",
+    matn: "وَفِي تَقَدُّمِهَا بِيَسِيرٍ خِلَافٌ",
+    regle_pratique: "Pour l'intention formée un peu avant les ablutions (en sortant de chez soi vers un bain proche, par exemple), il y a deux avis répandus : elle vaut, ou non ; formée longtemps avant, ou après son moment, elle ne vaut pas (al-Ḥaṭṭāb ; al-Dardīr).",
+    qualification: {
+      hukm: "fard",
+      nature: "autre",
+      effet_si_omis: "Formée longtemps avant, elle ne vaut pas, sans désaccord selon al-Māzarī (d'après at-Tawḍīḥ)."
+    },
+    explication: "« خِلَافٌ » : deux avis répandus, selon Ibn Nājī. Ibn Bashīr : l'avis répandu est la validité. Ibn ʿAbd as-Salām : le plus répandu est que l'avance a un effet (la nullité), mais la preuve demande l'inverse. Al-Māzarī : le plus juste est la non-validité ; Ibn Bazīza : c'est l'avis répandu ; ash-Shabībī : c'est l'avis juste. Ce que dira Ibn Rushd au sujet du bain et de la rivière montre que le premier est l'avis de l'école.\n\nAt-Tawḍīḥ : de même le désaccord sur celui qui va au bain ou à la rivière avec l'intention du grand lavage, puis l'oublie en se lavant. Ibn al-Qāsim (d'après ʿĪsā) : il est quitte dans les deux cas, comme celui qui a demandé aux siens de lui préparer l'eau de son grand lavage. Saḥnūn : quitte à la rivière, non au bain. Ibn Rushd (al-Bayān) explique Saḥnūn : au bain, l'intention s'est éloignée parce qu'il s'est d'abord réchauffé ; de même s'il allait à la rivière laver d'abord ses vêtements ; et sans s'être réchauffé, il serait quitte au bain comme à la rivière ; pour Ibn al-Qāsim, parti au bain pour se réchauffer puis se laver, son intention n'est pas rompue. Al-Qarāfī rapporte un avis de non-validité au bain comme à la rivière. Le mot « un peu » fait comprendre que, si l'avance est longue, l'intention ne vaut pas, sans désaccord, selon al-Māzarī.",
+    aqwal: [
+      { auteur: "Ibn Bashīr (« الْمَشْهُورُ الصِّحَّةُ ») ; Ibn Rushd (sens apparent)", avis: "L'intention formée un peu avant vaut.", statut: "mashhur" },
+      { auteur: "Al-Māzarī (« الْأَصَحُّ ») ; Ibn Bazīza (« الْمَشْهُورُ ») ; ash-Shabībī (« الصَّحِيحُ ») ; Ibn ʿAbd as-Salām (« الْأَشْهَرُ »)", avis: "Elle ne vaut pas.", statut: "mashhur" },
+      { auteur: "Ibn al-Qāsim (d'après ʿĪsā)", avis: "Celui qui va au bain ou à la rivière avec l'intention du grand lavage, puis l'oublie en se lavant, est quitte dans les deux cas.", statut: "non_precise" },
+      { auteur: "Saḥnūn", avis: "Quitte à la rivière, non au bain.", statut: "qawl" },
+      { auteur: "Avis rapporté sans attribution (d'après al-Qarāfī)", avis: "Pas quitte, ni au bain ni à la rivière.", statut: "qawl" }
+    ],
+    muatamad: "Non tranché : al-Dardīr garde « (خِلَافٌ) فِي الْإِجْزَاءِ وَعَدَمِهِ » ; al-Dasūqī rapporte seulement que son maître al-ʿAdawī tient pour plus juste la validité : « أَنَّ الْأَصَحَّ مِنْ الْقَوْلَيْنِ الْقَوْلُ بِالْإِجْزَاءِ ».",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Ibn ʿAbd as-Salām : « الْأَشْهَرُ التَّأْثِيرُ وَمُقْتَضَى الدَّلِيلِ خِلَافُهُ ».",
+      "Al-Bayān, sur l'avis de Saḥnūn : au bain, l'intention s'est éloignée « بِاشْتِغَالِهِ بِالتَّحْمِيمِ قَبْلَ الْغُسْلِ »."
+    ],
+    divergences: [
+      "Point à comparer — qui déclare quoi le plus répandu. Al-Ḥaṭṭāb : Ibn Bashīr, la validité ; Ibn ʿAbd as-Salām, « الْأَشْهَرُ التَّأْثِيرُ » ; al-Māzarī, Ibn Bazīza et ash-Shabībī, la non-validité. Al-Dasūqī : « شَهَرَ الْمَازِرِيُّ وَابْنُ بَزِيزَةَ وَالشَّبِيبِيُّ مِنْهُمَا عَدَمَ الْإِجْزَاءِ وَشَهَرَ ابْنُ رُشْدٍ وَابْنُ عَبْدِ السَّلَامِ وَالْجُزُولِيُّ الْإِجْزَاءَ » : il range Ibn ʿAbd as-Salām du côté de la validité, et ne nomme pas Ibn Bashīr.",
+      "Complément — la mesure du « peu ». Al-Ḥaṭṭāb n'en donne pas. Al-Dardīr : « كَنِيَّتِهِ عِنْدَ خُرُوجِهِ مِنْ بَيْتِهِ إلَى حَمَّامٍ مِثْلِ الْمَدِينَةِ الْمُنَوَّرَةِ » ; al-Dasūqī, d'après « المج » (al-Majmūʿ de Muḥammad al-Amīr) : on suppose qu'interrogé au début sur ce qu'il fait, il ne répondrait pas « je fais mes ablutions », « وَإِلَّا فَهِيَ نِيَّةٌ حُكْمًا ».",
+      "Concordance — l'intention très anticipée ou tardive. Al-Ḥaṭṭāb, d'après at-Tawḍīḥ : longue avance, « لَمْ يَجُزْ بِلَا خِلَافٍ ». Al-Dardīr : « فَإِنْ تَقَدَّمَتْ بِكَثِيرٍ فَعَدَمُ الْإِجْزَاءِ قَوْلًا وَاحِدًا كَأَنْ تَأَخَّرَتْ عَنْ مَحَلِّهَا »."
+    ],
+    exemple: "Un homme quitte sa maison avec l'intention de faire ses ablutions à la mosquée voisine ; arrivé, il les fait en pensant à autre chose. Les savants de l'école sont partagés sur la valeur de son intention. S'il l'avait formée la veille au soir, elle ne vaudrait pas.",
+    erreurs_frequentes: [
+      "Croire qu'une intention formée longtemps avant (la veille, par exemple) suffit.",
+      "Croire qu'on peut former l'intention après avoir lavé le visage.",
+      "Présenter l'un des deux avis comme le seul de l'école."
+    ],
+    termes: [
+      { ar: "تَقَدُّمُ النِّيَّةِ", translit: "taqaddoumou n-niyya", def: "Intention anticipée : formée avant son moment (le lavage du visage)." },
+      { ar: "حَمَّام", translit: "hammâm", def: "Bain public." }
+    ],
+    quiz: [
+      { q: "Que dit Khalīl d'une intention formée un peu avant les ablutions ?",
+        choix: ["Elle vaut, sans désaccord", "Elle ne vaut pas, sans désaccord", "Il y a désaccord", "Elle vaut seulement pour le grand lavage"],
+        bonne: 2,
+        explication: "Matn : « وَفِي تَقَدُّمِهَا بِيَسِيرٍ خِلَافٌ » ; « أَيْ قَوْلَانِ مَشْهُورَانِ »." },
+      { q: "Et d'une intention formée longtemps avant ?",
+        choix: ["Elle vaut", "Elle vaut si l'on prie aussitôt", "Il y a désaccord", "Elle ne vaut pas, sans désaccord"],
+        bonne: 3,
+        explication: "« أَنَّهُ لَوْ كَانَ كَثِيرًا لَمْ يَجُزْ بِلَا خِلَافٍ »." },
+      { q: "Mise en situation : une femme va au bain public avec l'intention du grand lavage, s'y réchauffe d'abord, puis se lave en ayant oublié la janâba. Que dit Saḥnūn ?",
+        choix: ["Elle est quitte", "Elle n'est pas quitte : au bain, l'intention s'est éloignée", "Elle doit seulement relaver la tête", "Elle doit faire l'ablution sèche"],
+        bonne: 1,
+        explication: "« وَقَالَ سَحْنُونٌ يُجْزِيهِ فِي النَّهْرِ لَا فِي الْحَمَّامِ »." },
+      { q: "Quel exemple al-Dardīr donne-t-il d'une intention formée « un peu » avant ?",
+        choix: ["En sortant de chez soi vers un bain proche", "La veille au soir", "Après le lavage du visage", "Pendant la prière précédente"],
+        bonne: 0,
+        explication: "« كَنِيَّتِهِ عِنْدَ خُرُوجِهِ مِنْ بَيْتِهِ إلَى حَمَّامٍ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "242" },
+    alertes: [
+      "Témoin : Ibn ʿArafa (16968, p. 50 : « وفي عفو يسير الفصل نقلا ابن رشد والمازري مصححًا الثاني »).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 96 (Shamela 21604, page 95)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-04-34a",
+    kitab: "tah", bab: "01", fasl: "04", ordre: 34,
+    titre: "Première sunna : se laver les mains trois fois, par culte",
+    titre_ar: "وَسُنَنُهُ غَسْلُ يَدَيْهِ أَوَّلًا ثَلَاثًا تَعَبُّدًا … — الْحُكْمُ وَالصِّفَةُ",
+    objectif: "Connaître le statut du lavage des mains au début des ablutions et ses conditions.",
+    matn: "وَسُنَنُهُ غَسْلُ يَدَيْهِ أَوَّلًا ثَلَاثًا تَعَبُّدًا بِمُطْلَقٍ وَنِيَّةٍ وَلَوْ نَظِيفَتَيْنِ أَوْ أَحْدَثَ فِي أَثْنَائِهِ مُفْتَرِقَتَيْنِ",
+    regle_pratique: "Au début des ablutions, il est sunna de se laver les mains trois fois avant de les plonger dans le récipient, avec de l'eau absolue et l'intention de la sunna, même si elles sont propres et même si l'on a eu un ḥadath au milieu des ablutions, en les lavant séparément (al-Ḥaṭṭāb ; al-Dardīr).",
+    qualification: {
+      hukm: "sunna",
+      nature: "autre",
+      effet_si_omis: "Sans eau absolue ni intention, la sunna n'est pas obtenue : « لَا تَحْصُلُ السُّنَّةُ إلَّا إذَا غَسَلَهُمَا بِالْمَاءِ الْمُطْلَقِ »."
+    },
+    explication: "Après les obligations, Khalīl donne les sunna des ablutions ; il en compte huit. La première est le lavage des mains, premier geste des ablutions. Selon l'avis répandu, c'est une sunna ; autre avis : c'est recommandé ; al-Jazūlī rapporte un troisième avis : recommandé si l'on a touché l'eau récemment, sunna sinon. Hors de l'école, on l'a dit obligatoire (sens apparent du hadith), obligatoire pour celui qui se réveille, pour celui qui a dormi la nuit, ou pour celui qui est en état de janâba.\n\n« أَوَّلًا » : au début des ablutions, avant de plonger les mains dans le récipient, d'après le hadith : « إذَا اسْتَيْقَظَ أَحَدُكُمْ مِنْ نَوْمِهِ فَلْيَغْسِلْ يَدَيْهِ قَبْلَ أَنْ يُدْخِلَهُمَا فِي وُضُوئِهِ ». « ثَلَاثًا » : c'est l'avis connu ; al-Jazūlī rapporte un désaccord, trois fois ou deux, les hadiths différant. « تَعَبُّدًا » : par culte, c'est l'avis répandu, celui d'Ibn al-Qāsim ; Ashhab : pour la propreté. « بِمُطْلَقٍ وَنِيَّةٍ » : la sunna n'est obtenue qu'avec de l'eau absolue et l'intention de la sunna des ablutions.\n\n« وَلَوْ نَظِيفَتَيْنِ », « أَوْ أَحْدَثَ فِي أَثْنَائِهِ », « مُفْتَرِقَتَيْنِ » : conséquences de l'avis du culte ; selon l'avis de la propreté, c'est l'inverse (at-Tawḍīḥ). At-Tawḍīḥ discute : pourquoi ne pas laver des mains propres même pour la propreté, comme on demande le lavage du vendredi à qui est propre ?\n\nCelui qui a un ḥadath au milieu de ses ablutions relave ses mains avant de les plonger dans le récipient (Sanad, al-Lakhmī, et l'audition d'Abū Zayd). Sanad rejette l'avis de certains shāfiʿites qui laissent le choix à celui qui est sûr de la pureté de ses mains : le lavage a été prescrit avant de les plonger, et nul parmi les anciens n'a dit de les plonger puis de les laver.",
+    aqwal: [
+      { auteur: "Avis rapporté sans attribution (Khalīl)", avis: "Se laver les mains est une sunna.", statut: "mashhur" },
+      { auteur: "Avis rapporté sans attribution", avis: "C'est recommandé.", statut: "qawl" },
+      { auteur: "Certains (d'après al-Jazūlī)", avis: "Recommandé si l'on a touché l'eau récemment, sunna sinon.", statut: "qawl" },
+      { auteur: "Ibn al-Qāsim", avis: "On les lave par culte.", statut: "mashhur" },
+      { auteur: "Ashhab", avis: "On les lave pour la propreté.", statut: "qawl" },
+      { auteur: "Al-Jazūlī", avis: "Désaccord : trois fois ou deux.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « (وَسُنَنُهُ) ثَمَانٍ أُولَاهَا (غَسْلُ يَدْيِهِ) إلَى كُوعَيْهِ » ; « (تَعَبُّدًا) لَا لِلنَّظَافَةِ » ; « (مُفْتَرِقَتَيْنِ) نَدْبًا عَلَى الرَّاجِحِ ».",
+    tarjih_hattab: null,
+    tanbihat: [
+      "At-Tawḍīḥ : « لِمَ لَا يَجُوزُ أَنْ يُسَنَّ لِنَظِيفِ الْيَدِ الْغَسْلُ وَلَوْ قُلْنَا أَنَّهُ تَنْظِيفٌ », comme le lavage du vendredi.",
+      "Sanad sur l'avis de certains shāfiʿites : « هَذِهِ قَوْلَةٌ مُتَهَافِتَةٌ »."
+    ],
+    divergences: [
+      "Point à comparer — le nombre de trois et le culte. Al-Ḥaṭṭāb : « وَقَوْلُهُ: ثَلَاثًا هَذَا هُوَ الْمَعْرُوفُ » ; il rattache au culte le lavage de mains propres, après un ḥadath, séparé, non le nombre. Al-Dasūqī, d'après al-Bunānī : Ibn al-Qāsim et Ashhab s'accordent sur les trois fois, « خِلَافًا للح تَبَعًا لِلْبِسَاطِيِّ فِي أَنَّهُ مَبْنِيٌّ عَلَى التَّعَبُّدِ » (« ح » : al-Ḥaṭṭāb) ; cette attribution n'est pas dans le passage de Mawāhib lu (569/241–242).",
+      "Point à comparer — les trois fois, partie de la sunna ou non. Al-Ḥaṭṭāb : trois, l'avis connu. Al-Dardīr : « (ثَلَاثًا) مِنْ تَمَامِ السُّنَّةِ » ; puis « وَقِيلَ تَحْصُلُ السُّنَّةُ بِالْمَرَّةِ الْأُولَى », chacun des deux ayant été préféré ; al-Dasūqī : son maître al-ʿAdawī juge le second « وَهُوَ أَوْجَهُ مِنْ الْأَوَّلِ ».",
+      "Concordance — l'eau absolue et l'intention. Al-Ḥaṭṭāb : sans elles, pas de sunna. Al-Dasūqī : c'est l'avis du culte ; sur celui de la propreté, « تَحْصُلُ السُّنَّةُ بِغَسْلِهِمَا وَلَوْ بِمُضَافٍ وَلَوْ بِغَيْرِ نِيَّةٍ »."
+    ],
+    exemple: "Au lavabo, une femme aux mains propres se lave d'abord les mains trois fois, en visant la sunna des ablutions, puis commence le reste.",
+    erreurs_frequentes: [
+      "Ne pas se laver les mains parce qu'elles sont propres.",
+      "Les laver sans intention, ou avec une eau qui n'est pas absolue : la sunna n'est pas obtenue.",
+      "Oublier de relaver ses mains après un ḥadath survenu au milieu des ablutions."
+    ],
+    termes: [
+      { ar: "سُنَّة", translit: "sounna", def: "Rang le plus haut du recommandé, selon tous les auteurs cités par al-Ḥaṭṭāb." },
+      { ar: "تَعَبُّد", translit: "taʿabboud", def: "Pur culte : acte prescrit dont on ne saisit pas la cause, accompli par obéissance." }
+    ],
+    quiz: [
+      { q: "Selon l'avis répandu, quel est le statut du lavage des mains au début des ablutions ?",
+        choix: ["Obligatoire", "Sunna", "Déconseillé", "Sans statut"],
+        bonne: 1,
+        explication: "« وَالْمَشْهُورُ كَمَا ذَكَرَ أَنَّ غَسْلَهُمَا سُنَّةٌ »." },
+      { q: "Pourquoi les lave-t-on même propres, selon Ibn al-Qāsim ?",
+        choix: ["Par culte", "Pour la propreté", "Pour se rafraîchir", "Parce qu'elles sont toujours impures"],
+        bonne: 0,
+        explication: "« وَقَوْلُهُ: تَعَبُّدًا هَذَا هُوَ الْمَشْهُورُ وَهُوَ قَوْلُ ابْنِ الْقَاسِمِ »." },
+      { q: "Mise en situation : au milieu de ses ablutions, un homme laisse échapper un vent ; il reprend ses ablutions. Doit-il relaver ses mains avant de les plonger dans le récipient ?",
+        choix: ["Non, c'est inutile", "Seulement si elles sont sales", "Oui, d'après le matn et Sanad", "Seulement la main droite"],
+        bonne: 2,
+        explication: "« مَنْ أَحْدَثَ فِي أَثْنَاءِ وُضُوئِهِ فَإِنَّهُ يُسَنُّ لَهُ أَنْ يَغْسِلَ يَدَيْهِ قَبْلَ أَنْ يُدْخِلَهُمَا فِي الْإِنَاءِ »." },
+      { q: "Que perd celui qui se lave les mains sans intention ?",
+        choix: ["Rien", "La validité de ses ablutions", "Le droit de prier", "La sunna, qui n'est pas obtenue"],
+        bonne: 3,
+        explication: "« يَعْنِي أَنَّهُ لَا تَحْصُلُ السُّنَّةُ إلَّا إذَا غَسَلَهُمَا بِالْمَاءِ الْمُطْلَقِ وَنَوَى »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "242-243" },
+    alertes: [
+      "Témoin : Ibn ʿArafa (16968, p. 63 : « وفي استحباب غسلهما مفترقتين أو مجتمعتين نقلا ابن زرقون عن مالك وابن القاسم »).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 96–97 (Shamela 21604, pages 95–96)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-04-34b",
+    kitab: "tah", bab: "01", fasl: "04", ordre: 34,
+    titre: "Mains douteuses ou impures, grand récipient, manière de les laver",
+    titre_ar: "غَسْلُ يَدَيْهِ أَوَّلًا — قَبْلَ إدْخَالِهِمَا الْإِنَاءَ",
+    objectif: "Savoir quand et comment se laver les mains avant de les plonger dans l'eau.",
+    matn: "وَسُنَنُهُ غَسْلُ يَدَيْهِ أَوَّلًا ثَلَاثًا تَعَبُّدًا بِمُطْلَقٍ وَنِيَّةٍ وَلَوْ نَظِيفَتَيْنِ أَوْ أَحْدَثَ فِي أَثْنَائِهِ مُفْتَرِقَتَيْنِ",
+    regle_pratique: "On se lave les mains avant de les plonger dans un récipient d'où l'on peut verser ; si l'eau est courante ou abondante, ou si l'on ne peut pas verser, on y plonge des mains propres ; des mains impures, on trouve un moyen de les laver dehors (avec la bouche, un tissu), et si c'est impossible, on fait l'ablution sèche (al-Ḥaṭṭāb ; al-Dardīr).",
+    qualification: {
+      hukm: "sunna",
+      nature: "autre",
+      effet_si_omis: "Mains impures plongées dans un récipient d'où l'on pouvait verser : selon Ibn Rushd, l'eau devient impure « عَلَى مَذْهَبِ ابْنِ الْقَاسِمِ »."
+    },
+    explication: "Le lavage n'est sunna que si l'on est sûr de la pureté des mains. Ibn ʿArafa : « وَسُنَنُهُ غَسْلُ يَدَيْهِ الطَّاهِرَتَيْنِ قَبْلَ إدْخَالِهِمَا فِي إنَائِهِ » ; Abū ʿUmar : selon l'avis répandu, ne pas le faire est déconseillé ; Ashhab : ce n'est pas exigé. Ibn al-Qāsim (audition) : celui qui sort du sommeil et plonge ses mains dans son récipient, pas de mal à son eau ; Ibn Ghāfiq at-Tūnisī (d'après Ibn Ḥārith) : il la gâte, même s'il les sait pures ; Ibn Rushd : sûr qu'elles sont impures, c'est clair ; sûr qu'elles sont pures, l'eau est pure ; dans le doute de même, même en état de janâba.\n\nLe récipient. Az-Zarrūq se demandait si le bassin entre dans « le récipient » ; pour l'eau courante, pas de difficulté. Al-Ḥaṭṭāb : l'eau abondante — grand bassin, grande vasque — est comme l'eau courante. Al-Bayān : dans un grand récipient de pierre (mihrâs) ou une mare, d'où l'on ne peut se laver les mains qu'en les y plongeant, on les y plonge si l'on n'y sait pas de saleté, sans prendre l'eau avec la bouche, ce qui n'est pas l'usage (Mālik y voit un excès) ; si elles sont impures, on trouve un moyen de les laver dehors : avec la bouche, un tissu, ce qu'on peut. Ibn al-Qāsim, s'il n'y a aucun moyen : « je ne sais que dire », sauf si l'eau est abondante. Ibn Rushd : une main impure n'entre que dans une eau assez abondante pour porter cette impureté ; l'eau prise dans la bouche se mêle de salive et n'ôte pas la règle de l'impureté, mais en ôte la matière, et l'eau où l'on plonge ensuite la main n'est pas rendue impure, sans désaccord. Bilan d'Ibn Rushd : au grand récipient, sûr de leur pureté, on les y plonge ; sûr de leur impureté, non, on use d'un moyen ; dans le doute, on les y plonge (Mālik), ou non (sens apparent du propos d'Abū Hurayra). Au récipient d'où l'on peut verser, on ne les y plonge pas avant de les avoir lavées ; si on l'a fait, l'eau est pure si la main l'est, impure si elle est impure selon Ibn al-Qāsim ; sans impureté connue, la main est présumée pure, qu'on se soit levé en état de janâba ou non.\n\nYūsuf b. ʿUmar : « avant de les plonger dans le récipient » n'est pas voulu ; ce qui compte est de les laver au début des ablutions, au récipient comme à la rivière. Al-Muntaqā (al-Bājī), pour celui qui n'a aucun moyen : si l'impureté altère l'eau, il est comme celui qui n'a pas d'eau ; sinon, il y plonge la main puis la lave avec l'eau qu'il puise, ce qui est seulement déconseillé quand il y a une autre eau, et vaut mieux que l'ablution sèche selon les compagnons ; selon Ibn al-Qāsim, il ne plonge pas la main et fait l'ablution sèche.\n\nLa manière. Ibn al-Munayyir : verser trois fois sur la droite et la laver, puis verser avec elle sur la gauche. Al-Bayān : le choix de Mālik est de verser sur la main droite et de laver les deux ensemble ; les laver l'une après l'autre est permis ; pour le reste des ablutions, Mālik préfère puiser à deux mains, Ibn al-Qāsim d'une seule, ce qu'Ibn Rushd juge meilleur. Aṭ-Ṭirāz : Ashhab rapporte de Mālik qu'on lave la droite, puis qu'on la plonge et qu'on verse sur la gauche ; Ibn al-Qāsim (riwāya de ʿĪsā) préfère verser sur les deux et les laver, comme dans le hadith.",
+    aqwal: [
+      { auteur: "Abū ʿUmar (d'après Ibn ʿArafa)", avis: "Ne pas se laver les mains avant de les plonger est déconseillé.", statut: "mashhur" },
+      { auteur: "Ashhab (d'après Ibn ʿArafa)", avis: "Ce n'est pas exigé.", statut: "qawl" },
+      { auteur: "Ibn Ghāfiq at-Tūnisī (d'après Ibn Ḥārith)", avis: "Plonger ses mains au réveil gâte l'eau, même si elles sont pures.", statut: "qawl" },
+      { auteur: "Mālik (audition d'Ashhab) ; Abū Hurayra (sens apparent)", avis: "Grand récipient, mains de pureté incertaine : il les y plonge (Mālik) ; il ne les y plonge pas (Abū Hurayra).", statut: "non_precise" },
+      { auteur: "Yūsuf b. ʿUmar", avis: "« Avant de les plonger dans le récipient » n'est pas voulu : on les lave au début des ablutions, au récipient comme à la rivière.", statut: "non_precise" },
+      { auteur: "Al-Bājī (al-Muntaqā) ; les compagnons", avis: "Mains impures, sans autre moyen, l'impureté n'altérant pas l'eau : il y plonge la main, ce qui vaut mieux que l'ablution sèche ; selon Ibn al-Qāsim, il fait l'ablution sèche.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « أَيْ قَبْلَ إدْخَالِهِمَا فِي الْإِنَاءِ كَمَا هُوَ الْمَنْصُوصُ إنْ كَانَ الْمَاءُ غَيْرَ جَارٍ وَقَدْرَ آنِيَةِ وُضُوءٍ أَوْ غُسْلٍ وَأَمْكَنَ الْإِفْرَاغُ مِنْهُ » ; sinon, « وَإِلَّا تَحَيَّلَ عَلَى غَسْلِهِمَا خَارِجَهُ وَإِلَّا تَرَكَهُ وَتَيَمَّمَ » ; al-Dasūqī : « وَعَلَى هَذَا الْقَوْلِ مَشَى الشَّارِحُ وَهُوَ الْمُعْتَمَدُ ».",
+    tarjih_hattab: "Pour l'eau abondante : « (قُلْتُ) وَمِثْلُ الْجَارِي الْمَاءُ الْكَثِيرُ مِثْلُ الْحَوْضِ الْكَبِيرِ وَالْبِرْكَةِ الْكَبِيرَةِ » ; sur al-Muntaqā : « وَهُوَ ظَاهِرٌ ».",
+    tanbihat: [
+      "Az-Zarrūq, sur le bassin : « فَإِنِّي لَمْ أَقِفْ عَلَيْهِ ».",
+      "Prendre l'eau avec la bouche pour se laver des mains pures : Mālik y voit un excès, « مِنْ التَّعَمُّقِ ».",
+      "Al-Ḥaṭṭāb termine par une anecdote édifiante, rapportée d'un commentateur de Muslim, sur un homme qui s'était moqué du hadith « فَإِنَّهُ لَا يَدْرِي أَيْنَ بَاتَتْ يَدُهُ »."
+    ],
+    divergences: [
+      "Concordance — eau courante ou abondante. Al-Ḥaṭṭāb : l'eau abondante est comme l'eau courante. Al-Dardīr : « وَأَمَّا الْمَاءُ الْجَارِي مُطْلَقًا وَالْكَثِيرُ فَلَا تَتَوَقَّفُ السُّنَّةُ عَلَى غَسْلِهِمَا خَارِجَهُ ».",
+      "Concordance — l'ablution sèche. Al-Ḥaṭṭāb, d'après al-Muntaqā : selon Ibn al-Qāsim, « لَا يُدْخِلُ يَدَهُ وَيَتَيَمَّمُ ». Al-Dardīr : « وَإِلَّا تَرَكَهُ وَتَيَمَّمَ لِأَنَّهُ كَعَادِمِ الْمَاءِ ».",
+      "Point à comparer — « avant de les plonger » : voulu ou non. Al-Ḥaṭṭāb rapporte Yūsuf b. ʿUmar : « قَوْلُهُ قَبْلَ دُخُولِهِمَا فِي الْإِنَاءِ غَيْرُ مَقْصُودٍ ». Al-Dasūqī écarte cette lecture (« كَمَا قِيلَ ») : la sunna ne dépend du lavage hors de l'eau que pour un récipient d'eau non courante, de la taille d'un récipient d'ablutions, d'où l'on peut verser, « وَهُوَ الْمُعْتَمَدُ ».",
+      "Concordance — séparément ou ensemble. Al-Ḥaṭṭāb, d'après aṭ-Ṭirāz : Ashhab rapporte de Mālik la droite puis la gauche ; Ibn al-Qāsim (riwāya de ʿĪsā) préfère verser sur les deux. Al-Dasūqī : « وَاعْلَمْ أَنَّ طَلَبَ تَفْرِيقِهِمَا فِي الْغَسْلِ هُوَ رِوَايَةُ أَشْهَبَ عَنْ مَالِكٍ وَقَالَ ابْنُ الْقَاسِمِ يَغْسِلُهُمَا مَجْمُوعَتَيْنِ ».",
+      "Complément — statut de la séparation. Al-Dardīr : « نَدْبًا عَلَى الرَّاجِحِ وَقِيلَ هُوَ مِنْ تَمَامِ السُّنَّةِ »."
+    ],
+    exemple: "À la mosquée, un homme fait ses ablutions à un bassin d'où il ne peut pas verser : ses mains sont propres, il les y plonge. Une autre fois, ses mains sont souillées et il n'a qu'un seau : il verse d'abord de l'eau dessus, hors du seau, avant de les y plonger.",
+    erreurs_frequentes: [
+      "Plonger des mains souillées dans un petit récipient d'eau.",
+      "Prendre l'eau avec la bouche pour laver des mains propres : Mālik y voit un excès.",
+      "Croire qu'il faut toujours verser l'eau à part, même à un robinet ou à une rivière."
+    ],
+    termes: [
+      { ar: "مِهْرَاس", translit: "mihrâs", def: "Grand récipient de pierre, d'où l'on ne peut pas verser l'eau sur les mains." },
+      { ar: "تَحَيُّل", translit: "tahayyoul", def: "Recours à un moyen détourné (prendre l'eau avec la bouche, un tissu) pour se laver les mains hors du récipient." },
+      { ar: "المَاءُ الجَارِي", translit: "al-mâ'ou l-jârî", def: "Eau courante." }
+    ],
+    quiz: [
+      { q: "Mains propres, grand récipient de pierre d'où l'on ne peut pas verser : que fait-on, selon al-Bayān ?",
+        choix: ["On y plonge les mains", "On fait l'ablution sèche", "On renonce aux ablutions", "On attend une autre eau"],
+        bonne: 0,
+        explication: "« فَإِنْ لَمْ يَعْلَمْ بِهَا دَنَسًا أَدْخَلَهَا »." },
+      { q: "Mise en situation : un voyageur a les mains souillées et n'a qu'un petit seau ; il ne peut ni verser ni trouver un moyen de les laver dehors. Que dit al-Dardīr ?",
+        choix: ["Il plonge ses mains", "Il laisse l'eau et fait l'ablution sèche", "Il lave seulement le visage", "Il fait ses ablutions sans les mains"],
+        bonne: 1,
+        explication: "« وَإِلَّا تَرَكَهُ وَتَيَمَّمَ لِأَنَّهُ كَعَادِمِ الْمَاءِ »." },
+      { q: "Que dit Yūsuf b. ʿUmar des mots « avant de les plonger dans le récipient » ?",
+        choix: ["Ils sont une condition stricte", "Ils ne concernent que le grand lavage", "Ils ne sont pas voulus : on se lave les mains au début, récipient ou rivière", "Ils visent les mains impures"],
+        bonne: 2,
+        explication: "« وَالْمَقْصُودُ غَسْلُهُمَا عِنْدَ ابْتِدَاءِ الْوُضُوءِ وَسَوَاءٌ تَوَضَّأَ مِنْ الْإِنَاءِ أَوْ مِنْ النَّهْرِ »." },
+      { q: "Selon la riwāya d'Ashhab rapportée par aṭ-Ṭirāz, comment se lave-t-on les mains ?",
+        choix: ["Les deux ensemble, sans eau versée", "La gauche d'abord", "En les plongeant toutes deux", "La droite, puis on la plonge et on verse sur la gauche"],
+        bonne: 3,
+        explication: "« أَنَّهُ يَغْسِلُ الْيُمْنَى ثُمَّ يُدْخِلُهَا فِي الْإِنَاءِ فَيُفْرِغُ عَلَى الْيُسْرَى »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "243-245" },
+    alertes: [
+      "Corrigé (rédaction) : Mawāhib (569/242), citant Ibn ʿArafa, porte « وَإِنْ أَيْقَنَ طَهَارَتَهُمَا فَظَاهِرٌ » ; Ibn ʿArafa (16968, p. 63 : « وإن أيقن طهارتهما فطاهر ») porte « l'eau est pure » ; la fiche suit Ibn ʿArafa (anomalie n° 257).",
+      "Mawāhib porte, pour Ibn Ḥabīb, « إنْ بَاتَ جُنُبًا فَنَجِسٌ » (s'il a passé la nuit en janâba) ; Ibn ʿArafa (16968, p. 63 : « إن بان جنبًا فنجس ») : s'il apparaît qu'il était en janâba ; la fiche ne reprend pas cette phrase (anomalie n° 258).",
+      "L'auteur de l'anecdote finale est imprimé « ابْنُ الْمُفَصِّلِ » ; nom non vérifié, la fiche ne le nomme pas.",
+      "Témoin : Ibn ʿArafa (16968, p. 63 : « ابن حارث عن ابن غافق التونسي »).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 96–97 (Shamela 21604, pages 95–96)."
+    ],
+    verification: "verifie"
   }
 
-  /* FIN-UNITE-35 */
+  /* FIN-UNITE-36 */
 ]);

@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.28 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.29 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -54,7 +54,8 @@
    v1.26 : tah-01-04-16 découpé en 16a et 16b (« بِمَفْصِلَيْ » d'après al-Dardīr, anomalie n° 235), tah-01-04-19 en 19a et 19b ;
           titre arabe de tah-01-04-18 complété (unité 33).
    v1.27 : tah-01-04-20 découpé en 20a à 20c, tah-01-04-21 en 21a à 21d ; « أَوْ سُنَّةٌ » d'après al-Dardīr (anomalie n° 246) (unité 34).
-   v1.28 : tah-01-04-22 découpé en 22a à 22d (unité 35). */
+   v1.28 : tah-01-04-22 découpé en 22a à 22d (unité 35).
+   v1.29 : tah-01-04-32 découpé en 32a et 32b, tah-01-04-34 en 34a et 34b ; titre arabe de tah-01-04-29 « حَدَثُهُ » (anomalie n° 254) (unité 36). */
 App.data.definirPlan({
   kutub: [
     {
@@ -382,12 +383,14 @@ App.data.definirPlan({
                 { id: "tah-01-04-26", titre: "Intention de purification en général", titre_ar: "أَوْ نَوَى مُطْلَقَ الطَّهَارَةِ" }, /* p. 236 */
                 { id: "tah-01-04-27", titre: "Intention de s'autoriser ce pour quoi elle est recommandée", titre_ar: "أَوْ اسْتِبَاحَةَ مَا نُدِبَتْ لَهُ" }, /* p. 237 */
                 { id: "tah-01-04-28", titre: "« Si j'ai perdu mes ablutions, alors c'est pour cela »", titre_ar: "أَوْ قَالَ إنْ كُنْتُ أَحْدَثْتُ فَلَهُ" }, /* p. 237 */
-                { id: "tah-01-04-29", titre: "Renouvellement, puis hadath découvert", titre_ar: "أَوْ جَدَّدَ فَتَبَيَّنَ حَدَثَهُ" }, /* p. 239 */
+                { id: "tah-01-04-29", titre: "Renouvellement, puis hadath découvert", titre_ar: "أَوْ جَدَّدَ فَتَبَيَّنَ حَدَثُهُ" }, /* p. 239 ; « حَدَثُهُ » d'après al-Dardīr et al-Kharashī (anomalie n° 254) */
                 { id: "tah-01-04-30", titre: "Partie oubliée lavée avec l'intention de surplus", titre_ar: "أَوْ تَرَكَ لُمْعَةً فَانْغَسَلَتْ بِنِيَّةِ الْفَضْلِ" }, /* p. 239 */
                 { id: "tah-01-04-31", titre: "Intention répartie sur les membres", titre_ar: "أَوْ فَرَّقَ النِّيَّةَ عَلَى الْأَعْضَاءِ" }, /* p. 239 */
-                { id: "tah-01-04-32", titre: "Intention perdue de vue ensuite, ou rejetée", titre_ar: "وَعُزُوبُهَا بَعْدَهُ وَرَفْضُهَا مُغْتَفَرٌ" }, /* p. 239 */
+                { id: "tah-01-04-32a", titre: "Perdre de vue l'intention après l'avoir formée", titre_ar: "وَعُزُوبُهَا بَعْدَهُ … مُغْتَفَرٌ" }, /* p. 239 — deux sous-fiches (étape 3, v1.29) */
+                { id: "tah-01-04-32b", titre: "Rejeter l'intention : pendant ou après les ablutions", titre_ar: "وَرَفْضُهَا مُغْتَفَرٌ" }, /* p. 240 */
                 { id: "tah-01-04-33", titre: "Intention un peu avant : khilâf", titre_ar: "وَفِي تَقَدُّمِهَا بِيَسِيرٍ خِلَافٌ" }, /* p. 242 */
-                { id: "tah-01-04-34", titre: "Sunna : laver les mains d'abord, trois fois", titre_ar: "وَسُنَنُهُ غَسْلُ يَدَيْهِ أَوَّلًا ثَلَاثًا تَعَبُّدًا …" }, /* p. 242 */
+                { id: "tah-01-04-34a", titre: "Première sunna : se laver les mains trois fois, par culte", titre_ar: "وَسُنَنُهُ غَسْلُ يَدَيْهِ أَوَّلًا ثَلَاثًا تَعَبُّدًا … — الْحُكْمُ وَالصِّفَةُ" }, /* p. 242 — deux sous-fiches (étape 3, v1.29) */
+                { id: "tah-01-04-34b", titre: "Mains douteuses ou impures, grand récipient, manière de les laver", titre_ar: "غَسْلُ يَدَيْهِ أَوَّلًا — قَبْلَ إدْخَالِهِمَا الْإِنَاءَ" }, /* p. 243 */
                 { id: "tah-01-04-35", titre: "Rinçage de la bouche et aspiration de l'eau", titre_ar: "وَمَضْمَضَةٌ وَاسْتِنْشَاقٌ" }, /* p. 245 */
                 { id: "tah-01-04-36", titre: "Insister quand on ne jeûne pas", titre_ar: "وَبَالَغَ مُفْطِرٌ" }, /* p. 246 */
                 { id: "tah-01-04-37", titre: "Six poignées, ou une seule", titre_ar: "وَفِعْلُهُمَا بِسِتٍّ أَفْضَلُ وَجَازَا أَوْ أَحَدُهُمَا …" }, /* p. 246 */

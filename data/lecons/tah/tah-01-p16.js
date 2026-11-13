@@ -1,10 +1,11 @@
-/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 16 — v4.10
+/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 16 — v4.11
    Source : Mawāhib al-Jalīl, al-Ḥaṭṭāb, éd. Dār al-Fikr, 3e éd., 1412 H / 1992, tome 1 (shamela.ws/book/569).
    Croisement : al-Sharḥ al-kabīr d'al-Dardīr et Ḥāshiyat al-Dasūqī (shamela.ws/book/21604), tome 1.
    Cette partie : faṣl tah-01-04 (les ablutions), à partir de tah-01-04-14 (unités 33 et suivantes) — t. 1, p. 210 et suivantes.
    v4.8 : unité 33 — tah-01-04-14, -15, -16a, -16b, -17, -18, -19a, -19b (2026-11-12) ; nouvelle partie, tah-01-p15.js (≈ 130 Ko) n'ayant plus la place d'une unité.
    v4.9 : unité 34 — tah-01-04-20a à -20c, -21a à -21d (2026-11-12).
    v4.10 : tah-01-04-21a — divergence sur la nature du désaccord (mention de « ح » chez al-Dasūqī, anomalie n° 249) (unité 35, 2026-11-13).
+   v4.11 : tah-01-04-21a — n° 249 précisé à l'audit (al-Zurqānī, al-Bunānī) (unité 36, 2026-11-13).
    Bāb découpé en parties de moins de 200 Ko ;
    historique des versions : tah-01-p1.js (jusqu'à v2.5) puis l'en-tête de chaque partie. */
 App.data.ajouterFiches([
@@ -813,7 +814,7 @@ App.data.ajouterFiches([
       "Concordance — l'avis retenu. Al-Ḥaṭṭāb : l'interruption voulue fait refaire ablutions et prières, le reste n'étant qu'une question de mots. Al-Dardīr : le désaccord porte sur l'avis à déclarer le plus répandu, « (خِلَافٌ) فِي التَّشْهِيرِ », et il donne la préférence au premier.",
       "Concordance — la courte interruption voulue, déconseillée. Al-Ḥaṭṭāb : « لَكِنَّ وَجْهَ الْكَرَاهَةِ ظَاهِرٌ إذَا كَانَ التَّفْرِيقُ لِغَيْرِ عُذْرٍ ». Al-Dasūqī : « فَيُكْرَهُ إنْ كَانَ عَمْدًا عَلَى الْمُعْتَمَدِ » ; al-Dardīr : « وَكَذَا لَوْ فَرَّقَ عَمْدًا مُخْتَارًا أَيْ مِنْ غَيْرِ نِيَّةٍ رَفَضَ فَيَبْنِي مَا لَمْ يُطِلْ عَلَى التَّحْقِيقِ ».",
       "Divergence — la limite de la courte interruption. Al-Ḥaṭṭāb : plus courte que le séchage des membres (Ibn Hārūn), contre Ibn Farḥūn. Al-Dasūqī : « وَالْيَسِيرُ مُقَدَّرٌ بِعَدَمِ الْجَفَافِ ».",
-      "Point à comparer — la nature du désaccord (ajouté à l'unité 35). Al-Ḥaṭṭāb : « فَالْخِلَافُ إنَّمَا هُوَ فِي التَّعْبِيرِ ». Al-Dasūqī : « وَح جَعَلَ الْخِلَافَ مَعْنَوِيًّا وَعِجْ جَعَلَهُ لَفْظِيًّا » (« ح » : al-Ḥaṭṭāb ; « عِجْ » : sigle non défini dans la liste d'al-Dasūqī), ce qui ne correspond pas au texte de Mawāhib (anomalie n° 249)."
+      "Point à comparer — la nature du désaccord (ajouté à l'unité 35). Al-Ḥaṭṭāb : « فَالْخِلَافُ إنَّمَا هُوَ فِي التَّعْبِيرِ ». Al-Dasūqī : « وَح جَعَلَ الْخِلَافَ مَعْنَوِيًّا وَعِجْ جَعَلَهُ لَفْظِيًّا » (« ح » : al-Ḥaṭṭāb ; « عِجْ » : sigle non défini dans la liste d'al-Dasūqī). Les sigles semblent intervertis : al-Zurqānī (14297, p. 111) tient le désaccord pour réel « لا لفظي خلافًا لح », et al-Bunānī le dit de pure formulation « كما في ح وهو الحق » (anomalie n° 249)."
     ],
     exemple: "Au milieu de ses ablutions, une personne répond longuement au téléphone, au point que ses bras et son visage ont séché, puis reprend aux pieds : elle a interrompu exprès et longuement ; elle recommence ses ablutions. Une pause de quelques secondes pour ajuster sa manche ne les annule pas.",
     erreurs_frequentes: [
@@ -849,7 +850,7 @@ App.data.ajouterFiches([
       "Corrigé (rédaction) : le « ص » de Mawāhib porte « أَوْ سَنَةٍ » ; al-Dardīr (21604, p. 92 : « (سُنَّةٌ) ») et le commentaire d'al-Ḥaṭṭāb (« وَالْقَوْلُ الثَّانِي أَنَّهَا سُنَّةٌ ») portent la sunna ; le matn de la fiche suit al-Dardīr (anomalie n° 246).",
       "Corrigé (rédaction) : dans la citation d'al-Muqaddimāt, Mawāhib porte « عَبْدِ الْعَزِيزِ بْنِ أَبِي مَسْلَمَةَ » ; Ibn ʿArafa (16968, p. 62) attribue l'avis « لابن أبي سلمة » ; la fiche écrit Ibn Abī Salama, comme à la fiche 18 (anomalie n° 247).",
       "Témoin : Ibn ʿArafa (16968, p. 62 : « ابن رشد: في فرضها وسنتها ثالثها في المغسول سنة في الممسوح لابن أبي سلمة والمشهور ورواية الأخوين »).",
-      "Al-Dasūqī (21604, p. 92) attribue à « ح » un désaccord « réel » (« مَعْنَوِيًّا »), alors que Mawāhib (569/223) le dit de pure formulation ; mention de « ح » relevée à l'unité 35, non vue à l'unité 34 ; non résolu (anomalie n° 249).",
+      "Précisé (audit après l'unité 36) : al-Dasūqī (21604, p. 92) attribue à « ح » un désaccord « réel » (« مَعْنَوِيًّا »), alors que Mawāhib (569/223) le dit de pure formulation ; al-Zurqānī (14297, p. 111 : « لا لفظي خلافًا لح ») et al-Bunānī (même page : « فهو لفظي كما في ح وهو الحق ») confirment la lecture de Mawāhib ; chez al-Dasūqī, « ح » et « عِجْ » semblent intervertis (anomalie n° 249).",
       "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 90–93 (Shamela 21604, pages 89–92)."
     ],
     verification: "verifie"
