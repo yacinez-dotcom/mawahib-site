@@ -1,9 +1,11 @@
-/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 19 — v5.4
+/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 19 — v5.5
    Source : Mawāhib al-Jalīl, al-Ḥaṭṭāb, éd. Dār al-Fikr, 3e éd., 1412 H / 1992, tome 1 (shamela.ws/book/569).
    Croisement : al-Sharḥ al-kabīr d'al-Dardīr et Ḥāshiyat al-Dasūqī (shamela.ws/book/21604), tome 1.
    Cette partie : faṣl tah-01-04 (les ablutions), à partir de tah-01-04-49 (unités 39 et suivantes) — t. 1, p. 259 et suivantes.
    v5.4 : unité 39 — tah-01-04-49 à -56 (2026-11-13) ; nouvelle partie, tah-01-p18.js (≈ 160 Ko) étant presque pleine ;
           matn de 52 à 55 complété et vocalisé d'après le Mukhtaṣar seul, al-Dardīr et al-Kharashī (n° 278 à 280), de 56 (« كَشَكِّهِ », n° 282).
+   v5.5 : unité 40 — tah-01-04-55b (segment absent du « ص » de Mawāhib, d'après al-Dardīr / al-Dasūqī, n° 281, 289) et synthèse
+          tah-01-04-syn (2026-11-13) ; fin du faṣl tah-01-04 ; audit de fin de faṣl : alertes de 50 (n° 286) et 56 (n° 283) précisées.
    Bāb découpé en parties de moins de 200 Ko ;
    historique des versions : tah-01-p1.js (jusqu'à v2.5) puis l'en-tête de chaque partie. */
 App.data.ajouterFiches([
@@ -146,7 +148,7 @@ App.data.ajouterFiches([
     ],
     ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "261-263" },
     alertes: [
-      "Précisé (rédaction) : en 569/261, la citation d'Ibn Bashīr est coupée par « (الثَّالِثَةُ) », qui ressemble à un numéro de remarque, alors que la remarque suivante d'al-Ḥaṭṭāb porte « (الثَّالِثُ) » ; la fiche lit « الثَّالِثَةُ » comme la suite d'Ibn Bashīr (n° 286).",
+      "Précisé (rédaction) : en 569/261, la citation d'Ibn Bashīr est coupée par « (الثَّالِثَةُ) », qui ressemble à un numéro de remarque, alors que la remarque suivante d'al-Ḥaṭṭāb porte « (الثَّالِثُ) » ; la fiche lit « الثَّالِثَةُ » comme la suite d'Ibn Bashīr ; audit de fin de faṣl : citation absente d'at-Tawḍīḥ (14442, p. 95–127) et d'Ibn ʿArafa (16968, p. 60–72) ; Ibn Rushd, cité par Zarrūq (14556, p. 152), donne les mêmes raisons de la réprobation, « فقيل لترك الفضيلة وقيل مخافة إن لا يعم بها », ce qui s'accorde avec une troisième raison d'Ibn Bashīr (n° 286).",
       "Témoin : Ibn ʿArafa (16968, p. 69 : « والرابعة: ممنوعة.ابن بشير: إجماعًا » ; p. 70 : « إن كانتا نقيتين فكسائر الأعضاء وإلا فلا تحديد إجماعًا »).",
       "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 101–102 (Shamela 21604, pages 100–101)."
     ],
@@ -539,11 +541,119 @@ App.data.ajouterFiches([
     ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "266-267" },
     alertes: [
       "Corrigé (rédaction) : le « ص » de Mawāhib (569/265) porte « قَالَ: كَ شَكِّهِ » ; le Mukhtaṣar seul (11355, p. 13), al-Dardīr et al-Kharashī (91, p. 139 : « قَالَ كَشَكِّهِ فِي صَوْمِ يَوْمِ عَرَفَةَ ») portent « كَشَكِّهِ » ; « قَالَ » désigne al-Māzarī, comme le précise al-Dardīr (« الْمَازِرِيُّ مُخَرِّجًا عَلَى مَسْأَلَةِ الشَّكِّ فِي ثَالِثَةٍ ») (n° 282).",
-      "Précisé (rédaction) : le « ص » de Mawāhib et al-Kharashī (91, p. 139 : « وَإِنْ شَكَّ فِي ثَالِثَةٍ فَفِي كَرَاهَتِهَا قَوْلَانِ ») n'ont pas « وَنَدْبِهَا », que portent le Mukhtaṣar seul (11355, p. 13 : « ففي كراهتها وندبها قولان ») et al-Dardīr ; même sens (al-Ḥaṭṭāb : « وَعَدَمِ كَرَاهَتِهَا وَتَكُونُ بَاقِيَةً عَلَى الْأَمْرِ ») ; matn laissé selon le « ص » ; en 569/265, « فَفِي فِي » est un doublon (n° 283).",
+      "Précisé (rédaction) : le « ص » de Mawāhib et al-Kharashī (91, p. 139 : « وَإِنْ شَكَّ فِي ثَالِثَةٍ فَفِي كَرَاهَتِهَا قَوْلَانِ ») n'ont pas « وَنَدْبِهَا », que portent le Mukhtaṣar seul (11355, p. 13 : « ففي كراهتها وندبها قولان ») et al-Dardīr ; même sens (al-Ḥaṭṭāb : « وَعَدَمِ كَرَاهَتِهَا وَتَكُونُ بَاقِيَةً عَلَى الْأَمْرِ ») ; matn laissé selon le « ص » ; en 569/265, « فَفِي فِي » est un doublon ; audit de fin de faṣl : al-Zurqānī (14297, p. 134) laisse aussi « وندبها » hors du matn (« (ففي كراهتها) أي كراهة الإتيان بها »), ʿUlaysh (21614, p. 85) l'a dans le matn (n° 283).",
       "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 104 (Shamela 21604, page 103)."
     ],
     verification: "verifie"
-  }
+  },
 
   /* FIN-UNITE-39 */
+
+  /* ================================================================== */
+  /* Unité 40 — tah-01-04-55b et synthèse tah-01-04-syn — fin du faṣl tah-01-04 */
+  /* Segment absent du « ص » de Mawāhib : al-Dardīr / al-Dasūqī, t. 1, p. 103–104 (Shamela 21604, p. 102–103) */
+  {
+    id: "tah-01-04-55b",
+    kitab: "tah", bab: "01", fasl: "04", ordre: 55,
+    titre: "Ce qui n'est pas une convenance : allonger le lavage, essuyer la nuque, ne pas s'essuyer",
+    titre_ar: "وَلَا تُنْدَبُ إِطَالَةُ الْغُرَّةِ …",
+    objectif: "Savoir que laver au-delà des limites et essuyer la nuque ne sont pas des convenances, et qu'on peut s'essuyer après les ablutions.",
+    matn: "وَلَا تُنْدَبُ إِطَالَةُ الْغُرَّةِ وَمَسْحُ الرَّقَبَةِ وَتَرْكُ مَسْحِ الْأَعْضَاءِ",
+    regle_pratique: "On ne lave pas les membres au-delà de la zone obligatoire et l'on n'essuie pas la nuque avec de l'eau : ce ne sont pas des convenances, c'est même déconseillé ; en revanche, s'essuyer avec une serviette après les ablutions est permis (al-Dardīr ; al-Dasūqī).",
+    qualification: {
+      hukm: "makruh",
+      nature: "autre",
+      effet_si_omis: "Non précisé dans les textes lus ; al-Dardīr déconseille les deux premiers actes (« بَلْ يُكْرَهُ ») et permet le troisième (« بَلْ يَجُوزُ »)."
+    },
+    explication: "Al-Ḥaṭṭāb ne commente pas ce segment : il manque au « ص » de Mawāhib (voir les alertes). La fiche suit al-Dardīr et al-Dasūqī, puis cite les autres commentaires lus.\n\nAprès la liste des convenances (fiches 45 à 55), Khalīl nie que trois choses en soient.\n\n1. Allonger la ghourra. Al-Dardīr : c'est « الزِّيَادَةُ فِي غَسْلِ أَعْضَاءِ الْوُضُوءِ عَلَى مَحَلِّ الْفَرْضِ » (laver au-delà de la zone obligatoire) ; ce n'est pas recommandé, « بَلْ يُكْرَهُ لِأَنَّهُ مِنْ الْغُلُوِّ فِي الدِّينِ » ; ce qui est recommandé, c'est « دَوَامُ الطَّهَارَةِ وَالتَّجْدِيدِ » (rester en état de pureté et renouveler ses ablutions). Al-Dasūqī : l'expression a deux sens ; l'ajout au-delà de la zone lavée est « الْمَكْرُوهُ عِنْدَ مَالِكٍ », le maintien des ablutions est « مَطْلُوبٌ عِنْدَهُ ». C'est dans ce second sens qu'on a compris le hadith « مَنْ اسْتَطَاعَ مِنْكُمْ أَنْ يُطِيلَ غُرَّتَهُ فَلْيَفْعَلْ » (que celui d'entre vous qui le peut allonge sa ghourra) : il ne contredit donc pas la réprobation.\n\n2. Essuyer la nuque. Al-Dardīr : ce n'est pas recommandé, « بَلْ يُكْرَهُ », « لِلْعِلَّةِ الْمُتَقَدِّمَةِ » ; al-Dasūqī précise : « أَيْ وَهِيَ الْغُلُوُّ فِي الدِّينِ ».\n\n3. Ne pas s'essuyer. S'abstenir d'essuyer ses membres n'est pas une convenance. Al-Dardīr : il s'agit de « تَنْشِيفُهَا مِنْ الْبَلَلِ بِخِرْقَةٍ مَثَلًا » (les sécher, avec un linge par exemple), « بَلْ يَجُوزُ ». Al-Dasūqī : on peut ne pas les essuyer, et l'on peut aussi les essuyer « بِمِنْدِيلٍ أَوْ مِنْشَفَةٍ », contrairement aux shâfiʿites, qui recommandent de ne pas le faire ou le déconseillent.\n\nAutres commentaires lus. Al-Kharashī répond à l'objection tirée de la manière dont Abū Hurayra faisait ses ablutions : l'ajout au lavage est « مِمَّا انْفَرَدَ بِهِ أَبُو هُرَيْرَةَ » ; quant au hadith de l'allongement, il n'est peut-être pas parvenu à Mālik, ou la pratique de Médine lui est contraire, ou la ghourra y désigne le maintien des ablutions. Pour la nuque : « خِلَافًا لِأَبِي حَنِيفَةَ لِعَدَمِ وُرُودِ ذَلِكَ فِي وُضُوئِهِ ». Al-Zurqānī : la formule de Khalīl nie seulement la recommandation, « ولا يعلم من كلامه عين الحكم وهو الكراهة » ; il rapporte d'al-Mudawwana, sous le sigle « د » : « لا بأس بالمسح بالمنديل بعد الوضوء ». At-Tawḍīḥ, sur la phrase d'Ibn al-Ḥājib : Ibn ʿAbd as-Salām aurait voulu qu'on compte l'allongement parmi les convenances, « لما ثَبَتَ في ذلك ».",
+    aqwal: [
+      { auteur: "Mālik (d'après al-Dasūqī)", avis: "Laver au-delà de la zone obligatoire est déconseillé ; rester en état d'ablutions est demandé.", statut: "non_precise" },
+      { auteur: "Al-Dardīr", avis: "Essuyer la nuque est déconseillé ; s'essuyer les membres est permis.", statut: "non_precise" },
+      { auteur: "Ibn ʿAbd as-Salām (d'après at-Tawḍīḥ)", avis: "On devrait compter l'allongement de la ghourra parmi les convenances.", statut: "qawl" },
+      { auteur: "Abū Ḥanīfa (d'après al-Kharashī)", avis: "Essuyer la nuque est recommandé.", statut: "non_precise" },
+      { auteur: "Les shâfiʿites (d'après al-Dasūqī et al-Kharashī)", avis: "Ne pas s'essuyer est recommandé, ou s'essuyer est déconseillé.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « وَهِيَ الزِّيَادَةُ فِي غَسْلِ أَعْضَاءِ الْوُضُوءِ عَلَى مَحَلِّ الْفَرْضِ بَلْ يُكْرَهُ » ; « لَا يُنْدَبُ (مَسْحُ الرَّقَبَةِ) بَلْ يُكْرَهُ » ; « (تَرْكُ مَسْحِ الْأَعْضَاءِ) أَيْ تَنْشِيفُهَا مِنْ الْبَلَلِ بِخِرْقَةٍ مَثَلًا بَلْ يَجُوزُ ».",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Al-Ḥaṭṭāb annonce, au début du faṣl : « وَيَأْتِي الْكَلَامُ عَلَى الْغُرَّةِ وَالتَّحْجِيلِ فِي آخِرِ الْفَصْلِ » ; ce passage ne se trouve pas dans l'édition lue (voir les alertes)."
+    ],
+    divergences: [
+      "Complément — allonger la ghourra. Al-Ḥaṭṭāb ne commente pas le segment. Al-Dardīr : « وَهِيَ الزِّيَادَةُ فِي غَسْلِ أَعْضَاءِ الْوُضُوءِ عَلَى مَحَلِّ الْفَرْضِ بَلْ يُكْرَهُ » ; al-Dasūqī : « وَإِطَالَةُ الْغُرَّةِ بِالْمَعْنَى الْأَوَّلِ هُوَ الْمَكْرُوهُ عِنْدَ مَالِكٍ ».",
+      "Complément — la nuque. Al-Ḥaṭṭāb ne commente pas le segment. Al-Dardīr : « لَا يُنْدَبُ (مَسْحُ الرَّقَبَةِ) بَلْ يُكْرَهُ » ; al-Dasūqī : « أَيْ وَهِيَ الْغُلُوُّ فِي الدِّينِ ».",
+      "Complément — s'essuyer. Al-Ḥaṭṭāb ne commente pas le segment. Al-Dardīr : « بَلْ يَجُوزُ » ; al-Dasūqī : « وَيَجُوزُ أَيْضًا مَسْحُهَا بِمِنْدِيلٍ أَوْ مِنْشَفَةٍ خِلَافًا لِلشَّافِعِيَّةِ »."
+    ],
+    exemple: "Après ses ablutions, un homme s'essuie le visage et les bras avec une serviette : c'est permis. Il ne lave pas ses bras au-delà des coudes (qui sont compris dans le lavage) et ne passe pas sa main mouillée sur sa nuque : ce ne sont pas des convenances, mais des excès déconseillés.",
+    erreurs_frequentes: [
+      "Remonter le lavage jusqu'aux épaules pour gagner du mérite : c'est l'allongement de la ghourra, déconseillé selon al-Dardīr.",
+      "Essuyer la nuque avec l'eau comme une partie des ablutions : ce n'est pas une convenance, al-Dardīr le déconseille.",
+      "Croire qu'il faut laisser sécher l'eau des ablutions sans s'essuyer : s'essuyer est permis."
+    ],
+    termes: [
+      { ar: "إِطَالَةُ الْغُرَّةِ", translit: "itâlatou l-ghourra", def: "Allonger la ghourra : laver au-delà de la zone obligatoire des membres (déconseillé) ; au second sens, rester en état d'ablutions (demandé)." },
+      { ar: "غُلُوّ", translit: "ghouloû", def: "Excès dans la religion : aller au-delà de ce qui est prescrit ; raison de la réprobation." },
+      { ar: "تَنْشِيف", translit: "tanchîf", def: "Sécher ses membres après les ablutions, avec un linge ou une serviette ; permis." }
+    ],
+    quiz: [
+      { q: "Que veut dire « allonger la ghourra » dans ce segment, selon al-Dardīr ?",
+        choix: ["Rester toujours en état d'ablutions", "Laver le visage lentement", "Laver au-delà de la zone obligatoire des membres", "Laver chaque membre trois fois"],
+        bonne: 2,
+        explication: "« وَهِيَ الزِّيَادَةُ فِي غَسْلِ أَعْضَاءِ الْوُضُوءِ عَلَى مَحَلِّ الْفَرْضِ »." },
+      { q: "Mise en situation : après ses ablutions, une femme s'essuie les mains et le visage avec une serviette. Que dit al-Dasūqī ?",
+        choix: ["C'est permis", "C'est déconseillé", "Elle doit refaire ses ablutions", "Elle doit laisser sécher l'eau"],
+        bonne: 0,
+        explication: "« وَيَجُوزُ أَيْضًا مَسْحُهَا بِمِنْدِيلٍ أَوْ مِنْشَفَةٍ »." },
+      { q: "Pourquoi al-Dardīr déconseille-t-il d'essuyer la nuque ?",
+        choix: ["Parce que la nuque est impure", "Parce que cela annule les ablutions", "Parce que cela gaspille l'eau", "Parce que c'est un excès dans la religion"],
+        bonne: 3,
+        explication: "Al-Dardīr : « لِلْعِلَّةِ الْمُتَقَدِّمَةِ » ; al-Dasūqī : « أَيْ وَهِيَ الْغُلُوُّ فِي الدِّينِ »." },
+      { q: "Comment al-Dasūqī comprend-il le hadith « que celui d'entre vous qui le peut allonge sa ghourra » ?",
+        choix: ["Comme l'ordre de laver jusqu'aux épaules", "Comme l'invitation à rester en état d'ablutions", "Comme un hadith rejeté", "Comme une règle propre au vendredi"],
+        bonne: 1,
+        explication: "Il distingue deux sens : « وَإِطَالَةُ الْغُرَّةِ بِالْمَعْنَى الْأَوَّلِ هُوَ الْمَكْرُوهُ عِنْدَ مَالِكٍ », le second (maintenir les ablutions) étant demandé." }
+    ],
+    ref: { ouvrage: "al-Sharḥ al-kabīr (al-Dardīr) et Ḥāshiyat al-Dasūqī", tome: 1, pages: "103-104" },
+    alertes: [
+      "Limite du texte : ce segment du Mukhtaṣar (11355, p. 13 : « ومسح الرقبة وترك مسح الأعضاء ») manque au « ص » de Mawāhib (569/265), et al-Ḥaṭṭāb ne le commente nulle part dans le faṣl (569/170–285 relus) ; fiche rédigée d'après al-Dardīr et al-Dasūqī (21604/102–103), avec al-Kharashī (91, p. 139), al-Zurqānī (14297, p. 133) et at-Tawḍīḥ (14442, p. 125) ; aucun avis n'y est prêté à al-Ḥaṭṭāb ; la référence est celle d'al-Dardīr (n° 281).",
+      "Lacune probable : al-Ḥaṭṭāb annonce (569/180) « وَيَأْتِي الْكَلَامُ عَلَى الْغُرَّةِ وَالتَّحْجِيلِ فِي آخِرِ الْفَصْلِ », développement absent des pages lues jusqu'à 569/285 ; aucun témoin lu ne cite « ح » sur ce segment (21604/102–103, 14297/133–134, 21614/84–85, 91/139) (n° 289).",
+      "Matn vocalisé d'après al-Dardīr (21604/102–103) et al-Kharashī (91, p. 139 : « وَمَسْحُ الرَّقَبَةِ وَتَرْكُ مَسْحِ الْأَعْضَاءِ ») ; mêmes mots dans le Mukhtaṣar seul (11355, p. 13) et chez ʿUlaysh (21614, p. 84–85).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 103–104 (Shamela 21604, pages 102–103)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-04-syn",
+    type: "synthese",
+    kitab: "tah", bab: "01", fasl: "04",
+    titre: "Les ablutions : piliers, sunna, convenances",
+    quiz: [
+      { q: "Combien de piliers (obligations) les ablutions ont-elles chez Khalīl ?",
+        choix: ["Quatre", "Sept", "Six", "Dix"],
+        bonne: 1, explication: "Voir la fiche 01c." },
+      { q: "Un homme verse l'eau sur ses bras sans y passer la main. Selon l'avis le plus répandu ?",
+        choix: ["Ses ablutions sont complètes", "Il a seulement manqué une convenance", "Il refait seulement le visage", "Cela ne suffit pas : il faut frotter chaque membre lavé"],
+        bonne: 3, explication: "Voir la fiche 20a." },
+      { q: "L'intention des ablutions est :",
+        choix: ["Une obligation, formée au lavage du visage", "Une sunna", "Inutile", "Formée après les ablutions"],
+        bonne: 0, explication: "Voir les fiches 22a et 22d." },
+      { q: "L'eau vient à manquer au milieu des ablutions ; on va en chercher et l'on revient avant que les membres aient séché. Que faire ?",
+        choix: ["Tout recommencer", "Faire l'ablution sèche", "Reprendre là où l'on s'était arrêté", "Prier sans finir"],
+        bonne: 2, explication: "Voir la fiche 21c." },
+      { q: "Le rinçage de la bouche et l'aspiration de l'eau par le nez sont :",
+        choix: ["Des obligations", "Des actes déconseillés", "Sans statut", "Des sunna"],
+        bonne: 3, explication: "Voir la fiche 35." },
+      { q: "Une femme a lavé ses bras avant son visage, par oubli, et s'en aperçoit aussitôt. Que fait-elle ?",
+        choix: ["Rien", "Elle relave ses bras après le visage, puis ce qui suit", "Elle refait seulement le visage", "Elle recommence toute la prière de la veille"],
+        bonne: 1, explication: "Voir les fiches 43a et 43b." },
+      { q: "Un quatrième lavage d'un membre, après trois lavages qui l'ont entièrement couvert, est :",
+        choix: ["Recommandé", "Obligatoire", "Déconseillé selon les uns, interdit selon les autres", "Une cause de nullité des ablutions"],
+        bonne: 2, explication: "Voir la fiche 50." },
+      { q: "Après ses ablutions, un homme se sèche avec une serviette. Qu'en dit al-Dardīr ?",
+        choix: ["C'est permis", "C'est déconseillé", "Il doit refaire ses ablutions", "C'est une sunna"],
+        bonne: 0, explication: "Voir la fiche 55b." }
+    ]
+  }
+
+  /* FIN-UNITE-40 */
 ]);

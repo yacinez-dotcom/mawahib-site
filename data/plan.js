@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.32 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.33 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -58,7 +58,8 @@
    v1.29 : tah-01-04-32 découpé en 32a et 32b, tah-01-04-34 en 34a et 34b ; titre arabe de tah-01-04-29 « حَدَثُهُ » (anomalie n° 254) (unité 36).
    v1.30 : titre arabe de tah-01-04-37 « أَوْ إحْدَاهُمَا » (anomalie n° 261) (unité 37).
    v1.31 : tah-01-04-43 découpé en 43a et 43b, tah-01-04-44 en 44a et 44b ; titre arabe de tah-01-04-48 « وَبَدْءٌ » (anomalie n° 277) (unité 38).
-   v1.32 : titres arabes de tah-01-04-52 à -55 complétés d'après le Mukhtaṣar seul, al-Dardīr et al-Kharashī ; titres de -54 et -55 rattachés à la basmala (anomalies n° 278 à 280) (unité 39). */
+   v1.32 : titres arabes de tah-01-04-52 à -55 complétés d'après le Mukhtaṣar seul, al-Dardīr et al-Kharashī ; titres de -54 et -55 rattachés à la basmala (anomalies n° 278 à 280) (unité 39).
+   v1.33 : tah-01-04-55b ajouté (segment « وَلَا تُنْدَبُ إِطَالَةُ الْغُرَّةِ … », absent du « ص » de Mawāhib ; anomalie n° 281) (unité 40). */
 App.data.definirPlan({
   kutub: [
     {
@@ -417,6 +418,7 @@ App.data.definirPlan({
                 { id: "tah-01-04-53", titre: "La basmala", titre_ar: "وَتَسْمِيَةٌ وَتُشْرَعُ فِي غُسْلٍ وَتَيَمُّمٍ وَأَكْلٍ …" }, /* p. 266 — matn complété (anomalie n° 279, v1.32) */
                 { id: "tah-01-04-54", titre: "La basmala en entrant et en sortant (maison, mosquée)", titre_ar: "وَدُخُولٍ وَضِدِّهِ لِمَنْزِلٍ وَمَسْجِدٍ" }, /* p. 266 — génitif (anomalie n° 280, v1.32) */
                 { id: "tah-01-04-55", titre: "La basmala : vêtement, porte, lampe, rapport, chaire, défunt", titre_ar: "وَلُبْسٍ وَغَلْقِ بَابٍ وَإِطْفَاءِ مِصْبَاحٍ …" }, /* p. 266 — génitif, matn complété (anomalie n° 280, v1.32) */
+                { id: "tah-01-04-55b", titre: "Ce qui n'est pas une convenance : allonger le lavage, essuyer la nuque, ne pas s'essuyer", titre_ar: "وَلَا تُنْدَبُ إِطَالَةُ الْغُرَّةِ …" }, /* absent du « ص » de Mawāhib ; al-Dardīr, t. 1, p. 103–104 (anomalie n° 281, v1.33) */
                 { id: "tah-01-04-56", titre: "Doute sur une troisième fois : deux avis", titre_ar: "وَإِنْ شَكَّ فِي ثَالِثَةٍ فَفِي كَرَاهَتِهَا …" } /* p. 266 */
               ]
             },

@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.43
+/* Données — Glossaire, partie 2 — v1.44
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -18,7 +18,8 @@
    v1.40 : 6 termes de l'unité 36 (tah-01-04-30 à -34b).
    v1.41 : 11 termes de l'unité 37 (tah-01-04-35 à -42).
    v1.42 : 6 termes de l'unité 38 (tah-01-04-43a à -48).
-   v1.43 : 6 termes de l'unité 39 (tah-01-04-49 à -56). */
+   v1.43 : 6 termes de l'unité 39 (tah-01-04-49 à -56).
+   v1.44 : 3 termes de l'unité 40 (tah-01-04-55b). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -275,7 +276,10 @@ App.data.ajouterTermes([
   { ar: "إِنْقَاء", translit: "inqâ'", def: "Rendre propre : ôter la saleté ; selon un avis, c'est ce qu'on vise pour les pieds, sans nombre fixé." },
   { ar: "سِوَاك", translit: "siwâk", def: "Frottement des dents avec un bâtonnet (ou autre chose) pour les nettoyer ; aussi le bâtonnet lui-même." },
   { ar: "أَرَاك", translit: "arâk", def: "Arbuste dont les tiges donnent le meilleur bâtonnet de siwâk (Ibn ʿArafa)." },
-  { ar: "تَسْمِيَة", translit: "tasmiya", def: "Dire « bismillah » (au nom de Dieu) au début d'un acte ; convenance des ablutions." }
+  { ar: "تَسْمِيَة", translit: "tasmiya", def: "Dire « bismillah » (au nom de Dieu) au début d'un acte ; convenance des ablutions." },
+  { ar: "إِطَالَةُ الْغُرَّةِ", translit: "itâlatou l-ghourra", def: "Allonger la ghourra : laver au-delà de la zone obligatoire des membres (déconseillé) ; au second sens, rester en état d'ablutions (demandé)." },
+  { ar: "غُلُوّ", translit: "ghouloû", def: "Excès dans la religion : aller au-delà de ce qui est prescrit ; raison de la réprobation." },
+  { ar: "تَنْشِيف", translit: "tanchîf", def: "Sécher ses membres après les ablutions, avec un linge ou une serviette ; permis." }
 
   /* FIN-GLOSSAIRE */
 ]);
