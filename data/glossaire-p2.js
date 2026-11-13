@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.45
+/* Données — Glossaire, partie 2 — v1.46
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -20,7 +20,8 @@
    v1.42 : 6 termes de l'unité 38 (tah-01-04-43a à -48).
    v1.43 : 6 termes de l'unité 39 (tah-01-04-49 à -56).
    v1.44 : 3 termes de l'unité 40 (tah-01-04-55b).
-   v1.45 : 11 termes de l'unité 41 (tah-01-05-01a à -08). */
+   v1.45 : 11 termes de l'unité 41 (tah-01-05-01a à -08).
+   v1.46 : 7 termes de l'unité 42 (tah-01-05-09 à -16). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -291,7 +292,14 @@ App.data.ajouterTermes([
   { ar: "وِتْر", translit: "witr", def: "Nombre impair." },
   { ar: "قُبُل", translit: "qoubul", def: "Organe de devant (voie de l'urine)." },
   { ar: "دُبُر", translit: "doubour", def: "Orifice de derrière (voie des selles)." },
-  { ar: "تَفْرِيج", translit: "tafrîj", def: "Écarter, laisser un espace entre deux choses (ici les cuisses)." }
+  { ar: "تَفْرِيج", translit: "tafrîj", def: "Écarter, laisser un espace entre deux choses (ici les cuisses)." },
+  { ar: "الْخُبُثُ وَالْخَبَائِثُ", translit: "al-khoubouthou wa-l-khabâ'ith", def: "Les démons mâles et femelles, contre lesquels on demande protection en entrant aux lieux d'aisance." },
+  { ar: "خَلَاء", translit: "khalâ'", def: "Lieu d'aisance ; à l'origine, lieu où il n'y a personne." },
+  { ar: "كَنِيف", translit: "kanîf", def: "Latrines, lieu aménagé pour le besoin." },
+  { ar: "حِرْز", translit: "ḥirz", def: "Amulette, écrit protecteur portant le nom de Dieu ou des versets." },
+  { ar: "فَضَاء", translit: "fadâ'", def: "Plein air, espace découvert." },
+  { ar: "بَرَاز", translit: "barâz", def: "Vaste espace découvert ; on y allait faire ses besoins." },
+  { ar: "جُحْر", translit: "jouḥr", def: "Trou rond d'animal ; on y joint la galerie allongée (سَرْب)." }
 
   /* FIN-GLOSSAIRE */
 ]);

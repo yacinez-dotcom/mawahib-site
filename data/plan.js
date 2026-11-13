@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.34 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.35 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -60,7 +60,8 @@
    v1.31 : tah-01-04-43 découpé en 43a et 43b, tah-01-04-44 en 44a et 44b ; titre arabe de tah-01-04-48 « وَبَدْءٌ » (anomalie n° 277) (unité 38).
    v1.32 : titres arabes de tah-01-04-52 à -55 complétés d'après le Mukhtaṣar seul, al-Dardīr et al-Kharashī ; titres de -54 et -55 rattachés à la basmala (anomalies n° 278 à 280) (unité 39).
    v1.33 : tah-01-04-55b ajouté (segment « وَلَا تُنْدَبُ إِطَالَةُ الْغُرَّةِ … », absent du « ص » de Mawāhib ; anomalie n° 281) (unité 40).
-   v1.34 : tah-01-05-01 découpé en 01a (sol meuble) et 01b (sol dur ; selles) (unité 41). */
+   v1.34 : tah-01-05-01 découpé en 01a (sol meuble) et 01b (sol dur ; selles) (unité 41).
+   v1.35 : tah-01-05-13 découpé en 13a (invocation oubliée), 13b (dhikr dans les lieux d'aisance), 13c (bague gravée) ; matn de 13 vocalisé « يُعَدَّ » (anomalie n° 294) (unité 42). */
 App.data.definirPlan({
   kutub: [
     {
@@ -442,7 +443,9 @@ App.data.definirPlan({
                 { id: "tah-01-05-10", titre: "Se couvrir la tête", titre_ar: "وَتَغْطِيَةُ رَأْسِهِ" }, /* p. 270 */
                 { id: "tah-01-05-11", titre: "Ne pas se retourner", titre_ar: "وَعَدَمُ الْتِفَاتِهِ" }, /* p. 270 */
                 { id: "tah-01-05-12", titre: "Invocation avant et après", titre_ar: "وَذِكْرُ وِرْدٍ بَعْدَهُ وَقَبْلَهُ" }, /* p. 270 */
-                { id: "tah-01-05-13", titre: "Invocation oubliée à l'entrée", titre_ar: "فَإِنْ فَاتَ فَفِيهِ إنْ لَمْ يَعُدْ" }, /* p. 271 */
+                { id: "tah-01-05-13a", titre: "Invocation oubliée à l'entrée", titre_ar: "فَإِنْ فَاتَ فَفِيهِ إِنْ لَمْ يُعَدَّ" }, /* p. 271–272 ; Mawāhib vocalise « يَعُدْ », corrigé (anomalie n° 294, v1.35) */
+                { id: "tah-01-05-13b", titre: "Mentionner Dieu dans les lieux d'aisance", titre_ar: "ذِكْرِ اللَّهِ تَعَالَى فِي الْخَلَاءِ" }, /* p. 271–274 ; sous-fiche de 13 (v1.35) */
+                { id: "tah-01-05-13c", titre: "Se nettoyer avec une bague gravée", titre_ar: "مَسْأَلَةُ الِاسْتِنْجَاءِ بِالْخَاتَمِ" }, /* p. 272–275 ; sous-fiche de 13 (v1.35) */
                 { id: "tah-01-05-14", titre: "Silence, sauf nécessité", titre_ar: "وَسُكُوتٌ إلَّا لِمُهِمٍّ" }, /* p. 275 */
                 { id: "tah-01-05-15", titre: "En plein air : se cacher et s'éloigner", titre_ar: "وَبِالْفَضَاءِ تَسَتُّرٌ وَبُعْدٌ" }, /* p. 275 */
                 { id: "tah-01-05-16", titre: "Éviter les trous", titre_ar: "وَاتِّقَاءُ جُحْرٍ" }, /* p. 275 */
