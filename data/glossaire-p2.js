@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.42
+/* Données — Glossaire, partie 2 — v1.43
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -17,7 +17,8 @@
    v1.39 : 17 termes de l'unité 35 (tah-01-04-22a à -29).
    v1.40 : 6 termes de l'unité 36 (tah-01-04-30 à -34b).
    v1.41 : 11 termes de l'unité 37 (tah-01-04-35 à -42).
-   v1.42 : 6 termes de l'unité 38 (tah-01-04-43a à -48). */
+   v1.42 : 6 termes de l'unité 38 (tah-01-04-43a à -48).
+   v1.43 : 6 termes de l'unité 39 (tah-01-04-49 à -56). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -268,7 +269,13 @@ App.data.ajouterTermes([
   { ar: "مُوَسْوِس", translit: "mouwaswis", def: "Celui qui est atteint de doute obsédant ; excusé de ce dont il est éprouvé (al-Burzulī)." },
   { ar: "تَيَمُّن", translit: "tayammoun", def: "Commencer par la droite (main, pied, côté du corps) ; recommandé dans les ablutions et le grand lavage." },
   { ar: "أَعْسَر", translit: "aʿsar", def: "Gaucher : il commence aussi ses membres par la droite, mais place le récipient à l'inverse du droitier." },
-  { ar: "مُقَدَّمُ الرَّأْسِ", translit: "mouqaddamou r-ra's", def: "L'avant de la tête : la naissance des cheveux, du côté du visage ; on y commence l'essuyage." }
+  { ar: "مُقَدَّمُ الرَّأْسِ", translit: "mouqaddamou r-ra's", def: "L'avant de la tête : la naissance des cheveux, du côté du visage ; on y commence l'essuyage." },
+  { ar: "شَفْع", translit: "chafʿ", def: "Doubler : faire un deuxième lavage du membre ; une convenance des ablutions." },
+  { ar: "تَثْلِيث", translit: "tathlîth", def: "Faire un troisième lavage du membre ; une autre convenance des ablutions." },
+  { ar: "إِنْقَاء", translit: "inqâ'", def: "Rendre propre : ôter la saleté ; selon un avis, c'est ce qu'on vise pour les pieds, sans nombre fixé." },
+  { ar: "سِوَاك", translit: "siwâk", def: "Frottement des dents avec un bâtonnet (ou autre chose) pour les nettoyer ; aussi le bâtonnet lui-même." },
+  { ar: "أَرَاك", translit: "arâk", def: "Arbuste dont les tiges donnent le meilleur bâtonnet de siwâk (Ibn ʿArafa)." },
+  { ar: "تَسْمِيَة", translit: "tasmiya", def: "Dire « bismillah » (au nom de Dieu) au début d'un acte ; convenance des ablutions." }
 
   /* FIN-GLOSSAIRE */
 ]);

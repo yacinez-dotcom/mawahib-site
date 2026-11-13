@@ -1,9 +1,10 @@
-/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 17 — v5.1
+/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 17 — v5.2
    Source : Mawāhib al-Jalīl, al-Ḥaṭṭāb, éd. Dār al-Fikr, 3e éd., 1412 H / 1992, tome 1 (shamela.ws/book/569).
    Croisement : al-Sharḥ al-kabīr d'al-Dardīr et Ḥāshiyat al-Dasūqī (shamela.ws/book/21604), tome 1.
    Cette partie : faṣl tah-01-04 (les ablutions), à partir de tah-01-04-22 (unités 35 et suivantes) — t. 1, p. 230 et suivantes.
    v5.0 : unité 35 — tah-01-04-22a à -22d, -23 à -29 (2026-11-13) ; nouvelle partie, tah-01-p16.js (≈ 164 Ko) étant pleine.
    v5.1 : unité 36 — tah-01-04-30, -31, -32a, -32b, -33, -34a, -34b (2026-11-13) ; audit des n° 249 à 258 : matn de tah-01-04-29 corrigé (« حَدَثُهُ », n° 254), témoin ajouté à tah-01-04-24 (n° 251).
+   v5.2 : unité 39 (2026-11-13) — tah-01-04-30, divergence sur Sanad complétée d'après le passage d'al-Ḥaṭṭāb lu à tah-01-04-49.
    Bāb découpé en parties de moins de 200 Ko ;
    historique des versions : tah-01-p1.js (jusqu'à v2.5) puis l'en-tête de chaque partie. */
 App.data.ajouterFiches([
@@ -777,7 +778,7 @@ App.data.ajouterFiches([
     divergences: [
       "Complément — quand la règle s'applique. Al-Ḥaṭṭāb ne le précise pas. Al-Dardīr : « وَهَذَا إذَا أَحْدَثَ نِيَّةَ الْفَضِيلَةِ وَإِلَّا أَجْزَأَهُ » ; al-Dasūqī : s'il a visé que l'obligation est ce qui couvre le membre au fil des lavages, « فَإِنَّ الْغَسْلَ يُجْزِي ».",
       "Complément — l'essuyage. Al-Ḥaṭṭāb ne parle que du lavage. Al-Dardīr : « وَمِثْلُ الْغَسْلِ الْمَسْحُ » ; al-Dasūqī : l'endroit oublié de la tête, essuyé au retour de la main fait comme sunna, ne suffit pas non plus.",
-      "Point à comparer — Sanad. Al-Dasūqī rapporte de « عبق » (ʿAbd al-Bāqī az-Zurqānī) que, selon Sanad, l'intention du mérite ne compte que si le premier lavage a tout couvert, d'où la validité ; al-Bunānī (« بْن ») objecte : « فَإِنَّ مَا نَقَلَهُ ح عَنْ سَنَدٍ عِنْدَ قَوْلِ الْمُصَنِّفِ وَشَفْعُ غَسْلِهِ وَتَثْلِيثُهُ صَرِيحٌ فِي أَنَّهُ يَعْتَبِرُ نِيَّةَ الْفَضِيلَةِ كَغَيْرِهِ » (« ح » : al-Ḥaṭṭāb). Ce passage d'al-Ḥaṭṭāb, au segment « وَشَفْعُ غَسْلِهِ وَتَثْلِيثُهُ », n'a pas encore été lu."
+      "Point à comparer — Sanad. Al-Dasūqī rapporte de « عبق » (ʿAbd al-Bāqī az-Zurqānī) que, selon Sanad, l'intention du mérite ne compte que si le premier lavage a tout couvert, d'où la validité ; al-Bunānī (« بْن ») objecte : « فَإِنَّ مَا نَقَلَهُ ح عَنْ سَنَدٍ عِنْدَ قَوْلِ الْمُصَنِّفِ وَشَفْعُ غَسْلِهِ وَتَثْلِيثُهُ صَرِيحٌ فِي أَنَّهُ يَعْتَبِرُ نِيَّةَ الْفَضِيلَةِ كَغَيْرِهِ » (« ح » : al-Ḥaṭṭāb). Al-Ḥaṭṭāb, au segment « وَشَفْعُ غَسْلِهِ وَتَثْلِيثُهُ » (fiche tah-01-04-49 ; t. 1, p. 260), cite Sanad : « فَإِنْ لَمْ يَخُصَّ الثَّالِثَةَ بِنِيَّةِ الْفَضِيلَةِ أَجْزَأَهُ » et « وَإِنْ خَصَّ الثَّانِيَةَ بِنِيَّةِ الْفَضِيلَةِ فَيَجْرِي عَلَى الْخِلَافِ فِي طَهَارَةِ الْمُجَدِّدِ » : Sanad tient donc compte de l'intention de la convenance, ce qui appuie l'objection d'al-Bunānī."
     ],
     exemple: "En se lavant les bras, une femme laisse sec un coin du coude au premier lavage ; l'eau l'atteint au deuxième, qu'elle fait comme surplus. S'en rendant compte avant de finir, elle relave aussitôt ce coin avec l'intention de l'obligation.",
     erreurs_frequentes: [
