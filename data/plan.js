@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.35 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.36 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -61,7 +61,8 @@
    v1.32 : titres arabes de tah-01-04-52 à -55 complétés d'après le Mukhtaṣar seul, al-Dardīr et al-Kharashī ; titres de -54 et -55 rattachés à la basmala (anomalies n° 278 à 280) (unité 39).
    v1.33 : tah-01-04-55b ajouté (segment « وَلَا تُنْدَبُ إِطَالَةُ الْغُرَّةِ … », absent du « ص » de Mawāhib ; anomalie n° 281) (unité 40).
    v1.34 : tah-01-05-01 découpé en 01a (sol meuble) et 01b (sol dur ; selles) (unité 41).
-   v1.35 : tah-01-05-13 découpé en 13a (invocation oubliée), 13b (dhikr dans les lieux d'aisance), 13c (bague gravée) ; matn de 13 vocalisé « يُعَدَّ » (anomalie n° 294) (unité 42). */
+   v1.35 : tah-01-05-13 découpé en 13a (invocation oubliée), 13b (dhikr dans les lieux d'aisance), 13c (bague gravée) ; matn de 13 vocalisé « يُعَدَّ » (anomalie n° 294) (unité 42).
+   v1.36 : titres arabes de tah-01-05-17 à -21 au génitif (dépendent de « وَاتِّقَاءُ », anomalie n° 301) ; matn de 23 complété (« عَكْسُ مَسْجِدٍ وَالْمَنْزِلُ يُمْنَاهُ بِهِمَا », n° 304) ; tah-01-05-24 découpé en 24a (miction et selles) et 24b (rapport conjugal), « مُسْتَقْبِلَ قِبْلَةٍ » (n° 305) (unité 43). */
 App.data.definirPlan({
   kutub: [
     {
@@ -449,14 +450,15 @@ App.data.definirPlan({
                 { id: "tah-01-05-14", titre: "Silence, sauf nécessité", titre_ar: "وَسُكُوتٌ إلَّا لِمُهِمٍّ" }, /* p. 275 */
                 { id: "tah-01-05-15", titre: "En plein air : se cacher et s'éloigner", titre_ar: "وَبِالْفَضَاءِ تَسَتُّرٌ وَبُعْدٌ" }, /* p. 275 */
                 { id: "tah-01-05-16", titre: "Éviter les trous", titre_ar: "وَاتِّقَاءُ جُحْرٍ" }, /* p. 275 */
-                { id: "tah-01-05-17", titre: "… le vent", titre_ar: "وَرِيحٌ" }, /* p. 276 */
-                { id: "tah-01-05-18", titre: "… les points d'eau", titre_ar: "وَمَوْرِدٌ" }, /* p. 276 */
-                { id: "tah-01-05-19", titre: "… le chemin", titre_ar: "وَطَرِيقٌ" }, /* p. 276 */
-                { id: "tah-01-05-20", titre: "… l'ombre", titre_ar: "وَظِلٌّ" }, /* p. 277 */
-                { id: "tah-01-05-21", titre: "… le sol dur", titre_ar: "وَصُلْبٌ" }, /* p. 277 */
-                { id: "tah-01-05-22", titre: "Dans les latrines : écarter le nom de Dieu", titre_ar: "وَبِكَنِيفٍ نَحَّى ذِكْرَ اللَّهِ" }, /* p. 277 */
-                { id: "tah-01-05-23", titre: "Pied gauche en entrant, pied droit en sortant", titre_ar: "وَيُقَدِّمُ يُسْرَاهُ دُخُولًا وَيُمْنَاهُ خُرُوجًا" }, /* p. 278 */
-                { id: "tah-01-05-24", titre: "À la maison : rapport et miction face à la qibla ou dos à elle", titre_ar: "وَجَازَ بِمَنْزِلٍ وَطْءٌ وَبَوْلٌ مُسْتَقْبِلَ الْقِبْلَةِ …" }, /* p. 279 */
+                { id: "tah-01-05-17", titre: "… le vent", titre_ar: "وَرِيحٍ" }, /* p. 276 ; génitif (anomalie n° 301, v1.36) */
+                { id: "tah-01-05-18", titre: "… les points d'eau", titre_ar: "وَمَوْرِدٍ" }, /* p. 276 ; génitif (n° 301, v1.36) */
+                { id: "tah-01-05-19", titre: "… le chemin", titre_ar: "وَطَرِيقٍ" }, /* p. 276–277 ; génitif (n° 301, v1.36) */
+                { id: "tah-01-05-20", titre: "… l'ombre", titre_ar: "وَظِلٍّ" }, /* p. 277 ; génitif (n° 301, v1.36) */
+                { id: "tah-01-05-21", titre: "… le sol dur", titre_ar: "وَصُلْبٍ" }, /* p. 277 ; génitif (n° 301, v1.36) */
+                { id: "tah-01-05-22", titre: "Aux latrines : écarter le nom de Dieu", titre_ar: "وَبِكَنِيفٍ نَحَّى ذِكْرَ اللَّهِ" }, /* p. 277–278 */
+                { id: "tah-01-05-23", titre: "Pied gauche en entrant, pied droit en sortant", titre_ar: "وَيُقَدِّمُ يُسْرَاهُ دُخُولًا وَيُمْنَاهُ خُرُوجًا عَكْسُ مَسْجِدٍ …" }, /* p. 278–279 ; matn complété (n° 304, v1.36) */
+                { id: "tah-01-05-24a", titre: "À la maison : se soulager face à la qibla ou dos à elle", titre_ar: "وَجَازَ بِمَنْزِلٍ وَطْءٌ وَبَوْلٌ مُسْتَقْبِلَ قِبْلَةٍ …" }, /* p. 279–280 ; « قِبْلَةٍ » (n° 305, v1.36) */
+                { id: "tah-01-05-24b", titre: "Le rapport conjugal et la qibla", titre_ar: "فِي جَمْعِ الْمُصَنِّفِ الْوَطْءَ مَعَ الْبَوْلِ" }, /* p. 280 ; sous-fiche de 24 (v1.36) */
                 { id: "tah-01-05-25", titre: "… pas en plein air", titre_ar: "لَا فِي الْفَضَاءِ" }, /* p. 281 */
                 { id: "tah-01-05-26", titre: "Avec un écran : deux avis", titre_ar: "وَبِسَتْرٍ قَوْلَانِ تَحْتَمِلُهُمَا" }, /* p. 281 */
                 { id: "tah-01-05-27", titre: "Le soleil et la lune", titre_ar: "لَا الْقَمَرَيْنِ" }, /* p. 281 */

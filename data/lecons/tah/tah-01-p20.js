@@ -1,9 +1,11 @@
-/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 20 — v6.0
+/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 20 — v6.1
    Source : Mawāhib al-Jalīl, al-Ḥaṭṭāb, éd. Dār al-Fikr, 3e éd., 1412 H / 1992, tome 1 (shamela.ws/book/569).
    Croisement : al-Sharḥ al-kabīr d'al-Dardīr et Ḥāshiyat al-Dasūqī (shamela.ws/book/21604), tome 1.
    Cette partie : faṣl tah-01-05 (convenances des besoins naturels), à partir de tah-01-05-09 (unités 42 et suivantes) — t. 1, p. 270 et suivantes.
    v6.0 : unité 42 — tah-01-05-09 à -12, -13a à -13c, -14 à -16 (Mawāhib, t. 1, p. 270–276 ; al-Dardīr / al-Dasūqī, t. 1, p. 106–108)
           (2026-11-13) ; nouvelle partie, tah-01-p19.js (≈ 147 Ko) étant figée ; anomalies n° 294 à 300.
+   v6.1 : unité 43 — tah-01-05-17 à -23, -24a, -24b (Mawāhib, t. 1, p. 276–280 ; al-Dardīr / al-Dasūqī, t. 1, p. 107–109)
+          (2026-11-13) ; anomalies n° 301 à 305.
    Bāb découpé en parties de moins de 200 Ko ;
    historique des versions : tah-01-p1.js (jusqu'à v2.5) puis l'en-tête de chaque partie. */
 App.data.ajouterFiches([
@@ -587,7 +589,513 @@ App.data.ajouterFiches([
       "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 106–107 (Shamela 21604, pages 105–106)."
     ],
     verification: "verifie"
-  }
+  },
 
   /* FIN-UNITE-42 */
+
+  /* ================================================================== */
+  /* Unité 43 — tah-01-05-17 à -24 */
+  /* Mawāhib, t. 1, p. 276–280 (Shamela 569/275–279) ; al-Dardīr / al-Dasūqī, t. 1, p. 107–109 (Shamela 21604/106–108) */
+  {
+    id: "tah-01-05-17",
+    kitab: "tah", bab: "01", fasl: "05", ordre: 17,
+    titre: "Éviter l'endroit où souffle le vent",
+    titre_ar: "وَرِيحٍ",
+    objectif: "Savoir éviter de se soulager là où le vent peut rabattre l'urine sur soi.",
+    matn: "وَرِيحٍ",
+    regle_pratique: "On évite de se soulager là où le vent souffle ou peut souffler, pour qu'il ne rabatte pas l'urine sur soi.",
+    qualification: {
+      hukm: "mandub",
+      nature: "adab",
+      effet_si_omis: "Non précisé dans les textes lus."
+    },
+    explication: "Ce segment dépend de « وَاتِّقَاءُ » (fiche 16) : on évite aussi le vent.\n\nAl-Ḥaṭṭāb : cela comprend les latrines qui ont une ouverture par où l'air entre et sort ; si l'on y urine, « رَدَّتْهُ الرِّيحُ عَلَيْهِ » (al-Madkhal). Al-Madkhal conseille donc : « فَيَنْبَغِي أَنْ يَبُولَ فِي وِعَاءٍ ثُمَّ يَفْرُغُهُ فِي الْمِرْحَاضِ », ou d'uriner par terre près des latrines, de sorte que l'urine y coule. Selon al-Ḥaṭṭāb, Khalīl semble ne viser que le vent qui souffle ; mais al-Madkhal dit « أَنْ يَتَّقِيَ مَهَابَّ الرِّيَاحِ », c'est-à-dire les endroits d'où il souffle, comme le disent aussi les shâfiʿites.\n\nAl-Dardīr : « (وَ) اتِّقَاءُ مَهَبِّ (رِيحٍ) وَلَوْ سَاكِنَةً لِئَلَّا يَتَطَايَرَ عَلَيْهِ مَا يُنَجِّسُهُ ». Al-Dasūqī : par exemple « كَالْكَنِيفِ الَّذِي فِي قَصَبَتِهِ طَاقَةٌ » ; cela ne vaut que « إذَا كَانَتْ الْحَاجَةُ بَوْلًا أَوْ غَائِطًا رَقِيقًا ».",
+    aqwal: [
+      { auteur: "L'auteur d'al-Madkhal", avis: "On évite les endroits d'où souffle le vent ; dans des latrines aérées, on urine dans un récipient qu'on vide ensuite.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « (وَ) اتِّقَاءُ مَهَبِّ (رِيحٍ) وَلَوْ سَاكِنَةً ».",
+    tarjih_hattab: null,
+    tanbihat: [],
+    divergences: [
+      "Concordance — même quand le vent est calme. Al-Ḥaṭṭāb, d'après al-Madkhal : « أَنَّهُ يَتَّقِي مَهَابَّ الرِّيَاحِ » ; al-Dardīr : « وَلَوْ سَاكِنَةً ».",
+      "Complément — pour quel besoin. Al-Ḥaṭṭāb n'en dit rien. Al-Dasūqī : « إذَا كَانَتْ الْحَاجَةُ بَوْلًا أَوْ غَائِطًا رَقِيقًا وَإِلَّا فَلَا »."
+    ],
+    exemple: "En plein air, une personne regarde d'où vient le vent avant de s'accroupir et se place de façon qu'il ne lui renvoie pas l'urine.",
+    erreurs_frequentes: [
+      "Uriner face au vent : l'urine peut revenir sur soi et salir les vêtements.",
+      "Croire qu'un vent calme n'importe pas : al-Dardīr dit d'éviter l'endroit d'où il souffle, même calme."
+    ],
+    termes: [],
+    quiz: [
+      { q: "Pourquoi évite-t-on le vent pour se soulager ?",
+        choix: ["Pour ne pas avoir froid", "Pour qu'il ne rabatte pas l'urine sur soi", "Pour ne pas être entendu", "Pour la qibla"],
+        bonne: 1,
+        explication: "Al-Dardīr : « لِئَلَّا يَتَطَايَرَ عَلَيْهِ مَا يُنَجِّسُهُ »." },
+      { q: "Mise en situation : des latrines ont une ouverture par où le vent entre et ressort. Que conseille al-Madkhal ?",
+        choix: ["Y uriner directement", "Ne jamais utiliser de latrines", "Fermer les yeux", "Uriner dans un récipient puis le vider dans les latrines"],
+        bonne: 3,
+        explication: "« فَيَنْبَغِي أَنْ يَبُولَ فِي وِعَاءٍ ثُمَّ يَفْرُغُهُ فِي الْمِرْحَاضِ »." },
+      { q: "Faut-il éviter l'endroit d'où souffle le vent même s'il est calme, selon al-Dardīr ?",
+        choix: ["Oui", "Non", "Seulement l'été", "Seulement pour les selles"],
+        bonne: 0,
+        explication: "« وَلَوْ سَاكِنَةً »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "276" },
+    alertes: [
+      "Corrigé (campagne de correction) : le « ص » de Mawāhib cite les segments 17 à 21 au nominatif (« وَرِيحٌ », « وَمَوْرِدٌ », « وَطَرِيقٌ », « وَظِلٌّ », « وَصُلْبٌ »), alors qu'ils dépendent de « وَاتِّقَاءُ » ; génitif d'après al-Dardīr, al-Kharashī (91, p. 143) et ʿUlaysh (21614, p. 89) ; titres arabes du plan alignés (n° 301).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 107 (Shamela 21604, page 106)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-05-18",
+    kitab: "tah", bab: "01", fasl: "05", ordre: 18,
+    titre: "Éviter les points d'eau",
+    titre_ar: "وَمَوْرِدٍ",
+    objectif: "Savoir éviter de se soulager près des points d'eau et dans l'eau.",
+    matn: "وَمَوْرِدٍ",
+    regle_pratique: "On ne se soulage pas aux abords d'une eau où les gens viennent puiser (rivière, puits, source), ni à plus forte raison dans l'eau ; dans une eau stagnante peu abondante, c'est interdit.",
+    qualification: {
+      hukm: "mandub",
+      nature: "adab",
+      effet_si_omis: "Se soulager dans une eau stagnante peu abondante est interdit (al-Dasūqī) ; pour les points d'eau, al-ʿAdawī penche lui aussi vers l'interdiction."
+    },
+    explication: "Al-Ḥaṭṭāb : « الْمَوْرِدُ مَوْضِعُ الْوُرُودِ مِنْ الْأَنْهَارِ وَالْآبَارِ وَالْعُيُونِ » ; ʿIyāḍ (al-Ikmāl) : « الْمَوَارِدُ ضِفَّةُ النَّهْرِ وَمَشَارِعُ الْمِيَاهِ ». « فَإِذَا اتَّقَى الْمَوَارِدَ فَالْمَاءُ نَفْسُهُ أَحْرَى ».\n\nL'eau dormante. D'après Muslim, le Prophète a interdit d'uriner dans l'eau qui ne coule pas. ʿIyāḍ : « هُوَ نَهْيُ كَرَاهَةٍ وَإِرْشَادٍ وَهُوَ فِي الْقَلِيلِ أَشَدُّ » ; on a dit aussi « النَّهْيُ لِلتَّحْرِيمِ », car l'eau peut s'altérer par la répétition et le passant croire qu'elle s'est altérée d'elle-même ; il en va de même des selles et du fait d'y verser une impureté. Ibn Nājī : « الْجَارِي عَلَى أَصْلِ الْمَذْهَبِ أَنَّ الْكَرَاهَةَ عَلَى التَّحْرِيمِ فِي الْقَلِيلِ », et pour l'eau abondante, la réprobation simple.\n\nAl-Dardīr : on évite le point d'eau « لِئَلَّا يُؤْذِيَ النَّاسَ بِذَلِكَ » ; et « وَلَا حَاجَةَ لِزِيَادَةِ (وَشَطٍّ) لِأَنَّ الْمَوْرِدَ يُغْنِي عَنْهُ ». Al-Dasūqī : « يَحْرُمُ قَضَاءُ الْحَاجَةِ فِي الْمَاءِ إذَا كَانَ رَاكِدًا قَلِيلًا » ; dans une eau stagnante très étendue ou dans une eau courante, ce n'est pas interdit, si elle est libre d'accès ou si son propriétaire le permet.",
+    aqwal: [
+      { auteur: "ʿIyāḍ (al-Ikmāl)", avis: "L'interdiction d'uriner dans l'eau dormante est une réprobation et un conseil, plus forte pour l'eau peu abondante.", statut: "non_precise" },
+      { auteur: "Avis rapporté sans attribution (d'après ʿIyāḍ)", avis: "C'est une interdiction stricte.", statut: "qawl" },
+      { auteur: "Ibn Nājī", avis: "Selon le principe de l'école, interdit dans l'eau peu abondante ; simple réprobation dans l'eau abondante.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé pour la règle : al-Dardīr, « (وَ) اتِّقَاءُ (مَوْرِدٍ) لِلْمَاءِ لِئَلَّا يُؤْذِيَ النَّاسَ بِذَلِكَ » ; pour l'eau elle-même, al-Dasūqī : « يَحْرُمُ قَضَاءُ الْحَاجَةِ فِي الْمَاءِ إذَا كَانَ رَاكِدًا قَلِيلًا ».",
+    tarjih_hattab: null,
+    tanbihat: [],
+    divergences: [
+      "Point à comparer — le degré. Al-Ḥaṭṭāb rapporte ʿIyāḍ (« هُوَ نَهْيُ كَرَاهَةٍ وَإِرْشَادٍ ») et Ibn Nājī (« أَنَّ الْكَرَاهَةَ عَلَى التَّحْرِيمِ فِي الْقَلِيلِ »). Al-Dasūqī : « يَحْرُمُ قَضَاءُ الْحَاجَةِ فِي الْمَاءِ إذَا كَانَ رَاكِدًا قَلِيلًا » ; d'après son maître al-ʿAdawī : « وَالظَّاهِرُ أَنَّ قَضَاءَ الْحَاجَةِ فِي الْمَوْرِدِ وَالطَّرِيقِ وَالظِّلِّ وَمَا أُلْحِقَ بِهِ حَرَامٌ », « خِلَافًا لِمَا يَقْتَضِيهِ كَلَامُ الْمُصَنِّفِ مِنْ الْكَرَاهَةِ ».",
+      "Point à comparer — la rive (« شَطّ »). Al-Ḥaṭṭāb : « وَيُوجَدُ التَّصْرِيحُ بِهِ فِي بَعْضِ النُّسَخِ وَلَا حَاجَةَ إلَيْهِ » ; al-Dardīr : « وَلَا حَاجَةَ لِزِيَادَةِ (وَشَطٍّ) لِأَنَّ الْمَوْرِدَ يُغْنِي عَنْهُ »."
+    ],
+    exemple: "Un randonneur s'éloigne de la source où l'on vient remplir les gourdes, et ne se soulage jamais dans une petite mare.",
+    erreurs_frequentes: [
+      "Se soulager près d'un puits ou d'une source : on nuit à ceux qui viennent puiser.",
+      "Croire que l'eau elle-même est moins grave que ses abords : elle l'est davantage.",
+      "Uriner dans une petite eau stagnante : c'est interdit selon al-Dasūqī."
+    ],
+    termes: [
+      { ar: "مَوْرِد", translit: "mawrid", def: "Point d'eau où l'on vient puiser : rive d'un fleuve, puits, source." }
+    ],
+    quiz: [
+      { q: "Qu'est-ce que le mawrid ?",
+        choix: ["Un lieu de prière", "Une grotte", "L'endroit où l'on vient puiser l'eau", "Un champ cultivé"],
+        bonne: 2,
+        explication: "« الْمَوْرِدُ مَوْضِعُ الْوُرُودِ مِنْ الْأَنْهَارِ وَالْآبَارِ وَالْعُيُونِ »." },
+      { q: "Mise en situation : un randonneur veut se soulager dans une petite mare d'eau dormante. Selon al-Dasūqī ?",
+        choix: ["C'est interdit", "C'est permis", "C'est recommandé", "C'est seulement déconseillé"],
+        bonne: 0,
+        explication: "« يَحْرُمُ قَضَاءُ الْحَاجَةِ فِي الْمَاءِ إذَا كَانَ رَاكِدًا قَلِيلًا »." },
+      { q: "Pourquoi al-Dardīr fait-il éviter les points d'eau ?",
+        choix: ["Parce que l'eau est sacrée", "À cause des animaux", "Pour ne pas glisser", "Pour ne pas nuire aux gens"],
+        bonne: 3,
+        explication: "« لِئَلَّا يُؤْذِيَ النَّاسَ بِذَلِكَ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "276" },
+    alertes: [
+      "Matn au génitif (n° 301, voir la fiche 17).",
+      "Matn : le Mukhtaṣar seul (11355, p. 15) et ʿUlaysh (21614, p. 89) ajoutent « وَشَطٍّ » après « وَطَرِيقٍ » ; le « ص » de Mawāhib et al-Kharashī (91, p. 143) ne l'ont pas ; al-Dardīr le juge inutile ; matn laissé selon le « ص » (n° 302).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 107 (Shamela 21604, page 106)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-05-19",
+    kitab: "tah", bab: "01", fasl: "05", ordre: 19,
+    titre: "Éviter le chemin",
+    titre_ar: "وَطَرِيقٍ",
+    objectif: "Savoir éviter de se soulager sur les chemins, et ce que sont les « lieux de malédiction ».",
+    matn: "وَطَرِيقٍ",
+    regle_pratique: "On ne se soulage pas sur un chemin où passent les gens : c'est l'un des lieux qui attirent la malédiction des passants.",
+    qualification: {
+      hukm: "mandub",
+      nature: "adab",
+      effet_si_omis: "Le faire est déconseillé (an-Nawādir) ; al-ʿAdawī penche vers l'interdiction (voir la fiche 18)."
+    },
+    explication: "Al-Ḥaṭṭāb cite an-Nawādir : « وَيُكْرَهُ أَنْ يَتَغَوَّطَ فِي ظِلِّ الْجِدَارِ وَالشَّجَرِ وَقَارِعَةِ الطَّرِيقِ وَضِفَّةِ الْمَاءِ وَقُرْبِهِ ».\n\nLe hadith rapporté par Abū Dāwūd : « اتَّقُوا الْمَلَاعِنَ الثَّلَاثَةَ الْبِرَازَ فِي الْمَوَارِدِ وَقَارِعَةِ الطَّرِيقِ وَالظِّلِّ ». An-Nihāya : « هِيَ جَمْعُ مَلْعَنَةٍ، وَهِيَ الْفَعْلَةُ الَّتِي يُلْعَنُ بِهَا فَاعِلُهَا ». Dans ce hadith, al-birâz, avec kasra (an-Nawawī), désigne les selles : « وَهُوَ الْغَائِطُ ». Un autre hadith : « الَّذِي يَتَخَلَّى فِي طُرُقِ النَّاسِ أَوْ ظِلِّهِمْ ». At-Tawḍīḥ explique le nom : « لِأَنَّ النَّاسَ يَأْتُونَ إلَيْهَا فَيَجِدُونَ الْعَذِرَةَ فَيَلْعَنُونَ فَاعِلَهَا ». Ibn ʿAbd as-Salām : chez les juristes, la notion est plus large, « كَالطُّرُقِ وَالظِّلَالِ », que ce soit l'ombre des arbres ou des murs, la rive et l'eau stagnante.\n\nAl-Dardīr : « (وَ) اتِّقَاءُ (طَرِيقٍ) هُوَ أَعَمُّ مِمَّا قَبْلَهُ ». Al-Dasūqī : on peut dire aussi que le chemin est ce qu'on emprunte d'habitude et le point d'eau l'endroit où l'on se tient pour puiser, « وَلِذَا جَمَعَ بَيْنَهُمَا فِي الْحَدِيثِ ».",
+    aqwal: [
+      { auteur: "An-Nawādir", avis: "Faire ses selles sur la voie publique, à l'ombre d'un mur ou d'un arbre, sur la rive ou près de l'eau est déconseillé.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « (وَ) اتِّقَاءُ (طَرِيقٍ) ».",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Al-Ḥaṭṭāb compare les explications du mot : pour an-Nihāya, « lāʿin » désigne le lieu qui attire la malédiction ; pour Ibn Rāshid, celui qui s'y soulage ; et « الْمَلَاعِنَ », qu'on le tienne pour pluriel de malʿan ou de malʿana, « فَهُوَ اسْمٌ لِلْمَكَانِ »."
+    ],
+    divergences: [
+      "Concordance — la règle. Al-Ḥaṭṭāb, d'après an-Nawādir : « وَيُكْرَهُ أَنْ يَتَغَوَّطَ » sur la voie publique ; al-Dardīr : « (وَ) اتِّقَاءُ (طَرِيقٍ) ».",
+      "Point à comparer — le degré : voir la fiche 18 (al-ʿAdawī, cité par al-Dasūqī, penche vers l'interdiction pour le point d'eau, le chemin et l'ombre)."
+    ],
+    exemple: "En voyage, un homme pressé s'écarte bien du sentier fréquenté avant de se soulager.",
+    erreurs_frequentes: [
+      "Se soulager au bord d'un sentier fréquenté : les passants maudissent celui qui l'a fait.",
+      "Croire que seul le milieu du chemin compte : la voie publique entière est visée."
+    ],
+    termes: [
+      { ar: "مَلَاعِن", translit: "malâʿin", def: "« Lieux de malédiction » : endroits où celui qui se soulage s'attire la malédiction des gens (chemins, ombres, points d'eau)." },
+      { ar: "قَارِعَةُ الطَّرِيقِ", translit: "qâriʿatou t-tarîq", def: "La voie publique, le chemin fréquenté." }
+    ],
+    quiz: [
+      { q: "Pourquoi appelle-t-on ces lieux « malâʿin » ?",
+        choix: ["Parce que les passants maudissent celui qui s'y soulage", "Parce qu'ils sont hantés", "Parce qu'ils sont impurs par nature", "Parce qu'on y prie"],
+        bonne: 0,
+        explication: "At-Tawḍīḥ : « لِأَنَّ النَّاسَ يَأْتُونَ إلَيْهَا فَيَجِدُونَ الْعَذِرَةَ فَيَلْعَنُونَ فَاعِلَهَا »." },
+      { q: "Mise en situation : pressé, un homme se soulage au bord d'un sentier fréquenté. Qu'en dit an-Nawādir ?",
+        choix: ["C'est permis", "C'est recommandé", "C'est déconseillé", "Il suffit de recouvrir de terre"],
+        bonne: 2,
+        explication: "« وَيُكْرَهُ أَنْ يَتَغَوَّطَ فِي ظِلِّ الْجِدَارِ وَالشَّجَرِ وَقَارِعَةِ الطَّرِيقِ »." },
+      { q: "Selon al-Dardīr, le chemin par rapport aux points d'eau :",
+        choix: ["Est un cas plus restreint", "Est un cas plus large", "N'a rien à voir", "Est un cas permis"],
+        bonne: 1,
+        explication: "« هُوَ أَعَمُّ مِمَّا قَبْلَهُ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "276-277" },
+    alertes: [
+      "Matn au génitif (n° 301, voir la fiche 17).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 107 (Shamela 21604, page 106)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-05-20",
+    kitab: "tah", bab: "01", fasl: "05", ordre: 20,
+    titre: "Éviter l'ombre où l'on s'abrite",
+    titre_ar: "وَظِلٍّ",
+    objectif: "Savoir quelle ombre éviter, et les lieux qui lui sont assimilés.",
+    matn: "وَظِلٍّ",
+    regle_pratique: "On ne se soulage pas à l'ombre où les gens s'abritent ou font halte (arbre, mur), ni au soleil où ils se tiennent l'hiver ; toute ombre n'est pas visée.",
+    qualification: {
+      hukm: "mandub",
+      nature: "adab",
+      effet_si_omis: "Le faire est déconseillé ; al-ʿAdawī penche vers l'interdiction (voir la fiche 18)."
+    },
+    explication: "Al-Ḥaṭṭāb : « سَوَاءٌ كَانَ ظِلَّ شَجَرٍ أَوْ حَائِطٍ يُسْتَظَلُّ بِهِ ». ʿIyāḍ : « وَلَيْسَ كُلُّ ظِلٍّ يَحْرُمُ الْقُعُودُ عِنْدَهُ لِقَضَاءِ الْحَاجَةِ », car le Prophète s'est soulagé derrière un bouquet de palmiers serrés (حَائِش), qui a de l'ombre. Zarrūq : « وَمِثْلُ الظِّلِّ الشَّمْسُ أَيَّامَ الشِّتَاءِ ».\n\nAl-Dardīr : une ombre « شَأْنُهُ الِاسْتِظْلَالُ بِهِ مِنْ مَقِيلٍ وَمُنَاخٍ لَا مُطْلَقَ ظِلٍّ » ; « وَمِثْلُهُ مَجْلِسُهُمْ بِشَمْسٍ وَقَمَرٍ ». Al-Dasūqī : l'endroit où l'on s'assied « فِي الْقَمَرِ لَيْلًا » ou au soleil l'hiver, pour causer.",
+    aqwal: [
+      { auteur: "ʿIyāḍ", avis: "Toute ombre n'est pas interdite : seule celle où l'on s'abrite.", statut: "non_precise" },
+      { auteur: "Zarrūq (d'après « nos savants »)", avis: "Le soleil d'hiver où l'on se tient est assimilé à l'ombre.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « (وَ) اتِّقَاءُ (ظِلٍّ) شَأْنُهُ الِاسْتِظْلَالُ بِهِ » ; « وَمِثْلُهُ مَجْلِسُهُمْ بِشَمْسٍ وَقَمَرٍ ».",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Al-Madkhal : on évite, pour se nettoyer, les lieux de culte des juifs et des chrétiens, « لِئَلَّا يَفْعَلُوا ذَلِكَ فِي مَسَاجِدِنَا ».",
+      "Al-Madkhal : « يُكْرَهُ الْبَوْلُ فِي الْأَوَانِي النَّفِيسَةِ لِلسَّرَفِ » ; c'est interdit dans les récipients d'or et d'argent ; et « يُكْرَهُ الْبَوْلُ فِي مَخَازِنِ الْغَلَّةِ »."
+    ],
+    divergences: [
+      "Concordance — quelle ombre. Al-Ḥaṭṭāb : « أَوْ حَائِطٍ يُسْتَظَلُّ بِهِ » ; al-Dardīr : « لَا مُطْلَقَ ظِلٍّ ».",
+      "Concordance — le soleil d'hiver. Al-Ḥaṭṭāb, d'après Zarrūq : « وَمِثْلُ الظِّلِّ الشَّمْسُ أَيَّامَ الشِّتَاءِ » ; al-Dardīr : « وَمِثْلُهُ مَجْلِسُهُمْ بِشَمْسٍ وَقَمَرٍ ».",
+      "Point à comparer — le degré : voir la fiche 18."
+    ],
+    exemple: "En voyage, une personne ne se soulage pas sous l'arbre où les voyageurs font la sieste, ni contre le mur ensoleillé où les gens se réunissent l'hiver.",
+    erreurs_frequentes: [
+      "Se soulager sous l'arbre où les gens font halte.",
+      "Croire que toute ombre est interdite : seule celle où l'on s'abrite est visée.",
+      "Oublier le soleil d'hiver où l'on se réunit : il est assimilé à l'ombre."
+    ],
+    termes: [],
+    quiz: [
+      { q: "Quelle ombre faut-il éviter ?",
+        choix: ["Toute ombre", "L'ombre d'un nuage", "Aucune", "Celle où les gens s'abritent ou font halte"],
+        bonne: 3,
+        explication: "Al-Dardīr : « شَأْنُهُ الِاسْتِظْلَالُ بِهِ مِنْ مَقِيلٍ وَمُنَاخٍ لَا مُطْلَقَ ظِلٍّ »." },
+      { q: "Mise en situation : l'hiver, des gens se réunissent au soleil près d'un mur. Peut-on s'y soulager ?",
+        choix: ["Oui, ce n'est pas de l'ombre", "Non : ce lieu est assimilé à l'ombre", "Oui, s'il n'y a personne à ce moment-là", "Seulement la nuit"],
+        bonne: 1,
+        explication: "Zarrūq : « وَمِثْلُ الظِّلِّ الشَّمْسُ أَيَّامَ الشِّتَاءِ »." },
+      { q: "Uriner dans un récipient en or ou en argent, selon al-Madkhal :",
+        choix: ["Est permis", "Est seulement déconseillé", "Est interdit", "Est recommandé"],
+        bonne: 2,
+        explication: "« وَكَذَلِكَ يَحْرُمُ فِي أَوَانِي الذَّهَبِ وَالْفِضَّةِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "277" },
+    alertes: [
+      "Matn au génitif (n° 301, voir la fiche 17).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 107 (Shamela 21604, page 106)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-05-21",
+    kitab: "tah", bab: "01", fasl: "05", ordre: 21,
+    titre: "Éviter le sol dur",
+    titre_ar: "وَصُلْبٍ",
+    objectif: "Savoir quel sol dur éviter, et comment se lit le mot.",
+    matn: "وَصُلْبٍ",
+    regle_pratique: "On évite le sol dur et impur, assis ou debout ; sur un sol dur et pur, il est fortement recommandé de s'asseoir (fiche 01b).",
+    qualification: {
+      hukm: "mandub",
+      nature: "adab",
+      effet_si_omis: "Non précisé dans les textes lus."
+    },
+    explication: "Al-Ḥaṭṭāb explique le mot : « بِضَمِّ الصَّادِ وَسُكُونِ اللَّامِ الْمَوْضِعُ الشَّدِيدُ » ; on dit aussi « بِفَتْحِ الصَّادِ وَاللَّامِ » (aṣ-Ṣiḥāḥ ; Ibn Abī Sharīf) et « وَصُلَّبٌ بِضَمِّ الصَّادِ وَفَتْحِ اللَّامِ الْمُشَدَّدَةِ ». Il a traité le fond au début du faṣl (fiche 01b, t. 1, p. 268) : Khalīl recommande ici d'éviter le sol dur sans distinction, « أَنَّهُ يُسْتَحَبُّ اجْتِنَابُهُ ».\n\nAl-Dardīr : il s'agit du « الْمَوْضِعُ الشَّدِيدُ », plus précisément « أَيْ صُلْبٍ نَجِسٍ جُلُوسًا وَقِيَامًا، وَأَمَّا الصُّلْبُ الطَّاهِرُ فَيَتَأَكَّدُ الْجُلُوسُ بِهِ كَمَا تَقَدَّمَ ». Al-Dasūqī : pour l'urine comme pour les selles.",
+    aqwal: [],
+    muatamad: "Confirmé : al-Dardīr, « أَيْ صُلْبٍ نَجِسٍ جُلُوسًا وَقِيَامًا ».",
+    tarjih_hattab: null,
+    tanbihat: [],
+    divergences: [
+      "Point à comparer — quel sol dur. Al-Ḥaṭṭāb (fiche 01b) : Khalīl dit sans distinguer « أَنَّهُ يُسْتَحَبُّ اجْتِنَابُهُ » ; al-Dardīr limite au sol dur impur : « أَيْ صُلْبٍ نَجِسٍ », le sol dur et pur étant le lieu où l'on s'assied."
+    ],
+    exemple: "Sur une dalle de pierre souillée, on ne s'accroupit pas et l'on ne reste pas debout : on cherche un autre endroit.",
+    erreurs_frequentes: [
+      "Croire qu'il faut fuir tout sol dur : sur un sol dur et pur, on s'assied.",
+      "Rester debout sur un sol dur et impur : on le quitte."
+    ],
+    termes: [],
+    quiz: [
+      { q: "Que dit al-Dardīr du sol dur dans ce segment ?",
+        choix: ["On s'y assied toujours", "On y reste debout", "Il est sans importance", "On évite le sol dur impur, assis ou debout"],
+        bonne: 3,
+        explication: "« أَيْ صُلْبٍ نَجِسٍ جُلُوسًا وَقِيَامًا »." },
+      { q: "Mise en situation : le sol est dur et propre. Que fait-on ?",
+        choix: ["On le quitte", "On reste debout", "On s'y assied", "On verse de l'eau"],
+        bonne: 2,
+        explication: "« وَأَمَّا الصُّلْبُ الطَّاهِرُ فَيَتَأَكَّدُ الْجُلُوسُ بِهِ »." },
+      { q: "Comment se vocalise le mot ṣulb, selon al-Ḥaṭṭāb ?",
+        choix: ["Soulb ; on dit aussi salab et soullab", "Seulement salb", "Silab", "Soulâb"],
+        bonne: 0,
+        explication: "« بِضَمِّ الصَّادِ وَسُكُونِ اللَّامِ » ; « بِفَتْحِ الصَّادِ وَاللَّامِ » ; « وَصُلَّبٌ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "277" },
+    alertes: [
+      "Matn au génitif (n° 301, voir la fiche 17).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 107 (Shamela 21604, page 106)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-05-22",
+    kitab: "tah", bab: "01", fasl: "05", ordre: 22,
+    titre: "Aux latrines : écarter le nom de Dieu",
+    titre_ar: "وَبِكَنِيفٍ نَحَّى ذِكْرَ اللَّهِ",
+    objectif: "Savoir écarter le nom de Dieu avant d'entrer aux latrines, et connaître les noms des lieux d'aisance.",
+    matn: "وَبِكَنِيفٍ نَحَّى ذِكْرَ اللَّهِ",
+    regle_pratique: "Avant d'entrer aux latrines, on écarte de soi ce qui porte le nom de Dieu : c'est recommandé, et obligatoire pour le Coran (détails : fiches 13b et 13c).",
+    qualification: {
+      hukm: "mandub",
+      nature: "adab",
+      effet_si_omis: "Pour le Coran, l'écarter est obligatoire (al-Dardīr) ; voir la fiche 13b."
+    },
+    explication: "Al-Ḥaṭṭāb : « تَقَدَّمَ الْكَلَامُ عَلَيْهِ » : la règle a été traitée sous le segment de l'invocation oubliée (fiches 13b et 13c).\n\nIl explique ici les noms des lieux d'aisance. « (وَالْكَنِيفُ) بِفَتْحِ الْكَافِ مَوْضِعُ قَضَاءِ الْحَاجَةِ وَيُسَمَّى الْمُذْهَبَ وَالْمِرْفَقَ وَالْمِرْحَاضَ » (an-Nawawī). Le mirḥâḍ est « مَأْخُوذٌ مِنْ الرَّحْضِ وَهُوَ الْغَسْلُ » (Ibn Ḥajar). On dit aussi al-ḥouchch, à l'origine le jardin de palmiers où l'on se cachait ; d'après Abū Dāwūd, « أَنَّ هَذِهِ الْحُشُوشَ مُحْتَضَرَةٌ », c'est-à-dire « تَحْضُرُهَا الشَّيَاطِينُ ». Al-khalâ' : à l'origine, le lieu vide. Al-kiryâs : selon aṣ-Ṣiḥāḥ, « الْكَنِيفُ فِي أَعْلَى السَّطْحِ ». Al-barâz (fatḥa) est le vaste espace découvert ; dans le hadith des « lieux de malédiction », an-Nawawī retient la kasra, al-birâz, qui désigne les selles.\n\nAl-Dardīr : « (وَبِكَنِيفٍ) أَيْ عِنْدَ إرَادَةِ دُخُولِهِ (نَحَّى) أَيْ بَعُدَ (ذِكْرَ اللَّهِ) نَدْبًا فِي غَيْرِ الْقُرْآنِ », et « وَوُجُوبًا فِي الْقُرْآنِ » ; « وَلَا مَفْهُومَ لِقَوْلِهِ بِكَنِيفٍ بَلْ غَيْرُهُ كَذَلِكَ ».",
+    aqwal: [],
+    muatamad: "Confirmé : al-Dardīr, « نَدْبًا فِي غَيْرِ الْقُرْآنِ » ; « وَوُجُوبًا فِي الْقُرْآنِ ».",
+    tarjih_hattab: "Voir la fiche 13b.",
+    tanbihat: [],
+    divergences: [
+      "Divergence — entrer avec un exemplaire du Coran : voir la fiche 13b (interdit selon al-Dardīr, déconseillé selon al-Ḥaṭṭāb).",
+      "Complément — ailleurs qu'aux latrines. Al-Ḥaṭṭāb n'en dit rien ici. Al-Dardīr : « وَلَا مَفْهُومَ لِقَوْلِهِ بِكَنِيفٍ بَلْ غَيْرُهُ كَذَلِكَ » ; al-Dasūqī : en plein air aussi, « نَحَّى ذِكْرَ اللَّهِ فِيهِ نَدْبًا فِي غَيْرِ الْقُرْآنِ وَوُجُوبًا فِي الْقُرْآنِ »."
+    ],
+    exemple: "Avant d'entrer aux toilettes, une personne laisse dehors le livret de prières qu'elle avait en main.",
+    erreurs_frequentes: [
+      "Entrer aux toilettes avec un exemplaire du Coran à découvert.",
+      "Croire que la règle ne vaut qu'aux latrines : al-Dardīr l'étend aux autres lieux où l'on se soulage."
+    ],
+    termes: [
+      { ar: "حُشّ", translit: "houchch", def: "Lieu d'aisance ; à l'origine, jardin de palmiers où l'on se cachait pour le besoin." }
+    ],
+    quiz: [
+      { q: "Que recommande Khalīl avant d'entrer aux latrines ?",
+        choix: ["Réciter du Coran", "Écarter de soi ce qui porte le nom de Dieu", "Se raser la tête", "Ôter ses chaussures"],
+        bonne: 1,
+        explication: "« وَبِكَنِيفٍ نَحَّى ذِكْرَ اللَّهِ »." },
+      { q: "Mise en situation : en camping, sans latrines, une personne a sur elle un papier portant le nom de Dieu au moment de se soulager. Selon al-Dardīr, la règle s'applique-t-elle ?",
+        choix: ["Oui, elle vaut aussi ailleurs", "Non, seulement aux latrines", "Seulement à la maison", "Seulement pour le Coran"],
+        bonne: 0,
+        explication: "« وَلَا مَفْهُومَ لِقَوْلِهِ بِكَنِيفٍ بَلْ غَيْرُهُ كَذَلِكَ »." },
+      { q: "Que signifie « muḥtaḍara » dans le hadith sur les lieux d'aisance ?",
+        choix: ["Qu'ils sont anciens", "Qu'ils sont sales", "Que les démons s'y rendent", "Qu'on y meurt"],
+        bonne: 2,
+        explication: "« وَمَعْنَى مُحْتَضَرَةٍ أَيْ تَحْضُرُهَا الشَّيَاطِينُ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "277-278" },
+    alertes: [
+      "Matn : al-Kharashī (91, p. 144) lit au passif « وَبِكَنِيفٍ نُحِّيَ ذِكْرُ اللَّهِ تَعَالَى » ; le « ص » de Mawāhib, al-Dardīr et ʿUlaysh (21614, p. 89) ont « نَحَّى ذِكْرَ اللَّهِ » ; matn laissé selon le « ص » (n° 303).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 107–108 (Shamela 21604, pages 106–107)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-05-23",
+    kitab: "tah", bab: "01", fasl: "05", ordre: 23,
+    titre: "Pied gauche en entrant, pied droit en sortant",
+    titre_ar: "وَيُقَدِّمُ يُسْرَاهُ دُخُولًا وَيُمْنَاهُ خُرُوجًا",
+    objectif: "Savoir quel pied avancer pour entrer et sortir des latrines, de la mosquée et de la maison.",
+    matn: "وَيُقَدِّمُ يُسْرَاهُ دُخُولًا وَيُمْنَاهُ خُرُوجًا عَكْسُ مَسْجِدٍ وَالْمَنْزِلُ يُمْنَاهُ بِهِمَا",
+    regle_pratique: "On entre aux latrines du pied gauche et l'on en sort du pied droit, à l'inverse de la mosquée ; pour la maison, on avance le pied droit en entrant comme en sortant.",
+    qualification: {
+      hukm: "mandub",
+      nature: "adab",
+      effet_si_omis: "Non précisé dans les textes lus."
+    },
+    explication: "Al-Ḥaṭṭāb : « ظَاهِرُ كَلَامِ أَهْلِ الْمَذْهَبِ أَنَّ هَذَا الْأَدَبَ خَاصٌّ بِالْكَنِيفِ كَمَا صَرَّحَ بِهِ الْبِسَاطِيُّ ». Ad-Damīrī, shâfiʿite : pour la plupart, cela ne se limite pas aux constructions ; en plein air, on avance le pied gauche en arrivant à l'endroit et le droit en le quittant ; Ibn ar-Rifʿa discute le premier point. Remarque d'ad-Damīrī : « تُقَدَّمُ الْيُسْرَى لِلْمَوْضِعِ الدَّنِيءِ كَالْحَمَّامِ » et les lieux sombres. An-Nāshirī rapporte aussi une parole attribuée à Abū Hurayra sur celui qui entre du pied droit.\n\nAl-Dardīr explique la règle : « لِقَاعِدَةِ الشَّرْعِ أَنَّ مَا كَانَ مِنْ بَابِ التَّشْرِيفِ وَالتَّكْرِيمِ يُنْدَبُ فِيهِ التَّيَامُنُ وَمَا كَانَ بِضِدِّهِ يُنْدَبُ فِيهِ التَّيَاسُرُ ». Pour la mosquée, en sortant, on pose le pied gauche sur sa sandale, puis on chausse d'abord le droit ; en entrant, on se déchausse du gauche puis du droit, et l'on avance le droit. Pour la maison : « (وَالْمَنْزِلُ) يُقَدِّمُ (يُمْنَاهُ بِهِمَا) أَيْ فِيهِمَا أَيْ فِي الدُّخُولِ وَالْخُرُوجِ ». Al-Dasūqī : de même « لِكُلِّ دَنِيءٍ كَحَمَّامٍ وَفُنْدُقٍ » ; si la porte de la maison donne dans la mosquée, « كَانَ الْحُكْمُ لِلْمَسْجِدِ ».",
+    aqwal: [
+      { auteur: "Al-Bisāṭī (et les gens de l'école, selon al-Ḥaṭṭāb)", avis: "Cette convenance est propre aux latrines construites.", statut: "non_precise" },
+      { auteur: "Ad-Damīrī (shâfiʿite)", avis: "Pour la plupart, elle vaut aussi en plein air, et pour tout lieu bas comme le bain.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « (وَيُقَدِّمُ) نَدْبًا (يُسْرَاهُ دُخُولًا) لِلْكَنِيفِ (وَ) يُقَدِّمُ (يُمْنَاهُ خُرُوجًا) مِنْهُ وَذَلِكَ (عَكْسُ مَسْجِدٍ) فِيهِمَا ».",
+    tarjih_hattab: null,
+    tanbihat: [],
+    divergences: [
+      "Concordance — les autres lieux bas. Al-Ḥaṭṭāb, d'après ad-Damīrī : « تُقَدَّمُ الْيُسْرَى لِلْمَوْضِعِ الدَّنِيءِ كَالْحَمَّامِ » ; al-Dasūqī : « أَيْ وَكَذَا لِكُلِّ دَنِيءٍ كَحَمَّامٍ وَفُنْدُقٍ ».",
+      "Complément — la mosquée et la maison. Al-Ḥaṭṭāb ne les commente pas (ces mots manquent à son « ص »). Al-Dardīr : « (عَكْسُ مَسْجِدٍ) فِيهِمَا » ; « (وَالْمَنْزِلُ) يُقَدِّمُ (يُمْنَاهُ بِهِمَا) »."
+    ],
+    exemple: "Une personne entre aux toilettes du pied gauche et en sort du pied droit ; à la mosquée, elle fait l'inverse ; chez elle, elle avance le pied droit pour entrer et pour sortir.",
+    erreurs_frequentes: [
+      "Entrer aux toilettes du pied droit : on y entre du gauche.",
+      "Appliquer à la mosquée l'ordre des toilettes : c'est l'inverse.",
+      "Sortir de chez soi du pied gauche : pour la maison, c'est le droit dans les deux sens."
+    ],
+    termes: [],
+    quiz: [
+      { q: "Avec quel pied entre-t-on aux latrines ?",
+        choix: ["Le droit", "Indifféremment", "Les deux ensemble", "Le gauche"],
+        bonne: 3,
+        explication: "« وَيُقَدِّمُ يُسْرَاهُ دُخُولًا »." },
+      { q: "Et pour entrer à la mosquée ?",
+        choix: ["Le gauche", "Indifféremment", "Le droit", "Après s'être déchaussé des deux pieds à la fois"],
+        bonne: 2,
+        explication: "Al-Dardīr : « (عَكْسُ مَسْجِدٍ) فِيهِمَا »." },
+      { q: "Mise en situation : une personne rentre chez elle, puis ressort. Quel pied avance-t-elle, selon al-Dardīr ?",
+        choix: ["Le gauche pour entrer, le droit pour sortir", "Le droit dans les deux cas", "Le gauche dans les deux cas", "Le droit pour entrer, le gauche pour sortir"],
+        bonne: 1,
+        explication: "« (وَالْمَنْزِلُ) يُقَدِّمُ (يُمْنَاهُ بِهِمَا) »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "278-279" },
+    alertes: [
+      "Corrigé (campagne de correction) : le « ص » de Mawāhib (569/277) s'arrête à « وَيُمْنَاهُ خُرُوجًا » ; le Mukhtaṣar seul (11355, p. 15), al-Dardīr, al-Kharashī (91, p. 144) et ʿUlaysh (21614, p. 90) ont la suite « عَكْسُ مَسْجِدٍ وَالْمَنْزِلُ يُمْنَاهُ بِهِمَا » ; matn complété, vocalisé d'après al-Dardīr et al-Kharashī ; al-Ḥaṭṭāb ne commente pas ces mots (n° 304).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 108 (Shamela 21604, page 107)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-05-24a",
+    kitab: "tah", bab: "01", fasl: "05", ordre: 24,
+    titre: "À la maison : se soulager face à la qibla ou dos à elle",
+    titre_ar: "وَجَازَ بِمَنْزِلٍ وَطْءٌ وَبَوْلٌ مُسْتَقْبِلَ قِبْلَةٍ …",
+    objectif: "Savoir qu'à la maison et en ville on peut se soulager face à la qibla ou dos à elle, et connaître les cas discutés.",
+    matn: "وَجَازَ بِمَنْزِلٍ وَطْءٌ وَبَوْلٌ مُسْتَقْبِلَ قِبْلَةٍ وَمُسْتَدْبِرَهَا وَإِنْ لَمْ يَلْجَأْ وَأُوِّلَ بِالسَّاتِرِ وَبِالْإِطْلَاقِ",
+    regle_pratique: "À la maison et en ville, on peut uriner ou faire ses selles face à la qibla ou dos à elle, même si l'on pourrait facilement se tourner ; c'est en plein air sans écran que c'est interdit (fiche 25).",
+    qualification: {
+      hukm: "mubah",
+      nature: "autre",
+      effet_si_omis: "Sans objet : c'est une permission."
+    },
+    explication: "Al-Ḥaṭṭāb : Khalīl vise aussi les selles, « يُرِيدُ وَغَائِطٌ كَمَا صَرَّحَ بِهِ فِي الْمُدَوَّنَةِ ». En apparence, c'est permis à la maison, dans des latrines ou non, avec un écran ou non, « وَهُوَ ظَاهِرُ الْمُدَوَّنَةِ ». Le Tahdhīb d'al-Barādhiʿī : « وَلَا يُكْرَهُ اسْتِقْبَالُ الْقِبْلَةِ وَاسْتِدْبَارُهَا لِبَوْلٍ أَوْ غَائِطٍ وَالْمُجَامَعَةِ إلَّا فِي الْفَلَوَاتِ ».\n\nLes cas, selon al-Ḥaṭṭāb :\n1. Latrines et écran : « فَلَا خِلَافَ فِي الْجَوَازِ » (Ibn Bashīr, at-Tawḍīḥ, Ibn ʿArafa, Ibn Nājī).\n2. Latrines sans écran (par exemple sur un toit) : deux façons de rapporter l'école. Pour al-Māzarī, c'est permis par accord ; pour ʿAbd al-Ḥaqq, c'est permis, et l'avis contraire de certains maîtres est écarté. Ce sont les deux interprétations que Khalīl signale par « وَأُوِّلَ بِالسَّاتِرِ وَبِالْإِطْلَاقِ ». Conclusion : « أَنَّ الْجَوَازَ هُوَ الْمَذْهَبُ إمَّا اتِّفَاقًا أَوْ عَلَى الرَّاجِحِ », ce qu'a choisi l'auteur d'aṭ-Ṭirāz.\n3. Écran sans latrines : deux avis (al-Māzarī), la permission étant l'apparent de la Mudawwana, l'interdiction celui d'al-Majmūʿa et du Mukhtaṣar d'Ibn ʿAbd al-Ḥakam ; Ibn Bashīr en donne la cause : « هَلْ الْعِلَّةُ حُرْمَةُ الْمُصَلِّينَ فَيَجُوزُ بِالسَّاتِرِ أَوْ حُرْمَةُ الْقِبْلَةِ فَلَا يَجُوزُ أَصْلًا » ; al-Lakhmī juge la seconde raison, le respect de la qibla, « وَهُوَ أَحْسَنُ ». Al-Ḥaṭṭāb conclut : « فَعُلِمَ مِنْ هَذَا أَنَّ الرَّاجِحَ مِنْ الْقَوْلَيْنِ الْجَوَازُ ».\n4. Ni écran ni latrines, à la maison : permis selon l'apparent de la Mudawwana, de ʿIyāḍ et de ʿAbd al-Ḥaqq ; non selon l'apparent d'Ibn Bashīr.\n\nRemarque (Ibn Nājī) : « ظَاهِرُ كَلَامِ الْأَكْثَرِ أَنَّ الْمِرْحَاضَ بِذَاتِهِ كَافٍ وَلَا يُشْتَرَطُ الِاضْطِرَارُ إلَيْهِ », alors qu'Ibn al-Ḥājib ne le permet que dans des latrines « يُلْجَأُ إلَيْهِ ».\n\nAl-Dardīr : c'est permis « إنْ أُلْجِئَ », et même sans contrainte, « كَرَحْبَةِ الدَّارِ وَمَرَاحِيضِ السُّطُوحِ وَفَضَاءِ الْمُدُنِ », car « الْمُرَادَ بِالْمَنْزِلِ مَا قَابَلَ الْفَضَاءَ ». L'interprétation par l'écran « وَهُوَ ضَعِيفٌ » ; la permission absolue « وَهُوَ الْمُعْتَمَدُ ».",
+    aqwal: [
+      { auteur: "Al-Mudawwana (Tahdhīb d'al-Barādhiʿī)", avis: "Ce n'est pas déconseillé, sauf dans les étendues désertes.", statut: "non_precise" },
+      { auteur: "Al-Māzarī (al-Muʿlim)", avis: "Dans des latrines sans écran, c'est permis par accord.", statut: "non_precise" },
+      { auteur: "Certains maîtres (d'après ʿAbd al-Ḥaqq)", avis: "Sur un toit sans murs, ce n'est pas permis.", statut: "qawl" },
+      { auteur: "Ibn Bashīr", avis: "Sans latrines ni écran, ce n'est pas permis.", statut: "qawl" },
+      { auteur: "Mālik (Mukhtaṣar d'Ibn ʿAbd al-Ḥakam)", avis: "Pas sur les toits où l'on peut se tourner.", statut: "qawl" },
+      { auteur: "Ibn al-Ḥājib", avis: "Seulement dans des latrines où l'on est contraint.", statut: "qawl" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « (وَ) أُوِّلَ (بِالْإِطْلَاقِ) أَيْ سَوَاءٌ كَانَ لَهَا سَاتِرٌ أَمْ لَا وَهُوَ الْمُعْتَمَدُ ».",
+    tarjih_hattab: "La permission est l'avis de l'école, par accord ou comme avis le plus fort : « فَعُلِمَ مِنْ هَذَا أَنَّ الرَّاجِحَ مِنْ الْقَوْلَيْنِ الْجَوَازُ وَهُوَ مُقْتَضَى إطْلَاقِ الْمُصَنِّفِ ».",
+    tanbihat: [],
+    divergences: [
+      "Concordance — la permission absolue. Al-Ḥaṭṭāb : « أَنَّ الْجَوَازَ هُوَ الْمَذْهَبُ إمَّا اتِّفَاقًا أَوْ عَلَى الرَّاجِحِ » ; al-Dardīr : « وَهُوَ الْمُعْتَمَدُ ».",
+      "Point à comparer — à quoi s'appliquent les deux interprétations. Al-Ḥaṭṭāb : aux latrines sans écran (« وَهُمَا التَّأْوِيلَانِ اللَّذَانِ أَشَارَ إلَيْهِمَا الْمُصَنِّفُ ») ; al-Dardīr : « فَالتَّأْوِيلَانِ فِي الْمُبَالَغِ عَلَيْهِ فَقَطْ وَفِي مَرَاحِيضِ السُّطُوحِ خَاصَّةً خِلَافًا لِظَاهِرِ الْمُصَنِّفِ ».",
+      "Complément — al-Wāḍiḥa. Al-Ḥaṭṭāb n'en parle pas. Al-Dasūqī, d'après بن (Muḥammad al-Bunānī) : « لَوْ عَبَّرَ بِلَوْ لِرَدِّ مَا فِي الْوَاضِحَةِ مِنْ أَنَّهُ لَا يَجُوزُ إلَّا إذَا أُلْجِئَ كَانَ أَوْلَى »."
+    ],
+    exemple: "Dans un appartement, les toilettes sont orientées vers la qibla : on peut s'y asseoir ainsi, même si l'on pourrait se tourner de biais.",
+    erreurs_frequentes: [
+      "Croire que c'est interdit dans toute maison : c'est permis à la maison et en ville.",
+      "Croire qu'il faut y être contraint : selon al-Dardīr, c'est permis même sans contrainte.",
+      "Appliquer cette permission en pleine nature sans écran : c'est là que c'est interdit."
+    ],
+    termes: [
+      { ar: "اِسْتِقْبَالُ الْقِبْلَةِ", translit: "istiqbâlou l-qibla", def: "Se tourner vers la qibla (et اِسْتِدْبَار : lui tourner le dos)." },
+      { ar: "سَاتِر", translit: "sâtir", def: "Écran, paroi ou obstacle qui cache celui qui se soulage." }
+    ],
+    quiz: [
+      { q: "À la maison, uriner face à la qibla est, selon Khalīl :",
+        choix: ["Permis", "Interdit", "Obligatoire", "Permis seulement la nuit"],
+        bonne: 0,
+        explication: "« وَجَازَ بِمَنْزِلٍ وَطْءٌ وَبَوْلٌ مُسْتَقْبِلَ قِبْلَةٍ »." },
+      { q: "Mise en situation : dans des toilettes où l'on pourrait facilement se tourner, une personne s'assied face à la qibla. Selon al-Dardīr ?",
+        choix: ["C'est interdit", "Elle doit refaire ses ablutions", "C'est permis seulement avec un écran", "C'est permis, même sans contrainte"],
+        bonne: 3,
+        explication: "« بَلْ (وَإِنْ لَمْ يُلْجَأْ) »." },
+      { q: "Des deux interprétations (« بِالسَّاتِرِ » et « بِالْإِطْلَاقِ »), laquelle al-Dardīr retient-il ?",
+        choix: ["Celle de l'écran", "Celle de la permission absolue", "Ni l'une ni l'autre", "Celle de la contrainte"],
+        bonne: 1,
+        explication: "« وَهُوَ الْمُعْتَمَدُ »." },
+      { q: "Quelle est la cause du désaccord, selon Ibn Bashīr ?",
+        choix: ["Le respect des passants", "La propreté du lieu", "Le respect dû à ceux qui prient, ou à la qibla elle-même", "La présence d'eau"],
+        bonne: 2,
+        explication: "« هَلْ الْعِلَّةُ حُرْمَةُ الْمُصَلِّينَ فَيَجُوزُ بِالسَّاتِرِ أَوْ حُرْمَةُ الْقِبْلَةِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "279-280" },
+    alertes: [
+      "Corrigé (campagne de correction) : le « ص » de Mawāhib (569/278) a « مُسْتَقْبِلَ الْقِبْلَةِ » et « أُوِّلَ » sans « وَ » ; le Mukhtaṣar seul (11355, p. 15), al-Dardīr, al-Kharashī (91, p. 145) et ʿUlaysh (21614, p. 90) ont « مُسْتَقْبِلَ قِبْلَةٍ » et « وَأُوِّلَ », et al-Ḥaṭṭāb cite lui-même « بِقَوْلِهِ وَأُوِّلَ بِالسَّاتِرِ » ; « وَمُسْتَدْبِرَهَا » (Mawāhib, al-Kharashī) et « يَلْجَأْ » (Mawāhib, Mukhtaṣar seul, al-Kharashī) laissés, al-Dardīr ayant « وَمُسْتَدْبِرًا » et « يُلْجَأْ » (n° 305).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 108–109 (Shamela 21604, pages 107–108)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-05-24b",
+    kitab: "tah", bab: "01", fasl: "05", ordre: 24,
+    titre: "Le rapport conjugal et la qibla",
+    titre_ar: "فِي جَمْعِ الْمُصَنِّفِ الْوَطْءَ مَعَ الْبَوْلِ",
+    objectif: "Savoir que le rapport conjugal suit la règle de l'urine pour la qibla, et la convenance de se couvrir.",
+    matn: "وَجَازَ بِمَنْزِلٍ وَطْءٌ وَبَوْلٌ مُسْتَقْبِلَ قِبْلَةٍ وَمُسْتَدْبِرَهَا وَإِنْ لَمْ يَلْجَأْ وَأُوِّلَ بِالسَّاتِرِ وَبِالْإِطْلَاقِ",
+    regle_pratique: "Le rapport conjugal suit la même règle que l'urine : permis à la maison, même face à la qibla ou dos à elle ; il convient que les époux se couvrent d'une étoffe.",
+    qualification: {
+      hukm: "mubah",
+      nature: "autre",
+      effet_si_omis: "Sans objet ; se couvrir est une convenance (« يَنْبَغِي »)."
+    },
+    explication: "Al-Ḥaṭṭāb (première remarque) : en réunissant le rapport et l'urine, et en citant le rapport en premier, Khalīl montre qu'il retient l'interprétation d'al-Barādhiʿī et d'autres : les deux ont la même règle. D'autres ont compris qu'Ibn al-Qāsim permet le rapport face à la qibla partout ; « وَالْأَوَّلُ هُوَ الْمَشْهُورُ ».\n\nTroisième remarque : « يَنْبَغِي لِلْمُجَامِعِ أَنْ يَسْتَتِرَ هُوَ وَأَهْلُهُ بِثَوْبٍ », qu'il soit tourné vers la qibla ou non. Al-Madkhal : les époux ne restent pas entièrement découverts ; Abū Bakr se couvrait la tête « حَيَاءً مِنْ اللَّهِ تَعَالَى » ; en pleine nature ou sur un toit, pas face à la qibla ni dos à elle ; dans une maison, « فَيُخْتَلَفُ فِيهِ بِالْجَوَازِ وَالْكَرَاهَةِ وَالْمَشْهُورُ الْجَوَازُ ». Al-Ḥaṭṭāb objecte au sujet du toit : « وَمَا ذَكَرَهُ غَيْرُ ظَاهِرٍ », car le toit est un cas discuté, comme al-Madkhal le dit lui-même ailleurs.\n\nAl-Dardīr range le rapport dans la même permission (« وَطْءٌ وَبَوْلٌ ») ; et, pour le plein air sans écran : « فَحَرَامٌ فِي الْوَطْءِ وَالْفَضْلَةِ ».",
+    aqwal: [
+      { auteur: "Al-Barādhiʿī et d'autres (interprétation de la Mudawwana)", avis: "Le rapport et l'urine ont la même règle.", statut: "mashhur" },
+      { auteur: "Ibn al-Qāsim, selon l'interprétation de certains (« وَتَأَوَّلَ بَعْضُهُمْ »)", avis: "Le rapport face à la qibla ou dos à elle est permis partout, en ville comme en plein air.", statut: "qawl" },
+      { auteur: "L'auteur d'al-Madkhal", avis: "Dans une maison, le rapport face à la qibla est permis selon l'avis le plus répandu ; en plein air ou sur un toit, non.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé : al-Dardīr réunit les deux dans la permission (« (وَطْءٌ وَبَوْلٌ) ») et dans l'interdiction du plein air sans écran (« فَحَرَامٌ فِي الْوَطْءِ وَالْفَضْلَةِ »).",
+    tarjih_hattab: "Sur un toit, l'interdiction posée par al-Madkhal n'est pas fondée : « وَمَا ذَكَرَهُ غَيْرُ ظَاهِرٍ ».",
+    tanbihat: [
+      "« يَنْبَغِي لِلْمُجَامِعِ أَنْ يَسْتَتِرَ هُوَ وَأَهْلُهُ بِثَوْبٍ سَوَاءٌ كَانَ مُسْتَقْبِلَ الْقِبْلَةِ أَوْ غَيْرَ مُسْتَقْبِلِهَا »."
+    ],
+    divergences: [
+      "Concordance — même règle. Al-Ḥaṭṭāb : « عَلَى مُسَاوَاةِ حُكْمِهِمَا » ; al-Dardīr : « فَحَرَامٌ فِي الْوَطْءِ وَالْفَضْلَةِ » en plein air sans écran, la maison étant permise pour les deux."
+    ],
+    exemple: "Un couple, chez lui, dans une chambre orientée vers la qibla : c'est permis ; il convient de se couvrir d'un drap.",
+    erreurs_frequentes: [
+      "Croire que le rapport est soumis à une règle plus stricte que l'urine : c'est la même.",
+      "Négliger de se couvrir : al-Ḥaṭṭāb le recommande."
+    ],
+    termes: [],
+    quiz: [
+      { q: "Selon l'avis le plus répandu rapporté par al-Ḥaṭṭāb, le rapport conjugal face à la qibla suit :",
+        choix: ["Une règle plus sévère que l'urine", "Aucune règle", "La règle de la prière", "La même règle que l'urine"],
+        bonne: 3,
+        explication: "« عَلَى مُسَاوَاةِ حُكْمِهِمَا » ; « وَالْأَوَّلُ هُوَ الْمَشْهُورُ »." },
+      { q: "Mise en situation : un couple, chez lui, dans une chambre orientée vers la qibla. Selon al-Madkhal ?",
+        choix: ["C'est permis selon l'avis le plus répandu", "C'est interdit", "Ils doivent se tourner", "C'est seulement permis la nuit"],
+        bonne: 0,
+        explication: "« وَإِنْ كَانَ فِي بَيْتٍ فَيُخْتَلَفُ فِيهِ بِالْجَوَازِ وَالْكَرَاهَةِ وَالْمَشْهُورُ الْجَوَازُ »." },
+      { q: "Que recommande al-Ḥaṭṭāb aux époux ?",
+        choix: ["De garder le silence", "De se couvrir d'une étoffe", "De se tourner vers la qibla", "De faire les ablutions avant"],
+        bonne: 1,
+        explication: "« يَنْبَغِي لِلْمُجَامِعِ أَنْ يَسْتَتِرَ هُوَ وَأَهْلُهُ بِثَوْبٍ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "280" },
+    alertes: [
+      "Sous-fiche du segment tah-01-05-24 (même matn que 24a ; n° 305).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 108–109 (Shamela 21604, pages 107–108)."
+    ],
+    verification: "verifie"
+  }
+
+  /* FIN-UNITE-43 */
 ]);

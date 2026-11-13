@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.46
+/* Données — Glossaire, partie 2 — v1.47
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -21,7 +21,8 @@
    v1.43 : 6 termes de l'unité 39 (tah-01-04-49 à -56).
    v1.44 : 3 termes de l'unité 40 (tah-01-04-55b).
    v1.45 : 11 termes de l'unité 41 (tah-01-05-01a à -08).
-   v1.46 : 7 termes de l'unité 42 (tah-01-05-09 à -16). */
+   v1.46 : 7 termes de l'unité 42 (tah-01-05-09 à -16).
+   v1.47 : 6 termes de l'unité 43 (tah-01-05-17 à -24b). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -299,7 +300,13 @@ App.data.ajouterTermes([
   { ar: "حِرْز", translit: "ḥirz", def: "Amulette, écrit protecteur portant le nom de Dieu ou des versets." },
   { ar: "فَضَاء", translit: "fadâ'", def: "Plein air, espace découvert." },
   { ar: "بَرَاز", translit: "barâz", def: "Vaste espace découvert ; on y allait faire ses besoins." },
-  { ar: "جُحْر", translit: "jouḥr", def: "Trou rond d'animal ; on y joint la galerie allongée (سَرْب)." }
+  { ar: "جُحْر", translit: "jouḥr", def: "Trou rond d'animal ; on y joint la galerie allongée (سَرْب)." },
+  { ar: "مَوْرِد", translit: "mawrid", def: "Point d'eau où l'on vient puiser : rive d'un fleuve, puits, source." },
+  { ar: "مَلَاعِن", translit: "malâʿin", def: "« Lieux de malédiction » : endroits où celui qui se soulage s'attire la malédiction des gens (chemins, ombres, points d'eau)." },
+  { ar: "قَارِعَةُ الطَّرِيقِ", translit: "qâriʿatou t-tarîq", def: "La voie publique, le chemin fréquenté." },
+  { ar: "حُشّ", translit: "houchch", def: "Lieu d'aisance ; à l'origine, jardin de palmiers où l'on se cachait pour le besoin." },
+  { ar: "اِسْتِقْبَالُ الْقِبْلَةِ", translit: "istiqbâlou l-qibla", def: "Se tourner vers la qibla (et اِسْتِدْبَار : lui tourner le dos)." },
+  { ar: "سَاتِر", translit: "sâtir", def: "Écran, paroi ou obstacle qui cache celui qui se soulage." }
 
   /* FIN-GLOSSAIRE */
 ]);
