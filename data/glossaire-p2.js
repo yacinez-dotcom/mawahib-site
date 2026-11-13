@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.38
+/* Données — Glossaire, partie 2 — v1.39
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -13,7 +13,8 @@
    v1.35 : 15 termes de l'unité 31 (tah-01-04-08 à -10c).
    v1.36 : 13 termes de l'unité 32 (tah-01-04-11a à -13c).
    v1.37 : 21 termes de l'unité 33 (tah-01-04-14 à -19b).
-   v1.38 : 9 termes de l'unité 34 (tah-01-04-20a à -21d). */
+   v1.38 : 9 termes de l'unité 34 (tah-01-04-20a à -21d).
+   v1.39 : 17 termes de l'unité 35 (tah-01-04-22a à -29). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -220,7 +221,25 @@ App.data.ajouterTermes([
   { ar: "نَقْلُ الْمَاءِ", translit: "naqlou l-mâ'", def: "« Porter l'eau » au membre : soit qu'elle l'atteigne (obligatoire), soit qu'on la porte avec la main (discuté)." },
   { ar: "تَفْرِيق", translit: "tafrîq", def: "Interruption : séparer dans le temps les membres des ablutions." },
   { ar: "جَفَاف", translit: "jafâf", def: "Séchage ; dans les ablutions, le dessèchement des membres lavés, qui mesure la longue interruption." },
-  { ar: "مِزَاج", translit: "mizâj", def: "Tempérament : complexion physique d'une personne." }
+  { ar: "مِزَاج", translit: "mizâj", def: "Tempérament : complexion physique d'une personne." },
+  /* Unité 35 — tah-01-04-22a à -29 */
+  { ar: "قَصْد", translit: "qasd", def: "Visée : le fait de se diriger vers une chose ; c'est la définition de l'intention." },
+  { ar: "عَزْم", translit: "ʿazm", def: "Résolution : décision d'accomplir un acte ; selon al-Qarāfī, l'intention la précède." },
+  { ar: "إِرَادَة", translit: "irâda", def: "Volonté ; à la différence de l'intention, elle peut viser l'acte d'autrui (al-Qarāfī)." },
+  { ar: "مُكْتَسَب", translit: "mouktasab", def: "Acte acquis : ce que le serviteur fait par son propre pouvoir ; l'intention ne peut porter que sur lui." },
+  { ar: "نِيَّةٌ فِعْلِيَّةٌ", translit: "niyyatoun fiʿliyya", def: "Intention effective : celle qu'on a présente à l'esprit, au début de l'acte." },
+  { ar: "نِيَّةٌ حُكْمِيَّةٌ", translit: "niyyatoun houkmiyya", def: "Intention « de règle » : celle à laquelle on ne pense plus, mais que la Loi tient pour toujours présente." },
+  { ar: "مَنْوِيّ", translit: "manwiyy", def: "Ce qui est visé par l'intention : l'acte ou le but qu'elle désigne." },
+  { ar: "رَفْعُ الحَدَثِ", translit: "rafʿou l-hadath", def: "Lever le ḥadath : faire cesser l'état qui interdit la prière ; l'une des trois visées de l'intention." },
+  { ar: "اِسْتِبَاحَة", translit: "istibâha", def: "Se rendre permis : viser, par la purification, ce que le ḥadath interdisait (prière, tawâf, toucher le Coran)." },
+  { ar: "اِمْتِثَالُ الأَمْرِ", translit: "imtithâlou l-amr", def: "Obéir à l'ordre : accomplir ce que Dieu a prescrit ; autre façon de dire l'intention du fard (Ibn Bashīr)." },
+  { ar: "مَانِعَةُ خُلُوٍّ", translit: "mâniʿatou khoulouww", def: "Disjonction non exclusive : « ou » qui exige au moins l'un des termes et permet de les réunir (al-Dardīr)." },
+  { ar: "اِسْتِصْحَابُ النِّيَّةِ", translit: "istishâbou n-niyya", def: "Garder l'intention présente à l'esprit jusqu'à un moment donné (ici, du début des ablutions jusqu'au visage)." },
+  { ar: "مُسْتَبَاح", translit: "moustabâh", def: "Ce qui devient permis par la purification : la prière, le tawâf, toucher le mus-haf." },
+  { ar: "مُتَلَاعِب", translit: "moutalâʿib", def: "Qui joue avec l'acte d'adoration : il vise exprès ce qu'il sait faux ; son intention ne vaut pas." },
+  { ar: "مُطْلَقُ الطَّهَارَةِ", translit: "moutlaqou t-tahâra", def: "Purification en général : visée qui peut porter sur le ḥadath comme sur l'impureté matérielle." },
+  { ar: "تَعْلِيقُ النِّيَّةِ", translit: "taʿlîqou n-niyya", def: "Intention conditionnelle : la suspendre à un fait incertain (« si… ») ; elle ne vaut pas, faute de fermeté." },
+  { ar: "مُجَدِّد", translit: "moujaddid", def: "Celui qui renouvelle ses ablutions alors qu'il se croit en état de pureté." }
 
   /* FIN-GLOSSAIRE */
 ]);

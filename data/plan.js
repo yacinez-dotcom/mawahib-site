@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.27 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.28 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -53,7 +53,8 @@
           (Mukhtaṣar seul, al-Dardīr ; anomalie n° 231) (unité 32).
    v1.26 : tah-01-04-16 découpé en 16a et 16b (« بِمَفْصِلَيْ » d'après al-Dardīr, anomalie n° 235), tah-01-04-19 en 19a et 19b ;
           titre arabe de tah-01-04-18 complété (unité 33).
-   v1.27 : tah-01-04-20 découpé en 20a à 20c, tah-01-04-21 en 21a à 21d ; « أَوْ سُنَّةٌ » d'après al-Dardīr (anomalie n° 246) (unité 34). */
+   v1.27 : tah-01-04-20 découpé en 20a à 20c, tah-01-04-21 en 21a à 21d ; « أَوْ سُنَّةٌ » d'après al-Dardīr (anomalie n° 246) (unité 34).
+   v1.28 : tah-01-04-22 découpé en 22a à 22d (unité 35). */
 App.data.definirPlan({
   kutub: [
     {
@@ -371,7 +372,10 @@ App.data.definirPlan({
                 { id: "tah-01-04-21b", titre: "L'oubli : reprendre avec l'intention", titre_ar: "وَبَنَى بِنِيَّةٍ إنْ نَسِيَ مُطْلَقًا" }, /* p. 225 */
                 { id: "tah-01-04-21c", titre: "L'eau qui manque : reprendre si le délai n'est pas long", titre_ar: "وَإِنْ عَجَزَ بَنَى مَا لَمْ يَطُلْ بِجَفَافِ أَعْضَاءٍ بِزَمَنٍ اعْتَدَلَا" }, /* p. 226 */
                 { id: "tah-01-04-21d", titre: "Essuyer la tête avec l'humidité de la barbe : non", titre_ar: "مَسْحُ الرَّأْسِ بِبَلَلِ اللِّحْيَةِ أَوْ الذِّرَاعَيْنِ" }, /* p. 228 */
-                { id: "tah-01-04-22", titre: "L'intention : lever le hadath, le fard, ou l'autorisation", titre_ar: "وَنِيَّةُ رَفْعِ الْحَدَثِ عِنْدَ وَجْهِهِ أَوْ …" }, /* p. 230 */
+                { id: "tah-01-04-22a", titre: "L'intention : une obligation des ablutions", titre_ar: "وَنِيَّةُ رَفْعِ الْحَدَثِ — حُكْمُ النِّيَّةِ وَحَقِيقَتُهَا وَمَحَلُّهَا" }, /* p. 230 — quatre sous-fiches (étape 3, v1.28) */
+                { id: "tah-01-04-22b", titre: "À quoi sert l'intention, et ses conditions", titre_ar: "وَنِيَّةُ رَفْعِ الْحَدَثِ — حِكْمَةُ النِّيَّةِ وَشُرُوطُهَا وَأَقْسَامُهَا" }, /* p. 232 */
+                { id: "tah-01-04-22c", titre: "Les trois visées de l'intention", titre_ar: "أَوْ الْفَرْضِ أَوْ اسْتِبَاحَةِ مَمْنُوعٍ — كَيْفِيَّةُ النِّيَّةِ" }, /* p. 234 */
+                { id: "tah-01-04-22d", titre: "Le moment de l'intention : au lavage du visage", titre_ar: "عِنْدَ وَجْهِهِ — وَقْتُ النِّيَّةِ" }, /* p. 235 */
                 { id: "tah-01-04-23", titre: "… même avec l'intention de se rafraîchir", titre_ar: "وَإِنْ مَعَ تَبَرُّدٍ" }, /* p. 235 */
                 { id: "tah-01-04-24", titre: "Exclure une partie de ce qu'on veut s'autoriser", titre_ar: "أَوْ أَخْرَجَ بَعْضَ الْمُسْتَبَاحِ" }, /* p. 236 */
                 { id: "tah-01-04-25", titre: "Oublier un hadath, sans l'exclure", titre_ar: "أَوْ نَسِيَ حَدَثًا لَا أَخْرَجَهُ" }, /* p. 236 */
