@@ -1,4 +1,4 @@
-/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 19 — v5.5
+/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 19 — v5.6
    Source : Mawāhib al-Jalīl, al-Ḥaṭṭāb, éd. Dār al-Fikr, 3e éd., 1412 H / 1992, tome 1 (shamela.ws/book/569).
    Croisement : al-Sharḥ al-kabīr d'al-Dardīr et Ḥāshiyat al-Dasūqī (shamela.ws/book/21604), tome 1.
    Cette partie : faṣl tah-01-04 (les ablutions), à partir de tah-01-04-49 (unités 39 et suivantes) — t. 1, p. 259 et suivantes.
@@ -6,6 +6,8 @@
           matn de 52 à 55 complété et vocalisé d'après le Mukhtaṣar seul, al-Dardīr et al-Kharashī (n° 278 à 280), de 56 (« كَشَكِّهِ », n° 282).
    v5.5 : unité 40 — tah-01-04-55b (segment absent du « ص » de Mawāhib, d'après al-Dardīr / al-Dasūqī, n° 281, 289) et synthèse
           tah-01-04-syn (2026-11-13) ; fin du faṣl tah-01-04 ; audit de fin de faṣl : alertes de 50 (n° 286) et 56 (n° 283) précisées.
+   v5.6 : unité 41 — début du faṣl tah-01-05 (convenances des besoins naturels) : tah-01-05-01a, -01b, -02 à -08
+          (Mawāhib, t. 1, p. 267–270 ; al-Dardīr / al-Dasūqī, t. 1, p. 104–106) (2026-11-13) ; anomalies n° 290 à 293.
    Bāb découpé en parties de moins de 200 Ko ;
    historique des versions : tah-01-p1.js (jusqu'à v2.5) puis l'en-tête de chaque partie. */
 App.data.ajouterFiches([
@@ -653,7 +655,551 @@ App.data.ajouterFiches([
         choix: ["C'est permis", "C'est déconseillé", "Il doit refaire ses ablutions", "C'est une sunna"],
         bonne: 0, explication: "Voir la fiche 55b." }
     ]
-  }
+  },
 
   /* FIN-UNITE-40 */
+
+  /* ================================================================== */
+  /* Unité 41 — tah-01-05-01a à -08 — début du faṣl tah-01-05 (convenances des besoins naturels) */
+  /* Mawāhib, t. 1, p. 267–270 (Shamela 569/266–269) ; al-Dardīr / al-Dasūqī, t. 1, p. 104–106 (Shamela 21604/103–105) */
+  {
+    id: "tah-01-05-01a",
+    kitab: "tah", bab: "01", fasl: "05", ordre: 1,
+    titre: "Uriner sur un sol meuble, pur ou impur",
+    titre_ar: "نُدِبَ لِقَاضِي الْحَاجَةِ جُلُوسٌ وَمُنِعَ بِرَخْوٍ نَجِسٍ",
+    objectif: "Savoir s'il faut s'asseoir ou rester debout pour uriner sur un sol meuble, selon qu'il est pur ou impur.",
+    matn: "نُدِبَ لِقَاضِي الْحَاجَةِ جُلُوسٌ وَمُنِعَ بِرَخْوٍ نَجِسٍ",
+    regle_pratique: "Pour uriner sur un sol meuble (sable, terre) et pur, il est recommandé de s'asseoir, car on est mieux couvert ; sur un sol meuble impur, on ne s'assied pas, pour ne pas salir ses vêtements : on urine debout.",
+    qualification: {
+      hukm: "mandub",
+      nature: "adab",
+      effet_si_omis: "Rester debout sur un sol meuble pur n'est pas interdit (Ibn Bashīr : « وَلَا يَحْرُمُ الْقِيَامُ ») ; s'asseoir sur un sol meuble impur est déconseillé selon al-Ḥaṭṭāb et al-Dardīr."
+    },
+    explication: "Al-Ḥaṭṭāb rapporte d'Ibn Bashīr, d'après les maîtres, que le lieu où l'on urine est de quatre sortes : meuble ou dur, pur ou impur (le sol dur : fiche 01b). Le principe : « يَجْتَنِبُ النَّجَاسَةَ وَيَفْعَلُ مَا هُوَ أَقْرَبُ لِلسَّتْرِ » ; éviter l'impureté passe avant le fait de se couvrir quand on est en un lieu où l'on n'est pas vu. Pour al-Ḥaṭṭāb, Khalīl ne parle ici que du sol meuble : « فَأَشَارَ إلَى الرَّخْوِ الطَّاهِرِ بِقَوْلِهِ: نُدِبَ لِقَاضِي الْحَاجَةِ جُلُوسٌ ».\n\nSol meuble et pur. Ibn Bashīr : « فَالْأَوْلَى الْجُلُوسُ », « لِأَنَّهُ أَقْرَبُ لِلسَّتْرِ وَلَا يَحْرُمُ الْقِيَامُ » ; al-Bājī : « هُوَ أَوْلَى وَأَفْضَلُ ». Cela ne contredit pas la Mudawwana, « وَلَا بَأْسَ بِالْبَوْلِ قَائِمًا فِي مَوْضِعٍ لَا يَتَطَايَرُ فِيهِ », car « لَا بَأْسَ تَرِدُ لِمَا غَيْرُهُ خَيْرٌ مِنْهُ » (« pas de mal » se dit de ce dont l'autre est meilleur). Al-Madkhal : uriner debout a été permis et déconseillé, « وَالْمَشْهُورُ الْجَوَازُ » quand on ne peut être vu et que le sol est meuble ; al-Ḥaṭṭāb précise que cela ne veut pas dire que les deux se valent, « وَإِنْ كَانَ تَرْكُهُ أَوْلَى ». Aṭ-Ṭirāz : par analogie, ce n'est pas déconseillé « إذَا سَلِمَ مِنْ إصَابَةِ الْبَوْلِ وَالْهُتْكَةِ » (si l'on est à l'abri de l'urine et du dévoilement).\n\nSol meuble et impur. Khalīl dit « وَمُنِعَ » (c'est interdit). Al-Ḥaṭṭāb : « فَيَنْبَغِي أَنْ يُحْمَلَ عَلَى الْكَرَاهَةِ وَلَا يُحْمَلَ عَلَى ظَاهِرِهِ » ; rien dans les textes n'est explicite en faveur de l'interdiction. Al-Bājī : « بَالَ الْبَائِلُ فِيهِ قَائِمًا وَلَمْ يَبُلْ جَالِسًا » ; al-Jawāhir le dit permis : « فَإِنْ كَانَ نَجِسًا رَخْوًا فَلَهُ أَنْ يَبُولَ قَائِمًا ». L'auteur d'ash-Shāmil ne suit pas Khalīl sur l'interdiction : « وَإِلَّا بَالَ قَائِمًا ».",
+    aqwal: [
+      { auteur: "Ibn Bashīr, d'après les maîtres", avis: "Sol meuble pur : s'asseoir est mieux, rester debout n'est pas interdit ; sol meuble impur : rester debout.", statut: "non_precise" },
+      { auteur: "Al-Bājī", avis: "Sur un sol meuble pur, s'asseoir est mieux et préférable ; sur un sol meuble souillé, on urine debout.", statut: "non_precise" },
+      { auteur: "Al-Mudawwana", avis: "Pas de mal à uriner debout là où l'urine ne rejaillit pas.", statut: "non_precise" },
+      { auteur: "L'auteur d'al-Madkhal", avis: "Uriner debout est permis quand on ne peut être vu et que le sol est meuble.", statut: "mashhur" },
+      { auteur: "Aṭ-Ṭirāz", avis: "Par analogie, uriner debout n'est pas déconseillé si l'on est à l'abri de l'urine et du dévoilement.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « (جُلُوسٌ) بِرَخْوٍ طَاهِرٍ وَيَجُوزُ الْقِيَامُ إذَا أَمِنَ الِاطِّلَاعَ (وَمُنِعَ) الْجُلُوسُ أَيْ كُرِهَ » ; « لِئَلَّا يَتَنَجَّسَ ثَوْبُهُ ».",
+    tarjih_hattab: "« وَمُنِعَ » se lit comme une réprobation : « فَيَنْبَغِي أَنْ يُحْمَلَ عَلَى الْكَرَاهَةِ » ; et la permission d'al-Madkhal n'est pas l'égalité des deux, s'asseoir restant mieux.",
+    tanbihat: [
+      "Ibn ʿArafa, que cite al-Ḥaṭṭāb, est selon lui le plus net : « وَجُلُوسُهُ بِصُلْبٍ طَاهِرٍ لَازِمٌ وَمُقَابِلُهُ مُقَابِلُهُ », d'où l'on comprend que rester debout est requis sur un sol meuble impur ; mais rien n'impose l'interdiction de s'asseoir pour qui protège ses vêtements : « بَلْ عِبَارَةُ الْجَوَاهِرِ صَرِيحَةٌ فِي الْجَوَازِ »."
+    ],
+    divergences: [
+      "Concordance — sol meuble impur. Al-Ḥaṭṭāb : « فَيَنْبَغِي أَنْ يُحْمَلَ عَلَى الْكَرَاهَةِ » ; al-Dardīr : « (وَمُنِعَ) الْجُلُوسُ أَيْ كُرِهَ ».",
+      "Concordance — rester debout sur un sol meuble pur. Al-Ḥaṭṭāb, d'après al-Madkhal : « إذَا كَانَ فِي مَوْضِعٍ لَا يُمْكِنُ الِاطِّلَاعُ عَلَيْهِ » ; al-Dardīr : « وَيَجُوزُ الْقِيَامُ إذَا أَمِنَ الِاطِّلَاعَ ».",
+      "Point à comparer — la fin du segment. Le « ص » de Mawāhib s'arrête à « نَجِسٍ » ; al-Dardīr lit en plus « (وَتَعَيَّنَ الْقِيَامُ) أَيْ نُدِبَ نَدْبًا أَكِيدًا » (rester debout y est fortement recommandé) ; al-Ḥaṭṭāb dit la même chose d'après Ibn Bashīr : « وَإِنْ كَانَ رَخْوًا نَجِسًا فَلَيْسَ هُنَاكَ إلَّا الْقِيَامُ »."
+    ],
+    exemple: "En randonnée, un homme veut uriner dans le sable propre, à l'abri des regards : il est recommandé de s'accroupir. Si le sable est souillé d'urine, il ne s'accroupit pas, pour ne pas salir ses vêtements, et urine debout.",
+    erreurs_frequentes: [
+      "Croire qu'uriner debout est interdit en toute circonstance : sur un sol meuble pur, à l'abri des regards, c'est permis, s'asseoir étant mieux.",
+      "S'asseoir sur un sol meuble souillé : on risque de salir ses vêtements ; c'est déconseillé.",
+      "Lire « وَمُنِعَ » comme une interdiction stricte : al-Ḥaṭṭāb et al-Dardīr y voient une réprobation."
+    ],
+    termes: [
+      { ar: "رَخْو", translit: "rakhw", def: "Sol meuble, mou (sable, terre légère), où l'urine ne rejaillit pas." }
+    ],
+    quiz: [
+      { q: "Que recommande Khalīl à celui qui urine sur un sol meuble et pur ?",
+        choix: ["Rester debout", "S'asseoir", "Changer d'endroit", "Verser de l'eau d'abord"],
+        bonne: 1,
+        explication: "Al-Ḥaṭṭāb : « فَأَشَارَ إلَى الرَّخْوِ الطَّاهِرِ بِقَوْلِهِ: نُدِبَ لِقَاضِي الْحَاجَةِ جُلُوسٌ »." },
+      { q: "Mise en situation : seul dans un désert de sable propre, un homme urine debout. D'après Ibn Bashīr ?",
+        choix: ["C'est interdit", "Il doit refaire ses ablutions", "Il doit laver le sable", "Ce n'est pas interdit, mais s'asseoir est mieux"],
+        bonne: 3,
+        explication: "« لِأَنَّهُ أَقْرَبُ لِلسَّتْرِ وَلَا يَحْرُمُ الْقِيَامُ »." },
+      { q: "Comment al-Ḥaṭṭāb comprend-il « وَمُنِعَ » pour le sol meuble impur ?",
+        choix: ["Comme une réprobation", "Comme une interdiction stricte", "Comme une obligation", "Comme une simple permission"],
+        bonne: 0,
+        explication: "« فَيَنْبَغِي أَنْ يُحْمَلَ عَلَى الْكَرَاهَةِ » ; al-Dardīr : « أَيْ كُرِهَ »." },
+      { q: "Pourquoi ne s'assied-on pas sur un sol meuble impur, selon al-Dardīr ?",
+        choix: ["Parce que le lieu est maudit", "Parce que la terre est sacrée", "Pour ne pas salir ses vêtements", "Pour aller plus vite"],
+        bonne: 2,
+        explication: "« لِئَلَّا يَتَنَجَّسَ ثَوْبُهُ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "267-269" },
+    alertes: [
+      "Le « ص » de Mawāhib (569/266) imprime « وَمِنْهُ بِرَخْوٍ » ; lu « وَمُنِعَ » d'après le Mukhtaṣar seul (11355, p. 14), al-Dardīr, al-Kharashī (91, p. 140) et ʿUlaysh (21614, p. 86) ; correction déjà faite au plan (n° 42).",
+      "Fin du segment : « وَتَعَيَّنَ الْقِيَامُ » manque au « ص » de Mawāhib et à celui d'al-Kharashī (91, p. 140) ; le Mukhtaṣar seul (11355, p. 14), al-Dardīr (21604/103) et ʿUlaysh (21614, p. 86) l'ont ; al-Zurqānī (14297, p. 135) lit « وتعين » d'une autre façon (« أي تأكد ندب جلوسه بصلب طاهر ») ; al-Ḥaṭṭāb ne commente pas ces mots : matn laissé selon le « ص » ; la règle est donnée par al-Ḥaṭṭāb d'après Ibn Bashīr (n° 290).",
+      "Corrigé (campagne de correction) : dans la citation d'Ibn ʿArafa (569/267), « وَمُقَابِلُهُ بِدْعَةٌ أَيْ يَتْرُكُهُ » se lit « يَدَعُهُ » (il le laisse) : Ibn ʿArafa (16968, p. 73) porte « ومقابله يدعه », et la glose « أَيْ يَتْرُكُهُ » l'exige ; la fiche ne cite pas ce passage (n° 291).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 104–105 (Shamela 21604, pages 103–104)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-05-01b",
+    kitab: "tah", bab: "01", fasl: "05", ordre: 1,
+    titre: "Le sol dur ; les selles",
+    titre_ar: "وَأَمَّا الْمَوْضِعُ الصُّلْبُ …",
+    objectif: "Savoir comment faire sur un sol dur, pur ou impur, et pourquoi on fait ses selles assis.",
+    matn: "نُدِبَ لِقَاضِي الْحَاجَةِ جُلُوسٌ وَمُنِعَ بِرَخْوٍ نَجِسٍ",
+    regle_pratique: "Sur un sol dur et pur, on urine assis pour que l'urine ne rejaillisse pas ; un sol dur et impur, on le quitte pour un autre ; et les selles se font assis.",
+    qualification: {
+      hukm: "mandub",
+      nature: "adab",
+      effet_si_omis: "Rester debout sur un sol dur où l'urine rejaillit : déconseillé selon la Mudawwana, ce qu'al-Ḥaṭṭāb lit plutôt comme une interdiction ; al-Dardīr parle d'une recommandation appuyée de s'asseoir. Faire ses selles debout : fortement déconseillé (al-Dardīr)."
+    },
+    explication: "Pour al-Ḥaṭṭāb, Khalīl ne vise pas ici le sol dur ; il en parle plus loin, où il recommande de l'éviter.\n\nSol dur et pur. Ibn Bashīr : « وَإِنْ كَانَ الْمَوْضِعُ صُلْبًا طَاهِرًا فَلَيْسَ إلَّا الْجُلُوسُ ». Al-Bājī : « لِأَنَّ طَهَارَتَهُ تُبِيحُ الْجُلُوسَ وَصَلَابَةُ الْأَرْضِ تَمْنَعُ الْوُقُوفَ ». At-Tawḍīḥ : « وَإِنْ كَانَ صُلْبًا طَاهِرًا تَعَيَّنَ الْجُلُوسُ ». Al-Ḥaṭṭāb : « وَظَاهِرُ كَلَامِهِمْ أَنَّ الْجُلُوسَ وَاجِبٌ وَظَاهِرُ كَلَامِ الْمُدَوَّنَةِ أَنَّ الْقِيَامَ مَكْرُوهٌ », car elle dit : « وَأَكْرَهُهُ بِمَوْضِعٍ يَتَطَايَرُ فِيهِ ». Abū l-Ḥasan se demande si cette réprobation est une interdiction ; al-Ḥaṭṭāb : « وَحَمْلُهَا عَلَى الْمَنْعِ ظَاهِرٌ », sauf si l'on est à l'abri des éclaboussures (endroit surélevé, ou pas de vêtement sur soi quand on va se laver).\n\nSol dur et impur. Ibn Bashīr : « فَيَنْبَغِي أَنْ يَتْرُكَهُ وَيَقْصِدَ غَيْرَهُ », car debout on craint les éclaboussures, et assis on se salit.\n\nLes selles. Al-Ḥaṭṭāb (deuxième remarque) : les mots « لِقَاضِي الْحَاجَةِ » couvrent l'urine et les selles ; mais at-Tawḍīḥ limite à l'urine la permission de rester debout : « لِأَنَّ الْغَائِطَ لَا يَجُوزُ إلَّا جَالِسًا ». Ibn Nājī dit de même, puis : « وَالْأَقْرَبُ أَنَّهُ مَكْرُوهٌ فَقَطْ ».",
+    aqwal: [
+      { auteur: "Ibn Bashīr, d'après les maîtres", avis: "Sol dur et pur : seulement assis ; sol dur et impur : le quitter pour un autre.", statut: "non_precise" },
+      { auteur: "Al-Bājī", avis: "Sol dur et pur : uriner assis, pour que l'urine ne rejaillisse pas sur les vêtements.", statut: "non_precise" },
+      { auteur: "Al-Mudawwana", avis: "Uriner debout est déconseillé là où l'urine rejaillit.", statut: "non_precise" },
+      { auteur: "At-Tawḍīḥ (Khalīl)", avis: "Les selles ne sont permises qu'assis.", statut: "non_precise" },
+      { auteur: "Ibn Nājī", avis: "Faire ses selles debout est seulement déconseillé.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « وَأَمَّا الْمَوْضِعُ الصُّلْبُ فَيَتَعَيَّنُ فِيهِ » … « الْجُلُوسُ إنْ كَانَ طَاهِرًا أَوْ التَّنَحِّي عَنْهُ مُطْلَقًا إنْ كَانَ نَجِسًا » ; « وَمَعْنَى تَعَيَّنَ نُدِبَ نَدْبًا أَكِيدًا » ; pour les selles : « أَيْ يُكْرَهُ كَرَاهَةً شَدِيدَةً فِيمَا يَظْهَرُ ».",
+    tarjih_hattab: "Sur un sol dur et pur, la réprobation de la Mudawwana se lit plutôt comme une interdiction : « وَحَمْلُهَا عَلَى الْمَنْعِ ظَاهِرٌ », sauf si l'on est à l'abri des éclaboussures.",
+    tanbihat: [
+      "Éviter le sol dur (Khalīl le dit plus loin) : Ibn Ghāzī ne le connaît que d'al-Ghazālī ; al-Ḥaṭṭāb le trouve dans adh-Dhakhīra, d'après al-Jawāhir, « احْتِرَازًا مِنْ الرَّشَاشِ », et chez Ibn Muʿallā : « وَاتِّقَاءُ الْأَرْضِ الصُّلْبَةِ ».",
+      "Si l'on lisait le segment comme général (sol dur compris), on en comprendrait que s'asseoir y est seulement recommandé et rester debout permis : « فَيُفْهَمُ مِنْهُ عَكْسُ الْمُرَادِ »."
+    ],
+    divergences: [
+      "Divergence — sol dur et pur. Al-Ḥaṭṭāb : « وَحَمْلُهَا عَلَى الْمَنْعِ ظَاهِرٌ » (rester debout y serait interdit). Al-Dardīr : « وَمَعْنَى تَعَيَّنَ نُدِبَ نَدْبًا أَكِيدًا » ; al-Dasūqī : « وَظَاهِرُ الْمُدَوَّنَةِ وَغَيْرِهَا أَنَّ الْقِيَامَ مَكْرُوهٌ فَقَطْ ».",
+      "Point à comparer — portée du segment. Al-Ḥaṭṭāb : Khalīl « تَكَلَّمَ هُنَا عَلَى الْمَوْضِعِ الرَّخْوِ فَقَطْ ». Al-Dasūqī : on peut lire « نُدِبَ لِقَاضِي الْحَاجَةِ جُلُوسٌ » de tout lieu pur, meuble ou dur, s'asseoir étant plus appuyé sur le dur : « فَتَكُونُ الْأَقْسَامُ الْأَرْبَعَةُ كُلُّهَا فِي كَلَامِ الْمُصَنِّفِ ».",
+      "Concordance — les selles. Al-Ḥaṭṭāb, d'après Ibn Nājī : « وَالْأَقْرَبُ أَنَّهُ مَكْرُوهٌ فَقَطْ » ; al-Dardīr : « أَيْ يُكْرَهُ كَرَاهَةً شَدِيدَةً فِيمَا يَظْهَرُ », et il ajoute : « وَمِثْلُهُ بَوْلُ الْمَرْأَةِ وَالْخَصِيِّ »."
+    ],
+    exemple: "Sur un sol carrelé et propre, sans urinoir, un homme s'assied pour uriner, afin que l'urine ne rejaillisse pas sur lui ; si ce sol dur est souillé, il va ailleurs.",
+    erreurs_frequentes: [
+      "Uriner debout sur un sol dur : l'urine rejaillit sur les vêtements ; al-Ḥaṭṭāb y voit plutôt un interdit, al-Dardīr une forte recommandation de s'asseoir.",
+      "Rester sur un sol dur et impur, assis ou debout : on le quitte pour un autre.",
+      "Faire ses selles debout : at-Tawḍīḥ ne le permet pas ; Ibn Nājī et al-Dardīr le jugent déconseillé."
+    ],
+    termes: [
+      { ar: "صُلْب", translit: "soulb", def: "Sol dur, où l'urine rejaillit." },
+      { ar: "غَائِط", translit: "ghâ'it", def: "Les selles (la grosse commission)." }
+    ],
+    quiz: [
+      { q: "Sur un sol dur et pur, que faut-il faire pour uriner ?",
+        choix: ["Rester debout", "Le quitter", "S'asseoir", "Verser de l'eau d'abord"],
+        bonne: 2,
+        explication: "Ibn Bashīr : « فَلَيْسَ إلَّا الْجُلُوسُ »." },
+      { q: "Mise en situation : le seul endroit proche est un sol dur souillé d'urine. Que disent Ibn Bashīr et al-Dardīr ?",
+        choix: ["Le quitter pour un autre endroit", "S'y asseoir", "Y rester debout", "Peu importe"],
+        bonne: 0,
+        explication: "« فَيَنْبَغِي أَنْ يَتْرُكَهُ وَيَقْصِدَ غَيْرَهُ » ; al-Dardīr : « أَوْ التَّنَحِّي عَنْهُ مُطْلَقًا إنْ كَانَ نَجِسًا »." },
+      { q: "Faire ses selles debout, selon al-Dardīr, est :",
+        choix: ["Recommandé", "Permis", "Obligatoire", "Fortement déconseillé"],
+        bonne: 3,
+        explication: "« أَيْ يُكْرَهُ كَرَاهَةً شَدِيدَةً فِيمَا يَظْهَرُ »." },
+      { q: "Pour al-Ḥaṭṭāb, la réprobation d'uriner debout là où l'urine rejaillit (Mudawwana) se lit plutôt comme :",
+        choix: ["Une simple convenance", "Une interdiction", "Une permission", "Une obligation de se laver"],
+        bonne: 1,
+        explication: "« وَحَمْلُهَا عَلَى الْمَنْعِ ظَاهِرٌ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "267-269" },
+    alertes: [
+      "Sous-fiche du segment tah-01-05-01 (même matn que 01a) ; fin du segment : voir l'alerte n° 290 de la fiche 01a.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 104–105 (Shamela 21604, pages 103–104)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-05-02",
+    kitab: "tah", bab: "01", fasl: "05", ordre: 2,
+    titre: "S'appuyer sur le pied gauche, se nettoyer de la main gauche",
+    titre_ar: "وَاعْتِمَادٌ عَلَى رِجْلٍ وَاسْتِنْجَاءٌ بِيَدٍ يُسْرَيَيْنِ",
+    objectif: "Connaître la posture recommandée et la main du nettoyage, et que faire si l'on ne peut atteindre l'endroit.",
+    matn: "وَاعْتِمَادٌ عَلَى رِجْلٍ وَاسْتِنْجَاءٌ بِيَدٍ يُسْرَيَيْنِ",
+    regle_pratique: "Assis pour son besoin, il est recommandé de s'appuyer sur le pied gauche et de se nettoyer de la main gauche.",
+    qualification: {
+      hukm: "mandub",
+      nature: "adab",
+      effet_si_omis: "Non précisé dans les textes lus."
+    },
+    explication: "« يُسْرَيَيْنِ » (les deux gauches) qualifie le pied et la main.\n\nLa posture. Al-Ḥaṭṭāb cite al-Madkhal : poser le talon du pied droit sur l'avant du pied, « أَنْ يُقِيمَ عُرْقُوبَ رِجْلِهِ الْيُمْنَى عَلَى صَدْرِهَا », peser sur le pied gauche et s'appuyer sur le genou gauche, car « هَذِهِ الصِّفَاتِ أَسْرَعُ لِخُرُوجِ الْحَدَثِ ». Al-Dardīr : « بِأَنْ يَمِيلَ عَلَيْهَا وَيَرْفَعَ عَقِبَ الْيُمْنَى وَصَدْرُهَا عَلَى الْأَرْضِ », même pour l'urine quand on est assis (« وَلَوْ بَوْلًا »).\n\nLe nettoyage (اِسْتِنْجَاء) : al-Dardīr le définit « إزَالَةُ مَا فِي الْمَحَلِّ بِمَاءٍ أَوْ حَجَرٍ ».\n\nLa grammaire. Al-Ḥaṭṭāb : « يُسْرَيَيْنِ نَعْتٌ لِرِجْلٍ وَيَدٍ وَيَتَعَيَّنُ قَطْعُهُ بِإِضْمَارِ فِعْلٍ لِاخْتِلَافِ الْعَامِلِ » : il n'y a donc pas d'objection à faire à Khalīl, et la critique d'al-Bisāṭī n'est pas fondée.\n\nQui ne peut atteindre l'endroit. Al-Ḥaṭṭāb cite al-Madkhal : la femme trop forte pour atteindre l'endroit ne peut confier ce lavage qu'à son mari ; s'il refuse, ce n'est pas une obligation pour lui, et elle prie avec l'impureté, « لِأَنَّ سَتْرَ الْعَوْرَةِ وَاجِبٌ وَكَشْفَهَا مُحَرَّمٌ اتِّفَاقًا », alors qu'ôter l'impureté pour la prière fait l'objet de divergence. Pour l'homme, son épouse peut s'en charger ; sinon al-Madkhal, selon les usages de son époque, dit qu'il doit acquérir s'il le peut une esclave (« جَارِيَةً ») pour s'en charger ; s'il ne trouve personne, « فَصَلَاتُهُ بِالنَّجَاسَةِ أَخَفُّ مِنْ كَشْفِ عَوْرَتِهِ ».",
+    aqwal: [
+      { auteur: "L'auteur d'al-Madkhal", avis: "S'appuyer sur le pied et le genou gauches, le talon droit relevé, pour faciliter la sortie.", statut: "non_precise" },
+      { auteur: "L'auteur d'al-Madkhal", avis: "Qui ne peut atteindre l'endroit ne se découvre que devant son conjoint ; sinon il prie avec l'impureté.", statut: "non_precise" },
+      { auteur: "Al-Bisāṭī", avis: "Le mot « يُسْرَيَيْنِ » pose une difficulté (accord de l'adjectif).", statut: "qawl" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « (وَ) نُدِبَ لَهُ (اعْتِمَادٌ) حَالَ قَضَائِهَا جَالِسًا وَلَوْ بَوْلًا (عَلَى رِجْلٍ) » ; « (يُسْرَيَيْنِ) فَهُوَ نَعْتٌ مَقْطُوعٌ ».",
+    tarjih_hattab: "La critique d'al-Bisāṭī n'est pas fondée : « وَحِينَئِذٍ فَلَا اعْتِرَاضَ عَلَى الْمُصَنِّفِ ».",
+    tanbihat: [
+      "Note de langue : la gauche se dit « يَسَارٌ » avec fatḥa selon aṣ-Ṣiḥāḥ, « وَلَا تَقُلْ: يِسَارٌ بِالْكَسْرِ » ; Ibn Durayd donne la kasra."
+    ],
+    divergences: [
+      "Concordance — la posture. Al-Ḥaṭṭāb, d'après al-Madkhal : « وَأَنْ يَسْتَوْطِئَ الْيُسْرَى » ; al-Dardīr : « بِأَنْ يَمِيلَ عَلَيْهَا وَيَرْفَعَ عَقِبَ الْيُمْنَى ».",
+      "Concordance — la grammaire. Al-Ḥaṭṭāb : « وَيَتَعَيَّنُ قَطْعُهُ بِإِضْمَارِ فِعْلٍ » ; al-Dardīr : « فَهُوَ نَعْتٌ مَقْطُوعٌ ».",
+      "Complément — la raison de la posture. Al-Dasūqī : « لِأَنَّ الْمَعِدَةَ فِي الشِّقِّ الْأَيْمَنِ »."
+    ],
+    exemple: "Accroupi pour son besoin, un homme pèse sur son pied gauche, le talon droit un peu relevé, et se nettoie de la main gauche.",
+    erreurs_frequentes: [
+      "Se nettoyer de la main droite : la convenance est la main gauche.",
+      "Croire que l'appui sur le pied gauche ne vaut que pour les selles : al-Dardīr l'étend à l'urine quand on est assis.",
+      "Se faire laver par n'importe qui quand on ne peut atteindre l'endroit : al-Madkhal ne le permet qu'au conjoint ; sinon on prie avec l'impureté plutôt que de découvrir sa nudité."
+    ],
+    termes: [
+      { ar: "عَوْرَة", translit: "ʿawra", def: "Parties du corps qu'on doit couvrir ; les découvrir devant autrui est interdit." }
+    ],
+    quiz: [
+      { q: "Sur quel pied s'appuie-t-on, assis pour son besoin ?",
+        choix: ["Le droit", "Les deux également", "Aucun", "Le gauche"],
+        bonne: 3,
+        explication: "Al-Madkhal : « وَأَنْ يَسْتَوْطِئَ الْيُسْرَى »." },
+      { q: "Pourquoi cette posture, selon al-Madkhal ?",
+        choix: ["Pour être mieux couvert", "Parce qu'elle facilite la sortie", "Pour ne pas glisser", "Pour faire face à la qibla"],
+        bonne: 1,
+        explication: "« فَإِنَّ هَذِهِ الصِّفَاتِ أَسْرَعُ لِخُرُوجِ الْحَدَثِ »." },
+      { q: "Mise en situation : une femme ne peut atteindre l'endroit à nettoyer et son mari refuse de l'aider. Que dit al-Madkhal ?",
+        choix: ["Elle demande à une amie", "Elle ne prie pas", "Elle prie avec l'impureté plutôt que de se découvrir devant autrui", "Elle fait l'ablution sèche"],
+        bonne: 2,
+        explication: "« وَتُصَلِّي هِيَ بِالنَّجَاسَةِ وَلَا تَكْشِفُ عَلَيْهَا أَحَدًا »." },
+      { q: "Que vaut, selon al-Ḥaṭṭāb, la critique d'al-Bisāṭī contre le mot « يُسْرَيَيْنِ » ?",
+        choix: ["Elle n'est pas fondée", "Elle est juste", "Elle oblige à corriger le matn", "Al-Ḥaṭṭāb ne la discute pas"],
+        bonne: 0,
+        explication: "« فَلَا اعْتِرَاضَ عَلَى الْمُصَنِّفِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "269" },
+    alertes: [
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 105 (Shamela 21604, page 104)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-05-03",
+    kitab: "tah", bab: "01", fasl: "05", ordre: 3,
+    titre: "Mouiller la main avant, la laver après",
+    titre_ar: "وَبَلُّهَا قَبْلَ لُقِيِّ الْأَذَى وَغَسْلُهَا بِكَتُرَابٍ بَعْدَهُ",
+    objectif: "Savoir mouiller la main gauche avant le nettoyage et la laver ensuite pour en ôter l'odeur.",
+    matn: "وَبَلُّهَا قَبْلَ لُقِيِّ الْأَذَى وَغَسْلُهَا بِكَتُرَابٍ بَعْدَهُ",
+    regle_pratique: "Avant de toucher la saleté, on mouille sa main gauche, pour que l'odeur ne s'y attache pas ; ensuite, on la lave avec de la terre, du sable ou ce qui ôte l'odeur.",
+    qualification: {
+      hukm: "mandub",
+      nature: "adab",
+      effet_si_omis: "Non précisé ; il s'agit d'ôter l'odeur."
+    },
+    explication: "Al-Ḥaṭṭāb : « أَيْ قَبْلَ مُلَاقَاتِهَا النَّجَاسَةَ فَيَبُلُّهَا قَبْلَ أَنْ يَغْسِلَ قُبُلَهُ وَدُبُرَهُ », comme le disent la Risāla et al-Jawāhir ; la raison : « لِئَلَّا تَعْلَقَ بِهَا الرَّائِحَةُ ».\n\nAl-Dardīr : « بِكَتُرَابٍ » veut dire « مِنْ رَمْلٍ وَغَاسُولٍ وَمَا فِي مَعْنَى ذَلِكَ مِمَّا يُزِيلُ الرَّائِحَةَ » ; on la lave ainsi même si l'eau coulait pendant le nettoyage (« وَلَوْ مَعَ صَبِّ الْمَاءِ ») ; mais si l'on s'est d'abord essuyé avec des pierres, puis lavé à l'eau, « فَلَا يُطْلَبُ بِغَسْلِهَا ».\n\nAl-Dasūqī : on mouille les doigts qui touchent la saleté, « وَهُوَ الْوُسْطَى وَالْخِنْصَرُ وَالْبِنْصِرُ », « وَلَيْسَ الْمُرَادُ بَلَّهَا كُلِّهَا » ; et le lavage à la terre n'est demandé que si l'on n'a pas mouillé la main avant : « أَيْ إذَا لَمْ يَبُلَّهَا قَبْلَ مُلَاقَاةِ الْأَذَى ». Mouillée, la main ne prend pas l'odeur, « لِانْسِدَادِ الْمَسَامِّ ».",
+    aqwal: [
+      { auteur: "La Risāla et al-Jawāhir (d'après al-Ḥaṭṭāb)", avis: "Mouiller la main avant de laver l'avant et l'arrière, pour que l'odeur ne s'y attache pas.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « (وَ) نُدِبَ (بَلُّهَا) أَيْ الْيَدِ الْيُسْرَى (قَبْلَ لُقِيِّ الْأَذَى) » ; « (وَ) نُدِبَ (غَسْلُهَا) أَيْ الْيُسْرَى (بِكَتُرَابٍ) ».",
+    tarjih_hattab: null,
+    tanbihat: [],
+    divergences: [
+      "Concordance — la raison. Al-Ḥaṭṭāb : « لِئَلَّا تَعْلَقَ بِهَا الرَّائِحَةُ » ; al-Dardīr : « لِئَلَّا يَقْوَى تَعَلُّقُ الرَّائِحَةِ بِهَا ».",
+      "Complément — quels doigts, et quand laver. Al-Ḥaṭṭāb n'en dit rien. Al-Dasūqī, d'après المج (al-Majmūʿ de Muḥammad al-Amīr) : « وَلَيْسَ الْمُرَادُ بَلَّهَا كُلِّهَا » ; « أَيْ إذَا لَمْ يَبُلَّهَا قَبْلَ مُلَاقَاةِ الْأَذَى ».",
+      "Complément — après les pierres. Al-Ḥaṭṭāb n'en dit rien. Al-Dardīr : « بِأَنْ اسْتَجْمَرَ أَوَّلًا بِالْأَحْجَارِ ثُمَّ اسْتَنْجَى بِالْمَاءِ فَلَا يُطْلَبُ بِغَسْلِهَا »."
+    ],
+    exemple: "Avant de se laver après le besoin, une femme mouille les doigts de sa main gauche ; si elle a oublié, elle se lave ensuite la main avec un produit qui ôte l'odeur.",
+    erreurs_frequentes: [
+      "Commencer le nettoyage la main sèche : l'odeur s'y attache davantage.",
+      "Croire qu'il faut toujours relaver la main à la terre : selon al-Dasūqī, c'est quand on ne l'a pas mouillée avant.",
+      "Mouiller toute la main : ce sont les doigts qui touchent la saleté qu'on mouille."
+    ],
+    termes: [
+      { ar: "أَذًى", translit: "adhan", def: "Ce qui salit ; ici les selles ou l'urine." }
+    ],
+    quiz: [
+      { q: "Pourquoi mouille-t-on la main avant de toucher la saleté ?",
+        choix: ["Pour que l'odeur ne s'y attache pas", "Pour se purifier", "Pour que l'eau suffise", "Pour suivre l'ordre des ablutions"],
+        bonne: 0,
+        explication: "« لِئَلَّا تَعْلَقَ بِهَا الرَّائِحَةُ »." },
+      { q: "Avec quoi lave-t-on ensuite la main, selon al-Dardīr ?",
+        choix: ["Avec de l'eau seulement", "Avec du parfum", "Avec du sable ou ce qui ôte l'odeur", "On ne la lave pas"],
+        bonne: 2,
+        explication: "« مِنْ رَمْلٍ وَغَاسُولٍ وَمَا فِي مَعْنَى ذَلِكَ مِمَّا يُزِيلُ الرَّائِحَةَ »." },
+      { q: "Mise en situation : un homme s'essuie d'abord avec des pierres, puis termine à l'eau. Doit-il laver sa main à la terre ?",
+        choix: ["Oui, toujours", "Non, ce n'est pas demandé", "Oui, trois fois", "Seulement avant la prière"],
+        bonne: 1,
+        explication: "Al-Dardīr : « فَلَا يُطْلَبُ بِغَسْلِهَا »." },
+      { q: "Quels doigts mouille-t-on, selon al-Dasūqī ?",
+        choix: ["Le pouce seul", "Toute la main", "L'index et le pouce", "Le majeur, l'annulaire et l'auriculaire"],
+        bonne: 3,
+        explication: "« وَهُوَ الْوُسْطَى وَالْخِنْصَرُ وَالْبِنْصِرُ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "269" },
+    alertes: [
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 105 (Shamela 21604, page 104)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-05-04",
+    kitab: "tah", bab: "01", fasl: "05", ordre: 4,
+    titre: "Rester couvert jusqu'à s'asseoir",
+    titre_ar: "وَسَتْرٌ إِلَى مَحِلِّهِ",
+    objectif: "Savoir rester couvert jusqu'au moment de s'accroupir, et quand cela devient obligatoire.",
+    matn: "وَسَتْرٌ إِلَى مَحِلِّهِ",
+    regle_pratique: "On garde ses vêtements sur soi jusqu'au moment de s'accroupir près du sol ; si quelqu'un peut voir, rester couvert est alors une obligation.",
+    qualification: {
+      hukm: "mandub",
+      nature: "adab",
+      effet_si_omis: "Si quelqu'un peut voir, se couvrir n'est plus une convenance mais une obligation (al-Bisāṭī, cité par al-Ḥaṭṭāb)."
+    },
+    explication: "Al-Ḥaṭṭāb : « أَيْ مَحِلِّ قَضَاءِ الْحَاجَةِ يُرِيدُ وَإِلَى جُلُوسِهِ » : on ne se découvre pas en arrivant à l'endroit, mais en s'asseyant. Ibn al-Ḥājib compte parmi les convenances « وَإِدَامَةُ السِّتْرِ إلَيْهِ » ; at-Tawḍīḥ : « لِكَوْنِهِ أَبْلَغَ فِي السَّتْرِ ». Ibn ʿAbd as-Salām : cela vaut si l'endroit ne fait pas craindre l'impureté pour les vêtements, « وَإِلَّا جَازَ كَشْفُ الْعَوْرَةِ قَبْلَ الْجُلُوسِ ». Al-Jawāhir : « وَأَنْ يُدِيمَ السِّتْرَ حَتَّى يَدْنُوَ مِنْ الْأَرْضِ إنْ أَمِنَ مِنْ نَجَاسَةِ ثَوْبِهِ ». Aṭ-Ṭirāz et al-Qarāfī citent at-Tirmidhī : « كَانَ لَا يَرْفَعُ ثَوْبَهُ حَتَّى يَدْنُوَ مِنْ الْأَرْضِ ».\n\nAl-Dardīr : il s'agit de rester couvert « حَالَ انْحِطَاطِهِ لِجُلُوسٍ » jusqu'à l'endroit où tombe la saleté.",
+    aqwal: [
+      { auteur: "Ibn al-Ḥājib", avis: "Rester couvert jusqu'à s'asseoir fait partie des convenances.", statut: "non_precise" },
+      { auteur: "Ibn ʿAbd as-Salām", avis: "Seulement si l'endroit ne fait pas craindre de salir les vêtements ; sinon on peut se découvrir avant de s'asseoir.", statut: "non_precise" },
+      { auteur: "Al-Bisāṭī", avis: "Si l'on peut être vu, se couvrir est obligatoire.", statut: "non_precise" },
+      { auteur: "Al-Māwardī (shâfiʿite, d'après al-Ḥaṭṭāb)", avis: "Il est recommandé de rabattre son vêtement avant de se redresser, sauf crainte de le salir.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « (وَ) نُدِبَ (سِتْرٌ) أَيْ إدَامَتُهُ حَالَ انْحِطَاطِهِ لِجُلُوسٍ (إلَى مَحَلِّهِ) أَيْ مَحَلِّ سُقُوطِ الْأَذَى ».",
+    tarjih_hattab: null,
+    tanbihat: [
+      "« وَهَذَا إنَّمَا يَكُونُ مُسْتَحَبًّا إذَا كَانَ حَيْثُ لَا يَرَاهُ النَّاسُ وَإِلَّا فَالسَّتْرُ وَاجِبٌ » (al-Bisāṭī).",
+      "Rabattre son vêtement en se relevant : Khalīl n'en parle pas, et al-Ḥaṭṭāb écrit « وَلَمْ أَقِفْ فِيهِ عَلَى نَصٍّ لِلْمَالِكِيَّةِ » ; il cite al-Māwardī, shâfiʿite, qui le recommande avant de se redresser, sauf crainte de salir le vêtement."
+    ],
+    divergences: [
+      "Concordance — jusqu'où rester couvert. Al-Ḥaṭṭāb : « يُرِيدُ وَإِلَى جُلُوسِهِ » ; al-Dardīr : « أَيْ إدَامَتُهُ حَالَ انْحِطَاطِهِ لِجُلُوسٍ » ; al-Dasūqī : « فَإِذَا وَصَلَ لِمَحَلِّ سُقُوطِ الْأَذَى كَشَفَ عَوْرَتَهُ »."
+    ],
+    exemple: "Dans les toilettes, on ne baisse son vêtement qu'au moment de s'accroupir, et non en entrant.",
+    erreurs_frequentes: [
+      "Se découvrir dès l'entrée : la convenance est de rester couvert jusqu'à s'asseoir.",
+      "Croire que c'est une simple convenance même sous les regards : se couvrir est alors obligatoire.",
+      "Laisser traîner son vêtement sur un sol souillé pour rester couvert : Ibn ʿAbd as-Salām permet alors de se découvrir avant de s'asseoir."
+    ],
+    termes: [
+      { ar: "سَتْر", translit: "satr", def: "Le fait de couvrir, de cacher (ici sa nudité)." }
+    ],
+    quiz: [
+      { q: "Jusqu'à quand reste-t-on couvert, selon al-Ḥaṭṭāb ?",
+        choix: ["Jusqu'à l'entrée des toilettes", "Jusqu'à la fin du besoin", "Jusqu'à s'asseoir", "Pendant tout le besoin"],
+        bonne: 2,
+        explication: "« يُرِيدُ وَإِلَى جُلُوسِهِ »." },
+      { q: "Mise en situation : quelqu'un peut voir l'endroit. Se couvrir est alors :",
+        choix: ["Une simple convenance", "Déconseillé", "Facultatif", "Obligatoire"],
+        bonne: 3,
+        explication: "« وَإِلَّا فَالسَّتْرُ وَاجِبٌ »." },
+      { q: "Que dit Ibn ʿAbd as-Salām si le sol risque de salir les vêtements ?",
+        choix: ["On peut se découvrir avant de s'asseoir", "On reste couvert quand même", "On renonce au besoin", "On urine debout"],
+        bonne: 0,
+        explication: "« وَإِلَّا جَازَ كَشْفُ الْعَوْرَةِ قَبْلَ الْجُلُوسِ »." },
+      { q: "Rabattre son vêtement avant de se redresser : qu'en dit al-Ḥaṭṭāb ?",
+        choix: ["C'est une sunna malikite", "Il n'a pas trouvé de texte malikite ; un shâfiʿite le recommande", "C'est interdit", "C'est obligatoire"],
+        bonne: 1,
+        explication: "« وَلَمْ أَقِفْ فِيهِ عَلَى نَصٍّ لِلْمَالِكِيَّةِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "269" },
+    alertes: [
+      "Vocalisation : le « ص » de Mawāhib, le Mukhtaṣar seul (11355, p. 14) et al-Kharashī (91, p. 140) ont « وَسَتْرٌ » (le fait de couvrir) ; al-Dardīr vocalise « (سِتْرٌ) » (ce qui couvre) ; le sens retenu par les deux est le même (n° 293).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 105 (Shamela 21604, page 104)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-05-05",
+    kitab: "tah", bab: "01", fasl: "05", ordre: 5,
+    titre: "Préparer de quoi se nettoyer",
+    titre_ar: "وَإِعْدَادُ مُزِيلِهِ",
+    objectif: "Savoir préparer, avant de s'asseoir, l'eau ou les pierres du nettoyage.",
+    matn: "وَإِعْدَادُ مُزِيلِهِ",
+    regle_pratique: "Avant de s'asseoir pour son besoin, il est recommandé de préparer ce qui servira à se nettoyer : l'eau et les pierres, ou l'un des deux si l'on n'a que lui.",
+    qualification: {
+      hukm: "mandub",
+      nature: "adab",
+      effet_si_omis: "Non précisé dans les textes lus."
+    },
+    explication: "Al-Ḥaṭṭāb cite le hadith « اتَّقُوا الْمَلَاعِنَ وَأَعِدُّوا النُّبَلَ » et en explique le dernier mot : d'après aṣ-Ṣiḥāḥ, « النُّبَلُ حِجَارَةُ الِاسْتِنْجَاءِ », les petites pierres du nettoyage, « سُمِّيَتْ بِذَلِكَ لِصِغَرِهَا » ; il ne faut pas le confondre avec النَّبْل (les flèches) ni avec النُّبْل (le mérite).\n\nAl-Dardīr : ce qui ôte la saleté peut être solide ou liquide, « كَانَ الْمُزِيلُ جَامِدًا أَوْ مَائِعًا ». Al-Dasūqī : on le prépare « أَيْ قَبْلَ جُلُوسِهِ لِقَضَاءِ الْحَاجَةِ » ; d'après al-Bunānī, on prépare les deux ensemble, eau et pierres, comme le disent les Qawāʿid de ʿIyāḍ : « أَنْ يُعِدَّ الْمَاءَ وَالْأَحْجَارَ عِنْدَهُ » ; si l'on n'a que l'un des deux, on prépare celui-là.",
+    aqwal: [
+      { auteur: "Al-Dardīr", avis: "On prépare ce qui ôte la saleté, solide ou liquide.", statut: "non_precise" },
+      { auteur: "Al-Bunānī (d'après al-Dasūqī), avec les Qawāʿid de ʿIyāḍ", avis: "On prépare les deux ensemble, eau et pierres.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé pour le principe : al-Dardīr, « (وَ) نُدِبَ (إعْدَادُ مُزِيلِهِ) » ; préparer l'eau et les pierres ensemble quand c'est possible : al-Dasūqī, « وَقَدْ يُقَالُ مَحَلُّ نَدْبِ إعْدَادِهِمَا مَعًا قَبْلَ الْجُلُوسِ إنْ تَيَسَّرَا ».",
+    tarjih_hattab: null,
+    tanbihat: [],
+    divergences: [
+      "Point à comparer — un ou deux. Al-Ḥaṭṭāb ne tranche pas. Al-Dardīr : « كَانَ الْمُزِيلُ جَامِدًا أَوْ مَائِعًا ». Al-Dasūqī, d'après بن (Muḥammad al-Bunānī) : « الْمَنْدُوبُ لِقَضَاءِ الْحَاجَةِ إعْدَادُهُمَا مَعًا لَا إعْدَادُ أَحَدِهِمَا فَقَطْ » ; puis : « فَإِنْ تَيَسَّرَ أَحَدُهُمَا فَقَطْ نُدِبَ إعْدَادُهُ »."
+    ],
+    exemple: "Avant d'aller se soulager dans un lieu sans eau courante, un voyageur prend une bouteille d'eau et quelques pierres propres.",
+    erreurs_frequentes: [
+      "S'asseoir sans rien préparer, puis devoir se lever souillé pour chercher de quoi se nettoyer.",
+      "Confondre النُّبَل (les pierres du nettoyage) avec النَّبْل (les flèches)."
+    ],
+    termes: [
+      { ar: "نُبَل", translit: "noubal", def: "Petites pierres dont on se sert pour se nettoyer après le besoin." }
+    ],
+    quiz: [
+      { q: "Que veut dire « وَإِعْدَادُ مُزِيلِهِ » ?",
+        choix: ["Nettoyer les toilettes", "Préparer d'avance de quoi se nettoyer", "Retirer ses bagues", "Choisir un lieu à l'abri"],
+        bonne: 1,
+        explication: "Al-Dasūqī : « أَيْ قَبْلَ جُلُوسِهِ لِقَضَاءِ الْحَاجَةِ »." },
+      { q: "Mise en situation : on dispose d'eau et de pierres. Selon al-Bunānī, cité par al-Dasūqī, que prépare-t-on ?",
+        choix: ["Les deux", "L'eau seulement", "Les pierres seulement", "Rien"],
+        bonne: 0,
+        explication: "« الْمَنْدُوبُ لِقَضَاءِ الْحَاجَةِ إعْدَادُهُمَا مَعًا »." },
+      { q: "Que désigne النُّبَل dans le hadith cité par al-Ḥaṭṭāb ?",
+        choix: ["Les flèches", "Le mérite", "Les pierres du nettoyage", "Les vêtements"],
+        bonne: 2,
+        explication: "« النُّبَلُ حِجَارَةُ الِاسْتِنْجَاءِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "269-270" },
+    alertes: [
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 105 (Shamela 21604, page 104)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-05-06",
+    kitab: "tah", bab: "01", fasl: "05", ordre: 6,
+    titre: "Un nombre impair de pierres",
+    titre_ar: "وَوِتْرُهُ",
+    objectif: "Savoir employer un nombre impair de pierres, jusqu'à sept.",
+    matn: "وَوِتْرُهُ",
+    regle_pratique: "Quand on se nettoie avec des pierres, il est recommandé d'en employer un nombre impair, jusqu'à sept : si deux ont suffi, on en ajoute une troisième.",
+    qualification: {
+      hukm: "mandub",
+      nature: "adab",
+      effet_si_omis: "Non précisé dans les textes lus."
+    },
+    explication: "Al-Ḥaṭṭāb, d'après at-Tawḍīḥ rapportant Ibn Hārūn : « الَّذِي سَمِعْت اسْتِحْبَابَهُ إلَى سَبْعٍ » ; al-Madkhal le dit expressément.\n\nAl-Dardīr : il s'agit de l'objet solide (« أَيْ الْمُزِيلِ الْجَامِدِ كَالْحَجَرِ »), quand un nombre pair a suffi (« إنْ أَنْقَى الشَّفْعُ ») ; « وَيَنْتَهِي الْإِيتَارُ لِسَبْعٍ » : propre après huit, on ne prend pas de neuvième. Une pierre à trois faces compte pour trois, si l'on essuie avec chaque face. Exception : si une seule pierre suffit, « فَالِاثْنَانِ أَفْضَلُ مِنْهُ ». Al-Dasūqī : si un nombre impair a suffi, on s'arrête, « تَعَيَّنَ وَلَا يَتَأَتَّى نَدْبُهُ ».",
+    aqwal: [
+      { auteur: "Ibn Hārūn (d'après at-Tawḍīḥ)", avis: "Le nombre impair est recommandé jusqu'à sept.", statut: "non_precise" },
+      { auteur: "L'auteur d'al-Madkhal", avis: "Il le dit expressément, comme Ibn Hārūn.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « (وَوِتْرُهُ) أَيْ الْمُزِيلِ الْجَامِدِ كَالْحَجَرِ إنْ أَنْقَى الشَّفْعُ وَيَنْتَهِي الْإِيتَارُ لِسَبْعٍ ».",
+    tarjih_hattab: null,
+    tanbihat: [],
+    divergences: [
+      "Concordance — jusqu'à sept. Al-Ḥaṭṭāb, d'après Ibn Hārūn : « اسْتِحْبَابَهُ إلَى سَبْعٍ » ; al-Dardīr : « وَيَنْتَهِي الْإِيتَارُ لِسَبْعٍ ».",
+      "Complément — l'eau n'est pas concernée. Al-Ḥaṭṭāb ne le précise pas. Al-Dardīr : « أَيْ الْمُزِيلِ الْجَامِدِ كَالْحَجَرِ ».",
+      "Complément — une seule pierre. Al-Ḥaṭṭāb n'en dit rien. Al-Dardīr : « وَيُسْتَثْنَى مِنْ نَدْبِ الْإِيتَارِ الْوَاحِدُ إنْ أَنْقَى فَالِاثْنَانِ أَفْضَلُ مِنْهُ »."
+    ],
+    exemple: "Un homme s'essuie avec des pierres : propre après quatre, il en passe une cinquième ; propre après huit, il s'arrête.",
+    erreurs_frequentes: [
+      "Continuer au-delà de sept pour obtenir un nombre impair : la recommandation s'arrête à sept.",
+      "Appliquer le nombre impair à l'eau : al-Dardīr le limite à l'objet solide.",
+      "S'arrêter à une seule pierre parce qu'elle a suffi, en croyant cela meilleur : al-Dardīr dit que deux valent mieux."
+    ],
+    termes: [
+      { ar: "وِتْر", translit: "witr", def: "Nombre impair." }
+    ],
+    quiz: [
+      { q: "Deux pierres ont suffi à nettoyer. Que recommande al-Dardīr ?",
+        choix: ["S'arrêter là", "Laver à l'eau", "En prendre quatre", "En ajouter une troisième"],
+        bonne: 3,
+        explication: "« إنْ أَنْقَى الشَّفْعُ » : le nombre impair est alors recommandé." },
+      { q: "Jusqu'à combien la recommandation du nombre impair s'applique-t-elle ?",
+        choix: ["Trois", "Cinq", "Sept", "Neuf"],
+        bonne: 2,
+        explication: "« وَيَنْتَهِي الْإِيتَارُ لِسَبْعٍ »." },
+      { q: "Mise en situation : une seule pierre a tout nettoyé. Selon al-Dardīr ?",
+        choix: ["Deux valent mieux qu'une", "Il faut en prendre trois", "Elle ne compte pas", "Il faut laver à l'eau"],
+        bonne: 0,
+        explication: "« فَالِاثْنَانِ أَفْضَلُ مِنْهُ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "270" },
+    alertes: [
+      "Matn : le « ص » de Mawāhib, al-Dardīr et ʿUlaysh (21614, p. 87) ont « وَوِتْرُهُ » (le nombre impair est recommandé) ; le Mukhtaṣar seul (11355, p. 14) et al-Kharashī (91, p. 140) ont « وَوِتْرِهِ » (préparer un nombre impair) ; matn laissé selon le « ص » (n° 292).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 105–106 (Shamela 21604, pages 104–105)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-05-07",
+    kitab: "tah", bab: "01", fasl: "05", ordre: 7,
+    titre: "Commencer par l'avant",
+    titre_ar: "وَتَقْدِيمُ قُبُلِهِ",
+    objectif: "Savoir par où commencer le lavage, et quand inverser l'ordre.",
+    matn: "وَتَقْدِيمُ قُبُلِهِ",
+    regle_pratique: "En se lavant après le besoin, on commence par l'organe de devant, puis l'arrière ; si toucher l'arrière fait goutter l'urine, on commence alors par l'arrière.",
+    qualification: {
+      hukm: "mandub",
+      nature: "adab",
+      effet_si_omis: "Non précisé dans les textes lus."
+    },
+    explication: "Al-Ḥaṭṭāb cite Sanad : « هَذَا مَا لَمْ يَكُنْ ضَرَرٌ يَمْنَعُ ذَلِكَ », par exemple chez celui dont l'urine goutte quand l'eau touche l'arrière : « فَإِنَّهُ يَغْسِلُ الدُّبُرَ أَوَّلًا ثُمَّ الْقُبُلَ » ; le commentateur (« الشَّارِحُ ») le rapporte dans son grand commentaire.\n\nAl-Dardīr : « إلَّا أَنْ يَقْطُرَ بَوْلُهُ عِنْدَ مَسِّ الدُّبُرِ ». Al-Dasūqī donne la raison de l'ordre : « خَوْفًا مِنْ تَنْجِيسِ يَدِهِ بِمَا عَلَى مَخْرَجِ الْبَوْلِ لَوْ قَدَّمَ دُبُرَهُ » ; dans le cas d'exception, « لِأَنَّهُ لَا فَائِدَةَ فِي تَقْدِيمِ الْقُبُلِ ».",
+    aqwal: [
+      { auteur: "Sanad", avis: "On commence par l'avant, sauf si cela fait goutter l'urine : on lave alors l'arrière d'abord.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « (وَ) نُدِبَ (تَقْدِيمُ قُبُلِهِ) فِي الِاسْتِنْجَاءِ عَلَى دُبُرِهِ إلَّا أَنْ يَقْطُرَ بَوْلُهُ عِنْدَ مَسِّ الدُّبُرِ ».",
+    tarjih_hattab: null,
+    tanbihat: [],
+    divergences: [
+      "Concordance — l'exception. Al-Ḥaṭṭāb, d'après Sanad : « فَإِنَّهُ يَغْسِلُ الدُّبُرَ أَوَّلًا ثُمَّ الْقُبُلَ » ; al-Dardīr : « إلَّا أَنْ يَقْطُرَ بَوْلُهُ عِنْدَ مَسِّ الدُّبُرِ ».",
+      "Complément — la raison de l'ordre. Al-Ḥaṭṭāb n'en dit rien. Al-Dasūqī : « خَوْفًا مِنْ تَنْجِيسِ يَدِهِ بِمَا عَلَى مَخْرَجِ الْبَوْلِ لَوْ قَدَّمَ دُبُرَهُ »."
+    ],
+    exemple: "Un homme se lave d'abord l'organe de devant ; un autre, chez qui l'urine goutte dès que l'eau touche l'arrière, commence par l'arrière.",
+    erreurs_frequentes: [
+      "Commencer par l'arrière sans raison : la convenance est l'avant d'abord.",
+      "Garder cet ordre même quand il fait goutter l'urine : l'ordre s'inverse alors."
+    ],
+    termes: [
+      { ar: "قُبُل", translit: "qoubul", def: "Organe de devant (voie de l'urine)." },
+      { ar: "دُبُر", translit: "doubour", def: "Orifice de derrière (voie des selles)." }
+    ],
+    quiz: [
+      { q: "Par quoi commence-t-on en se lavant après le besoin ?",
+        choix: ["L'organe de devant", "L'arrière", "Les mains", "Peu importe"],
+        bonne: 0,
+        explication: "Al-Dardīr : « تَقْدِيمُ قُبُلِهِ فِي الِاسْتِنْجَاءِ عَلَى دُبُرِهِ »." },
+      { q: "Mise en situation : chez un homme, l'urine goutte dès que l'eau touche l'arrière. Que fait-il, selon Sanad ?",
+        choix: ["Il commence par l'avant malgré tout", "Il commence par l'arrière", "Il n'utilise que des pierres", "Il renonce à se laver"],
+        bonne: 1,
+        explication: "« فَإِنَّهُ يَغْسِلُ الدُّبُرَ أَوَّلًا ثُمَّ الْقُبُلَ »." },
+      { q: "Pourquoi commence-t-on par l'avant, selon al-Dasūqī ?",
+        choix: ["Par respect", "Parce que c'est plus rapide", "Pour économiser l'eau", "Pour ne pas souiller sa main de ce qui est sur la voie de l'urine"],
+        bonne: 3,
+        explication: "« خَوْفًا مِنْ تَنْجِيسِ يَدِهِ بِمَا عَلَى مَخْرَجِ الْبَوْلِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "270" },
+    alertes: [
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 106 (Shamela 21604, page 105)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-05-08",
+    kitab: "tah", bab: "01", fasl: "05", ordre: 8,
+    titre: "Écarter les cuisses",
+    titre_ar: "وَتَفْرِيجُ فَخِذَيْهِ",
+    objectif: "Savoir écarter les cuisses pendant le besoin et le lavage, pour éviter les éclaboussures.",
+    matn: "وَتَفْرِيجُ فَخِذَيْهِ",
+    regle_pratique: "Pendant le besoin et en se lavant, il est recommandé d'écarter les cuisses, pour qu'aucune impureté ne rejaillisse sur soi sans qu'on s'en aperçoive.",
+    qualification: {
+      hukm: "mandub",
+      nature: "adab",
+      effet_si_omis: "Non précisé dans les textes lus."
+    },
+    explication: "Al-Ḥaṭṭāb cite al-Madkhal : on écarte les cuisses « عِنْدَ الْبَوْلِ وَالِاسْتِنْجَاءِ وَالْإِسْهَالِ », « لِئَلَّا يَتَطَايَرَ عَلَيْهِ شَيْءٌ مِنْ النَّجَاسَةِ لَا يَشْعُرُ بِهِ ». Il ajoute : « وَظَاهِرُ كَلَامِ الشَّارِحِ أَنَّهُ يُطْلَبُ أَيْضًا عِنْدَ الْغَائِطِ وَإِنْ لَمْ يَكُنْ فِيهِ إسْهَالٌ », car le commentateur en donne pour raison qu'ainsi l'endroit se vide mieux : « لِأَنَّهُ عَلَّلَهُ بِأَنَّهُ أَبْلَغُ فِي اسْتِفْرَاغِ مَا فِي الْمَحِلِّ ».\n\nAl-Dardīr : « حَالَ قَضَاءِ الْحَاجَةِ وَالِاسْتِنْجَاءِ ».",
+    aqwal: [
+      { auteur: "L'auteur d'al-Madkhal", avis: "On écarte les cuisses pour l'urine, le lavage et la diarrhée, contre les éclaboussures.", statut: "non_precise" },
+      { auteur: "Le commentateur (« الشَّارِحُ »), d'après al-Ḥaṭṭāb", avis: "Cela vaut aussi pour les selles sans diarrhée, l'endroit se vidant mieux.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « (وَتَفْرِيجُ فَخِذَيْهِ) حَالَ قَضَاءِ الْحَاجَةِ وَالِاسْتِنْجَاءِ ».",
+    tarjih_hattab: null,
+    tanbihat: [],
+    divergences: [
+      "Concordance — à quel moment. Al-Ḥaṭṭāb : « وَظَاهِرُ كَلَامِ الشَّارِحِ أَنَّهُ يُطْلَبُ أَيْضًا عِنْدَ الْغَائِطِ » ; al-Dardīr : « حَالَ قَضَاءِ الْحَاجَةِ وَالِاسْتِنْجَاءِ »."
+    ],
+    exemple: "Accroupi, un homme écarte un peu les cuisses pour que l'urine ne l'éclabousse pas, et fait de même en se lavant.",
+    erreurs_frequentes: [
+      "Serrer les cuisses : des gouttes peuvent rejaillir sans qu'on s'en aperçoive.",
+      "Croire que cela ne vaut que pour l'urine : al-Dardīr le dit pour tout le besoin et pour le lavage."
+    ],
+    termes: [
+      { ar: "تَفْرِيج", translit: "tafrîj", def: "Écarter, laisser un espace entre deux choses (ici les cuisses)." }
+    ],
+    quiz: [
+      { q: "Pourquoi écarter les cuisses, selon al-Madkhal ?",
+        choix: ["Pour aller plus vite", "Pour être mieux couvert", "Pour qu'aucune impureté ne rejaillisse sans qu'on le sache", "Pour faire face à la qibla"],
+        bonne: 2,
+        explication: "« لِئَلَّا يَتَطَايَرَ عَلَيْهِ شَيْءٌ مِنْ النَّجَاسَةِ لَا يَشْعُرُ بِهِ »." },
+      { q: "À quels moments, selon al-Dardīr ?",
+        choix: ["Seulement pour l'urine", "Seulement en cas de diarrhée", "Seulement en se lavant", "Pendant le besoin et en se lavant"],
+        bonne: 3,
+        explication: "« حَالَ قَضَاءِ الْحَاجَةِ وَالِاسْتِنْجَاءِ »." },
+      { q: "Mise en situation : un homme fait ses selles normalement, sans diarrhée. D'après ce qu'al-Ḥaṭṭāb tire du commentateur, écarter les cuisses le concerne-t-il ?",
+        choix: ["Non, jamais", "Oui, car l'endroit se vide mieux", "Seulement s'il urine aussi", "Seulement debout"],
+        bonne: 1,
+        explication: "« بِأَنَّهُ أَبْلَغُ فِي اسْتِفْرَاغِ مَا فِي الْمَحِلِّ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "270" },
+    alertes: [
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 106 (Shamela 21604, page 105)."
+    ],
+    verification: "verifie"
+  }
+
+  /* FIN-UNITE-41 */
 ]);

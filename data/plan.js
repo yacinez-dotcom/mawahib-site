@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.33 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.34 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -59,7 +59,8 @@
    v1.30 : titre arabe de tah-01-04-37 « أَوْ إحْدَاهُمَا » (anomalie n° 261) (unité 37).
    v1.31 : tah-01-04-43 découpé en 43a et 43b, tah-01-04-44 en 44a et 44b ; titre arabe de tah-01-04-48 « وَبَدْءٌ » (anomalie n° 277) (unité 38).
    v1.32 : titres arabes de tah-01-04-52 à -55 complétés d'après le Mukhtaṣar seul, al-Dardīr et al-Kharashī ; titres de -54 et -55 rattachés à la basmala (anomalies n° 278 à 280) (unité 39).
-   v1.33 : tah-01-04-55b ajouté (segment « وَلَا تُنْدَبُ إِطَالَةُ الْغُرَّةِ … », absent du « ص » de Mawāhib ; anomalie n° 281) (unité 40). */
+   v1.33 : tah-01-04-55b ajouté (segment « وَلَا تُنْدَبُ إِطَالَةُ الْغُرَّةِ … », absent du « ص » de Mawāhib ; anomalie n° 281) (unité 40).
+   v1.34 : tah-01-05-01 découpé en 01a (sol meuble) et 01b (sol dur ; selles) (unité 41). */
 App.data.definirPlan({
   kutub: [
     {
@@ -428,7 +429,8 @@ App.data.definirPlan({
               titre: "Les convenances des besoins naturels",
               titre_ar: "آدَابُ قَضَاءِ الحَاجَةِ",
               masail: [
-                { id: "tah-01-05-01", titre: "Recommandé : s'asseoir ; cas du sol meuble impur", titre_ar: "نُدِبَ لِقَاضِي الْحَاجَةِ جُلُوسٌ وَمُنِعَ بِرَخْوٍ …" }, /* p. 267 ; Mawāhib imprime « وَمِنْهُ », corrigé (v1.8) */
+                { id: "tah-01-05-01a", titre: "Uriner sur un sol meuble, pur ou impur", titre_ar: "نُدِبَ لِقَاضِي الْحَاجَةِ جُلُوسٌ وَمُنِعَ بِرَخْوٍ نَجِسٍ" }, /* p. 267 ; Mawāhib imprime « وَمِنْهُ », corrigé (v1.8) ; « وَتَعَيَّنَ الْقِيَامُ » absent du « ص » (anomalie n° 290) */
+                { id: "tah-01-05-01b", titre: "Le sol dur ; les selles", titre_ar: "وَأَمَّا الْمَوْضِعُ الصُّلْبُ …" }, /* p. 268–269 ; sous-fiche de 01 (v1.34) */
                 { id: "tah-01-05-02", titre: "S'appuyer sur le pied gauche, se nettoyer de la main gauche", titre_ar: "وَاعْتِمَادٌ عَلَى رِجْلٍ وَاسْتِنْجَاءٌ بِيَدٍ يُسْرَيَيْنِ" }, /* p. 269 */
                 { id: "tah-01-05-03", titre: "Mouiller la main avant, la laver après", titre_ar: "وَبَلُّهَا قَبْلَ لُقِيِّ الْأَذَى وَغَسْلُهَا بِكَتُرَابٍ …" }, /* p. 269 */
                 { id: "tah-01-05-04", titre: "Se couvrir jusqu'à l'endroit", titre_ar: "وَسَتْرٌ إلَى مَحِلِّهِ" }, /* p. 269 */

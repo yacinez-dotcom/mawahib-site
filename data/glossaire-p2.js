@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.44
+/* Données — Glossaire, partie 2 — v1.45
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -19,7 +19,8 @@
    v1.41 : 11 termes de l'unité 37 (tah-01-04-35 à -42).
    v1.42 : 6 termes de l'unité 38 (tah-01-04-43a à -48).
    v1.43 : 6 termes de l'unité 39 (tah-01-04-49 à -56).
-   v1.44 : 3 termes de l'unité 40 (tah-01-04-55b). */
+   v1.44 : 3 termes de l'unité 40 (tah-01-04-55b).
+   v1.45 : 11 termes de l'unité 41 (tah-01-05-01a à -08). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -279,7 +280,18 @@ App.data.ajouterTermes([
   { ar: "تَسْمِيَة", translit: "tasmiya", def: "Dire « bismillah » (au nom de Dieu) au début d'un acte ; convenance des ablutions." },
   { ar: "إِطَالَةُ الْغُرَّةِ", translit: "itâlatou l-ghourra", def: "Allonger la ghourra : laver au-delà de la zone obligatoire des membres (déconseillé) ; au second sens, rester en état d'ablutions (demandé)." },
   { ar: "غُلُوّ", translit: "ghouloû", def: "Excès dans la religion : aller au-delà de ce qui est prescrit ; raison de la réprobation." },
-  { ar: "تَنْشِيف", translit: "tanchîf", def: "Sécher ses membres après les ablutions, avec un linge ou une serviette ; permis." }
+  { ar: "تَنْشِيف", translit: "tanchîf", def: "Sécher ses membres après les ablutions, avec un linge ou une serviette ; permis." },
+  { ar: "رَخْو", translit: "rakhw", def: "Sol meuble, mou (sable, terre légère), où l'urine ne rejaillit pas." },
+  { ar: "صُلْب", translit: "soulb", def: "Sol dur, où l'urine rejaillit." },
+  { ar: "غَائِط", translit: "ghâ'it", def: "Les selles (la grosse commission)." },
+  { ar: "عَوْرَة", translit: "ʿawra", def: "Parties du corps qu'on doit couvrir ; les découvrir devant autrui est interdit." },
+  { ar: "أَذًى", translit: "adhan", def: "Ce qui salit ; ici les selles ou l'urine." },
+  { ar: "سَتْر", translit: "satr", def: "Le fait de couvrir, de cacher (ici sa nudité)." },
+  { ar: "نُبَل", translit: "noubal", def: "Petites pierres dont on se sert pour se nettoyer après le besoin." },
+  { ar: "وِتْر", translit: "witr", def: "Nombre impair." },
+  { ar: "قُبُل", translit: "qoubul", def: "Organe de devant (voie de l'urine)." },
+  { ar: "دُبُر", translit: "doubour", def: "Orifice de derrière (voie des selles)." },
+  { ar: "تَفْرِيج", translit: "tafrîj", def: "Écarter, laisser un espace entre deux choses (ici les cuisses)." }
 
   /* FIN-GLOSSAIRE */
 ]);
