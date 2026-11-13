@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.36 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.37 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -62,7 +62,8 @@
    v1.33 : tah-01-04-55b ajouté (segment « وَلَا تُنْدَبُ إِطَالَةُ الْغُرَّةِ … », absent du « ص » de Mawāhib ; anomalie n° 281) (unité 40).
    v1.34 : tah-01-05-01 découpé en 01a (sol meuble) et 01b (sol dur ; selles) (unité 41).
    v1.35 : tah-01-05-13 découpé en 13a (invocation oubliée), 13b (dhikr dans les lieux d'aisance), 13c (bague gravée) ; matn de 13 vocalisé « يُعَدَّ » (anomalie n° 294) (unité 42).
-   v1.36 : titres arabes de tah-01-05-17 à -21 au génitif (dépendent de « وَاتِّقَاءُ », anomalie n° 301) ; matn de 23 complété (« عَكْسُ مَسْجِدٍ وَالْمَنْزِلُ يُمْنَاهُ بِهِمَا », n° 304) ; tah-01-05-24 découpé en 24a (miction et selles) et 24b (rapport conjugal), « مُسْتَقْبِلَ قِبْلَةٍ » (n° 305) (unité 43). */
+   v1.36 : titres arabes de tah-01-05-17 à -21 au génitif (dépendent de « وَاتِّقَاءُ », anomalie n° 301) ; matn de 23 complété (« عَكْسُ مَسْجِدٍ وَالْمَنْزِلُ يُمْنَاهُ بِهِمَا », n° 304) ; tah-01-05-24 découpé en 24a (miction et selles) et 24b (rapport conjugal), « مُسْتَقْبِلَ قِبْلَةٍ » (n° 305) (unité 43).
+   v1.37 : titre arabe de tah-01-05-26 complété (« وَالْمُخْتَارُ التَّرْكُ », n° 306) ; -28 au génitif « وَبَيْتِ الْمَقْدِسِ » (n° 307) ; -30 « خَفَّا » (n° 308) et découpé en 30a (manière de l'istibrâ') et 30b (le lavage) (unité 44). */
 App.data.definirPlan({
   kutub: [
     {
@@ -460,12 +461,13 @@ App.data.definirPlan({
                 { id: "tah-01-05-24a", titre: "À la maison : se soulager face à la qibla ou dos à elle", titre_ar: "وَجَازَ بِمَنْزِلٍ وَطْءٌ وَبَوْلٌ مُسْتَقْبِلَ قِبْلَةٍ …" }, /* p. 279–280 ; « قِبْلَةٍ » (n° 305, v1.36) */
                 { id: "tah-01-05-24b", titre: "Le rapport conjugal et la qibla", titre_ar: "فِي جَمْعِ الْمُصَنِّفِ الْوَطْءَ مَعَ الْبَوْلِ" }, /* p. 280 ; sous-fiche de 24 (v1.36) */
                 { id: "tah-01-05-25", titre: "… pas en plein air", titre_ar: "لَا فِي الْفَضَاءِ" }, /* p. 281 */
-                { id: "tah-01-05-26", titre: "Avec un écran : deux avis", titre_ar: "وَبِسَتْرٍ قَوْلَانِ تَحْتَمِلُهُمَا" }, /* p. 281 */
+                { id: "tah-01-05-26", titre: "Avec un écran : deux avis ; le choix d'al-Lakhmī", titre_ar: "وَبِسَتْرٍ قَوْلَانِ تَحْتَمِلُهُمَا وَالْمُخْتَارُ التَّرْكُ" }, /* p. 281 ; matn complété (n° 306, v1.37) */
                 { id: "tah-01-05-27", titre: "Le soleil et la lune", titre_ar: "لَا الْقَمَرَيْنِ" }, /* p. 281 */
-                { id: "tah-01-05-28", titre: "Jérusalem (Bayt al-Maqdis)", titre_ar: "وَبَيْتُ الْمَقْدِسِ" }, /* p. 281 */
-                { id: "tah-01-05-29", titre: "Obligatoire : l'istibrâ' en vidant les deux voies", titre_ar: "وَوَجَبَ اسْتِبْرَاءٌ بِاسْتِفْرَاغِ أَخْبَثَيْهِ" }, /* p. 281 */
-                { id: "tah-01-05-30", titre: "Presser et tirer doucement le membre", titre_ar: "مَعَ سَلْتِ ذَكَرٍ وَنَتْرٍ خَفَا" }, /* p. 282 */
-                { id: "tah-01-05-31", titre: "Recommandé : pierre et eau, puis eau", titre_ar: "وَنُدِبَ جَمْعُ مَاءٍ وَحَجَرٍ ثُمَّ مَاءٍ" }, /* p. 283 */
+                { id: "tah-01-05-28", titre: "Jérusalem (Bayt al-Maqdis)", titre_ar: "وَبَيْتِ الْمَقْدِسِ" }, /* p. 281 ; génitif (n° 307, v1.37) */
+                { id: "tah-01-05-29", titre: "Obligatoire : l'istibrâ' en vidant les deux voies", titre_ar: "وَوَجَبَ اسْتِبْرَاءٌ بِاسْتِفْرَاغِ أَخْبَثَيْهِ" }, /* p. 281–282 */
+                { id: "tah-01-05-30a", titre: "Presser et tirer doucement le membre", titre_ar: "مَعَ سَلْتِ ذَكَرٍ وَنَتْرٍ خَفَّا" }, /* p. 282–283 ; « خَفَّا » (n° 308, v1.37) */
+                { id: "tah-01-05-30b", titre: "Le lavage : ce qu'il faut faire et éviter", titre_ar: "وَلَيْسَ عَلَيْهِ غَسْلُ مَا بَطَنَ مِنْ الْمَخْرَجَيْنِ" }, /* p. 283 ; sous-fiche de 30 (v1.37) */
+                { id: "tah-01-05-31", titre: "Recommandé : pierre et eau, puis l'eau seule", titre_ar: "وَنُدِبَ جَمْعُ مَاءٍ وَحَجَرٍ ثُمَّ مَاءٍ" }, /* p. 283–284 ; « مَاءٍ » laissé (n° 309) */
                 { id: "tah-01-05-32", titre: "L'eau obligatoire : sperme, règles, lochies", titre_ar: "وَتَعَيَّنَ فِي مَنِيٍّ وَحَيْضٍ وَنِفَاسٍ" }, /* p. 284 */
                 { id: "tah-01-05-33", titre: "… urine de la femme", titre_ar: "وَبَوْلِ امْرَأَةٍ" }, /* p. 284 */
                 { id: "tah-01-05-34", titre: "Madhy : laver tout le membre ; intention et prière (deux avis)", titre_ar: "وَمَذْيٌ بِغَسْلِ ذَكَرِهِ كُلِّهِ فَفِي النِّيَّةِ …" }, /* p. 285 */

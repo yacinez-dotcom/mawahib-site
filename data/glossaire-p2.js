@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.47
+/* Données — Glossaire, partie 2 — v1.48
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -22,7 +22,8 @@
    v1.44 : 3 termes de l'unité 40 (tah-01-04-55b).
    v1.45 : 11 termes de l'unité 41 (tah-01-05-01a à -08).
    v1.46 : 7 termes de l'unité 42 (tah-01-05-09 à -16).
-   v1.47 : 6 termes de l'unité 43 (tah-01-05-17 à -24b). */
+   v1.47 : 6 termes de l'unité 43 (tah-01-05-17 à -24b).
+   v1.48 : 9 termes de l'unité 44 (tah-01-05-25 à -32). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -306,7 +307,16 @@ App.data.ajouterTermes([
   { ar: "قَارِعَةُ الطَّرِيقِ", translit: "qâriʿatou t-tarîq", def: "La voie publique, le chemin fréquenté." },
   { ar: "حُشّ", translit: "houchch", def: "Lieu d'aisance ; à l'origine, jardin de palmiers où l'on se cachait pour le besoin." },
   { ar: "اِسْتِقْبَالُ الْقِبْلَةِ", translit: "istiqbâlou l-qibla", def: "Se tourner vers la qibla (et اِسْتِدْبَار : lui tourner le dos)." },
-  { ar: "سَاتِر", translit: "sâtir", def: "Écran, paroi ou obstacle qui cache celui qui se soulage." }
+  { ar: "سَاتِر", translit: "sâtir", def: "Écran, paroi ou obstacle qui cache celui qui se soulage." },
+  { ar: "خِلَافُ الْأَوْلَى", translit: "khilâfou l-awlâ", def: "« Contraire au mieux » : acte permis, qu'il vaut mieux éviter." },
+  { ar: "الْقَمَرَانِ", translit: "al-qamarân", def: "« Les deux lunes » : le soleil et la lune." },
+  { ar: "بَيْتُ الْمَقْدِسِ", translit: "baytou l-maqdis", def: "Jérusalem ; ici, le Rocher, ancienne qibla." },
+  { ar: "الْأَخْبَثَانِ", translit: "al-akhbathân", def: "« Les deux plus impurs » : l'urine et les selles." },
+  { ar: "سَلْت", translit: "salt", def: "Presser le membre entre deux doigts, de la base vers le bout, pour faire sortir l'urine restante." },
+  { ar: "نَتْر", translit: "natr", def: "Tirer ou secouer légèrement le membre pour faire sortir les dernières gouttes." },
+  { ar: "كَمَرَة", translit: "kamara", def: "Gland, extrémité du membre." },
+  { ar: "حَيْض", translit: "ḥayd", def: "Règles, menstrues." },
+  { ar: "نِفَاس", translit: "nifâs", def: "Lochies : sang qui suit l'accouchement." }
 
   /* FIN-GLOSSAIRE */
 ]);
