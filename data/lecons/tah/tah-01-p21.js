@@ -1,9 +1,12 @@
-/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 21 — v7.0
+/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 21 — v7.1
    Source : Mawāhib al-Jalīl, al-Ḥaṭṭāb, éd. Dār al-Fikr, 3e éd., 1412 H / 1992, tome 1 (shamela.ws/book/569).
    Croisement : al-Sharḥ al-kabīr d'al-Dardīr et Ḥāshiyat al-Dasūqī (shamela.ws/book/21604), tome 1.
    Cette partie : faṣl tah-01-05 (convenances des besoins naturels), à partir de tah-01-05-25 (unités 44 et suivantes) — t. 1, p. 281 et suivantes.
    v7.0 : unité 44 — tah-01-05-25 à -29, -30a, -30b, -31, -32 (Mawāhib, t. 1, p. 281–284 ; al-Dardīr / al-Dasūqī, t. 1, p. 108–111)
           (2026-11-13) ; nouvelle partie, tah-01-p20.js (≈ 119 Ko) étant figée (l'unité porterait la partie 20 à ≈ 190 Ko) ; anomalies n° 306 à 315.
+   v7.1 : unité 45 — tah-01-05-33a, -33b, -34, -35, -36a, -36b, -37a, -37b et synthèse tah-01-05-syn (fin du faṣl ;
+          Mawāhib, t. 1, p. 284–290 ; al-Dardīr / al-Dasūqī, t. 1, p. 111–114) (2026-11-13) ; fiche 31 précisée (renvoi à Zarrūq) ;
+          anomalies n° 316 à 326.
    Bāb découpé en parties de moins de 200 Ko ;
    historique des versions : tah-01-p1.js (jusqu'à v2.5) puis l'en-tête de chaque partie. */
 App.data.ajouterFiches([
@@ -485,7 +488,7 @@ App.data.ajouterFiches([
     divergences: [
       "Concordance — l'ordre de préférence. Al-Ḥaṭṭāb : « فَالِاقْتِصَارُ عَلَى الْمَاءِ أَفْضَلُ مِنْ الِاقْتِصَارِ عَلَى الْأَحْجَارِ » ; al-Dardīr : l'eau est recommandée « عِنْدَ إرَادَةِ الِاقْتِصَارِ عَلَى أَحَدِهِمَا ».",
       "Concordance — la pierre et la règle de l'impureté. Al-Ḥaṭṭāb : at-Tawḍīḥ et al-Bisāṭī d'un côté, aṭ-Ṭirāz de l'autre. Al-Dasūqī : « وَهُوَ ظَاهِرُ التَّوْضِيحِ » … « وَظَاهِرُ الطِّرَازِ أَنَّ الْحَجَرَ عِنْدَ الِاقْتِصَارِ عَلَيْهِ لَا يَرْفَعُ الْحُكْمَ », avec renvoi à al-Ḥaṭṭāb.",
-      "Complément — avec quoi réunir. Al-Ḥaṭṭāb ne le précise pas ici. Al-Dardīr : la pierre « وَمَا فِي مَعْنَاهُ ». Al-Dasūqī rapporte de عبق (ʿAbd al-Bāqī az-Zurqānī) que ce qu'on ne peut employer seul n'a pas ce mérite ; بن (Muḥammad al-Bunānī) étend la recommandation, « كَمَا نَقَلَهُ ح عَنْ زَرُّوقٍ » (ح : Muḥammad al-Ḥaṭṭāb) ; ce passage d'al-Ḥaṭṭāb sur les matières du nettoyage est à vérifier avec les segments 36–37."
+      "Complément — avec quoi réunir. Al-Ḥaṭṭāb ne le précise pas ici. Al-Dardīr : la pierre « وَمَا فِي مَعْنَاهُ ». Al-Dasūqī rapporte de عبق (ʿAbd al-Bāqī az-Zurqānī) que ce qu'on ne peut employer seul n'a pas ce mérite ; بن (Muḥammad al-Bunānī) étend la recommandation, « كَمَا نَقَلَهُ ح عَنْ زَرُّوقٍ » (ح : Muḥammad al-Ḥaṭṭāb) ; ce passage d'al-Ḥaṭṭāb est en 569/289, sous le segment 37 : Zarrūq, « وَإِلَّا اتَّقَى مَا لَهُ حُرْمَةٌ وَإِذَايَةٌ وَنَحْوُهُمَا » (voir la fiche 37a)."
     ],
     exemple: "Une personne a sous la main des pierres (ou un matériau sec qui en tient lieu) et de l'eau : elle s'essuie d'abord, puis se lave à l'eau. Si elle ne doit employer qu'un seul des deux, elle prend l'eau.",
     erreurs_frequentes: [
@@ -586,7 +589,565 @@ App.data.ajouterFiches([
       "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 111 (Shamela 21604, page 110)."
     ],
     verification: "verifie"
-  }
+  },
 
   /* FIN-UNITE-44 */
+
+  /* ================================================================== */
+  /* Unité 45 — tah-01-05-33a à -37b et synthèse tah-01-05-syn (fin du faṣl) */
+  /* Mawāhib, t. 1, p. 284–290 (Shamela 569/283–289) ; al-Dardīr / al-Dasūqī, t. 1, p. 111–114 (Shamela 21604/110–113) */
+  {
+    id: "tah-01-05-33a",
+    kitab: "tah", bab: "01", fasl: "05", ordre: 33,
+    titre: "L'urine de la femme : l'eau obligatoire",
+    titre_ar: "وَبَوْلِ امْرَأَةٍ",
+    objectif: "Savoir que la femme se lave à l'eau après avoir uriné, et pourquoi.",
+    matn: "وَبَوْلِ امْرَأَةٍ",
+    regle_pratique: "Après avoir uriné, la femme ne peut se contenter de pierres : l'eau est obligatoire, car l'urine déborde de l'orifice vers l'arrière ; pour les selles, elle suit la règle de l'homme.",
+    qualification: {
+      hukm: "wajib",
+      nature: "autre",
+      effet_si_omis: "Les pierres ne suffisent pas ; seule l'incontinence quotidienne fait exception (al-Dardīr)."
+    },
+    explication: "Al-Ḥaṭṭāb : « يَعْنِي أَنَّ بَوْلَ الْمَرْأَةِ يَتَعَيَّنُ فِي غُسْلِهِ الْمَاءُ ». At-Tawḍīḥ : ʿIyāḍ l'a indiqué, « لِتَعَذُّرِ الِاسْتِجْمَارِ فِي حَقِّهَا » ; Sanad dit : « إنَّ الْمَرْأَةَ وَالْخَصِيَّ لَا يَكْفِيهِمَا الْأَحْجَارُ فِي الْبَوْلِ ». Adh-Dhakhīra, d'après Sanad, en donne la raison : « لِتَعَدِّيهِ مَخْرَجَهُ إلَى جِهَةِ الْمَقْعَدَةِ ». Sanad l'a dit à propos du mot d'Ibn al-Musayyib sur le nettoyage à l'eau : « هَذَا وُضُوءُ النِّسَاءِ ». L'eunuque (خَصِيّ) suit la même règle.\n\nAl-Ḥaṭṭāb ajoute : on comprend que « حُكْمَهَا فِي الْغَائِطِ كَحُكْمِ الرَّجُلِ وَهُوَ كَذَلِكَ ».\n\nAl-Dardīr : l'eau est obligatoire pour l'urine de la femme, « بِكْرًا أَوْ ثَيِّبًا لِتَعَدِّيهِ مِنْهَا مَخْرَجَهُ إلَى جِهَةِ الْمَقْعَدَةِ غَالِبًا », « إنْ لَمْ يَكُنْ سَلَسًا » ; si l'incontinence revient chaque jour, ni eau ni pierre ne sont demandées. Al-Dasūqī : « مِثْلُ بَوْلِهَا بَوْلُ الْخَصِيِّ », c'est-à-dire de celui dont le membre est coupé ; de même le sperme de l'homme sortant du sexe de la femme après son lavage. La femme lave, « كُلَّ مَا ظَهَرَ مِنْ فَرْجِهَا حَالَ جُلُوسِهَا », vierge ou non, sans introduire la main.",
+    aqwal: [
+      { auteur: "ʿIyāḍ (d'après at-Tawḍīḥ)", avis: "L'urine de la femme demande l'eau, l'essuyage étant impossible pour elle.", statut: "non_precise" },
+      { auteur: "Sanad (aṭ-Ṭirāz), rapporté par adh-Dhakhīra et Ibn ʿArafa", avis: "Pour la femme et l'eunuque, les pierres ne suffisent pas pour l'urine.", statut: "non_precise" },
+      { auteur: "Ibn al-Musayyib (d'après Sanad)", avis: "Se nettoyer à l'eau est « l'ablution des femmes ».", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « بِكْرًا أَوْ ثَيِّبًا لِتَعَدِّيهِ مِنْهَا مَخْرَجَهُ إلَى جِهَةِ الْمَقْعَدَةِ غَالِبًا ».",
+    tarjih_hattab: "Pour une ouverture nouvelle quand les deux voies sont bouchées : « وَهَذَا ظَاهِرٌ إذَا كَانَ الْفَتْحُ تَحْتَ الْمَعِدَةِ وَانْسَدَّ الْمَخْرَجَانِ » ; ailleurs, cela suit le désaccord sur l'annulation des ablutions ; si ce qui sort se répand, l'eau est obligatoire.",
+    tanbihat: [
+      "Farʿ : si les deux voies sont bouchées et que les excréments sortent par une ouverture. Aṭ-Ṭirāz : « رُخْصَةُ الِاسْتِجْمَارِ مُخْتَصَّةٌ بِمَحِلِّ الْبَوْلِ وَالْغَائِطِ دُونَ سَائِرِ الْجَسَدِ » ; pour une nouvelle ouverture, « الظَّاهِرُ أَنَّهُ يَسْتَجْمِرُ فِيهِ إذَا اسْتَمَرَّ وَصَارَ كَالْمُعْتَادِ ». Al-Ḥaṭṭāb : c'est clair si l'ouverture est sous l'estomac et que les deux voies sont bouchées ; au-dessus de l'estomac, ou si les voies ne sont pas bouchées, cela dépend de l'avis sur l'annulation des ablutions par ce qui en sort ; et « وَأَمَّا إنْ كَانَ يَنْتَشِرُ فَيَتَعَيَّنُ الْمَاءُ »."
+    ],
+    divergences: [
+      "Concordance — la raison. Al-Ḥaṭṭāb, d'après Sanad : « لِتَعَدِّيهِ مَخْرَجَهُ إلَى جِهَةِ الْمَقْعَدَةِ » ; al-Dardīr : « لِتَعَدِّيهِ مِنْهَا مَخْرَجَهُ إلَى جِهَةِ الْمَقْعَدَةِ غَالِبًا ».",
+      "Concordance — l'eunuque. Al-Ḥaṭṭāb, d'après Sanad : « وَكَذَلِكَ الْخَصِيُّ » ; al-Dasūqī : « مِثْلُ بَوْلِهَا بَوْلُ الْخَصِيِّ ».",
+      "Point à comparer — l'ouverture quand les deux voies sont bouchées. Al-Ḥaṭṭāb : les pierres peuvent suffire si ce qui sort ne se répand pas ; sinon l'eau. Al-Dasūqī : l'eau, « وَمِثْلُهُ أَيْضًا الْبَوْلُ الْخَارِجُ مِنْ الثُّقْبَةِ إذَا انْسَدَّ الْمَخْرَجَانِ عَلَى الظَّاهِرِ » (car il se répand).",
+      "Point à comparer — la vierge et la non-vierge. Al-Ḥaṭṭāb n'en parle pas dans le passage lu. Al-Dasūqī : la distinction ne vaut que pour les règles, selon aṭ-Ṭirāz, « وَاخْتَارَ فِي الْبَوْلِ تَسَاوِيهِمَا », et il renvoie à ح (Muḥammad al-Ḥaṭṭāb) ; passage non trouvé dans Mawāhib p. 181–301.",
+      "Complément — l'incontinence. Al-Ḥaṭṭāb n'en parle pas ici. Al-Dardīr : l'eau s'impose « إنْ لَمْ يَكُنْ سَلَسًا »."
+    ],
+    exemple: "En randonnée, une femme urine : s'essuyer avec des pierres ne suffit pas, elle se lave à l'eau. Pour les selles, des pierres lui suffiraient comme à l'homme.",
+    erreurs_frequentes: [
+      "Croire que la femme peut se contenter de pierres pour l'urine.",
+      "Étendre cette règle aux selles : la femme y suit la règle de l'homme.",
+      "Introduire la main pour se laver : al-Dasūqī l'interdit."
+    ],
+    termes: [
+      { ar: "خَصِيّ", translit: "khasiyy", def: "Eunuque ; ici, selon al-Dasūqī, l'homme dont le membre est coupé." }
+    ],
+    quiz: [
+      { q: "Pour l'urine, la femme peut-elle se contenter de pierres ?",
+        choix: ["Non, l'eau est obligatoire", "Oui, toujours", "Oui, si elle est vierge", "Oui, en voyage"],
+        bonne: 0,
+        explication: "« يَعْنِي أَنَّ بَوْلَ الْمَرْأَةِ يَتَعَيَّنُ فِي غُسْلِهِ الْمَاءُ »." },
+      { q: "Pourquoi ?",
+        choix: ["Parce que la femme est plus pudique", "Parce que l'urine déborde de l'orifice vers l'arrière", "Parce que les pierres sont rares", "Par simple coutume"],
+        bonne: 1,
+        explication: "« لِتَعَدِّيهِ مَخْرَجَهُ إلَى جِهَةِ الْمَقْعَدَةِ »." },
+      { q: "Pour les selles, la femme :",
+        choix: ["Doit toujours employer l'eau", "Doit employer cinq pierres", "N'a pas à se nettoyer", "Suit la même règle que l'homme"],
+        bonne: 3,
+        explication: "« حُكْمَهَا فِي الْغَائِطِ كَحُكْمِ الرَّجُلِ وَهُوَ كَذَلِكَ »." },
+      { q: "Mise en situation : chez un malade, les deux voies sont bouchées ; l'urine sort par une ouverture sous l'estomac, sans se répandre, et cela dure. Selon aṭ-Ṭirāz, rapporté par al-Ḥaṭṭāb ?",
+        choix: ["Il doit toujours l'eau", "Il n'a rien à nettoyer", "Il peut s'essuyer, l'ouverture tenant lieu d'orifice", "Il doit faire le grand lavage"],
+        bonne: 2,
+        explication: "« الظَّاهِرُ أَنَّهُ يَسْتَجْمِرُ فِيهِ إذَا اسْتَمَرَّ وَصَارَ كَالْمُعْتَادِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "284-285" },
+    alertes: [
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 111 (Shamela 21604, page 110)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-05-33b",
+    kitab: "tah", bab: "01", fasl: "05", ordre: 33,
+    titre: "Ce qui s'est beaucoup répandu autour de l'orifice",
+    titre_ar: "وَمُنْتَشِرٍ عَنْ مَخْرَجٍ كَثِيرًا",
+    objectif: "Savoir quand la souillure répandue oblige à laver à l'eau, et ce qu'on lave alors.",
+    matn: "وَمُنْتَشِرٍ عَنْ مَخْرَجٍ كَثِيرًا",
+    regle_pratique: "Quand l'urine ou les selles se sont beaucoup répandues autour de l'orifice, au-delà de l'habituel (jusqu'aux fesses, ou sur tout le gland ou presque), les pierres ne suffisent pas : on lave tout l'endroit à l'eau.",
+    qualification: {
+      hukm: "wajib",
+      nature: "autre",
+      effet_si_omis: "Les pierres ne suffisent pas."
+    },
+    explication: "Al-Ḥaṭṭāb ne commente pas ce segment, absent du « ص » de Mawāhib (voir les alertes) ; la fiche suit al-Dardīr et al-Dasūqī.\n\nAl-Dardīr : l'eau est obligatoire « فِي حَدَثِ بَوْلٍ أَوْ غَائِطٍ مُنْتَشِرٍ عَنْ مَخْرَجٍ انْتِشَارًا كَثِيرًا ». Le « beaucoup », c'est « مَا زَادَ عَلَى مَا جَرَتْ الْعَادَةُ بِتَلْوِيثِهِ كَأَنْ يَنْتَهِيَ إلَى الْأَلْيَةِ أَوْ يَعُمَّ جَمِيعَ الْحَشَفَةِ أَوْ جُلَّهَا » : jusqu'à la fesse (أَلْيَة), ou sur tout le gland (حَشَفَة) ou presque.\n\nAl-Dasūqī, d'après son maître al-ʿAdawī : « فَيَتَعَيَّنُ الْمَاءُ فِي هَذَا الْحَدَثِ كُلِّهِ لَا فِي الْمُنْتَشِرِ فَقَطْ », « لِأَنَّهُمْ قَدْ يَغْتَفِرُونَ الشَّيْءَ مُنْفَرِدًا دُونَهُ مُجْتَمِعًا مَعَ غَيْرِهِ ». Les ḥanafites, eux, ne lavent que l'excédent et pardonnent l'habituel.\n\nAl-Kharashī donne le même sens : la souillure a dépassé l'orifice et ses abords inévitables, « بِأَنْ وَصَلَ إلَى الْأَلْيَتَيْنِ مَثَلًا ». Al-Ḥaṭṭāb rejoint ce principe à propos d'une ouverture nouvelle (fiche 33a) : « وَأَمَّا إنْ كَانَ يَنْتَشِرُ فَيَتَعَيَّنُ الْمَاءُ ».",
+    aqwal: [
+      { auteur: "Al-Dasūqī, d'après son maître al-ʿAdawī", avis: "On lave tout l'endroit à l'eau, non le seul excédent.", statut: "non_precise" },
+      { auteur: "Les ḥanafites (d'après al-Dasūqī)", avis: "On lave l'excédent ; la souillure habituelle reste pardonnée.", statut: "qawl" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « وَهُوَ مَا زَادَ عَلَى مَا جَرَتْ الْعَادَةُ بِتَلْوِيثِهِ » ; al-Dasūqī : « فَيَتَعَيَّنُ الْمَاءُ فِي هَذَا الْحَدَثِ كُلِّهِ ».",
+    tarjih_hattab: null,
+    tanbihat: [],
+    divergences: [
+      "Complément — segment non commenté. Al-Ḥaṭṭāb énonce seulement, pour une ouverture nouvelle, « وَأَمَّا إنْ كَانَ يَنْتَشِرُ فَيَتَعَيَّنُ الْمَاءُ » ; al-Dardīr définit le « beaucoup » : « وَهُوَ مَا زَادَ عَلَى مَا جَرَتْ الْعَادَةُ بِتَلْوِيثِهِ ».",
+      "Point à comparer — laver tout ou l'excédent. Al-Dasūqī : « لَا فِي الْمُنْتَشِرِ فَقَطْ خِلَافًا لِمَا يَتَبَادَرُ مِنْ كَلَامِ الْمُصَنِّفِ »."
+    ],
+    exemple: "Après des selles très liquides qui ont sali les fesses, une personne ne peut se contenter de pierres : elle lave tout l'endroit à l'eau.",
+    erreurs_frequentes: [
+      "S'essuyer avec des pierres quand la souillure a gagné les fesses : il faut l'eau.",
+      "Ne laver que la partie qui dépasse l'habituel : al-Dasūqī demande de tout laver."
+    ],
+    termes: [
+      { ar: "أَلْيَة", translit: "alya", def: "Fesse." },
+      { ar: "حَشَفَة", translit: "ḥachafa", def: "Gland, extrémité du membre (comme كَمَرَة)." }
+    ],
+    quiz: [
+      { q: "Quand la souillure s'est beaucoup répandue autour de l'orifice, les pierres :",
+        choix: ["Suffisent toujours", "Ne suffisent pas : il faut l'eau", "Suffisent si l'on en prend sept", "Sont recommandées seules"],
+        bonne: 1,
+        explication: "Al-Dardīr : « فِي حَدَثِ بَوْلٍ أَوْ غَائِطٍ مُنْتَشِرٍ عَنْ مَخْرَجٍ انْتِشَارًا كَثِيرًا »." },
+      { q: "Qu'appelle-t-on « beaucoup », selon al-Dardīr ?",
+        choix: ["Toute trace", "Ce qui dure longtemps", "Ce qui sent fort", "Ce qui dépasse l'habituel : jusqu'aux fesses, ou sur presque tout le gland"],
+        bonne: 3,
+        explication: "« كَأَنْ يَنْتَهِيَ إلَى الْأَلْيَةِ أَوْ يَعُمَّ جَمِيعَ الْحَشَفَةِ أَوْ جُلَّهَا »." },
+      { q: "Mise en situation : la souillure a gagné les fesses. Selon al-Dasūqī, que lave-t-on à l'eau ?",
+        choix: ["Seulement la partie qui dépasse", "Rien, les pierres suffisent", "Tout l'endroit souillé", "Seulement l'orifice"],
+        bonne: 2,
+        explication: "« فَيَتَعَيَّنُ الْمَاءُ فِي هَذَا الْحَدَثِ كُلِّهِ لَا فِي الْمُنْتَشِرِ فَقَطْ »." },
+      { q: "Que disent les ḥanafites, selon al-Dasūqī ?",
+        choix: ["On lave l'excédent ; l'habituel est pardonné", "On lave tout", "On ne lave rien", "On fait le grand lavage"],
+        bonne: 0,
+        explication: "« يَغْسِلُ الْمُنْتَشِرَ الزَّائِدَ عَلَى مَا جَرَتْ الْعَادَةُ بِتَلْوِيثِهِ »." }
+    ],
+    ref: { ouvrage: "al-Sharḥ al-kabīr (al-Dardīr) et Ḥāshiyat al-Dasūqī", tome: 1, pages: "112" },
+    alertes: [
+      "Segment absent du « ص » de Mawāhib (569/283–284) et non commenté par al-Ḥaṭṭāb ; présent dans le Mukhtaṣar seul (11355, p. 15), Ibn Ghāzī (14605, p. 31), al-Dardīr, al-Kharashī (91, p. 148) et ʿUlaysh (21614, p. 94) ; fiche rédigée d'après al-Dardīr / al-Dasūqī, avec `ref` sur al-Dardīr ; segment manqué par le squelette, d'où le suffixe « b » (n° 316).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 112 (Shamela 21604, page 111)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-05-34",
+    kitab: "tah", bab: "01", fasl: "05", ordre: 34,
+    titre: "Le madhy : laver tout le membre ; l'intention et la prière",
+    titre_ar: "وَمَذْيٍ بِغَسْلِ ذَكَرِهِ كُلِّهِ فَفِي النِّيَّةِ …",
+    objectif: "Savoir comment se purifier du madhy, si l'intention est requise, et ce que vaut la prière de qui a mal fait.",
+    matn: "وَمَذْيٍ بِغَسْلِ ذَكَرِهِ كُلِّهِ فَفِي النِّيَّةِ وَبُطْلَانِ صَلَاةِ تَارِكِهَا أَوْ تَارِكِ كُلِّهِ قَوْلَانِ",
+    regle_pratique: "Pour le madhy sorti avec le désir, on lave à l'eau tout le membre, avec l'intention ; celui qui a prié après l'avoir lavé sans intention a une prière valide selon l'avis retenu ; s'il n'en a lavé qu'une partie, deux avis égaux, et il complète le lavage pour la suite.",
+    qualification: {
+      hukm: "wajib",
+      nature: "autre",
+      effet_si_omis: "Lavé sans intention : prière valide selon l'avis retenu. Lavé en partie : deux avis égaux sur la prière. Rien lavé : prière nulle (al-Dardīr)."
+    },
+    explication: "L'intention. Al-Muntaqā : Abū Muḥammad (an-Nawādir) dit « أَنَّهُ لَا يَفْتَقِرُ إلَى النِّيَّةِ كَغَسْلِ النَّجَاسَةِ » ; al-Bājī : « وَالصَّحِيحُ عِنْدِي أَنَّهُ يَفْتَقِرُ إلَى تَجْدِيدِ النِّيَّةِ », car c'est une purification qui dépasse l'endroit qui la rend obligatoire. At-Tawḍīḥ n'attribue l'obligation de l'intention qu'à al-Ibyānī ; Ibn ʿArafa l'attribue à « certains », et l'avis contraire à Ibn Abī Zayd.\n\nLa prière de qui a omis l'intention. Si l'on retient l'obligation, « فَهَلْ تَبْطُلُ صَلَاتُهُ لِتَرْكِ النِّيَّةِ أَوْ لَا تَبْطُلُ مُرَاعَاةً لِلْخِلَافِ؟ » : deux avis. Selon l'apparent d'at-Tawḍīḥ, ce désaccord est celui de l'obligation même ; selon Khalīl ici, il en dérive, ce que dit Ibn Bashīr (at-Tanbīh).\n\nLaver seulement l'endroit souillé. Al-Ibyānī : « يُعِيدُ أَبَدًا » ; Yaḥyā b. ʿUmar : « لَا يُعِيدُ وَيَغْسِلُ ذَكَرَهُ لِمَا يُسْتَقْبَلُ ». Ibn Nājī rapporte un troisième avis, d'Ibn Abī Zayd : « وَقِيلَ: يُعِيدُ فِي الْوَقْتِ ». Selon al-Fākihānī, Abū Muḥammad ajoute qu'il refait ses ablutions ; al-Ḥaṭṭāb l'explique : en lavant son membre, il le touche, ce qui annule en général les ablutions ; s'il évite de le toucher de l'intérieur de la main et des doigts, il ne les refait pas.\n\nAl-Dardīr : l'eau, pour le madhy sorti avec un plaisir habituel ; « وَإِلَّا كَفَى فِيهِ الْحَجَرُ », sauf incontinence quotidienne, alors pardonnée. On lave tout le membre, « لَا مَحَلِّ الْأَذَى خَاصَّةً خِلَافًا لِلْعِرَاقِيَّيْنِ ». L'intention, « بِنَاءً عَلَى أَنَّهُ تَعَبُّدٌ فِي النَّفْسِ وَهُوَ الصَّحِيحُ ». La prière de qui l'a omise : « وَعَدَمِ بُطْلَانِهَا لِأَنَّهُ وَاجِبٌ غَيْرُ شَرْطٍ وَهُوَ الرَّاجِحُ ». Lavé en partie : deux avis « مُسْتَوِيَانِ ». Rien lavé : prière nulle ; tout lavé avec intention : valide. Enfin, « وَلَا نِيَّةَ عَلَى الْمَرْأَةِ فِي مَذْيِهَا عَلَى الْأَظْهَرِ ».",
+    aqwal: [
+      { auteur: "Abū Muḥammad Ibn Abī Zayd (an-Nawādir, d'après al-Bājī)", avis: "Pas d'intention, comme pour ôter une impureté.", statut: "non_precise" },
+      { auteur: "Al-Bājī (al-Muntaqā)", avis: "L'intention est requise.", statut: "non_precise" },
+      { auteur: "Al-Ibyānī", avis: "Intention obligatoire ; qui n'a lavé que l'endroit refait la prière toujours.", statut: "non_precise" },
+      { auteur: "Yaḥyā b. ʿUmar", avis: "Il ne refait pas la prière ; il lave tout le membre pour la suite.", statut: "non_precise" },
+      { auteur: "Ibn Abī Zayd (d'après Ibn Nājī, par al-Qafṣī)", avis: "Il refait la prière dans le temps.", statut: "non_precise" },
+      { auteur: "Les Irakiens (d'après al-Dardīr)", avis: "On ne lave que l'endroit souillé.", statut: "qawl" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, tout le membre, « لَا مَحَلِّ الْأَذَى خَاصَّةً » ; l'intention, « وَهُوَ الصَّحِيحُ » ; prière valide sans intention, « وَهُوَ الرَّاجِحُ » ; lavé en partie, deux avis « مُسْتَوِيَانِ ». Al-Dasūqī : « وَالْمُعْتَمَدُ وُجُوبُهَا ».",
+    tarjih_hattab: "S'il évite de toucher son membre, il ne refait pas ses ablutions : « وَالظَّاهِرُ أَنَّهُ إنَّمَا أَمَرَهُ بِالْوُضُوءِ؛ لِأَنَّهُ إذَا غَسَلَ ذَكَرَهُ فَالْغَالِبُ أَنْ يُنْتَقَضَ وُضُوءُهُ ».",
+    tanbihat: [
+      "Le troisième avis (refaire dans le temps) concerne qui a lavé le seul endroit ; pour l'omission de l'intention, al-Ḥaṭṭāb ne l'a pas trouvé : « وَلَمْ أَقِفْ عَلَيْهِ ».",
+      "Un auteur tardif, selon at-Tawḍīḥ, veut que ce lavage soit joint aux ablutions ; Ibn Bashīr juge sa déduction de la Mudawwana : « اسْتِقْرَاءٌ فِيهِ بُعْدٌ »."
+    ],
+    divergences: [
+      "Concordance — l'intention. Al-Ḥaṭṭāb, d'après al-Bājī : « يَفْتَقِرُ إلَى تَجْدِيدِ النِّيَّةِ » ; al-Dardīr : « وَهُوَ الصَّحِيحُ » ; al-Dasūqī : « وَالْمُعْتَمَدُ وُجُوبُهَا ».",
+      "Point à comparer — la prière de qui a omis l'intention. Al-Ḥaṭṭāb rapporte deux avis sans trancher. Al-Dardīr : « وَعَدَمِ بُطْلَانِهَا لِأَنَّهُ وَاجِبٌ غَيْرُ شَرْطٍ وَهُوَ الرَّاجِحُ » ; al-Dasūqī : « وَالْمُعْتَمَدُ الصِّحَّةُ ».",
+      "Concordance — d'où vient ce désaccord. Al-Ḥaṭṭāb : at-Tawḍīḥ le confond avec celui de l'obligation, Khalīl et Ibn Bashīr l'en font dériver ; al-Dasūqī rapporte les deux lectures : « وَكِلَاهُمَا صَحِيحٌ ».",
+      "Complément — refaire la prière dans le temps. Al-Ḥaṭṭāb, d'après Ibn Nājī : « وَقِيلَ: يُعِيدُ فِي الْوَقْتِ » ; al-Dardīr : « وَفِي إعَادَتِهَا فِي الْوَقْتِ قَوْلَانِ ».",
+      "Complément — le madhy sans plaisir habituel, et la femme. Al-Ḥaṭṭāb n'en parle pas. Al-Dardīr : « وَإِلَّا كَفَى فِيهِ الْحَجَرُ » ; « وَلَا نِيَّةَ عَلَى الْمَرْأَةِ فِي مَذْيِهَا عَلَى الْأَظْهَرِ » ; al-Dasūqī : elle lave le seul endroit, contre خش (al-Kharashī)."
+    ],
+    exemple: "Un homme a eu du madhy : il lave tout son membre à l'eau avec l'intention de lever cet état, puis fait ses ablutions sans toucher son membre de l'intérieur de la main.",
+    erreurs_frequentes: [
+      "Ne laver que la trace : il faut laver tout le membre.",
+      "Croire que des pierres suffisent pour un madhy sorti avec le désir habituel : il faut l'eau.",
+      "Toucher son membre de l'intérieur de la main en le lavant, puis prier sans refaire ses ablutions : ce contact les annule en général."
+    ],
+    termes: [],
+    quiz: [
+      { q: "Pour le madhy, que lave-t-on ?",
+        choix: ["Seulement la trace", "Tout le corps", "Tout le membre", "Rien, les pierres suffisent toujours"],
+        bonne: 2,
+        explication: "Al-Dardīr : « لَا مَحَلِّ الْأَذَى خَاصَّةً خِلَافًا لِلْعِرَاقِيَّيْنِ »." },
+      { q: "L'intention, pour ce lavage, est selon al-Dardīr et al-Dasūqī :",
+        choix: ["Obligatoire", "Inutile", "Déconseillée", "Seulement recommandée"],
+        bonne: 0,
+        explication: "« وَالْمُعْتَمَدُ وُجُوبُهَا »." },
+      { q: "Mise en situation : un homme a lavé tout son membre sans intention, puis a prié. Selon al-Dardīr ?",
+        choix: ["Sa prière est nulle", "Sa prière est valide", "Il refait ses ablutions et sa prière", "Il refait la prière toujours"],
+        bonne: 1,
+        explication: "« وَعَدَمِ بُطْلَانِهَا لِأَنَّهُ وَاجِبٌ غَيْرُ شَرْطٍ وَهُوَ الرَّاجِحُ »." },
+      { q: "Selon al-Dardīr, la femme qui a du madhy :",
+        choix: ["Lave tout son corps", "Lave tout son sexe avec intention", "N'a rien à laver", "Lave l'endroit souillé, sans intention"],
+        bonne: 3,
+        explication: "« وَلَا نِيَّةَ عَلَى الْمَرْأَةِ فِي مَذْيِهَا عَلَى الْأَظْهَرِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "285-286" },
+    alertes: [
+      "Corrigé (campagne de correction) : le « ص » de Mawāhib (569/284) a « وَمَذْيٌ » ; al-Dardīr, al-Kharashī (91, p. 148) et Ibn Ghāzī (14605, p. 31) ont « وَمَذْيٍ », qui dépend de « وَتَعَيَّنَ فِي » : matn corrigé (n° 317).",
+      "569/284 : « وَحُكِمَ بِصِحَّةِ بُطْلَانِهِ » (à propos de celui qui évite de toucher son membre) : sens incertain ; passage non cité (n° 318).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 112 (Shamela 21604, page 111)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-05-35",
+    kitab: "tah", bab: "01", fasl: "05", ordre: 35,
+    titre: "Pas de nettoyage pour un vent",
+    titre_ar: "وَلَا يَسْتَنْجِي مِنْ رِيحٍ",
+    objectif: "Savoir qu'on ne se nettoie pas après un vent, et pourquoi.",
+    matn: "وَلَا يَسْتَنْجِي مِنْ رِيحٍ",
+    regle_pratique: "Après avoir émis un vent, on ne se lave pas l'endroit et l'on ne s'essuie pas : le vent n'est pas impur ; le faire est déconseillé.",
+    qualification: {
+      hukm: "makruh",
+      nature: "autre",
+      effet_si_omis: "Sans objet."
+    },
+    explication: "Mālik (Mudawwana) : « وَلَا يَسْتَنْجِي مِنْ الرِّيحِ ». Sanad : « هَذَا قَوْلُ فُقَهَاءِ الْأَمْصَارِ » ; ʿAbd al-Wahhāb (al-Ishrāf) rapporte que certains s'y opposent, pensant que le vent porte des particules d'impureté perçues par l'odorat. La justification de l'école : « أَنَّ الرِّيحَ لَيْسَ بِنَجِسٍ » ; s'il fallait se nettoyer, il faudrait laver le vêtement qu'il touche ; ces particules, on ne peut les connaître, et il en reste davantage après l'essuyage aux pierres. Al-Qāḍī (ʿAbd al-Wahhāb) cite : « لَيْسَ مِنَّا مَنْ اسْتَنْجَى مِنْ الرِّيحِ ».\n\nAl-Dardīr : « أَيْ يُكْرَهُ كَمَا لَا يُغْسَلُ مِنْهُ الثَّوْبُ ». Al-Dasūqī : une négation qui vaut interdiction, à cause du même hadith, « أَيْ لَيْسَ عَلَى سُنَّتِنَا » ; « وَالنَّهْيُ لِلْكَرَاهَةِ ». De même, graviers et vers sortis sans humidité, ou avec peu, n'exigent aucun nettoyage ; avec beaucoup d'humidité, il faut se nettoyer, même si les ablutions ne sont pas annulées.",
+    aqwal: [
+      { auteur: "Mālik (Mudawwana)", avis: "On ne se nettoie pas après un vent.", statut: "non_precise" },
+      { auteur: "Les juristes des grandes villes (d'après Sanad)", avis: "Même avis.", statut: "non_precise" },
+      { auteur: "Certains (d'après ʿAbd al-Wahhāb, al-Ishrāf)", avis: "On se nettoie après un vent, qui porterait des particules d'impureté.", statut: "qawl" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « أَيْ يُكْرَهُ » ; al-Dasūqī : « وَالنَّهْيُ لِلْكَرَاهَةِ ».",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Le hadith cité par al-Qāḍī est rapporté avec sa chaîne par l'auteur d'al-Firdaws, d'après Anas : « وَفِيهِ بَشِيرٌ يَرْوِي الْمَنَاكِيرَ » ; Ibn Ḥajar le cite dans Zahr al-Firdaws avec une autre chaîne."
+    ],
+    divergences: [
+      "Point à comparer — la preuve. Al-Ḥaṭṭāb relève la faiblesse du hadith : « وَفِيهِ بَشِيرٌ يَرْوِي الْمَنَاكِيرَ ». Al-Dasūqī en fait la raison de l'interdiction : « لِقَوْلِهِ - عَلَيْهِ الصَّلَاةُ وَالسَّلَامُ - » … « لَيْسَ مِنَّا مَنْ اسْتَنْجَى مِنْ رِيحٍ ».",
+      "Concordance — le vent n'est pas impur. Al-Ḥaṭṭāb, d'après Sanad : « أَنَّ الرِّيحَ لَيْسَ بِنَجِسٍ » ; al-Dardīr : « كَمَا لَا يُغْسَلُ مِنْهُ الثَّوْبُ » ; al-Dasūqī : « أَيْ لِطَهَارَتِهِ ».",
+      "Complément — graviers et vers. Al-Ḥaṭṭāb en parle à la fiche 32. Al-Dasūqī : comme le vent, ils n'exigent rien s'ils sortent « خَالِصَيْنِ مِنْ الْبِلَّةِ أَوْ كَانَتْ خَفِيفَةً »."
+    ],
+    exemple: "Une personne a émis un vent avant la prière : elle refait ses ablutions, mais ne se lave pas l'endroit.",
+    erreurs_frequentes: [
+      "Se laver l'endroit après un vent : c'est déconseillé.",
+      "Croire que le vent salit le vêtement : il n'est pas impur."
+    ],
+    termes: [],
+    quiz: [
+      { q: "Après un vent, se nettoyer l'endroit est :",
+        choix: ["Déconseillé", "Obligatoire", "Recommandé", "Obligatoire seulement avant la prière"],
+        bonne: 0,
+        explication: "Al-Dardīr : « أَيْ يُكْرَهُ »." },
+      { q: "Pourquoi, selon l'école (Sanad) ?",
+        choix: ["Parce que l'eau manque", "Parce que c'est long", "Parce que le vent n'est pas impur", "Parce que le vent annule le nettoyage"],
+        bonne: 2,
+        explication: "« أَنَّ الرِّيحَ لَيْسَ بِنَجِسٍ »." },
+      { q: "Que dit al-Ḥaṭṭāb du hadith cité contre ce nettoyage ?",
+        choix: ["Il est authentique", "Il est rapporté par al-Bukhārī", "Il est abrogé", "Sa chaîne contient un transmetteur de récits rejetés"],
+        bonne: 3,
+        explication: "« وَفِيهِ بَشِيرٌ يَرْوِي الْمَنَاكِيرَ »." },
+      { q: "Mise en situation : des graviers sortent sans aucune humidité. Selon al-Dasūqī ?",
+        choix: ["Il faut se laver à l'eau", "Rien à nettoyer, comme pour le vent", "Trois pierres sont obligatoires", "Le grand lavage est obligatoire"],
+        bonne: 1,
+        explication: "« خَالِصَيْنِ مِنْ الْبِلَّةِ أَوْ كَانَتْ خَفِيفَةً »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "286" },
+    alertes: [
+      "569/285 : la raison prêtée aux opposants est imprimée « تُدْرِكُ نَجَاسَةَ الشَّمِّ » ; le sens attendu est « perçue par l'odorat » ; passage non cité (n° 326).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 112–113 (Shamela 21604, pages 111–112)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-05-36a",
+    kitab: "tah", bab: "01", fasl: "05", ordre: 36,
+    titre: "Avec quoi s'essuyer : conditions et exclusions",
+    titre_ar: "وَجَازَ بِيَابِسٍ طَاهِرٍ مُنَقٍّ غَيْرِ مُؤْذٍ وَلَا مُحْتَرَمٍ …",
+    objectif: "Savoir avec quoi l'on peut s'essuyer à la place des pierres, et ce qu'on ne doit pas employer.",
+    matn: "وَجَازَ بِيَابِسٍ طَاهِرٍ مُنَقٍّ غَيْرِ مُؤْذٍ وَلَا مُحْتَرَمٍ وَلَا مُبْتَلٍّ وَنَجِسٍ وَأَمْلَسَ وَمُحَدَّدٍ وَمُحْتَرَمٍ مِنْ مَطْعُومٍ وَمَكْتُوبٍ وَذَهَبٍ وَفِضَّةٍ وَجِدَارٍ وَرَوْثٍ وَعَظْمٍ",
+    regle_pratique: "On peut s'essuyer avec toute matière sèche, pure, qui nettoie, ne blesse pas et n'est pas respectable (pierre, terre, brique, chiffon, coton) ; on n'emploie ni ce qui est mouillé, impur, lisse ou tranchant, ni ce qui est respectable : nourriture, écrit, or et argent, mur, os et crottin.",
+    qualification: {
+      hukm: "mubah",
+      nature: "autre",
+      effet_si_omis: "Pour la gravité de chaque exclusion, voir la fiche 36b ; pour ce qui a nettoyé malgré l'interdit, la fiche 37a."
+    },
+    explication: "Le sujet de « جَازَ » est l'essuyage (اِسْتِجْمَار), compris de la fiche 31. Al-Ḥaṭṭāb : l'employer « بِكُلِّ يَابِسٍ طَاهِرٍ مُنَقٍّ غَيْرِ مُؤْذٍ وَلَا مُحْتَرَمٍ هُوَ الْمَشْهُورُ » ; l'avis opposé le réserve aux pierres. At-Tawḍīḥ : on compare tout solide à la pierre, « لِأَنَّ الْقَصْدَ الْإِنْقَاءُ » ; « وَالصَّحِيحُ الْأَوَّلُ؛ لِأَنَّ الرُّخْصَةَ فِي نَفْسِ الْفِعْلِ لَا فِي الْمَفْعُولِ بِهِ », et le Prophète a écarté le crottin parce qu'il est impur, non parce que ce n'est pas une pierre. Ad-Dāraquṭnī rapporte : « بِثَلَاثَةِ أَعْوَادٍ أَوْ ثَلَاثَةِ أَحْجَارٍ أَوْ ثَلَاثَةِ حَثَيَاتٍ مِنْ تُرَابٍ ».\n\nRemarque : tout ce qui est de la terre vaut la pierre. Aṭ-Ṭirāz : l'accord porte sur la terre sous ses formes (pierre, motte de terre ou مَدَر, soufre) ; Dāwūd et Aṣbagh refusent ce qui n'est pas de la terre (chiffons, bois), Aṣbagh demandant de refaire la prière dans le temps. Al-Ḥaṭṭāb le souligne, car l'apparent d'at-Tawḍīḥ ferait croire qu'Aṣbagh refuse même ce qui est de la terre.\n\nCe que chaque condition écarte :\n- sec : les liquides et ce qui est mouillé, « لِأَنَّ الرُّطُوبَةَ تَنْشُرُ النَّجَاسَةَ » ;\n- pur : l'impur ; seule compte la face qui touche l'endroit ;\n- qui nettoie : le lisse, comme le verre qui ne coupe pas ;\n- qui ne blesse pas : le verre coupant, le roseau ;\n- non respectable (مُحْتَرَم) : la nourriture, même médicinale ; l'écrit, « لِحُرْمَةِ الْحُرُوفِ », et le papier même vierge, à cause de l'amidon (at-Tawḍīḥ) ; l'or, l'argent et les pierres précieuses ; le mur ; l'os et le crottin.\n\nL'écrit est exclu « وَلَوْ كَانَ الْمَكْتُوبُ بَاطِلًا كَالسِّحْرِ ». Le mur : interdit s'il est d'une mosquée, à autrui ou en waqf ; al-Madkhal : « وَهَذَا حَرَامٌ بِاتِّفَاقٍ » ; déconseillé sur son propre mur (pluie, contact, bêtes cachées). ʿIyāḍ, rapporté par Ibn Rāshid, demande d'éviter les murs, même ceux des latrines.\n\nAl-Dardīr : sec, « كَانَ مِنْ نَوْعِ الْأَرْضِ كَحَجَرٍ وَمَدَرٍ » ou non, « كَخِرَقٍ وَقُطْنٍ وَصُوفٍ غَيْرِ مُتَّصِلٍ بِحَيَوَانٍ وَإِلَّا كُرِهَ » ; respectable, « إمَّا لِطَعْمِهِ أَوْ لِشَرَفِهِ أَوْ لِحَقِّ الْغَيْرِ ».",
+    aqwal: [
+      { auteur: "Avis rapporté sans attribution, dit « الْمَشْهُورُ » par al-Ḥaṭṭāb", avis: "Toute matière sèche, pure, qui nettoie, ne blesse pas et n'est pas respectable convient.", statut: "mashhur" },
+      { auteur: "Avis rapporté sans attribution (l'opposé)", avis: "Seules les pierres conviennent.", statut: "qawl" },
+      { auteur: "Aṣbagh (d'après aṭ-Ṭirāz et at-Tilimsānī)", avis: "Seulement ce qui est de la terre ; sinon, on refait la prière dans le temps.", statut: "qawl" },
+      { auteur: "Dāwūd (d'après aṭ-Ṭirāz et ʿIyāḍ)", avis: "Seules les pierres.", statut: "qawl" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, sec, « كَانَ مِنْ نَوْعِ الْأَرْضِ كَحَجَرٍ وَمَدَرٍ » ou non, avec les mêmes exclusions.",
+    tarjih_hattab: "L'écrit est exclu même s'il est faux, « لِأَنَّ الْحُرْمَةَ لِلْحُرُوفِ » ; Aṣbagh n'écarte que ce qui n'est pas de la terre.",
+    tanbihat: [
+      "Ibn al-Munīr (cité par ad-Damāmīnī) : les noms de Dieu restent respectables même dans un livre altéré ; on peut le brûler, non l'avilir.",
+      "Le mur de sa propre maison : déconseillé ; al-Madkhal rapporte qu'un homme fut piqué par un scorpion caché dans un mur ; al-Ḥaṭṭāb ajoute qu'on lui a rapporté un cas semblable à Médine, en 951."
+    ],
+    divergences: [
+      "Concordance — avec quoi s'essuyer. Al-Ḥaṭṭāb : « هُوَ الْمَشْهُورُ » ; al-Dardīr : de la terre ou non, « كَخِرَقٍ وَقُطْنٍ وَصُوفٍ ».",
+      "Concordance — l'écrit. Al-Ḥaṭṭāb : « لِأَنَّ الْحُرْمَةَ لِلْحُرُوفِ » ; al-Dardīr : « لِحُرْمَةِ الْحُرُوفِ وَلَوْ بَاطِلًا كَسِحْرٍ » ; al-Dasūqī : les lettres sont respectables en toute écriture, « وَهُوَ مَا يُفِيدُهُ ح » (Muḥammad al-Ḥaṭṭāb) ; son maître al-ʿAdawī le retient, contre Ibrāhīm al-Laqānī.",
+      "Complément — le mur d'autrui avec permission. Al-Ḥaṭṭāb : interdit dans le bien d'autrui ; al-Dasūqī, d'après son maître al-ʿAdawī : avec sa permission, « كُرِهَ فَقَطْ ».",
+      "Complément — la laine attachée à l'animal. Al-Ḥaṭṭāb y revient à la fiche 37a (aṭ-Ṭirāz) ; al-Dardīr : « غَيْرِ مُتَّصِلٍ بِحَيَوَانٍ وَإِلَّا كُرِهَ »."
+    ],
+    exemple: "Sans eau, en voyage, une personne s'essuie avec des pierres ou un chiffon propre et sec ; elle n'emploie ni une feuille de papier, ni du pain, ni un os.",
+    erreurs_frequentes: [
+      "Croire que seules les pierres conviennent : toute matière sèche, pure et qui nettoie convient.",
+      "Employer du papier, même vierge : at-Tawḍīḥ le range avec l'écrit, à cause de l'amidon.",
+      "S'essuyer contre le mur d'une mosquée ou d'autrui : c'est interdit."
+    ],
+    termes: [
+      { ar: "مُحْتَرَم", translit: "mouḥtaram", def: "Respectable : ce qui a droit au respect (nourriture, écrit, or, mur d'autrui…) et ne sert pas à s'essuyer." },
+      { ar: "مَدَر", translit: "madar", def: "Motte de terre séchée ; al-Dardīr l'explique par la brique." }
+    ],
+    quiz: [
+      { q: "Avec quoi peut-on s'essuyer, selon l'avis le plus répandu ?",
+        choix: ["Seulement des pierres", "Seulement de la terre", "Seulement de l'eau", "Toute matière sèche, pure, qui nettoie, ne blesse pas et n'est pas respectable"],
+        bonne: 3,
+        explication: "« بِكُلِّ يَابِسٍ طَاهِرٍ مُنَقٍّ غَيْرِ مُؤْذٍ وَلَا مُحْتَرَمٍ هُوَ الْمَشْهُورُ »." },
+      { q: "Pourquoi n'emploie-t-on pas ce qui est mouillé ?",
+        choix: ["Parce que c'est froid", "Parce que l'humidité répand l'impureté", "Parce que c'est respectable", "Parce que c'est rare"],
+        bonne: 1,
+        explication: "« لِأَنَّ الرُّطُوبَةَ تَنْشُرُ النَّجَاسَةَ »." },
+      { q: "Mise en situation : en voyage, une personne n'a qu'une feuille de papier blanc et un chiffon propre et sec. Que prend-elle ?",
+        choix: ["Le chiffon", "La feuille de papier", "Les deux ensemble", "Rien : elle attend l'eau"],
+        bonne: 0,
+        explication: "At-Tawḍīḥ range le papier, même vierge, avec l'écrit, à cause de l'amidon ; le chiffon, sec et pur, convient (al-Dardīr : « كَخِرَقٍ وَقُطْنٍ وَصُوفٍ »)." },
+      { q: "S'essuyer contre le mur d'une mosquée est :",
+        choix: ["Recommandé", "Seulement déconseillé", "Interdit", "Permis s'il est sec"],
+        bonne: 2,
+        explication: "Al-Madkhal : « وَهَذَا حَرَامٌ بِاتِّفَاقٍ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "286-288" },
+    alertes: [
+      "Corrigé (campagne de correction) : le « ص » de Mawāhib (569/285) vocalise « وَأَمْلُسَ » ; al-Dardīr et Ibn Ghāzī (14605, p. 31) : « أَمْلَسَ » : matn corrigé (n° 319).",
+      "Matn : « وَلَا مُبْتَلٍّ » (Mawāhib, Ibn Ghāzī, ʿUlaysh 21614, p. 95) ; le Mukhtaṣar seul (11355, p. 15), al-Dardīr et al-Kharashī (91, p. 149) : « لَا مُبْتَلٍّ », qui ouvre la liste des exclusions ; « وَرَوْثٍ وَعَظْمٍ » (Mawāhib, Ibn Ghāzī, al-Kharashī), « وَعَظْمٍ وَرَوْثٍ » (Mukhtaṣar seul, al-Dardīr, ʿUlaysh) ; laissé selon le « ص » ; le sens ne change pas (n° 320).",
+      "Dans la citation d'al-Lakhmī (569/286), la première catégorie (la terre) est suivie de « فَهَذَا لَا يَجُوزُ الِاسْتِجْمَارُ بِهِ », alors qu'al-Lakhmī ouvre sa liste par « فَصِنْفٌ يَجُوزُ الِاسْتِجْمَارُ بِهِ » et qu'Ibn ʿArafa (16968, p. 75) tient toute la terre pour permise : négation probablement fautive ; passage non cité (n° 321).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 113–114 (Shamela 21604, pages 112–113)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-05-36b",
+    kitab: "tah", bab: "01", fasl: "05", ordre: 36,
+    titre: "Interdit ou déconseillé ? Le charbon, la terre, le sol",
+    titre_ar: "الْمَنْعُ فِي هَذِهِ الْأَشْيَاءِ … عَلَى الْكَرَاهَةِ أَوْ عَلَى التَّحْرِيمِ",
+    objectif: "Savoir ce qui est interdit et ce qui est seulement déconseillé parmi les choses écartées, et ce qu'il en est du charbon et de la terre.",
+    matn: "وَجَازَ بِيَابِسٍ طَاهِرٍ مُنَقٍّ غَيْرِ مُؤْذٍ وَلَا مُحْتَرَمٍ وَلَا مُبْتَلٍّ وَنَجِسٍ وَأَمْلَسَ وَمُحَدَّدٍ وَمُحْتَرَمٍ مِنْ مَطْعُومٍ وَمَكْتُوبٍ وَذَهَبٍ وَفِضَّةٍ وَجِدَارٍ وَرَوْثٍ وَعَظْمٍ",
+    regle_pratique: "S'essuyer avec de la nourriture, un écrit, un objet précieux, le mur d'autrui, une matière impure, mouillée, lisse ou tranchante est interdit ; avec un os ou un crottin purs, ou contre son propre mur, c'est seulement déconseillé ; la terre convient.",
+    qualification: {
+      hukm: "haram",
+      nature: "autre",
+      effet_si_omis: "Pour la validité après coup, voir la fiche 37a."
+    },
+    explication: "Première remarque d'al-Ḥaṭṭāb : la défense est-elle une réprobation ou une interdiction (« هَلْ هُوَ عَلَى الْكَرَاهَةِ أَوْ عَلَى التَّحْرِيمِ ») ?\n- Nourriture et écrits : « فَالظَّاهِرُ أَنَّ ذَلِكَ فِيهَا عَلَى التَّحْرِيمِ ». Ibn al-Ḥājib : « وَلَا يَجُوزُ بِنَجِسٍ وَلَا نَفِيسٍ وَلَا بِذِي حُرْمَةٍ », accepté par at-Tawḍīḥ, Ibn ʿAbd as-Salām et Ibn Rāshid ; al-Bayān : « أَجْمَعُوا عَلَى أَنَّهُ لَا يَجُوزُ الِاسْتِنْجَاءُ بِمَا لَهُ حُرْمَةٌ مِنْ الْأَطْعِمَةِ ».\n- Le mur : interdit, sauf celui qu'on possède.\n- L'impur et le mouillé : interdits, « لِأَنَّ ذَلِكَ يَنْشُرُ النَّجَاسَةَ » ; le lisse et le tranchant aussi, à cause du dommage.\n- L'os et le crottin : impurs, ils relèvent de l'impur ; purs, « فَالظَّاهِرُ أَنَّ الْمَنْعَ مِنْهُ عَلَى الْكَرَاهَةِ », car al-Lakhmī y rapporte deux avis de Mālik : Ibn Wahb, « مَا سَمِعْت فِيهِ نَهْيًا وَلَا أَرَى بِهِ بَأْسًا », et Ibn al-Qāsim, la réprobation ; Ibn Rushd dit le désaccord entre réprobation et tolérance. Le « يُكْرَهُ » d'al-Jallāb s'entend donc d'une interdiction, sauf pour l'os et le crottin purs. At-Tawḍīḥ donne la raison : le hadith d'Abū Hurayra (« وَلَا تَأْتِينِي بِعَظْمٍ وَلَا رَوْثٍ ») et celui de la délégation des djinns.\n\nDeuxième remarque, le charbon (حُمَمَة). Ibn al-Ḥājib : « الْأَصَحُّ فِيهَا عَدَمُ الْجَوَازِ ». At-Tilimsānī : « إنَّ ظَاهِرَ الْمَذْهَبِ الْجَوَازُ », d'après Mālik (al-ʿUtbiyya, par Ashhab) : « مَا سَمِعْت فِيهَا نَهْيًا وَلَا أَرَى بِهَا بَأْسًا فِي عِلْمِي ». Aṭ-Ṭirāz : « أَمَّا الْفَحْمُ فَظَاهِرُ الْمَذْهَبِ جَوَازُهُ ». ʿIyāḍ (al-Ikmāl) : « الْمَشْهُورُ عَنْ مَالِكٍ النَّهْيُ عَنْ الِاسْتِنْجَاءِ بِالْحُمَمَةِ ». Al-Ḥaṭṭāb : chaque avis a été dit le plus fort, « فَيَنْبَغِي أَنْ يَكُونَ فِي ذَلِكَ خِلَافٌ », et ash-Shāmil tranche pour la permission.\n\nTroisième remarque, la terre. Al-Jallāb : « وَلَا بَأْسَ بِاسْتِعْمَالِ التُّرَابِ وَالنُّخَالَةِ وَالسُّحَالَةِ ». Ibn ʿArafa rapporte la permission de la terre et du son ; Ibn Zarqūn objecte que le son contient de la nourriture. Aṭ-Ṭirāz permet sciure et copeaux comme la terre, contre Aṣbagh.\n\nQuatrième remarque. ʿIyāḍ permet de s'essuyer contre une pierre fixe ou contre le sol, d'où la permission de la terre ; Ibn Hārūn : « لِأَنَّهُ - عَلَيْهِ الصَّلَاةُ وَالسَّلَامُ - اسْتَنْجَى بِالْأَرْضِ ».\n\nAl-Dardīr : « وَالْمُرَادُ بِعَدَمِ الْجَوَازِ الْحُرْمَةُ فِي الْجَمِيعِ إلَّا جِدَارَ النَّفْسِ وَالْعَظْمَ وَالرَّوْثَ الطَّاهِرَيْنِ » ; la défense de l'os et du crottin vient de ce que « الْعَظْمَ طَعَامُ الْجِنِّ وَالرَّوْثَ طَعَامُ دَوَابِّهِمْ ».",
+    aqwal: [
+      { auteur: "Ibn al-Ḥājib", avis: "L'os, le crottin et le charbon ne sont pas permis (« عَلَى الْأَصَحِّ »).", statut: "qawl" },
+      { auteur: "Mālik (Ibn Wahb ; al-ʿUtbiyya, par Ashhab)", avis: "Rien n'interdit l'os, l'impur sec ou le charbon.", statut: "non_precise" },
+      { auteur: "Mālik (samāʿ d'Ibn al-Qāsim)", avis: "C'est réprouvé.", statut: "non_precise" },
+      { auteur: "ʿIyāḍ (al-Ikmāl)", avis: "L'interdiction du charbon est l'avis rapporté de Mālik.", statut: "mashhur" },
+      { auteur: "At-Tilimsānī et aṭ-Ṭirāz", avis: "Le charbon est permis selon l'apparent de l'école.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « وَالْمُرَادُ بِعَدَمِ الْجَوَازِ الْحُرْمَةُ فِي الْجَمِيعِ إلَّا جِدَارَ النَّفْسِ وَالْعَظْمَ وَالرَّوْثَ الطَّاهِرَيْنِ » ; « إلَّا أَنَّهُ يُكْرَهُ فِي الطَّاهِرَيْنِ وَلَا يَحْرُمُ عَلَى الرَّاجِحِ ». Le charbon : non tranché, al-Dardīr ne le nomme pas dans les pages lues.",
+    tarjih_hattab: "Nourriture et écrits : interdits ; os et crottin purs : déconseillés, « فَالظَّاهِرُ أَنَّ الْمَنْعَ مِنْهُ عَلَى الْكَرَاهَةِ » ; pour le charbon : « فَيَنْبَغِي أَنْ يَكُونَ فِي ذَلِكَ خِلَافٌ ».",
+    tanbihat: [
+      "Le son et les copeaux : at-Tilimsānī distingue ce qui sort du rabot (copeaux, permis) du son de farine, qui garde le respect de la nourriture quand il y est mêlé (voir les alertes)."
+    ],
+    divergences: [
+      "Concordance — l'os et le crottin purs. Al-Ḥaṭṭāb : « فَالظَّاهِرُ أَنَّ الْمَنْعَ مِنْهُ عَلَى الْكَرَاهَةِ » ; al-Dardīr : « إلَّا أَنَّهُ يُكْرَهُ فِي الطَّاهِرَيْنِ وَلَا يَحْرُمُ عَلَى الرَّاجِحِ » ; al-Dasūqī : « أَيْ كَمَا قَالَ ح » (Muḥammad al-Ḥaṭṭāb), « خِلَافًا لِابْنِ الْحَاجِبِ الْقَائِلِ بِالْحُرْمَةِ ».",
+      "Concordance — le reste est interdit. Al-Ḥaṭṭāb : nourriture, écrits, mur d'autrui, impur, mouillé, lisse, tranchant ; al-Dardīr : « وَالْمُرَادُ بِعَدَمِ الْجَوَازِ الْحُرْمَةُ فِي الْجَمِيعِ ».",
+      "Complément — si l'on se lave ensuite. Al-Ḥaṭṭāb : fiche 37a (d'après Zarrūq). Al-Dasūqī : la défense ne vaut que si l'on s'en contente ; si l'on veut se laver ensuite, c'est permis, « إلَّا الْمُحْتَرَمَ وَالْمُحَدَّدَ وَالنَّجَسَ فَالْحُرْمَةُ مُطْلَقًا كَمَا فِي ح نَقْلًا عَنْ زَرُّوقٍ وَاللَّخْمِيِّ ».",
+      "Complément — le charbon. Al-Ḥaṭṭāb : deux avis, chacun dit le plus fort ; al-Dardīr ne le nomme pas dans les pages lues."
+    ],
+    exemple: "En pleine nature, une personne n'a qu'un os sec et propre et un morceau de pain : le pain est interdit ; l'os est seulement déconseillé, mieux vaut chercher une pierre ou de la terre.",
+    erreurs_frequentes: [
+      "Croire que tout ce qui est écarté est seulement déconseillé : la nourriture, l'écrit, l'impur et le mouillé sont interdits.",
+      "Croire l'os et le crottin purs interdits comme le reste : ils sont déconseillés selon l'avis retenu.",
+      "Croire que la terre ne convient pas : elle convient (al-Jallāb, ʿIyāḍ)."
+    ],
+    termes: [
+      { ar: "حُمَمَة", translit: "houmama", def: "Charbon de bois." }
+    ],
+    quiz: [
+      { q: "S'essuyer avec de la nourriture est :",
+        choix: ["Déconseillé", "Interdit", "Permis si elle est sèche", "Recommandé"],
+        bonne: 1,
+        explication: "« فَالظَّاهِرُ أَنَّ ذَلِكَ فِيهَا عَلَى التَّحْرِيمِ »." },
+      { q: "S'essuyer avec un os pur, selon l'avis retenu par al-Dardīr, est :",
+        choix: ["Déconseillé", "Interdit", "Permis sans réserve", "Obligatoire faute de pierre"],
+        bonne: 0,
+        explication: "« إلَّا أَنَّهُ يُكْرَهُ فِي الطَّاهِرَيْنِ وَلَا يَحْرُمُ عَلَى الرَّاجِحِ »." },
+      { q: "Le charbon, selon al-Ḥaṭṭāb :",
+        choix: ["Interdit par accord", "Permis par accord", "Objet d'un désaccord, chaque avis ayant été dit le plus fort", "Obligatoire"],
+        bonne: 2,
+        explication: "« فَيَنْبَغِي أَنْ يَكُونَ فِي ذَلِكَ خِلَافٌ »." },
+      { q: "Mise en situation : une personne compte se laver à l'eau juste après s'être essuyée. Selon al-Dasūqī, peut-elle s'essuyer d'abord avec un chiffon mouillé ?",
+        choix: ["Non, c'est toujours interdit", "Seulement avec du pain", "Seulement avec un écrit", "Oui ; mais jamais avec une chose respectable, tranchante ou impure"],
+        bonne: 3,
+        explication: "« إلَّا الْمُحْتَرَمَ وَالْمُحَدَّدَ وَالنَّجَسَ فَالْحُرْمَةُ مُطْلَقًا »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "288-289" },
+    alertes: [
+      "Corrigé (campagne de correction) : dans la citation d'at-Tilimsānī (569/288), les deux mots sont imprimés « النُّخَالَةُ » ; la définition (ce qui sort du rabot) et la reprise « وَفِي بَعْضِ النُّسَخِ النُّخَالَةُ بِالْخَاءِ الْمُعْجَمَةِ » demandent pour le premier « النُّحَالَة », que donne al-Dasūqī (« وَأَمَّا النُّحَالَةُ بِالْحَاءِ الْمُهْمَلَةِ ») ; passage non cité (n° 322).",
+      "Corrigé (campagne de correction) : 569/287 attribue à « ابْنِ رَاشِدٍ » la phrase d'al-Bayān (« أَجْمَعُوا … ») et la situe « فِي رَسْمِ سِنٍّ » ; elle est d'Ibn Rushd, al-Bayān (21751, p. 32), dans le passage « فيما يكره الاستنجاء به » (p. 31) ; la fiche l'attribue à al-Bayān (n° 323).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 113–114 (Shamela 21604, pages 112–113)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-05-37a",
+    kitab: "tah", bab: "01", fasl: "05", ordre: 37,
+    titre: "Après coup : ce qui a nettoyé suffit ; la main",
+    titre_ar: "فَإِنْ أَنْقَتْ أَجْزَأَتْ كَالْيَدِ",
+    objectif: "Savoir ce que vaut un essuyage fait avec une chose défendue, ou avec la main.",
+    matn: "فَإِنْ أَنْقَتْ أَجْزَأَتْ كَالْيَدِ وَدُونَ الثَّلَاثِ",
+    regle_pratique: "Si l'on s'est essuyé avec une chose défendue et que l'endroit est propre, cela suffit ; de même avec la main (un doigt de la main gauche, faute d'autre chose), qu'on lave ensuite ; mais l'impur et le mouillé ne nettoient pas : il faut alors l'eau.",
+    qualification: {
+      hukm: "mubah",
+      nature: "autre",
+      effet_si_omis: "Essuyé avec l'impur ou le mouillé : il faut laver à l'eau ; qui prie exprès sans l'avoir fait refait sa prière toujours (al-Dasūqī)."
+    },
+    explication: "Al-Ḥaṭṭāb : après ce qui ne sert pas à s'essuyer, Khalīl en donne la règle une fois l'acte fait : « فَإِنْ حَصَلَ بِهِ إنْقَاءٌ أَجْزَأَ وَإِنْ لَمْ يَحْصُلْ بِهِ إنْقَاءٌ لَمْ يَجُزْ ».\n\nCe qui est défendu. Ibn al-Ḥājib : refaire la prière dans le temps ou non, deux avis ; al-Bayān : le premier est d'Aṣbagh, le second d'Ibn Ḥabīb. At-Tawḍīḥ trouve difficile de ne rien refaire après une matière impure. Al-Ḥaṭṭāb : « يَنْبَغِي أَنْ يَكُونَ الْخِلَافُ فِيمَا عَدَا النَّجِسَ », car ʿIyāḍ dit que l'essuyage à l'impur ne purifie pas et n'est pas pardonné. Aṭ-Ṭirāz : l'os ou le crottin qui ont nettoyé suffisent ; s'il en reste quelque chose sur l'endroit (humidité d'un os de charogne, crottin effrité), adh-Dhakhīra le cite : « تَعَيَّنَ الْغَسْلُ ». Al-Bayān : essuyé avec une impureté humide, « أَعَادَ فِي الْوَقْتِ قَوْلًا وَاحِدًا » ; al-Ḥaṭṭāb : s'il a prié ainsi par oubli ; exprès, il refait toujours. Le mouillé suit l'impur.\n\nLa main. At-Tawḍīḥ : ʿIyāḍ rapporte d'un de ses maîtres la condition que la matière soit séparée du corps, ce qui écarte sa propre main ; mais la Risāla : « ثُمَّ يَمْسَحُ مَا فِي الْمَخْرَجِ مِنْ الْأَذَى بِمَدْرٍ أَوْ غَيْرِهِ أَوْ بِيَدِهِ », et Ibn al-Ḥājj : faute de pierres, on s'essuie du majeur, puis on le lave. Zarrūq objecte que la Risāla parle de l'essuyage suivi d'un lavage. Aṭ-Ṭirāz : « لَوْ اسْتَنْجَى بِأُصْبُعِهِ وَأَنْقَى بِثَلَاثٍ أَوْ غَيْرِهَا أَجْزَأَهُ ». Al-Ḥaṭṭāb conclut : « وَالْحَاصِلُ أَنَّ الِاسْتِجْمَارَ بِالْيَدِ جَائِزٌ », et l'on se lave ensuite la main. Yūsuf b. ʿUmar : la main gauche, faute d'autre chose, avec un doigt ; avec la droite, « فَذَلِكَ مَكْرُوهٌ وَيُجْزِئُهُ ».\n\nAl-Dardīr : ce qui a nettoyé suffit, « لِحُصُولِ الْإِزَالَةِ بِهَا وَلَا إعَادَةَ عَلَيْهِ بِوَقْتٍ وَلَا غَيْرِهِ » ; ce qui ne nettoie pas, « كَالنَّجَسِ الَّذِي يَتَحَلَّلُ مِنْهُ شَيْءٌ وَالْمُبْتَلُّ وَالْأَمْلَسُ فَلَا يُجْزِي » ; la main, « فَإِنَّهَا تُجْزِي إنْ أَنْقَتْ ».",
+    aqwal: [
+      { auteur: "Aṣbagh (d'après al-Bayān)", avis: "Qui s'est essuyé avec une chose défendue refait la prière dans le temps.", statut: "qawl" },
+      { auteur: "Ibn Ḥabīb (d'après al-Bayān)", avis: "Il ne refait pas la prière.", statut: "non_precise" },
+      { auteur: "Un maître de ʿIyāḍ (al-Ikmāl, d'après at-Tawḍīḥ)", avis: "La matière doit être séparée du corps : pas sa propre main.", statut: "qawl" },
+      { auteur: "La Risāla, Ibn al-Ḥājj, aṭ-Ṭirāz", avis: "La main (un doigt) suffit si elle nettoie.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « لِحُصُولِ الْإِزَالَةِ بِهَا وَلَا إعَادَةَ عَلَيْهِ بِوَقْتٍ وَلَا غَيْرِهِ » ; la main, « فَإِنَّهَا تُجْزِي إنْ أَنْقَتْ ».",
+    tarjih_hattab: "Le désaccord sur la reprise ne vaut pas pour l'impur : « يَنْبَغِي أَنْ يَكُونَ الْخِلَافُ فِيمَا عَدَا النَّجِسَ » ; la main convient : « وَالْحَاصِلُ أَنَّ الِاسْتِجْمَارَ بِالْيَدِ جَائِزٌ ».",
+    tanbihat: [
+      "L'impur et le mouillé n'entrent pas dans la règle : ils ne nettoient pas.",
+      "Zarrūq : ces conditions valent pour l'essuyage seul, « وَإِلَّا اتَّقَى مَا لَهُ حُرْمَةٌ وَإِذَايَةٌ وَنَحْوُهُمَا » ; si l'on veut se laver ensuite, on ôte la substance avec ce qui n'est ni respectable, ni nuisible, ni liquide.",
+      "Aṭ-Ṭirāz : ce qui reste attaché à un animal (laine, queue) suffit s'il nettoie, mais c'est déconseillé."
+    ],
+    divergences: [
+      "Point à comparer — refaire la prière. Al-Ḥaṭṭāb rapporte deux avis (Aṣbagh : dans le temps ; Ibn Ḥabīb : non) et en excepte l'impur. Al-Dardīr : « وَلَا إعَادَةَ عَلَيْهِ بِوَقْتٍ وَلَا غَيْرِهِ ».",
+      "Concordance — l'impur et le mouillé. Al-Ḥaṭṭāb : avec une impureté humide, « أَعَادَ فِي الْوَقْتِ قَوْلًا وَاحِدًا » (al-Bayān), toujours si c'est exprès ; al-Dasūqī : il faut laver à l'eau, « فَإِنْ صَلَّى عَامِدًا قَبْلَ غَسْلِهِ أَعَادَ أَبَدًا ».",
+      "Concordance — si l'on se lave ensuite. Al-Ḥaṭṭāb, d'après Zarrūq : « وَإِلَّا اتَّقَى مَا لَهُ حُرْمَةٌ » ; al-Dasūqī : « كَمَا فِي ح نَقْلًا عَنْ زَرُّوقٍ وَاللَّخْمِيِّ » (ح : Muḥammad al-Ḥaṭṭāb). C'est aussi le passage visé par al-Bunānī, « كَمَا نَقَلَهُ ح عَنْ زَرُّوقٍ » (fiche 31).",
+      "Concordance — la main. Al-Ḥaṭṭāb : « وَالْحَاصِلُ أَنَّ الِاسْتِجْمَارَ بِالْيَدِ جَائِزٌ » ; al-Dasūqī : « أَيْ عَلَى الْأَصَحِّ »."
+    ],
+    exemple: "Faute de pierres, une personne s'essuie du majeur de la main gauche, puis se lave la main : c'est valable si l'endroit est propre.",
+    erreurs_frequentes: [
+      "Croire qu'une chose défendue qui a nettoyé oblige à refaire la prière : selon al-Dardīr, non.",
+      "Croire que l'essuyage avec une chose impure ou mouillée suffit : il faut laver à l'eau.",
+      "Oublier de se laver la main après s'être essuyé avec elle."
+    ],
+    termes: [],
+    quiz: [
+      { q: "Une personne s'est essuyée avec un os pur et l'endroit est propre. Selon al-Dardīr :",
+        choix: ["Elle refait la prière dans le temps", "Elle doit laver à l'eau", "Cela suffit, sans reprise", "Elle refait la prière toujours"],
+        bonne: 2,
+        explication: "« لِحُصُولِ الْإِزَالَةِ بِهَا وَلَا إعَادَةَ عَلَيْهِ بِوَقْتٍ وَلَا غَيْرِهِ »." },
+      { q: "Et si elle s'est essuyée avec une chose impure humide ?",
+        choix: ["Cela suffit", "C'est seulement déconseillé", "Elle n'a rien à refaire", "Cela ne nettoie pas : il faut laver à l'eau"],
+        bonne: 3,
+        explication: "Al-Dardīr : « كَالنَّجَسِ الَّذِي يَتَحَلَّلُ مِنْهُ شَيْءٌ وَالْمُبْتَلُّ وَالْأَمْلَسُ فَلَا يُجْزِي »." },
+      { q: "Mise en situation : sans pierres, une personne s'essuie d'un doigt de la main gauche. Selon al-Ḥaṭṭāb ?",
+        choix: ["C'est permis et suffit si l'endroit est propre ; elle se lave ensuite la main", "C'est interdit", "Cela ne suffit jamais", "Elle doit le faire de la main droite"],
+        bonne: 0,
+        explication: "« وَالْحَاصِلُ أَنَّ الِاسْتِجْمَارَ بِالْيَدِ جَائِزٌ »." },
+      { q: "Et avec la main droite, selon Yūsuf b. ʿUmar ?",
+        choix: ["C'est interdit et nul", "C'est déconseillé, mais cela suffit", "C'est recommandé", "C'est obligatoire"],
+        bonne: 1,
+        explication: "« فَذَلِكَ مَكْرُوهٌ وَيُجْزِئُهُ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "289-290" },
+    alertes: [
+      "Corrigé (campagne de correction) : le « ص » de Mawāhib (569/288) a « كَالْيَدِ دُونَ الثَّلَاثِ » ; le Mukhtaṣar seul (11355, p. 15), Ibn Ghāzī (14605, p. 31), al-Dardīr, al-Kharashī (91, p. 150) et ʿUlaysh (21614, p. 96) ont « وَدُونَ الثَّلَاثِ », et al-Ḥaṭṭāb y voit deux questions distinctes : matn corrigé (n° 324).",
+      "569/288 : dans une remarque, le matn est cité « فَإِنْ أَبْقَتْ » pour « فَإِنْ أَنْقَتْ » (lemme de la même page), et ʿIyāḍ « لَا يَظْهَرُ » là où le sens demande « ne purifie pas » ; passages non cités (n° 325).",
+      "Sous-fiche du segment tah-01-05-37 (ce qui a nettoyé ; la main) ; moins de trois pierres : fiche 37b.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 114 (Shamela 21604, page 113)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-05-37b",
+    kitab: "tah", bab: "01", fasl: "05", ordre: 37,
+    titre: "Moins de trois pierres",
+    titre_ar: "وَدُونَ الثَّلَاثِ",
+    objectif: "Savoir que le nettoyage compte plus que le nombre de pierres.",
+    matn: "فَإِنْ أَنْقَتْ أَجْزَأَتْ كَالْيَدِ وَدُونَ الثَّلَاثِ",
+    regle_pratique: "Si une ou deux pierres ont suffi à rendre l'endroit propre, cela suffit ; il est seulement recommandé d'aller jusqu'à trois, puis jusqu'à un nombre impair.",
+    qualification: {
+      hukm: "mubah",
+      nature: "autre",
+      effet_si_omis: "Sans objet : le nombre n'est pas obligatoire."
+    },
+    explication: "Al-Ḥaṭṭāb : « فَالْمَشْهُورُ الْإِجْزَاءُ؛ لِأَنَّ الْوَاجِبَ الْإِنْقَاءُ دُونَ الْعَدَدِ ». Abū l-Faraj et Ibn Shaʿbān exigent le nettoyage et le nombre. Si une ou deux pierres ont nettoyé, cela suffit, « لَكِنْ يُسْتَحَبُّ التَّثْلِيثُ ». Nettoyé à quatre, on en ajoute une cinquième, à six une septième, pour l'impair ; au-delà, seul compte le nettoyage (voir aussi la fiche 06). ʿIyāḍ : « وَحَمَلَ شُيُوخُنَا حَدِيثَ الثَّلَاثِ عَلَى النَّدْبِ ».\n\nAl-Dardīr : moins de trois pierres « مِنْ الْأَحْجَارِ إنْ أَنْقَتْ ». Al-Dasūqī : « عَلَى الْأَصَحِّ خِلَافًا لِأَبِي الْفَرَجِ », qui exige trois pierres même si moins ont suffi.",
+    aqwal: [
+      { auteur: "Avis rapporté sans attribution, dit « الْمَشْهُورُ » par al-Ḥaṭṭāb", avis: "Le nettoyage suffit, sans nombre.", statut: "mashhur" },
+      { auteur: "Abū l-Faraj et Ibn Shaʿbān", avis: "Le nettoyage et le nombre de trois sont obligatoires.", statut: "qawl" },
+      { auteur: "Les maîtres de ʿIyāḍ (al-Ikmāl)", avis: "Le hadith des trois pierres est une recommandation.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « مِنْ الْأَحْجَارِ إنْ أَنْقَتْ » ; al-Dasūqī : « عَلَى الْأَصَحِّ خِلَافًا لِأَبِي الْفَرَجِ ».",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Al-Ḥaṭṭāb renvoie, pour l'impair, aux commentaires de la Risāla d'ash-Shabībī et d'Ibn Rāshid."
+    ],
+    divergences: [
+      "Concordance — le nombre n'est pas obligatoire. Al-Ḥaṭṭāb : « لِأَنَّ الْوَاجِبَ الْإِنْقَاءُ دُونَ الْعَدَدِ » ; al-Dasūqī : « عَلَى الْأَصَحِّ خِلَافًا لِأَبِي الْفَرَجِ »."
+    ],
+    exemple: "Deux pierres ont suffi à rendre l'endroit propre : la personne en ajoute une troisième, par recommandation ; sans elle, son nettoyage reste valable.",
+    erreurs_frequentes: [
+      "Croire que trois pierres sont obligatoires alors que l'endroit est déjà propre.",
+      "S'arrêter à un nombre pair (quatre, six) quand on peut ajouter une pierre : l'impair est recommandé."
+    ],
+    termes: [],
+    quiz: [
+      { q: "Si deux pierres ont suffi à nettoyer, selon l'avis le plus répandu :",
+        choix: ["Une troisième est obligatoire", "Le nettoyage est nul", "Il faut laver à l'eau", "Cela suffit ; une troisième est seulement recommandée"],
+        bonne: 3,
+        explication: "« فَالْمَشْهُورُ الْإِجْزَاءُ » ; « لَكِنْ يُسْتَحَبُّ التَّثْلِيثُ »." },
+      { q: "Qui exige trois pierres en plus du nettoyage ?",
+        choix: ["Mālik", "Ibn al-Qāsim", "Abū l-Faraj et Ibn Shaʿbān", "Al-Lakhmī"],
+        bonne: 2,
+        explication: "« وَقَالَ أَبُو الْفَرَجِ وَابْنُ شَعْبَانَ بِوُجُوبِ الْإِنْقَاءِ وَالْعَدَدِ »." },
+      { q: "Mise en situation : l'endroit n'est propre qu'à la quatrième pierre. Que recommande-t-on ?",
+        choix: ["S'arrêter là", "En ajouter une cinquième, pour l'impair", "Recommencer à l'eau", "En ajouter trois autres"],
+        bonne: 1,
+        explication: "Nettoyé à quatre, « اُسْتُحِبَّ الْخَامِسُ لِلْوِتْرِ »." },
+      { q: "Comment les maîtres de ʿIyāḍ comprennent-ils le hadith des trois pierres ?",
+        choix: ["Comme une recommandation", "Comme une obligation", "Comme abrogé", "Comme propre aux voyageurs"],
+        bonne: 0,
+        explication: "« وَحَمَلَ شُيُوخُنَا حَدِيثَ الثَّلَاثِ عَلَى النَّدْبِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "290" },
+    alertes: [
+      "Sous-fiche du segment tah-01-05-37 (n° 324 pour le matn).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 114 (Shamela 21604, page 113)."
+    ],
+    verification: "verifie"
+  },
+
+  {
+    id: "tah-01-05-syn",
+    type: "synthese",
+    kitab: "tah", bab: "01", fasl: "05",
+    titre: "Les convenances des besoins naturels et le nettoyage",
+    quiz: [
+      { q: "Pour uriner sur un sol meuble et pur, il est recommandé :",
+        choix: ["De rester debout", "De s'asseoir", "De se tourner vers la qibla", "De se presser"],
+        bonne: 1, explication: "Voir la fiche 01a." },
+      { q: "En entrant aux lieux d'aisance, on avance :",
+        choix: ["Le pied droit", "Les deux pieds ensemble", "N'importe quel pied", "Le pied gauche"],
+        bonne: 3, explication: "Voir la fiche 23." },
+      { q: "Réciter le Coran dans les toilettes :",
+        choix: ["N'est pas permis", "Est recommandé", "Est permis à voix basse", "Est seulement déconseillé"],
+        bonne: 0, explication: "Voir la fiche 13b." },
+      { q: "À la maison, uriner face à la qibla est :",
+        choix: ["Interdit", "Obligatoirement évité", "Permis", "Permis seulement la nuit"],
+        bonne: 2, explication: "Voir la fiche 24a." },
+      { q: "Et en plein désert, sans écran ?",
+        choix: ["Permis", "Interdit", "Recommandé", "Seulement déconseillé"],
+        bonne: 1, explication: "Voir la fiche 25." },
+      { q: "Vider complètement les deux voies (istibrâ') est :",
+        choix: ["Obligatoire", "Recommandé", "Permis", "Déconseillé"],
+        bonne: 0, explication: "Voir la fiche 29." },
+      { q: "Pour le sang des règles, l'urine de la femme et le madhy :",
+        choix: ["Des pierres suffisent", "Rien n'est à nettoyer", "Une seule pierre suffit", "L'eau est obligatoire"],
+        bonne: 3, explication: "Voir les fiches 32, 33a et 34." },
+      { q: "On s'essuie avec :",
+        choix: ["Seulement des pierres", "Du pain, s'il est sec", "Toute matière sèche, pure, qui nettoie, ne blesse pas et n'est pas respectable", "Une feuille écrite"],
+        bonne: 2, explication: "Voir la fiche 36a." }
+    ]
+  }
+
+  /* FIN-UNITE-45 */
 ]);

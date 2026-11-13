@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.48
+/* Données — Glossaire, partie 2 — v1.49
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -23,7 +23,8 @@
    v1.45 : 11 termes de l'unité 41 (tah-01-05-01a à -08).
    v1.46 : 7 termes de l'unité 42 (tah-01-05-09 à -16).
    v1.47 : 6 termes de l'unité 43 (tah-01-05-17 à -24b).
-   v1.48 : 9 termes de l'unité 44 (tah-01-05-25 à -32). */
+   v1.48 : 9 termes de l'unité 44 (tah-01-05-25 à -32).
+   v1.49 : 6 termes de l'unité 45 (tah-01-05-33a à -37b). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -316,7 +317,13 @@ App.data.ajouterTermes([
   { ar: "نَتْر", translit: "natr", def: "Tirer ou secouer légèrement le membre pour faire sortir les dernières gouttes." },
   { ar: "كَمَرَة", translit: "kamara", def: "Gland, extrémité du membre." },
   { ar: "حَيْض", translit: "ḥayd", def: "Règles, menstrues." },
-  { ar: "نِفَاس", translit: "nifâs", def: "Lochies : sang qui suit l'accouchement." }
+  { ar: "نِفَاس", translit: "nifâs", def: "Lochies : sang qui suit l'accouchement." },
+  { ar: "خَصِيّ", translit: "khasiyy", def: "Eunuque ; ici, selon al-Dasūqī, l'homme dont le membre est coupé." },
+  { ar: "أَلْيَة", translit: "alya", def: "Fesse." },
+  { ar: "حَشَفَة", translit: "ḥachafa", def: "Gland, extrémité du membre (comme كَمَرَة)." },
+  { ar: "مُحْتَرَم", translit: "mouḥtaram", def: "Respectable : ce qui a droit au respect (nourriture, écrit, or, mur d'autrui…) et ne sert pas à s'essuyer." },
+  { ar: "مَدَر", translit: "madar", def: "Motte de terre séchée ; al-Dardīr l'explique par la brique." },
+  { ar: "حُمَمَة", translit: "houmama", def: "Charbon de bois." }
 
   /* FIN-GLOSSAIRE */
 ]);

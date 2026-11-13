@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.37 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.38 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -63,7 +63,8 @@
    v1.34 : tah-01-05-01 découpé en 01a (sol meuble) et 01b (sol dur ; selles) (unité 41).
    v1.35 : tah-01-05-13 découpé en 13a (invocation oubliée), 13b (dhikr dans les lieux d'aisance), 13c (bague gravée) ; matn de 13 vocalisé « يُعَدَّ » (anomalie n° 294) (unité 42).
    v1.36 : titres arabes de tah-01-05-17 à -21 au génitif (dépendent de « وَاتِّقَاءُ », anomalie n° 301) ; matn de 23 complété (« عَكْسُ مَسْجِدٍ وَالْمَنْزِلُ يُمْنَاهُ بِهِمَا », n° 304) ; tah-01-05-24 découpé en 24a (miction et selles) et 24b (rapport conjugal), « مُسْتَقْبِلَ قِبْلَةٍ » (n° 305) (unité 43).
-   v1.37 : titre arabe de tah-01-05-26 complété (« وَالْمُخْتَارُ التَّرْكُ », n° 306) ; -28 au génitif « وَبَيْتِ الْمَقْدِسِ » (n° 307) ; -30 « خَفَّا » (n° 308) et découpé en 30a (manière de l'istibrâ') et 30b (le lavage) (unité 44). */
+   v1.37 : titre arabe de tah-01-05-26 complété (« وَالْمُخْتَارُ التَّرْكُ », n° 306) ; -28 au génitif « وَبَيْتِ الْمَقْدِسِ » (n° 307) ; -30 « خَفَّا » (n° 308) et découpé en 30a (manière de l'istibrâ') et 30b (le lavage) (unité 44).
+   v1.38 : tah-01-05-33 devient 33a, et 33b ajouté (« وَمُنْتَشِرٍ عَنْ مَخْرَجٍ كَثِيرًا », absent du « ص » de Mawāhib, n° 316) ; titre arabe de -34 « وَمَذْيٍ » (n° 317) ; -36 découpé en 36a et 36b ; -37 découpé en 37a et 37b, « وَدُونَ الثَّلَاثِ » (n° 324) (unité 45). */
 App.data.definirPlan({
   kutub: [
     {
@@ -469,11 +470,14 @@ App.data.definirPlan({
                 { id: "tah-01-05-30b", titre: "Le lavage : ce qu'il faut faire et éviter", titre_ar: "وَلَيْسَ عَلَيْهِ غَسْلُ مَا بَطَنَ مِنْ الْمَخْرَجَيْنِ" }, /* p. 283 ; sous-fiche de 30 (v1.37) */
                 { id: "tah-01-05-31", titre: "Recommandé : pierre et eau, puis l'eau seule", titre_ar: "وَنُدِبَ جَمْعُ مَاءٍ وَحَجَرٍ ثُمَّ مَاءٍ" }, /* p. 283–284 ; « مَاءٍ » laissé (n° 309) */
                 { id: "tah-01-05-32", titre: "L'eau obligatoire : sperme, règles, lochies", titre_ar: "وَتَعَيَّنَ فِي مَنِيٍّ وَحَيْضٍ وَنِفَاسٍ" }, /* p. 284 */
-                { id: "tah-01-05-33", titre: "… urine de la femme", titre_ar: "وَبَوْلِ امْرَأَةٍ" }, /* p. 284 */
-                { id: "tah-01-05-34", titre: "Madhy : laver tout le membre ; intention et prière (deux avis)", titre_ar: "وَمَذْيٌ بِغَسْلِ ذَكَرِهِ كُلِّهِ فَفِي النِّيَّةِ …" }, /* p. 285 */
+                { id: "tah-01-05-33a", titre: "… urine de la femme", titre_ar: "وَبَوْلِ امْرَأَةٍ" }, /* p. 284–285 (v1.38) */
+                { id: "tah-01-05-33b", titre: "Ce qui s'est beaucoup répandu autour de l'orifice", titre_ar: "وَمُنْتَشِرٍ عَنْ مَخْرَجٍ كَثِيرًا" }, /* absent du « ص » de Mawāhib ; al-Dardīr, t. 1, p. 112 (n° 316, v1.38) */
+                { id: "tah-01-05-34", titre: "Madhy : laver tout le membre ; intention et prière (deux avis)", titre_ar: "وَمَذْيٍ بِغَسْلِ ذَكَرِهِ كُلِّهِ فَفِي النِّيَّةِ …" }, /* p. 285–286 ; « وَمَذْيٍ » (n° 317, v1.38) */
                 { id: "tah-01-05-35", titre: "Pas d'istinjâ' pour un vent", titre_ar: "وَلَا يَسْتَنْجِي مِنْ رِيحٍ" }, /* p. 286 */
-                { id: "tah-01-05-36", titre: "Ce qu'on peut utiliser pour s'essuyer, et ce qu'on ne peut pas", titre_ar: "وَجَازَ بِيَابِسٍ طَاهِرٍ مُنَقٍّ غَيْرِ مُؤْذٍ …" }, /* p. 286 */
-                { id: "tah-01-05-37", titre: "S'il nettoie : cela suffit, même moins de trois", titre_ar: "فَإِنْ أَنْقَتْ أَجْزَأَتْ كَالْيَدِ دُونَ الثَّلَاثِ" } /* p. 289 */
+                { id: "tah-01-05-36a", titre: "Ce qu'on peut utiliser pour s'essuyer, et ce qu'on ne peut pas", titre_ar: "وَجَازَ بِيَابِسٍ طَاهِرٍ مُنَقٍّ غَيْرِ مُؤْذٍ …" }, /* p. 286–288 (v1.38) */
+                { id: "tah-01-05-36b", titre: "Interdit ou déconseillé ? Le charbon, la terre", titre_ar: "الْمَنْعُ فِي هَذِهِ الْأَشْيَاءِ … عَلَى الْكَرَاهَةِ أَوْ عَلَى التَّحْرِيمِ" }, /* p. 288–289 ; sous-fiche de 36 (v1.38) */
+                { id: "tah-01-05-37a", titre: "S'il nettoie : cela suffit ; la main", titre_ar: "فَإِنْ أَنْقَتْ أَجْزَأَتْ كَالْيَدِ" }, /* p. 289–290 (v1.38) */
+                { id: "tah-01-05-37b", titre: "Moins de trois pierres", titre_ar: "وَدُونَ الثَّلَاثِ" } /* p. 290 ; « وَدُونَ » (n° 324, v1.38) */
               ]
             },
             /* tah-01-06 — t. 1, p. 290–304 (Shamela 569, pages 289–303) — 22 segments du matn */
