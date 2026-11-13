@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.40
+/* Données — Glossaire, partie 2 — v1.41
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -15,7 +15,8 @@
    v1.37 : 21 termes de l'unité 33 (tah-01-04-14 à -19b).
    v1.38 : 9 termes de l'unité 34 (tah-01-04-20a à -21d).
    v1.39 : 17 termes de l'unité 35 (tah-01-04-22a à -29).
-   v1.40 : 6 termes de l'unité 36 (tah-01-04-30 à -34b). */
+   v1.40 : 6 termes de l'unité 36 (tah-01-04-30 à -34b).
+   v1.41 : 11 termes de l'unité 37 (tah-01-04-35 à -42). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -247,7 +248,19 @@ App.data.ajouterTermes([
   { ar: "عُزُوبُ النِّيَّةِ", translit: "ʿouzoûbou n-niyya", def: "Perte de vue de l'intention : cesser d'y penser après l'avoir formée ; tolérée dans les ablutions." },
   { ar: "تَقَدُّمُ النِّيَّةِ", translit: "taqaddoumou n-niyya", def: "Intention anticipée : formée avant son moment (le lavage du visage)." },
   { ar: "مِهْرَاس", translit: "mihrâs", def: "Grand récipient de pierre, d'où l'on ne peut pas verser l'eau sur les mains." },
-  { ar: "تَحَيُّل", translit: "tahayyoul", def: "Recours à un moyen détourné (prendre l'eau avec la bouche, un tissu) pour se laver les mains hors du récipient." }
+  { ar: "تَحَيُّل", translit: "tahayyoul", def: "Recours à un moyen détourné (prendre l'eau avec la bouche, un tissu) pour se laver les mains hors du récipient." },
+  /* Unité 37 — tah-01-04-35 à -42 */
+  { ar: "اِسْتِنْشَاق", translit: "istinchâq", def: "Aspiration : attirer l'eau dans le nez avec le souffle ; deuxième geste des sunna du nez." },
+  { ar: "خَضْخَضَة", translit: "khadkhada", def: "Remuement de l'eau dans la bouche, avant de la rejeter ; exigé dans le rinçage selon al-Fākihānī et al-Dardīr." },
+  { ar: "مُبَالَغَة", translit: "moubâlagha", def: "Insistance : pousser l'eau au fond de la bouche et du nez dans le rinçage et l'aspiration ; recommandée à qui ne jeûne pas." },
+  { ar: "وَجُور", translit: "wajoûr", def: "Remède versé dans la bouche jusqu'à la gorge ; l'insistance du rinçage n'en est pas un (Ibn Farḥūn)." },
+  { ar: "سَعُوط", translit: "saʿoûṭ", def: "Remède instillé dans le nez ; l'insistance de l'aspiration n'en est pas un (Ibn Farḥūn)." },
+  { ar: "غَرْفَة", translit: "gharfa", def: "Poignée d'eau : l'eau qu'on puise d'une main (ou des deux) en une fois." },
+  { ar: "اِسْتِنْثَار", translit: "istinthâr", def: "Rejet : chasser l'eau du nez avec le souffle, deux doigts de la main gauche posés sur le nez ; sunna à part chez Khalīl." },
+  { ar: "غُضُون", translit: "ghoudoûn", def: "Replis (de l'oreille, de la peau) ; on ne les suit pas dans l'essuyage, qui vise l'allègement." },
+  { ar: "تَجْدِيدُ الْمَاءِ", translit: "tajdîdou l-mâ'", def: "Prendre une eau nouvelle pour un membre, au lieu de l'humidité restée sur la main (ici pour les oreilles)." },
+  { ar: "فَوْد", translit: "fawd", def: "Côté de la tête, au-dessus de l'oreille (duel : les deux côtés)." },
+  { ar: "تَنْكِيس", translit: "tankîs", def: "Inversion : faire un membre des ablutions avant celui qui doit le précéder." }
 
   /* FIN-GLOSSAIRE */
 ]);

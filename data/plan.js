@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.29 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.30 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -55,7 +55,8 @@
           titre arabe de tah-01-04-18 complété (unité 33).
    v1.27 : tah-01-04-20 découpé en 20a à 20c, tah-01-04-21 en 21a à 21d ; « أَوْ سُنَّةٌ » d'après al-Dardīr (anomalie n° 246) (unité 34).
    v1.28 : tah-01-04-22 découpé en 22a à 22d (unité 35).
-   v1.29 : tah-01-04-32 découpé en 32a et 32b, tah-01-04-34 en 34a et 34b ; titre arabe de tah-01-04-29 « حَدَثُهُ » (anomalie n° 254) (unité 36). */
+   v1.29 : tah-01-04-32 découpé en 32a et 32b, tah-01-04-34 en 34a et 34b ; titre arabe de tah-01-04-29 « حَدَثُهُ » (anomalie n° 254) (unité 36).
+   v1.30 : titre arabe de tah-01-04-37 « أَوْ إحْدَاهُمَا » (anomalie n° 261) (unité 37). */
 App.data.definirPlan({
   kutub: [
     {
@@ -393,7 +394,7 @@ App.data.definirPlan({
                 { id: "tah-01-04-34b", titre: "Mains douteuses ou impures, grand récipient, manière de les laver", titre_ar: "غَسْلُ يَدَيْهِ أَوَّلًا — قَبْلَ إدْخَالِهِمَا الْإِنَاءَ" }, /* p. 243 */
                 { id: "tah-01-04-35", titre: "Rinçage de la bouche et aspiration de l'eau", titre_ar: "وَمَضْمَضَةٌ وَاسْتِنْشَاقٌ" }, /* p. 245 */
                 { id: "tah-01-04-36", titre: "Insister quand on ne jeûne pas", titre_ar: "وَبَالَغَ مُفْطِرٌ" }, /* p. 246 */
-                { id: "tah-01-04-37", titre: "Six poignées, ou une seule", titre_ar: "وَفِعْلُهُمَا بِسِتٍّ أَفْضَلُ وَجَازَا أَوْ أَحَدُهُمَا …" }, /* p. 246 */
+                { id: "tah-01-04-37", titre: "Six poignées, ou une seule", titre_ar: "وَفِعْلُهُمَا بِسِتٍّ أَفْضَلُ وَجَازَا أَوْ إحْدَاهُمَا …" }, /* p. 246 */
                 { id: "tah-01-04-38", titre: "Rejeter l'eau du nez", titre_ar: "وَاسْتِنْثَارٌ" }, /* p. 247 */
                 { id: "tah-01-04-39", titre: "Essuyer les deux faces de chaque oreille", titre_ar: "وَمَسْحُ وَجْهَيْ كُلِّ أُذُنٍ" }, /* p. 248 */
                 { id: "tah-01-04-40", titre: "Reprendre de l'eau pour les oreilles", titre_ar: "وَتَجْدِيدُ مَائِهِمَا" }, /* p. 248 */
