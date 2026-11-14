@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.44 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.45 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -76,7 +76,9 @@
           absents du « ص » de Mawāhib, n° 366 et 376 ; « وَمَسَّ », n° 367) ; -21 en 21a, 21b (« وَلَوْحٍ … », n° 377) ;
           -22 en 22a, 22b (« وَحِرْزٍ بِسَاتِرٍ وَإِنْ لِحَائِضٍ », n° 380) ; fin du faṣl tah-01-06 (unité 50).
    v1.44 : tah-01-07-04 complété (« وَيَتَوَضَّأُ », n° 387) ; -04b ajouté (« كَمَنْ جَامَعَ فَاغْتَسَلَ ثُمَّ أَمْنَى », absent du « ص », n° 388) ;
-          -06 « وَبِمَغِيبِ حَشَفَةِ بَالِغٍ لَا مُرَاهِقٍ أَوْ قَدْرِهَا » (n° 390, 391) (unité 51). */
+          -06 « وَبِمَغِيبِ حَشَفَةِ بَالِغٍ لَا مُرَاهِقٍ أَوْ قَدْرِهَا » (n° 390, 391) (unité 51).
+   v1.45 : tah-01-07-07 « فِي فَرْجٍ » (« فِي فَرْجِهِ » dans le « ص », n° 395) ; -09b (« لَا بِمَنِيٍّ وَصَلَ لِلْفَرْجِ وَلَوِ الْتَذَّتْ », n° 396)
+          et -09c (« وَبِحَيْضٍ وَنِفَاسٍ بِدَمٍ », n° 397) ajoutés, absents du « ص » ; 35 → 37 segments (unité 52). */
 App.data.definirPlan({
   kutub: [
     {
@@ -535,7 +537,7 @@ App.data.definirPlan({
                 { id: "tah-01-06-22b", titre: "L'amulette coranique couverte, même pour la femme en règles", titre_ar: "وَحِرْزٍ بِسَاتِرٍ وَإِنْ لِحَائِضٍ" } /* fin du segment absente du « ص » ; al-Dardīr, t. 1, p. 126 (n° 380, v1.43) */
               ]
             },
-            /* tah-01-07 — t. 1, p. 305–318 (Shamela 569, pages 304–317) — 35 segments du matn, dont 04b */
+            /* tah-01-07 — t. 1, p. 305–318 (Shamela 569, pages 304–317) — 37 segments du matn, dont 04b, 09b et 09c */
             {
               id: "tah-01-07",
               titre: "Le ghousl (purification majeure)",
@@ -548,11 +550,13 @@ App.data.definirPlan({
                 { id: "tah-01-07-04b", titre: "Celui qui a eu un rapport, s'est lavé, puis émet", titre_ar: "كَمَنْ جَامَعَ فَاغْتَسَلَ ثُمَّ أَمْنَى" }, /* absent du « ص » de Mawāhib ; al-Dardīr, t. 1, p. 128 (n° 388, v1.44) */
                 { id: "tah-01-07-05", titre: "Pas de reprise de la prière", titre_ar: "وَلَا يُعِيدُ الصَّلَاةَ" }, /* p. 307 */
                 { id: "tah-01-07-06", titre: "Deuxième cause : la disparition du gland d'un pubère", titre_ar: "وَبِمَغِيبِ حَشَفَةِ بَالِغٍ لَا مُرَاهِقٍ أَوْ قَدْرِهَا" }, /* p. 307–308 ; « وَبِمَغِيبِ », complété (n° 390, 391, v1.44) */
-                { id: "tah-01-07-07", titre: "… dans un sexe", titre_ar: "فِي فَرْجِهِ" }, /* p. 308 */
+                { id: "tah-01-07-07", titre: "… dans un sexe, par la voie avant ou arrière", titre_ar: "فِي فَرْجٍ" }, /* p. 308 ; « فِي فَرْجٍ » (n° 395, v1.45) */
                 { id: "tah-01-07-08", titre: "… même d'un animal ou d'un mort", titre_ar: "وَإِنْ مِنْ بَهِيمَةٍ وَمَيِّتٍ" }, /* p. 309 */
-                { id: "tah-01-07-09", titre: "Recommandé pour l'adolescent, comme la fillette", titre_ar: "وَنُدِبَ لِمُرَاهِقٍ كَصَغِيرَةٍ وَطِئَهَا بَالِغٌ" }, /* p. 309 */
-                { id: "tah-01-07-10", titre: "Cas jugé bon (istihsân)", titre_ar: "وَاسْتُحْسِنَ وَبِغَيْرِهِ" }, /* p. 309 */
-                { id: "tah-01-07-11", titre: "Pas pour l'istihâda ; recommandé à son arrêt", titre_ar: "لَا بِاسْتِحَاضَةٍ وَنُدِبَ لِانْقِطَاعِهِ" }, /* p. 310 */
+                { id: "tah-01-07-09", titre: "Recommandé pour l'adolescent, comme pour la fillette", titre_ar: "وَنُدِبَ لِمُرَاهِقٍ كَصَغِيرَةٍ وَطِئَهَا بَالِغٌ" }, /* p. 309 */
+                { id: "tah-01-07-09b", titre: "Pas pour le sperme qui parvient au sexe, même avec plaisir", titre_ar: "لَا بِمَنِيٍّ وَصَلَ لِلْفَرْجِ وَلَوِ الْتَذَّتْ" }, /* absent du « ص » de Mawāhib ; al-Dardīr, t. 1, p. 129–130 (n° 396, v1.45) */
+                { id: "tah-01-07-09c", titre: "Troisième et quatrième causes : les règles et les lochies", titre_ar: "وَبِحَيْضٍ وَنِفَاسٍ بِدَمٍ" }, /* absent du « ص » de Mawāhib ; al-Dardīr, t. 1, p. 130 (n° 397, v1.45) */
+                { id: "tah-01-07-10", titre: "Jugé bon : même sans sang", titre_ar: "وَاسْتُحْسِنَ وَبِغَيْرِهِ" }, /* p. 309 */
+                { id: "tah-01-07-11", titre: "Pas pour l'istiḥâḍa ; recommandé quand elle s'arrête", titre_ar: "لَا بِاسْتِحَاضَةٍ وَنُدِبَ لِانْقِطَاعِهِ" }, /* p. 310 */
                 { id: "tah-01-07-12", titre: "Ghousl du non-musulman après la shahâda", titre_ar: "وَيَجِبُ غُسْلُ كَافِرٍ بَعْدَ الشَّهَادَةِ بِمَا …" }, /* p. 311 */
                 { id: "tah-01-07-13", titre: "Pas pour l'islam lui-même", titre_ar: "لَا الْإِسْلَامُ إلَّا لِعَجْزٍ" }, /* p. 312 */
                 { id: "tah-01-07-14", titre: "Doute : madhy ou sperme ?", titre_ar: "وَإِنْ شَكَّ أَمَذْيٌ أَمْ مَنِيٌّ اغْتَسَلَ …" }, /* p. 312 */

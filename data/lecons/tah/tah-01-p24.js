@@ -1,4 +1,4 @@
-/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 24 — v10.1
+/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 24 — v10.2
    Source : Mawāhib al-Jalīl, al-Ḥaṭṭāb, éd. Dār al-Fikr, 3e éd., 1412 H / 1992, tome 1 (shamela.ws/book/569).
    Croisement : al-Sharḥ al-kabīr d'al-Dardīr et Ḥāshiyat al-Dasūqī (shamela.ws/book/21604), tome 1.
    Cette partie : fin du faṣl tah-01-06 (annulatifs des ablutions), à partir de tah-01-06-20a (unité 50), puis faṣl tah-01-07 (le ghousl) — t. 1, p. 303 et suivantes.
@@ -9,6 +9,8 @@
    v10.1 : unité 51 — début du faṣl tah-01-07 (le ghousl) : tah-01-07-01, -02, -03, -04, -04b, -05, -06 (Mawāhib, t. 1, p. 305–308 ;
           al-Dardīr / al-Dasūqī, t. 1, p. 126–129) (2026-11-14) ; 04b : segment absent du « ص » de Mawāhib ;
           matn de 04 et 06 complétés, 06 « وَبِمَغِيبِ » ; anomalies n° 383 à 394.
+   v10.2 : correction de trois quiz de l'unité 51, dont la bonne réponse désignait un mauvais choix : 05 (question 3), 06 (questions 1 et 2) ;
+          choix réordonnés, positions des bonnes réponses inchangées (2026-11-14, unité 52).
    Bāb découpé en parties de moins de 200 Ko ;
    historique des versions : tah-01-p1.js (jusqu'à v2.5) puis l'en-tête de chaque partie. */
 App.data.ajouterFiches([
@@ -904,7 +906,7 @@ App.data.ajouterFiches([
         bonne: 1,
         explication: "« بِأَنَّهُ إنَّمَا صَارَ جُنُبًا بِخُرُوجِ الْمَنِيِّ »." },
       { q: "Mise en situation : après un plaisir sans rapport, vous avez fait vos ablutions et prié l'ʿaṣr ; le sperme sort ensuite. Selon al-Dasūqī :",
-        choix: ["Vous refaites l'ʿaṣr", "Vous ne faites rien", "Vous faites le ghousl sans refaire l'ʿaṣr", "Vous refaites l'ʿaṣr après le ghousl"],
+        choix: ["Vous refaites l'ʿaṣr", "Vous ne faites rien", "Vous refaites l'ʿaṣr après le ghousl", "Vous faites le ghousl sans refaire l'ʿaṣr"],
         bonne: 3,
         explication: "« فَإِنَّهُ وَإِنْ وَجَبَ غُسْلُهُ لَكِنْ لَا يُعِيدُ تِلْكَ الصَّلَاةَ »." },
       { q: "Selon la riwāya d'Ibn al-Qāsim dans al-Majmūʿa (al-Muntaqā) :",
@@ -967,11 +969,11 @@ App.data.ajouterFiches([
     ],
     quiz: [
       { q: "Un rapport sans émission entre deux époux pubères :",
-        choix: ["N'oblige à rien", "Oblige aux ablutions seulement", "Oblige l'homme seul au ghousl", "Oblige les deux au ghousl"],
+        choix: ["N'oblige à rien", "Oblige les deux au ghousl", "Oblige l'homme seul au ghousl", "Oblige aux ablutions seulement"],
         bonne: 1,
         explication: "« وَإِنْ لَمْ يُنْزِلَا جَمِيعًا إذَا كَانَا بَالِغَيْنِ »." },
       { q: "Selon al-Dardīr, la pénétration d'une partie du gland :",
-        choix: ["Oblige au ghousl si c'est les deux tiers", "Oblige au ghousl", "N'oblige pas au ghousl, même les deux tiers", "Oblige aux ablutions seulement"],
+        choix: ["Oblige au ghousl si c'est les deux tiers", "Oblige au ghousl", "Oblige aux ablutions seulement", "N'oblige pas au ghousl, même les deux tiers"],
         bonne: 3,
         explication: "« وَلَا إنْ غَيَّبَ بَعْضَهَا وَلَوْ ثُلُثَيْهَا »." },
       { q: "Mise en situation : une femme pubère et son mari, un adolescent qui n'a pas encore atteint la puberté, ont un rapport ; elle n'a pas d'émission. Selon l'avis répandu :",
