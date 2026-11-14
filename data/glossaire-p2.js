@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.52
+/* Données — Glossaire, partie 2 — v1.53
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -27,7 +27,8 @@
    v1.49 : 6 termes de l'unité 45 (tah-01-05-33a à -37b).
    v1.50 : 6 termes de l'unité 46 (tah-01-06-01 à -06b).
    v1.51 : 7 termes de l'unité 47 (tah-01-06-07 à -11).
-   v1.52 : 8 termes de l'unité 48 (tah-01-06-12a à -15b). */
+   v1.52 : 8 termes de l'unité 48 (tah-01-06-12a à -15b).
+   v1.53 : 7 termes de l'unité 49 (tah-01-06-16a à -19). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -347,7 +348,14 @@ App.data.ajouterTermes([
   { ar: "عَسِيب", translit: "ʿasîb", def: "La tige du membre, sans le gland." },
   { ar: "خُنْثَى مُشْكِل", translit: "khounthâ mouchkil", def: "Hermaphrodite dont on ne peut établir s'il est homme ou femme." },
   { ar: "رِدَّة", translit: "ridda", def: "Apostasie : renier l'islam par une parole, un acte ou une croyance." },
-  { ar: "وَسْوَسَة", translit: "waswasa", def: "Scrupule obsédant : doutes répétés qui poussent à recommencer sans cesse l'acte de culte." }
+  { ar: "وَسْوَسَة", translit: "waswasa", def: "Scrupule obsédant : doutes répétés qui poussent à recommencer sans cesse l'acte de culte." },
+  { ar: "شَرَج", translit: "charaj", def: "Autre nom de l'anus, par comparaison avec le point où se rassemble une nappe." },
+  { ar: "رُفْغ", translit: "roufgh", def: "Pli de l'aine : le haut de la cuisse du côté du ventre (pluriel : أَرْفَاغ)." },
+  { ar: "جَزُور", translit: "jazoûr", def: "Chameau, chamelle (bête destinée à l'abattage)." },
+  { ar: "قَهْقَهَة", translit: "qahqaha", def: "Éclat de rire sonore." },
+  { ar: "وَثَن", translit: "wathan", def: "Idole." },
+  { ar: "إِلْطَاف", translit: "ilṭâf", def: "Pour la femme, introduire une partie de la main dans son sexe." },
+  { ar: "غَمَر", translit: "ghamar", def: "Graisse, odeur de graisse qui reste sur la main après un aliment gras." }
 
   /* FIN-GLOSSAIRE */
 ]);

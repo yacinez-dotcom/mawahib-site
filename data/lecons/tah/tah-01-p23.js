@@ -1,10 +1,14 @@
-/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 23 — v9.0
+/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 23 — v9.1
    Source : Mawāhib al-Jalīl, al-Ḥaṭṭāb, éd. Dār al-Fikr, 3e éd., 1412 H / 1992, tome 1 (shamela.ws/book/569).
    Croisement : al-Sharḥ al-kabīr d'al-Dardīr et Ḥāshiyat al-Dasūqī (shamela.ws/book/21604), tome 1.
    Cette partie : suite du faṣl tah-01-06 (annulatifs des ablutions), à partir de tah-01-06-12a (unités 48 et suivantes) — t. 1, p. 299 et suivantes.
    v9.0 : unité 48 — tah-01-06-12a, -12b, -12c, -13, -14, -15, -15b (Mawāhib, t. 1, p. 299–301 ;
           al-Dardīr / al-Dasūqī, t. 1, p. 121–123) (2026-11-14) ; nouvelle partie, tah-01-p22.js (≈ 138 Ko) étant figée ;
           15b : segment absent du « ص » de Mawāhib, rédigé d'après al-Dardīr / al-Dasūqī ; anomalies n° 344 à 354.
+   v9.1 : unité 49 — tah-01-06-16a, -16b, -16c, -17, -18, -19 (Mawāhib, t. 1, p. 301–303 ;
+          al-Dardīr / al-Dasūqī, t. 1, p. 123–125) (2026-11-14) ; 16c : fin de segment absente du « ص » de Mawāhib,
+          rédigée d'après al-Dardīr / al-Dasūqī ; matn de 16 corrigé (« وَ ») ; fiche 15b précisée (Ibn Ghāzī, 14605, p. 36) ;
+          anomalies n° 355 à 365.
    Bāb découpé en parties de moins de 200 Ko ;
    historique des versions : tah-01-p1.js (jusqu'à v2.5) puis l'en-tête de chaque partie. */
 App.data.ajouterFiches([
@@ -435,17 +439,19 @@ App.data.ajouterFiches([
       nature: "mubtil",
       effet_si_omis: "Il refait ses ablutions avant de prier ; la dispense du douteur chronique ne s'applique pas ici (al-Dardīr, al-Dasūqī)."
     },
-    explication: "Al-Ḥaṭṭāb ne commente pas ce segment : il manque au « ص » de Mawāhib (voir les alertes). La fiche suit al-Dardīr et al-Dasūqī.\n\nAl-Dardīr : les ablutions sont annulées par le doute « أَيْ فِي السَّابِقِ مِنْ الطُّهْرِ وَالْحَدَثِ سَوَاءٌ كَانَا مُحَقَّقَيْنِ أَوْ مَشْكُوكَيْنِ أَوْ أَحَدُهُمَا مُحَقَّقًا وَالثَّانِي مَشْكُوكًا فَهَذِهِ أَرْبَعُ صُوَرٍ » : les deux sûrs ; les deux douteux ; la pureté sûre et le ḥadath douteux ; le ḥadath sûr et la pureté douteuse. Et cela « وَسَوَاءٌ كَانَ مُسْتَنْكِحًا أَمْ لَا بِدَلِيلِ تَأْخِيرِهِ » : Khalīl place ce segment après l'exception du douteur chronique, qui ne le concerne donc pas.\n\nAl-Dasūqī : « هَذَا هُوَ التَّحْقِيقُ كَمَا فِي طفى نَقْلًا عَنْ عَبْدِ الْحَقِّ » (طفى : Muṣṭafā ar-Rammāṣī), contre عبق (ʿAbd al-Bāqī az-Zurqānī) « حَيْثُ قَيَّدَهُ بِغَيْرِ الْمُسْتَنْكِحِ وَجَعَلَ فِي كَلَامِ الْمُصَنِّفِ حَذْفًا مِنْ الثَّانِي لِدَلَالَةِ الْأَوَّلِ ».\n\nAt-Tawḍīḥ (Khalīl), pour le premier cas : « الثانية: تيقَّنَهما، ولم يَدْرِ السابقَ منهما، وحكى سندٌ فيها الاتفاق ».",
+    explication: "Al-Ḥaṭṭāb ne commente pas ce segment : il manque au « ص » de Mawāhib (voir les alertes). La fiche suit al-Dardīr et al-Dasūqī.\n\nAl-Dardīr : les ablutions sont annulées par le doute « أَيْ فِي السَّابِقِ مِنْ الطُّهْرِ وَالْحَدَثِ سَوَاءٌ كَانَا مُحَقَّقَيْنِ أَوْ مَشْكُوكَيْنِ أَوْ أَحَدُهُمَا مُحَقَّقًا وَالثَّانِي مَشْكُوكًا فَهَذِهِ أَرْبَعُ صُوَرٍ » : les deux sûrs ; les deux douteux ; la pureté sûre et le ḥadath douteux ; le ḥadath sûr et la pureté douteuse. Et cela « وَسَوَاءٌ كَانَ مُسْتَنْكِحًا أَمْ لَا بِدَلِيلِ تَأْخِيرِهِ » : Khalīl place ce segment après l'exception du douteur chronique, qui ne le concerne donc pas.\n\nAl-Dasūqī : « هَذَا هُوَ التَّحْقِيقُ كَمَا فِي طفى نَقْلًا عَنْ عَبْدِ الْحَقِّ » (طفى : Muṣṭafā ar-Rammāṣī), contre عبق (ʿAbd al-Bāqī az-Zurqānī) « حَيْثُ قَيَّدَهُ بِغَيْرِ الْمُسْتَنْكِحِ وَجَعَلَ فِي كَلَامِ الْمُصَنِّفِ حَذْفًا مِنْ الثَّانِي لِدَلَالَةِ الْأَوَّلِ ».\n\nAt-Tawḍīḥ (Khalīl), pour le premier cas : « الثانية: تيقَّنَهما، ولم يَدْرِ السابقَ منهما، وحكى سندٌ فيها الاتفاق ». Ibn Ghāzī le rapporte aussi (« حكى سند فيه الاتفاق »), puis cite Ibn ʿArafa : pour celui qui est sûr d'une pureté et d'un ḥadath sans savoir lequel est le dernier, Ibn al-ʿArabī dit « لا نصّ لعلمائنا », et l'Imām al-Ḥaramayn, « الحكم نقيض ما كان عليه » : celui qui était en ḥadath avant l'aube serait en état de pureté, et l'inverse ; Ibn ʿArafa tient cet avis pour conforme au principe de l'école qui écarte le doute.",
     aqwal: [
       { auteur: "Ar-Rammāṣī (طفى), d'après ʿAbd al-Ḥaqq (cité par al-Dasūqī)", avis: "Le doute sur l'ordre annule, que l'on soit douteur chronique ou non.", statut: "non_precise" },
       { auteur: "Az-Zurqānī (عبق, d'après al-Dasūqī)", avis: "Le segment est limité à celui qui n'est pas douteur chronique.", statut: "non_precise" },
-      { auteur: "Sanad (d'après at-Tawḍīḥ)", avis: "Celui qui est sûr des deux sans savoir lequel est venu en premier refait ses ablutions : accord des savants.", statut: "non_precise" }
+      { auteur: "Sanad (d'après at-Tawḍīḥ et Ibn Ghāzī)", avis: "Celui qui est sûr des deux sans savoir lequel est venu en premier refait ses ablutions : accord des savants.", statut: "non_precise" },
+      { auteur: "L'Imām al-Ḥaramayn, approuvé par Ibn ʿArafa (d'après Ibn Ghāzī)", avis: "On prend le contraire de l'état qui précédait les deux : qui était en ḥadath avant est en état de pureté, et l'inverse.", statut: "non_precise" }
     ],
     muatamad: "Confirmé : al-Dardīr, « (وَ) نُقِضَ (بِشَكٍّ فِي سَابِقِهِمَا) », dans les quatre cas, « وَسَوَاءٌ كَانَ مُسْتَنْكِحًا أَمْ لَا » ; al-Dasūqī, « هَذَا هُوَ التَّحْقِيقُ ».",
     tarjih_hattab: null,
     tanbihat: [],
     divergences: [
       "Complément — le segment. Al-Ḥaṭṭāb ne le commente pas. Al-Dardīr : « أَيْ فِي السَّابِقِ مِنْ الطُّهْرِ وَالْحَدَثِ » ; « فَهَذِهِ أَرْبَعُ صُوَرٍ ».",
+      "Point à comparer — l'état antérieur. Al-Ḥaṭṭāb n'en parle pas. Ibn ʿArafa, cité par Ibn Ghāzī (14605, p. 36), rapporte de l'Imām al-Ḥaramayn « الحكم نقيض ما كان عليه » et le juge conforme à l'école ; al-Dardīr ne distingue pas et donne l'annulation dans les quatre cas : « فَهَذِهِ أَرْبَعُ صُوَرٍ ».",
       "Point à comparer — le douteur chronique. Al-Dasūqī : « هَذَا هُوَ التَّحْقِيقُ كَمَا فِي طفى نَقْلًا عَنْ عَبْدِ الْحَقِّ » (طفى : Muṣṭafā ar-Rammāṣī) ; عبق (ʿAbd al-Bāqī az-Zurqānī) l'exceptait, « حَيْثُ قَيَّدَهُ بِغَيْرِ الْمُسْتَنْكِحِ »."
     ],
     exemple: "Un homme se souvient qu'il a fait ses ablutions dans l'après-midi et qu'il est allé aux toilettes, mais ne sait plus dans quel ordre. Il refait ses ablutions avant de prier le maghrib.",
@@ -475,13 +481,416 @@ App.data.ajouterFiches([
     ],
     ref: { ouvrage: "al-Sharḥ al-kabīr (al-Dardīr) et Ḥāshiyat al-Dasūqī", tome: 1, pages: "123" },
     alertes: [
-      "Limite du texte : le segment « وَبِشَكٍّ فِي سَابِقِهِمَا », que donnent le Mukhtaṣar seul (11355, p. 17), al-Dardīr (21604/122), al-Kharashī (91, p. 157) et ʿUlaysh (21614, p. 104), manque au « ص » de Mawāhib, qui passe de « إلَّا الْمُسْتَنْكِحُ » à « لَا بِمَسِّ » (569/300) ; al-Ḥaṭṭāb ne le commente pas (569/280–330 relus) ; Ibn Ghāzī (14605, p. 35) ne l'a pas non plus dans son matn ; fiche rédigée d'après al-Dardīr et al-Dasūqī, `ref` sur al-Dardīr (n° 354).",
+      "Limite du texte : le segment « وَبِشَكٍّ فِي سَابِقِهِمَا », que donnent le Mukhtaṣar seul (11355, p. 17), al-Dardīr (21604/122), al-Kharashī (91, p. 157) et ʿUlaysh (21614, p. 104), manque au « ص » de Mawāhib, qui passe de « إلَّا الْمُسْتَنْكِحُ » à « لَا بِمَسِّ » (569/300) ; al-Ḥaṭṭāb ne le commente pas (569/280–330 relus) ; Ibn Ghāzī l'a aussi (14605, p. 36 ; « ne l'a pas » lu à tort à l'unité 48 sur la seule p. 35, précisé à l'unité 49) ; fiche rédigée d'après al-Dardīr et al-Dasūqī, `ref` sur al-Dardīr (n° 354).",
       "Matn vocalisé d'après al-Dardīr (21604/122) et al-Kharashī (91, p. 157).",
       "At-Tawḍīḥ (14442, p. 160) cité sans voyelles, tel qu'imprimé.",
       "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 123 (Shamela 21604, page 122)."
     ],
     verification: "verifie"
-  }
+  },
 
   /* FIN-UNITE-48 */
+  /* ================================================================== */
+  /* Unité 49 — tah-01-06-16a à -19 */
+  /* Mawāhib, t. 1, p. 301–303 (Shamela 569/300–302) ; al-Dardīr / al-Dasūqī, t. 1, p. 123–125 (Shamela 21604/122–124) */
+  {
+    id: "tah-01-06-16a",
+    kitab: "tah", bab: "01", fasl: "06", ordre: 16,
+    titre: "Ce qui n'annule pas : l'anus, les testicules, le sexe d'une petite fille",
+    titre_ar: "لَا بِمَسِّ دُبُرٍ أَوْ أُنْثَيَيْنِ أَوْ فَرْجِ صَغِيرَةٍ",
+    objectif: "Savoir que toucher son anus, ses testicules ou le sexe d'une petite fille n'annule pas les ablutions, et connaître les cas voisins.",
+    matn: "لَا بِمَسِّ دُبُرٍ أَوْ أُنْثَيَيْنِ أَوْ فَرْجِ صَغِيرَةٍ",
+    regle_pratique: "Toucher son propre anus, ses testicules, le pli de l'aine, ou le sexe d'une petite fille ou d'un petit garçon qu'on ne désire pas n'annule pas les ablutions ; toucher l'anus d'une autre personne suit la règle du toucher (plaisir recherché ou éprouvé).",
+    qualification: {
+      hukm: "mubah",
+      nature: "autre",
+      effet_si_omis: "Ces contacts n'obligent pas à refaire ses ablutions ; la prière faite après eux reste valable."
+    },
+    explication: "Après les annulatifs, Khalīl énumère des choses qui n'annulent pas les ablutions, sur lesquelles on a divergé, même hors de l'école. Al-Ḥaṭṭāb, d'après adh-Dhakhīra d'al-Qarāfī : le contact de l'anus (دُبُر) n'annule pas, « خِلَافًا لِلشَّافِعِيِّ وَحَمْدِيسٍ مِنْ أَصْحَابِنَا » ; ni celui des testicules (أُنْثَيَانِ), « خِلَافًا لِعُرْوَةِ بْنِ الزُّبَيْرِ فَإِنَّهُ أَدْخَلَهُمَا فِي مَعْنَى الْفَرْجِ » ; ni celui du sexe d'une petite fille ou d'un petit garçon, contre ash-Shāfiʿī (voir les alertes).\n\nAl-Ḥaṭṭāb explique deux mots. L'anus s'appelle aussi شَرَج (charaj), par comparaison avec le point où se rassemble la nappe sur laquelle on mange. Le pli de l'aine (رُفْغ) est le haut de la cuisse du côté du ventre, ou, selon un autre avis, le nerf entre l'anus et le membre ; d'après adh-Dhakhīra, ʿIyāḍ dit qu'y toucher n'est rien et n'oblige pas aux ablutions (voir les alertes). Le sexe d'un animal non plus n'oblige pas aux ablutions, contre al-Layth (adh-Dhakhīra ; voir les alertes).\n\nAl-Dardīr : ces contacts n'annulent pas « وَلَوْ الْتَذَّ » ; le sexe de la petite fille n'annule pas « وَلَوْ قَصَدَ اللَّذَّةَ مَا لَمْ يَلْتَذَّ بِالْفِعْلِ عِنْدَ بَعْضِهِمْ », mais son maître tient qu'il n'annule pas du tout ; « وَأَمَّا مَسُّ جَسَدِهَا فَلَا يَنْقُضُ وَلَوْ قَصَدَ وَوَجَدَ أَوْ قَبَّلَهَا بِفَمٍ ». Al-Dasūqī : il s'agit de son propre anus ; « وَأَمَّا دُبُرُ الْغَيْرِ فَيَجْرِي عَلَى الْمُلَامَسَةِ » ; de même, l'ouverture qui remplace les deux voies bouchées n'annule pas quand on la touche.",
+    aqwal: [
+      { auteur: "Ash-Shāfiʿī ; Ḥamdīs (d'après adh-Dhakhīra, cité par al-Ḥaṭṭāb)", avis: "Le contact de l'anus annule.", statut: "non_precise" },
+      { auteur: "ʿUrwa b. az-Zubayr (d'après adh-Dhakhīra)", avis: "Le contact des testicules annule : ils entrent dans le sens de « sexe ».", statut: "non_precise" },
+      { auteur: "عج (d'après al-Dasūqī : « بَعْضِهِمْ » chez al-Dardīr)", avis: "Le sexe de la petite fille n'annule pas, sauf si l'on éprouve effectivement du plaisir.", statut: "non_precise" },
+      { auteur: "Le maître d'al-Dardīr ; al-Qarāfī ; al-Ḥaṭṭāb et Bahrām (d'après al-Dasūqī)", avis: "Le sexe de la petite fille n'annule pas, dans aucun cas.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé pour l'anus et les testicules : al-Dardīr, « (لَا) يُنْقَضُ الْوُضُوءُ (بِمَسِّ دُبُرٍ أَوْ أُنْثَيَيْنِ) وَلَوْ الْتَذَّ ». Non tranché pour le sexe de la petite fille quand on éprouve du plaisir : al-Dasūqī, « قَدْ عَلِمْتَ أَنَّ كُلًّا مِنْ الْقَوْلَيْنِ رَاجِحٌ ».",
+    tarjih_hattab: "Le sexe d'une petite fille ou d'un petit garçon n'annule pas, sans réserve (al-Dasūqī : « وَرَجَّحَهُ ح وَبَهْرَامُ » ; al-ʿAdawī : « وَهُوَ ظَاهِرُ الْحَطَّابِ »).",
+    tanbihat: [
+      "Le pli de l'aine : deux définitions ; d'après ʿIyāḍ (Tanbīhāt, cité par adh-Dhakhīra), y toucher n'oblige pas aux ablutions.",
+      "Le sexe d'un animal n'oblige pas aux ablutions, contre al-Layth (adh-Dhakhīra)."
+    ],
+    divergences: [
+      "Concordance — l'anus et les testicules. Al-Ḥaṭṭāb, d'après adh-Dhakhīra (ci-dessus). Al-Dardīr : « (لَا) يُنْقَضُ الْوُضُوءُ (بِمَسِّ دُبُرٍ أَوْ أُنْثَيَيْنِ) وَلَوْ الْتَذَّ ».",
+      "Point à comparer — le sexe de la petite fille avec plaisir. Al-Ḥaṭṭāb : sans réserve, contre ash-Shāfiʿī. Al-Dardīr : « مَا لَمْ يَلْتَذَّ بِالْفِعْلِ عِنْدَ بَعْضِهِمْ وَاسْتَظْهَرَ شَيْخُنَا عَدَمَ النَّقْضِ مُطْلَقًا ». Al-Dasūqī : « عِنْدَ بَعْضِهِمْ) أَرَادَ بِهِ عج » (sigle non défini dans la liste d'al-Dasūqī) ; l'absence d'annulation « وَهُوَ ظَاهِرُ الْمُصَنِّفِ وَالْقَرَافِيِّ وَرَجَّحَهُ ح وَبَهْرَامُ » (ح : Muḥammad al-Ḥaṭṭāb) ; « قَدْ عَلِمْتَ أَنَّ كُلًّا مِنْ الْقَوْلَيْنِ رَاجِحٌ ».",
+      "Complément — l'anus d'autrui et l'ouverture. Al-Ḥaṭṭāb n'en parle pas ici. Al-Dasūqī : « وَأَمَّا دُبُرُ الْغَيْرِ فَيَجْرِي عَلَى الْمُلَامَسَةِ ».",
+      "Complément — le corps de la petite fille. Al-Ḥaṭṭāb n'en parle pas ici. Al-Dardīr : « وَأَمَّا مَسُّ جَسَدِهَا فَلَا يَنْقُضُ وَلَوْ قَصَدَ وَوَجَدَ أَوْ قَبَّلَهَا بِفَمٍ »."
+    ],
+    exemple: "Une mère qui vient de faire ses ablutions change sa fillette de deux ans et touche son sexe en la lavant : ses ablutions restent valables. Un homme qui se lave après être allé aux toilettes et touche son anus de la main ne refait pas ses ablutions pour cela.",
+    erreurs_frequentes: [
+      "Mettre les testicules sur le même plan que le membre : leur contact n'annule pas.",
+      "Croire que toucher l'anus annule toujours : son propre anus n'annule pas ; celui d'autrui suit la règle du toucher.",
+      "Croire qu'en lavant ou en changeant un jeune enfant on perd ses ablutions : le contact du sexe d'un petit enfant n'annule pas."
+    ],
+    termes: [
+      { ar: "شَرَج", translit: "charaj", def: "Autre nom de l'anus, par comparaison avec le point où se rassemble une nappe." },
+      { ar: "رُفْغ", translit: "roufgh", def: "Pli de l'aine : le haut de la cuisse du côté du ventre (pluriel : أَرْفَاغ)." }
+    ],
+    quiz: [
+      { q: "Toucher ses propres testicules :",
+        choix: ["N'annule pas les ablutions", "Annule toujours", "Annule s'il y a plaisir", "Oblige au grand lavage"],
+        bonne: 0,
+        explication: "Al-Dardīr : « (لَا) يُنْقَضُ الْوُضُوءُ (بِمَسِّ دُبُرٍ أَوْ أُنْثَيَيْنِ) وَلَوْ الْتَذَّ »." },
+      { q: "Qui tenait, selon adh-Dhakhīra cité par al-Ḥaṭṭāb, que le contact de l'anus annule ?",
+        choix: ["ʿUrwa b. az-Zubayr", "Al-Layth", "Abū Ḥanīfa", "Ash-Shāfiʿī et Ḥamdīs"],
+        bonne: 3,
+        explication: "« خِلَافًا لِلشَّافِعِيِّ وَحَمْدِيسٍ مِنْ أَصْحَابِنَا »." },
+      { q: "Toucher l'anus d'une autre personne, selon al-Dasūqī :",
+        choix: ["N'annule jamais", "Suit la règle du toucher (plaisir recherché ou éprouvé)", "Annule toujours", "Annule seulement la personne touchée"],
+        bonne: 1,
+        explication: "« وَأَمَّا دُبُرُ الْغَيْرِ فَيَجْرِي عَلَى الْمُلَامَسَةِ »." },
+      { q: "Mise en situation : en baignant sa petite fille, un père touche son sexe sans y penser. Ses ablutions :",
+        choix: ["Sont annulées", "Sont annulées s'il ne porte pas de gant", "Restent valables", "Sont annulées pour la prière du vendredi seulement"],
+        bonne: 2,
+        explication: "Le sexe d'une petite fille qu'on ne désire pas n'annule pas : Khalīl, « أَوْ فَرْجِ صَغِيرَةٍ » ; al-Dasūqī, « لِعَدَمِ اللَّذَّةِ بِذَلِكَ عَادَةً »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "301–302" },
+    alertes: [
+      "Corrigé (campagne de correction) : « وَلَا بِمَسِّ صَغِيرَةٍ وَكَذَا فَرْجُ صَغِيرَةٍ خِلَافًا لِلشَّافِعِيِّ » (569/301) ; al-ʿAdawī sur al-Kharashī (91, p. 158) cite al-Ḥaṭṭāb : « فَقَدْ قَالَ: وَلَا بِمَسِّ فَرْجِ صَغِيرَةٍ وَكَذَا فَرْجُ صَغِيرٍ خِلَافًا لِلشَّافِعِيِّ » ; adh-Dhakhīra (1717, p. 230) : « مَسُّ ذَكَرِ الصَّبِيِّ وَفَرْجِ الصَّبِيَّةِ لَا يُوجِبُ وُضُوءًا » ; la fiche suit al-ʿAdawī (n° 358).",
+      "Corrigé (campagne de correction) : « فَرْجُ الْبَهِيمَةِ لَا يُوجِبُ وُضُوءًا خِلَافًا لِلَّيْثِ؛ لِأَنَّهُ مَظِنَّةُ اللَّذَّةِ » (569/301, même farʿ qu'en 569/296, n° 334) ; adh-Dhakhīra (1717, p. 230) : « لِأَنَّه لَيْسَ مَظِنَّةَ اللَّذَّةِ » ; motif non cité (n° 359).",
+      "Corrigé (campagne de correction) : « قَالَ الْقَاضِي فِي التَّنْبِيهَاتِ: وَلَيْسَ بِشَيْءٍ فَلَا يُوجِبُ وُضُوءًا » (569/301) ; adh-Dhakhīra (1717, p. 229) : « قَالَ الْقَاضِيَ فِي التَّنْبِيهَاتِ وَمَسُّهَا لَيْسَ بِشَيْءٍ فَلَا يُوجِبُ وُضُوءًا خِلَافًا لِعُمَرَ » : c'est le contact du pli de l'aine qui « n'est rien », non la seconde définition (n° 360).",
+      "Précisé (campagne de correction) : le pli de l'aine est « أَعْلَى أَصْلِ الْفَخِذِ مِمَّا يَلِي الْجَوْفَ » (569/301 ; même texte chez al-Kharashī, 91, p. 157) ; adh-Dhakhīra (1717, p. 229) : « وَهُوَ طَيُّ أَصْلَيِ الْعَجُزِ مِمَّا يَلِي الْجَوْفَ » ; la fiche suit Mawāhib (n° 361).",
+      "adh-Dhakhīra (1717, p. 229) écrit « وَحمد يس » ; Mawāhib : « وَحَمْدِيسٍ ».",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 123 (Shamela 21604, page 122)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-06-16b",
+    kitab: "tah", bab: "01", fasl: "06", ordre: 16,
+    titre: "Ni la vomissure, ni la viande de chameau, ni la saignée, ni le rire dans la prière",
+    titre_ar: "وَقَيْءٍ وَأَكْلِ جَزُورٍ وَذَبْحٍ وَحِجَامَةٍ وَقَهْقَهَةٍ بِصَلَاةٍ",
+    objectif: "Savoir que vomir, manger de la viande de chameau, égorger, se faire poser des ventouses ou saigner, et éclater de rire dans la prière n'annulent pas les ablutions.",
+    matn: "وَقَيْءٍ وَأَكْلِ جَزُورٍ وَذَبْحٍ وَحِجَامَةٍ وَقَهْقَهَةٍ بِصَلَاةٍ",
+    regle_pratique: "N'annulent pas les ablutions : vomir ou régurgiter, manger de la viande de chameau, égorger une bête, se faire poser des ventouses ou saigner, toucher une croix ou une idole, dire une parole grossière, se faire arracher une dent, réciter de la poésie, et éclater de rire pendant la prière.",
+    qualification: {
+      hukm: "mubah",
+      nature: "autre",
+      effet_si_omis: "Aucune ablution n'est due pour ces choses ; le rire qui éclate pendant la prière n'oblige pas à refaire les ablutions."
+    },
+    explication: "Al-Ḥaṭṭāb, toujours d'après adh-Dhakhīra : les ablutions ne sont pas annulées « وَلَا بِخُرُوجِ قَيْءٍ أَوْ قَلْسٍ خِلَافًا لِأَبِي حَنِيفَةَ » ; « وَلَا يُنْتَقَضُ بِأَكْلِ جَزُورٍ خِلَافًا لِأَحْمَدَ » ; ni par le fait de toucher une croix, d'égorger une bête, de toucher une idole (وَثَن), de dire une parole grossière, de se faire arracher une molaire ou de réciter de la poésie, « خِلَافًا لِقَوْمٍ » ; « وَلَا بِخُرُوجِ دَمِ حِجَامَةٍ وَفَصَادَةٍ خِلَافًا لِأَبِي حَنِيفَةَ » ; « وَلَا بِقَهْقَهَةٍ خِلَافًا لِأَبِي حَنِيفَةَ ».\n\nAl-Dardīr : le chameau (جَزُور) est « أَيْ إبِلٍ » ; il ajoute la régurgitation (قَلْس) à la vomissure (قَيْء). Al-Kharashī : la ventouse ne nuit ni à celui qui la pose ni à celui qui la reçoit, et le rire (قَهْقَهَة) n'annule pas dans la prière, contre Abū Ḥanīfa, « وَبِغَيْرِهَا اتِّفَاقًا ».",
+    aqwal: [
+      { auteur: "Abū Ḥanīfa (d'après adh-Dhakhīra, cité par al-Ḥaṭṭāb)", avis: "La vomissure, la régurgitation, le sang des ventouses et de la saignée, et le rire dans la prière annulent.", statut: "non_precise" },
+      { auteur: "Aḥmad (d'après adh-Dhakhīra)", avis: "Manger de la viande de chameau annule.", statut: "non_precise" },
+      { auteur: "« Des gens » non nommés (d'après adh-Dhakhīra)", avis: "Toucher une croix ou une idole, égorger, une parole grossière, arracher une dent, réciter de la poésie annulent.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « (وَ) لَا (قَيْءٍ) وَقَلْسٍ (وَأَكْلُ لَحْمِ جَزُورٍ) أَيْ إبِلٍ (وَذَبْحٍ وَحِجَامَةٍ وَفَصْدٍ وَقَهْقَهَةٍ بِصَلَاةٍ ».",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Al-Ḥaṭṭāb étend la liste, d'après adh-Dhakhīra, à la croix, à l'idole, à la parole grossière, à la dent arrachée et à la poésie."
+    ],
+    divergences: [
+      "Concordance — la liste. Al-Ḥaṭṭāb, d'après adh-Dhakhīra (ci-dessus). Al-Dardīr : « وَذَبْحٍ وَحِجَامَةٍ وَفَصْدٍ وَقَهْقَهَةٍ بِصَلَاةٍ ».",
+      "Complément — la régurgitation. Al-Ḥaṭṭāb la cite aussi (« قَيْءٍ أَوْ قَلْسٍ »). Al-Dardīr : « (وَ) لَا (قَيْءٍ) وَقَلْسٍ »."
+    ],
+    exemple: "Pendant la prière du ʿichâ', un homme ne peut retenir un éclat de rire. Sa prière est à reprendre pour d'autres raisons traitées au chapitre de la prière, mais ses ablutions restent valables : il peut recommencer la prière sans les refaire. De même, celui qui a mangé un plat de viande de chameau prie sans refaire ses ablutions.",
+    erreurs_frequentes: [
+      "Croire que vomir annule les ablutions : selon l'école, non.",
+      "Croire, comme chez les ḥanbalites, que la viande de chameau annule les ablutions : selon l'école, non.",
+      "Croire que le sang qui sort par une saignée ou des ventouses annule les ablutions : il n'annule pas."
+    ],
+    termes: [
+      { ar: "جَزُور", translit: "jazoûr", def: "Chameau, chamelle (bête destinée à l'abattage)." },
+      { ar: "قَهْقَهَة", translit: "qahqaha", def: "Éclat de rire sonore." },
+      { ar: "وَثَن", translit: "wathan", def: "Idole." }
+    ],
+    quiz: [
+      { q: "Qui tenait, selon adh-Dhakhīra, que manger de la viande de chameau annule les ablutions ?",
+        choix: ["Abū Ḥanīfa", "Ash-Shāfiʿī", "Al-Layth", "Aḥmad"],
+        bonne: 3,
+        explication: "« وَلَا يُنْتَقَضُ بِأَكْلِ جَزُورٍ خِلَافًا لِأَحْمَدَ »." },
+      { q: "La vomissure, selon l'école :",
+        choix: ["N'annule pas les ablutions", "Annule si elle remplit la bouche", "Annule toujours", "Annule seulement pendant la prière"],
+        bonne: 0,
+        explication: "« وَلَا بِخُرُوجِ قَيْءٍ أَوْ قَلْسٍ خِلَافًا لِأَبِي حَنِيفَةَ »." },
+      { q: "Mise en situation : après avoir donné son sang, une femme veut prier le ʿaṣr avec les ablutions faites avant le don. Ses ablutions :",
+        choix: ["Sont annulées", "Sont annulées si le sang a coulé abondamment", "Restent valables", "Sont annulées, mais seulement pour le ʿaṣr"],
+        bonne: 2,
+        explication: "Le sang sorti par une saignée n'annule pas : « وَلَا بِخُرُوجِ دَمِ حِجَامَةٍ وَفَصَادَةٍ »." },
+      { q: "Le rire qui éclate pendant la prière :",
+        choix: ["Annule les ablutions, selon l'école", "N'annule pas les ablutions, contre Abū Ḥanīfa", "Annule les ablutions s'il est volontaire", "Oblige au grand lavage"],
+        bonne: 1,
+        explication: "« وَلَا بِقَهْقَهَةٍ خِلَافًا لِأَبِي حَنِيفَةَ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "302" },
+    alertes: [
+      "Corrigé (campagne de correction) : le « ص » de Mawāhib relie les éléments par « أَوْ » : « … أَوْ قَيْءٍ أَوْ أَكْلِ جَزُورٍ أَوْ ذَبْحٍ أَوْ حِجَامَةٍ أَوْ قَهْقَهَةٍ بِصَلَاةٍ » (569/301) ; le Mukhtaṣar seul (11355, p. 17), Ibn Ghāzī (14605, p. 36), al-Dardīr (21604/122) et al-Kharashī (91, p. 157) ont « وَقَيْءٍ » et « وَ » pour la suite ; matn corrigé (n° 355).",
+      "Précisé (campagne de correction) : « وَأَكْلِ جَزُورٍ » sans « لَحْمِ », et sans « وَفَصْدٍ », comme Ibn Ghāzī (14605, p. 36) et al-Kharashī (91, p. 157) ; le Mukhtaṣar seul (11355, p. 17 : « وأكل لحم جزور … وصد ») et al-Dardīr (21604/122) ont « لَحْمِ » et « وَفَصْدٍ » ; matn laissé selon le « ص » ; la saignée est de toute façon nommée par al-Ḥaṭṭāb (« وَفَصَادَةٍ ») (n° 357).",
+      "adh-Dhakhīra (1717, p. 230–231) : la viande de chameau (« خِلَافًا لِأَحْمَدَ فِي لُحُومِ الْإِبِلِ »), le rire (« الثَّامِنُ الْقَهْقَهَةُ لَا تُوجِبُ الْوُضُوءَ ») et la liste de la croix et des idoles (« وَمَسُّ الصُّلْبِ وَالْأَوْتَانِ », écrit ainsi) : la citation d'al-Ḥaṭṭāb en est un résumé.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 123 (Shamela 21604, page 122)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-06-16c",
+    kitab: "tah", bab: "01", fasl: "06", ordre: 16,
+    titre: "La femme qui touche son propre sexe",
+    titre_ar: "وَمَسِّ امْرَأَةٍ فَرْجَهَا وَأُوِّلَتْ أَيْضًا بِعَدَمِ الْإِلْطَافِ",
+    objectif: "Savoir que la femme qui touche son sexe n'annule pas ses ablutions selon l'avis de l'école, et connaître l'interprétation contraire (l'introduction des doigts).",
+    matn: "وَمَسِّ امْرَأَةٍ فَرْجَهَا وَأُوِّلَتْ أَيْضًا بِعَدَمِ الْإِلْطَافِ",
+    regle_pratique: "La femme qui touche son propre sexe ne perd pas ses ablutions, qu'elle y introduise ou non les doigts, selon l'avis qu'al-Dardīr présente comme celui de l'école ; d'après une autre interprétation de la Mudawwana, elle les perd si elle introduit les doigts ; et si elle y prend du plaisir, elle les perd comme pour le toucher.",
+    qualification: {
+      hukm: "mubah",
+      nature: "autre",
+      effet_si_omis: "Selon l'avis présenté comme celui de l'école, aucune ablution n'est due ; selon l'autre interprétation, elle refait ses ablutions si elle a introduit les doigts."
+    },
+    explication: "Al-Ḥaṭṭāb ne commente pas ce segment : il manque au « ص » de Mawāhib (voir les alertes). La fiche suit al-Dardīr et al-Dasūqī, avec les textes d'al-Muntaqā et d'Ibn ʿArafa.\n\nAl-Dardīr : les ablutions ne sont pas annulées par le contact de la femme avec son sexe, « أَلْطَفَتْ أَمْ لَا قَبَضَتْ عَلَيْهِ أَمْ لَا وَهَذَا هُوَ الْمَذْهَبُ » ; la Mudawwana a aussi été interprétée comme visant le cas où elle n'introduit pas les doigts, « ، فَإِنْ أَلْطَفَتْ انْتَقَضَ » ; et « وَالْإِلْطَافُ أَنْ تُدْخِلَ شَيْئًا مِنْ يَدِهَا فِي فَرْجِهَا ».\n\nAl-Muntaqā (al-Bājī) : les riwāya divergent ; « فَرَوَى ابْنُ الْقَاسِمِ وَأَشْهَبُ عَنْ مَالِكٍ لَا وُضُوءَ عَلَيْهَا » ; ʿAlī b. Ziyād rapporte qu'elle doit les refaire. Ibn ʿArafa ajoute la riwāya d'Ibn Abī Uways, « إن ألطفت أو قبضت عليه », et rapporte qu'aṣ-Ṣiqillī voit l'annulation sans divergence si elle serre ou introduit les doigts, « للزوم اللذة ».\n\nAl-Dasūqī : que ce soit l'avis de l'école, c'est ce que dit عج ; al-Bunānī (بن) objecte que, d'après ce qu'al-Mawwāq rapporte d'Ibn Yūnus, l'avis de l'école est la distinction selon l'introduction des doigts ; son maître al-ʿAdawī répond que Khalīl place d'abord l'absence d'annulation et la donne, dans at-Tawḍīḥ, pour la doctrine de la Mudawwana. D'après ʿIyāḍ (rapporté par al-Qabbāb, cité par al-Bunānī), la divergence ne vaut que sans plaisir : « فَإِنْ كَانَ الْمَسُّ بِلَذَّةٍ وَجَبَ الْوُضُوءُ كَالْمُلَامَسَةِ ».",
+    aqwal: [
+      { auteur: "Ibn al-Qāsim et Ashhab, d'après Mālik (riwāya, d'après al-Muntaqā)", avis: "Pas d'ablutions pour la femme qui touche son sexe.", statut: "non_precise" },
+      { auteur: "ʿAlī b. Ziyād, d'après Mālik (riwāya, d'après al-Muntaqā et Ibn ʿArafa)", avis: "Elle doit refaire ses ablutions.", statut: "non_precise" },
+      { auteur: "Ibn Abī Uways (riwāya, d'après Ibn ʿArafa)", avis: "Elle refait ses ablutions si elle introduit les doigts ou serre son sexe.", statut: "non_precise" },
+      { auteur: "Ibn Yūnus (d'après al-Mawwāq, cité par al-Bunānī)", avis: "L'avis de l'école est la distinction selon l'introduction des doigts.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr, discuté : « أَلْطَفَتْ أَمْ لَا قَبَضَتْ عَلَيْهِ أَمْ لَا وَهَذَا هُوَ الْمَذْهَبُ » ; al-Bunānī le conteste (« وَفِيهِ نَظَرٌ »), son maître al-ʿAdawī le soutient. Avec plaisir, annulation (d'après ʿIyāḍ, rapporté par al-Bunānī).",
+    tarjih_hattab: null,
+    tanbihat: [],
+    divergences: [
+      "Complément — le segment. Al-Ḥaṭṭāb ne le commente pas. Al-Dardīr : « (وَ) لَا (مَسَّ امْرَأَةٍ فَرْجَهَا) أَلْطَفَتْ أَمْ لَا ».",
+      "Point à comparer — l'avis de l'école. Al-Dasūqī : « وَهَذَا هُوَ الْمَذْهَبُ) أَيْ كَمَا قَالَ عج وَمَنْ تَبِعَهُ » (عج : sigle non défini dans la liste d'al-Dasūqī) ; « قَالَ بْن وَفِيهِ نَظَرٌ » (بن : Muḥammad al-Bunānī), car « أَنَّ الْمَذْهَبَ هُوَ التَّفْصِيلُ بَيْنَ الْإِلْطَافِ وَعَدَمِهِ » d'après al-Mawwāq et Ibn Yūnus ; son maître al-ʿAdawī (« قَالَ شَيْخُنَا ») : l'ordre de Khalīl et at-Tawḍīḥ, « مِمَّا يُؤَيِّدُ مَا قَالَهُ عج ».",
+      "Complément — le plaisir. Al-Dasūqī, d'après al-Bunānī et al-Qabbāb, rapporte de ʿIyāḍ : « أَنَّ مَحَلَّ الْخِلَافِ إذَا كَانَ مَسُّهَا لِفَرْجِهَا بِغَيْرِ لَذَّةٍ »."
+    ],
+    exemple: "Une femme fait sa toilette intime avec la main après ses ablutions, sans introduire les doigts et sans plaisir : ses ablutions restent valables selon les deux interprétations.",
+    erreurs_frequentes: [
+      "Appliquer à la femme la règle du membre de l'homme : selon l'avis présenté comme celui de l'école, son contact n'annule pas.",
+      "Croire que la question est tranchée sans réserve : al-Bunānī tient pour la distinction selon l'introduction des doigts.",
+      "Oublier le plaisir : s'il y en a, il y a annulation, comme pour le toucher."
+    ],
+    termes: [
+      { ar: "إِلْطَاف", translit: "ilṭâf", def: "Pour la femme, introduire une partie de la main dans son sexe." }
+    ],
+    quiz: [
+      { q: "Selon al-Dardīr, la femme qui touche son sexe sans plaisir :",
+        choix: ["Refait toujours ses ablutions", "Ne refait pas ses ablutions, qu'elle introduise ou non les doigts", "Refait le grand lavage", "Ne refait ses ablutions que si elle serre son sexe"],
+        bonne: 1,
+        explication: "« أَلْطَفَتْ أَمْ لَا قَبَضَتْ عَلَيْهِ أَمْ لَا وَهَذَا هُوَ الْمَذْهَبُ »." },
+      { q: "Le mot إِلْطَاف désigne :",
+        choix: ["Le fait d'introduire une partie de la main dans son sexe", "Le simple effleurement", "Le contact à travers un vêtement", "Le contact avec plaisir"],
+        bonne: 0,
+        explication: "« وَالْإِلْطَافُ أَنْ تُدْخِلَ شَيْئًا مِنْ يَدِهَا فِي فَرْجِهَا »." },
+      { q: "Qui conteste, chez al-Dasūqī, que l'absence d'annulation soit l'avis de l'école ?",
+        choix: ["Son maître al-ʿAdawī", "Ibn al-Qāsim", "Al-Bunānī (بن)", "Ashhab"],
+        bonne: 2,
+        explication: "« قَالَ بْن وَفِيهِ نَظَرٌ »." },
+      { q: "Mise en situation : une femme touche son sexe en y éprouvant du plaisir. Selon ʿIyāḍ (rapporté par al-Bunānī) :",
+        choix: ["Ses ablutions restent valables", "Elle ne les refait que si elle a introduit les doigts", "Elle doit faire le grand lavage", "Elle refait ses ablutions, comme pour le toucher"],
+        bonne: 3,
+        explication: "« فَإِنْ كَانَ الْمَسُّ بِلَذَّةٍ وَجَبَ الْوُضُوءُ كَالْمُلَامَسَةِ »." }
+    ],
+    ref: { ouvrage: "al-Sharḥ al-kabīr (al-Dardīr) et Ḥāshiyat al-Dasūqī", tome: 1, pages: "123" },
+    alertes: [
+      "Limite du texte : la fin du segment, « وَمَسِّ امْرَأَةٍ فَرْجَهَا وَأُوِّلَتْ أَيْضًا بِعَدَمِ الْإِلْطَافِ », que donnent le Mukhtaṣar seul (11355, p. 17), Ibn Ghāzī (14605, p. 36), al-Dardīr (21604/122) et al-Kharashī (91, p. 157), manque au « ص » de Mawāhib (569/301), et al-Ḥaṭṭāb n'en parle pas (569/300–303 relus) ; fiche rédigée d'après al-Dardīr / al-Dasūqī, avec al-Muntaqā (6684, p. 89) et Ibn ʿArafa (16968, p. 84), `ref` sur al-Dardīr (n° 356).",
+      "Matn vocalisé d'après al-Kharashī (91, p. 157) et Ibn Ghāzī (14605, p. 36).",
+      "Ibn ʿArafa (16968, p. 84) et at-Tawḍīḥ ne sont cités que pour ce qu'en dit le passage lu ; Ibn ʿArafa cité sans voyelles, tel qu'imprimé.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 123 (Shamela 21604, page 122)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-06-17",
+    kitab: "tah", bab: "01", fasl: "06", ordre: 17,
+    titre: "Se rincer la bouche après la viande et le lait",
+    titre_ar: "وَنُدِبَ غَسْلُ فَمٍ مِنْ لَحْمٍ وَلَبَنٍ",
+    objectif: "Savoir qu'il est recommandé de se rincer la bouche et de se laver les mains après un aliment gras, surtout avant de prier.",
+    matn: "وَنُدِبَ غَسْلُ فَمٍ مِنْ لَحْمٍ وَلَبَنٍ",
+    regle_pratique: "Il est recommandé de se rincer la bouche et de se laver les mains après avoir mangé de la viande, bu du lait ou mangé un aliment gras, plus encore avant de prier ; celui qui prie sans l'avoir fait n'a rien à refaire, mais a délaissé une chose recommandée.",
+    qualification: {
+      hukm: "mandub",
+      nature: "adab",
+      effet_si_omis: "Rien à refaire : la prière est valable ; il a seulement délaissé une recommandation (Abū ʿImrān ; aṭ-Ṭirāz)."
+    },
+    explication: "Al-Ḥaṭṭāb cite la Mudawwana : « وَأَحَبُّ إلَيَّ أَنْ يَتَمَضْمَضَ مِنْ اللَّبَنِ وَاللَّحْمِ وَيَغْسِلَ الْغَمَرَ إذَا أَرَادَ الصَّلَاةَ ». Abū l-Ḥasan précise que la recommandation vaut aussi quand on ne veut pas prier. La Risāla : se laver la main de la graisse (غَمَر) et du lait est bien, « إلَّا أَنَّهُ يَتَأَكَّدُ فِي الصَّلَاةِ ». Abū ʿImrān : « إنْ صَلَّى شَارِبُ اللَّبَنِ مِنْ غَيْرِ أَنْ يَتَمَضْمَضَ فَلَا شَيْءَ عَلَيْهِ وَقَدْ تَرَكَ مُسْتَحَبًّا ».\n\nL'ʿUtbiyya : interrogé sur celui qui découpe de la viande crue quand l'appel à la prière est lancé, Mālik répond : « يَغْسِلُ يَدَيْهِ قَبْلَ أَنْ يُصَلِّيَ أَحَبُّ إلَيَّ » ; Ibn Rushd approuve, « لِأَنَّ الْمُرُوءَةَ وَالنَّظَافَةَ مِمَّا شُرِعَ فِي الدِّينِ », et raisonne a fortiori à partir de la Mudawwana. Sur ce qu'on rapporte de ʿUmar, qui s'essuyait la main sous le pied après avoir mangé, Ibn Rushd dit que c'était pour les dattes et les choses sèches, non pour la viande, le lait et ce qui est gras, « لِأَنَّ غَسْلَ الْيَدِ مِنْهُ مِمَّا لَا يَنْبَغِي تَرْكُهُ » ; le Prophète s'est rincé la bouche après le sawîq, chose plus légère, et ʿUthmān s'est lavé la main et rincé la bouche après la viande (al-Muwaṭṭaʾ).\n\nAl-Dardīr : c'est recommandé « لِكُلِّ أَحَدٍ وَتَأَكَّدَ لِمُرِيدِ الصَّلَاةِ », pour la bouche et la main, après la viande, le lait « وَسَائِرُ مَا فِيهِ مِنْ دُسُومَةٍ » ; il est recommandé de le faire avec ce qui ôte l'odeur, comme l'ouchnân ou le savon, et déconseillé avec ce qui est un aliment, comme la farine de lupin. Al-Dasūqī : la nourriture sans graisse, comme les dattes ou le sawîq, n'appelle aucun lavage.",
+    aqwal: [
+      { auteur: "La Mudawwana (Mālik)", avis: "Il est préférable de se rincer la bouche et de laver la graisse avant de prier.", statut: "non_precise" },
+      { auteur: "Abū ʿImrān", avis: "Celui qui prie sans s'être rincé la bouche après du lait n'a rien à refaire ; il a délaissé une chose recommandée.", statut: "non_precise" },
+      { auteur: "Ibn ʿUmar (d'après al-Dasūqī)", avis: "Le lait visé est le lait frais, qui est gras.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « (وَنُدِبَ) لِكُلِّ أَحَدٍ وَتَأَكَّدَ لِمُرِيدِ الصَّلَاةِ (غَسْلُ فَمٍ) وَيَدٍ (مِنْ لَحْمٍ) » et du lait ; tout lait : al-Dasūqī, « وَالْمُعْتَمَدُ عَدَمُ التَّقْيِيدِ كَمَا قَالَهُ شَيْخُنَا ».",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Ibn Nājī (commentaire de la Risāla) : les Tunisiens tardifs ont hésité ; « وَيَغْسِلَ الْغَمَرَ » est-il coordonné au rinçage, la recommandation étant égale, ou une phrase nouvelle, ce qui la rendrait plus forte ?",
+      "Aṭ-Ṭirāz : « وَمَنْ صَلَّى بِذَلِكَ وَلَمْ يَغْسِلْهُ فَلَا شَيْءَ عَلَيْهِ؛ لِأَنَّهُ عَيْنٌ طَاهِرَةٌ مُبَاحَةٌ ».",
+      "Aṭ-Ṭirāz : celui qui touche ou épile son aisselle se lave la main par recommandation, non l'aisselle selon le sens apparent de l'école ; et il lave sur son vêtement ce qui a une odeur désagréable, comme un œuf qui sent."
+    ],
+    divergences: [
+      "Concordance — pour tous, et plus encore avant la prière. Al-Ḥaṭṭāb : Abū l-Ḥasan et la Risāla (« إلَّا أَنَّهُ يَتَأَكَّدُ فِي الصَّلَاةِ »). Al-Dardīr : « لِكُلِّ أَحَدٍ وَتَأَكَّدَ لِمُرِيدِ الصَّلَاةِ ».",
+      "Complément — tout ce qui est gras ; le moyen. Al-Ḥaṭṭāb, d'après Ibn Rushd : « وَمَا يَكُونُ لَهُ الدَّسَمُ وَالْوَدَكُ ». Al-Dardīr : « وَسَائِرُ مَا فِيهِ مِنْ دُسُومَةٍ » ; « وَيُكْرَهُ بِمَا فِيهِ طَعَامٌ كَدَقِيقِ التُّرْمُسِ ».",
+      "Complément — quel lait. Al-Ḥaṭṭāb ne le précise pas. Al-Dasūqī : « وَقَيَّدَهُ ابْنُ عُمَرَ بِالْحَلِيبِ » ; « وَالْمُعْتَمَدُ عَدَمُ التَّقْيِيدِ »."
+    ],
+    exemple: "Après un repas de viande, un homme entend l'appel à la prière. Il se rince la bouche et se lave les mains au savon avant de prier. S'il avait prié sans le faire, sa prière resterait valable.",
+    erreurs_frequentes: [
+      "Croire que la viande ou le lait annulent les ablutions : on se rince seulement la bouche, par recommandation.",
+      "Croire que la prière faite sans s'être rincé la bouche est à refaire : elle est valable.",
+      "Se laver les mains avec un aliment (farine de lupin) : c'est déconseillé (al-Dardīr)."
+    ],
+    termes: [
+      { ar: "غَمَر", translit: "ghamar", def: "Graisse, odeur de graisse qui reste sur la main après un aliment gras." }
+    ],
+    quiz: [
+      { q: "Se rincer la bouche après avoir bu du lait est :",
+        choix: ["Obligatoire avant la prière", "Recommandé, surtout avant la prière", "Déconseillé", "Une condition de validité de la prière"],
+        bonne: 1,
+        explication: "La Risāla : « إلَّا أَنَّهُ يَتَأَكَّدُ فِي الصَّلَاةِ » ; al-Dardīr : « وَتَأَكَّدَ لِمُرِيدِ الصَّلَاةِ »." },
+      { q: "Mise en situation : un homme mange un plat de viande, oublie de se rincer la bouche et prie le maghrib. Selon Abū ʿImrān et aṭ-Ṭirāz :",
+        choix: ["Il refait sa prière dans le temps", "Il refait ses ablutions et sa prière", "Il n'a rien à refaire", "Il fait une prosternation de l'oubli"],
+        bonne: 2,
+        explication: "« فَلَا شَيْءَ عَلَيْهِ وَقَدْ تَرَكَ مُسْتَحَبًّا »." },
+      { q: "Pourquoi Ibn Rushd approuve-t-il de se laver les mains après avoir découpé de la viande crue ?",
+        choix: ["Parce que la convenance et la propreté font partie de ce que la religion a prescrit", "Parce que la viande crue est impure", "Parce que cela annule les ablutions", "Parce que c'est obligatoire avant la prière"],
+        bonne: 0,
+        explication: "« لِأَنَّ الْمُرُوءَةَ وَالنَّظَافَةَ مِمَّا شُرِعَ فِي الدِّينِ »." },
+      { q: "Avec quoi est-il déconseillé de se laver les mains, selon al-Dardīr ?",
+        choix: ["Le savon", "L'ouchnân", "L'eau seule", "Ce qui est un aliment, comme la farine de lupin"],
+        bonne: 3,
+        explication: "« وَيُكْرَهُ بِمَا فِيهِ طَعَامٌ كَدَقِيقِ التُّرْمُسِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "302" },
+    alertes: [
+      "La citation de la Risāla (« وَإِنْ غَسَلْت يَدَك مِنْ الْغَمَرِ بِفَتْحِ الْغَيْنِ وَالْمِيمِ الدَّسَمُ وَاللَّبَنُ فَحَسَنٌ », 569/301) contient une glose de vocalisation insérée dans le texte ; la fiche la résume.",
+      "« قَالَ فِيهِ. » à la fin du farʿ d'aṭ-Ṭirāz (569/301), puis l'intertitre de l'éditeur « [فَرْعٌ مَنْ مَسَحَ إبِطَهُ أَوْ نَتَفَهُ] » : le farʿ de l'aisselle est donc encore d'aṭ-Ṭirāz, cité « بِاخْتِصَارٍ » ; « فَظَاهِرُ الْمَذْهَبِ » s'y lit comme « وَظَاهِرُ » (lecture non vérifiée, aṭ-Ṭirāz introuvable).",
+      "Al-Kharashī (91, p. 158) : « وَالْغَمَرُ بِفَتْحِ الْغَيْنِ وَالْمِيمِ الْوَدَكُ » (vocalisation retenue pour le terme).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 123–124 (Shamela 21604, pages 122–123)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-06-18",
+    kitab: "tah", bab: "01", fasl: "06", ordre: 18,
+    titre: "Renouveler ses ablutions si l'on a prié avec",
+    titre_ar: "وَتَجْدِيدُ وُضُوءٍ إنْ صَلَّى بِهِ",
+    objectif: "Savoir quand le renouvellement des ablutions est recommandé, et quand il ne l'est pas.",
+    matn: "وَتَجْدِيدُ وُضُوءٍ إنْ صَلَّى بِهِ",
+    regle_pratique: "Il est recommandé de renouveler ses ablutions pour une nouvelle prière ou un nouveau ṭawâf quand on a déjà prié avec elles, même une prière surérogatoire de deux rakʿa, ou fait avec elles les sept tours du ṭawâf ; si l'on n'a encore rien fait avec elles, on ne les renouvelle pas, sauf pour compléter des ablutions faites une ou deux fois par membre.",
+    qualification: {
+      hukm: "mandub",
+      nature: "adab",
+      effet_si_omis: "Rien : c'est une recommandation. Renouveler sans avoir rien fait avec ses ablutions est déconseillé ou interdit selon les avis (al-Dardīr)."
+    },
+    explication: "Al-Ḥaṭṭāb : « ظَاهِرُهُ صَلَّى بِهِ فَرِيضَةً أَوْ نَافِلَةً وَلَوْ رَكْعَتَيْنِ فَقَطْ أَوْ طَافَ بِهِ سَبْعًا وَهُوَ كَذَلِكَ », d'après aṭ-Ṭirāz. Maʿn rapporte de Mālik, pour celui qui a fait ses ablutions pour une prière surérogatoire : « أَحَبُّ إلَيَّ أَنْ يَتَوَضَّأَ لِكُلِّ صَلَاةٍ » ; ce qui pourrait faire croire que ces ablutions ne permettent pas d'autre prière ; « وَلَيْسَ كَذَلِكَ » : Saḥnūn l'explique comme la recommandation d'une pureté sur une pureté, non une obligation.\n\nAl-Lakhmī : « وَلَا فَضِيلَةَ فِي تَكْرَارِ الْغُسْلِ عَقِيبَ الْغُسْلِ وَلَا عِنْدَ كُلِّ صَلَاةٍ », à la différence des ablutions, sauf les grands lavages de la sunna (vendredi, fêtes, iḥrām, entrée à La Mecque, station à ʿArafa). ʿIyāḍ : « الْوُضُوءُ الْمَمْنُوعُ تَجْدِيدُهُ قَبْلَ أَدَاءِ فَرِيضَةٍ بِهِ ». Ash-Shabībī (commentaire de la Risāla) compte parmi les ablutions recommandées le renouvellement pour chaque prière après en avoir prié une, et parmi les ablutions interdites : « تَجْدِيدُهُ قَبْلَ صَلَاةِ فَرْضٍ بِهِ وَالزِّيَادَةُ عَلَى الثَّلَاثَةِ وَفِعْلُهُ لِغَيْرِ مَا شُرِعَ لَهُ أَوْ أُبِيحَ ».\n\nIbn al-ʿArabī (al-ʿĀriḍa) : on a divergé ; la plupart disent « يُجَدِّدُ إذَا صَلَّى وَفَعَلَ فِعْلًا يَفْتَقِرُ إلَى الطَّهَارَةِ » ; d'autres, même sans cela. Zarrūq : on se prépare à la prière par les ablutions même sans obligation, « إذْ يُسْتَحَبُّ تَجْدِيدُهُ لِكُلِّ صَلَاةِ فَرْضٍ » après avoir prié avec ; selon un autre avis, la prière faite avec doit être obligatoire ; le grand lavage n'est pas recommandé pour chaque prière, « بَلْ رُبَّمَا كَانَ بِدْعَةً ».\n\nAl-Dardīr : le renouvellement est recommandé « لِصَلَاةٍ وَلَوْ نَافِلَةً أَوْ طَوَافٍ لَا لِغَيْرِهِمَا كَمَسِّ مُصْحَفٍ », quand on a prié avec, même une prière surérogatoire, « أَوْ فَعَلَ بِهِ مَا يَتَوَقَّفُ عَلَى طَهَارَةٍ كَطَوَافٍ وَمَسِّ مُصْحَفٍ عَلَى الرَّاجِحِ » ; sinon, « لَمْ يَجُزْ التَّجْدِيدُ أَيْ يُكْرَهُ أَوْ يُمْنَعُ عَلَى الْخِلَافِ الْمُتَقَدِّمِ ». Al-Dasūqī : ces avis sont ceux de la quatrième fois, « وَتَقَدَّمَ أَنَّ الْمُعْتَمَدَ الْكَرَاهَةُ » ; on y a l'intention de la vertu (Aḥmad az-Zarqānī).",
+    aqwal: [
+      { auteur: "Mālik (riwāya de Maʿn)", avis: "Il est préférable de faire ses ablutions pour chaque prière.", statut: "non_precise" },
+      { auteur: "Saḥnūn (dans le livre de son fils)", avis: "C'est une pureté recommandée sur une pureté, non une obligation.", statut: "non_precise" },
+      { auteur: "La plupart (d'après Ibn al-ʿArabī)", avis: "On renouvelle si l'on a prié ou fait avec ses ablutions un acte qui exige la pureté.", statut: "non_precise" },
+      { auteur: "D'autres (d'après Ibn al-ʿArabī)", avis: "On renouvelle même sans avoir rien fait avec ses ablutions.", statut: "non_precise" },
+      { auteur: "Avis rapporté par Zarrūq, sans attribution", avis: "La prière déjà faite avec les ablutions doit être obligatoire.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « (وَ) نُدِبَ (تَجْدِيدُ وُضُوءٍ) لِصَلَاةٍ وَلَوْ نَافِلَةً أَوْ طَوَافٍ », si l'on a prié avec, même une prière surérogatoire, ou fait avec un acte qui exige la pureté, « كَطَوَافٍ وَمَسِّ مُصْحَفٍ عَلَى الرَّاجِحِ » ; sans cela, « يُكْرَهُ أَوْ يُمْنَعُ », la répugnance étant l'avis retenu (al-Dasūqī : « وَتَقَدَّمَ أَنَّ الْمُعْتَمَدَ الْكَرَاهَةُ »).",
+    tarjih_hattab: "Le sens apparent du matn vaut pour la prière obligatoire ou surérogatoire, même de deux rakʿa, et pour les sept tours du ṭawâf : « وَهُوَ كَذَلِكَ » (d'après aṭ-Ṭirāz).",
+    tanbihat: [
+      "Al-Jazūlī (sur la Risāla) : « إنْ لَمْ يُصَلِّ بِالْوُضُوءِ فَلَا يُعِيدُهُ إلَّا أَنْ يَكُونَ تَوَضَّأَ أَوَّلًا وَاحِدَةً وَاحِدَةً أَوْ اثْنَتَيْنِ اثْنَتَيْنِ »."
+    ],
+    divergences: [
+      "Concordance — prière obligatoire ou surérogatoire, ṭawâf. Al-Ḥaṭṭāb : « صَلَّى بِهِ فَرِيضَةً أَوْ نَافِلَةً … أَوْ طَافَ بِهِ سَبْعًا ». Al-Dardīr : « إنْ صَلَّى بِهِ) وَلَوْ نَفْلًا أَوْ فَعَلَ بِهِ مَا يَتَوَقَّفُ عَلَى طَهَارَةٍ كَطَوَافٍ ».",
+      "Point à comparer — le contact du Coran. Al-Ḥaṭṭāb n'en parle pas ici ; Ibn al-ʿArabī rapporte de la plupart : « يُجَدِّدُ إذَا صَلَّى وَفَعَلَ فِعْلًا يَفْتَقِرُ إلَى الطَّهَارَةِ ». Al-Dardīr : « وَمَسِّ مُصْحَفٍ عَلَى الرَّاجِحِ ». Al-Kharashī (91, p. 158) : « لَا كَمَسِّ الْمُصْحَفِ ».",
+      "Concordance — compléter une ablution faite une ou deux fois. Al-Ḥaṭṭāb, d'après al-Jazūlī (ci-dessus). Al-Dasūqī : « مَا لَمْ يَكُنْ تَوَضَّأَ أَوَّلًا وَاحِدَةً وَاحِدَةً أَوْ اثْنَتَيْنِ اثْنَتَيْنِ فَلَهُ أَنْ يُجَدِّدَ بِحَيْثُ يُكْمِلُ الثَّلَاثَ ».",
+      "Complément — l'intention. Al-Ḥaṭṭāb n'en parle pas. Al-Dasūqī, d'après Aḥmad az-Zarqānī : « أَنْ يَنْوِيَ الْفَضِيلَةَ »."
+    ],
+    exemple: "Un homme fait ses ablutions pour le ẓuhr, le prie, puis reste à la mosquée jusqu'au ʿaṣr : il lui est recommandé de renouveler ses ablutions avant le ʿaṣr. Mais s'il refait ses ablutions juste après les avoir faites, sans avoir encore prié, il fait une chose déconseillée.",
+    erreurs_frequentes: [
+      "Renouveler ses ablutions avant d'avoir prié avec : c'est déconseillé, sauf pour compléter le nombre de lavages.",
+      "Croire que les ablutions faites pour une prière surérogatoire ne permettent pas une prière obligatoire : Saḥnūn explique la parole de Mālik comme une simple recommandation.",
+      "Appliquer la même recommandation au grand lavage : le répéter à chaque prière n'a pas de mérite, et peut être une innovation."
+    ],
+    termes: [],
+    quiz: [
+      { q: "Selon al-Ḥaṭṭāb (d'après aṭ-Ṭirāz), le renouvellement est recommandé si l'on a prié avec ses ablutions :",
+        choix: ["Une prière obligatoire ou surérogatoire, même de deux rakʿa, ou fait le ṭawâf", "Seulement une prière obligatoire", "Seulement deux prières", "Seulement le ṭawâf"],
+        bonne: 0,
+        explication: "« ظَاهِرُهُ صَلَّى بِهِ فَرِيضَةً أَوْ نَافِلَةً وَلَوْ رَكْعَتَيْنِ فَقَطْ أَوْ طَافَ بِهِ سَبْعًا وَهُوَ كَذَلِكَ »." },
+      { q: "Mise en situation : une femme fait ses ablutions, puis, n'ayant rien fait avec, veut les refaire pour être plus sûre. Selon al-Dasūqī :",
+        choix: ["C'est recommandé", "C'est obligatoire", "C'est permis sans réserve", "C'est déconseillé (avis retenu)"],
+        bonne: 3,
+        explication: "Al-Dardīr : « يُكْرَهُ أَوْ يُمْنَعُ » ; al-Dasūqī : « وَتَقَدَّمَ أَنَّ الْمُعْتَمَدَ الْكَرَاهَةُ »." },
+      { q: "Qu'en est-il du grand lavage répété à chaque prière, selon al-Lakhmī et Zarrūq ?",
+        choix: ["C'est recommandé comme les ablutions", "C'est obligatoire le vendredi seulement", "Il n'a pas de mérite, et peut même être une innovation", "Il remplace les ablutions"],
+        bonne: 2,
+        explication: "Al-Lakhmī : « وَلَا فَضِيلَةَ فِي تَكْرَارِ الْغُسْلِ » ; Zarrūq : « بَلْ رُبَّمَا كَانَ بِدْعَةً »." },
+      { q: "Celui qui a lavé chaque membre une seule fois peut-il renouveler ses ablutions avant d'avoir prié ?",
+        choix: ["Non, jamais", "Oui, pour compléter jusqu'à trois", "Oui, autant de fois qu'il veut", "Seulement pour le ṭawâf"],
+        bonne: 1,
+        explication: "Al-Jazūlī : « إلَّا أَنْ يَكُونَ تَوَضَّأَ أَوَّلًا وَاحِدَةً وَاحِدَةً » ; al-Dasūqī : « بِحَيْثُ يُكْمِلُ الثَّلَاثَ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "302–303" },
+    alertes: [
+      "Précisé (campagne de correction) : chez ash-Shabībī, « وَتَجْدِيدُهُ لِكُلِّ صَلَاةٍ بَعْدَ صَلَاةٍ فَرْضٌ » (569/302) ; la vocalisation « فَرْضٌ » ferait dire que le renouvellement est obligatoire, alors qu'ash-Shabībī le range parmi les ablutions recommandées ; à lire « بَعْدَ صَلَاةِ فَرْضٍ » ; le commentaire d'ash-Shabībī est introuvable ; non cité (n° 362).",
+      "Précisé (campagne de correction) : Zarrūq cité « إذْ يُسْتَحَبُّ تَجْدِيدُهُ لِكُلِّ صَلَاةِ فَرْضٍ بَعْدَ صَلَاتِهِ بِهِ وَقِيلَ: يُشْتَرَطُ كَوْنُهَا فَرْضًا » (569/302) ; le commentaire de Zarrūq (14556, p. 109) : « اذ يستحب تجديده لكل صلاة فرض بعد صلاة به وقيل كونها فرضا » (sans « يُشْتَرَطُ ») ; la fiche ne cite que le début, identique (n° 363).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 124 (Shamela 21604, page 123)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-06-19",
+    kitab: "tah", bab: "01", fasl: "06", ordre: 19,
+    titre: "Douter pendant la prière, puis apprendre qu'on était pur",
+    titre_ar: "وَلَوْ شَكَّ فِي صَلَاتِهِ ثُمَّ بَانَ الطُّهْرُ لَمْ يُعِدْ",
+    objectif: "Savoir ce que fait celui qui doute de ses ablutions pendant la prière, et quand il la refait.",
+    matn: "وَلَوْ شَكَّ فِي صَلَاتِهِ ثُمَّ بَانَ الطُّهْرُ لَمْ يُعِدْ",
+    regle_pratique: "Celui qui est entré en prière sûr de ses ablutions et qui doute, pendant la prière, d'avoir eu un ḥadath, poursuit sa prière ; s'il apprend ensuite qu'il était pur, il ne la refait pas ; s'il reste dans le doute, il la refait ; s'il doute d'avoir fait ses ablutions, il interrompt la prière.",
+    qualification: {
+      hukm: "wajib",
+      nature: "autre",
+      effet_si_omis: "Pureté avérée : la prière n'est pas à refaire. Doute persistant : il refait ses ablutions et la prière ; ceux qui priaient derrière lui ne la refont pas (al-Dardīr)."
+    },
+    explication: "Le cas complète celui de la fiche 14 : le doute survient pendant la prière.\n\nAl-Ḥaṭṭāb se demande s'il faut interrompre la prière ou la poursuivre, et répond que la question suit les deux avis déjà rapportés (fiche 14 : aṭ-Ṭirāz, et at-Tawḍīḥ d'après al-Bājī ; voir les alertes). Il cite une fatwa tirée du Mukhtaṣar d'al-Burzulī : à celui qui, plusieurs fois, trouve une humidité pendant la prière, interrompt et ne trouve rien, on répond « أَنَّهُ يَقْطَعُ صَلَاتَهُ وَيَسْتَبْرِئُ » ; et s'il poursuit malgré le doute et que la pureté apparaît, « صَحَّتْ عَلَى مَذْهَبِ ابْنِ الْقَاسِمِ وَأَعَادَهَا عَلَى مَذْهَبِ غَيْرِهِ ».\n\nAl-Dardīr : celui qui doute pendant la prière, après y être entré sûr de sa pureté, que ce soit d'un ḥadath avant la prière ou pendant, « وَجَبَ عَلَيْهِ التَّمَادِي فِيهِمَا » ; si la pureté apparaît pendant ou après, « لَمْ يُعِدْ) صَلَاتَهُ لِبَقَاءِ الطَّهَارَةِ فِي نَفْسِ الْأَمْرِ » ; « فَإِنْ اسْتَمَرَّ عَلَى شَكِّهِ أَعَادَهَا لِنَقْضِ وُضُوئِهِ وَلَا يُعِيدُ مَأْمُومُهُ كَالنَّاسِي ». Il distingue : s'il doute avant d'entrer en prière, il n'y entre pas, car le doute a annulé ses ablutions ; s'il doute pendant, « لِأَنَّ دُخُولَهَا جَازِمًا بِالطُّهْرِ قَوَّى جَانِبَ الصَّلَاةِ » ; et s'il doute d'avoir fait ses ablutions, « لَوَجَبَ الْقَطْعُ، وَاسْتَخْلَفَ إنْ كَانَ إمَامًا ». Il juge préférable de placer ce segment avant « لَا بِمَسِّ دُبُرٍ ».\n\nAl-Dasūqī : le doute inclut ici l'opinion probable (ظَنّ), même forte ; le soupçon (وَهْم) ne compte pas ; l'obligation de poursuivre vient d'Ibn Rushd et d'autres, « تَرْجِيحًا لِجَانِبِ الْعِبَادَةِ » ; la prière n'est pas refaite « أَيْ عِنْدَ مَالِكٍ وَابْنِ الْقَاسِمِ خِلَافًا لِأَشْهَبَ وَسَحْنُونٍ الْقَائِلَيْنِ بِبُطْلَانِهَا بِمُجَرَّدِ الشَّكِّ ».",
+    aqwal: [
+      { auteur: "Mālik et Ibn al-Qāsim (d'après al-Dasūqī ; Ibn al-Qāsim d'après al-Burzulī)", avis: "S'il poursuit et que la pureté apparaît, la prière est valable.", statut: "non_precise" },
+      { auteur: "Ashhab et Saḥnūn (d'après al-Dasūqī)", avis: "La prière est nulle par le seul doute ; il l'interrompt.", statut: "non_precise" },
+      { auteur: "Fatwa sans nom (Mukhtaṣar d'al-Burzulī, cité par al-Ḥaṭṭāb)", avis: "Celui qui trouve une humidité pendant la prière l'interrompt et vérifie.", statut: "non_precise" },
+      { auteur: "Ibn Rushd et d'autres (d'après al-Dasūqī)", avis: "Il doit poursuivre la prière.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « وَجَبَ عَلَيْهِ التَّمَادِي فِيهِمَا » ; pureté avérée, « لَمْ يُعِدْ) صَلَاتَهُ » ; doute persistant, « أَعَادَهَا لِنَقْضِ وُضُوئِهِ » ; doute sur les ablutions elles-mêmes, « لَوَجَبَ الْقَطْعُ ».",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Al-Ḥaṭṭāb laisse ouverte la question d'interrompre ou de poursuivre, en la rattachant aux deux avis de la fiche 14."
+    ],
+    divergences: [
+      "Point à comparer — interrompre ou poursuivre. Al-Ḥaṭṭāb : « وَانْظُرْ هَلْ يُؤْمَرُ بِالْقَطْعِ أَوْ بِالتَّمَادِي », puis la fatwa d'al-Burzulī, « أَنَّهُ يَقْطَعُ صَلَاتَهُ وَيَسْتَبْرِئُ ». Al-Dardīr : « وَجَبَ عَلَيْهِ التَّمَادِي فِيهِمَا » ; al-Dasūqī : « أَيْ كَمَا قَالَ ابْنُ رُشْدٍ وَغَيْرُهُ تَرْجِيحًا لِجَانِبِ الْعِبَادَةِ وَهَذَا الْوُجُوبُ لَا يُفْهَمُ مِنْ كَلَامِ الْمُصَنِّفِ ».",
+      "Complément — l'imam. Al-Ḥaṭṭāb n'en parle pas ici. Al-Dardīr : « وَلَا يُعِيدُ مَأْمُومُهُ كَالنَّاسِي ».",
+      "Complément — douter de l'ordre pendant la prière. Al-Ḥaṭṭāb n'en parle pas. Al-Dasūqī : celui qui doute pendant la prière de ce qui est venu en premier interrompt aussi, « وَلَوْ كَانَ مُسْتَنْكِحًا كَمَا جَزَمَ بِهِ عج وَارْتَضَاهُ شَيْخُنَا خِلَافًا لِمَا فِي عبق مِنْ التَّمَادِي » (عج : sigle non défini dans la liste d'al-Dasūqī ; عبق : ʿAbd al-Bāqī az-Zurqānī ; « شَيْخُنَا » : son maître al-ʿAdawī).",
+      "Complément — le doute après la prière. Al-Dasūqī : « وَأَمَّا إذَا حَصَلَ الشَّكُّ بَعْدَهَا فَلَا يَضُرُّ إلَّا إذَا تَبَيَّنَ الْحَدَثَ »."
+    ],
+    exemple: "Au milieu du ʿaṣr, un homme se demande s'il n'a pas laissé échapper un vent. Il poursuit sa prière. Après le salut, il se rend compte que non : sa prière est valable. S'il était resté dans le doute, il aurait refait ses ablutions et sa prière.",
+    erreurs_frequentes: [
+      "Interrompre la prière au premier doute sur un ḥadath : selon al-Dardīr, il faut la poursuivre.",
+      "Croire que la prière poursuivie dans le doute est toujours valable : si le doute persiste, on la refait.",
+      "Confondre douter d'un ḥadath et douter d'avoir fait ses ablutions : dans le second cas, on interrompt."
+    ],
+    termes: [],
+    quiz: [
+      { q: "Pendant la prière, un homme doute d'avoir eu un ḥadath. Selon al-Dardīr :",
+        choix: ["Il interrompt et refait ses ablutions", "Il interrompt seulement s'il est imam", "Il termine puis refait la prière dans tous les cas", "Il doit poursuivre sa prière"],
+        bonne: 3,
+        explication: "« وَجَبَ عَلَيْهِ التَّمَادِي فِيهِمَا »." },
+      { q: "Après la prière, il apprend qu'il était bien pur :",
+        choix: ["Il refait la prière par précaution", "Il ne refait pas la prière", "Il refait seulement ses ablutions", "Il fait une prosternation de l'oubli"],
+        bonne: 1,
+        explication: "Khalīl : « ثُمَّ بَانَ الطُّهْرُ لَمْ يُعِدْ » ; al-Dardīr : « لِبَقَاءِ الطَّهَارَةِ فِي نَفْسِ الْأَمْرِ »." },
+      { q: "Mise en situation : un imam doute, pendant la prière, d'avoir eu un ḥadath ; il termine, et le doute persiste. Selon al-Dardīr :",
+        choix: ["Lui et ceux qui ont prié derrière lui refont la prière", "Ni lui ni eux ne la refont", "Il refait la prière ; ceux qui ont prié derrière lui ne la refont pas", "Eux seuls la refont"],
+        bonne: 2,
+        explication: "« فَإِنْ اسْتَمَرَّ عَلَى شَكِّهِ أَعَادَهَا لِنَقْضِ وُضُوئِهِ وَلَا يُعِيدُ مَأْمُومُهُ كَالنَّاسِي »." },
+      { q: "Et s'il doute, pendant la prière, d'avoir fait ses ablutions ?",
+        choix: ["Il interrompt la prière, et désigne un remplaçant s'il est imam", "Il poursuit", "Il poursuit puis refait la prière", "Il ne fait rien"],
+        bonne: 0,
+        explication: "« لَوَجَبَ الْقَطْعُ، وَاسْتَخْلَفَ إنْ كَانَ إمَامًا »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "303" },
+    alertes: [
+      "Précisé (campagne de correction) : « يَجْرِي ذَلِكَ عَلَى الْقَوْلَيْنِ الْمُتَقَدِّمَيْنِ عَنْ صَاحِبِ الطِّرَازِ وَالْبَاجِيِّ عَنْ سَنَدٍ » (569/302) : attribution embrouillée ; le passage visé (569/300, fiche 14) dit « فَرَّعَ صَاحِبُ الطِّرَازِ … وَذَكَرَ فِي ذَلِكَ قَوْلَيْنِ ذَكَرَهُمَا فِي التَّوْضِيحِ عَنْ الْبَاجِيّ » ; Sanad est l'auteur d'aṭ-Ṭirāz ; la fiche renvoie aux deux avis sans préciser davantage (n° 364).",
+      "Non résolu : dans la fatwa d'al-Burzulī, « فَيَقْطَعُ فَلَا يَبْدُ شَيْئًا » (569/302) : « يَبْدُ » est douteux (« يَجِدُ » ?) ; le Mukhtaṣar d'al-Burzulī est introuvable ; le sens (il ne trouve rien) est sûr par la suite ; passage non cité (n° 365).",
+      "Al-Kharashī (91, p. 158) : « لَمْ يُعِدْهَا عِنْدَ مَالِكٍ وَابْنِ الْقَاسِمِ إنْ لَمْ يَكُنْ نَوَاهَا نَافِلَةً » ; il note aussi que les mots de Khalīl ne disent pas l'obligation de poursuivre.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 124–125 (Shamela 21604, pages 123–124)."
+    ],
+    verification: "verifie"
+  }
+
+  /* FIN-UNITE-49 */
 ]);

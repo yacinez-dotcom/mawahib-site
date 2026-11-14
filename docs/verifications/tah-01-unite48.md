@@ -6,7 +6,7 @@ Date : 2026-11-14. Fichier : nouvelle partie `data/lecons/tah/tah-01-p23.js` v9.
 
 Quatre segments du « ص » de Mawāhib, de « وَمُطْلَقُ مَسِّ ذَكَرِهِ الْمُتَّصِلِ وَلَوْ خُنْثَى مُشْكِلًا » à « إلَّا الْمُسْتَنْكِحُ » (Shamela 569/298–300, t. 1, p. 299–301) ; le commentaire s'arrête en 569/300, avant « ص (لَا بِمَسِّ ».
 
-Comparaison préalable avec le Mukhtaṣar seul (11355, p. 17), Ibn Ghāzī (14605, p. 35), al-Dardīr (21604/120–122), al-Kharashī (91, p. 155–157) et ʿUlaysh (21614, p. 104) : le « ص » de Mawāhib omet la fin de 12, « بِبَطْنٍ أَوْ جَنْبٍ لِكَفٍّ أَوْ أُصْبُعٍ وَإِنْ زَائِدًا حَسَّ », et tout le segment « وَبِشَكٍّ فِي سَابِقِهِمَا » (absent aussi du matn d'Ibn Ghāzī), qu'al-Ḥaṭṭāb ne commente pas (569/280–330 relus ; n° 354). D'où le matn de 12c complété et commenté d'après al-Dardīr (comme le n° 304), et la fiche 15b rédigée d'après al-Dardīr / al-Dasūqī avec `ref` sur al-Dardīr (comme 09b, 09c).
+Comparaison préalable avec le Mukhtaṣar seul (11355, p. 17), Ibn Ghāzī (14605, p. 35), al-Dardīr (21604/120–122), al-Kharashī (91, p. 155–157) et ʿUlaysh (21614, p. 104) : le « ص » de Mawāhib omet la fin de 12, « بِبَطْنٍ أَوْ جَنْبٍ لِكَفٍّ أَوْ أُصْبُعٍ وَإِنْ زَائِدًا حَسَّ », et tout le segment « وَبِشَكٍّ فِي سَابِقِهِمَا » (Ibn Ghāzī l'a, 14605, p. 36 : lu à tort comme absent sur la seule p. 35, précisé à l'unité 49), qu'al-Ḥaṭṭāb ne commente pas (569/280–330 relus ; n° 354). D'où le matn de 12c complété et commenté d'après al-Dardīr (comme le n° 304), et la fiche 15b rédigée d'après al-Dardīr / al-Dasūqī avec `ref` sur al-Dardīr (comme 09b, 09c).
 
 | Fiche | Contenu | Réf. | Shamela 569 | al-Dardīr / al-Dasūqī (t. 1) | Shamela 21604 |
 |---|---|---|---|---|---|
