@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.40 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.41 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -67,7 +67,9 @@
    v1.38 : tah-01-05-33 devient 33a, et 33b ajouté (« وَمُنْتَشِرٍ عَنْ مَخْرَجٍ كَثِيرًا », absent du « ص » de Mawāhib, n° 316) ; titre arabe de -34 « وَمَذْيٍ » (n° 317) ; -36 découpé en 36a et 36b ; -37 découpé en 37a et 37b, « وَدُونَ الثَّلَاثِ » (n° 324) (unité 45).
    v1.39 : titre arabe de tah-01-06-01 « نُقِضَ الْوُضُوءُ » (n° 327) ; -03 découpé en 03a et 03b ; -06 découpé en 06a et 06b (unité 46).
    v1.40 : tah-01-06-09b et -09c ajoutés (« إنْ قَصَدَ لَذَّةً … » et « إلَّا الْقُبْلَةَ بِفَمٍ … », absents du « ص » de Mawāhib, n° 338) ;
-          titre arabe de -10 complété, « وَلَا لَذَّةٌ بِنَظَرٍ كَإِنْعَاظٍ » ; titres de -07 à -11 précisés (unité 47). */
+          titre arabe de -10 complété, « وَلَا لَذَّةٌ بِنَظَرٍ كَإِنْعَاظٍ » ; titres de -07 à -11 précisés (unité 47).
+   v1.41 : tah-01-06-12 découpé en 12a, 12b, 12c, titre arabe complété (« بِبَطْنٍ … حَسَّ », absent du « ص ») ;
+          titre arabe de -15 « إلَّا الْمُسْتَنْكِحَ » (n° 353) ; -15b ajouté (« وَبِشَكٍّ فِي سَابِقِهِمَا », absent du « ص » de Mawāhib, n° 354) (unité 48). */
 App.data.definirPlan({
   kutub: [
     {
@@ -483,7 +485,7 @@ App.data.definirPlan({
                 { id: "tah-01-05-37b", titre: "Moins de trois pierres", titre_ar: "وَدُونَ الثَّلَاثِ" } /* p. 290 ; « وَدُونَ » (n° 324, v1.38) */
               ]
             },
-            /* tah-01-06 — t. 1, p. 290–304 (Shamela 569, pages 289–303) — 24 segments du matn, dont 09b et 09c */
+            /* tah-01-06 — t. 1, p. 290–304 (Shamela 569, pages 289–303) — 25 segments du matn, dont 09b, 09c et 15b */
             {
               id: "tah-01-06",
               titre: "Ce qui annule les ablutions",
@@ -504,10 +506,13 @@ App.data.definirPlan({
                 { id: "tah-01-06-09c", titre: "Le baiser sur la bouche", titre_ar: "إلَّا الْقُبْلَةَ بِفَمٍ مُطْلَقًا …" }, /* absent du « ص » de Mawāhib ; al-Dardīr, t. 1, p. 120–121 (n° 338, v1.40) */
                 { id: "tah-01-06-10", titre: "Ni le plaisir du regard, comme l'érection", titre_ar: "وَلَا لَذَّةٌ بِنَظَرٍ كَإِنْعَاظٍ" }, /* p. 298 ; début du matn complété (n° 338, v1.40) */
                 { id: "tah-01-06-11", titre: "Le plaisir avec une proche interdite au mariage", titre_ar: "وَلَذَّةٍ بِمَحْرَمٍ عَلَى الْأَصَحِّ" }, /* p. 298–299 */
-                { id: "tah-01-06-12", titre: "Toucher son membre", titre_ar: "وَمُطْلَقُ مَسِّ ذَكَرِهِ الْمُتَّصِلِ وَلَوْ خُنْثَى …" }, /* p. 299 */
+                { id: "tah-01-06-12a", titre: "Toucher son propre membre, attaché au corps", titre_ar: "وَمُطْلَقُ مَسِّ ذَكَرِهِ الْمُتَّصِلِ" }, /* p. 299 (v1.41) */
+                { id: "tah-01-06-12b", titre: "À travers un écran ; la prière faite sans refaire ses ablutions", titre_ar: "إذَا مَسَّهُ عَلَى حَائِلٍ" }, /* p. 299–300 ; sous-fiche de 12 (v1.41) */
+                { id: "tah-01-06-12c", titre: "Même l'hermaphrodite ; avec quelle partie de la main", titre_ar: "وَلَوْ خُنْثَى مُشْكِلًا بِبَطْنٍ أَوْ جَنْبٍ لِكَفٍّ أَوْ أُصْبُعٍ وَإِنْ زَائِدًا حَسَّ" }, /* p. 300 ; fin du segment absente du « ص » (v1.41) */
                 { id: "tah-01-06-13", titre: "Par l'apostasie", titre_ar: "وَبِرِدَّةٍ" }, /* p. 300 */
-                { id: "tah-01-06-14", titre: "Doute sur un hadath après une pureté certaine", titre_ar: "وَبِشَكٍّ فِي حَدَثٍ بَعْدَ طُهْرٍ عُلِمَ" }, /* p. 300 */
-                { id: "tah-01-06-15", titre: "… sauf le douteur obsessionnel", titre_ar: "إلَّا الْمُسْتَنْكِحُ" }, /* p. 301 */
+                { id: "tah-01-06-14", titre: "Douter d'un ḥadath après une pureté certaine", titre_ar: "وَبِشَكٍّ فِي حَدَثٍ بَعْدَ طُهْرٍ عُلِمَ" }, /* p. 300 */
+                { id: "tah-01-06-15", titre: "… sauf le doute chronique", titre_ar: "إلَّا الْمُسْتَنْكِحَ" }, /* p. 301 ; accusatif (n° 353, v1.41) */
+                { id: "tah-01-06-15b", titre: "Douter de ce qui est venu en premier : la pureté ou le ḥadath", titre_ar: "وَبِشَكٍّ فِي سَابِقِهِمَا" }, /* absent du « ص » de Mawāhib ; al-Dardīr, t. 1, p. 123 (n° 354, v1.41) */
                 { id: "tah-01-06-16", titre: "Ce qui n'annule pas (anus, vomissure, chameau, rire…)", titre_ar: "لَا بِمَسِّ دُبُرٍ أَوْ أُنْثَيَيْنِ أَوْ …" }, /* p. 301 */
                 { id: "tah-01-06-17", titre: "Recommandé : se rincer la bouche après viande et lait", titre_ar: "وَنُدِبَ غَسْلُ فَمٍ مِنْ لَحْمٍ وَلَبَنٍ" }, /* p. 302 */
                 { id: "tah-01-06-18", titre: "Renouveler les ablutions si on a prié avec", titre_ar: "وَتَجْدِيدُ وُضُوءٍ إنْ صَلَّى بِهِ" }, /* p. 302 */
