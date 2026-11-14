@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.39 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.40 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -65,7 +65,9 @@
    v1.36 : titres arabes de tah-01-05-17 à -21 au génitif (dépendent de « وَاتِّقَاءُ », anomalie n° 301) ; matn de 23 complété (« عَكْسُ مَسْجِدٍ وَالْمَنْزِلُ يُمْنَاهُ بِهِمَا », n° 304) ; tah-01-05-24 découpé en 24a (miction et selles) et 24b (rapport conjugal), « مُسْتَقْبِلَ قِبْلَةٍ » (n° 305) (unité 43).
    v1.37 : titre arabe de tah-01-05-26 complété (« وَالْمُخْتَارُ التَّرْكُ », n° 306) ; -28 au génitif « وَبَيْتِ الْمَقْدِسِ » (n° 307) ; -30 « خَفَّا » (n° 308) et découpé en 30a (manière de l'istibrâ') et 30b (le lavage) (unité 44).
    v1.38 : tah-01-05-33 devient 33a, et 33b ajouté (« وَمُنْتَشِرٍ عَنْ مَخْرَجٍ كَثِيرًا », absent du « ص » de Mawāhib, n° 316) ; titre arabe de -34 « وَمَذْيٍ » (n° 317) ; -36 découpé en 36a et 36b ; -37 découpé en 37a et 37b, « وَدُونَ الثَّلَاثِ » (n° 324) (unité 45).
-   v1.39 : titre arabe de tah-01-06-01 « نُقِضَ الْوُضُوءُ » (n° 327) ; -03 découpé en 03a et 03b ; -06 découpé en 06a et 06b (unité 46). */
+   v1.39 : titre arabe de tah-01-06-01 « نُقِضَ الْوُضُوءُ » (n° 327) ; -03 découpé en 03a et 03b ; -06 découpé en 06a et 06b (unité 46).
+   v1.40 : tah-01-06-09b et -09c ajoutés (« إنْ قَصَدَ لَذَّةً … » et « إلَّا الْقُبْلَةَ بِفَمٍ … », absents du « ص » de Mawāhib, n° 338) ;
+          titre arabe de -10 complété, « وَلَا لَذَّةٌ بِنَظَرٍ كَإِنْعَاظٍ » ; titres de -07 à -11 précisés (unité 47). */
 App.data.definirPlan({
   kutub: [
     {
@@ -481,7 +483,7 @@ App.data.definirPlan({
                 { id: "tah-01-05-37b", titre: "Moins de trois pierres", titre_ar: "وَدُونَ الثَّلَاثِ" } /* p. 290 ; « وَدُونَ » (n° 324, v1.38) */
               ]
             },
-            /* tah-01-06 — t. 1, p. 290–304 (Shamela 569, pages 289–303) — 22 segments du matn */
+            /* tah-01-06 — t. 1, p. 290–304 (Shamela 569, pages 289–303) — 24 segments du matn, dont 09b et 09c */
             {
               id: "tah-01-06",
               titre: "Ce qui annule les ablutions",
@@ -495,11 +497,13 @@ App.data.definirPlan({
                 { id: "tah-01-06-05", titre: "Par les deux voies, ou une ouverture sous l'estomac", titre_ar: "مِنْ مَخْرَجَيْهِ أَوْ ثُقْبَةٍ تَحْتَ الْمَعِدَةِ …" }, /* p. 293 */
                 { id: "tah-01-06-06a", titre: "Par sa cause : la perte de raison", titre_ar: "وَبِسَبَبِهِ وَهُوَ زَوَالُ عَقْلٍ" }, /* p. 294–296 (v1.39) */
                 { id: "tah-01-06-06b", titre: "Le sommeil : lourd ou léger, court ou long", titre_ar: "وَإِنْ بِنَوْمٍ ثَقُلَ وَلَوْ قَصُرَ لَا خَفَّ وَنُدِبَ إنْ طَالَ" }, /* p. 294–296 ; sous-fiche de 06 (v1.39) */
-                { id: "tah-01-06-07", titre: "Toucher avec un plaisir habituel", titre_ar: "وَلَمْسٌ يَلْتَذُّ صَاحِبُهُ بِهِ عَادَةً" }, /* p. 296 */
+                { id: "tah-01-06-07", titre: "Toucher une personne qu'on désire d'ordinaire", titre_ar: "وَلَمْسٌ يَلْتَذُّ صَاحِبُهُ بِهِ عَادَةً" }, /* p. 296–297 */
                 { id: "tah-01-06-08", titre: "… même un ongle ou un cheveu", titre_ar: "وَلَوْ كَظُفُرٍ أَوْ شَعْرٍ" }, /* p. 297 */
-                { id: "tah-01-06-09", titre: "… ou à travers un écran", titre_ar: "أَوْ حَائِلٍ وَأُوِّلَ بِالْخَفِيفِ وَبِالْإِطْلَاقِ" }, /* p. 297 */
-                { id: "tah-01-06-10", titre: "Comme l'érection", titre_ar: "كَإِنْعَاظٍ" }, /* p. 298 */
-                { id: "tah-01-06-11", titre: "Plaisir avec une proche interdite (al-asahh)", titre_ar: "وَلَذَّةٍ بِمَحْرَمٍ عَلَى الْأَصَحِّ" }, /* p. 298 */
+                { id: "tah-01-06-09", titre: "… ou à travers un vêtement", titre_ar: "أَوْ حَائِلٍ وَأُوِّلَ بِالْخَفِيفِ وَبِالْإِطْلَاقِ" }, /* p. 297–298 */
+                { id: "tah-01-06-09b", titre: "Rechercher le plaisir ou l'éprouver", titre_ar: "إنْ قَصَدَ لَذَّةً أَوْ وَجَدَهَا لَا انْتَفَيَا" }, /* absent du « ص » de Mawāhib ; al-Dardīr, t. 1, p. 120 (n° 338, v1.40) */
+                { id: "tah-01-06-09c", titre: "Le baiser sur la bouche", titre_ar: "إلَّا الْقُبْلَةَ بِفَمٍ مُطْلَقًا …" }, /* absent du « ص » de Mawāhib ; al-Dardīr, t. 1, p. 120–121 (n° 338, v1.40) */
+                { id: "tah-01-06-10", titre: "Ni le plaisir du regard, comme l'érection", titre_ar: "وَلَا لَذَّةٌ بِنَظَرٍ كَإِنْعَاظٍ" }, /* p. 298 ; début du matn complété (n° 338, v1.40) */
+                { id: "tah-01-06-11", titre: "Le plaisir avec une proche interdite au mariage", titre_ar: "وَلَذَّةٍ بِمَحْرَمٍ عَلَى الْأَصَحِّ" }, /* p. 298–299 */
                 { id: "tah-01-06-12", titre: "Toucher son membre", titre_ar: "وَمُطْلَقُ مَسِّ ذَكَرِهِ الْمُتَّصِلِ وَلَوْ خُنْثَى …" }, /* p. 299 */
                 { id: "tah-01-06-13", titre: "Par l'apostasie", titre_ar: "وَبِرِدَّةٍ" }, /* p. 300 */
                 { id: "tah-01-06-14", titre: "Doute sur un hadath après une pureté certaine", titre_ar: "وَبِشَكٍّ فِي حَدَثٍ بَعْدَ طُهْرٍ عُلِمَ" }, /* p. 300 */

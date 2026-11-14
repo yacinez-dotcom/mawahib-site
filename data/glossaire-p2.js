@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.50
+/* Données — Glossaire, partie 2 — v1.51
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -25,7 +25,8 @@
    v1.47 : 6 termes de l'unité 43 (tah-01-05-17 à -24b).
    v1.48 : 9 termes de l'unité 44 (tah-01-05-25 à -32).
    v1.49 : 6 termes de l'unité 45 (tah-01-05-33a à -37b).
-   v1.50 : 6 termes de l'unité 46 (tah-01-06-01 à -06b). */
+   v1.50 : 6 termes de l'unité 46 (tah-01-06-01 à -06b).
+   v1.51 : 7 termes de l'unité 47 (tah-01-06-07 à -11). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -330,7 +331,14 @@ App.data.ajouterTermes([
   { ar: "حُقْنَة", translit: "houqna", def: "Lavement : remède introduit par l'anus." },
   { ar: "ثُقْبَة", translit: "thouqba", def: "Ouverture, trou dans le corps par où sort le ḥadath." },
   { ar: "إِغْمَاء", translit: "ighmâ'", def: "Évanouissement, perte de connaissance." },
-  { ar: "حَبْوَة", translit: "ḥabwa", def: "Étoffe ou bras qui entourent les genoux de celui qui est assis." }
+  { ar: "حَبْوَة", translit: "ḥabwa", def: "Étoffe ou bras qui entourent les genoux de celui qui est assis." },
+  { ar: "لَمْس", translit: "lams", def: "Toucher : contact où l'on recherche quelque chose (chaleur, douceur, plaisir) ; il n'annule qu'avec recherche ou sensation de plaisir." },
+  { ar: "مَسّ", translit: "mass", def: "Contact : rencontre de deux corps, quelle qu'en soit l'intention." },
+  { ar: "أَمْرَد", translit: "amrad", def: "Jeune garçon imberbe." },
+  { ar: "قُبْلَة", translit: "qoubla", def: "Baiser ; sur la bouche, il annule les ablutions même sans plaisir." },
+  { ar: "اسْتِغْفَال", translit: "istighfâl", def: "Prendre quelqu'un au dépourvu, par surprise." },
+  { ar: "إِنْعَاظ", translit: "inʿâz", def: "Érection du membre." },
+  { ar: "مَحْرَم", translit: "maḥram", def: "Proche parente qu'on ne peut jamais épouser, par la parenté, l'alliance ou le lait." }
 
   /* FIN-GLOSSAIRE */
 ]);

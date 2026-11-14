@@ -1,10 +1,13 @@
-/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 22 — v8.0
+/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 22 — v8.1
    Source : Mawāhib al-Jalīl, al-Ḥaṭṭāb, éd. Dār al-Fikr, 3e éd., 1412 H / 1992, tome 1 (shamela.ws/book/569).
    Croisement : al-Sharḥ al-kabīr d'al-Dardīr et Ḥāshiyat al-Dasūqī (shamela.ws/book/21604), tome 1.
    Cette partie : faṣl tah-01-06 (annulatifs des ablutions), à partir de tah-01-06-01 (unités 46 et suivantes) — t. 1, p. 290 et suivantes.
    v8.0 : unité 46 — tah-01-06-01, -02, -03a, -03b, -04, -05, -06a, -06b (Mawāhib, t. 1, p. 290–296 ;
           al-Dardīr / al-Dasūqī, t. 1, p. 114–119) (2026-11-14) ; nouvelle partie, tah-01-p21.js (≈ 141 Ko) étant figée
           (nouveau faṣl) ; anomalies n° 327 à 332.
+   v8.1 : unité 47 — tah-01-06-07, -08, -09, -09b, -09c, -10, -11 (Mawāhib, t. 1, p. 296–299 ;
+          al-Dardīr / al-Dasūqī, t. 1, p. 119–121) (2026-11-14) ; 09b et 09c : segments absents du « ص » de Mawāhib,
+          rédigés d'après al-Dardīr / al-Dasūqī ; matn de 10 complété ; anomalies n° 333 à 343.
    Bāb découpé en parties de moins de 200 Ko ;
    historique des versions : tah-01-p1.js (jusqu'à v2.5) puis l'en-tête de chaque partie. */
 App.data.ajouterFiches([
@@ -195,7 +198,7 @@ App.data.ajouterFiches([
     ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "291-292" },
     alertes: [
       "Corrigé (campagne de correction) : 569/291 imprime « قَالَ ابْنُ رُشْدٍ الْقَفْصِيُّ » ; la même page parle de « مَا شَهَرَهُ ابْنُ رَاشِدٍ فِي مَسْأَلَةِ التَّسَاوِي », at-Tawḍīḥ (14442, p. 144) a « ابن راشد والمشهور لا يجب » et al-Dasūqī « عَلَى مَا شَهَرَهُ ابْنُ رَاشِدٍ » : lire Ibn Rāshid (al-Qafṣī) (n° 328).",
-      "569/290, premier cas : « فَلَا يُنْتَقَضُ وُضُوءُ صَاحِبِهِ بِالْبَوْلِ الْمُعْتَادِ » : sens incertain ; « الْمُعْتَادِ » peut viser l'urine habituelle de son incontinence, alors qu'at-Tawḍīḥ (14442, p. 145), source d'al-Ḥaṭṭāb, dit de l'urine normale : « وأما المعتاد فلا إشكال في وجوب الوضوء منه » ; passage non cité (n° 329).",
+      "569/290, premier cas : « فَلَا يُنْتَقَضُ وُضُوءُ صَاحِبِهِ بِالْبَوْلِ الْمُعْتَادِ » : sens incertain ; « الْمُعْتَادِ » peut viser l'urine habituelle de son incontinence, alors qu'at-Tawḍīḥ (14442, p. 145), source d'al-Ḥaṭṭāb, dit de l'urine normale : « وأما المعتاد فلا إشكال في وجوب الوضوء منه » ; passage non cité (n° 329 ; audit après l'unité 47 : al-Kharashī 91, p. 151–153, al-Zurqānī 14297, p. 150–152, ʿUlaysh 21614, p. 98, relus sans témoin).",
       "Sous-fiche du segment tah-01-06-03 (les quatre cas) ; le madhy qu'on peut faire cesser et le cas du vent : fiche 03b.",
       "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 116–117 (Shamela 21604, pages 115–116)."
     ],
@@ -385,7 +388,7 @@ App.data.ajouterFiches([
     ],
     ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "293-294" },
     alertes: [
-      "569/292 : le second des trois cas est imprimé « الثَّانِيَةُ أَنْ لَا يَنْسَدَّ أَوْ تَكُونَ فَوْقَ الْمَعِدَةِ أَيْضًا » ; le sens demande « وَتَكُونَ » ; passage non cité (n° 331).",
+      "Corrigé (campagne de correction) : 569/292, le second des trois cas est imprimé « الثَّانِيَةُ أَنْ لَا يَنْسَدَّ أَوْ تَكُونَ فَوْقَ الْمَعِدَةِ أَيْضًا » ; al-Kharashī (91, p. 153), qui énumère les mêmes cas, a « أَوْ لَمْ يَنْسَدَّا وَهِيَ فَوْقَهَا » ; lire « وَتَكُونَ » (n° 331, audit après l'unité 47) ; passage non cité.",
       "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 117–118 (Shamela 21604, pages 116–117)."
     ],
     verification: "verifie"
@@ -527,4 +530,475 @@ App.data.ajouterFiches([
   }
 
   /* FIN-UNITE-46 */
+  ,
+
+  /* ================================================================== */
+  /* Unité 47 — tah-01-06-07 à -11 (le toucher, le baiser, le regard, l'érection, la proche interdite) */
+  /* Mawāhib, t. 1, p. 296–299 (Shamela 569/295–298) ; al-Dardīr / al-Dasūqī, t. 1, p. 119–121 (Shamela 21604/118–120) */
+  {
+    id: "tah-01-06-07",
+    kitab: "tah", bab: "01", fasl: "06", ordre: 7,
+    titre: "Toucher une personne qu'on désire d'ordinaire",
+    titre_ar: "وَلَمْسٌ يَلْتَذُّ صَاحِبُهُ بِهِ عَادَةً",
+    objectif: "Savoir quand le toucher annule les ablutions : qui touche, qui est touché, et ce qui est exclu.",
+    matn: "وَلَمْسٌ يَلْتَذُّ صَاحِبُهُ بِهِ عَادَةً",
+    regle_pratique: "Le toucher annule les ablutions quand celui qui touche est pubère, que la personne touchée est de celles qu'on désire d'ordinaire (femme, jeune garçon imberbe), et qu'il y a recherche ou sensation de plaisir (fiche 09b) ; toucher une petite fille qui n'éveille pas le désir, un homme à longue barbe ou le corps d'un animal n'annule pas, même avec plaisir.",
+    qualification: {
+      hukm: "fard",
+      nature: "mubtil",
+      effet_si_omis: "Après un tel toucher, il faut refaire ses ablutions avant de prier."
+    },
+    explication: "Le toucher (لَمْس) est la deuxième cause d'annulation, après la perte de raison. Al-Ḥaṭṭāb : « تَصَوُّرُهُ وَاضِحٌ » ; d'après le texte, peu importe que la personne touchée soit un homme ou une femme. Pour l'homme touché, il cite Ibn al-ʿAlāʾ as-Sabtī (Mansak) : celui qui fait les tournées autour de la Kaʿba évite de regarder une femme ou un jeune garçon, car certains savants tiennent que le plaisir du regard annule (voir la fiche 10), et il évite de toucher un jeune garçon, de lui serrer la main ou de l'étreindre.\n\nʿIyāḍ (Qawāʿid) compte parmi ce qui oblige aux ablutions « اللَّمْسُ لِلَّذَّةِ بَيْنَ الرِّجَالِ وَالنِّسَاءِ » : le baiser, la palpation, le toucher des garçons, ou du sexe de tout animal. Son commentateur al-Qabbāb : « يَعْنِي أَنَّ لَمْسَ الْغِلْمَانِ لِمَنْ قَصَدَ بِهِ اللَّذَّةَ كَلَمْسِ النِّسَاءِ » ; s'il éprouve le plaisir sans l'avoir cherché, il refait aussi ses ablutions ; et la règle vaut dans les deux sens, de l'homme vers la femme et de la femme vers l'homme. Al-Ḥaṭṭāb : « وَهَذَا ظَاهِرٌ » ; la Mudawwana : « وَإِذَا مَسَّتْ امْرَأَةٌ ذَكَرَ رَجُلٍ فَإِنْ كَانَ بِشَهْوَةٍ فَعَلَيْهَا الْوُضُوءُ » ; sans désir (maladie, soins), non. Ibn Farḥūn : « وَلَمْسُ الْأَمْرَدِ بِلَذَّةٍ يُوجِبُ الْوُضُوءَ ». Pour la femme qui touche une femme, al-Ḥaṭṭāb n'a pas trouvé de texte et pense qu'il en va de même.\n\nLe sexe d'un animal. ʿIyāḍ et al-Māzarī : le toucher avec recherche du plaisir annule ; Ibn ʿArafa objecte la différence d'espèce (anomalie n° 333) ; adh-Dhakhīra : il n'annule pas, contre al-Layth (anomalie n° 334). Al-Ḥaṭṭāb ajoute qu'on ne peut pas objecter à ʿIyāḍ et al-Māzarī le sexe de la petite fille, qui suscite moins le désir.\n\nLe mot. Al-Ḥaṭṭāb, d'après al-Muqaddimāt d'Ibn Rushd : le toucher (لَمْس) est plus précis que le contact (مَسّ) ; « فَالْمَسُّ الْتِقَاءُ الْجِسْمَيْنِ سَوَاءٌ كَانَ لِقَصْدِ مَعْنًى أَوْ لَا وَاللَّمْسُ هُوَ الْمَسُّ لِطَلَبِ مَعْنًى ». Comme le toucher n'annule qu'avec recherche ou sensation de plaisir, Khalīl dit ici « لَمْس » ; comme le contact du membre annule dans tous les cas, il dira « مَسّ » (fiche 12).\n\nAl-Dardīr : le toucher vient « مِنْ بَالِغٍ لَا مِنْ صَغِيرٍ وَلَوْ رَاهَقَ » ; « صَاحِبُهُ » désigne celui qui est concerné par le toucher, « فَيَشْمَلُ الْمَلْمُوسَ » ; « عَادَةً » exclut la proche interdite selon un avis (fiche 11), « وَخَرَجَ الصَّغِيرَةُ الَّتِي لَا تُشْتَهَى وَغَيْرُ الْأَمْرَدِ مِمَّنْ طَالَتْ لِحْيَتُهُ وَجَسَدُ الدَّوَابِّ فَلَا نَقْضَ فِي الْكُلِّ وَلَوْ قَصَدَ وَوَجَدَ ». Al-Dasūqī : « الْحَاصِلُ أَنَّ النَّقْضَ بِاللَّمْسِ مَشْرُوطٌ بِشُرُوطٍ ثَلَاثَةٍ » : celui qui touche est pubère ; la personne touchée est désirée d'ordinaire ; celui qui touche recherche le plaisir ou l'éprouve.",
+    aqwal: [
+      { auteur: "ʿIyāḍ (Qawāʿid) et al-Māzarī", avis: "Toucher le sexe d'un animal en recherchant le plaisir annule les ablutions.", statut: "non_precise" },
+      { auteur: "Ibn ʿArafa", avis: "Objecte à al-Māzarī la différence d'espèce entre l'humain et l'animal.", statut: "non_precise" },
+      { auteur: "Adh-Dhakhīra (al-Qarāfī)", avis: "Le sexe de l'animal n'oblige pas aux ablutions, contre al-Layth.", statut: "non_precise" },
+      { auteur: "ʿAbd al-Wahhāb et Ibn al-ʿArabī (d'après Ibn Farḥūn)", avis: "Toucher avec plaisir un garçon imberbe oblige aux ablutions.", statut: "non_precise" },
+      { auteur: "ʿIyāḍ et al-Iṣṭakhrī (d'après Ibn al-ʿAlāʾ as-Sabtī)", avis: "Toucher un jeune garçon annule la pureté (avis rapporté pour inciter à la prudence pendant les tournées).", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé pour les conditions : al-Dasūqī, « مَشْرُوطٌ بِشُرُوطٍ ثَلَاثَةٍ » (pubère ; personne désirée d'ordinaire ; recherche ou sensation de plaisir) ; al-Dardīr exclut la petite fille, l'homme à longue barbe et le corps des animaux. Pour le sexe d'un animal : non tranché, al-Dasūqī, « فِي نَقْضِ الْوُضُوءِ بِهِ خِلَافٌ ».",
+    tarjih_hattab: "La femme qui touche une femme est comme les autres : « لَمْ أَرَ مَنْ تَكَلَّمَ عَلَيْهَا، وَالظَّاهِرُ أَنَّهَا كَذَلِكَ ».",
+    tanbihat: [
+      "Ibn al-ʿAlāʾ as-Sabtī (Mansak) : pendant les tournées, éviter de regarder une femme ou un jeune garçon, de toucher un jeune garçon, de lui serrer la main ou de l'étreindre à son retour de voyage, car certains savants y voient un annulatif.",
+      "Al-Ḥaṭṭāb : on ne peut pas objecter à ʿIyāḍ et al-Māzarī le sexe de la petite fille, « فَإِنَّ فَرْجَ الْبَهِيمَةِ مَظِنَّةَ اللَّذَّةِ أَكْثَرُ مِنْ فَرْجِ الصَّغِيرَةِ ».",
+      "Pourquoi le plaisir éprouvé sans l'avoir cherché annule-t-il, alors que le toucher (لَمْس) suppose une recherche ? « فَالْجَوَابُ أَنَّهُ لَمَّا وُجِدَ الْمَعْنَى الْمَقْصُودُ بِالطَّلَبِ كَانَ أَوْلَى بِالنَّقْضِ »."
+    ],
+    divergences: [
+      "Concordance — la femme qui touche une femme. Al-Ḥaṭṭāb : « وَالظَّاهِرُ أَنَّهَا كَذَلِكَ ». Al-Dasūqī : « وَلَوْ مِنْ امْرَأَةٍ لِأُخْرَى كَمَا فِي المج نَقْلًا عَنْ ح » (المج : al-Majmūʿ de Muḥammad al-Amīr ; ح : Muḥammad al-Ḥaṭṭāb), par analogie avec deux garçons. Pour le baiser entre femmes, voir la fiche 09c.",
+      "Point à comparer — le sexe d'un animal. Al-Ḥaṭṭāb rapporte ʿIyāḍ et al-Māzarī (annule), l'objection d'Ibn ʿArafa et adh-Dhakhīra (n'annule pas), et défend ʿIyāḍ et al-Māzarī. Al-Dasūqī : l'annulation, « كَمَا يُفِيدُهُ عج وَهُوَ مَا لِلْمَازِرِيِّ وَعِيَاضٍ » (عج : sigle non défini dans la liste d'al-Dasūqī) ; « وَفِي تت أَنَّ فَرْجَ الْبَهِيمَةِ كَجَسَدِهَا » (تت : sigle non défini dans la liste d'al-Dasūqī), avis d'al-Jallāb et d'adh-Dhakhīra ; « وَالْحَاصِلُ أَنَّ لَمْسَ فُرُوجِ الدَّوَابِّ فِي نَقْضِ الْوُضُوءِ بِهِ خِلَافٌ كَمَا فِي بْن » (بن : Muḥammad al-Bunānī).",
+      "Complément — celui qui touche doit être pubère. Al-Ḥaṭṭāb n'en parle pas. Al-Dardīr : « مِنْ بَالِغٍ لَا مِنْ صَغِيرٍ وَلَوْ رَاهَقَ » ; al-Dasūqī : le toucher n'annule que parce qu'il mène au madhy, « وَلَا مَذْيَ لِغَيْرِ الْبَالِغِ ».",
+      "Complément — le sens de « عَادَةً ». Al-Dasūqī : « أَيْ فِي عَادَةِ النَّاسِ لَا بِحَسَبِ عَادَةِ الْمُلْتَذِّ وَحْدَهُ »."
+    ],
+    exemple: "Un homme en état d'ablution aide son épouse à porter un sac ; leurs mains se touchent sans qu'il recherche ni ressente de plaisir : ses ablutions restent valables. S'il lui prend la main par tendresse et en ressent du plaisir, il les refait avant de prier.",
+    erreurs_frequentes: [
+      "Croire que tout contact avec une femme annule : il faut la recherche ou la sensation du plaisir.",
+      "Croire que toucher un garçon imberbe avec plaisir n'annule pas : il annule comme le toucher d'une femme.",
+      "Croire que le toucher d'un enfant non pubère annule ses propres ablutions : al-Dardīr exige que celui qui touche soit pubère."
+    ],
+    termes: [
+      { ar: "لَمْس", translit: "lams", def: "Toucher : contact où l'on recherche quelque chose (chaleur, douceur, plaisir) ; il n'annule qu'avec recherche ou sensation de plaisir." },
+      { ar: "مَسّ", translit: "mass", def: "Contact : rencontre de deux corps, quelle qu'en soit l'intention." },
+      { ar: "أَمْرَد", translit: "amrad", def: "Jeune garçon imberbe." }
+    ],
+    quiz: [
+      { q: "Pour que le toucher annule les ablutions, al-Dasūqī exige :",
+        choix: ["Seulement que la personne touchée soit une femme", "Seulement l'intention de toucher", "Trois conditions : celui qui touche est pubère, la personne touchée est désirée d'ordinaire, et il y a recherche ou sensation de plaisir", "Que le toucher dure longtemps"],
+        bonne: 2,
+        explication: "« الْحَاصِلُ أَنَّ النَّقْضَ بِاللَّمْسِ مَشْرُوطٌ بِشُرُوطٍ ثَلَاثَةٍ »." },
+      { q: "Toucher avec plaisir le corps d'une petite fille qui n'éveille pas le désir :",
+        choix: ["N'annule pas, même avec recherche et sensation de plaisir", "Annule toujours", "Annule seulement en prière", "Oblige au grand lavage"],
+        bonne: 0,
+        explication: "Al-Dardīr : « وَخَرَجَ الصَّغِيرَةُ الَّتِي لَا تُشْتَهَى … فَلَا نَقْضَ فِي الْكُلِّ وَلَوْ قَصَدَ وَوَجَدَ »." },
+      { q: "Mise en situation : un garçon de treize ans, non encore pubère, touche une jeune fille avec plaisir. Ses ablutions :",
+        choix: ["Sont annulées", "Sont annulées s'il l'a cherché", "Sont annulées pour elle seulement", "Ne sont pas annulées : celui qui touche doit être pubère"],
+        bonne: 3,
+        explication: "Al-Dardīr : « مِنْ بَالِغٍ لَا مِنْ صَغِيرٍ وَلَوْ رَاهَقَ »." },
+      { q: "Pourquoi Khalīl dit-il « لَمْس » (toucher) ici, et « مَسّ » (contact) pour le membre ?",
+        choix: ["Les deux mots ont le même sens", "Le toucher suppose une recherche et n'annule qu'avec le plaisir ; le contact du membre annule dans tous les cas", "Par souci de rime", "Parce que le toucher ne concerne que les femmes"],
+        bonne: 1,
+        explication: "« وَاللَّمْسُ هُوَ الْمَسُّ لِطَلَبِ مَعْنًى » ; le toucher n'annule qu'avec recherche ou sensation de plaisir." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "296-297" },
+    alertes: [
+      "Corrigé (campagne de correction) : citation d'Ibn ʿArafa « وَقَوْلُهُ ذَكَرُ الْبَهِيمَةِ كَالْغَيْرِ يُرِيدُ بِمُبَايِنَةِ الْجِنْسِيَّةِ » (569/296) ; Ibn ʿArafa (16968, p. 84) : « وقوله ذكر البهيمة كالغير يرد بمباينة الجنسية », et al-Dasūqī (21604/118) : « اعْتَرَضَ مَا لِلْمَازِرِيِّ بِمُبَايَنَةِ الْجِنْسِيَّةِ » ; lire « يُرَدُّ » (n° 333) ; passage non cité.",
+      "Corrigé (campagne de correction) : citation d'adh-Dhakhīra « فَرْجُ الْبَهِيمَةِ لَا يُوجِبُ وُضُوءًا خِلَافًا لِلَّيْثِ؛ لِأَنَّهُ مَظِنَّةُ اللَّذَّةِ » (569/296), où al-Ḥaṭṭāb se demande si « لَا » est de trop ; adh-Dhakhīra (1717, p. 230) : « لأنه ليس مظنة اللذة » : la négation est d'origine et c'est « لَيْسَ » qui est tombé ; al-Dasūqī (21604/118) range adh-Dhakhīra parmi ceux qui n'annulent pas (n° 334) ; passage non cité.",
+      "Citation d'Ibn al-ʿAlāʾ as-Sabtī (569/295) : le « (قُلْت) » et la remarque sur le regard (« وَالْمَشْهُورُ عَدَمُ التَّأْثِيرِ ») sont à l'intérieur de la citation, qui se termine par « انْتَهَى » après l'étreinte ; ils sont rapportés à Ibn al-ʿAlāʾ, non à al-Ḥaṭṭāb.",
+      "Citation d'al-Muqaddimāt (569/296) : pas de marque de fin ; la reprise des deux versets laisse penser qu'al-Ḥaṭṭāb poursuit de lui-même ; la distinction entre « لَمْس » et « مَسّ » est donnée « d'après al-Muqaddimāt » sans trancher.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 119–121 (Shamela 21604, pages 118–120)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-06-08",
+    kitab: "tah", bab: "01", fasl: "06", ordre: 8,
+    titre: "… même un ongle ou un cheveu",
+    titre_ar: "وَلَوْ كَظُفُرٍ أَوْ شَعْرٍ",
+    objectif: "Savoir que toucher l'ongle ou les cheveux d'une personne désirable, s'ils tiennent au corps, compte comme toucher sa peau.",
+    matn: "وَلَوْ كَظُفُرٍ أَوْ شَعْرٍ",
+    regle_pratique: "Toucher avec plaisir l'ongle, les cheveux ou une dent d'une personne désirable, tant qu'ils tiennent à son corps, annule les ablutions comme toucher sa peau ; toucher un ongle ou des cheveux détachés n'annule pas.",
+    qualification: {
+      hukm: "fard",
+      nature: "mubtil",
+      effet_si_omis: "Après un tel toucher, il faut refaire ses ablutions."
+    },
+    explication: "Al-Ḥaṭṭāb cite al-ʿUtbiyya (samāʿ d'Ashhab, rasm « al-wuḍūʾ wa-l-jihād ») : interrogé sur l'homme qui touche les cheveux de son épouse ou de sa servante pour le plaisir, il répond : « إنْ مَسَّهُ تَلَذُّذًا فَأَرَى عَلَيْهِ الْوُضُوءَ » ; s'il les touche pour autre chose (pour les admirer, par exemple), pas d'ablution ; et « وَمَا عَلِمْت أَحَدًا يَمَسُّ شَعْرَ امْرَأَتِهِ تَلَذُّذًا ».\n\nIbn Rushd : « الشَّعْرُ لَا لَذَّةَ فِي مَسِّهِ بِمُجَرَّدِهِ ». Il comprend donc la réponse ainsi : s'il touche les cheveux posés sur son corps, c'est comme toucher son épouse à travers un vêtement en recherchant le plaisir et en l'éprouvant : ablution « بِاتِّفَاقٍ فِي الْمَذْهَبِ إلَّا أَنْ يَكُونَ الثَّوْبُ كَثِيفًا » ; s'il les touche hors de son corps, pas d'ablution, même avec plaisir, sauf selon Ibn Bukayr, pour qui le plaisir éprouvé en pensant, sans toucher, oblige aux ablutions (anomalie n° 335).\n\nAl-Dardīr : « (وَلَوْ) كَانَ اللَّمْسُ (لَظُفْرٍ أَوْ شَعْرٍ) أَوْ سِنٍّ مُتَّصِلَةٍ لِأَنَّ الْمُنْفَصِلَ لَا يُلْتَذُّ بِهِ عَادَةً » ; « وَدَخَلَ فِي كَلَامِهِ الْأَمْرَدُ مَنْ نَبَتَ عَذَارَاهُ ». Al-Dasūqī : il en va de même si l'on touche avec son propre ongle ; « أَوْ شَعْرٍ أَيْ لَا إنْ كَانَ اللَّمْسُ بِهِ عَلَى الظَّاهِرِ » : toucher avec ses propres cheveux n'annule pas, selon ce qui paraît.",
+    aqwal: [
+      { auteur: "Réponse rapportée dans le samāʿ d'Ashhab (al-ʿUtbiyya), sans nom dans le passage", avis: "Toucher les cheveux de son épouse pour le plaisir oblige aux ablutions ; pour autre chose, non.", statut: "non_precise" },
+      { auteur: "Ibn Rushd", avis: "Les cheveux touchés sur le corps : ablution, comme à travers un vêtement non épais ; hors du corps : pas d'ablution, même avec plaisir.", statut: "non_precise" },
+      { auteur: "Ibn Bukayr (d'après Ibn Rushd)", avis: "Le plaisir éprouvé en pensant, sans toucher, oblige aux ablutions.", statut: "qawl" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, l'ongle, les cheveux ou la dent « مُتَّصِلَةٍ », « لِأَنَّ الْمُنْفَصِلَ لَا يُلْتَذُّ بِهِ عَادَةً ».",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Ibn Rushd : toucher son épouse à travers un vêtement en recherchant le plaisir et en l'éprouvant oblige aux ablutions « بِاتِّفَاقٍ فِي الْمَذْهَبِ إلَّا أَنْ يَكُونَ الثَّوْبُ كَثِيفًا » (voir la fiche 09)."
+    ],
+    divergences: [
+      "Point à comparer — ce qui rend le cheveu « touché ». Al-Ḥaṭṭāb, d'après Ibn Rushd : distinguer les cheveux posés sur le corps et ceux qui en sont écartés (« وَأَمَّا أَنْ يَمَسَّهُ عَلَى غَيْرِ جِسْمِهَا فَلَا يَجِبُ عَلَيْهِ الْوُضُوءُ »). Al-Dardīr : il suffit qu'ils tiennent au corps, « أَوْ سِنٍّ مُتَّصِلَةٍ لِأَنَّ الْمُنْفَصِلَ لَا يُلْتَذُّ بِهِ عَادَةً ».",
+      "Complément — toucher avec son ongle ou ses cheveux. Al-Ḥaṭṭāb n'en parle pas. Al-Dasūqī : avec l'ongle, comme toucher l'ongle ; « أَيْ لَا إنْ كَانَ اللَّمْسُ بِهِ عَلَى الظَّاهِرِ » pour les cheveux.",
+      "Complément — le jeune homme dont la barbe pousse. Al-Ḥaṭṭāb n'en parle pas ici. Al-Dardīr : « وَدَخَلَ فِي كَلَامِهِ الْأَمْرَدُ مَنْ نَبَتَ عَذَارَاهُ، فَإِنَّهُ يُلْتَذُّ بِهِ عَادَةً »."
+    ],
+    exemple: "En coiffant son épouse, un homme ressent du plaisir en touchant ses cheveux attachés à sa tête : il refait ses ablutions. S'il ramasse des cheveux tombés sur le peigne, ce contact n'annule rien.",
+    erreurs_frequentes: [
+      "Croire que les cheveux et les ongles, n'ayant pas de sensibilité, ne comptent pas : tant qu'ils tiennent au corps, ils comptent.",
+      "Croire qu'un cheveu ou un ongle détaché transmet la même règle : al-Dardīr l'exclut.",
+      "Confondre avec le plaisir éprouvé en y pensant ensuite, sans toucher : il n'annule pas (seul Ibn Bukayr le soutient)."
+    ],
+    termes: [],
+    quiz: [
+      { q: "Toucher avec plaisir les cheveux d'une personne désirable, attachés à sa tête :",
+        choix: ["Annule les ablutions, comme toucher sa peau", "N'annule jamais : les cheveux sont insensibles", "N'annule que s'ils sont mouillés", "Rend seulement les ablutions recommandées"],
+        bonne: 0,
+        explication: "Al-Dardīr : « (وَلَوْ) كَانَ اللَّمْسُ (لَظُفْرٍ أَوْ شَعْرٍ) أَوْ سِنٍّ مُتَّصِلَةٍ »." },
+      { q: "Pourquoi un ongle ou un cheveu détaché ne compte-t-il pas ?",
+        choix: ["Parce qu'il est impur", "Parce qu'il n'a pas été lavé", "Parce qu'on n'y prend pas plaisir d'ordinaire", "Parce qu'il appartient à un mort"],
+        bonne: 2,
+        explication: "« لِأَنَّ الْمُنْفَصِلَ لَا يُلْتَذُّ بِهِ عَادَةً »." },
+      { q: "Selon Ibn Rushd, les cheveux en eux-mêmes :",
+        choix: ["Donnent plus de plaisir que la peau", "Ne procurent pas de plaisir par le seul fait de les toucher", "Obligent toujours aux ablutions", "Sont impurs une fois coupés"],
+        bonne: 1,
+        explication: "« الشَّعْرُ لَا لَذَّةَ فِي مَسِّهِ بِمُجَرَّدِهِ »." },
+      { q: "Mise en situation : une femme frôle de ses propres cheveux le visage de son mari, et elle en ressent du plaisir. Selon ce qui paraît à al-Dasūqī :",
+        choix: ["Ses ablutions sont annulées", "Seules celles de son mari sont annulées", "Elle doit faire le grand lavage", "Ses ablutions ne sont pas annulées : toucher avec ses cheveux ne compte pas"],
+        bonne: 3,
+        explication: "« أَوْ شَعْرٍ أَيْ لَا إنْ كَانَ اللَّمْسُ بِهِ عَلَى الظَّاهِرِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "297" },
+    alertes: [
+      "Corrigé (campagne de correction) : Ibn Rushd cité « إلَّا عَلَى مَا ذَهَبَ إلَيْهِ ابْنُ بُكَيْرٍ: إنْ الْتَذَّ مَعَ وُجُودِ اللَّذَّةِ دُونَ لَمْسٍ » (569/296) ; al-Bayān (21751, p. 92) : « ما ذهب إليه ابن بكير أن التذكار مع وجود اللذة دون لمس يوجب الوضوء » ; lire « أَنَّ التَّذْكَارَ » (n° 335) ; passage non cité.",
+      "Précisé (campagne de correction) : matn « كَظُفُرٍ » (Mawāhib, Ibn Ghāzī 14605, p. 34, al-Kharashī 91, p. 154 « كَظُفْرٍ ») ; « لِظُفْرٍ » chez al-Dardīr (21604/119) et dans le Mukhtaṣar seul (11355, p. 16) ; al-Kharashī signale les deux leçons et une troisième « بِالْبَاءِ » ; Ibn Ghāzī vocalise « شَعَرٍ » ; matn laissé selon le « ص » (n° 336).",
+      "Le nom de celui qui répond dans le samāʿ d'Ashhab n'est donné ni par Mawāhib ni par al-Bayān (21751, p. 91) ; réponse rapportée sans attribution.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 120 (Shamela 21604, page 119)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-06-09",
+    kitab: "tah", bab: "01", fasl: "06", ordre: 9,
+    titre: "… ou à travers un vêtement",
+    titre_ar: "أَوْ حَائِلٍ وَأُوِّلَ بِالْخَفِيفِ وَبِالْإِطْلَاقِ",
+    objectif: "Savoir quand le toucher à travers un vêtement annule les ablutions, et connaître les deux interprétations de la Mudawwana.",
+    matn: "أَوْ حَائِلٍ وَأُوِّلَ بِالْخَفِيفِ وَبِالْإِطْلَاقِ",
+    regle_pratique: "Toucher avec plaisir à travers un vêtement léger annule les ablutions ; à travers un vêtement épais, les commentateurs de la Mudawwana divergent ; serrer la personne contre soi ou la saisir de la main annule, même à travers un vêtement épais ; une épaisseur comme une couverture n'annule pas.",
+    qualification: {
+      hukm: "fard",
+      nature: "mubtil",
+      effet_si_omis: "Après un toucher avec plaisir à travers un vêtement léger, ou une étreinte, il faut refaire ses ablutions."
+    },
+    explication: "Al-Ḥaṭṭāb cite ash-Shāmil : Ibn al-Qāsim rapporte que le toucher à travers un écran (حَائِل) annule dans tous les cas, « وَقَيَّدَهُ ابْنُ زِيَادٍ بِمَا إذَا كَانَ خَفِيفًا » ; Ibn al-Ḥājib y voit deux avis opposés (خِلَاف), Ibn Rushd, dans al-Bayān et al-Muqaddimāt, une explication (تَفْسِير) du premier par le second. D'où les deux interprétations (تَأْوِيلَانِ) de Khalīl : « فَالْأَوَّلُ تَأْوِيلُ ابْنِ الْحَاجِبِ وَالثَّانِي تَأْوِيلُ ابْنِ رُشْدٍ وَهُوَ الظَّاهِرُ ». Ainsi « بِالْإِطْلَاقِ » (dans tous les cas) est la lecture d'Ibn al-Ḥājib, qui laisse le texte d'Ibn al-Qāsim tel quel ; « بِالْخَفِيفِ » (le vêtement léger seulement) est celle d'Ibn Rushd, qui l'explique par la transmission de ʿAlī b. Ziyād.\n\nIbn ʿArafa rapporte al-Lakhmī : la transmission de ʿAlī vaut mieux « إنْ كَانَ بِالْيَدِ وَإِنْ ضَمَّهَا فَالْكَثِيفُ كَالْخَفِيفِ ». Al-Ḥaṭṭāb : « فَعُلِمَ مِنْ هَذَا أَنَّ الْكَلَامَ فِي الْحَائِلِ إنَّمَا هُوَ بِالنِّسْبَةِ إلَى الْيَدِ » ; quand on serre la personne contre soi, l'écran ne compte pas ; Yūsuf b. ʿUmar ajoute : ou quand on la saisit de la main.\n\nAl-Dardīr : le vêtement léger est « الَّذِي يَحُسُّ اللَّامِسُ فَوْقَهُ بِطَرَاوَةِ الْجَسَدِ بِخِلَافِ الْكَثِيفِ » ; « وَمَحَلُّهُمَا مَا لَمْ يَضُمَّ أَوْ يَقْبِضْ بِيَدِهِ عَلَى شَيْءٍ مِنْ الْجَسَدِ وَإِلَّا اُتُّفِقَ عَلَى النَّقْضِ ». Al-Dasūqī : la première interprétation est celle d'Ibn Rushd, la seconde celle d'Ibn al-Ḥājib, « وَالْقَوْلَانِ مُرَجَّحَانِ » ; « وَيُسْتَثْنَى مَا عَظُمَتْ كَثَافَتُهُ كَاللِّحَافِ فَلَا نَقْضَ بِهِ اتِّفَاقًا » ; l'accord sur l'étreinte suppose qu'il y ait recherche ou sensation de plaisir.",
+    aqwal: [
+      { auteur: "Ibn al-Qāsim (transmission de la Mudawwana, d'après ash-Shāmil)", avis: "Le toucher à travers un écran annule dans tous les cas.", statut: "non_precise" },
+      { auteur: "ʿAlī b. Ziyād", avis: "Seulement si l'écran est léger.", statut: "non_precise" },
+      { auteur: "Ibn al-Ḥājib", avis: "Les deux transmissions sont deux avis opposés : la Mudawwana vise tout écran.", statut: "non_precise" },
+      { auteur: "Ibn Rushd (al-Bayān, al-Muqaddimāt)", avis: "La transmission de ʿAlī explique celle d'Ibn al-Qāsim : seul l'écran léger.", statut: "non_precise" },
+      { auteur: "Al-Lakhmī (d'après Ibn ʿArafa)", avis: "La transmission de ʿAlī vaut mieux pour le toucher de la main ; dans l'étreinte, l'écran épais est comme le léger.", statut: "non_precise" }
+    ],
+    muatamad: "Non tranché entre les deux interprétations : al-Dasūqī, « وَالْقَوْلَانِ مُرَجَّحَانِ ». Confirmé pour l'étreinte et la main qui saisit : al-Dardīr, « وَإِلَّا اُتُّفِقَ عَلَى النَّقْضِ » ; et pour la couverture : al-Dasūqī, « فَلَا نَقْضَ بِهِ اتِّفَاقًا ».",
+    tarjih_hattab: "L'interprétation d'Ibn Rushd (le vêtement léger seulement) : « وَالثَّانِي تَأْوِيلُ ابْنِ رُشْدٍ وَهُوَ الظَّاهِرُ » ; al-ʿAdawī sur al-Kharashī (91, p. 154) : « اسْتَظْهَرَهُ الْحَطَّابُ » (voir les alertes).",
+    tanbihat: [
+      "Al-Ḥaṭṭāb : l'écran ne joue que pour le toucher de la main ; dans l'étreinte, il est « كَالْعَدَمِ » ; Yūsuf b. ʿUmar ajoute la main qui saisit."
+    ],
+    divergences: [
+      "Concordance — à qui reviennent les deux interprétations. Al-Ḥaṭṭāb : « فَالْأَوَّلُ تَأْوِيلُ ابْنِ الْحَاجِبِ وَالثَّانِي تَأْوِيلُ ابْنِ رُشْدٍ ». Al-Dasūqī : pour le vêtement léger, « وَهَذَا تَأْوِيلُ ابْنِ رُشْدٍ » ; pour tout écran, « وَهَذَا تَأْوِيلُ ابْنِ الْحَاجِبِ ».",
+      "Point à comparer — laquelle préférer. Al-Ḥaṭṭāb : celle d'Ibn Rushd, « وَهُوَ الظَّاهِرُ ». Al-Dasūqī : « وَالْقَوْلَانِ مُرَجَّحَانِ » ; il note ailleurs qu'admettre le toucher par un membre surnuméraire insensible « مِمَّا يُؤَيِّدُ التَّأْوِيلَ بِالْإِطْلَاقِ فِي الْحَائِلِ » (voir la fiche 09b).",
+      "Concordance — l'étreinte. Al-Ḥaṭṭāb, d'après Ibn ʿArafa et Yūsuf b. ʿUmar : l'écran ne compte pas quand on serre ou qu'on saisit. Al-Dardīr : « مَا لَمْ يَضُمَّ أَوْ يَقْبِضْ بِيَدِهِ عَلَى شَيْءٍ مِنْ الْجَسَدِ وَإِلَّا اُتُّفِقَ عَلَى النَّقْضِ ».",
+      "Complément — l'écran très épais. Al-Ḥaṭṭāb n'en parle pas. Al-Dasūqī : « وَيُسْتَثْنَى مَا عَظُمَتْ كَثَافَتُهُ كَاللِّحَافِ فَلَا نَقْضَ بِهِ اتِّفَاقًا »."
+    ],
+    exemple: "Un époux pose la main avec plaisir sur l'épaule de sa femme, vêtue d'une robe légère : il refait ses ablutions. À travers un épais manteau d'hiver, les deux interprétations divergent ; s'il la serre contre lui avec plaisir, l'épaisseur ne compte plus et il refait ses ablutions.",
+    erreurs_frequentes: [
+      "Croire qu'un vêtement protège toujours les ablutions : un vêtement léger ne protège pas.",
+      "Croire qu'un vêtement épais protège aussi dans l'étreinte : quand on serre ou qu'on saisit, il ne compte pas.",
+      "Confondre les deux interprétations : « dans tous les cas » est d'Ibn al-Ḥājib, « le léger seulement » est d'Ibn Rushd."
+    ],
+    termes: [],
+    quiz: [
+      { q: "L'interprétation « le vêtement léger seulement » (بِالْخَفِيفِ) est celle de :",
+        choix: ["Ibn al-Ḥājib", "Al-Lakhmī", "Ibn Rushd", "Ibn ʿArafa"],
+        bonne: 2,
+        explication: "Al-Dasūqī : « وَهَذَا تَأْوِيلُ ابْنِ رُشْدٍ »." },
+      { q: "Mise en situation : un homme serre sa femme contre lui avec plaisir ; elle porte un épais manteau. Ses ablutions :",
+        choix: ["Restent valables, car le manteau est épais", "Restent valables selon l'avis d'Ibn al-Ḥājib", "Ne sont annulées que s'il touche la peau", "Sont annulées : dans l'étreinte, l'épaisseur ne compte pas"],
+        bonne: 3,
+        explication: "Al-Dardīr : « مَا لَمْ يَضُمَّ أَوْ يَقْبِضْ … وَإِلَّا اُتُّفِقَ عَلَى النَّقْضِ »." },
+      { q: "Toucher avec plaisir à travers une épaisse couverture :",
+        choix: ["N'annule pas, d'un commun accord", "Annule selon Ibn al-Ḥājib", "Annule toujours", "Oblige au grand lavage"],
+        bonne: 0,
+        explication: "Al-Dasūqī : « كَاللِّحَافِ فَلَا نَقْضَ بِهِ اتِّفَاقًا »." },
+      { q: "Selon al-Dasūqī, entre les deux interprétations :",
+        choix: ["Seule celle d'Ibn Rushd est retenue", "Les deux ont été déclarées préférables", "Seule celle d'Ibn al-Ḥājib est retenue", "Aucune n'est retenue"],
+        bonne: 1,
+        explication: "« وَالْقَوْلَانِ مُرَجَّحَانِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "297-298" },
+    alertes: [
+      "Citation d'ash-Shāmil (569/296) sans marque de fin : on ne voit pas si « وَهُوَ الظَّاهِرُ » est d'ash-Shāmil ou d'al-Ḥaṭṭāb ; al-ʿAdawī (91, p. 154) l'attribue à al-Ḥaṭṭāb (« اسْتَظْهَرَهُ الْحَطَّابُ »), d'où le champ `tarjih_hattab`.",
+      "Non résolu : ash-Shāmil cité « وَلَا يُمْنَعُ حَائِلٌ مُطْلَقًا وَإِنْ خَفَّ تَأْوِيلَانِ » (569/296) ; le sens attendu oppose deux interprétations (dans tous les cas, ou seulement si l'écran est léger) ; ash-Shāmil n'a pas été trouvé (n° 337) ; passage non cité.",
+      "« عَلِيّ » chez Ibn ʿArafa (« اللَّخْمِيّ رِوَايَةُ عَلِيٍّ أَحْسَنُ », 569/297) est ʿAlī b. Ziyād : Ibn ʿArafa (16968, p. 82) : « سمع ابن القاسم لا يمنع وعلي إن كان خفيفا » ; al-Kharashī (91, p. 154) : « وَرَوَى عَلِيٌّ إنْ كَانَ خَفِيفًا ».",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 120 (Shamela 21604, page 119)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-06-09b",
+    kitab: "tah", bab: "01", fasl: "06", ordre: 9,
+    titre: "Rechercher le plaisir ou l'éprouver",
+    titre_ar: "إنْ قَصَدَ لَذَّةً أَوْ وَجَدَهَا لَا انْتَفَيَا",
+    objectif: "Savoir que le toucher n'annule qu'avec recherche ou sensation de plaisir, et distinguer les quatre cas.",
+    matn: "إنْ قَصَدَ لَذَّةً أَوْ وَجَدَهَا لَا انْتَفَيَا",
+    regle_pratique: "Le toucher n'annule les ablutions que si l'on recherche le plaisir (même sans l'éprouver) ou qu'on l'éprouve au moment du toucher (même sans l'avoir cherché) ; sans l'un ni l'autre, il n'annule pas ; le plaisir qui vient après coup, en y repensant, n'annule pas.",
+    qualification: {
+      hukm: "fard",
+      nature: "mubtil",
+      effet_si_omis: "Si l'on a recherché ou éprouvé le plaisir en touchant, il faut refaire ses ablutions."
+    },
+    explication: "Al-Ḥaṭṭāb ne commente pas ce segment : il manque au « ص » de Mawāhib (voir les alertes). Il en pose pourtant le principe sous la fiche 07 : « وَلَمَّا لَمْ يَكُنْ اللَّمْسُ نَاقِضًا عِنْدَنَا إلَّا مَعَ قَصْدِ اللَّذَّةِ أَوْ وُجُودِهَا » ; et le plaisir éprouvé sans l'avoir cherché annule « كَانَ أَوْلَى بِالنَّقْضِ ». La fiche suit al-Dardīr et al-Dasūqī.\n\nAl-Dardīr : il y a annulation si celui qui touche recherche le plaisir, « وَجَدَهَا أَوْ لَا », ou si, sans le rechercher, il l'éprouve au moment du toucher, « لَا إنْ وَجَدَهَا بَعْدَهُ مِنْ التَّفَكُّرِ وَلَا يَنْقُضُ ». Il n'y a pas annulation « إنْ (انْتَفَيَا) أَيْ الْقَصْدُ وَاللَّذَّةُ ». Peu importe le membre : même un membre surnuméraire sans sensation annule s'il y a recherche ou sensation ; mais « بِخِلَافِ مَنْ مَسَّ بِعُودٍ أَوْ ضَرَبَ شَخْصًا بِكُمٍّ قَاصِدًا اللَّذَّةَ فَلَا نَقْضَ ».\n\nAl-Dasūqī : tester si l'on va éprouver du plaisir fait partie de la recherche, d'après Ibn Rushd cité dans un commentaire de la Risāla ; mieux vaut réserver les quatre cas à celui qui touche : la personne touchée n'est concernée que si elle éprouve le plaisir ; ce détail tient le milieu entre les shāfiʿites, pour qui le toucher annule toujours, et les ḥanafites, pour qui il n'annule pas. Khalīl énonce le cas « لَا انْتَفَيَا » pour y rattacher l'exception du baiser sur la bouche (fiche 09c).",
+    aqwal: [
+      { auteur: "Al-Dardīr, après عبق (ʿAbd al-Bāqī az-Zurqānī)", avis: "Le toucher par un doigt surnuméraire sans sensation annule s'il y a recherche ou sensation de plaisir.", statut: "non_precise" },
+      { auteur: "Al-Bunānī (d'après al-Dasūqī)", avis: "Le doigt surnuméraire doit avoir de la sensation, comme pour le contact du membre.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, la recherche du plaisir, « وَجَدَهَا أَوْ لَا », ou sa sensation au moment du toucher ; « لَا إنْ وَجَدَهَا بَعْدَهُ مِنْ التَّفَكُّرِ ». Non tranché pour le membre surnuméraire sans sensation : al-Dasūqī, « فِيهِ مَا عَلِمْتُ مِنْ الْخِلَافِ بَيْنَ الشَّيْخَيْنِ ».",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Al-Dardīr : toucher avec un bâton, ou frapper quelqu'un de sa manche en recherchant le plaisir, n'annule pas ; al-Dasūqī : il faut toucher avec un membre, au moins « حُكْمًا », pour inclure l'ongle."
+    ],
+    divergences: [
+      "Complément — le segment. Al-Ḥaṭṭāb ne le commente pas ; il en donne le principe sous le segment précédent (« إلَّا مَعَ قَصْدِ اللَّذَّةِ أَوْ وُجُودِهَا »). Al-Dardīr : « (لَا) إنْ (انْتَفَيَا) أَيْ الْقَصْدُ وَاللَّذَّةُ فَلَا نَقْضَ ».",
+      "Complément — la personne touchée. Al-Ḥaṭṭāb n'en parle pas ici. Al-Dasūqī : « الْأَوْلَى قَصْرُهُ عَلَى اللَّامِسِ » ; « أَمَّا الْمَلْمُوسُ فَلَا يُنْتَقَضُ إلَّا إذَا وَجَدَ اللَّذَّةَ ».",
+      "Point à comparer — le membre surnuméraire sans sensation. Al-Dasūqī : l'annulation « هُوَ مَا فِي عبق » (عبق : ʿAbd al-Bāqī az-Zurqānī) ; « وَنَازَعَهُ بْن » (بن : Muḥammad al-Bunānī), pour qui la condition de sensation vaut ici « بِالْأَوْلَى »."
+    ],
+    exemple: "Dans la foule du pèlerinage, la main d'un homme frôle celle d'une femme sans qu'il le veuille ni en ressente rien : ses ablutions restent valables. Le soir, il repense à ce contact et en éprouve du plaisir : ce plaisir venu après coup n'annule pas non plus.",
+    erreurs_frequentes: [
+      "Croire qu'il faut à la fois rechercher et éprouver le plaisir : l'un des deux suffit.",
+      "Croire qu'un plaisir ressenti plus tard, en y repensant, annule rétroactivement : il n'annule pas.",
+      "Croire que la personne touchée est concernée par la seule intention de celui qui touche : elle ne l'est que si elle éprouve le plaisir."
+    ],
+    termes: [],
+    quiz: [
+      { q: "Un homme touche une femme en recherchant le plaisir, mais n'en éprouve aucun :",
+        choix: ["Ses ablutions restent valables", "Il ne doit qu'un lavage de la main", "Il refait ses ablutions seulement s'il est en prière", "Ses ablutions sont annulées : la recherche suffit"],
+        bonne: 3,
+        explication: "Al-Dardīr : la recherche du plaisir annule, « وَجَدَهَا أَوْ لَا »." },
+      { q: "Le plaisir ressenti après le toucher, en y repensant :",
+        choix: ["N'annule pas", "Annule", "Annule s'il dure", "Oblige au grand lavage"],
+        bonne: 0,
+        explication: "« لَا إنْ وَجَدَهَا بَعْدَهُ مِنْ التَّفَكُّرِ وَلَا يَنْقُضُ »." },
+      { q: "Mise en situation : par jeu, un homme effleure sa femme du bout d'un bâton en recherchant le plaisir. Ses ablutions :",
+        choix: ["Sont annulées", "Sont annulées s'il en éprouve", "Ne sont pas annulées : il n'a pas touché avec un membre", "Sont annulées pour elle seulement"],
+        bonne: 2,
+        explication: "Al-Dardīr : « بِخِلَافِ مَنْ مَسَّ بِعُودٍ … قَاصِدًا اللَّذَّةَ فَلَا نَقْضَ »." },
+      { q: "Pour la personne touchée, selon al-Dasūqī :",
+        choix: ["L'intention de celui qui touche suffit à annuler ses ablutions", "Ses ablutions ne sont annulées que si elle éprouve le plaisir", "Ses ablutions ne sont jamais annulées", "Elle doit toujours refaire ses ablutions"],
+        bonne: 1,
+        explication: "« أَمَّا الْمَلْمُوسُ فَلَا يُنْتَقَضُ إلَّا إذَا وَجَدَ اللَّذَّةَ »." }
+    ],
+    ref: { ouvrage: "al-Sharḥ al-kabīr (al-Dardīr) et Ḥāshiyat al-Dasūqī", tome: 1, pages: "120" },
+    alertes: [
+      "Limite du texte : les segments qui vont de « إنْ قَصَدَ لَذَّةً » à « وَلَا لَذَّةٌ بِنَظَرٍ » (fiches 09b, 09c et début de la fiche 10), que donnent le Mukhtaṣar seul (11355, p. 16–17), Ibn Ghāzī (14605, p. 34), al-Dardīr (21604/119–120), al-Kharashī (91, p. 154–155) et ʿUlaysh (21614, p. 100–102), manquent au « ص » de Mawāhib, qui passe de « وَبِالْإِطْلَاقِ » (569/296) à « كَإِنْعَاظٍ » (569/297) ; al-Ḥaṭṭāb ne les commente pas (569/280–305 relus) ; fiche rédigée d'après al-Dardīr et al-Dasūqī, `ref` sur al-Dardīr (n° 338).",
+      "Matn vocalisé d'après al-Dardīr (21604/119) et Ibn Ghāzī (14605, p. 34) ; al-Kharashī (91, p. 154) : « إنْ قَصَدَهُ لَذَّةً ».",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 120 (Shamela 21604, page 119)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-06-09c",
+    kitab: "tah", bab: "01", fasl: "06", ordre: 9,
+    titre: "Le baiser sur la bouche",
+    titre_ar: "إلَّا الْقُبْلَةَ بِفَمٍ مُطْلَقًا وَإِنْ بِكُرْهٍ أَوْ اسْتِغْفَالٍ لَا لِوَدَاعٍ أَوْ رَحْمَةٍ",
+    objectif: "Savoir que le baiser sur la bouche annule même sans plaisir, et connaître ses exceptions.",
+    matn: "إلَّا الْقُبْلَةَ بِفَمٍ مُطْلَقًا وَإِنْ بِكُرْهٍ أَوْ اسْتِغْفَالٍ لَا لِوَدَاعٍ أَوْ رَحْمَةٍ",
+    regle_pratique: "Le baiser sur la bouche d'une personne qu'on désire d'ordinaire annule les ablutions des deux adultes, même sans recherche ni sensation de plaisir, même imposé ou donné par surprise ; le baiser d'adieu ou de compassion n'annule pas, sauf si l'on en éprouve du plaisir ; le baiser sur la joue suit la règle du toucher.",
+    qualification: {
+      hukm: "fard",
+      nature: "mubtil",
+      effet_si_omis: "Après un baiser sur la bouche, les deux doivent refaire leurs ablutions, sauf baiser d'adieu ou de compassion sans plaisir."
+    },
+    explication: "Al-Ḥaṭṭāb ne commente pas ce segment : il manque au « ص » de Mawāhib (voir les alertes). La fiche suit al-Dardīr et al-Dasūqī.\n\nAl-Dardīr : le baiser sur la bouche « فَإِنَّهَا تَنْقُضُ وُضُوءَهُمَا مَعًا », « أَيْ وَلَوْ انْتَفَى الْقَصْدُ وَاللَّذَّةُ مَعًا لِأَنَّهَا مَظِنَّةُ اللَّذَّةِ », s'ils sont tous deux pubères, ou pour le seul pubère si l'autre est de ceux qu'on désire d'ordinaire. « وَأَمَّا الْقُبْلَةُ عَلَى الْخَدِّ فَتَجْرِي عَلَى تَفْصِيلِ اللَّمْسِ ». Elle annule aussi « بِكُرْهٍ أَوْ اسْتِغْفَالٍ » : imposée ou donnée par surprise, de l'homme à la femme ou l'inverse, « فَلَا يُشْتَرَطُ فِي النَّقْضِ بِهَا الطَّوْعُ ». Elle n'annule pas si elle est d'adieu, au moment de la séparation, ou de compassion, quand l'autre est dans la peine (maladie), « فَلَا نَقْضَ مَا لَمْ يَلْتَذَّ ».\n\nAl-Dasūqī : « بِفَمٍ » veut dire « sur la bouche » ; la seule chose qui compte est l'habitude des gens : le baiser sur la bouche d'un homme à grande barbe ou d'une vieille femme n'annule pas, même avec plaisir, celui d'une petite fille qui n'éveille pas le désir non plus ; mais « لَوْ قَبَّلَ شَيْخٌ شَيْخَةً لَانْتَقَضَ وُضُوءُ كُلٍّ مِنْهُمَا », car les vieillards désirent d'ordinaire les femmes âgées. Le baiser n'exige pas de bruit. La compassion vaut aussi au retour d'un voyage ou à la délivrance d'un oppresseur.",
+    aqwal: [
+      { auteur: "Un auteur non nommé, suivi par son maître al-ʿAdawī (d'après al-Dasūqī)", avis: "Le baiser sur le sexe suit la règle du toucher, car l'âme en a répugnance.", statut: "non_precise" },
+      { auteur: "Aḥmad az-Zarqānī (d'après al-Dasūqī)", avis: "Le baiser sur le sexe annule dans tous les cas, comme sur la bouche, et même davantage.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, le baiser sur la bouche « فَإِنَّهَا تَنْقُضُ وُضُوءَهُمَا مَعًا », sans exiger « الطَّوْعُ » ; l'adieu et la compassion, « فَلَا نَقْضَ مَا لَمْ يَلْتَذَّ ». Non tranché pour le baiser sur le sexe (deux avis chez al-Dasūqī).",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Al-Dasūqī : « وَظَاهِرُ كَلَامِهِمْ عَدَمُ اشْتِرَاطِ الصَّوْتِ فِي تَحَقُّقِ التَّقْبِيلِ »."
+    ],
+    divergences: [
+      "Complément — le segment. Al-Ḥaṭṭāb ne le commente pas. Al-Dardīr : « (إلَّا الْقُبْلَةَ بِفَمٍ) أَيْ عَلَيْهِ، فَإِنَّهَا تَنْقُضُ وُضُوءَهُمَا مَعًا ».",
+      "Point à comparer — entre femmes. Al-Ḥaṭṭāb (569/296), pour le toucher : « مَسُّ الْمَرْأَةِ الْمَرْأَةَ لَمْ أَرَ مَنْ تَكَلَّمَ عَلَيْهَا، وَالظَّاهِرُ أَنَّهَا كَذَلِكَ ». Al-Dasūqī rapporte, pour le baiser : « وَفِي ح لَمْ أَقِفْ عَلَى نَصٍّ فِي تَقْبِيلِ الْمَرْأَةِ لِمِثْلِهَا » (ح : Muḥammad al-Ḥaṭṭāb) ; son maître al-ʿAdawī tient pour l'annulation ; mais al-Māzarī (Sharḥ at-Talqīn) assimile le toucher entre femmes au toucher entre hommes : « فَجُعِلَ لَمْسُ الْمَرْأَةِ لِمِثْلِهَا غَيْرَ نَاقِضٍ ». Le mot « تقبيل » ne se trouve pas dans le passage lu de Mawāhib (voir les alertes).",
+      "Complément — le baiser sur la joue. Al-Ḥaṭṭāb n'en parle pas. Al-Dardīr : « وَأَمَّا الْقُبْلَةُ عَلَى الْخَدِّ فَتَجْرِي عَلَى تَفْصِيلِ اللَّمْسِ »."
+    ],
+    exemple: "Un mari qui part en voyage embrasse sa femme sur la bouche pour lui dire adieu, sans en éprouver de plaisir : leurs ablutions restent valables. S'il l'embrasse ainsi en temps ordinaire, même sans y penser, tous deux refont leurs ablutions.",
+    erreurs_frequentes: [
+      "Croire que le baiser sur la bouche n'annule qu'avec plaisir : il annule même sans plaisir.",
+      "Croire que celle qui a été embrassée de force garde ses ablutions : le consentement n'est pas exigé.",
+      "Croire que tout baiser annule : sur la joue, il suit la règle du toucher ; d'adieu ou de compassion, il n'annule pas sans plaisir."
+    ],
+    termes: [
+      { ar: "قُبْلَة", translit: "qoubla", def: "Baiser ; sur la bouche, il annule les ablutions même sans plaisir." },
+      { ar: "اسْتِغْفَال", translit: "istighfâl", def: "Prendre quelqu'un au dépourvu, par surprise." }
+    ],
+    quiz: [
+      { q: "Le baiser sur la bouche d'une personne qu'on désire d'ordinaire, sans aucun plaisir :",
+        choix: ["Annule les ablutions des deux", "N'annule pas", "N'annule que pour celui qui embrasse", "Annule seulement si elle était consentante"],
+        bonne: 0,
+        explication: "Al-Dardīr : « فَإِنَّهَا تَنْقُضُ وُضُوءَهُمَا مَعًا … وَلَوْ انْتَفَى الْقَصْدُ وَاللَّذَّةُ مَعًا »." },
+      { q: "Mise en situation : une mère embrasse sur la bouche son fils adulte au chevet de son lit d'hôpital, par compassion, sans plaisir. Sa règle :",
+        choix: ["Ses ablutions sont annulées", "Elle doit faire le grand lavage", "Ses ablutions ne sont annulées que si elle est en prière", "Pas d'annulation : baiser de compassion sans plaisir"],
+        bonne: 3,
+        explication: "Al-Dardīr : « (أَوْ رَحْمَةٍ) … كَمَرَضٍ فَلَا نَقْضَ مَا لَمْ يَلْتَذَّ »." },
+      { q: "Le baiser sur la joue :",
+        choix: ["Annule toujours", "Suit la règle du toucher : recherche ou sensation de plaisir", "N'annule jamais", "Annule seulement s'il est imposé"],
+        bonne: 1,
+        explication: "« وَأَمَّا الْقُبْلَةُ عَلَى الْخَدِّ فَتَجْرِي عَلَى تَفْصِيلِ اللَّمْسِ »." },
+      { q: "Une femme est embrassée sur la bouche par surprise. Ses ablutions :",
+        choix: ["Restent valables, faute de consentement", "Restent valables si elle n'a rien ressenti", "Sont annulées : le consentement n'est pas exigé", "Sont annulées pour lui seulement"],
+        bonne: 2,
+        explication: "« فَلَا يُشْتَرَطُ فِي النَّقْضِ بِهَا الطَّوْعُ »." }
+    ],
+    ref: { ouvrage: "al-Sharḥ al-kabīr (al-Dardīr) et Ḥāshiyat al-Dasūqī", tome: 1, pages: "120-121" },
+    alertes: [
+      "Limite du texte : segment absent du « ص » de Mawāhib et non commenté par al-Ḥaṭṭāb (voir la fiche 09b, n° 338) ; fiche rédigée d'après al-Dardīr et al-Dasūqī (21604/119–120), `ref` sur al-Dardīr.",
+      "Matn vocalisé d'après al-Dardīr (21604/119–120) ; « مُطْلَقًا » est dans le Mukhtaṣar seul (11355, p. 16), chez al-Dardīr et ʿUlaysh ; Ibn Ghāzī (14605, p. 34) le met entre crochets comme ajout de l'imprimé, et al-Kharashī (91, p. 154) ne l'a pas.",
+      "Al-Dasūqī (21604/120) et al-ʿAdawī (91, p. 155) prêtent à al-Ḥaṭṭāb une remarque sur le baiser entre femmes (« تَقْبِيلِ الْمَرْأَةِ لِمِثْلِهَا ») ; Mawāhib (569/296) ne parle que du contact (« مَسُّ الْمَرْأَةِ الْمَرْأَةَ ») ; peut-être un passage d'al-Ḥaṭṭāb sur ce segment, absent de l'édition lue.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 120–121 (Shamela 21604, pages 119–120)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-06-10",
+    kitab: "tah", bab: "01", fasl: "06", ordre: 10,
+    titre: "Ni le plaisir du regard, comme l'érection",
+    titre_ar: "وَلَا لَذَّةٌ بِنَظَرٍ كَإِنْعَاظٍ",
+    objectif: "Savoir que ni le plaisir du regard ni l'érection n'annulent les ablutions, sauf sortie de madhy.",
+    matn: "وَلَا لَذَّةٌ بِنَظَرٍ كَإِنْعَاظٍ",
+    regle_pratique: "Le plaisir éprouvé en regardant n'annule pas les ablutions, même répété ; l'érection non plus, même longue, tant qu'il n'en sort pas de madhy ; si du madhy sort, les ablutions sont annulées.",
+    qualification: {
+      hukm: "mubah",
+      nature: "autre",
+      effet_si_omis: "Rien à refaire pour un regard ou une érection seuls ; après une sortie de madhy, il faut refaire ses ablutions."
+    },
+    explication: "Le regard. Al-Ḥaṭṭāb ne commente pas « وَلَا لَذَّةٌ بِنَظَرٍ », absent du « ص » (voir les alertes). Sous la fiche 07, il cite Ibn al-ʿAlāʾ as-Sabtī : certains savants tiennent que le plaisir du regard annule ; « وَالْقَوْلَانِ فِي مَذْهَبِنَا وَالْمَشْهُورُ عَدَمُ التَّأْثِيرِ », deux avis que mentionne Ibn al-Ḥājib. Al-Dardīr : « (وَلَا) يَنْقُضُهُ (لَذَّةٌ بِنَظَرٍ) وَلَوْ تَكَرَّرَ ».\n\nL'érection (إِنْعَاظ). Al-Ḥaṭṭāb cite al-Lakhmī (Tabṣira) : sans contact, on diverge ; « فَقِيلَ: لَا شَيْءَ عَلَيْهِ إلَّا أَنْ يُمْذِيَ » ; et l'on a dit qu'il doit les ablutions, « لِأَنَّهُ لَا يَنْكَسِرُ إلَّا عَنْ مَذْيٍ ». Al-Lakhmī : « وَأَرَى أَنْ يُحْمَلَ عَلَى عَادَتِهِ » : s'il sait qu'il n'émet pas de madhy, il reste pur ; si c'est son habitude, ou si son habitude varie, il refait ses ablutions ; s'il vérifie et ne trouve rien, il reste pur. En prière : s'il n'a pas l'habitude du madhy, il continue ; sinon il interrompt, sauf érection légère qui ne fait pas craindre le madhy.\n\nAt-Tawḍīḥ, d'après Ibn ʿAṭāʾ Allāh : « إنَّهُ لَا وُضُوءَ فِيهِ بِمُجَرَّدِهِ فَإِنْ انْكَسَرَ عَنْ مَذْيٍ تَوَضَّأَ وَإِلَّا فَلَا ». Al-Burzulī rapporte as-Suyūrī, interrogé sur l'érection en se souvenant : « لَوْ وَقَعَ فِي الصَّلَاةِ مَا أَفْسَدَهَا فَكَذَلِكَ فِي الْوُضُوءِ ». Al-Burzulī : si l'humidité apparaît pendant la prière, elle annule, sauf si elle se répète au point d'être pénible, comme le madhy répété ; si elle apparaît après la prière, « فَالْمَشْهُورُ صِحَّتُهَا » ; un de ses maîtres conseille, en prière, de penser à la mort et au feu, puis de se vérifier en sortant.\n\nAl-Dardīr : « (كَإِنْعَاظٍ) أَيْ قِيَامِ ذَكَرٍ فَلَا يَنْقُضُ وَلَوْ طَالَ مَا لَمْ يُمْذِ ». Al-Dasūqī : qu'il ait ou non l'habitude d'émettre du madhy, « وَهَذَا هُوَ الْمُعْتَمَدُ » ; si le madhy sort réellement, l'annulation fait l'accord.",
+    aqwal: [
+      { auteur: "Ibn al-ʿAlāʾ as-Sabtī (avis dit « الْمَشْهُورُ »)", avis: "Le plaisir du regard n'a pas d'effet sur les ablutions.", statut: "mashhur" },
+      { auteur: "Certains savants (d'après Ibn al-ʿAlāʾ)", avis: "Le plaisir du regard annule les ablutions.", statut: "qawl" },
+      { auteur: "Avis rapporté sans attribution (al-Lakhmī)", avis: "L'érection seule n'oblige à rien, sauf madhy.", statut: "non_precise" },
+      { auteur: "Avis rapporté sans attribution (al-Lakhmī)", avis: "L'érection oblige aux ablutions, car elle ne retombe qu'avec du madhy.", statut: "non_precise" },
+      { auteur: "Al-Lakhmī", avis: "On s'en tient à l'habitude de chacun : madhy habituel ou habitude variable, ablutions ; sinon, non.", statut: "non_precise" },
+      { auteur: "Ibn ʿAṭāʾ Allāh (d'après at-Tawḍīḥ)", avis: "Pas d'ablution pour l'érection seule ; ablution si elle retombe avec du madhy.", statut: "non_precise" },
+      { auteur: "Avis dit « الْمَشْهُورُ » (al-Burzulī)", avis: "Si l'humidité apparaît après la prière, la prière est valable.", statut: "mashhur" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, le regard, « وَلَوْ تَكَرَّرَ » ; l'érection, « فَلَا يَنْقُضُ وَلَوْ طَالَ مَا لَمْ يُمْذِ » ; al-Dasūqī : même pour celui qui a l'habitude du madhy, « وَهَذَا هُوَ الْمُعْتَمَدُ ».",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Al-Burzulī : selon un avis tiré d'Aṣbagh, la prière se refait si l'humidité apparaît après, car elle était déjà parvenue au canal du membre ; un de ses maîtres conseille, en prière, de penser à ce qui brise le désir, puis de se vérifier en sortant."
+    ],
+    divergences: [
+      "Divergence — l'érection chez celui qui a l'habitude du madhy. Al-Ḥaṭṭāb rapporte, sans trancher, al-Lakhmī : « وَإِنْ كَانَتْ عَادَتُهُ أَنَّهُ يُمْذِي نُقِضَ ». Al-Dasūqī : « فَلَا يَنْقُضُ مُطْلَقًا كَانَتْ عَادَتُهُ الْإِمْذَاءَ بِالْإِنْعَاظِ أَوْ لَا وَهَذَا هُوَ الْمُعْتَمَدُ » ; il cite l'avis d'al-Lakhmī comme un autre avis.",
+      "Concordance — le madhy sorti. Al-Ḥaṭṭāb, d'après Ibn ʿAṭāʾ Allāh : « فَإِنْ انْكَسَرَ عَنْ مَذْيٍ تَوَضَّأَ ». Al-Dasūqī : « وَإِلَّا اُتُّفِقَ عَلَى النَّقْضِ ».",
+      "Concordance — le regard. Al-Ḥaṭṭāb, d'après Ibn al-ʿAlāʾ : « وَالْمَشْهُورُ عَدَمُ التَّأْثِيرِ ». Al-Dardīr : le plaisir du regard n'annule pas, « وَلَوْ تَكَرَّرَ »."
+    ],
+    exemple: "En état d'ablution, un homme regarde son épouse et ressent du désir, avec une érection, sans rien émettre : ses ablutions restent valables et il peut prier. S'il constate ensuite une goutte de madhy, il lave l'endroit et refait ses ablutions.",
+    erreurs_frequentes: [
+      "Croire que le désir né d'un regard annule : il n'annule pas, même répété.",
+      "Croire que l'érection seule annule : elle n'annule pas tant que le madhy ne sort pas.",
+      "Oublier qu'une sortie réelle de madhy annule toujours."
+    ],
+    termes: [
+      { ar: "إِنْعَاظ", translit: "inʿâz", def: "Érection du membre." }
+    ],
+    quiz: [
+      { q: "Le plaisir éprouvé en regardant, même répété :",
+        choix: ["Annule les ablutions", "N'annule pas les ablutions", "Annule s'il dure", "Oblige au grand lavage"],
+        bonne: 1,
+        explication: "Al-Dardīr : « (وَلَا) يَنْقُضُهُ (لَذَّةٌ بِنَظَرٍ) وَلَوْ تَكَرَّرَ »." },
+      { q: "Selon le muʿtamad, l'érection prolongée sans madhy, chez qui a l'habitude d'émettre du madhy :",
+        choix: ["Annule les ablutions", "Annule seulement en prière", "Oblige à vérifier puis au grand lavage", "N'annule pas"],
+        bonne: 3,
+        explication: "Al-Dasūqī : « كَانَتْ عَادَتُهُ الْإِمْذَاءَ بِالْإِنْعَاظِ أَوْ لَا وَهَذَا هُوَ الْمُعْتَمَدُ »." },
+      { q: "Mise en situation : après une érection, un homme constate une goutte de madhy. Que fait-il ?",
+        choix: ["Il refait ses ablutions : le madhy sorti annule", "Rien : l'érection n'annule pas", "Il ne refait ses ablutions que s'il a regardé une femme", "Il fait le grand lavage"],
+        bonne: 0,
+        explication: "Al-Dardīr : « مَا لَمْ يُمْذِ » ; al-Dasūqī : « وَإِلَّا اُتُّفِقَ عَلَى النَّقْضِ »." },
+      { q: "Quelle est la position propre d'al-Lakhmī sur l'érection ?",
+        choix: ["Elle annule toujours", "Elle n'annule jamais", "On s'en tient à l'habitude de chacun", "Elle n'annule qu'en prière"],
+        bonne: 2,
+        explication: "« وَأَرَى أَنْ يُحْمَلَ عَلَى عَادَتِهِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "298" },
+    alertes: [
+      "Matn complété : le « ص » de Mawāhib (569/297) n'a que « كَإِنْعَاظٍ » ; « وَلَا لَذَّةٌ بِنَظَرٍ » d'après le Mukhtaṣar seul (11355, p. 17), Ibn Ghāzī (14605, p. 34) et al-Dardīr (21604/120) ; al-Kharashī (91, p. 155) : « وَلَا لَذَّةَ بِنَظَرٍ » ; al-Ḥaṭṭāb ne commente pas le regard sous ce segment (n° 338).",
+      "Non résolu : citation d'al-Burzulī (569/297), « وَقَوْلُ الشَّيْخِ قَدْ قِيلَ مَعْنَاهُ مَا قَدَّمْنَاهُ » deux fois, la seconde avec « مَعَ عَدَمِ التَّكَرُّرِ », et « وَلَوْ خَرَجَ إذْ لَا أَعْلَمُ مَنْ قَالَهُ » : doublon et lecture probablement altérés ; les Masāʾil d'al-Burzulī n'ont pas été trouvées (n° 339) ; passage non cité.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 121 (Shamela 21604, page 120)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-06-11",
+    kitab: "tah", bab: "01", fasl: "06", ordre: 11,
+    titre: "Le plaisir avec une proche interdite au mariage",
+    titre_ar: "وَلَذَّةٍ بِمَحْرَمٍ عَلَى الْأَصَحِّ",
+    objectif: "Savoir ce que dit Khalīl du plaisir avec une proche interdite, et quel avis est retenu pour la pratique.",
+    matn: "وَلَذَّةٍ بِمَحْرَمٍ عَلَى الْأَصَحِّ",
+    regle_pratique: "Selon l'avis retenu pour la pratique, le plaisir éprouvé en touchant une proche parente interdite au mariage (tante, tante de l'épouse, parente de lait…) annule les ablutions ; la seule recherche du plaisir, sans l'éprouver, ne les annule pas, sauf chez l'homme dépravé qui a coutume d'y prendre plaisir ; Khalīl tenait pour « plus juste » qu'il n'annule pas.",
+    qualification: {
+      hukm: "fard",
+      nature: "mubtil",
+      effet_si_omis: "Si l'on a éprouvé du plaisir en touchant une proche interdite, il faut refaire ses ablutions."
+    },
+    explication: "Al-Ḥaṭṭāb : « كَلَامُ سَنَدٍ يَدُلُّ عَلَى أَنَّ اللَّذَّةَ بِالْمَحْرَمِ تَنْقُضُ », ce qu'a relevé Ibn Ghāzī. Ash-Shāmil : « فَلَا أَثَرَ لِمَحْرَمٍ », comme Ibn al-Ḥājib. Ibn ʿAbd as-Salām : ce texte laisse entendre qu'il n'y a pas d'ablution même avec plaisir, alors que certains imams de l'école tiennent que le plaisir avec une proche interdite annule ; on pourrait rattacher cela au débat sur les cas rares (الصُّوَر النَّادِرَة). At-Tawḍīḥ : c'est aussi ce que laisse entendre al-Jallāb ; « وَنَصَّ الْقَاضِي عَبْدُ الْوَهَّابِ وَغَيْرُهُ عَلَى أَنَّهُ إذَا وُجِدَتْ اللَّذَّةُ انْتَقَضَ ».\n\nIbn Rushd (début du samāʿ d'Ashhab) distingue trois sortes de femmes : les petites filles qu'on ne désire pas, dont le baiser n'oblige pas aux ablutions même avec recherche et sensation de plaisir (sauf pour qui exige les ablutions pour le plaisir de la pensée) ; les proches interdites, dont le baiser vise la tendresse, « فَلَا وُضُوءَ فِي تَقْبِيلِهِنَّ إلَّا مَعَ الْقَصْدِ إلَى الِالْتِذَاذِ بِذَلِكَ مِنْ الْفَاسِقِ الَّذِي لَا يَتَّقِي اللَّهَ تَعَالَى » ; les autres, dont le baiser oblige aux ablutions avec plaisir éprouvé ou recherché (sans l'un ni l'autre, deux avis). Ibn ʿArafa s'en tient à Ibn Rushd sans mentionner de divergence, et al-Māzarī a accepté l'avis de ʿAbd al-Wahhāb.\n\nKhalīl a pourtant déclaré « plus juste » (الأَصَحّ) l'absence d'annulation même avec plaisir, en s'appuyant sur Ibn al-Ḥājib et Ibn ʿAbd as-Salām. Ibn Ghāzī l'en a repris : l'avis contraire à ʿAbd al-Wahhāb, Ibn Rushd et al-Māzarī « غَايَتُهُ أَنَّهُ تَخْرِيجٌ أَوْ تَمَسُّكٌ بِظَاهِرٍ سَهْلِ التَّأْوِيلِ », comment en faire le plus juste ? Al-Ḥaṭṭāb : « قُلْت وَالظَّاهِرُ النَّقْضُ كَمَا قَالَهُ الْجَمَاعَةُ وَعَلَيْهِ اقْتَصَرَ فِي الْإِرْشَادِ ».\n\nAl-Dardīr : la proche interdite l'est « مِنْ قَرَابَةٍ أَوْ صِهْرٍ أَوْ رَضَاعٍ » ; « (عَلَى الْأَصَحِّ) خِلَافَ الرَّاجِحِ » ; le plaisir éprouvé annule, qu'il ait été cherché ou non ; la seule recherche n'annule pas « مَا لَمْ يَكُنْ فَاسِقًا », et le dépravé (فَاسِق) est ici « مَنْ شَأْنُهُ أَنْ يَلْتَذَّ بِمَحْرَمِهِ لِدَنَاءَةِ أَخْلَاقِهِ لَا كُلُّ مُرْتَكِبِ كَبِيرَةٍ ». Al-Dasūqī : « عَلَى الْأَصَحِّ أَيْ عِنْدَ ابْنِ الْحَاجِبِ وَابْنِ الْجَلَّابِ » ; on juge d'après ce que croit celui qui touche : s'il recherche le plaisir en pensant toucher une étrangère et qu'elle se révèle proche interdite, ses ablutions sont annulées ; dans le cas inverse, non.",
+    aqwal: [
+      { auteur: "Ibn al-Ḥājib, ash-Shāmil, apparence d'al-Jallāb (« الأَصَحّ » de Khalīl)", avis: "Le plaisir avec une proche interdite n'a pas d'effet, même éprouvé.", statut: "qawl" },
+      { auteur: "ʿAbd al-Wahhāb, Ibn Rushd, al-Māzarī (rājiḥ selon al-Dardīr)", avis: "Le plaisir éprouvé avec une proche interdite annule ; la seule recherche n'annule que chez le dépravé.", statut: "rajih" },
+      { auteur: "Sanad (d'après Ibn Ghāzī, cité par al-Ḥaṭṭāb)", avis: "Le plaisir avec une proche interdite annule.", statut: "non_precise" },
+      { auteur: "Ibn ʿAbd as-Salām", avis: "La question peut se rattacher au débat sur les cas rares.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé : al-Dardīr, « خِلَافَ الرَّاجِحِ » pour le « الأَصَحّ » de Khalīl, et le plaisir éprouvé annule, « نَاقِضٌ قَصَدَ أَوْ لَا » ; la seule recherche n'annule que chez le dépravé ; al-Dasūqī : « وَالْمُعْتَمَدُ أَنَّ وُجُودَ اللَّذَّةِ بِالْمَحْرَمِ » … « هَذَا مَا عَلَيْهِ ابْنُ رُشْدٍ وَالْمَازِرِيُّ وَعَبْدُ الْوَهَّابِ ».",
+    tarjih_hattab: "Le plaisir avec une proche interdite annule : « قُلْت وَالظَّاهِرُ النَّقْضُ كَمَا قَالَهُ الْجَمَاعَةُ وَعَلَيْهِ اقْتَصَرَ فِي الْإِرْشَادِ ».",
+    tanbihat: [
+      "Ibn Rushd : pour les femmes autres que les proches interdites, quand il n'y a ni recherche ni sensation de plaisir, « وَاخْتُلِفَ إذَا عُدِمَ الْأَمْرَانِ عَلَى قَوْلَيْنِ »."
+    ],
+    divergences: [
+      "Concordance — le plaisir éprouvé annule. Al-Ḥaṭṭāb : « وَالظَّاهِرُ النَّقْضُ كَمَا قَالَهُ الْجَمَاعَةُ ». Al-Dardīr : « خِلَافَ الرَّاجِحِ » ; al-Dasūqī : l'avis retenu « هَذَا مَا عَلَيْهِ ابْنُ رُشْدٍ وَالْمَازِرِيُّ وَعَبْدُ الْوَهَّابِ ».",
+      "Concordance — la recherche seule et le dépravé. Al-Ḥaṭṭāb, d'après Ibn Rushd : « إلَّا مَعَ الْقَصْدِ إلَى الِالْتِذَاذِ بِذَلِكَ مِنْ الْفَاسِقِ ». Al-Dardīr : « بِخِلَافِ مُجَرَّدِ الْقَصْدِ فَلَا يَنْقُضُ مَا لَمْ يَكُنْ فَاسِقًا ».",
+      "Complément — on juge d'après ce que croit celui qui touche. Al-Ḥaṭṭāb n'en parle pas. Al-Dasūqī : « وَاعْلَمْ أَنَّ الْمُرَادَ بِالْمَحْرَمِ بِاعْتِبَارِ مَا عِنْدَ اللَّامِسِ »."
+    ],
+    exemple: "Un homme embrasse sur le front la sœur de sa mère, par tendresse : ses ablutions restent valables. S'il éprouvait du plaisir en la touchant, selon l'avis retenu pour la pratique, il refait ses ablutions.",
+    erreurs_frequentes: [
+      "Prendre « الأَصَحّ » de Khalīl pour l'avis pratiqué : al-Dardīr le dit contraire à l'avis préférable.",
+      "Croire que la seule intention de plaisir envers une proche interdite annule toujours : elle n'annule que chez le dépravé.",
+      "Croire que les proches par alliance ou par le lait ne sont pas concernées : elles le sont."
+    ],
+    termes: [
+      { ar: "مَحْرَم", translit: "maḥram", def: "Proche parente qu'on ne peut jamais épouser, par la parenté, l'alliance ou le lait." }
+    ],
+    quiz: [
+      { q: "Pour al-Dardīr, le « plus juste » (الأَصَحّ) de Khalīl sur ce point est :",
+        choix: ["Contraire à l'avis préférable", "L'avis pratiqué", "L'avis de ʿAbd al-Wahhāb", "Un avis isolé de Mālik"],
+        bonne: 0,
+        explication: "Al-Dardīr : « (عَلَى الْأَصَحِّ) خِلَافَ الرَّاجِحِ »." },
+      { q: "Selon l'avis retenu pour la pratique, le plaisir éprouvé en touchant une proche interdite :",
+        choix: ["N'annule pas", "N'annule que s'il était recherché", "Annule, qu'il ait été recherché ou non", "Oblige au grand lavage"],
+        bonne: 2,
+        explication: "Al-Dardīr : « وَالْمُعْتَمَدُ أَنَّ وُجُودَ اللَّذَّةِ بِالْمُحْرِمِ نَاقِضٌ قَصَدَ أَوْ لَا »." },
+      { q: "Mise en situation : un homme touche une femme qu'il croit étrangère, en recherchant le plaisir ; il apprend ensuite que c'est sa sœur de lait. Ses ablutions :",
+        choix: ["Restent valables : c'est une proche interdite", "Restent valables s'il n'a rien ressenti", "Ne sont annulées que s'il est dépravé", "Sont annulées : on juge d'après ce qu'il croyait"],
+        bonne: 3,
+        explication: "Al-Dasūqī : « بِاعْتِبَارِ مَا عِنْدَ اللَّامِسِ » ; « فَإِنَّهُ يُنْتَقَضُ وُضُوءُهُ »." },
+      { q: "Quelle est la préférence propre d'al-Ḥaṭṭāb ?",
+        choix: ["Pas d'annulation, comme Khalīl", "L'annulation, comme le plus grand nombre", "Il ne se prononce pas", "L'annulation seulement pour le baiser"],
+        bonne: 1,
+        explication: "« قُلْت وَالظَّاهِرُ النَّقْضُ كَمَا قَالَهُ الْجَمَاعَةُ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "298-299" },
+    alertes: [
+      "Corrigé (campagne de correction) : Ibn Rushd cité « وَقِسْمٌ لَا يَنْبَغِي فِي تَقْبِيلِهِنَّ لَذَّةٌ وَهُنَّ ذَوَاتُ الْمَحَارِمِ » (569/297) ; al-Bayān (21751, p. 75) : « لا يبتغى في تقبيلهن لذة », et Mawāhib même, pour la troisième sorte : « يَبْتَغِي » ; lire « لَا يُبْتَغَى » (n° 341) ; passage non cité.",
+      "Précisé (campagne de correction) : matn « وَلَذَّةٍ » au génitif (Mawāhib ; al-Kharashī 91, p. 155 : « أَوْ لَذَّةٍ ») ; au nominatif chez Ibn Ghāzī (14605, p. 34) et al-Dardīr (21604/120 : « لَذَّةٌ ») ; les deux constructions se lisent (génitif après la préposition ka-, nominatif après « وَلَا لَذَّةٌ ») ; matn laissé selon le « ص » (n° 340).",
+      "Non résolu : « كَلَامُ سَنَدٍ يَدُلُّ عَلَى أَنَّ اللَّذَّةَ بِالْمَحْرَمِ تَنْقُضُ نَبَّهَ عَلَيْهِ ابْنُ غَازِيٍّ » (569/297) ; Shifāʾ al-Ghalīl d'Ibn Ghāzī (14605, p. 34–35) ne nomme pas Sanad sur ce point ; aṭ-Ṭirāz introuvable (n° 342).",
+      "Précisé (campagne de correction) : Ibn Ghāzī cité « وَالْحَقُّ وَاَللَّهُ سُبْحَانَهُ تَعَالَى أَعْلَمُ مَا قَدَّمْنَاهُ » (569/298) ; Shifāʾ al-Ghalīl (14605, p. 35) : « والحق … والله سبحانه أعلم أن المذهب … ما قدمناه » (un appel de note et un repère de folio s'intercalent) ; même sens ; la fiche ne cite que la suite, identique dans les deux textes (n° 343).",
+      "Al-Dardīr (21604/120) vocalise « بِمُحَرَّمٍ » et « بِالْمُحْرِمِ » ; al-Dasūqī et Mawāhib : « بِمَحْرَمٍ », « بِالْمَحْرَمِ ».",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 121 (Shamela 21604, page 120)."
+    ],
+    verification: "verifie"
+  }
+
+  /* FIN-UNITE-47 */
 ]);
