@@ -51,6 +51,7 @@ Contrôle de rendu : 2026-11-14, dépôt complet (unité 52) : 392 fiches (384 +
 Anomalies : 404 (Corrigé 152 | Précisé 121 | Non résolu 108 | Confirmé 6 | Limite 16 | Déjà corrigé 1) ; prochain n° = 405 ; prochain audit : après les unités 53 et 54, ou plus tôt au-delà de 8 alertes
 Prochaine étape : unité 53 = suite du faṣl tah-01-07 : « وَيَجِبُ غُسْلُ كَافِرٍ بَعْدَ الشَّهَادَةِ بِمَا ذُكِرَ » et suivants, 6 à 8 segments (Shamela 569/310–311, t. 1, p. 311–312 ; al-Dardīr / al-Dasūqī, 21604/129–130), dans tah-01-p25.js (v11.1)
 Textes attendus : aucun (sources lues sur Shamela par Claude)
+Archive du Projet : à jour pour reprise.md, changelog-2.md, manifeste.js, tah-01-unite52.md, quizdump.js ; **plan.js (v1.44), glossaire-p2.js (v1.55) et anomalies-textes-2.md (jusqu'au n° 394) y sont restés à l'état de l'unité 51** (fichiers longs, non relus pour ne pas saturer la conversation) : en début de conversation suivante, pour chacun, `project_read` puis `project_write` avec `local_path` du clone (v1.45, v1.56, n° 404)
 ```
 
 **Contrôle des citations de l'unité 25** : fait le 2026-11-08 (164 fragments sur 165, le manquant étant le titre du bāb ; voir `docs/changelog-2.md`). Leçon : ne pas mettre entre « » du français contenant des termes arabes (faux fragment), et commencer une citation au premier mot exact du texte (« وَلِأَنَّ », non « لِأَنَّ »).
