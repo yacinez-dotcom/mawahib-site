@@ -1,4 +1,4 @@
-/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 22 — v8.1
+/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 22 — v8.2
    Source : Mawāhib al-Jalīl, al-Ḥaṭṭāb, éd. Dār al-Fikr, 3e éd., 1412 H / 1992, tome 1 (shamela.ws/book/569).
    Croisement : al-Sharḥ al-kabīr d'al-Dardīr et Ḥāshiyat al-Dasūqī (shamela.ws/book/21604), tome 1.
    Cette partie : faṣl tah-01-06 (annulatifs des ablutions), à partir de tah-01-06-01 (unités 46 et suivantes) — t. 1, p. 290 et suivantes.
@@ -9,7 +9,8 @@
           al-Dardīr / al-Dasūqī, t. 1, p. 119–121) (2026-11-14) ; 09b et 09c : segments absents du « ص » de Mawāhib,
           rédigés d'après al-Dardīr / al-Dasūqī ; matn de 10 complété ; anomalies n° 333 à 343.
    Bāb découpé en parties de moins de 200 Ko ;
-   historique des versions : tah-01-p1.js (jusqu'à v2.5) puis l'en-tête de chaque partie. */
+   historique des versions : tah-01-p1.js (jusqu'à v2.5) puis l'en-tête de chaque partie.
+   v8.2 : relecture des quiz (2026-11-14) : tah-01-06-04, question 1, désignait « Un avis retenu » ; choix réordonnés, position inchangée. */
 App.data.ajouterFiches([
   /* ================================================================== */
   /* Unité 46 — tah-01-06-01 à -06b (début du faṣl des nawāqiḍ) */
@@ -307,7 +308,7 @@ App.data.ajouterFiches([
     termes: [],
     quiz: [
       { q: "Le mot « taraddoud » indique ici :",
-        choix: ["Un avis isolé", "Un désaccord des savants tardifs, faute de texte des anciens", "Un avis retenu", "Une obligation"],
+        choix: ["Un avis isolé", "Un avis retenu", "Un désaccord des savants tardifs, faute de texte des anciens", "Une obligation"],
         bonne: 2,
         explication: "Al-Dasūqī : « وَهَذَا التَّرَدُّدُ لِعَدَمِ نَصِّ الْمُتَقَدِّمِينَ »." },
       { q: "Selon Ibn Jamāʿa, on mesure la fréquence :",
