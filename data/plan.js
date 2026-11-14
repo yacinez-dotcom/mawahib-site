@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.42 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.43 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -71,7 +71,10 @@
    v1.41 : tah-01-06-12 découpé en 12a, 12b, 12c, titre arabe complété (« بِبَطْنٍ … حَسَّ », absent du « ص ») ;
           titre arabe de -15 « إلَّا الْمُسْتَنْكِحَ » (n° 353) ; -15b ajouté (« وَبِشَكٍّ فِي سَابِقِهِمَا », absent du « ص » de Mawāhib, n° 354) (unité 48).
    v1.42 : tah-01-06-16 découpé en 16a, 16b, 16c (16c : « وَمَسِّ امْرَأَةٍ فَرْجَهَا … », absent du « ص » de Mawāhib, n° 356) ;
-          « وَقَيْءٍ » (n° 355) ; titres de -17 à -19 précisés (unité 49). */
+          « وَقَيْءٍ » (n° 355) ; titres de -17 à -19 précisés (unité 49).
+   v1.43 : tah-01-06-20 découpé en 20a, 20b, 20c (début « وَمَنَعَ حَدَثٌ صَلَاةً وَطَوَافًا » et fin « وَحَمْلَهُ … لَا دِرْهَمٍ »
+          absents du « ص » de Mawāhib, n° 366 et 376 ; « وَمَسَّ », n° 367) ; -21 en 21a, 21b (« وَلَوْحٍ … », n° 377) ;
+          -22 en 22a, 22b (« وَحِرْزٍ بِسَاتِرٍ وَإِنْ لِحَائِضٍ », n° 380) ; fin du faṣl tah-01-06 (unité 50). */
 App.data.definirPlan({
   kutub: [
     {
@@ -487,7 +490,7 @@ App.data.definirPlan({
                 { id: "tah-01-05-37b", titre: "Moins de trois pierres", titre_ar: "وَدُونَ الثَّلَاثِ" } /* p. 290 ; « وَدُونَ » (n° 324, v1.38) */
               ]
             },
-            /* tah-01-06 — t. 1, p. 290–304 (Shamela 569, pages 289–303) — 25 segments du matn, dont 09b, 09c et 15b (16 en trois sous-fiches) */
+            /* tah-01-06 — t. 1, p. 290–305 (Shamela 569, pages 289–304) — 25 segments du matn, dont 09b, 09c et 15b (16, 20 en trois sous-fiches ; 21, 22 en deux) */
             {
               id: "tah-01-06",
               titre: "Ce qui annule les ablutions",
@@ -521,9 +524,13 @@ App.data.definirPlan({
                 { id: "tah-01-06-17", titre: "Se rincer la bouche après la viande et le lait", titre_ar: "وَنُدِبَ غَسْلُ فَمٍ مِنْ لَحْمٍ وَلَبَنٍ" }, /* p. 302 */
                 { id: "tah-01-06-18", titre: "Renouveler ses ablutions si l'on a prié avec", titre_ar: "وَتَجْدِيدُ وُضُوءٍ إنْ صَلَّى بِهِ" }, /* p. 302 */
                 { id: "tah-01-06-19", titre: "Douter pendant la prière, puis apprendre qu'on était pur", titre_ar: "وَلَوْ شَكَّ فِي صَلَاتِهِ ثُمَّ بَانَ …" }, /* p. 303 */
-                { id: "tah-01-06-20", titre: "Toucher le Coran, même avec un bâton", titre_ar: "وَمَسُّ مُصْحَفٍ وَإِنْ بِقَضِيبٍ" }, /* p. 303 */
-                { id: "tah-01-06-21", titre: "Le livre de tafsîr", titre_ar: "وَتَفْسِيرٍ" }, /* p. 304 */
-                { id: "tah-01-06-22", titre: "Partie du Coran pour l'élève, même pubère", titre_ar: "وَجُزْءٍ لِمُتَعَلِّمٍ وَإِنْ بَلَغَ" } /* p. 304 */
+                { id: "tah-01-06-20a", titre: "Ce que le ḥadath interdit : la prière, le ṭawâf, toucher le Coran", titre_ar: "وَمَنَعَ حَدَثٌ صَلَاةً وَطَوَافًا وَمَسَّ مُصْحَفٍ وَإِنْ بِقَضِيبٍ" }, /* p. 303 ; début absent du « ص » (n° 366) ; « وَمَسَّ » (n° 367, v1.43) */
+                { id: "tah-01-06-20b", titre: "Écrire le Coran ; la nécessité ; le verset abrogé ; le linceul", titre_ar: "وَمِثْلُ الْمَسِّ وَالْحَمْلِ كَتْبُهُ" }, /* p. 303–304 ; sous-fiche de 20 (v1.43) */
+                { id: "tah-01-06-20c", titre: "Porter le muṣḥaf ; la pièce de monnaie", titre_ar: "وَحَمْلَهُ وَإِنْ بِعِلَاقَةٍ أَوْ وِسَادَةٍ … لَا دِرْهَمٍ" }, /* fin du segment absente du « ص » ; al-Dardīr, t. 1, p. 125 (n° 376, v1.43) */
+                { id: "tah-01-06-21a", titre: "Le livre de tafsîr ; le Coran en caractères non arabes", titre_ar: "وَتَفْسِيرٍ" }, /* p. 304 (v1.43) */
+                { id: "tah-01-06-21b", titre: "La tablette de l'enseignant et de l'élève", titre_ar: "وَلَوْحٍ لِمُعَلِّمٍ وَمُتَعَلِّمٍ وَإِنْ حَائِضًا" }, /* fin du segment absente du « ص » ; al-Dardīr, t. 1, p. 126 (n° 377, v1.43) */
+                { id: "tah-01-06-22a", titre: "Une partie du Coran pour l'élève, même pubère ; le muṣḥaf complet ; le copiste", titre_ar: "وَجُزْءٍ لِمُتَعَلِّمٍ وَإِنْ بَلَغَ" }, /* p. 304–305 (v1.43) */
+                { id: "tah-01-06-22b", titre: "L'amulette coranique couverte, même pour la femme en règles", titre_ar: "وَحِرْزٍ بِسَاتِرٍ وَإِنْ لِحَائِضٍ" } /* fin du segment absente du « ص » ; al-Dardīr, t. 1, p. 126 (n° 380, v1.43) */
               ]
             },
             /* tah-01-07 — t. 1, p. 305–318 (Shamela 569, pages 304–317) — 34 segments du matn */

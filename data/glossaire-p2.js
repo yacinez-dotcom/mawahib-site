@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.53
+/* Données — Glossaire, partie 2 — v1.54
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -28,7 +28,8 @@
    v1.50 : 6 termes de l'unité 46 (tah-01-06-01 à -06b).
    v1.51 : 7 termes de l'unité 47 (tah-01-06-07 à -11).
    v1.52 : 8 termes de l'unité 48 (tah-01-06-12a à -15b).
-   v1.53 : 7 termes de l'unité 49 (tah-01-06-16a à -19). */
+   v1.53 : 7 termes de l'unité 49 (tah-01-06-16a à -19).
+   v1.54 : 12 termes de l'unité 50 (tah-01-06-20a à -22b). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -355,7 +356,19 @@ App.data.ajouterTermes([
   { ar: "قَهْقَهَة", translit: "qahqaha", def: "Éclat de rire sonore." },
   { ar: "وَثَن", translit: "wathan", def: "Idole." },
   { ar: "إِلْطَاف", translit: "ilṭâf", def: "Pour la femme, introduire une partie de la main dans son sexe." },
-  { ar: "غَمَر", translit: "ghamar", def: "Graisse, odeur de graisse qui reste sur la main après un aliment gras." }
+  { ar: "غَمَر", translit: "ghamar", def: "Graisse, odeur de graisse qui reste sur la main après un aliment gras." },
+  { ar: "طَوَاف", translit: "ṭawâf", def: "Les sept tours que l'on fait autour de la Kaʿba." },
+  { ar: "قَضِيب", translit: "qaḍîb", def: "Baguette, bâton." },
+  { ar: "خَتْمَة", translit: "khatma", def: "Exemplaire complet du Coran." },
+  { ar: "مَنْسُوخُ اللَّفْظ", translit: "mansoûkh al-lafẓ", def: "Passage dont la lettre a été abrogée : il ne fait plus partie du Coran récité ni du muṣḥaf." },
+  { ar: "عِلَاقَة", translit: "ʿilâqa", def: "Cordon ou courroie par lequel on suspend et porte un objet." },
+  { ar: "وِسَادَة", translit: "wisâda", def: "Coussin ou support sur lequel on pose le muṣḥaf." },
+  { ar: "أَمْتِعَة", translit: "amtiʿa", def: "Bagages, affaires que l'on transporte." },
+  { ar: "تَفْسِير", translit: "tafsîr", def: "Commentaire du Coran, qui en explique le sens." },
+  { ar: "لَوْح", translit: "lawḥ", def: "Tablette sur laquelle l'élève écrit les versets qu'il apprend." },
+  { ar: "جُزْء", translit: "jouz'", def: "Partie du Coran, moindre que l'exemplaire complet." },
+  { ar: "نُفَسَاء", translit: "noufasâ'", def: "Femme en période de lochies, après l'accouchement." },
+  { ar: "امْتِهَان", translit: "imtihân", def: "Avilissement : traiter sans respect une chose sacrée." }
 
   /* FIN-GLOSSAIRE */
 ]);
