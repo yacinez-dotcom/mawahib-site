@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.49
+/* Données — Glossaire, partie 2 — v1.50
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -24,7 +24,8 @@
    v1.46 : 7 termes de l'unité 42 (tah-01-05-09 à -16).
    v1.47 : 6 termes de l'unité 43 (tah-01-05-17 à -24b).
    v1.48 : 9 termes de l'unité 44 (tah-01-05-25 à -32).
-   v1.49 : 6 termes de l'unité 45 (tah-01-05-33a à -37b). */
+   v1.49 : 6 termes de l'unité 45 (tah-01-05-33a à -37b).
+   v1.50 : 6 termes de l'unité 46 (tah-01-06-01 à -06b). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -323,7 +324,13 @@ App.data.ajouterTermes([
   { ar: "حَشَفَة", translit: "ḥachafa", def: "Gland, extrémité du membre (comme كَمَرَة)." },
   { ar: "مُحْتَرَم", translit: "mouḥtaram", def: "Respectable : ce qui a droit au respect (nourriture, écrit, or, mur d'autrui…) et ne sert pas à s'essuyer." },
   { ar: "مَدَر", translit: "madar", def: "Motte de terre séchée ; al-Dardīr l'explique par la brique." },
-  { ar: "حُمَمَة", translit: "houmama", def: "Charbon de bois." }
+  { ar: "حُمَمَة", translit: "houmama", def: "Charbon de bois." },
+  { ar: "نَاقِض", translit: "nâqid", def: "Annulatif : ce qui met fin à l'effet des ablutions." },
+  { ar: "سَبَب", translit: "sabab", def: "Cause : ce qui mène à la sortie d'un ḥadath (sommeil, toucher), sans être un ḥadath." },
+  { ar: "حُقْنَة", translit: "houqna", def: "Lavement : remède introduit par l'anus." },
+  { ar: "ثُقْبَة", translit: "thouqba", def: "Ouverture, trou dans le corps par où sort le ḥadath." },
+  { ar: "إِغْمَاء", translit: "ighmâ'", def: "Évanouissement, perte de connaissance." },
+  { ar: "حَبْوَة", translit: "ḥabwa", def: "Étoffe ou bras qui entourent les genoux de celui qui est assis." }
 
   /* FIN-GLOSSAIRE */
 ]);

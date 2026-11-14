@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.38 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.39 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -64,7 +64,8 @@
    v1.35 : tah-01-05-13 découpé en 13a (invocation oubliée), 13b (dhikr dans les lieux d'aisance), 13c (bague gravée) ; matn de 13 vocalisé « يُعَدَّ » (anomalie n° 294) (unité 42).
    v1.36 : titres arabes de tah-01-05-17 à -21 au génitif (dépendent de « وَاتِّقَاءُ », anomalie n° 301) ; matn de 23 complété (« عَكْسُ مَسْجِدٍ وَالْمَنْزِلُ يُمْنَاهُ بِهِمَا », n° 304) ; tah-01-05-24 découpé en 24a (miction et selles) et 24b (rapport conjugal), « مُسْتَقْبِلَ قِبْلَةٍ » (n° 305) (unité 43).
    v1.37 : titre arabe de tah-01-05-26 complété (« وَالْمُخْتَارُ التَّرْكُ », n° 306) ; -28 au génitif « وَبَيْتِ الْمَقْدِسِ » (n° 307) ; -30 « خَفَّا » (n° 308) et découpé en 30a (manière de l'istibrâ') et 30b (le lavage) (unité 44).
-   v1.38 : tah-01-05-33 devient 33a, et 33b ajouté (« وَمُنْتَشِرٍ عَنْ مَخْرَجٍ كَثِيرًا », absent du « ص » de Mawāhib, n° 316) ; titre arabe de -34 « وَمَذْيٍ » (n° 317) ; -36 découpé en 36a et 36b ; -37 découpé en 37a et 37b, « وَدُونَ الثَّلَاثِ » (n° 324) (unité 45). */
+   v1.38 : tah-01-05-33 devient 33a, et 33b ajouté (« وَمُنْتَشِرٍ عَنْ مَخْرَجٍ كَثِيرًا », absent du « ص » de Mawāhib, n° 316) ; titre arabe de -34 « وَمَذْيٍ » (n° 317) ; -36 découpé en 36a et 36b ; -37 découpé en 37a et 37b, « وَدُونَ الثَّلَاثِ » (n° 324) (unité 45).
+   v1.39 : titre arabe de tah-01-06-01 « نُقِضَ الْوُضُوءُ » (n° 327) ; -03 découpé en 03a et 03b ; -06 découpé en 06a et 06b (unité 46). */
 App.data.definirPlan({
   kutub: [
     {
@@ -486,12 +487,14 @@ App.data.definirPlan({
               titre: "Ce qui annule les ablutions",
               titre_ar: "نَوَاقِضُ الوُضُوءِ",
               masail: [
-                { id: "tah-01-06-01", titre: "Annulation par le hadath : ce qui sort normalement", titre_ar: "فَصْلٌ نَقْضُ الْوُضُوءِ بِحَدَثٍ وَهُوَ الْخَارِجُ …" }, /* p. 290 */
+                { id: "tah-01-06-01", titre: "Annulation par le hadath : ce qui sort normalement", titre_ar: "فَصْلٌ نُقِضَ الْوُضُوءُ بِحَدَثٍ وَهُوَ الْخَارِجُ …" }, /* p. 290–291 ; « نُقِضَ » (n° 327, v1.39) */
                 { id: "tah-01-06-02", titre: "Pas les calculs ni les vers", titre_ar: "لَا حَصًى وَدُودٌ وَلَوْ بِبِلَّةٍ" }, /* p. 291 */
-                { id: "tah-01-06-03", titre: "Incontinence (salas) selon sa fréquence", titre_ar: "وَبِسَلَسٍ فَارَقَ أَكْثَرَ كَسَلَسِ مَذْيٍ قَدَرَ …" }, /* p. 291 */
+                { id: "tah-01-06-03a", titre: "Incontinence (salas) selon sa fréquence : quatre cas", titre_ar: "وَبِسَلَسٍ فَارَقَ أَكْثَرَ … وَنُدِبَ إنْ لَازَمَ أَكْثَرَ لَا إنْ شَقَّ" }, /* p. 291–292 (v1.39) */
+                { id: "tah-01-06-03b", titre: "Le madhy qu'on peut faire cesser ; le vent ; l'ablution sèche", titre_ar: "كَسَلَسِ مَذْيٍ قَدَرَ عَلَى رَفْعِهِ" }, /* p. 292 ; sous-fiche de 03 (v1.39) */
                 { id: "tah-01-06-04", titre: "Fréquence : au temps de prière ou en général (taraddoud)", titre_ar: "وَفِي اعْتِبَارِ الْمُلَازَمَةِ فِي وَقْتِ الصَّلَاةِ …" }, /* p. 292 */
                 { id: "tah-01-06-05", titre: "Par les deux voies, ou une ouverture sous l'estomac", titre_ar: "مِنْ مَخْرَجَيْهِ أَوْ ثُقْبَةٍ تَحْتَ الْمَعِدَةِ …" }, /* p. 293 */
-                { id: "tah-01-06-06", titre: "Par sa cause : perte de raison, sommeil profond", titre_ar: "وَبِسَبَبِهِ وَهُوَ زَوَالُ عَقْلٍ وَإِنْ بِنَوْمٍ …" }, /* p. 294 */
+                { id: "tah-01-06-06a", titre: "Par sa cause : la perte de raison", titre_ar: "وَبِسَبَبِهِ وَهُوَ زَوَالُ عَقْلٍ" }, /* p. 294–296 (v1.39) */
+                { id: "tah-01-06-06b", titre: "Le sommeil : lourd ou léger, court ou long", titre_ar: "وَإِنْ بِنَوْمٍ ثَقُلَ وَلَوْ قَصُرَ لَا خَفَّ وَنُدِبَ إنْ طَالَ" }, /* p. 294–296 ; sous-fiche de 06 (v1.39) */
                 { id: "tah-01-06-07", titre: "Toucher avec un plaisir habituel", titre_ar: "وَلَمْسٌ يَلْتَذُّ صَاحِبُهُ بِهِ عَادَةً" }, /* p. 296 */
                 { id: "tah-01-06-08", titre: "… même un ongle ou un cheveu", titre_ar: "وَلَوْ كَظُفُرٍ أَوْ شَعْرٍ" }, /* p. 297 */
                 { id: "tah-01-06-09", titre: "… ou à travers un écran", titre_ar: "أَوْ حَائِلٍ وَأُوِّلَ بِالْخَفِيفِ وَبِالْإِطْلَاقِ" }, /* p. 297 */
