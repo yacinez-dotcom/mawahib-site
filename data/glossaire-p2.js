@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.54
+/* Données — Glossaire, partie 2 — v1.55
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -29,7 +29,8 @@
    v1.51 : 7 termes de l'unité 47 (tah-01-06-07 à -11).
    v1.52 : 8 termes de l'unité 48 (tah-01-06-12a à -15b).
    v1.53 : 7 termes de l'unité 49 (tah-01-06-16a à -19).
-   v1.54 : 12 termes de l'unité 50 (tah-01-06-20a à -22b). */
+   v1.54 : 12 termes de l'unité 50 (tah-01-06-20a à -22b).
+   v1.55 : 8 termes de l'unité 51 (tah-01-07-01 à -06). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -368,7 +369,15 @@ App.data.ajouterTermes([
   { ar: "لَوْح", translit: "lawḥ", def: "Tablette sur laquelle l'élève écrit les versets qu'il apprend." },
   { ar: "جُزْء", translit: "jouz'", def: "Partie du Coran, moindre que l'exemplaire complet." },
   { ar: "نُفَسَاء", translit: "noufasâ'", def: "Femme en période de lochies, après l'accouchement." },
-  { ar: "امْتِهَان", translit: "imtihân", def: "Avilissement : traiter sans respect une chose sacrée." }
+  { ar: "امْتِهَان", translit: "imtihân", def: "Avilissement : traiter sans respect une chose sacrée." },
+  { ar: "جَنَابَة", translit: "janâba", def: "État de celui qui doit faire le ghousl après un rapport ou la sortie du sperme." },
+  { ar: "سُرَّة", translit: "sourra", def: "Nombril." },
+  { ar: "تَكَامِيش", translit: "takâmîch", def: "Plis, replis de la peau (pluriel)." },
+  { ar: "لَذَّةٌ مُعْتَادَة", translit: "ladhdha mouʿtâda", def: "Plaisir habituel : celui du rapport, du regard ou de la pensée, par opposition à un plaisir venu d'une cause inhabituelle." },
+  { ar: "إِنْزَال", translit: "inzâl", def: "Émission, sortie du sperme." },
+  { ar: "مُرَاهِق", translit: "mourâhiq", def: "Adolescent proche de la puberté, sans l'avoir atteinte (douze ou treize ans, selon al-Dasūqī)." },
+  { ar: "بَالِغ", translit: "bâligh", def: "Pubère : qui a atteint la puberté et est donc soumis aux obligations." },
+  { ar: "الْتِقَاءُ الْخِتَانَيْن", translit: "iltiqâ' al-khitânayn", def: "« Rencontre des deux circoncisions » : la pénétration du gland, qui oblige au ghousl même sans émission." }
 
   /* FIN-GLOSSAIRE */
 ]);

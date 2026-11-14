@@ -1,11 +1,14 @@
-/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 24 — v10.0
+/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 24 — v10.1
    Source : Mawāhib al-Jalīl, al-Ḥaṭṭāb, éd. Dār al-Fikr, 3e éd., 1412 H / 1992, tome 1 (shamela.ws/book/569).
    Croisement : al-Sharḥ al-kabīr d'al-Dardīr et Ḥāshiyat al-Dasūqī (shamela.ws/book/21604), tome 1.
-   Cette partie : fin du faṣl tah-01-06 (annulatifs des ablutions), à partir de tah-01-06-20a (unité 50) — t. 1, p. 303 et suivantes.
+   Cette partie : fin du faṣl tah-01-06 (annulatifs des ablutions), à partir de tah-01-06-20a (unité 50), puis faṣl tah-01-07 (le ghousl) — t. 1, p. 303 et suivantes.
    v10.0 : unité 50 — tah-01-06-20a, -20b, -20c, -21a, -21b, -22a, -22b et synthèse tah-01-06-syn (Mawāhib, t. 1, p. 303–305 ;
           al-Dardīr / al-Dasūqī, t. 1, p. 125–126) (2026-11-14) ; nouvelle partie, tah-01-p23.js (≈ 141 Ko) étant figée ;
           20a : début du segment absent du « ص » de Mawāhib ; 20c, 21b, 22b : fins de segment absentes du « ص »,
           rédigées d'après al-Dardīr / al-Dasūqī ; anomalies n° 366 à 382 ; faṣl tah-01-06 terminé.
+   v10.1 : unité 51 — début du faṣl tah-01-07 (le ghousl) : tah-01-07-01, -02, -03, -04, -04b, -05, -06 (Mawāhib, t. 1, p. 305–308 ;
+          al-Dardīr / al-Dasūqī, t. 1, p. 126–129) (2026-11-14) ; 04b : segment absent du « ص » de Mawāhib ;
+          matn de 04 et 06 complétés, 06 « وَبِمَغِيبِ » ; anomalies n° 383 à 394.
    Bāb découpé en parties de moins de 200 Ko ;
    historique des versions : tah-01-p1.js (jusqu'à v2.5) puis l'en-tête de chaque partie. */
 App.data.ajouterFiches([
@@ -526,4 +529,472 @@ App.data.ajouterFiches([
   }
 
   /* FIN-UNITE-50 */
+  ,
+  /* ================================================================== */
+  /* Unité 51 — tah-01-07-01 à -06 (dont 04b) : début du faṣl du ghousl */
+  /* Mawāhib, t. 1, p. 305–308 (Shamela 569/304–307) ; al-Dardīr / al-Dasūqī, t. 1, p. 126–129 (Shamela 21604/125–128) */
+  {
+    id: "tah-01-07-01",
+    kitab: "tah", bab: "01", fasl: "07", ordre: 1,
+    titre: "Le ghousl : laver tout le corps apparent ; première cause, le sperme",
+    titre_ar: "فَصْلٌ يَجِبُ غُسْلُ ظَاهِرِ الْجَسَدِ بِمَنِيٍّ",
+    objectif: "Savoir ce que le ghousl doit atteindre, et que la sortie du sperme avec un plaisir habituel en est la première cause.",
+    matn: "فَصْلٌ يَجِبُ غُسْلُ ظَاهِرِ الْجَسَدِ بِمَنِيٍّ",
+    regle_pratique: "Le ghousl obligatoire consiste à faire arriver l'eau sur tout l'extérieur du corps, y compris le creux du nombril, les plis, les aisselles et ce qui est caché sous le menton (la bouche, le nez et le conduit des oreilles relèvent de la sunna) ; il devient obligatoire quand le sperme sort avec un plaisir habituel, chez l'homme comme chez la femme.",
+    qualification: {
+      hukm: "fard",
+      nature: "rukn",
+      effet_si_omis: "Une partie du corps apparent laissée sèche rend le ghousl incomplet ; le passage ne précise pas ici d'autre conséquence."
+    },
+    explication: "Après la petite purification (le woudoû'), Khalīl passe à la grande, le ghousl (غُسْل). Al-Ḥaṭṭāb : « يَعْنِي أَنَّ الْوَاجِبَ إنَّمَا هُوَ تَعْمِيمُ ظَاهِرِ الْجَسَدِ وَأَمَّا الْمَضْمَضَةُ وَالِاسْتِنْشَاقُ فَلَيْسَتَا وَاجِبَتَيْنِ وَإِنَّمَا هُمَا سُنَّتَانِ », de même l'essuyage du conduit de l'oreille (صِمَاخ).\n\nLe corps apparent comprend des endroits que les savants ont signalés. Al-Ḥaṭṭāb cite la Risāla et le commentaire de Zarrūq : suivre le creux du nombril (سُرَّة), « لَا سِيَّمَا إنْ كَثُرَتْ تَكَامِيشُهُ أَوْ ارْتَفَعَتْ دَائِرَتُهُ لِسِمَنٍ أَوْ نَحْوِهِ » ; ce qui est sous la gorge, « أَيْ مَا سَتَرَهُ الذَّقَنُ لِسِمَنٍ وَنَحْوِهِ », et les aisselles ; passer l'eau entre les doigts des mains, « وُجُوبًا عَلَى الْمَشْهُورِ » ; frotter les talons et les tendons d'Achille ; pour les orteils, la règle des ablutions, où l'avis répandu est la recommandation.\n\nLa première cause du ghousl est la sortie du sperme (مَنِيّ) avec un plaisir habituel : « فَالسَّبَبُ الْأَوَّلُ هُوَ خُرُوجُ الْمَنِيِّ بِسَبَبِ لَذَّةٍ مُعْتَادَةٍ » ; Khalīl sous-entend ce plaisir, que montre la suite du matn (« لَا بِلَا لَذَّةٍ أَوْ غَيْرِ مُعْتَادَةٍ », fiche 04). Al-Dardīr précise, pour la femme, « أَيْ بُرُوزِهِ عَنْ الْفَرْجِ فِي حَقِّ الْمَرْأَةِ لَا مُجَرَّدُ إحْسَاسِهَا بِانْفِصَالِهِ خِلَافًا لِسَنَدٍ » (voir les divergences).",
+    aqwal: [
+      { auteur: "Zarrūq (sur la Risāla, cité par al-Ḥaṭṭāb)", avis: "Passer l'eau entre les doigts des mains dans le ghousl est obligatoire.", statut: "mashhur" },
+      { auteur: "Avis rapporté sans attribution (d'après Zarrūq)", avis: "C'est seulement recommandé, comme dans les ablutions.", statut: "qawl" },
+      { auteur: "Mālik (d'après aṭ-Ṭirāz, cité par al-Ḥaṭṭāb)", avis: "Il ne connaît pas l'obligation de passer l'eau entre les orteils, ni dans les ablutions ni dans le ghousl de janâba.", statut: "non_precise" },
+      { auteur: "Ibn Ḥabīb (d'après aṭ-Ṭirāz)", avis: "Celui qui ne frotte pas les orteils dans le ghousl de janâba : son ghousl ne suffit pas.", statut: "non_precise" },
+      { auteur: "Sanad (d'après al-Dardīr et al-Dasūqī)", avis: "Pour la femme, il suffit qu'elle sente le sperme se détacher de son siège, même s'il ne sort pas.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : laver tout le corps apparent, hors la bouche, le nez et le conduit des oreilles ; les plis et le nombril en font partie ; pour la femme, la sortie du sperme jusqu'à l'endroit qu'elle lave en se nettoyant (al-Dasūqī), contre Sanad. Orteils : al-Dasūqī tient leur passage pour obligatoire « عَلَى الرَّاجِحِ » (voir les divergences).",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Al-Ḥaṭṭāb lit « بِمَنِيٍّ » comme « à cause de la sortie d'un sperme venu d'un plaisir habituel » : « أَيْ بِسَبَبِ خُرُوجِ مَنِيٍّ كَائِنٍ لِلَّذَّةِ الْمُعْتَادَةِ ».",
+      "Il rapporte d'aṭ-Ṭirāz (Sanad) que le premier avis sur les orteils (celui de Mālik) est le plus apparent, car le lavage d'un même membre est de même nature dans les ablutions et le ghousl : « وَالْأَوَّلُ أَظْهَرُ »."
+    ],
+    divergences: [
+      "Divergence — les orteils. Al-Ḥaṭṭāb, d'après Zarrūq : « وَفِي تَخْلِيلِ أَصَابِعِهِمَا مَا فِي الْوُضُوءِ، وَقَدْ تَقَدَّمَ الْمَشْهُورُ النَّدْبُ », et d'après aṭ-Ṭirāz, l'avis de Mālik préféré. Al-Dasūqī : « وَمِنْهُ أَيْضًا أَصَابِعُ الرِّجْلَيْنِ عَلَى الرَّاجِحِ كَأَصَابِعِ الْيَدَيْنِ فَيَجِبُ عَلَيْهِ تَخْلِيلُ ذَلِكَ كُلِّهِ ».",
+      "Concordance — ce qui n'est pas « apparent ». Al-Ḥaṭṭāb : bouche, nez et conduit de l'oreille relèvent de la sunna. Al-Dardīr : « وَلَيْسَ مِنْهُ الْفَمُ وَالْأَنْفُ وَصِمَاخُ الْأُذُنَيْنِ وَالْعَيْنَيْنِ », mais « بَلْ التَّكَامِيشُ بِدُبُرٍ أَوْ غَيْرِهِ فَيَسْتَرْخِي قَلِيلًا وَالسُّرَّةُ ».",
+      "Point à comparer — la sortie du sperme chez la femme. Al-Dardīr : « لَا مُجَرَّدُ إحْسَاسِهَا بِانْفِصَالِهِ خِلَافًا لِسَنَدٍ » ; al-Dasūqī, d'après « ح » (Muḥammad al-Ḥaṭṭāb) : « وُصُولُهُ لِمَحَلِّ مَا يُغْسَلُ عِنْدَ الِاسْتِنْجَاءِ وَهُوَ مَا يَبْدُو مِنْهَا عِنْدَ الْجُلُوسِ لِقَضَاءِ الْحَاجَةِ، كَمَا قَالَهُ ح » ; Sanad : « خُرُوجُ مَاءِ الْمَرْأَةِ لَيْسَ بِشَرْطٍ فِي جَنَابَتِهَا » ; al-Dasūqī limite la divergence à l'état de veille : « وَأَمَّا فِي النَّوْمِ فَلَا بُدَّ مِنْ بُرُوزِهِ مِنْهَا قَطْعًا ». Al-Ḥaṭṭāb cite al-Ubbī dans le même sens (voir la fiche 03).",
+      "Divergence — l'homme. Al-Dardīr : « وَانْفِصَالُهُ عَنْ مَقَرِّهِ بِأَنْ وَصَلَ إلَى قَصَبَةِ الذَّكَرِ فِي حَقِّ الرَّجُلِ ». Al-Dasūqī : « هَذَا غَيْرُ صَحِيحٍ بَلْ الْمَنْصُوصُ عَلَيْهِ فِي الرَّجُلِ أَنَّهُ لَا يَجِبُ عَلَيْهِ الْغُسْلُ حَتَّى يَبْرُزَ الْمَنِيُّ عَنْ الذَّكَرِ كَمَا صَرَّحَ بِهِ الْأَبِيُّ فِي شَرْحِ مُسْلِمٍ وَنَقَلَهُ عَنْهُ ح » (voir la fiche 03)."
+    ],
+    exemple: "Un homme corpulent prend son ghousl : il fait couler l'eau dans le creux de son nombril, sous son menton et dans ses aisselles, et passe l'eau entre ses doigts ; il se rince aussi la bouche et le nez, mais au titre de la sunna.",
+    erreurs_frequentes: [
+      "Croire que se rincer la bouche et le nez est une obligation du ghousl : ce sont des sunna.",
+      "Laisser sèches les parties cachées (nombril, plis, aisselles, dessous du menton).",
+      "Croire que tout écoulement de sperme impose le ghousl : il faut un plaisir habituel (fiche 04)."
+    ],
+    termes: [
+      { ar: "جَنَابَة", translit: "janâba", def: "État de celui qui doit faire le ghousl après un rapport ou la sortie du sperme." },
+      { ar: "سُرَّة", translit: "sourra", def: "Nombril." },
+      { ar: "تَكَامِيش", translit: "takâmîch", def: "Plis, replis de la peau (pluriel)." },
+      { ar: "لَذَّةٌ مُعْتَادَة", translit: "ladhdha mouʿtâda", def: "Plaisir habituel : celui du rapport, du regard ou de la pensée, par opposition à un plaisir venu d'une cause inhabituelle." }
+    ],
+    quiz: [
+      { q: "Dans le ghousl obligatoire, se rincer la bouche et aspirer l'eau par le nez sont :",
+        choix: ["Des sunna", "Des obligations", "Interdits", "Déconseillés"],
+        bonne: 0,
+        explication: "« وَأَمَّا الْمَضْمَضَةُ وَالِاسْتِنْشَاقُ فَلَيْسَتَا وَاجِبَتَيْنِ وَإِنَّمَا هُمَا سُنَّتَانِ »." },
+      { q: "Selon al-Dardīr, font partie du corps apparent à laver :",
+        choix: ["La bouche et le nez", "L'intérieur des yeux", "Les plis et le nombril", "Le conduit des oreilles"],
+        bonne: 2,
+        explication: "« بَلْ التَّكَامِيشُ بِدُبُرٍ أَوْ غَيْرِهِ فَيَسْتَرْخِي قَلِيلًا وَالسُّرَّةُ »." },
+      { q: "Mise en situation : une femme se réveille sans aucune trace, mais se souvient d'un rêve. Selon al-Dasūqī :",
+        choix: ["Elle fait le ghousl dans tous les cas", "Elle fait seulement ses ablutions", "Elle fait le ghousl seulement si elle a senti le plaisir", "Dans le sommeil, il faut que le sperme soit sorti pour qu'elle fasse le ghousl"],
+        bonne: 3,
+        explication: "« وَأَمَّا فِي النَّوْمِ فَلَا بُدَّ مِنْ بُرُوزِهِ مِنْهَا قَطْعًا »." },
+      { q: "La première cause du ghousl, selon al-Ḥaṭṭāb, est :",
+        choix: ["Tout écoulement de sperme", "La sortie du sperme avec un plaisir habituel", "Le simple plaisir sans sortie", "Le contact d'une personne désirable"],
+        bonne: 1,
+        explication: "« فَالسَّبَبُ الْأَوَّلُ هُوَ خُرُوجُ الْمَنِيِّ بِسَبَبِ لَذَّةٍ مُعْتَادَةٍ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "305" },
+    alertes: [
+      "Précisé (campagne de correction) : dans les citations de la Risāla et de Zarrūq, « وَيَغْسِلُ رِجْلَيْهِ آخِرَ ذَلِكَ » revient deux fois de suite (569/304), la seconde avec sa suite ; doublet de l'édition, sans effet sur le sens (n° 383).",
+      "Le « وَالْأَوَّلُ أَظْهَرُ » sur les orteils est de Sanad (citation d'aṭ-Ṭirāz close par « انْتَهَى »), non d'al-Ḥaṭṭāb ; rapporté en remarque, hors de `tarjih_hattab`.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 126–127 (Shamela 21604, pages 125–126)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-07-02",
+    kitab: "tah", bab: "01", fasl: "07", ordre: 2,
+    titre: "… même pendant le sommeil",
+    titre_ar: "وَإِنْ بِنَوْمٍ",
+    objectif: "Savoir quand le rêve oblige au ghousl : s'il y a trace de sperme, et non le simple souvenir d'un plaisir.",
+    matn: "وَإِنْ بِنَوْمٍ",
+    regle_pratique: "Le sperme sorti pendant le sommeil oblige au ghousl, homme ou femme ; celui qui se souvient d'un plaisir en rêve mais ne trouve aucune trace au réveil n'a pas de ghousl à faire ; celui qui trouve du sperme sans se souvenir d'un rêve fait le ghousl.",
+    qualification: {
+      hukm: "fard",
+      nature: "autre",
+      effet_si_omis: "Le passage ne précise pas de conséquence propre au sommeil ; voir la fiche 01."
+    },
+    explication: "Al-Ḥaṭṭāb : « يَعْنِي أَنَّهُ يَجِبُ غُسْلُ ظَاهِرِ الْجَسَدِ بِسَبَبِ خُرُوجِ الْمَنِيِّ لِلَّذَّةِ … الْمُعْتَادَةِ وَلَوْ كَانَ خُرُوجُهُ فِي حَالَةِ النَّوْمِ ». Si le plaisir et la sortie ont lieu ensemble dans le sommeil, « فَلَا خِلَافَ فِي وُجُوبِ الْغُسْلِ، وَسَوَاءٌ فِي ذَلِكَ الرَّجُلُ وَالْمَرْأَةُ ».\n\nPlaisir sans trace : « ثُمَّ اسْتَيْقَظَ وَلَمْ يَجِدْ بَلَلًا فَلَا غُسْلَ عَلَيْهِ » ; al-Ḥaṭṭāb rappelle que le Prophète ﷺ a été interrogé à ce sujet et a répondu qu'il n'y a pas de ghousl (Abū Dāwud et at-Tirmidhī). Si le sperme sort ensuite : « فَفِي وُجُوبِ الْغُسْلِ قَوْلَانِ الْمَشْهُورُ الْوُجُوبُ ».\n\nTrace sans souvenir : al-Qarāfī rapporte le consensus, « وَإِجْمَاعُ الْأُمَّةِ عَلَى أَنَّ مَنْ اسْتَيْقَظَ وَوَجَدَ الْمَنِيَّ وَلَمْ يَرَ احْتِلَامًا أَنَّ عَلَيْهِ الْغُسْلَ » ; mais al-Bājī rapporte de Mujāhid l'avis contraire, et Ibn Rāshid, dans son commentaire d'Ibn al-Ḥājib, donne deux avis : « وَإِنْ وَجَدَ الْأَثَرَ وَلَمْ يَذْكُرْ أَنَّهُ احْتَلَمَ فَفِي وُجُوبِ الْغُسْلِ قَوْلَانِ ». Al-Ḥaṭṭāb invite à comparer (« وَانْظُرْ »).",
+    aqwal: [
+      { auteur: "Avis rapporté sans attribution (al-Ḥaṭṭāb)", avis: "Plaisir en rêve, puis sortie du sperme après le réveil : le ghousl est obligatoire.", statut: "mashhur" },
+      { auteur: "Avis rapporté sans attribution (al-Ḥaṭṭāb)", avis: "Dans ce même cas, le ghousl n'est pas obligatoire.", statut: "qawl" },
+      { auteur: "Al-Qarāfī (adh-Dhakhīra)", avis: "Consensus : celui qui trouve du sperme au réveil sans souvenir de rêve fait le ghousl.", statut: "non_precise" },
+      { auteur: "Mujāhid (d'après al-Bājī, al-Muntaqā)", avis: "S'il ne se souvient de rien, il n'a rien à faire.", statut: "non_precise" },
+      { auteur: "Ibn Rāshid (commentaire d'Ibn al-Ḥājib)", avis: "Trace sans souvenir : deux avis sur l'obligation du ghousl.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : le sperme sorti dans le sommeil oblige au ghousl, « بِلَذَّةٍ مُعْتَادَةٍ أَوْ لَا بَلْ وَلَوْ بِلَا لَذَّةٍ أَصْلًا عَلَى الْمُعْتَمَدِ » ; al-Dasūqī discute ce dernier point (voir les divergences).",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Al-Ḥaṭṭāb relève l'écart entre le consensus rapporté par al-Qarāfī et les deux avis rapportés par Ibn Rāshid, et invite à l'examiner : « وَانْظُرْ هَذَا الَّذِي نَقَلَهُ مِنْ الْإِجْمَاعِ »."
+    ],
+    divergences: [
+      "Point à comparer — sperme trouvé après un rêve d'une cause inhabituelle. Al-Dardīr : « بَلْ وَلَوْ بِلَا لَذَّةٍ أَصْلًا عَلَى الْمُعْتَمَدِ ». Al-Dasūqī : « تَبِعَ فِي هَذَا الْإِطْلَاقِ عج مُعْتَرِضًا بِهِ عَلَى ح وتت الْقَائِلَيْنِ إذَا رَأَى فِي مَنَامِهِ أَنَّ عَقْرَبًا لَدَغَتْهُ فَأَمْنَى … لَمْ يَجِبْ الْغُسْلُ » (ح : Muḥammad al-Ḥaṭṭāb ; عج et تت : sigles non définis dans la liste d'al-Dasūqī), puis : « وَبِالْجُمْلَةِ فَلَا نَصَّ فِي الْمَسْأَلَةِ وَمَا تَمَسَّكَ بِهِ عج فِي رَدِّهِ عَلَى ح وتت وَاهٍ جِدًّا اُنْظُرْ بْن » (بن : Muḥammad al-Bunānī). Le passage d'al-Ḥaṭṭāb visé n'est pas dans Mawāhib, t. 1, p. 305–308 (voir les alertes).",
+      "Concordance — trace sans souvenir. Al-Ḥaṭṭāb, d'après al-Qarāfī : le ghousl. Al-Bājī (al-Muntaqā) : « فَالَّذِي عَلَيْهِ جُمْهُورُ الْفُقَهَاءِ أَنَّ الْغُسْلَ وَجَبَ عَلَيْهِ » ; « وَقَالَ مُجَاهِدٌ لَا غُسْلَ عَلَيْهِ »."
+    ],
+    exemple: "Un jeune homme se souvient au réveil d'un rêve, mais ne trouve aucune trace : il n'a pas de ghousl à faire. Le lendemain, il trouve une trace sans se souvenir de rien : il fait le ghousl.",
+    erreurs_frequentes: [
+      "Faire le ghousl pour un simple souvenir de rêve, sans trace.",
+      "Ne pas faire le ghousl parce qu'on ne se souvient d'aucun rêve, alors qu'on trouve du sperme.",
+      "Croire que la règle du sommeil ne vaut que pour l'homme."
+    ],
+    termes: [],
+    quiz: [
+      { q: "Au réveil, aucune trace, mais le souvenir d'un plaisir en rêve :",
+        choix: ["Ghousl obligatoire", "Ghousl recommandé", "Ablutions obligatoires", "Pas de ghousl"],
+        bonne: 3,
+        explication: "« ثُمَّ اسْتَيْقَظَ وَلَمْ يَجِدْ بَلَلًا فَلَا غُسْلَ عَلَيْهِ »." },
+      { q: "Mise en situation : vous trouvez une trace de sperme au réveil, sans souvenir de rêve. Selon le consensus rapporté par al-Qarāfī :",
+        choix: ["Vous faites le ghousl", "Vous ne faites rien", "Vous faites seulement vos ablutions", "Vous lavez seulement le vêtement"],
+        bonne: 0,
+        explication: "« أَنَّ مَنْ اسْتَيْقَظَ وَوَجَدَ الْمَنِيَّ وَلَمْ يَرَ احْتِلَامًا أَنَّ عَلَيْهِ الْغُسْلَ »." },
+      { q: "Plaisir en rêve, et le sperme ne sort qu'après le réveil. L'avis répandu :",
+        choix: ["Pas de ghousl", "Le ghousl est obligatoire", "Seulement les ablutions", "Le ghousl est recommandé"],
+        bonne: 1,
+        explication: "« فَفِي وُجُوبِ الْغُسْلِ قَوْلَانِ الْمَشْهُورُ الْوُجُوبُ »." },
+      { q: "Qui, selon al-Bājī, ne demande rien à celui qui ne se souvient de rien ?",
+        choix: ["Mālik", "Al-Qarāfī", "Mujāhid", "Ibn Rāshid"],
+        bonne: 2,
+        explication: "« وَقَالَ مُجَاهِدٌ لَا غُسْلَ عَلَيْهِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "305–306" },
+    alertes: [
+      "Le passage d'al-Ḥaṭṭāb visé par al-Dasūqī (rêve d'une piqûre de scorpion, démangeaison) n'est pas dans Mawāhib, t. 1, p. 305–308 (569/304–307 relus) ; à chercher plus loin dans le faṣl.",
+      "Le mot « لِلَّذَّةِ » et « الْمُعْتَادَةِ » sont séparés par un changement de page (569/304–305) : citation en deux morceaux.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 127 (Shamela 21604, page 126)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-07-03",
+    kitab: "tah", bab: "01", fasl: "07", ordre: 3,
+    titre: "… ou après la fin du plaisir, sans rapport",
+    titre_ar: "أَوْ بَعْدَ ذَهَابِ لَذَّةٍ بِلَا جِمَاعٍ وَلَمْ يَغْتَسِلْ",
+    objectif: "Savoir que le sperme qui sort après la fin d'un plaisir sans rapport oblige au ghousl, et qu'un plaisir sans sortie n'y oblige pas.",
+    matn: "أَوْ بَعْدَ ذَهَابِ لَذَّةٍ بِلَا جِمَاعٍ وَلَمْ يَغْتَسِلْ",
+    regle_pratique: "Celui qui a éprouvé un plaisir sans rapport (regard, pensée, caresse) et dont le sperme sort après coup doit faire le ghousl, même s'il s'était déjà lavé avant la sortie ; tant que le sperme n'est pas sorti, il n'y a pas de ghousl.",
+    qualification: {
+      hukm: "fard",
+      nature: "autre",
+      effet_si_omis: "Un ghousl fait avant la sortie du sperme ne compte pas : il faut le refaire après la sortie."
+    },
+    explication: "Al-Ḥaṭṭāb : le ghousl est dû pour le sperme venu d'un plaisir habituel sans rapport, « وَلَوْ خَرَجَ بَعْدَ ذَهَابِهَا » ; « وَمَا ذَكَرَهُ هُوَ الْمَشْهُورُ وَقِيلَ: لَا يَجِبُ الْغُسْلُ لِعَدَمِ الْمُقَارَنَةِ لِلَّذَّةِ ».\n\nLes mots « وَلَمْ يَغْتَسِلْ » ne doivent pas être pris à la lettre : « وَلَا مَفْهُومَ لِقَوْلِهِ: وَلَمْ يَغْتَسِلْ » ; celui qui se lave avant la sortie doit refaire son ghousl, car le premier « لَا فَائِدَةَ فِيهِ لِعَدَمِ وُجُوبِهِ ». Al-Ḥaṭṭāb discute les explications proposées : il écrit que Khalīl aurait été plus clair en disant « وَلَوْ اغْتَسَلَ » ; il rapporte la variante « أَوْ بِهِ » de certaines copies, « وَهُوَ إصْلَاحٌ بِتَكَلُّفٍ » ; il conteste Bahrām (« الشَّارِحُ »), qui parlait d'absence de divergence.\n\nLe sperme qui se déplace sans sortir : Ibn al-ʿArabī (al-ʿĀriḍa) : « إذَا انْتَقَلَ الْمَنِيُّ وَلَمْ يَظْهَرْ لَمْ يُوجِبْ غُسْلًا » ; al-Ubbī : pas de ghousl s'il n'atteint que la base ou le milieu du membre ; pour la femme, s'il atteint l'endroit qu'elle lave en se nettoyant, « وَهُوَ مَا يَظْهَرُ عِنْدَ جُلُوسِهَا عِنْدَ قَضَاءِ الْحَاجَةِ اغْتَسَلَتْ » ; la vierge seulement s'il sort. Ibn Rushd (Ajwiba) : celui qui a rêvé et dont le sperme sort après ses ablutions fait le ghousl.",
+    aqwal: [
+      { auteur: "Avis rapporté sans attribution (al-Ḥaṭṭāb)", avis: "Le sperme sorti après la fin du plaisir oblige au ghousl.", statut: "mashhur" },
+      { auteur: "Avis rapporté sans attribution (al-Ḥaṭṭāb ; aṭ-Ṭirāz)", avis: "Pas de ghousl, faute de simultanéité avec le plaisir.", statut: "qawl" },
+      { auteur: "Ibn al-ʿArabī (al-ʿĀriḍa)", avis: "Le sperme qui se déplace sans paraître n'oblige pas au ghousl.", statut: "non_precise" },
+      { auteur: "Al-Ubbī (commentaire de Muslim)", avis: "L'homme : seulement s'il sort ; la femme : s'il atteint l'endroit qu'elle lave en se nettoyant ; la vierge : seulement s'il sort d'elle.", statut: "non_precise" },
+      { auteur: "Ibn Rushd (Ajwiba)", avis: "Celui qui a rêvé sans émission puis émet après ses ablutions fait le ghousl.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : ghousl obligatoire, « سَوَاءٌ اغْتَسَلَ قَبْلَ خُرُوجِ الْمَنِيِّ لِظَنِّهِ أَنَّهُ يَجِبُ عَلَيْهِ الْغُسْلُ بِمُجَرَّدِ اللَّذَّةِ جَهْلًا مِنْهُ أَوْ لَمْ يَغْتَسِلْ » ; « فَقَوْلُهُ (وَلَمْ يَغْتَسِلْ) لَا مَفْهُومَ لَهُ ».",
+    tarjih_hattab: "Il tient pour la meilleure lecture de Khalīl que « وَلَمْ يَغْتَسِلْ » n'a pas de sens implicite, et juge plus forcées les autres : « هَذَا أَوْلَى مَا يُعْتَذَرُ بِهِ عَنْ كَلَامِ الْمُصَنِّفِ » ; il conteste Bahrām : « قَوْلُهُ: يَجِبُ عَلَيْهِ الْغُسْلُ بِلَا خِلَافٍ، غَيْرُ ظَاهِرٍ ».",
+    tanbihat: [
+      "Al-Ḥaṭṭāb note que, si une partie du sperme est sortie avec le plaisir et qu'on s'est lavé, le reste qui sort ensuite n'oblige pas à refaire le ghousl selon l'avis répandu.",
+      "La divergence, dit-il, repose sur la question de savoir si le ghousl exige que la sortie soit simultanée au plaisir."
+    ],
+    divergences: [
+      "Concordance — « وَلَمْ يَغْتَسِلْ ». Al-Ḥaṭṭāb : « وَلَا مَفْهُومَ لِقَوْلِهِ ». Al-Dardīr : « فَقَوْلُهُ (وَلَمْ يَغْتَسِلْ) لَا مَفْهُومَ لَهُ ». Al-Dasūqī rapporte, d'après al-Bunānī (بن), l'explication d'Ibn Ghāzī par la sortie en deux fois, celle qu'al-Ḥaṭṭāb discute en premier.",
+      "Concordance — le sperme qui ne sort pas. Al-Ḥaṭṭāb, d'après al-Ubbī et Ibn al-ʿArabī. Al-Dasūqī : « كَمَا صَرَّحَ بِهِ الْأَبِيُّ فِي شَرْحِ مُسْلِمٍ وَنَقَلَهُ عَنْهُ ح وَمِثْلُهُ فِي الْعَارِضَةِ لِابْنِ الْعَرَبِيِّ » (ح : Muḥammad al-Ḥaṭṭāb).",
+      "Complément — sommeil puis veille. Al-Dasūqī : « وَالظَّاهِرُ تَلْفِيقُ حَالَةِ النَّوْمِ لِحَالَةِ الْيَقِظَةِ » : plaisir dans le sommeil, sortie au réveil sans plaisir, ghousl. Al-Ḥaṭṭāb rapporte la même réponse d'Ibn Rushd.",
+      "Complément — la variante « أَوْ بِهِ ». Ibn Ghāzī : « فِي النسخة المقروءة عَلَى أبي عبد الله بن الفتوح: صوابه أو به ولَمْ يغتسل ». Al-Ḥaṭṭāb : « وَهُوَ إصْلَاحٌ بِتَكَلُّفٍ »."
+    ],
+    exemple: "Un homme pense à son épouse et en éprouve du plaisir, sans émission ; une heure plus tard, après ses ablutions, du sperme sort : il doit faire le ghousl. S'il s'était lavé par erreur juste après le plaisir, ce premier lavage ne compte pas.",
+    erreurs_frequentes: [
+      "Faire le ghousl pour un simple plaisir sans sortie et croire qu'il suffit pour la sortie qui suit.",
+      "Croire que le sperme sorti après coup, sans plaisir à ce moment-là, n'oblige pas au ghousl.",
+      "Croire que le sperme qui se déplace sans sortir oblige au ghousl."
+    ],
+    termes: [
+      { ar: "إِنْزَال", translit: "inzâl", def: "Émission, sortie du sperme." }
+    ],
+    quiz: [
+      { q: "Plaisir sans rapport, puis sortie du sperme une fois le plaisir passé. Selon l'avis répandu :",
+        choix: ["Ghousl obligatoire", "Seulement les ablutions", "Rien", "Ghousl recommandé"],
+        bonne: 0,
+        explication: "« وَمَا ذَكَرَهُ هُوَ الْمَشْهُورُ »." },
+      { q: "Les mots « وَلَمْ يَغْتَسِلْ » de Khalīl, selon al-Ḥaṭṭāb et al-Dardīr :",
+        choix: ["Dispensent du ghousl celui qui s'est déjà lavé", "Imposent deux ghousl", "Visent seulement la femme", "N'ont pas de sens implicite à retenir"],
+        bonne: 3,
+        explication: "« وَلَا مَفْهُومَ لِقَوْلِهِ: وَلَمْ يَغْتَسِلْ »." },
+      { q: "Mise en situation : après un plaisir sans émission, quelqu'un fait le ghousl par précaution ; le sperme sort ensuite. Il doit :",
+        choix: ["Ne rien faire, il s'est déjà lavé", "Faire seulement ses ablutions", "Refaire le ghousl après la sortie", "Laver seulement l'endroit"],
+        bonne: 2,
+        explication: "Le premier ghousl « لَا فَائِدَةَ فِيهِ لِعَدَمِ وُجُوبِهِ »." },
+      { q: "Le sperme qui se déplace sans paraître, selon Ibn al-ʿArabī :",
+        choix: ["Oblige au ghousl", "N'oblige pas au ghousl", "Oblige au tayammoum", "Oblige au ghousl chez la femme seulement"],
+        bonne: 1,
+        explication: "« إذَا انْتَقَلَ الْمَنِيُّ وَلَمْ يَظْهَرْ لَمْ يُوجِبْ غُسْلًا »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "306–307" },
+    alertes: [
+      "Précisé (campagne de correction) : « أَوْ بَعْدَ ذَهَابِ » ; certaines copies portent « أَوْ بِهِ » (al-Ḥaṭṭāb, 569/305 ; Ibn Ghāzī, 14605, p. 38, d'après la copie lue devant Ibn al-Futūḥ) ; matn laissé selon le « ص », comme le Mukhtaṣar seul, Ibn Ghāzī, al-Dardīr et al-Kharashī (n° 384).",
+      "Non résolu : la phrase « الْمَفْهُومُ هُنَا غَيْرُ مُعْتَبَرٍ؛ لِأَنَّهُ خَرَجَ لِبَيَانِ أَنَّ الْحُكْمَ فِي وُجُودِ اللَّذَّةِ مَعَ عَدَمِ خُرُوجِ الْمَنِيِّ » (569/305) paraît altérée ; aucun témoin ; non utilisée (n° 385).",
+      "Précisé (campagne de correction) : « وَجَزَمَ صَاحِبُ الطِّرَازِ بِوُجُوبِ الْغُسْلِ فَانْظُرْهُ » (569/306) ne dit pas pour quel cas ; al-Dasūqī (21604/125–126) rapporte de Sanad le ghousl de la femme qui sent le sperme se détacher (« وَخِلَافُ سَنَدٍ إنَّمَا هُوَ فِي الْمَرْأَةِ ») : c'est sans doute ce cas ; non utilisé dans la règle (n° 386).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 127 (Shamela 21604, page 126)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-07-04",
+    kitab: "tah", bab: "01", fasl: "07", ordre: 4,
+    titre: "Pas sans plaisir, ou avec un plaisir inhabituel ; mais les ablutions",
+    titre_ar: "لَا بِلَا لَذَّةٍ أَوْ غَيْرِ مُعْتَادَةٍ وَيَتَوَضَّأُ",
+    objectif: "Savoir que le sperme sorti sans plaisir, ou avec un plaisir d'une cause inhabituelle, n'oblige pas au ghousl, mais annule les ablutions.",
+    matn: "لَا بِلَا لَذَّةٍ أَوْ غَيْرِ مُعْتَادَةٍ وَيَتَوَضَّأُ",
+    regle_pratique: "Le sperme qui sort, en état de veille, sans plaisir (maladie, coup, piqûre) ou avec un plaisir d'une cause inhabituelle (eau chaude, démangeaison, secousses d'une monture) n'oblige pas au ghousl, mais il faut refaire ses ablutions ; s'il a senti le début du plaisir et l'a laissé continuer jusqu'à l'émission, al-Dardīr distingue selon la cause.",
+    qualification: {
+      hukm: "wajib",
+      nature: "autre",
+      effet_si_omis: "Il faut refaire les ablutions avant de prier (al-Dardīr) ; le passage d'al-Ḥaṭṭāb ne précise pas de conséquence."
+    },
+    explication: "Al-Ḥaṭṭāb : « قَالُوا: كَمَنْ حَكَّ لِجَرَبٍ أَوْ نَزَلَ فِي مَاءٍ حَارٍّ أَوْ رَكَضَ دَابَّتَهُ », et ajoute : « وَظَاهِرُ كَلَامِهِمْ أَنَّهُ لَا غُسْلَ عَلَيْهِ وَلَوْ أَحَسَّ بِمَبَادِئِ اللَّذَّةِ ثُمَّ اسْتَدَامَ ذَلِكَ » ; or, au chapitre du pèlerinage, on dit que cela le rend nul : « وَقَدْ قَالُوا فِي الْحَجِّ: إنَّ ذَلِكَ يُفْسِدُهُ فَانْظُرْهُ ».\n\nAl-Ḥaṭṭāb ne commente pas « وَيَتَوَضَّأُ », absent de son « ص » (voir les alertes). Al-Dardīr : sans plaisir, « بَلْ سَلِسًا أَوْ بِضَرْبَةٍ أَوْ طَرْبَةٍ أَوْ لَدْغَةِ عَقْرَبٍ فَلَا غُسْلَ » ; plaisir inhabituel, « كَنُزُولِهِ بِمَاءٍ حَارٍّ وَلَوْ اسْتَدَامَ فِيمَا يَظْهَرُ », démangeaison du membre ou secousses de la monture « فَلَا غُسْلَ مَا لَمْ يُحِسَّ بِمَبَادِئِ اللَّذَّةِ فَيَسْتَدِيمُ فِيهِمَا حَتَّى يُمْنِي فَيَجِبُ » ; mais « (يَتَوَضَّأُ) وُجُوبًا فِي الْمَسْأَلَتَيْنِ لِنَقْضِ وُضُوئِهِ بِخُرُوجِ الْمَنِيِّ فِيهِمَا », sauf pour l'incontinence qui ne cesse pas (voir le faṣl tah-01-06, fiche 03a).",
+    aqwal: [
+      { auteur: "Avis rapporté sans attribution (« قَالُوا », al-Ḥaṭṭāb)", avis: "Démangeaison, eau chaude, monture : pas de ghousl, même si l'on a senti le début du plaisir et l'a laissé durer.", statut: "non_precise" },
+      { auteur: "Ibn Marzūq (d'après al-Bunānī, cité par al-Dasūqī)", avis: "L'avis le plus fort est le ghousl, comme l'a choisi al-Lakhmī.", statut: "non_precise" },
+      { auteur: "Al-Lakhmī (d'après Ibn Marzūq)", avis: "Choix du ghousl pour le sperme sorti avec un plaisir inhabituel.", statut: "non_precise" },
+      { auteur: "Avis rapporté sans attribution (al-Dasūqī)", avis: "Les ablutions sont seulement recommandées dans ces deux cas.", statut: "qawl" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : pas de ghousl, mais les ablutions obligatoires ; son maître al-ʿAdawī (d'après al-Dasūqī) maintient l'avis de Khalīl contre Ibn Marzūq : « فَيَكُونُ الرَّاجِحُ كَلَامُ الْمُصَنِّفِ ». Pour la démangeaison du membre et la monture, ghousl si l'on a laissé durer le plaisir senti (al-Dardīr, « كَذَا يَظْهَرُ ») ; avis divergents chez al-Dasūqī (voir les divergences).",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Al-Ḥaṭṭāb relève que la règle du pèlerinage (le pèlerinage rendu nul dans ces cas) contraste avec l'absence de ghousl, et invite à l'examiner : « فَانْظُرْهُ »."
+    ],
+    divergences: [
+      "Divergence — le plaisir senti et prolongé. Al-Ḥaṭṭāb : « وَظَاهِرُ كَلَامِهِمْ أَنَّهُ لَا غُسْلَ عَلَيْهِ وَلَوْ أَحَسَّ بِمَبَادِئِ اللَّذَّةِ ثُمَّ اسْتَدَامَ ذَلِكَ ». Al-Dardīr : « فَلَا غُسْلَ مَا لَمْ يُحِسَّ بِمَبَادِئِ اللَّذَّةِ فَيَسْتَدِيمُ فِيهِمَا حَتَّى يُمْنِي فَيَجِبُ » (démangeaison du membre, monture), mais pas pour l'eau chaude ; al-Dasūqī rapporte trois façons de voir : celle de son maître al-ʿAdawī (que suit al-Dardīr), celle de ash-Shaykh Sālim (« مَا لَمْ يُحِسَّ بِمَبَادِئِ اللَّذَّةِ وَيَسْتَدِيمُ وَإِلَّا وَجَبَ الْغُسْلُ فِي الثَّلَاثَةِ ») et celle de عج (sigle non défini dans la liste d'al-Dasūqī).",
+      "Point à comparer — l'avis le plus fort. Al-Dasūqī : « قَالَ بْن اعْتَرَضَ ابْنُ مَرْزُوقٍ عَلَى الْمُصَنِّفِ بِأَنَّ الرَّاجِحَ وُجُوبُ الْغُسْلِ بِخُرُوجِهِ بِلَذَّةٍ غَيْرِ مُعْتَادَةٍ كَمَا اخْتَارَهُ اللَّخْمِيُّ » (بن : Muḥammad al-Bunānī) ; son maître al-ʿAdawī : « فَيَكُونُ الرَّاجِحُ كَلَامُ الْمُصَنِّفِ ». Al-Ḥaṭṭāb n'en parle pas.",
+      "Complément — les ablutions. Al-Ḥaṭṭāb ne commente pas « وَيَتَوَضَّأُ ». Al-Dardīr : « وُجُوبًا فِي الْمَسْأَلَتَيْنِ » ; al-Dasūqī : « أَيْ وَقِيلَ بِنَدْبِهِ فِيهِمَا »."
+    ],
+    exemple: "Un homme qui souffre d'une maladie a un écoulement de sperme sans aucun plaisir : il ne fait pas le ghousl, mais refait ses ablutions avant de prier (sauf incontinence permanente).",
+    erreurs_frequentes: [
+      "Croire que toute sortie de sperme oblige au ghousl.",
+      "Croire que, sans ghousl, il n'y a rien à faire : les ablutions sont annulées.",
+      "Croire que la question du plaisir senti et prolongé est tranchée sans débat."
+    ],
+    termes: [],
+    quiz: [
+      { q: "Le sperme qui sort, éveillé, à cause d'un coup, sans plaisir :",
+        choix: ["Oblige aux ablutions, pas au ghousl", "Oblige au ghousl", "N'oblige à rien", "Oblige au tayammoum"],
+        bonne: 0,
+        explication: "« فَلَا غُسْلَ » ; « (يَتَوَضَّأُ) وُجُوبًا فِي الْمَسْأَلَتَيْنِ »." },
+      { q: "Selon al-Dardīr, le bain dans une eau chaude qui provoque l'émission :",
+        choix: ["Oblige au ghousl", "Oblige au ghousl si l'on a laissé durer", "N'oblige pas au ghousl, même si l'on a laissé durer", "Annule le jeûne seulement"],
+        bonne: 2,
+        explication: "« كَنُزُولِهِ بِمَاءٍ حَارٍّ وَلَوْ اسْتَدَامَ فِيمَا يَظْهَرُ »." },
+      { q: "Mise en situation : un cavalier sent le début du plaisir à cause des secousses de sa monture et le laisse continuer jusqu'à l'émission. Selon al-Dardīr :",
+        choix: ["Rien à faire", "Seulement les ablutions", "Le ghousl est recommandé", "Le ghousl est obligatoire"],
+        bonne: 3,
+        explication: "« مَا لَمْ يُحِسَّ بِمَبَادِئِ اللَّذَّةِ فَيَسْتَدِيمُ فِيهِمَا حَتَّى يُمْنِي فَيَجِبُ »." },
+      { q: "Qui tenait pour plus fort le ghousl en cas de plaisir inhabituel ?",
+        choix: ["Al-Dardīr", "Ibn Marzūq, avec le choix d'al-Lakhmī", "Al-Ḥaṭṭāb", "Son maître al-ʿAdawī"],
+        bonne: 1,
+        explication: "« اعْتَرَضَ ابْنُ مَرْزُوقٍ عَلَى الْمُصَنِّفِ بِأَنَّ الرَّاجِحَ وُجُوبُ الْغُسْلِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "307" },
+    alertes: [
+      "Limite du texte : le « ص » de Mawāhib (569/306) s'arrête à « أَوْ غَيْرِ مُعْتَادَةٍ » ; « وَيَتَوَضَّأُ », que donnent le Mukhtaṣar seul (11355, p. 18), al-Dardīr (21604/127) et al-Kharashī (91, p. 162), n'est pas commenté par al-Ḥaṭṭāb : ajouté au matn d'après eux, règle des ablutions rédigée d'après al-Dardīr / al-Dasūqī (n° 387).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 127–128 (Shamela 21604, pages 126–127)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-07-04b",
+    kitab: "tah", bab: "01", fasl: "07", ordre: 4,
+    titre: "Celui qui a eu un rapport, s'est lavé, puis émet",
+    titre_ar: "كَمَنْ جَامَعَ فَاغْتَسَلَ ثُمَّ أَمْنَى",
+    objectif: "Savoir que celui qui s'est lavé après un rapport sans émission, puis émet, ne refait pas le ghousl mais seulement ses ablutions.",
+    matn: "كَمَنْ جَامَعَ فَاغْتَسَلَ ثُمَّ أَمْنَى",
+    regle_pratique: "Celui qui a eu un rapport sans émission et a fait son ghousl, puis dont le sperme sort ensuite, ne refait pas le ghousl : il refait seulement ses ablutions ; de même la femme chez qui sort, après son ghousl, le sperme de son mari.",
+    qualification: {
+      hukm: "wajib",
+      nature: "autre",
+      effet_si_omis: "Les ablutions sont à refaire avant de prier (al-Dardīr) ; le ghousl n'est pas à refaire."
+    },
+    explication: "Ce segment manque au « ص » de Mawāhib (voir les alertes), mais al-Ḥaṭṭāb en parle à deux endroits. Il explique « بِلَا جِمَاعٍ » de la fiche 03 : « احْتِرَازٌ مِمَّا إذَا خَرَجَ الْمَنِيُّ بَعْدَ ذَهَابِ اللَّذَّةِ بِالْجِمَاعِ فَإِنَّهُ لَا يَجِبُ بِسَبَبِ خُرُوجِ الْمَنِيِّ غُسْلٌ إذَا كَانَ قَدْ اغْتَسَلَ لِلْجِمَاعِ », et renvoie à « كَمَنْ جَامَعَ فَاغْتَسَلَ ثُمَّ أَمْنَى ». Il cite Ibn Rushd (Ajwiba) : « وَأَمَّا الَّذِي جَامَعَ وَلَمْ يُنْزِلْ حَتَّى اغْتَسَلَ فَلَيْسَ عَلَيْهِ إلَّا الْوُضُوءُ وَقَدْ قِيلَ: إنَّهُ يُعِيدُ الْغُسْلَ وَالْأَوَّلُ أَظْهَرُ ».\n\nAl-Dardīr : celui qui « بِأَنْ غَيَّبَ الْحَشَفَةَ فِي الْفَرْجِ وَلَمْ يُمْنِ » puis s'est lavé et émet ensuite, « فَإِنَّهُ يَتَوَضَّأُ وَلَا يَغْتَسِلُ لِتَقَدُّمِ غُسْلِهِ وَالْجَنَابَةُ الْوَاحِدَةُ لَا يَتَكَرَّرُ لَهَا الْغُسْلُ ». Al-Dasūqī : « مِثْلُ الرَّجُلِ الْمَذْكُورِ الْمَرْأَةُ إذَا خَرَجَ مِنْ فَرْجِهَا مَاءُ الرَّجُلِ بَعْدَ غُسْلِهَا فَإِنَّهُ يَجِبُ عَلَيْهَا الْوُضُوءُ وَلَا تُعِيدُ الْغُسْلَ ».",
+    aqwal: [
+      { auteur: "Ibn Rushd (Ajwiba, cité par al-Ḥaṭṭāb)", avis: "Seulement les ablutions ; c'est l'avis le plus apparent.", statut: "non_precise" },
+      { auteur: "Avis rapporté sans attribution (d'après Ibn Rushd)", avis: "Il refait le ghousl.", statut: "qawl" },
+      { auteur: "Ibn al-Qāsim (riwāya de ʿĪsā, ʿUtbiyya), Ibn al-Mawwāz et Saḥnūn (d'après al-Muntaqā)", avis: "Pas de ghousl.", statut: "non_precise" },
+      { auteur: "Saḥnūn (autre avis, rapporté de certains compagnons, d'après al-Muntaqā)", avis: "Il refait le ghousl.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : « فَإِنَّهُ يَتَوَضَّأُ وَلَا يَغْتَسِلُ » ; il compare ce cas au précédent : « شُبِّهَ فِي الْحُكْمِ وَهُوَ وُجُوبُ الْوُضُوءِ دُونَ الْغُسْلِ ».",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Al-Ḥaṭṭāb rattache le « وَلَا يُعِيدُ الصَّلَاةَ » qui suit à ce cas et à celui de la fiche 03 (voir la fiche 05)."
+    ],
+    divergences: [
+      "Concordance — un seul ghousl pour une même janâba. Al-Ḥaṭṭāb, d'après Ibn Rushd : « فَلَيْسَ عَلَيْهِ إلَّا الْوُضُوءُ ». Al-Dardīr : « وَالْجَنَابَةُ الْوَاحِدَةُ لَا يَتَكَرَّرُ لَهَا الْغُسْلُ ». Al-Bājī (al-Muntaqā) : « فَفِي الْعُتْبِيَّةِ مِنْ رِوَايَةِ عِيسَى عَنْ ابْنِ الْقَاسِمِ لَا غُسْلَ عَلَيْهِ ».",
+      "Complément — la femme. Al-Dasūqī : « وَلَا تُعِيدُ الْغُسْلَ » quand le sperme de l'homme sort d'elle après son ghousl. Al-Ḥaṭṭāb n'en parle pas ici."
+    ],
+    exemple: "Un mari s'est lavé après un rapport sans émission ; un peu plus tard, le sperme sort : il refait seulement ses ablutions pour la prière suivante.",
+    erreurs_frequentes: [
+      "Refaire le ghousl alors qu'on s'est déjà lavé pour le même rapport.",
+      "Ne pas refaire ses ablutions après cette sortie.",
+      "Confondre ce cas avec celui du plaisir sans rapport (fiche 03), où le ghousl est à faire."
+    ],
+    termes: [],
+    quiz: [
+      { q: "Après un rapport sans émission et un ghousl, le sperme sort :",
+        choix: ["Il refait le ghousl", "Il ne fait rien", "Il refait seulement ses ablutions", "Il fait le tayammoum"],
+        bonne: 2,
+        explication: "« فَإِنَّهُ يَتَوَضَّأُ وَلَا يَغْتَسِلُ »." },
+      { q: "La raison donnée par al-Dardīr :",
+        choix: ["Une même janâba ne demande pas deux ghousl", "Le sperme est pur", "Le premier ghousl était sunna", "Le rapport n'oblige pas au ghousl"],
+        bonne: 0,
+        explication: "« وَالْجَنَابَةُ الْوَاحِدَةُ لَا يَتَكَرَّرُ لَهَا الْغُسْلُ »." },
+      { q: "Mise en situation : une femme a fait son ghousl après un rapport ; un peu plus tard, le sperme de son mari sort d'elle. Selon al-Dasūqī :",
+        choix: ["Elle refait le ghousl", "Elle ne fait rien", "Elle fait le tayammoum", "Elle refait seulement ses ablutions"],
+        bonne: 3,
+        explication: "« فَإِنَّهُ يَجِبُ عَلَيْهَا الْوُضُوءُ وَلَا تُعِيدُ الْغُسْلَ »." },
+      { q: "Selon Ibn Rushd, cité par al-Ḥaṭṭāb, l'avis le plus apparent est :",
+        choix: ["Refaire le ghousl", "Seulement les ablutions", "Rien du tout", "Refaire la prière"],
+        bonne: 1,
+        explication: "« فَلَيْسَ عَلَيْهِ إلَّا الْوُضُوءُ … وَالْأَوَّلُ أَظْهَرُ »." }
+    ],
+    ref: { ouvrage: "al-Sharḥ al-kabīr (al-Dardīr) et Ḥāshiyat al-Dasūqī", tome: 1, pages: "128" },
+    alertes: [
+      "Limite du texte : le segment « كَمَنْ جَامَعَ فَاغْتَسَلَ ثُمَّ أَمْنَى », que donnent le Mukhtaṣar seul (11355, p. 18), al-Dardīr (21604/127) et al-Kharashī (91, p. 162), manque au « ص » de Mawāhib ; al-Ḥaṭṭāb le cite et en parle sous les segments 03 et 05 (569/306) ; fiche rédigée d'après ces passages, al-Dardīr / al-Dasūqī et al-Muntaqā (6684, p. 99), `ref` sur al-Dardīr (n° 388).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 128 (Shamela 21604, page 127)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-07-05",
+    kitab: "tah", bab: "01", fasl: "07", ordre: 5,
+    titre: "Pas de reprise de la prière",
+    titre_ar: "وَلَا يُعِيدُ الصَّلَاةَ",
+    objectif: "Savoir que la prière faite avant la sortie tardive du sperme reste valable.",
+    matn: "وَلَا يُعِيدُ الصَّلَاةَ",
+    regle_pratique: "Celui qui a prié avant que le sperme ne sorte (après un rapport suivi d'un ghousl, ou après un plaisir sans rapport) ne refait pas cette prière, même s'il doit ensuite faire le ghousl ou ses ablutions.",
+    qualification: {
+      hukm: "mubah",
+      nature: "autre",
+      effet_si_omis: "La prière faite avant la sortie du sperme reste valable."
+    },
+    explication: "Al-Ḥaṭṭāb : ce segment « يَرْجِعُ إلَى مَسْأَلَةِ مَنْ جَامَعَ فَاغْتَسَلَ ثُمَّ أَمْنَى وَإِلَى مَسْأَلَةِ مَنْ الْتَذَّ بِغَيْرِ جِمَاعٍ ثُمَّ خَرَجَ مِنْهُ الْمَنِيُّ بَعْدَ أَنْ تَوَضَّأَ وَصَلَّى ». Il rapporte d'al-Bājī : « أَمَّا إذَا قُلْنَا بِوُجُوبِ الْغُسْلِ فَفِي إعَادَةِ الصَّلَاةِ رِوَايَتَانِ », qu'al-Bājī préfère la non-reprise, avec l'argument d'Ibn al-Mawwāz : « بِأَنَّهُ إنَّمَا صَارَ جُنُبًا بِخُرُوجِ الْمَنِيِّ », et la preuve qu'un ghousl fait avant la sortie ne compte pas.\n\nAl-Dardīr : « لَوْ صَلَّى بِغُسْلِهِ ثُمَّ نَزَلَ الْمَنِيُّ بَعْدَهَا (لَا يُعِيدُ الصَّلَاةَ) ». Al-Dasūqī étend la règle au plaisir sans rapport : « وَمِثْلُ هَذَا مَا إذَا الْتَذَّ بِلَا جِمَاعٍ وَصَلَّى ثُمَّ خَرَجَ مَنِيُّهُ فَإِنَّهُ وَإِنْ وَجَبَ غُسْلُهُ لَكِنْ لَا يُعِيدُ تِلْكَ الصَّلَاةَ ».",
+    aqwal: [
+      { auteur: "Mālik (riwāya d'Ibn al-Qāsim, al-Majmūʿa, d'après al-Muntaqā)", avis: "Il refait la prière.", statut: "non_precise" },
+      { auteur: "Aṣbagh (riwāya d'Ibn al-Mawwāz, d'après al-Muntaqā)", avis: "Il fait le ghousl et ne refait pas la prière.", statut: "non_precise" },
+      { auteur: "Al-Bājī (al-Muntaqā, cité par al-Ḥaṭṭāb)", avis: "Préfère la non-reprise, avec l'argument d'Ibn al-Mawwāz.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr et al-Dasūqī : la prière n'est pas refaite, dans les deux cas.",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Al-Ḥaṭṭāb rattache le segment à deux cas : le rapport suivi d'un ghousl (fiche 04b), et le plaisir sans rapport suivi d'ablutions et de prière (fiche 03)."
+    ],
+    divergences: [
+      "Concordance — les deux cas. Al-Ḥaṭṭāb : « وَإِلَى مَسْأَلَةِ مَنْ الْتَذَّ بِغَيْرِ جِمَاعٍ ». Al-Dasūqī : « وَمِثْلُ هَذَا مَا إذَا الْتَذَّ بِلَا جِمَاعٍ وَصَلَّى ».",
+      "Complément — le texte d'al-Bājī. Al-Muntaqā : « رُوِيَ فِي الْمَجْمُوعَةِ عَنْ ابْنِ الْقَاسِمِ عَنْ مَالِكٍ يُعِيدُ الصَّلَاةَ » ; « وَرَوَى ابْنُ الْمَوَّازِ عَنْ أَصْبَغَ يَغْتَسِلُ وَلَا يُعِيدُ الصَّلَاةَ » ; « وَقَوْلِ ابْنِ الْمَوَّازِ عِنْدَنَا ظَاهِرٌ »."
+    ],
+    exemple: "Un homme éprouve un plaisir sans émission, fait ses ablutions et prie le ẓuhr ; après la prière, du sperme sort : il fait le ghousl, mais ne refait pas le ẓuhr.",
+    erreurs_frequentes: [
+      "Refaire la prière faite avant la sortie du sperme.",
+      "Croire qu'on peut garder ses ablutions après cette sortie.",
+      "Croire que la question n'a jamais fait débat : deux riwāya existent."
+    ],
+    termes: [],
+    quiz: [
+      { q: "La prière faite avant la sortie tardive du sperme :",
+        choix: ["Reste valable", "Est à refaire", "Est à refaire dans le temps seulement", "Est à refaire par le tayammoum"],
+        bonne: 0,
+        explication: "« (لَا يُعِيدُ الصَّلَاةَ) »." },
+      { q: "L'argument d'Ibn al-Mawwāz, rapporté par al-Bājī :",
+        choix: ["La prière était surérogatoire", "Il n'est devenu junub qu'à la sortie du sperme", "Le sperme est pur", "Le ghousl couvre la prière"],
+        bonne: 1,
+        explication: "« بِأَنَّهُ إنَّمَا صَارَ جُنُبًا بِخُرُوجِ الْمَنِيِّ »." },
+      { q: "Mise en situation : après un plaisir sans rapport, vous avez fait vos ablutions et prié l'ʿaṣr ; le sperme sort ensuite. Selon al-Dasūqī :",
+        choix: ["Vous refaites l'ʿaṣr", "Vous ne faites rien", "Vous faites le ghousl sans refaire l'ʿaṣr", "Vous refaites l'ʿaṣr après le ghousl"],
+        bonne: 3,
+        explication: "« فَإِنَّهُ وَإِنْ وَجَبَ غُسْلُهُ لَكِنْ لَا يُعِيدُ تِلْكَ الصَّلَاةَ »." },
+      { q: "Selon la riwāya d'Ibn al-Qāsim dans al-Majmūʿa (al-Muntaqā) :",
+        choix: ["Il ne refait pas la prière", "Il n'a pas de ghousl", "Il refait la prière", "Il fait le tayammoum"],
+        bonne: 2,
+        explication: "« رُوِيَ فِي الْمَجْمُوعَةِ عَنْ ابْنِ الْقَاسِمِ عَنْ مَالِكٍ يُعِيدُ الصَّلَاةَ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "307" },
+    alertes: [
+      "Précisé (campagne de correction) : al-Ḥaṭṭāb résume al-Bājī, « وَرَجَّحَ عَدَمَ الْإِعَادَةِ … قَالَ وَهُوَ أَظْهَرُ » (569/306) ; al-Muntaqā (6684, p. 99) a « وَقَوْلِ ابْنِ الْمَوَّازِ عِنْدَنَا ظَاهِرٌ » et rapporte les deux riwāya (Ibn al-Qāsim : reprise ; Aṣbagh : non-reprise) ; même sens (n° 389).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 128 (Shamela 21604, page 127)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-07-06",
+    kitab: "tah", bab: "01", fasl: "07", ordre: 6,
+    titre: "Deuxième cause : la disparition du gland d'un pubère",
+    titre_ar: "وَبِمَغِيبِ حَشَفَةِ بَالِغٍ لَا مُرَاهِقٍ أَوْ قَدْرِهَا",
+    objectif: "Savoir que la pénétration du gland entier d'un pubère oblige au ghousl, même sans émission, et en connaître les limites (adolescent, gland partiel, enveloppe).",
+    matn: "وَبِمَغِيبِ حَشَفَةِ بَالِغٍ لَا مُرَاهِقٍ أَوْ قَدْرِهَا",
+    regle_pratique: "Le ghousl est obligatoire, même sans émission, dès que le gland entier d'un homme pubère (ou une longueur égale, s'il n'en a pas) a pénétré, pour les deux personnes si elles sont pubères ; la pénétration par un adolescent non pubère, une partie seulement du gland, ou à travers une enveloppe épaisse n'y oblige pas, sauf émission.",
+    qualification: {
+      hukm: "fard",
+      nature: "autre",
+      effet_si_omis: "Le passage ne précise pas de conséquence ; la personne reste en état de janâba jusqu'au ghousl."
+    },
+    explication: "C'est la deuxième cause du ghousl. Al-Ḥaṭṭāb cite Ibn Shaʿbān : « جَاءَتْ السُّنَّةُ بِوُجُوبِ الْغُسْلِ إذَا الْتَقَى الْخِتَانَانِ وَذَلِكَ إذَا غَابَتْ الْحَشَفَةُ وَإِنْ لَمْ يُنْزِلَا جَمِيعًا إذَا كَانَا بَالِغَيْنِ », par la voie avant ou arrière, endormis ou éveillés, consentants ou contraints. Entre deux femmes, Ibn Shaʿbān dit qu'elles « يَغْتَسِلَانِ بِالْإِنْزَالِ لَا بِالْفِعْلِ » (le passage parle aussi de leur sanction). Pour l'impuissant (عِنِّين) : « وَلَوْ غَابَتْ حَشَفَةُ الْعِنِّينِ فِي فَرْجِ زَوْجَتِهِ أَوْجَبَ ذَلِكَ الْغُسْلَ عَلَيْهِمَا ».\n\nLe gland (حَشَفَة) entier : Ibn Nājī dit que l'absence de ghousl pour une partie est le sens apparent de la Mudawwana ; Ibn ʿArafa rapporte d'al-Lakhmī et d'Ibn al-ʿArabī : « بَعْضُ الْحَشَفَةِ لَغْوٌ ». Enveloppé : le ghousl si l'enveloppe est fine (Ibn Nājī, Ibn al-ʿArabī), non si elle est épaisse ; at-Tādilī rapporte trois avis.\n\nL'adolescent (مُرَاهِق) : al-Ḥaṭṭāb dit que « الْمَشْهُورُ أَنَّهُ لَا غُسْلَ عَلَيْهَا فِي مَغِيبِ حَشَفَةِ الْمُرَاهِقِ وَهُوَ مَظِنَّةُ اللَّذَّةِ ». Al-Dardīr : « (لَا مُرَاهِقٌ) أَيْ مُقَارِبٌ لِلْبُلُوغِ فَلَا يَجِبُ عَلَيْهِ خِلَافًا لِبَعْضِهِمْ وَلَا عَلَى مَوْطُوءَتِهِ الْبَالِغَةِ مَا لَمْ تُنْزِلْ » ; « (قَدْرِهَا) أَيْ قَدْرِ حَشَفَةِ الْبَالِغِ مِنْ مَقْطُوعِهَا ». La pénétration oblige « وَلَوْ لَمْ يَنْتَشِرْ أَوْ لَمْ يُنْزِلْ وَيَجِبُ عَلَى الْمُغَيَّبِ فِيهِ أَيْضًا إنْ كَانَ بَالِغًا ».",
+    aqwal: [
+      { auteur: "Ibn Shaʿbān (cité par al-Ḥaṭṭāb)", avis: "Ghousl pour les deux pubères dès que le gland disparaît, même sans émission, quelle que soit la voie ou l'état.", statut: "non_precise" },
+      { auteur: "Avis rapporté sans attribution (al-Ḥaṭṭāb)", avis: "La femme n'a pas de ghousl quand c'est le gland d'un adolescent non pubère qui pénètre.", statut: "mashhur" },
+      { auteur: "Certains savants (« بَعْضِهِمْ », d'après al-Dardīr)", avis: "L'adolescent proche de la puberté doit le ghousl.", statut: "non_precise" },
+      { auteur: "Al-Lakhmī et Ibn al-ʿArabī (d'après Ibn ʿArafa)", avis: "Une partie du gland ne compte pas.", statut: "non_precise" },
+      { auteur: "Un auteur rapporté par l'auteur d'al-Ḥulal (d'après Ibn Nājī)", avis: "Les deux tiers du gland suffisent ; Ibn Nājī ne connaît pas cet avis.", statut: "non_precise" },
+      { auteur: "At-Tādilī (d'après Ibn Nājī)", avis: "Trois avis pour le gland enveloppé, le troisième distinguant l'enveloppe fine (ghousl) de l'épaisse.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : ghousl par la disparition du gland entier d'un pubère ou de sa longueur, même sans érection ni émission ; pas pour l'adolescent ni pour une partie, « وَلَوْ ثُلُثَيْهَا » ; ghousl à travers une enveloppe fine, non épaisse. Al-Dasūqī, d'après son maître al-ʿAdawī : « إذْ لَا بُدَّ فِي وُجُوبِ الْغُسْلِ مِنْ تَغْيِيبِهَا بِتَمَامِهَا أَوْ تَغْيِيبِ قَدْرِهَا ».",
+    tarjih_hattab: "Pour la femme qui introduit le gland d'un mort : « لَمْ أَرَ فِيهَا نَصًّا وَالظَّاهِرُ أَنَّهُ لَا غُسْلَ عَلَيْهَا لِعَدَمِ اللَّذَّةِ فِي ذَلِكَ », sauf émission.",
+    tanbihat: [
+      "Al-Ḥaṭṭāb tire de « حَشَفَةِ » que la disparition d'une partie du gland n'oblige pas au ghousl, et note que « وَبَعْضُهَا أَعَمُّ مِنْ الثُّلُثَيْنِ ».",
+      "Il note, après Zarrūq, que le gland enveloppé oblige au ghousl (voir les alertes pour l'auteur de la phrase).",
+      "Il rapporte d'Ibn Shaʿbān que la disparition du gland de l'impuissant oblige les deux époux au ghousl et a d'autres effets (mahr, pèlerinage, jeûne)."
+    ],
+    divergences: [
+      "Concordance — l'adolescent. Al-Ḥaṭṭāb : « بَلْ الْمَشْهُورُ أَنَّهُ لَا غُسْلَ عَلَيْهَا فِي مَغِيبِ حَشَفَةِ الْمُرَاهِقِ ». Al-Dardīr : « وَلَا عَلَى مَوْطُوءَتِهِ الْبَالِغَةِ مَا لَمْ تُنْزِلْ » ; al-Dasūqī : « وَهُوَ ابْنُ اثْنَتَيْ عَشَرَةَ سَنَةً أَوْ ثَلَاثَ عَشَرَةَ سَنَةً ».",
+      "Concordance — une partie du gland. Al-Ḥaṭṭāb (Ibn Nājī, Ibn ʿArafa) : pas de ghousl. Al-Dardīr : « وَلَا إنْ غَيَّبَ بَعْضَهَا وَلَوْ ثُلُثَيْهَا ».",
+      "Concordance — l'enveloppe. Al-Ḥaṭṭāb, d'après Ibn ʿArafa et Ibn al-ʿArabī : « وَمَغِيبُ الْحَشَفَةِ مَلْفُوفَةً الْأَشْبَهُ إنْ كَانَتْ رَقِيقَةً أَوْجَبَ ». Al-Dardīr : « وَلَوْ لَفَّ عَلَيْهَا خِرْقَةً خَفِيفَةً لَا كَثِيفَةً تَمْنَعُ اللَّذَّةَ ».",
+      "Complément — la longueur du gland. Al-Ḥaṭṭāb n'en parle pas. Al-Dardīr : « (قَدْرِهَا) أَيْ قَدْرِ حَشَفَةِ الْبَالِغِ مِنْ مَقْطُوعِهَا »."
+    ],
+    exemple: "Deux époux pubères ont un rapport sans émission : tous deux doivent faire le ghousl avant de prier.",
+    erreurs_frequentes: [
+      "Croire que le ghousl n'est dû qu'avec émission.",
+      "Croire qu'une pénétration partielle oblige au ghousl.",
+      "Croire que le rapport d'un garçon non pubère oblige son épouse pubère au ghousl, sans émission de sa part."
+    ],
+    termes: [
+      { ar: "مُرَاهِق", translit: "mourâhiq", def: "Adolescent proche de la puberté, sans l'avoir atteinte (douze ou treize ans, selon al-Dasūqī)." },
+      { ar: "بَالِغ", translit: "bâligh", def: "Pubère : qui a atteint la puberté et est donc soumis aux obligations." },
+      { ar: "الْتِقَاءُ الْخِتَانَيْن", translit: "iltiqâ' al-khitânayn", def: "« Rencontre des deux circoncisions » : la pénétration du gland, qui oblige au ghousl même sans émission." }
+    ],
+    quiz: [
+      { q: "Un rapport sans émission entre deux époux pubères :",
+        choix: ["N'oblige à rien", "Oblige aux ablutions seulement", "Oblige l'homme seul au ghousl", "Oblige les deux au ghousl"],
+        bonne: 1,
+        explication: "« وَإِنْ لَمْ يُنْزِلَا جَمِيعًا إذَا كَانَا بَالِغَيْنِ »." },
+      { q: "Selon al-Dardīr, la pénétration d'une partie du gland :",
+        choix: ["Oblige au ghousl si c'est les deux tiers", "Oblige au ghousl", "N'oblige pas au ghousl, même les deux tiers", "Oblige aux ablutions seulement"],
+        bonne: 3,
+        explication: "« وَلَا إنْ غَيَّبَ بَعْضَهَا وَلَوْ ثُلُثَيْهَا »." },
+      { q: "Mise en situation : une femme pubère et son mari, un adolescent qui n'a pas encore atteint la puberté, ont un rapport ; elle n'a pas d'émission. Selon l'avis répandu :",
+        choix: ["Elle n'a pas de ghousl", "Elle fait le ghousl", "Elle fait seulement ses ablutions", "Elle fait le tayammoum"],
+        bonne: 0,
+        explication: "« بَلْ الْمَشْهُورُ أَنَّهُ لَا غُسْلَ عَلَيْهَا فِي مَغِيبِ حَشَفَةِ الْمُرَاهِقِ »." },
+      { q: "Le gland enveloppé d'un tissu épais, selon al-Dardīr :",
+        choix: ["Oblige au ghousl dans tous les cas", "N'oblige jamais à rien", "N'oblige pas au ghousl, car l'enveloppe empêche le plaisir", "Oblige au ghousl si l'enveloppe est fine"],
+        bonne: 2,
+        explication: "« وَلَوْ لَفَّ عَلَيْهَا خِرْقَةً خَفِيفَةً لَا كَثِيفَةً تَمْنَعُ اللَّذَّةَ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "307–308" },
+    alertes: [
+      "Corrigé (campagne de correction) : le « ص » porte « وَمَغِيبِ حَشَفَةِ بَالِغٍ » (569/306) ; le Mukhtaṣar seul (11355, p. 18), al-Dardīr (21604/127) et al-Kharashī (91, p. 162) ont « وَبِمَغِيبِ » : matn corrigé (n° 390).",
+      "Corrigé (campagne de correction) : le « ص » omet les mots لَا مُرَاهِقٍ أَوْ قَدْرِهَا, que portent le Mukhtaṣar seul (où « مراهق » est collé au mot suivant), al-Dardīr et al-Kharashī ; al-Ḥaṭṭāb parle pourtant de l'adolescent (569/307) : matn complété, la longueur du gland rédigée d'après al-Dardīr (n° 391).",
+      "Précisé (campagne de correction) : dans la citation de Zarrūq, « يُغْنِي إذَا غَابَتْ كُلُّهَا » (569/307) est à lire يَعْنِي ; aucun témoin trouvé (Zarrūq, 14556, p. 100–130) ; passage non cité (n° 392).",
+      "Précisé (campagne de correction) : « وَقَالَ ابْنُ عَرَفَةَ وَاللَّخْمِيُّ وَابْنُ الْعَرَبِيِّ: بَعْضُ الْحَشَفَةِ لَغْوٌ » (569/307) ; Ibn ʿArafa (16968, p. 90) : « اللخمي وابن العربي بعض الحشفة لغو » : c'est Ibn ʿArafa qui le rapporte des deux autres (n° 393).",
+      "Précisé (campagne de correction) : « وَظَاهِرُ كَلَامِهِ أَيْضًا أَنَّ مَغِيبَ الْحَشَفَةِ مُوجِبٌ لِلْغُسْلِ وَلَوْ كَانَتْ مَلْفُوفَةً وَهُوَ كَذَلِكَ » (569/307) vient entre la citation de Zarrūq (close par « انْتَهَى ») et « قَالَ ابْنُ نَاجِي » : sans doute d'al-Ḥaṭṭāb ; rapporté en remarque, hors de `tarjih_hattab` (n° 394).",
+      "La suite d'Ibn Shaʿbān sur la sanction de deux femmes, et la longue citation d'Ibn Nājī (at-Tādilī, ash-Shaykh), ne sont que résumées.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 128–129 (Shamela 21604, pages 127–128)."
+    ],
+    verification: "verifie"
+  }
+
+  /* FIN-UNITE-51 */
 ]);

@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.43 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.44 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -74,7 +74,9 @@
           « وَقَيْءٍ » (n° 355) ; titres de -17 à -19 précisés (unité 49).
    v1.43 : tah-01-06-20 découpé en 20a, 20b, 20c (début « وَمَنَعَ حَدَثٌ صَلَاةً وَطَوَافًا » et fin « وَحَمْلَهُ … لَا دِرْهَمٍ »
           absents du « ص » de Mawāhib, n° 366 et 376 ; « وَمَسَّ », n° 367) ; -21 en 21a, 21b (« وَلَوْحٍ … », n° 377) ;
-          -22 en 22a, 22b (« وَحِرْزٍ بِسَاتِرٍ وَإِنْ لِحَائِضٍ », n° 380) ; fin du faṣl tah-01-06 (unité 50). */
+          -22 en 22a, 22b (« وَحِرْزٍ بِسَاتِرٍ وَإِنْ لِحَائِضٍ », n° 380) ; fin du faṣl tah-01-06 (unité 50).
+   v1.44 : tah-01-07-04 complété (« وَيَتَوَضَّأُ », n° 387) ; -04b ajouté (« كَمَنْ جَامَعَ فَاغْتَسَلَ ثُمَّ أَمْنَى », absent du « ص », n° 388) ;
+          -06 « وَبِمَغِيبِ حَشَفَةِ بَالِغٍ لَا مُرَاهِقٍ أَوْ قَدْرِهَا » (n° 390, 391) (unité 51). */
 App.data.definirPlan({
   kutub: [
     {
@@ -533,7 +535,7 @@ App.data.definirPlan({
                 { id: "tah-01-06-22b", titre: "L'amulette coranique couverte, même pour la femme en règles", titre_ar: "وَحِرْزٍ بِسَاتِرٍ وَإِنْ لِحَائِضٍ" } /* fin du segment absente du « ص » ; al-Dardīr, t. 1, p. 126 (n° 380, v1.43) */
               ]
             },
-            /* tah-01-07 — t. 1, p. 305–318 (Shamela 569, pages 304–317) — 34 segments du matn */
+            /* tah-01-07 — t. 1, p. 305–318 (Shamela 569, pages 304–317) — 35 segments du matn, dont 04b */
             {
               id: "tah-01-07",
               titre: "Le ghousl (purification majeure)",
@@ -542,9 +544,10 @@ App.data.definirPlan({
                 { id: "tah-01-07-01", titre: "Ghousl obligatoire pour le sperme", titre_ar: "فَصْلٌ يَجِبُ غُسْلُ ظَاهِرِ الْجَسَدِ بِمَنِيٍّ" }, /* p. 305 */
                 { id: "tah-01-07-02", titre: "… même pendant le sommeil", titre_ar: "وَإِنْ بِنَوْمٍ" }, /* p. 305 */
                 { id: "tah-01-07-03", titre: "… ou après la fin du plaisir, sans rapport", titre_ar: "أَوْ بَعْدَ ذَهَابِ لَذَّةٍ بِلَا جِمَاعٍ …" }, /* p. 306 */
-                { id: "tah-01-07-04", titre: "Pas sans plaisir, ou avec un plaisir inhabituel", titre_ar: "لَا بِلَا لَذَّةٍ أَوْ غَيْرِ مُعْتَادَةٍ" }, /* p. 307 */
+                { id: "tah-01-07-04", titre: "Pas sans plaisir, ou avec un plaisir inhabituel ; mais les ablutions", titre_ar: "لَا بِلَا لَذَّةٍ أَوْ غَيْرِ مُعْتَادَةٍ وَيَتَوَضَّأُ" }, /* p. 307 ; « وَيَتَوَضَّأُ » (n° 387, v1.44) */
+                { id: "tah-01-07-04b", titre: "Celui qui a eu un rapport, s'est lavé, puis émet", titre_ar: "كَمَنْ جَامَعَ فَاغْتَسَلَ ثُمَّ أَمْنَى" }, /* absent du « ص » de Mawāhib ; al-Dardīr, t. 1, p. 128 (n° 388, v1.44) */
                 { id: "tah-01-07-05", titre: "Pas de reprise de la prière", titre_ar: "وَلَا يُعِيدُ الصَّلَاةَ" }, /* p. 307 */
-                { id: "tah-01-07-06", titre: "Disparition du gland d'un pubère", titre_ar: "وَمَغِيبِ حَشَفَةِ بَالِغٍ" }, /* p. 307 */
+                { id: "tah-01-07-06", titre: "Deuxième cause : la disparition du gland d'un pubère", titre_ar: "وَبِمَغِيبِ حَشَفَةِ بَالِغٍ لَا مُرَاهِقٍ أَوْ قَدْرِهَا" }, /* p. 307–308 ; « وَبِمَغِيبِ », complété (n° 390, 391, v1.44) */
                 { id: "tah-01-07-07", titre: "… dans un sexe", titre_ar: "فِي فَرْجِهِ" }, /* p. 308 */
                 { id: "tah-01-07-08", titre: "… même d'un animal ou d'un mort", titre_ar: "وَإِنْ مِنْ بَهِيمَةٍ وَمَيِّتٍ" }, /* p. 309 */
                 { id: "tah-01-07-09", titre: "Recommandé pour l'adolescent, comme la fillette", titre_ar: "وَنُدِبَ لِمُرَاهِقٍ كَصَغِيرَةٍ وَطِئَهَا بَالِغٌ" }, /* p. 309 */
