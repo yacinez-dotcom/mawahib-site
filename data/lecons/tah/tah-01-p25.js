@@ -1,4 +1,4 @@
-/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 25 — v11.0
+/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 25 — v11.1
    Source : Mawāhib al-Jalīl, al-Ḥaṭṭāb, éd. Dār al-Fikr, 3e éd., 1412 H / 1992, tome 1 (shamela.ws/book/569).
    Croisement : al-Sharḥ al-kabīr d'al-Dardīr et Ḥāshiyat al-Dasūqī (shamela.ws/book/21604), tome 1.
    Cette partie : suite du faṣl tah-01-07 (le ghousl), à partir de tah-01-07-07 (unité 52) — t. 1, p. 308 et suivantes.
@@ -6,6 +6,9 @@
           al-Dardīr / al-Dasūqī, t. 1, p. 128–130) (2026-11-14) ; nouvelle partie, tah-01-p24.js (≈ 144 Ko) étant figée ;
           07 : matn « فِي فَرْجٍ » ; 09b et 09c : segments absents du « ص » de Mawāhib, rédigés d'après al-Dardīr / al-Dasūqī ;
           anomalies n° 395 à 404.
+   v11.1 : unité 53 — tah-01-07-12, -12b, -13, -14, -15, -16, -16b, -16c (Mawāhib, t. 1, p. 311–312 ;
+          al-Dardīr / al-Dasūqī, t. 1, p. 130–134) (2026-11-14) ; 12b, 16b et 16c : segments absents du « ص » de Mawāhib,
+          rédigés d'après al-Dardīr / al-Dasūqī ; anomalies n° 405 à 409.
    Bāb découpé en parties de moins de 200 Ko ;
    historique des versions : tah-01-p1.js (jusqu'à v2.5) puis l'en-tête de chaque partie. */
 App.data.ajouterFiches([
@@ -471,7 +474,506 @@ App.data.ajouterFiches([
       "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 130 (Shamela 21604, page 129)."
     ],
     verification: "verifie"
-  }
+  },
 
   /* FIN-UNITE-52 */
+  /* ================================================================== */
+  /* Unité 53 — tah-01-07-12 à -16c (dont 12b, 16b et 16c) */
+  /* Mawāhib, t. 1, p. 311–312 (Shamela 569/310–311) ; al-Dardīr / al-Dasūqī, t. 1, p. 130–134 (Shamela 21604/129–133) */
+  {
+    id: "tah-01-07-12",
+    kitab: "tah", bab: "01", fasl: "07", ordre: 12,
+    titre: "Le ghousl du non-musulman qui embrasse l'islam",
+    titre_ar: "وَيَجِبُ غُسْلُ كَافِرٍ بَعْدَ الشَّهَادَةِ بِمَا ذُكِرَ",
+    objectif: "Savoir quand le non-musulman qui embrasse l'islam doit faire le ghousl, et connaître les autres avis.",
+    matn: "وَيَجِبُ غُسْلُ كَافِرٍ بَعْدَ الشَّهَادَةِ بِمَا ذُكِرَ",
+    regle_pratique: "Le non-musulman qui embrasse l'islam doit, après avoir prononcé la profession de foi, faire le ghousl s'il a eu auparavant l'une des causes du ghousl (rapport, émission, règles, lochies) ; sinon, le ghousl ne lui est pas obligatoire, seulement recommandé.",
+    qualification: {
+      hukm: "fard",
+      nature: "autre",
+      effet_si_omis: "Le passage ne précise pas de conséquence. Al-Dasūqī : sans eau, il fait le tayammoum comme le junub, puis le ghousl quand il trouve l'eau."
+    },
+    explication: "Al-Ḥaṭṭāb : « يَعْنِي أَنَّ الْكَافِرَ إذَا أَسْلَمَ وَتَلَفَّظَ بِالشَّهَادَةِ وَجَبَ عَلَيْهِ الْغُسْلُ إذَا تَقَدَّمَ لَهُ سَبَبٌ يَقْتَضِي وُجُوبَ الْغُسْلِ مِنْ جِمَاعٍ أَوْ إنْزَالٍ أَوْ حَيْضٍ أَوْ نِفَاسٍ لِلْمَرْأَةِ » ; sans cause, pas d'obligation, « وَهَذَا هُوَ الْمَشْهُورُ ». Autre avis : obligation même sans cause, « لِأَنَّهُ تَعَبُّدٌ », rapporté par Ibn Bashīr et d'autres et accepté par Ibn ʿArafa. Al-Qāḍī Ismāʿīl : « الْغُسْلُ مُسْتَحَبٌّ وَإِنْ كَانَ جُنُبًا؛ لِأَنَّ الْإِسْلَامَ يَجُبُّ مَا قَبْلَهُ » ; al-Lakhmī lui objecte qu'il devrait alors faire tomber aussi les ablutions.\n\nPremier tanbīh : at-Tawḍīḥ discute la façon dont Ibn al-Ḥājib range les trois avis ; al-Ḥaṭṭāb ajoute qu'al-Fākihānī fait de l'obligation pour l'islam l'avis répandu : « وَإِسْلَامِ الْكَافِرِ عَلَى الْمَشْهُورِ فِي هَذَا الْأَخِيرِ ». Quatrième tanbīh (aṭ-Ṭirāz) : on demande au converti de se circoncire et de raser une coiffure qui n'est pas celle des Arabes ; al-Ḥaṭṭāb cite le ḥadīth d'Abū Dāwūd : « أَلْقِ عَنْك شَعْرَ الْكُفْرِ وَاخْتَتِنْ ».\n\nAl-Dardīr : le non-musulman, « ذَكَرٌ أَوْ أُنْثَى أَصْلِيٌّ أَوْ مُرْتَدٌّ بَعْدَ اغْتِسَالِهِ عَلَى الْأَرْجَحِ », doit le ghousl « بِسَبَبِ مَا (ذُكِرَ) مِنْ الْمُوجِبَاتِ الْأَرْبَعِ » ; s'il n'en a eu aucune, par exemple s'il est devenu pubère par l'âge ou par la pousse des poils, « فَلَا يَجِبُ عَلَيْهِ الْغُسْلُ … بَلْ يُنْدَبُ ». Pour la profession de foi, il suffit de prononcer ce qui exprime l'unicité de Dieu et la mission de Muḥammad ﷺ : « فَلَا يُشْتَرَطُ فِي الْإِسْلَامِ لَفْظُ أَشْهَدُ وَلَا النَّفْيُ وَالْإِثْبَاتُ وَلَا التَّرْتِيبُ عَلَى الْمُعْتَمَدِ ».",
+    aqwal: [
+      { auteur: "Avis de l'école (al-Ḥaṭṭāb)", avis: "Ghousl obligatoire seulement s'il a eu une cause du ghousl avant l'islam.", statut: "mashhur" },
+      { auteur: "Avis rapporté par Ibn Bashīr et d'autres, accepté par Ibn ʿArafa", avis: "Ghousl obligatoire même sans cause, parce que c'est un acte de culte.", statut: "qawl" },
+      { auteur: "Al-Fākihānī (cité par al-Ḥaṭṭāb)", avis: "Le ghousl de l'islam est obligatoire ; il le dit « عَلَى الْمَشْهُورِ ».", statut: "non_precise" },
+      { auteur: "Al-Qāḍī Ismāʿīl (cité par al-Ḥaṭṭāb)", avis: "Ghousl recommandé même s'il est junub, car l'islam efface ce qui précède.", statut: "qawl" },
+      { auteur: "Al-Lakhmī (cité par al-Ḥaṭṭāb)", avis: "Objection à al-Qāḍī Ismāʿīl : il devrait faire tomber aussi les ablutions.", statut: "non_precise" },
+      { auteur: "Ibn al-Qāsim (d'après al-Dasūqī, qui le tient d'az-Zurqānī)", avis: "Sans cause, le ghousl est seulement recommandé.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : ghousl obligatoire « بِسَبَبِ مَا (ذُكِرَ) » ; sans cause, recommandé. Al-Dasūqī : « هَذَا قَوْلُ ابْنِ الْقَاسِمِ كَمَا نَقَلَهُ الشَّيْخُ الزَّرْقَانِيُّ » ; l'apostat refait aussi le ghousl qu'il avait fait avant son apostasie, « عَلَى الْأَرْجَحِ ».",
+    tarjih_hattab: "Contre at-Tawḍīḥ : « قُلْت بَلْ الْقَوْلُ بِالْوُجُوبِ لِلْإِسْلَامِ جَعَلَهُ الْفَاكِهَانِيُّ هُوَ الْمَشْهُورُ فِي الْمَذْهَبِ ». Sur aṭ-Ṭirāz : « وَاسْتَحَبَّ مَالِكٌ لَعَلَّهُ وَاسْتَحَبَّ الشَّافِعِيُّ », car adh-Dhakhīra le rapporte ainsi.",
+    tanbihat: [
+      "Les deuxième et troisième tanbīh (intention du ghousl de l'islam, ghousl fait pendant la mécréance) sont repris à la fiche 12b.",
+      "Al-Ḥaṭṭāb tire du troisième tanbīh que la dhimmiyya qui embrasse l'islam peut avoir des rapports avec son mari avant de se laver, et renvoie au faṣl des règles."
+    ],
+    divergences: [
+      "Concordance — les trois avis. Al-Ḥaṭṭāb : l'avis répandu (cause nécessaire), l'obligation par culte, la recommandation d'al-Qāḍī Ismāʿīl. Al-Dasūqī : « وَمُقَابِلُهُ قَوْلَانِ آخَرَانِ وُجُوبُ الْغُسْلِ مُطْلَقًا بِنَاءً عَلَى أَنَّهُ تَعَبُّدٌ وَشَهَرَهُ الْفَاكِهَانِيُّ وَالثَّالِثُ لِلْقَاضِي إسْمَاعِيلَ ».",
+      "Complément — l'apostat. Al-Ḥaṭṭāb n'en parle pas ici. Al-Dardīr : « أَوْ مُرْتَدٌّ بَعْدَ اغْتِسَالِهِ عَلَى الْأَرْجَحِ » ; al-Dasūqī : « أَيْ مِنْ أَنَّ الرِّدَّةَ تُبْطِلُ الْغُسْلَ ».",
+      "Complément — sans eau. Al-Dasūqī : « أَيْ إذَا وَجَدَ مَاءً وَإِلَّا تَيَمَّمَ كَالْجُنُبِ كَمَا قَالَ ابْنُ الْحَاجِبِ »."
+    ],
+    exemple: "Un homme embrasse l'islam : marié auparavant, il a eu des rapports avec sa femme ; après avoir prononcé la profession de foi, il fait le ghousl avant sa première prière.",
+    erreurs_frequentes: [
+      "Croire que l'islam dispense du ghousl celui qui avait une cause de janâba.",
+      "Croire que le ghousl est obligatoire pour tout converti, même sans cause (ce n'est que l'autre avis).",
+      "Faire le ghousl sans avoir prononcé la profession de foi ni résolu d'embrasser l'islam (voir la fiche 12b)."
+    ],
+    termes: [
+      { ar: "كَافِر", translit: "kâfir", def: "Non-musulman : celui qui ne professe pas l'islam." },
+      { ar: "إِنْبَات", translit: "inbât", def: "Pousse des poils pubiens, signe de la puberté." }
+    ],
+    quiz: [
+      { q: "Un non-musulman embrasse l'islam ; il a eu des rapports avec son épouse auparavant. Selon Khalīl :",
+        choix: ["Pas de ghousl : l'islam efface tout", "Seulement les ablutions", "Le ghousl est obligatoire après la profession de foi", "Le ghousl est recommandé"],
+        bonne: 2,
+        explication: "« وَجَبَ عَلَيْهِ الْغُسْلُ إذَا تَقَدَّمَ لَهُ سَبَبٌ يَقْتَضِي وُجُوبَ الْغُسْلِ »." },
+      { q: "Et s'il n'a eu aucune cause du ghousl ?",
+        choix: ["Le ghousl est recommandé, non obligatoire", "Le ghousl est obligatoire", "Le ghousl lui est interdit", "Il fait le tayammoum"],
+        bonne: 0,
+        explication: "Al-Dardīr : « فَلَا يَجِبُ عَلَيْهِ الْغُسْلُ … بَلْ يُنْدَبُ »." },
+      { q: "Pour qui le ghousl est-il recommandé « même s'il est junub », car l'islam efface ce qui précède ?",
+        choix: ["Ibn al-Qāsim", "Al-Fākihānī", "Ibn Bashīr", "Al-Qāḍī Ismāʿīl"],
+        bonne: 3,
+        explication: "« وَقَالَ الْقَاضِي إسْمَاعِيلُ: الْغُسْلُ مُسْتَحَبٌّ وَإِنْ كَانَ جُنُبًا »." },
+      { q: "Mise en situation : un converti, junub avant son islam, ne trouve pas d'eau. Selon al-Dasūqī :",
+        choix: ["Il attend l'eau sans prier", "Il fait le tayammoum, puis le ghousl quand il trouve l'eau", "Il prie sans rien faire", "Il fait seulement ses ablutions"],
+        bonne: 1,
+        explication: "« وَإِلَّا تَيَمَّمَ كَالْجُنُبِ » ; « ثُمَّ يَغْتَسِلُ إذَا وَجَدَ الْمَاءَ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "311–312" },
+    alertes: [
+      "Le plan (v1.45) donnait ce titre tronqué (« … بِمَا … ») ; complété d'après le « ص » (569/310), le Mukhtaṣar seul (11355, p. 19) et Ibn Ghāzī (14605, p. 41).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 130–131 (Shamela 21604, pages 129–130)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-07-12b",
+    kitab: "tah", bab: "01", fasl: "07", ordre: 12,
+    titre: "Ghousl valable avant la profession de foi, si l'on a résolu d'embrasser l'islam",
+    titre_ar: "وَصَحَّ قَبْلَهَا وَقَدْ أَجْمَعَ عَلَى الْإِسْلَامِ",
+    objectif: "Savoir que le ghousl fait avant la profession de foi vaut, si l'on a déjà résolu d'embrasser l'islam, et avec quelle intention.",
+    matn: "وَصَحَّ قَبْلَهَا وَقَدْ أَجْمَعَ عَلَى الْإِسْلَامِ",
+    regle_pratique: "Le ghousl que fait le non-musulman avant de prononcer la profession de foi est valable s'il a déjà résolu en son cœur d'embrasser l'islam ; il vaut alors qu'il ait l'intention de la janâba, de la purification ou de l'islam, mais non s'il ne vise que la propreté.",
+    qualification: {
+      hukm: "mubah",
+      nature: "autre",
+      effet_si_omis: "Le ghousl fait dans la seule intention de se nettoyer ne compte pas pour la janâba (al-Lakhmī, cité par al-Ḥaṭṭāb ; al-Dasūqī)."
+    },
+    explication: "Ce segment manque au « ص » de Mawāhib (voir les alertes) ; la fiche suit al-Dardīr / al-Dasūqī et reprend les deuxième et troisième tanbīh d'al-Ḥaṭṭāb sous le segment précédent.\n\nAl-Dardīr : « (وَصَحَّ) غُسْلُهُ (قَبْلَهَا) أَيْ قَبْلَ الشَّهَادَةِ », quand il « (قَدْ أَجْمَعَ) بِقَلْبِهِ أَيْ صَمَّمَ وَعَزَمَ (عَلَى الْإِسْلَامِ) », car celui qui a cette résolution sans refus est croyant ; l'intention importe peu : « وَسَوَاءٌ نَوَى بِغُسْلِهِ الْجَنَابَةَ أَوْ الطَّهَارَةَ أَوْ الْإِسْلَامَ لِأَنَّ نِيَّتَهُ الطُّهْرُ مِنْ كُلِّ مَا كَانَ فِيهِ حَالَ كُفْرِهِ ». Al-Dasūqī : « وَأَمَّا لَوْ نَوَى بِذَلِكَ الْغُسْلِ التَّنْظِيفَ أَوْ إزَالَةَ الْوَسَخِ فَإِنَّهُ لَا يُجْزِئُهُ عَنْ غُسْلِ الْجَنَابَةِ كَمَا قَالَهُ اللَّخْمِيُّ ».\n\nAl-Ḥaṭṭāb (deuxième tanbīh) : al-Lakhmī, « لَوْ اغْتَسَلَ لِلْإِسْلَامِ وَلَمْ يَنْوِ جَنَابَةً وَإِنَّمَا يَقْصِدُ التَّنَظُّفَ وَزَوَالَ الْأَوْسَاخِ لَمْ يُجْزِهِ مِنْ غُسْلِ الْجَنَابَةِ » ; Ibn Rushd : « فَإِنْ لَمْ يَنْوِ الْجَنَابَةَ وَنَوَى بِهِ الْإِسْلَامَ أَجْزَأَهُ؛ لِأَنَّهُ أَرَادَ الطُّهْرَ مِنْ كُلِّ مَا كَانَ فِيهِ » ; de même aṭ-Ṭirāz, selon Ibn al-Qāsim et l'ʿUtbiyya. Troisième tanbīh : celui qui, encore non musulman, s'est lavé de sa janâba selon sa religion puis a embrassé l'islam : « فَقَالَ صَاحِبُ الطِّرَازِ: الظَّاهِرُ أَنَّهُ لَا يُجْزِئُهُ », car ce ghousl n'a pas été un acte d'adoration.",
+    aqwal: [
+      { auteur: "Al-Lakhmī (cité par al-Ḥaṭṭāb)", avis: "Le ghousl fait pour l'islam dans la seule intention de se nettoyer ne vaut pas pour la janâba.", statut: "non_precise" },
+      { auteur: "Ibn Rushd (Samāʿ Mūsā b. Muʿāwiya, cité par al-Ḥaṭṭāb)", avis: "L'intention de l'islam suffit, car il a voulu se purifier de tout.", statut: "non_precise" },
+      { auteur: "Ibn al-Qāsim (d'après aṭ-Ṭirāz)", avis: "Celui qui s'est lavé pour l'islam sans penser à la janâba est quitte.", statut: "non_precise" },
+      { auteur: "Sanad (aṭ-Ṭirāz, cité par al-Ḥaṭṭāb)", avis: "Le ghousl fait pendant la mécréance, selon sa religion, ne compte pas après l'islam.", statut: "non_precise" },
+      { auteur: "Certains shâfiʿites (d'après aṭ-Ṭirāz)", avis: "Ce ghousl compte, par analogie avec la dhimmiyya ; Sanad : « وَهَذَا فَاسِدٌ ».", statut: "qawl" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : ghousl valable avant la profession de foi si la résolution d'embrasser l'islam est prise, quelle que soit l'intention (janâba, purification, islam) ; al-Dasūqī exclut, avec al-Lakhmī, la seule intention de propreté.",
+    tarjih_hattab: "Il rapproche al-Lakhmī d'Ibn Rushd : « وَانْظُرْهُ مَعَ قَوْلِ ابْنِ رُشْدٍ » ; et il conclut du troisième tanbīh : « فَعُلِمَ مِنْهُ أَنَّ الذِّمِّيَّةَ إذَا أَسْلَمَتْ يَجُوزُ لِزَوْجِهَا وَطْؤُهَا قَبْلَ أَنْ تَغْتَسِلَ ».",
+    tanbihat: [
+      "Al-Ḥaṭṭāb ne commente pas ce segment dans le texte lu ; ses deuxième et troisième tanbīh, sous le segment 12, en traitent le fond (intention ; ghousl fait pendant la mécréance)."
+    ],
+    divergences: [
+      "Concordance — l'intention de l'islam suffit. Al-Ḥaṭṭāb (Ibn Rushd) : « لِأَنَّهُ أَرَادَ الطُّهْرَ مِنْ كُلِّ مَا كَانَ فِيهِ ». Al-Dardīr : « لِأَنَّ نِيَّتَهُ الطُّهْرُ مِنْ كُلِّ مَا كَانَ فِيهِ حَالَ كُفْرِهِ ».",
+      "Concordance — la seule propreté ne suffit pas. Al-Ḥaṭṭāb (al-Lakhmī) : « لَمْ يُجْزِهِ مِنْ غُسْلِ الْجَنَابَةِ ». Al-Dasūqī : « فَإِنَّهُ لَا يُجْزِئُهُ عَنْ غُسْلِ الْجَنَابَةِ كَمَا قَالَهُ اللَّخْمِيُّ »."
+    ],
+    exemple: "Une femme a décidé d'embrasser l'islam ; elle fait son ghousl, avec l'intention de se purifier, avant de prononcer la profession de foi devant l'imam : ce ghousl compte.",
+    erreurs_frequentes: [
+      "Croire qu'un ghousl fait avant la profession de foi ne compte jamais.",
+      "Croire qu'un ghousl fait pendant la mécréance, selon une autre religion, suffit après l'islam.",
+      "Se laver dans la seule intention de se nettoyer et le croire suffisant pour la janâba."
+    ],
+    termes: [
+      { ar: "ذِمِّيّ", translit: "dhimmiyy", def: "Non-musulman (juif ou chrétien) vivant sous la protection de l'État musulman ; au féminin ذِمِّيَّة." }
+    ],
+    quiz: [
+      { q: "Selon al-Dardīr, le ghousl fait avant la profession de foi est valable :",
+        choix: ["Si l'on a déjà résolu d'embrasser l'islam", "Jamais", "Seulement s'il est fait à la mosquée", "Seulement pour une femme"],
+        bonne: 0,
+        explication: "« (وَصَحَّ) غُسْلُهُ (قَبْلَهَا) … (قَدْ أَجْمَعَ) بِقَلْبِهِ »." },
+      { q: "Selon Sanad, le ghousl qu'un non-musulman a fait de sa janâba, selon sa religion, avant d'embrasser l'islam :",
+        choix: ["Compte pleinement", "Compte s'il a été fait à l'eau pure", "Compte seulement pour les femmes", "Ne compte pas"],
+        bonne: 3,
+        explication: "« الظَّاهِرُ أَنَّهُ لَا يُجْزِئُهُ »." },
+      { q: "Mise en situation : avant de prononcer la profession de foi, un homme résolu à embrasser l'islam se lave en pensant seulement à se nettoyer. Selon al-Lakhmī :",
+        choix: ["Son ghousl vaut pour la janâba", "Son ghousl ne vaut pas pour la janâba", "Son ghousl vaut s'il prie aussitôt", "Il n'a jamais besoin de ghousl"],
+        bonne: 1,
+        explication: "« وَإِنَّمَا يَقْصِدُ التَّنَظُّفَ وَزَوَالَ الْأَوْسَاخِ لَمْ يُجْزِهِ مِنْ غُسْلِ الْجَنَابَةِ »." },
+      { q: "Et s'il a eu l'intention de l'islam, sans penser à la janâba ? Selon Ibn Rushd :",
+        choix: ["Il refait le ghousl", "Il fait seulement ses ablutions", "Son ghousl vaut, car il a voulu se purifier de tout", "Son ghousl vaut seulement s'il n'était pas junub"],
+        bonne: 2,
+        explication: "« وَنَوَى بِهِ الْإِسْلَامَ أَجْزَأَهُ؛ لِأَنَّهُ أَرَادَ الطُّهْرَ مِنْ كُلِّ مَا كَانَ فِيهِ »." }
+    ],
+    ref: { ouvrage: "al-Sharḥ al-kabīr (al-Dardīr) et Ḥāshiyat al-Dasūqī", tome: 1, pages: "131" },
+    alertes: [
+      "Limite du texte : le segment « وَصَحَّ قَبْلَهَا وَقَدْ أَجْمَعَ عَلَى الْإِسْلَامِ », que donnent le Mukhtaṣar seul (11355, p. 19), Ibn Ghāzī (14605, p. 41), al-Dardīr (21604/130) et al-Kharashī (91, p. 164), manque au « ص » de Mawāhib (569/310–311, entre « بِمَا ذُكِرَ » et « لَا الْإِسْلَامُ ») ; fiche rédigée d'après al-Dardīr / al-Dasūqī et les tanbīh d'al-Ḥaṭṭāb sous le segment 12 ; `ref` sur al-Dardīr (n° 405).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 131 (Shamela 21604, page 130)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-07-13",
+    kitab: "tah", bab: "01", fasl: "07", ordre: 13,
+    titre: "L'islam ne vaut pas sans la profession de foi, sauf incapacité",
+    titre_ar: "لَا الْإِسْلَامُ إلَّا لِعَجْزٍ",
+    objectif: "Savoir que la résolution du cœur ne suffit pas, pour les règles de ce monde, sans la profession de foi prononcée, sauf pour celui qui ne peut pas parler.",
+    matn: "لَا الْإِسْلَامُ إِلَّا لِعَجْزٍ",
+    regle_pratique: "La résolution du cœur suffit pour le ghousl (fiche 12b), mais non pour être tenu pour musulman dans les règles de ce monde : il faut prononcer la profession de foi, sauf si l'on en est incapable (un muet, par exemple), auquel cas on est tenu pour musulman.",
+    qualification: {
+      hukm: "fard",
+      nature: "shart",
+      effet_si_omis: "Sans la profession de foi prononcée, les règles de l'islam (héritage, mariage, prière funéraire…) ne s'appliquent pas à lui (al-Dardīr)."
+    },
+    explication: "Al-Ḥaṭṭāb cite ʿIyāḍ (ash-Shifāʾ) : pour celui qui a cru de cœur et que la mort a pris avant d'avoir le temps de prononcer la profession de foi, deux avis, « وَالصَّحِيحُ أَنَّهُ مُؤْمِنٌ مُسْتَوْجِبٌ لِلْجَنَّةِ » ; pour celui qui a cru de cœur, a eu le temps, a su qu'il devait la prononcer et ne l'a jamais fait, deux avis aussi, « وَالصَّحِيحُ أَنَّهُ لَيْسَ بِمُؤْمِنٍ ». Al-Ḥaṭṭāb en tire trois avis : « الْإِجْزَاءُ فِيهِمَا وَعَدَمُهُ وَثَالِثُهَا الصَّحِيحُ الْإِجْزَاءُ فِي الْأُولَى دُونَ الثَّانِيَةِ », de même chez al-Qabbāb et at-Tūnisī.\n\nAl-Dardīr : « (لَا الْإِسْلَامُ) فَلَا يَصِحُّ بِالتَّصْمِيمِ الْقَلْبِيِّ دُونَ نُطْقٍ بِالشَّهَادَتَيْنِ إذْ النُّطْقُ شَرْطُ صِحَّةٍ فِيهِ أَيْ فِي الْإِسْلَامِ الظَّاهِرِيِّ », d'où l'absence des règles de l'islam « مِنْ إرْثٍ وَنِكَاحٍ وَصَلَاةٍ عَلَيْهِ » ; « (إلَّا لِعَجْزٍ) عَنْ النُّطْقِ كَخَرَسٍ » quand les indices montrent sa soumission intérieure. Il précise : « فَلَيْسَ الْمُرَادُ بِالْإِسْلَامِ الْمُنْجِي عِنْدَ اللَّهِ ». Al-Dasūqī : « وَالْحَاصِلُ أَنَّ الْإِسْلَامَ الْمُنْجِي لَا يَتَوَقَّفُ حُصُولُهُ عَلَى النُّطْقِ بِالْفِعْلِ عَلَى الْمُعْتَمَدِ وَالْإِسْلَامُ الظَّاهِرِيُّ يَتَوَقَّفُ عَلَى ذَلِكَ ».",
+    aqwal: [
+      { auteur: "ʿIyāḍ (ash-Shifāʾ, cité par al-Ḥaṭṭāb)", avis: "Celui que la mort prend avant d'avoir pu prononcer : croyant, promis au Paradis (« الصَّحِيحُ ») ; celui qui a pu et ne l'a jamais fait, en le sachant obligatoire : non croyant (« الصَّحِيحُ »).", statut: "non_precise" },
+      { auteur: "Avis rapportés par ʿIyāḍ (sans attribution)", avis: "Dans chacun des deux cas, l'avis opposé.", statut: "qawl" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : pour les règles de ce monde, la profession de foi prononcée est une condition, sauf incapacité ; al-Dasūqī : le salut auprès de Dieu n'en dépend pas « عَلَى الْمُعْتَمَدِ ».",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Al-Ḥaṭṭāb réunit les deux cas de ʿIyāḍ en trois avis, le troisième (validité dans le premier cas seulement) étant celui que ʿIyāḍ dit juste."
+    ],
+    divergences: [
+      "Point à comparer — celui qui a pu prononcer et ne l'a jamais fait. Al-Ḥaṭṭāb (ʿIyāḍ) : « وَالصَّحِيحُ أَنَّهُ لَيْسَ بِمُؤْمِنٍ ». Al-Dardīr parle de celui qui a la résolution de prononcer : « لِأَنَّ إسْلَامَهُ بِقَلْبِهِ إسْلَامٌ حَقِيقِيٌّ مَتَى عَزَمَ عَلَى النُّطْقِ مِنْ غَيْرِ إبَاءٍ » ; al-Dasūqī : le salut ne dépend pas du fait de prononcer « عَلَى الْمُعْتَمَدِ ». Les deux cas ne se recouvrent pas tout à fait (résolution de prononcer, ou abstention en le sachant obligatoire).",
+      "Complément — les règles de ce monde. Al-Ḥaṭṭāb n'en parle pas ici. Al-Dardīr : « فَلَا تَجْرِي عَلَيْهِ أَحْكَامُهُ مِنْ إرْثٍ وَنِكَاحٍ وَصَلَاةٍ عَلَيْهِ »."
+    ],
+    exemple: "Un homme muet de naissance montre clairement, par ses gestes et sa conduite, qu'il a embrassé l'islam : il est tenu pour musulman, bien qu'il ne puisse pas prononcer la profession de foi.",
+    erreurs_frequentes: [
+      "Croire que la seule conviction intérieure suffit pour être traité en musulman (mariage, héritage, prière funéraire).",
+      "Exiger d'un muet qu'il prononce la profession de foi.",
+      "Confondre le salut auprès de Dieu, dont parle ʿIyāḍ, et les règles de ce monde, dont parle Khalīl."
+    ],
+    termes: [
+      { ar: "الشَّهَادَتَان", translit: "ach-chahâdatân", def: "Les deux attestations : qu'il n'y a de divinité que Dieu et que Muḥammad est Son Messager." },
+      { ar: "خَرَس", translit: "kharas", def: "Mutisme : incapacité de parler." }
+    ],
+    quiz: [
+      { q: "Pour être tenu pour musulman dans les règles de ce monde, selon al-Dardīr :",
+        choix: ["La résolution du cœur suffit", "Il faut prononcer la profession de foi, sauf incapacité", "Il faut faire d'abord le ghousl", "Il faut un témoin et un juge"],
+        bonne: 1,
+        explication: "« إذْ النُّطْقُ شَرْطُ صِحَّةٍ فِيهِ أَيْ فِي الْإِسْلَامِ الظَّاهِرِيِّ »." },
+      { q: "Celui qui ne peut pas parler (muet) :",
+        choix: ["Ne peut jamais être musulman", "Doit écrire la profession de foi", "Est tenu pour musulman si les indices le montrent", "Doit attendre de guérir"],
+        bonne: 2,
+        explication: "« (إلَّا لِعَجْزٍ) عَنْ النُّطْقِ كَخَرَسٍ مَعَ قِيَامِ الْقَرَائِنِ »." },
+      { q: "Selon ʿIyāḍ, celui qui a cru de cœur et que la mort a pris avant d'avoir pu prononcer :",
+        choix: ["N'est pas croyant", "Est croyant seulement s'il était enfant", "Son cas n'a jamais été discuté", "Est croyant, promis au Paradis, selon l'avis juste"],
+        bonne: 3,
+        explication: "« وَالصَّحِيحُ أَنَّهُ مُؤْمِنٌ مُسْتَوْجِبٌ لِلْجَنَّةِ »." },
+      { q: "Mise en situation : un homme convaincu de l'islam meurt sans avoir prononcé la profession de foi ni montré sa conversion. Selon al-Dardīr, quelles règles ne s'appliquent pas à lui ?",
+        choix: ["Celles de l'islam : héritage, prière funéraire…", "Aucune : il est musulman en tout", "Seulement le jeûne", "Seulement le ghousl"],
+        bonne: 0,
+        explication: "« فَلَا تَجْرِي عَلَيْهِ أَحْكَامُهُ مِنْ إرْثٍ وَنِكَاحٍ وَصَلَاةٍ عَلَيْهِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "312" },
+    alertes: [
+      "Le passage touche à la doctrine de la foi (ʿaqīda) ; la fiche s'en tient à ce que disent les textes lus, sans trancher au-delà.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 131 (Shamela 21604, page 130)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-07-14",
+    kitab: "tah", bab: "01", fasl: "07", ordre: 14,
+    titre: "Le doute : madhy ou sperme ?",
+    titre_ar: "وَإِنْ شَكَّ أَمَذْيٌ أَمْ مَنِيٌّ اغْتَسَلَ وَأَعَادَ مِنْ آخِرِ نَوْمَةٍ كَتَحَقُّقِهِ",
+    objectif: "Savoir que le doute égal entre sperme et autre chose oblige au ghousl, et quelles prières refaire.",
+    matn: "وَإِنْ شَكَّ أَمَذْيٌ أَمْ مَنِيٌّ اغْتَسَلَ وَأَعَادَ مِنْ آخِرِ نَوْمَةٍ كَتَحَقُّقِهِ",
+    regle_pratique: "Celui qui trouve une humidité et doute à égalité si c'est du sperme ou du madhy fait le ghousl ; s'il la trouve dans le vêtement où il dort, il refait les prières faites depuis son dernier sommeil dans ce vêtement, comme s'il était sûr que c'est du sperme ; sauf si un autre, qui peut émettre, porte aussi ce vêtement (alors le ghousl est seulement recommandé).",
+    qualification: {
+      hukm: "fard",
+      nature: "autre",
+      effet_si_omis: "Il refait les prières faites depuis son dernier sommeil dans ce vêtement (al-Dardīr)."
+    },
+    explication: "Al-Ḥaṭṭāb : « لَا خُصُوصِيَّةَ لِلْمَذْيِ بَلْ إذَا شَكَّ هَلْ هُوَ مَنِيٌّ أَمْ لَا ». Il cite Ibn al-ʿArabī (al-ʿĀriḍa) : celui qui trouve une humidité dans un vêtement où il n'a pas dormi n'a rien à faire ; s'il y a dormi et doute, le ghousl est obligatoire ou recommandé, selon que l'on tient compte du doute ou non ; s'il est sûr que c'est un rêve, ghousl sans divergence ; s'il ne s'en souvient pas, « وَالصَّحِيحُ وُجُوبُ الْغُسْلِ إذَا لَمْ يَلْبَسْهُ غَيْرُهُ », et si un autre qui peut avoir un rêve l'a porté aussi, le ghousl n'est que recommandé.\n\nFarʿ : adh-Dhakhīra compte sept causes du ghousl, dont « وَالشَّكُّ فِي أَحَدِهِمَا مَا لَمْ يَسْتَنْكِحْ ذَلِكَ » ; d'après al-Jawāhir, pour l'humidité dont on ne sait si c'est du madhy ou du sperme : « قَالَ مَالِكٌ: لَا أَدْرِي مَا هَذَا؟ », « قَالَ ابْنُ نَافِعٍ: يَغْتَسِلُ », Ibn Ziyād : « لَا يَلْزَمُهُ إلَّا الْوُضُوءُ مَعَ غَسْلِ الذَّكَرِ », et Ibn Sābiq rattache la question au principe de Mālik sur la pureté certaine et le ḥadath douteux.\n\nAl-Dardīr : le doute doit être égal, « وَإِلَّا عَمِلَ بِمُقْتَضَى الرَّاجِحِ مِنْهُمَا » ; « (اغْتَسَلَ) وُجُوبًا لِلِاحْتِيَاطِ » ; s'il trouve la trace dans son vêtement sans savoir après quel sommeil, il refait ses prières « (مِنْ آخِرِ نَوْمَةٍ) نَامَهَا فِيهِ » ; de même s'il est sûr que c'est du sperme. Si le doute porte sur trois choses (madhy, sperme, wady), pas de ghousl, « لِضَعْفِ الشَّكِّ فِي الْمَنِيِّ حِينَئِذٍ ».",
+    aqwal: [
+      { auteur: "Avis de l'école (d'après al-Dasūqī)", avis: "Le ghousl est obligatoire en cas de doute égal.", statut: "mashhur" },
+      { auteur: "Ibn Nāfiʿ (d'après al-Jawāhir, via adh-Dhakhīra)", avis: "Il fait le ghousl.", statut: "non_precise" },
+      { auteur: "Ibn Ziyād (d'après al-Jawāhir ; riwāya selon al-Dasūqī)", avis: "Seulement les ablutions et le lavage du membre.", statut: "qawl" },
+      { auteur: "Mālik (d'après al-Jawāhir)", avis: "« لَا أَدْرِي مَا هَذَا » : il ne tranche pas.", statut: "non_precise" },
+      { auteur: "Ibn al-ʿArabī (al-ʿĀriḍa, cité par al-Ḥaṭṭāb)", avis: "Sans souvenir de rêve, ghousl obligatoire si personne d'autre n'a porté le vêtement ; sinon recommandé.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : ghousl obligatoire « لِلِاحْتِيَاطِ », prières refaites depuis le dernier sommeil ; al-Dasūqī : « هَذَا هُوَ الْمَشْهُورُ ». La restriction du vêtement porté par un autre est discutée (voir les divergences).",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Al-Ḥaṭṭāb note que le madhy n'est qu'un exemple : tout doute entre sperme et autre chose compte."
+    ],
+    divergences: [
+      "Point à comparer — le vêtement porté par un autre. Al-Ḥaṭṭāb cite sans réserve Ibn al-ʿArabī : « وَأَمَّا إذَا لَبِسَهُ هُوَ وَغَيْرُهُ مِمَّنْ يَحْتَلِمُ فَلَا يَجِبُ عَلَيْهِ الْغُسْلُ وَلَكِنَّهُ يُسْتَحَبُّ ». Al-Dardīr le suit (« وَإِلَّا لَمْ يَجِبْ غُسْلٌ بَلْ يُنْدَبُ فَقَطْ »), mais al-Dasūqī objecte : « وَهَذَا الْقَيْدُ ذَكَرَهُ ابْنُ الْعَرَبِيِّ فِي الْعَارِضَةِ وَهُوَ مُخَالِفٌ لِمَا قَالُوهُ مِنْ وُجُوبِ الْغُسْلِ عَلَى كُلٍّ مِنْ شَخْصَيْنِ لَبِسَا ثَوْبًا », avec la fatwa d'al-Burzulī ; il rapporte qu'al-Bunānī (بن) rejette la conciliation d'az-Zurqānī (عبق) et que certains préfèrent l'avis général.",
+      "Complément — depuis quel sommeil. Al-Ḥaṭṭāb n'en parle pas ici. Al-Dasūqī : le « dernier sommeil » sans distinction est le sens apparent du Muwaṭṭaʾ ; Abū ʿUmar y voit un avis opposé à la Mudawwana (premier sommeil s'il ne retire jamais le vêtement) ; « لَكِنَّهُ لَا يَنْبَغِي مُخَالَفَةُ الْأَكْثَرِ ».",
+      "Complément — doute entre trois choses. Al-Dardīr : pas de ghousl ; al-Dasūqī rapporte deux avis sur le lavage du membre, son maître al-ʿAdawī disant : « كَمَا لَا يَجِبُ الْغُسْلُ لَا يَجِبُ غَسْلُ الذَّكَرِ لِضَعْفِ الشَّكِّ »."
+    ],
+    exemple: "Au réveil, un homme trouve dans son vêtement de nuit une tache humide dont il ne sait si c'est du sperme ou du madhy, et il hésite à égalité : il fait le ghousl et refait la prière faite depuis son dernier sommeil dans ce vêtement.",
+    erreurs_frequentes: [
+      "Se contenter des ablutions quand le doute est égal entre sperme et madhy.",
+      "Oublier de refaire les prières faites depuis le dernier sommeil.",
+      "Faire le ghousl pour un doute faible, partagé entre trois choses, ou quand on penche nettement pour le madhy."
+    ],
+    termes: [],
+    quiz: [
+      { q: "Un homme hésite à égalité : sperme ou madhy ? Selon Khalīl :",
+        choix: ["Il lave seulement l'endroit", "Il fait seulement ses ablutions", "Il ne fait rien", "Il fait le ghousl"],
+        bonne: 3,
+        explication: "« (اغْتَسَلَ) وُجُوبًا لِلِاحْتِيَاطِ »." },
+      { q: "Quelles prières refait-il s'il trouve la trace dans le vêtement où il dort ?",
+        choix: ["Toutes celles de l'année", "Celles faites depuis son dernier sommeil dans ce vêtement", "Seulement la dernière prière", "Aucune"],
+        bonne: 1,
+        explication: "« (أَعَادَ) صَلَاتَهُ (مِنْ آخِرِ نَوْمَةٍ) نَامَهَا فِيهِ »." },
+      { q: "Selon al-Dardīr, si le doute porte sur trois choses (madhy, sperme ou wady) :",
+        choix: ["Le ghousl est obligatoire", "Il refait toutes ses prières", "Pas de ghousl : le doute sur le sperme est trop faible", "Il fait le tayammoum"],
+        bonne: 2,
+        explication: "« لَمْ يَجِبْ غُسْلٌ لِضَعْفِ الشَّكِّ فِي الْمَنِيِّ حِينَئِذٍ »." },
+      { q: "Mise en situation : deux frères ont dormi chacun à son tour dans le même vêtement ; l'un y trouve du sperme sans souvenir de rêve. Selon Ibn al-ʿArabī, cité par al-Ḥaṭṭāb :",
+        choix: ["Le ghousl lui est seulement recommandé", "Le ghousl lui est obligatoire", "Les deux doivent le ghousl sans divergence", "Il refait toutes ses prières du mois"],
+        bonne: 0,
+        explication: "« فَلَا يَجِبُ عَلَيْهِ الْغُسْلُ وَلَكِنَّهُ يُسْتَحَبُّ » ; al-Dasūqī signale que d'autres obligent les deux." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "312" },
+    alertes: [
+      "Précisé : dans la citation d'al-ʿĀriḍa (569/311), « وَجَبَ عَلَيْهِ الْغُسْلُ أَوْ اُسْتُحِبَّ عَلَى الْقَوْلِ بِإِلْغَاءِ الشَّكِّ أَوْ اسْتِعْمَالِهِ » : l'ordre des deux avis ne suit pas celui des deux règles (le ghousl est obligatoire si l'on tient compte du doute) ; passage résumé dans ce sens, non cité (n° 409).",
+      "Précisé : dans la citation d'adh-Dhakhīra (569/311), « وَقَالَ ابْنِ سَابِقٍ » est à lire ابْنُ (sujet) ; passage résumé (n° 408).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 131–132 (Shamela 21604, pages 130–131)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-07-15",
+    kitab: "tah", bab: "01", fasl: "07", ordre: 15,
+    titre: "Obligation du ghousl : l'intention",
+    titre_ar: "وَوَاجِبُهُ نِيَّةٌ",
+    objectif: "Savoir que l'intention est une obligation du ghousl, à formuler au premier geste obligatoire, comme pour les ablutions.",
+    matn: "وَوَاجِبُهُ نِيَّةٌ",
+    regle_pratique: "L'intention est une obligation du ghousl : on la forme au premier geste obligatoire, en visant la levée du ḥadath majeur, la permission de ce qu'elle interdit, ou l'obligation du ghousl ; une intention de « purification » en général ne suffit pas.",
+    qualification: {
+      hukm: "fard",
+      nature: "rukn",
+      effet_si_omis: "Sans intention, le ghousl ne compte pas (al-Dardīr : l'intention y est obligatoire « اتِّفَاقًا »)."
+    },
+    explication: "Al-Ḥaṭṭāb cite seulement Zarrūq (Sharḥ ar-Risāla) : « وَيَنْوِي الطَّهَارَةَ عِنْدَ أَوَّلِ وَاجِبِهِ كَالْوُضُوءِ ».\n\nAl-Dardīr : les obligations du ghousl sont cinq ; la première, laver tout le corps apparent, a été vue au début du faṣl ; « الثَّانِي وَالثَّالِثُ النِّيَّةُ وَالْمُوَالَاةُ ». « كَالْوُضُوءِ » se rapporte aux deux. Pour l'intention, la ressemblance porte sur sa description : « مِنْ حَيْثُ إنَّهَا أَوَّلُ مَفْعُولٍ وَأَنَّهُ يَنْوِي رَفْعَ الْحَدَثِ أَيْ الْأَكْبَرِ أَوْ اسْتِبَاحَةِ مَمْنُوعٍ أَوْ الْفَرْضِ » ; exclure une partie de ce qu'on veut se permettre, ou oublier un ḥadath, ne nuit pas, à la différence d'exclure un ḥadath ou de viser la purification en général. Non sur son statut : « لِوُجُوبِ النِّيَّةِ هُنَا اتِّفَاقًا بِخِلَافِهَا فِي الْوُضُوءِ فَإِنَّهُ جَرَى فِيهَا خِلَافٌ ». Al-Dasūqī en donne la raison : « لِظُهُورِ التَّعَبُّدِ هُنَا لِتَعَلُّقِ الْغُسْلِ بِجَمِيعِ الْبَدَنِ ».",
+    aqwal: [
+      { auteur: "Zarrūq (Sharḥ ar-Risāla, cité par al-Ḥaṭṭāb)", avis: "On forme l'intention au premier geste obligatoire, comme pour les ablutions.", statut: "non_precise" },
+      { auteur: "Al-Bunānī (بن, d'après al-Dasūqī)", avis: "Mieux vaut comprendre « كَالْوُضُوءِ » de la description et du statut à la fois, Khalīl n'ayant pas rapporté de désaccord sur l'intention des ablutions.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : intention obligatoire, au premier geste, visant la levée du ḥadath majeur, la permission ou l'obligation ; « لِوُجُوبِ النِّيَّةِ هُنَا اتِّفَاقًا ».",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Al-Ḥaṭṭāb ne commente ce segment que par la citation de Zarrūq ; les détails de l'intention ont été vus aux ablutions (faṣl tah-01-04)."
+    ],
+    divergences: [
+      "Concordance — le moment. Al-Ḥaṭṭāb (Zarrūq) : « عِنْدَ أَوَّلِ وَاجِبِهِ ». Al-Dardīr : « أَنَّهَا أَوَّلُ مَفْعُولٍ ».",
+      "Complément — le statut. Al-Ḥaṭṭāb n'en parle pas ici. Al-Dardīr : obligatoire « اتِّفَاقًا » dans le ghousl, alors que l'intention des ablutions a fait l'objet d'un désaccord ; al-Bunānī (بن) discute la façon de comprendre la comparaison."
+    ],
+    exemple: "Sous la douche, une femme forme dans son cœur l'intention de lever sa janâba au moment où elle commence à se laver : son ghousl compte.",
+    erreurs_frequentes: [
+      "Se doucher sans aucune intention et croire avoir fait le ghousl.",
+      "Viser seulement la « purification » en général.",
+      "Croire l'intention facultative dans le ghousl, alors qu'al-Dardīr la dit obligatoire sans divergence."
+    ],
+    termes: [],
+    quiz: [
+      { q: "Quand forme-t-on l'intention du ghousl, selon Zarrūq cité par al-Ḥaṭṭāb ?",
+        choix: ["À la fin du ghousl", "Au premier geste obligatoire", "La veille", "Après la prière"],
+        bonne: 1,
+        explication: "« وَيَنْوِي الطَّهَارَةَ عِنْدَ أَوَّلِ وَاجِبِهِ كَالْوُضُوءِ »." },
+      { q: "Selon al-Dardīr, l'intention du ghousl est obligatoire :",
+        choix: ["Selon un seul avis", "Seulement pour la femme", "Seulement pour la janâba", "Sans divergence"],
+        bonne: 3,
+        explication: "« لِوُجُوبِ النِّيَّةِ هُنَا اتِّفَاقًا »." },
+      { q: "Quelle intention ne suffit pas, selon al-Dardīr ?",
+        choix: ["Lever le ḥadath majeur", "Se permettre la prière", "La purification en général", "Accomplir l'obligation du ghousl"],
+        bonne: 2,
+        explication: "« بِخِلَافِ إخْرَاجِهِ أَوْ نِيَّةُ مُطْلَقِ الطَّهَارَةِ »." },
+      { q: "Mise en situation : un homme junub forme l'intention de se permettre la prière, sans penser au mot « janâba ». Selon al-Dardīr :",
+        choix: ["Son ghousl compte : l'intention de se permettre ce qui est interdit suffit", "Son ghousl ne compte pas", "Il doit refaire le ghousl en nommant la janâba", "Il fait seulement ses ablutions"],
+        bonne: 0,
+        explication: "« يَنْوِي رَفْعَ الْحَدَثِ أَيْ الْأَكْبَرِ أَوْ اسْتِبَاحَةِ مَمْنُوعٍ أَوْ الْفَرْضِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "312" },
+    alertes: [
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 133 (Shamela 21604, page 132)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-07-16",
+    kitab: "tah", bab: "01", fasl: "07", ordre: 16,
+    titre: "La continuité, comme pour les ablutions",
+    titre_ar: "وَمُوَالَاةٌ كَالْوُضُوءِ",
+    objectif: "Savoir que le ghousl doit être fait sans longue interruption, avec les mêmes règles que pour les ablutions.",
+    matn: "وَمُوَالَاةٌ كَالْوُضُوءِ",
+    regle_pratique: "Le ghousl se fait d'un seul tenant, comme les ablutions : celui qui s'interrompt volontairement assez longtemps pour que son corps sèche recommence ; celui qui s'interrompt par oubli complète, avec une nouvelle intention, et celui qu'une incapacité arrête complète aussi, si l'arrêt n'a pas été long.",
+    qualification: {
+      hukm: "wajib",
+      nature: "rukn",
+      effet_si_omis: "Interruption volontaire et longue : il recommence le ghousl (Mudawwana, d'après al-Ḥaṭṭāb ; al-Dardīr)."
+    },
+    explication: "Al-Ḥaṭṭāb donne en exemple une question de la Mudawwana : celui qui lave son corps sans laver sa tête, par crainte de sa femme, laisse son corps sécher, puis va vers elle et lave sa tête, « أَنَّهُ يَبْتَدِئُ الْغُسْلَ ». Sanad ajoute : « فَلَوْ بَدَأَ غُسْلَهُ بِهَذِهِ النِّيَّةِ ثُمَّ بَدَا لَهُ فَكَمَّلَ غُسْلَهُ فَالظَّاهِرُ مِنْ قَوْلِ الْعِرَاقِيِّينَ أَنَّهُ لَا يُجْزِئُهُ لِتَبْعِيضِ النِّيَّةِ ».\n\nAl-Dardīr : la comparaison avec les ablutions porte ici sur le statut et sur la description, « لِجَرَيَانِ الْخِلَافِ هُنَا أَيْضًا مِنْ الْوُجُوبِ إنْ ذُكِرَ وَقُدِّرَ وَالسُّنَّةُ », et « أَنَّهُ يَبْنِي بِنِيَّةٍ إنْ نَسِيَ مُطْلَقًا وَإِنْ عَجَزَ مَا لَمْ يُطِلْ ».",
+    aqwal: [
+      { auteur: "La Mudawwana (citée par al-Ḥaṭṭāb)", avis: "Celui qui laisse sécher son corps exprès, puis lave sa tête, recommence le ghousl.", statut: "non_precise" },
+      { auteur: "Les Irakiens (d'après Sanad)", avis: "Celui qui commence avec l'intention de laver sa tête plus tard, puis complète aussitôt, n'est pas quitte, l'intention ayant été partagée.", statut: "non_precise" },
+      { auteur: "Avis rapportés par al-Dardīr (sans attribution)", avis: "La continuité est obligatoire quand on s'en souvient et qu'on le peut ; autre avis : elle est sunna.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : même règle que pour les ablutions (obligation avec souvenir et capacité ; on complète avec une nouvelle intention en cas d'oubli, ou d'incapacité si l'arrêt n'est pas long).",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Le cas de la Mudawwana et la remarque de Sanad montrent qu'une interruption voulue dès le début du ghousl le rend nul, même si l'on se ravise ensuite."
+    ],
+    divergences: [
+      "Concordance — l'interruption voulue. Al-Ḥaṭṭāb (Mudawwana) : « أَنَّهُ يَبْتَدِئُ الْغُسْلَ ». Al-Dardīr : la continuité est due « إنْ ذُكِرَ وَقُدِّرَ ».",
+      "Complément — oubli et incapacité. Al-Ḥaṭṭāb n'en parle pas ici. Al-Dardīr : « أَنَّهُ يَبْنِي بِنِيَّةٍ إنْ نَسِيَ مُطْلَقًا وَإِنْ عَجَزَ مَا لَمْ يُطِلْ »."
+    ],
+    exemple: "Pendant son ghousl, une femme est appelée et oublie de terminer ; elle s'en souvient une heure plus tard : elle complète ce qui reste, avec une nouvelle intention, sans recommencer.",
+    erreurs_frequentes: [
+      "Laver une partie du corps, attendre exprès qu'il sèche, puis finir le reste : il faut alors recommencer.",
+      "Recommencer tout le ghousl après une interruption par oubli : on complète.",
+      "Oublier de former une nouvelle intention en complétant."
+    ],
+    termes: [],
+    quiz: [
+      { q: "Selon la Mudawwana, celui qui lave son corps, laisse exprès sécher, puis lave sa tête plus tard :",
+        choix: ["Complète seulement la tête", "Est quitte", "Recommence le ghousl", "Fait seulement ses ablutions"],
+        bonne: 2,
+        explication: "« أَنَّهُ يَبْتَدِئُ الْغُسْلَ »." },
+      { q: "Et celui qui s'interrompt par oubli, selon al-Dardīr ?",
+        choix: ["Complète avec une nouvelle intention", "Recommence", "Fait le tayammoum", "Ne fait rien"],
+        bonne: 0,
+        explication: "« أَنَّهُ يَبْنِي بِنِيَّةٍ إنْ نَسِيَ مُطْلَقًا »." },
+      { q: "Selon Sanad, celui qui commence son ghousl en prévoyant de laver sa tête plus tard, puis se ravise et complète aussitôt :",
+        choix: ["Est quitte", "N'est pas quitte, l'intention ayant été partagée", "Doit refaire seulement la tête", "Doit faire seulement ses ablutions"],
+        bonne: 1,
+        explication: "« فَالظَّاهِرُ مِنْ قَوْلِ الْعِرَاقِيِّينَ أَنَّهُ لَا يُجْزِئُهُ لِتَبْعِيضِ النِّيَّةِ »." },
+      { q: "Mise en situation : l'eau manque au milieu du ghousl ; on en rapporte au bout de quelques minutes, avant que le corps ne sèche. Selon al-Dardīr :",
+        choix: ["Il recommence", "Il fait le tayammoum", "Il ne finit pas", "Il complète, l'arrêt n'ayant pas été long"],
+        bonne: 3,
+        explication: "« وَإِنْ عَجَزَ مَا لَمْ يُطِلْ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "312" },
+    alertes: [
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 133 (Shamela 21604, page 132)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-07-16b",
+    kitab: "tah", bab: "01", fasl: "07", ordre: 16,
+    titre: "Un seul ghousl pour deux causes, ou pour la janâba et le vendredi",
+    titre_ar: "وَإِنْ نَوَتِ الْحَيْضَ وَالْجَنَابَةَ … حَصَلَا",
+    objectif: "Savoir qu'un seul ghousl peut valoir pour deux causes, ou pour la janâba et le ghousl du vendredi.",
+    matn: "وَإِنْ نَوَتِ الْحَيْضَ وَالْجَنَابَةَ أَوْ أَحَدَهُمَا نَاسِيَةً لِلْآخَرِ أَوْ نَوَى الْجَنَابَةَ وَالْجُمُعَةَ أَوْ نِيَابَةً عَنِ الْجُمُعَةِ حَصَلَا",
+    regle_pratique: "Un seul ghousl suffit à la femme qui a ses règles et la janâba, si elle vise les deux, ou l'une en oubliant l'autre ; de même, celui qui vise ensemble la janâba et le vendredi (ou la fête), ou la janâba en voulant qu'elle tienne lieu du ghousl du vendredi, obtient les deux.",
+    qualification: {
+      hukm: "mubah",
+      nature: "autre",
+      effet_si_omis: "Le passage ne précise pas de conséquence."
+    },
+    explication: "Ce segment manque au « ص » de Mawāhib (voir les alertes) ; la fiche suit al-Dardīr / al-Dasūqī.\n\nAl-Dardīr : la femme junub et en règles (ou en lochies) qui vise par son ghousl « (الْحَيْضَ) أَوْ النِّفَاسَ (وَالْجَنَابَةَ) مَعًا », ou l'une des deux « (نَاسِيَةً) أَوْ ذَاكِرَةً (لِلْآخَرِ) وَلَمْ تُخْرِجُهُ حَصَلَا ». De même celui qui vise « (الْجَنَابَةَ وَالْجُمُعَةَ) أَوْ الْعِيدَ أَيْ أَشْرَكَهُمَا فِي نِيَّةٍ وَاحِدَةٍ », ou la janâba en voulant qu'elle tienne lieu du ghousl du vendredi : « (حَصَلَا) أَيْ حَصَلَ الْغُسْلُ وَتَرَتَّبَ الثَّوَابُ لِكُلٍّ مِنْهُمَا » ; ce n'était pas nécessaire à dire après « كَالْوُضُوءِ », « فَهُوَ إيضَاحٌ ».\n\nAl-Dasūqī : « حَصَلَا أَيْ فِي الْأُولَى عَلَى الْمَنْصُوصِ لِابْنِ الْقَاسِمِ وَفِي الثَّانِيَةِ عَلَى مَذْهَبِ الْمُدَوَّنَةِ خِلَافًا لِسَحْنُونٍ » ; mais si elle n'a eu que l'une des deux causes et vise l'autre, cela vaut par oubli, non exprès, « لِتَلَاعُبِهَا ». Il en tire aussi la validité d'une seule intention pour deux actes (le jeûne de ʿĀshūrāʾ pour le mérite et le rattrapage, d'après Ibn ʿArafa ; une takbīra pour l'entrée en prière et l'inclinaison, d'après Ibn Rushd).",
+    aqwal: [
+      { auteur: "Ibn al-Qāsim (d'après al-Dasūqī)", avis: "Les deux causes visées ensemble : un seul ghousl suffit (avis expressément rapporté).", statut: "non_precise" },
+      { auteur: "La Mudawwana (d'après al-Dasūqī)", avis: "L'une visée, l'autre oubliée : un seul ghousl suffit.", statut: "non_precise" },
+      { auteur: "Saḥnūn (d'après al-Dasūqī)", avis: "L'une visée, l'autre oubliée : ne suffit pas.", statut: "qawl" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : « حَصَلَا » dans tous ces cas ; al-Dasūqī précise que le deuxième cas suit « مَذْهَبِ الْمُدَوَّنَةِ خِلَافًا لِسَحْنُونٍ ».",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Al-Ḥaṭṭāb ne commente pas ce segment dans le texte lu (569/311) ; il n'a qu'un « ص » sur l'intention, « وَوَاجِبُهُ نِيَّةٌ » (fiche 15)."
+    ],
+    divergences: [
+      "Complément — tout le segment. Al-Ḥaṭṭāb ne le commente pas ici. Al-Dardīr : « (حَصَلَا) أَيْ حَصَلَ الْغُسْلُ وَتَرَتَّبَ الثَّوَابُ لِكُلٍّ مِنْهُمَا » ; al-Dasūqī : « وَفِي الثَّانِيَةِ عَلَى مَذْهَبِ الْمُدَوَّنَةِ خِلَافًا لِسَحْنُونٍ »."
+    ],
+    exemple: "Un vendredi matin, un homme junub fait un seul ghousl avec l'intention de la janâba et du vendredi : il est quitte des deux et en a le mérite.",
+    erreurs_frequentes: [
+      "Croire qu'il faut deux ghousl pour les règles et la janâba.",
+      "Croire qu'un ghousl de janâba fait le vendredi ne peut pas valoir aussi pour le vendredi.",
+      "Viser exprès une cause qu'on n'a pas eue, à la place de celle qu'on a eue : cela ne vaut pas."
+    ],
+    termes: [
+      { ar: "نِيَابَة", translit: "niyâba", def: "Fait de tenir lieu d'une autre chose : un ghousl qui en remplace un autre." }
+    ],
+    quiz: [
+      { q: "Une femme en fin de règles, également junub, fait un seul ghousl en visant les deux. Selon al-Dardīr :",
+        choix: ["Elle doit refaire un ghousl pour la janâba", "Les deux sont levés", "Seules les règles sont levées", "Elle fait aussi le tayammoum"],
+        bonne: 1,
+        explication: "« (الْحَيْضَ) أَوْ النِّفَاسَ (وَالْجَنَابَةَ) مَعًا … حَصَلَا »." },
+      { q: "Et si elle vise les règles en oubliant la janâba, selon la Mudawwana (d'après al-Dasūqī) ?",
+        choix: ["Seules les règles sont levées", "Rien n'est levé", "Les deux sont levés", "Elle doit refaire le ghousl"],
+        bonne: 2,
+        explication: "« وَفِي الثَّانِيَةِ عَلَى مَذْهَبِ الْمُدَوَّنَةِ خِلَافًا لِسَحْنُونٍ »." },
+      { q: "Qui s'oppose, selon al-Dasūqī, à ce qu'un seul ghousl suffise quand l'une des causes est oubliée ?",
+        choix: ["Ibn al-Qāsim", "Al-Dardīr", "Ibn Rushd", "Saḥnūn"],
+        bonne: 3,
+        explication: "« خِلَافًا لِسَحْنُونٍ »." },
+      { q: "Mise en situation : un vendredi, un homme junub fait un seul ghousl avec l'intention de la janâba et du vendredi. Selon al-Dardīr :",
+        choix: ["Il obtient les deux et leur mérite", "Il n'obtient que le vendredi", "Il n'obtient rien", "Il doit refaire un ghousl pour le vendredi"],
+        bonne: 0,
+        explication: "« (حَصَلَا) أَيْ حَصَلَ الْغُسْلُ وَتَرَتَّبَ الثَّوَابُ لِكُلٍّ مِنْهُمَا »." }
+    ],
+    ref: { ouvrage: "al-Sharḥ al-kabīr (al-Dardīr) et Ḥāshiyat al-Dasūqī", tome: 1, pages: "133–134" },
+    alertes: [
+      "Limite du texte : le segment « وَإِنْ نَوَتِ الْحَيْضَ … حَصَلَا », que donnent le Mukhtaṣar seul (11355, p. 19), Ibn Ghāzī (14605, p. 41), al-Dardīr (21604/132–133) et al-Kharashī (91, p. 167), manque au « ص » de Mawāhib (569/311, entre « وَمُوَالَاةٌ كَالْوُضُوءِ » et « وَتَخْلِيلُ شَعْرٍ ») ; fiche rédigée d'après al-Dardīr / al-Dasūqī, `ref` sur al-Dardīr (n° 406).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 133–134 (Shamela 21604, pages 132–133)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-07-16c",
+    kitab: "tah", bab: "01", fasl: "07", ordre: 16,
+    titre: "Le ghousl du vendredi ne vaut pas pour la janâba",
+    titre_ar: "وَإِنْ نَسِيَ الْجَنَابَةَ أَوْ قَصَدَ نِيَابَةً عَنْهَا انْتَفَيَا",
+    objectif: "Savoir que le ghousl fait seulement pour le vendredi ne lève pas la janâba, et qu'il ne compte même pas pour le vendredi.",
+    matn: "وَإِنْ نَسِيَ الْجَنَابَةَ أَوْ قَصَدَ نِيَابَةً عَنْهَا انْتَفَيَا",
+    regle_pratique: "Celui qui fait le ghousl pour le vendredi en oubliant sa janâba, ou en voulant que le ghousl du vendredi tienne lieu de celui de la janâba, n'obtient ni l'un ni l'autre : il doit refaire un ghousl pour la janâba.",
+    qualification: {
+      hukm: "fard",
+      nature: "autre",
+      effet_si_omis: "Il reste junub : le ghousl est à refaire avec l'intention de la janâba (al-Dardīr : « انْتَفَيَا »)."
+    },
+    explication: "Ce segment manque au « ص » de Mawāhib (voir les alertes) ; la fiche suit al-Dardīr / al-Dasūqī.\n\nAl-Dardīr : s'il vise le vendredi « (وَ) (نَسِيَ الْجَنَابَةَ) انْتَفَيَا لِعَدَمِ نِيَّةِ الْجَنَابَةِ وَلِأَنَّ غَيْرَ الْوَاجِبِ لَا ثُبُوتَ لَهُ مَعَ عَدَمِ الْوَاجِبِ » ; ou s'il vise le vendredi sans oublier la janâba, mais « (قَصَدَ) بِغُسْلِهِ الْجُمُعَةَ (نِيَابَةً عَنْهَا) أَيْ عَنْ الْجَنَابَةِ (انْتَفَيَا) », « إذْ الضَّعِيفُ لَا يَثْبُتُ عِنْدَ عَدَمِ الْقَوِيِّ فَكَيْفَ يَنُوبُ عَنْهُ ». Al-Dasūqī précise les deux cas : « مَا إذَا نَوَى بِغُسْلِهِ الْجُمُعَةَ وَنَسِيَ الْجَنَابَةَ », et le cas où « نَوَى بِغُسْلِهِ الْجُمُعَةَ وَقَصَدَ نِيَابَتَهُ عَنْ الْجَنَابَةِ ».",
+    aqwal: [
+      { auteur: "Al-Dardīr", avis: "Dans les deux cas, ni la janâba ni le vendredi ne sont obtenus.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : « انْتَفَيَا » dans les deux cas.",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Al-Ḥaṭṭāb ne commente pas ce segment dans le texte lu (569/311)."
+    ],
+    divergences: [
+      "Complément — tout le segment. Al-Ḥaṭṭāb ne le commente pas ici. Al-Dardīr : « إذْ الضَّعِيفُ لَا يَثْبُتُ عِنْدَ عَدَمِ الْقَوِيِّ فَكَيْفَ يَنُوبُ عَنْهُ »."
+    ],
+    exemple: "Un vendredi, un homme junub fait son ghousl en pensant seulement au vendredi, ayant oublié sa janâba ; il s'en souvient après : il refait un ghousl avec l'intention de la janâba.",
+    erreurs_frequentes: [
+      "Croire que le ghousl du vendredi lève la janâba.",
+      "Croire qu'il compte au moins pour le vendredi.",
+      "Confondre ce cas avec celui de la fiche 16b, où l'on vise la janâba (seule ou avec le vendredi)."
+    ],
+    termes: [],
+    quiz: [
+      { q: "Un homme junub fait le ghousl du vendredi en oubliant sa janâba. Selon al-Dardīr :",
+        choix: ["Il obtient les deux", "Il obtient la janâba seulement", "Il obtient le vendredi seulement", "Il n'obtient ni l'un ni l'autre"],
+        bonne: 3,
+        explication: "« (وَ) (نَسِيَ الْجَنَابَةَ) انْتَفَيَا »." },
+      { q: "Pourquoi le ghousl du vendredi ne compte-t-il même pas pour le vendredi ?",
+        choix: ["Parce qu'il est fait trop tôt", "Parce que ce qui n'est pas obligatoire ne tient pas sans l'obligatoire", "Parce que le vendredi n'a pas de ghousl", "Parce qu'il a manqué la prière"],
+        bonne: 1,
+        explication: "« وَلِأَنَّ غَيْرَ الْوَاجِبِ لَا ثُبُوتَ لَهُ مَعَ عَدَمِ الْوَاجِبِ »." },
+      { q: "Mise en situation : un homme junub se souvient de sa janâba, mais fait le ghousl du vendredi en voulant qu'il tienne lieu de celui de la janâba. Selon al-Dardīr :",
+        choix: ["Il n'obtient ni l'un ni l'autre", "Il obtient les deux", "Il obtient la janâba seulement", "Il obtient le vendredi seulement"],
+        bonne: 0,
+        explication: "« (قَصَدَ) بِغُسْلِهِ الْجُمُعَةَ (نِيَابَةً عَنْهَا) … (انْتَفَيَا) »." },
+      { q: "La raison donnée par al-Dardīr pour ce second cas :",
+        choix: ["Le vendredi passe avant la janâba", "Il faut deux ghousl le vendredi", "Le plus faible ne tient pas sans le plus fort : comment le remplacerait-il ?", "L'intention était trop longue"],
+        bonne: 2,
+        explication: "« إذْ الضَّعِيفُ لَا يَثْبُتُ عِنْدَ عَدَمِ الْقَوِيِّ فَكَيْفَ يَنُوبُ عَنْهُ »." }
+    ],
+    ref: { ouvrage: "al-Sharḥ al-kabīr (al-Dardīr) et Ḥāshiyat al-Dasūqī", tome: 1, pages: "134" },
+    alertes: [
+      "Limite du texte : le segment وَإِنْ نَسِيَ الْجَنَابَةَ أَوْ قَصَدَ نِيَابَةً عَنْهَا انْتَفَيَا (sans guillemets : aucun témoin ne l'a d'un seul tenant au contrôle par empreintes, appel de note collé à « انتفيا » dans le Mukhtaṣar seul, repère de folio au milieu chez Ibn Ghāzī), que donnent le Mukhtaṣar seul (11355, p. 19), Ibn Ghāzī (14605, p. 41), al-Dardīr (21604/133) et al-Kharashī (91, p. 167, « عَنْهُ »), manque au « ص » de Mawāhib (569/311) ; fiche rédigée d'après al-Dardīr / al-Dasūqī, `ref` sur al-Dardīr (n° 407).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 134 (Shamela 21604, page 133)."
+    ],
+    verification: "verifie"
+  }
+
+
+  /* FIN-UNITE-53 */
 ]);

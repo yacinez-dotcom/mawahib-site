@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.56
+/* Données — Glossaire, partie 2 — v1.57
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -31,7 +31,8 @@
    v1.53 : 7 termes de l'unité 49 (tah-01-06-16a à -19).
    v1.54 : 12 termes de l'unité 50 (tah-01-06-20a à -22b).
    v1.55 : 8 termes de l'unité 51 (tah-01-07-01 à -06).
-   v1.56 : 6 termes de l'unité 52 (tah-01-07-07 à -11). */
+   v1.56 : 6 termes de l'unité 52 (tah-01-07-07 à -11).
+   v1.57 : 6 termes de l'unité 53 (tah-01-07-12 à -16c). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -384,7 +385,13 @@ App.data.ajouterTermes([
   { ar: "جِنِّيّ", translit: "jinniyy", def: "Djinn : être créé de feu, invisible, dont parle le Coran." },
   { ar: "إِطَاقَة", translit: "iṭâqa", def: "Aptitude à supporter (ici : à recevoir un rapport) ; « مُطِيقَة » : celle qui en est capable." },
   { ar: "تَمْرِين", translit: "tamrîn", def: "Exercice, entraînement : ce que l'on demande à l'enfant pour l'habituer, sans qu'il y soit tenu." },
-  { ar: "تَنَفُّسُ الرَّحِم", translit: "tanaffous ar-raḥim", def: "« Délivrance de la matrice » : la sortie de l'enfant ; c'est le sens que Khalīl donne ici à نِفَاس (al-Dardīr)." }
+  { ar: "تَنَفُّسُ الرَّحِم", translit: "tanaffous ar-raḥim", def: "« Délivrance de la matrice » : la sortie de l'enfant ; c'est le sens que Khalīl donne ici à نِفَاس (al-Dardīr)." },
+  { ar: "كَافِر", translit: "kâfir", def: "Non-musulman : celui qui ne professe pas l'islam." },
+  { ar: "إِنْبَات", translit: "inbât", def: "Pousse des poils pubiens, signe de la puberté." },
+  { ar: "ذِمِّيّ", translit: "dhimmiyy", def: "Non-musulman (juif ou chrétien) vivant sous la protection de l'État musulman ; au féminin ذِمِّيَّة." },
+  { ar: "الشَّهَادَتَان", translit: "ach-chahâdatân", def: "Les deux attestations : qu'il n'y a de divinité que Dieu et que Muḥammad est Son Messager." },
+  { ar: "خَرَس", translit: "kharas", def: "Mutisme : incapacité de parler." },
+  { ar: "نِيَابَة", translit: "niyâba", def: "Fait de tenir lieu d'une autre chose : un ghousl qui en remplace un autre." }
 
   /* FIN-GLOSSAIRE */
 ]);

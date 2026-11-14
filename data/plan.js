@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.45 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.46 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -78,7 +78,9 @@
    v1.44 : tah-01-07-04 complété (« وَيَتَوَضَّأُ », n° 387) ; -04b ajouté (« كَمَنْ جَامَعَ فَاغْتَسَلَ ثُمَّ أَمْنَى », absent du « ص », n° 388) ;
           -06 « وَبِمَغِيبِ حَشَفَةِ بَالِغٍ لَا مُرَاهِقٍ أَوْ قَدْرِهَا » (n° 390, 391) (unité 51).
    v1.45 : tah-01-07-07 « فِي فَرْجٍ » (« فِي فَرْجِهِ » dans le « ص », n° 395) ; -09b (« لَا بِمَنِيٍّ وَصَلَ لِلْفَرْجِ وَلَوِ الْتَذَّتْ », n° 396)
-          et -09c (« وَبِحَيْضٍ وَنِفَاسٍ بِدَمٍ », n° 397) ajoutés, absents du « ص » ; 35 → 37 segments (unité 52). */
+          et -09c (« وَبِحَيْضٍ وَنِفَاسٍ بِدَمٍ », n° 397) ajoutés, absents du « ص » ; 35 → 37 segments (unité 52).
+   v1.46 : tah-01-07-12 complété (« بِمَا ذُكِرَ ») ; -12b (« وَصَحَّ قَبْلَهَا وَقَدْ أَجْمَعَ عَلَى الْإِسْلَامِ », n° 405), -16b (« وَإِنْ نَوَتِ الْحَيْضَ … حَصَلَا », n° 406)
+          et -16c (« وَإِنْ نَسِيَ الْجَنَابَةَ … انْتَفَيَا », n° 407) ajoutés, absents du « ص » ; 37 → 40 segments (unité 53). */
 App.data.definirPlan({
   kutub: [
     {
@@ -537,7 +539,7 @@ App.data.definirPlan({
                 { id: "tah-01-06-22b", titre: "L'amulette coranique couverte, même pour la femme en règles", titre_ar: "وَحِرْزٍ بِسَاتِرٍ وَإِنْ لِحَائِضٍ" } /* fin du segment absente du « ص » ; al-Dardīr, t. 1, p. 126 (n° 380, v1.43) */
               ]
             },
-            /* tah-01-07 — t. 1, p. 305–318 (Shamela 569, pages 304–317) — 37 segments du matn, dont 04b, 09b et 09c */
+            /* tah-01-07 — t. 1, p. 305–318 (Shamela 569, pages 304–317) — 40 segments du matn, dont 04b, 09b, 09c, 12b, 16b et 16c */
             {
               id: "tah-01-07",
               titre: "Le ghousl (purification majeure)",
@@ -557,11 +559,14 @@ App.data.definirPlan({
                 { id: "tah-01-07-09c", titre: "Troisième et quatrième causes : les règles et les lochies", titre_ar: "وَبِحَيْضٍ وَنِفَاسٍ بِدَمٍ" }, /* absent du « ص » de Mawāhib ; al-Dardīr, t. 1, p. 130 (n° 397, v1.45) */
                 { id: "tah-01-07-10", titre: "Jugé bon : même sans sang", titre_ar: "وَاسْتُحْسِنَ وَبِغَيْرِهِ" }, /* p. 309 */
                 { id: "tah-01-07-11", titre: "Pas pour l'istiḥâḍa ; recommandé quand elle s'arrête", titre_ar: "لَا بِاسْتِحَاضَةٍ وَنُدِبَ لِانْقِطَاعِهِ" }, /* p. 310 */
-                { id: "tah-01-07-12", titre: "Ghousl du non-musulman après la shahâda", titre_ar: "وَيَجِبُ غُسْلُ كَافِرٍ بَعْدَ الشَّهَادَةِ بِمَا …" }, /* p. 311 */
-                { id: "tah-01-07-13", titre: "Pas pour l'islam lui-même", titre_ar: "لَا الْإِسْلَامُ إلَّا لِعَجْزٍ" }, /* p. 312 */
+                { id: "tah-01-07-12", titre: "Le ghousl du non-musulman qui embrasse l'islam", titre_ar: "وَيَجِبُ غُسْلُ كَافِرٍ بَعْدَ الشَّهَادَةِ بِمَا ذُكِرَ" }, /* p. 311 ; complété (v1.46) */
+                { id: "tah-01-07-12b", titre: "Ghousl valable avant la profession de foi, si l'on a résolu d'embrasser l'islam", titre_ar: "وَصَحَّ قَبْلَهَا وَقَدْ أَجْمَعَ عَلَى الْإِسْلَامِ" }, /* absent du « ص » de Mawāhib ; al-Dardīr, t. 1, p. 131 (n° 405, v1.46) */
+                { id: "tah-01-07-13", titre: "L'islam ne vaut pas sans la profession de foi, sauf incapacité", titre_ar: "لَا الْإِسْلَامُ إلَّا لِعَجْزٍ" }, /* p. 312 */
                 { id: "tah-01-07-14", titre: "Doute : madhy ou sperme ?", titre_ar: "وَإِنْ شَكَّ أَمَذْيٌ أَمْ مَنِيٌّ اغْتَسَلَ …" }, /* p. 312 */
                 { id: "tah-01-07-15", titre: "Obligatoire : l'intention", titre_ar: "وَوَاجِبُهُ نِيَّةٌ" }, /* p. 312 */
-                { id: "tah-01-07-16", titre: "La continuité", titre_ar: "وَمُوَالَاةٌ كَالْوُضُوءِ" }, /* p. 312 */
+                { id: "tah-01-07-16", titre: "La continuité, comme pour les ablutions", titre_ar: "وَمُوَالَاةٌ كَالْوُضُوءِ" }, /* p. 312 */
+                { id: "tah-01-07-16b", titre: "Un seul ghousl pour deux causes, ou pour la janâba et le vendredi", titre_ar: "وَإِنْ نَوَتِ الْحَيْضَ وَالْجَنَابَةَ … حَصَلَا" }, /* absent du « ص » de Mawāhib ; al-Dardīr, t. 1, p. 133–134 (n° 406, v1.46) */
+                { id: "tah-01-07-16c", titre: "Le ghousl du vendredi ne vaut pas pour la janâba", titre_ar: "وَإِنْ نَسِيَ الْجَنَابَةَ أَوْ قَصَدَ نِيَابَةً عَنْهَا انْتَفَيَا" }, /* absent du « ص » de Mawāhib ; al-Dardīr, t. 1, p. 134 (n° 407, v1.46) */
                 { id: "tah-01-07-17", titre: "Faire pénétrer l'eau dans les cheveux", titre_ar: "وَتَخْلِيلُ شَعْرٍ" }, /* p. 312 */
                 { id: "tah-01-07-18", titre: "Le frottement", titre_ar: "وَدَلْكٌ" }, /* p. 313 */
                 { id: "tah-01-07-19", titre: "… ou s'en faire aider", titre_ar: "أَوْ اسْتِنَابَةٌ" }, /* p. 313 */
