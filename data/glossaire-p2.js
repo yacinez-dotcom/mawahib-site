@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.57
+/* Données — Glossaire, partie 2 — v1.58
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -32,7 +32,8 @@
    v1.54 : 12 termes de l'unité 50 (tah-01-06-20a à -22b).
    v1.55 : 8 termes de l'unité 51 (tah-01-07-01 à -06).
    v1.56 : 6 termes de l'unité 52 (tah-01-07-07 à -11).
-   v1.57 : 6 termes de l'unité 53 (tah-01-07-12 à -16c). */
+   v1.57 : 6 termes de l'unité 53 (tah-01-07-12 à -16c).
+   v1.58 : 5 termes de l'unité 54 (tah-01-07-17 à -22). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -391,7 +392,12 @@ App.data.ajouterTermes([
   { ar: "ذِمِّيّ", translit: "dhimmiyy", def: "Non-musulman (juif ou chrétien) vivant sous la protection de l'État musulman ; au féminin ذِمِّيَّة." },
   { ar: "الشَّهَادَتَان", translit: "ach-chahâdatân", def: "Les deux attestations : qu'il n'y a de divinité que Dieu et que Muḥammad est Son Messager." },
   { ar: "خَرَس", translit: "kharas", def: "Mutisme : incapacité de parler." },
-  { ar: "نِيَابَة", translit: "niyâba", def: "Fait de tenir lieu d'une autre chose : un ghousl qui en remplace un autre." }
+  { ar: "نِيَابَة", translit: "niyâba", def: "Fait de tenir lieu d'une autre chose : un ghousl qui en remplace un autre." },
+  { ar: "ضَغْث", translit: "daghth", def: "Rassembler et presser les cheveux tressés pour que l'eau y pénètre." },
+  { ar: "مَضْفُور", translit: "madfoûr", def: "Tressé ; les cheveux tressés." },
+  { ar: "عَرُوس", translit: "ʿaroûs", def: "Nouvelle mariée, dans les jours qui suivent ses noces." },
+  { ar: "إِزَار", translit: "izâr", def: "Pagne : pièce d'étoffe qui couvre le corps de la taille vers le bas." },
+  { ar: "تَعَذُّر", translit: "taʿadhdhour", def: "Impossibilité : ne pas pouvoir faire une chose." }
 
   /* FIN-GLOSSAIRE */
 ]);

@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.46 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.47 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -80,7 +80,9 @@
    v1.45 : tah-01-07-07 « فِي فَرْجٍ » (« فِي فَرْجِهِ » dans le « ص », n° 395) ; -09b (« لَا بِمَنِيٍّ وَصَلَ لِلْفَرْجِ وَلَوِ الْتَذَّتْ », n° 396)
           et -09c (« وَبِحَيْضٍ وَنِفَاسٍ بِدَمٍ », n° 397) ajoutés, absents du « ص » ; 35 → 37 segments (unité 52).
    v1.46 : tah-01-07-12 complété (« بِمَا ذُكِرَ ») ; -12b (« وَصَحَّ قَبْلَهَا وَقَدْ أَجْمَعَ عَلَى الْإِسْلَامِ », n° 405), -16b (« وَإِنْ نَوَتِ الْحَيْضَ … حَصَلَا », n° 406)
-          et -16c (« وَإِنْ نَسِيَ الْجَنَابَةَ … انْتَفَيَا », n° 407) ajoutés, absents du « ص » ; 37 → 40 segments (unité 53). */
+          et -16c (« وَإِنْ نَسِيَ الْجَنَابَةَ … انْتَفَيَا », n° 407) ajoutés, absents du « ص » ; 37 → 40 segments (unité 53).
+   v1.47 : tah-01-07-17b (« وَضَغْثُ مَضْفُورِهِ لَا نَقْضُهُ », n° 410) et -18b (« وَلَوْ بَعْدَ الْمَاءِ أَوْ بِخِرْقَةٍ », n° 413) ajoutés,
+          absents du « ص » ; titre de -17 précisé ; 40 → 42 segments (unité 54). */
 App.data.definirPlan({
   kutub: [
     {
@@ -567,8 +569,10 @@ App.data.definirPlan({
                 { id: "tah-01-07-16", titre: "La continuité, comme pour les ablutions", titre_ar: "وَمُوَالَاةٌ كَالْوُضُوءِ" }, /* p. 312 */
                 { id: "tah-01-07-16b", titre: "Un seul ghousl pour deux causes, ou pour la janâba et le vendredi", titre_ar: "وَإِنْ نَوَتِ الْحَيْضَ وَالْجَنَابَةَ … حَصَلَا" }, /* absent du « ص » de Mawāhib ; al-Dardīr, t. 1, p. 133–134 (n° 406, v1.46) */
                 { id: "tah-01-07-16c", titre: "Le ghousl du vendredi ne vaut pas pour la janâba", titre_ar: "وَإِنْ نَسِيَ الْجَنَابَةَ أَوْ قَصَدَ نِيَابَةً عَنْهَا انْتَفَيَا" }, /* absent du « ص » de Mawāhib ; al-Dardīr, t. 1, p. 134 (n° 407, v1.46) */
-                { id: "tah-01-07-17", titre: "Faire pénétrer l'eau dans les cheveux", titre_ar: "وَتَخْلِيلُ شَعْرٍ" }, /* p. 312 */
+                { id: "tah-01-07-17", titre: "Faire pénétrer l'eau dans les cheveux et les poils", titre_ar: "وَتَخْلِيلُ شَعْرٍ" }, /* p. 312 */
+                { id: "tah-01-07-17b", titre: "Presser les tresses, sans les défaire", titre_ar: "وَضَغْثُ مَضْفُورِهِ لَا نَقْضُهُ" }, /* absent du « ص » de Mawāhib ; al-Dardīr, t. 1, p. 134 (n° 410, v1.47) */
                 { id: "tah-01-07-18", titre: "Le frottement", titre_ar: "وَدَلْكٌ" }, /* p. 313 */
+                { id: "tah-01-07-18b", titre: "… même après l'eau, ou avec un linge", titre_ar: "وَلَوْ بَعْدَ الْمَاءِ أَوْ بِخِرْقَةٍ" }, /* absent du « ص » de Mawāhib ; al-Dardīr, t. 1, p. 135 (n° 413, v1.47) */
                 { id: "tah-01-07-19", titre: "… ou s'en faire aider", titre_ar: "أَوْ اسْتِنَابَةٌ" }, /* p. 313 */
                 { id: "tah-01-07-20", titre: "Impossible : l'obligation tombe", titre_ar: "وَإِنْ تَعَذَّرَ سَقَطَ" }, /* p. 313 */
                 { id: "tah-01-07-21", titre: "Sunna : laver les mains d'abord, et le conduit des oreilles", titre_ar: "وَسُنَنُهُ غَسْلُ يَدَيْهِ أَوَّلًا وَصِمَاخُ أُذُنَيْهِ" }, /* p. 313 */
