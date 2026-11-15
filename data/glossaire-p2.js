@@ -34,7 +34,8 @@
    v1.56 : 6 termes de l'unité 52 (tah-01-07-07 à -11).
    v1.57 : 6 termes de l'unité 53 (tah-01-07-12 à -16c).
    v1.58 : 5 termes de l'unité 54 (tah-01-07-17 à -22).
-   v1.59 : 7 termes de l'unité 55 (tah-01-07-23 à -28). */
+   v1.59 : 7 termes de l'unité 55 (tah-01-07-23 à -28).
+   v1.60 : 5 termes de l'unité 56 (tah-01-07-29 à -34). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -405,7 +406,12 @@ App.data.ajouterTermes([
   { ar: "صَاع", translit: "sâʿ", def: "Mesure de capacité (quatre mudd), dont le Prophète se servait pour son ghousl." },
   { ar: "جِمَاع", translit: "jimâʿ", def: "Rapport conjugal." },
   { ar: "نَشَاط", translit: "nachât", def: "Entrain, vigueur ; ici, l'entrain pour faire le ghousl, l'une des raisons données aux ablutions du junub." },
-  { ar: "عَدَالَة", translit: "ʿadâla", def: "Intégrité : qualité du témoin digne de foi." }
-
-  /* FIN-GLOSSAIRE */
+  { ar: "عَدَالَة", translit: "ʿadâla", def: "Intégrité : qualité du témoin digne de foi." },
+  /* Unité 56 — tah-01-07-29 à -34 */
+  { ar: "رُقْيَة", translit: "rouqya", def: "Formule de protection ou de guérison récitée sur soi ou sur autrui." },
+  { ar: "مَسْجِدُ الْبَيْتِ", translit: "masjidou l-bayt", def: "Lieu de prière aménagé dans une maison." },
+  { ar: "مُجْتَاز", translit: "moujtâz", def: "Celui qui traverse un lieu sans s'y arrêter." },
+  { ar: "طَلْع", translit: "talʿ", def: "Spathe et pollen du palmier." },
+  { ar: "تَدَفُّق", translit: "tadaffouq", def: "Sortie par jets successifs." }
+/* FIN-GLOSSAIRE */
 ]);

@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.48 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.49 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -84,7 +84,10 @@
    v1.47 : tah-01-07-17b (« وَضَغْثُ مَضْفُورِهِ لَا نَقْضُهُ », n° 410) et -18b (« وَلَوْ بَعْدَ الْمَاءِ أَوْ بِخِرْقَةٍ », n° 413) ajoutés,
           absents du « ص » ; titre de -17 précisé ; 40 → 42 segments (unité 54).
    v1.48 : tah-01-07-24 découpé en 24a (intention, une fois) et 24b (« كَامِلَةً » : les pieds) ; -27b ajouté
-          (« كَغَسْلِ فَرْجِ جُنُبٍ لِعَوْدِهِ لِجِمَاعٍ », absent du « ص », n° 421) ; titre de -28 précisé ; 42 → 44 segments (unité 55). */
+          (« كَغَسْلِ فَرْجِ جُنُبٍ لِعَوْدِهِ لِجِمَاعٍ », absent du « ص », n° 421) ; titre de -28 précisé ; 42 → 44 segments (unité 55).
+   v1.49 : tah-01-07-32b (« وَلَوْ مُجْتَازًا كَكَافِرٍ وَإِنْ أَذِنَ مُسْلِمٌ », n° 429) et -33b (« وَيُجْزِئُ عَنِ الْوُضُوءِ
+          وَإِنْ تَبَيَّنَ عَدَمُ جَنَابَتِهِ », n° 430), absents du « ص », ajoutés ; « وَدُخُولُ » → « وَدُخُولَ » (n° 428) ; titre de -34
+          corrigé et son titre_ar complété (n° 431) ; titres de -29 à -31 précisés ; 44 → 46 segments ; faṣl terminé (unité 56). */
 App.data.definirPlan({
   kutub: [
     {
@@ -587,12 +590,14 @@ App.data.definirPlan({
                 { id: "tah-01-07-27", titre: "Peu d'eau, sans limite", titre_ar: "وَقِلَّةُ الْمَاءِ بِلَا حَدٍّ" }, /* p. 316 */
                 { id: "tah-01-07-27b", titre: "Laver son sexe avant de revenir à un rapport", titre_ar: "كَغَسْلِ فَرْجِ جُنُبٍ لِعَوْدِهِ لِجِمَاعٍ" }, /* absent du « ص » de Mawāhib ; al-Dardīr, t. 1, p. 137–138 (n° 421, v1.48) */
                 { id: "tah-01-07-28", titre: "Faire ses ablutions avant de dormir", titre_ar: "وَوُضُوءُهُ لِنَوْمٍ" }, /* p. 316 */
-                { id: "tah-01-07-29", titre: "Pas de tayammoum", titre_ar: "لَا تَيَمُّمٌ" }, /* p. 316 */
-                { id: "tah-01-07-30", titre: "Annulées seulement par un rapport", titre_ar: "وَلَمْ يَبْطُلْ إلَّا بِجِمَاعٍ" }, /* p. 316 */
-                { id: "tah-01-07-31", titre: "Ce qu'interdit la janâba", titre_ar: "وَتَمْنَعُ الْجَنَابَةُ مَوَانِعَ الْأَصْغَرِ وَالْقِرَاءَةَ إلَّا …" }, /* p. 317 */
-                { id: "tah-01-07-32", titre: "Entrer à la mosquée", titre_ar: "وَدُخُولُ مَسْجِدٍ" }, /* p. 317 */
-                { id: "tah-01-07-33", titre: "Les signes du sperme", titre_ar: "وَلِلْمَنِيِّ تَدَفُّقٌ وَرَائِحَةُ طَلْعٍ أَوْ عَجِينٍ" }, /* p. 317 */
-                { id: "tah-01-07-34", titre: "Le ghousl dispense de laver les membres des ablutions", titre_ar: "وَغَسْلُ الْوُضُوءِ عَنْ غُسْلِ مَحِلِّهِ" } /* p. 318 */
+                { id: "tah-01-07-29", titre: "Pas de tayammoum à la place de ces ablutions", titre_ar: "لَا تَيَمُّمٌ" }, /* p. 316 */
+                { id: "tah-01-07-30", titre: "Ces ablutions ne sont annulées que par un rapport", titre_ar: "وَلَمْ يَبْطُلْ إلَّا بِجِمَاعٍ" }, /* p. 316–317 */
+                { id: "tah-01-07-31", titre: "Ce qu'interdit la janâba : la lecture du Coran", titre_ar: "وَتَمْنَعُ الْجَنَابَةُ مَوَانِعَ الْأَصْغَرِ وَالْقِرَاءَةَ إلَّا كَآيَةٍ لِلتَّعَوُّذِ وَنَحْوِهِ" }, /* p. 317 */
+                { id: "tah-01-07-32", titre: "Ce qu'interdit la janâba : entrer à la mosquée", titre_ar: "وَدُخُولَ مَسْجِدٍ" }, /* p. 317 (n° 428, v1.49) */
+                { id: "tah-01-07-32b", titre: "… même pour traverser ; et le non-musulman", titre_ar: "وَلَوْ مُجْتَازًا كَكَافِرٍ وَإِنْ أَذِنَ مُسْلِمٌ" }, /* absent du « ص » de Mawāhib ; al-Dardīr, t. 1, p. 139 (n° 429, v1.49) */
+                { id: "tah-01-07-33", titre: "Les signes du sperme", titre_ar: "وَلِلْمَنِيِّ تَدَفُّقٌ وَرَائِحَةُ طَلْعٍ أَوْ عَجِينٍ" }, /* p. 317–318 */
+                { id: "tah-01-07-33b", titre: "Le ghousl vaut ablutions", titre_ar: "وَيُجْزِئُ عَنِ الْوُضُوءِ وَإِنْ تَبَيَّنَ عَدَمُ جَنَابَتِهِ" }, /* absent du « ص » de Mawāhib ; al-Dardīr, t. 1, p. 139–140 (n° 430, v1.49) */
+                { id: "tah-01-07-34", titre: "Les ablutions valent ghousl pour leurs membres", titre_ar: "وَغَسْلُ الْوُضُوءِ عَنْ غُسْلِ مَحِلِّهِ وَلَوْ نَاسِيًا لِجَنَابَتِهِ كَلُمْعَةٍ مِنْهَا وَإِنْ عَنْ جَبِيرَةٍ" } /* p. 318 ; fin absente du « ص » (n° 431, v1.49) */
               ]
             },
             /* tah-01-08 — t. 1, p. 318–325 (Shamela 569, pages 317–324) — 27 segments du matn */
