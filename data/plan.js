@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.47 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.48 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -82,7 +82,9 @@
    v1.46 : tah-01-07-12 complété (« بِمَا ذُكِرَ ») ; -12b (« وَصَحَّ قَبْلَهَا وَقَدْ أَجْمَعَ عَلَى الْإِسْلَامِ », n° 405), -16b (« وَإِنْ نَوَتِ الْحَيْضَ … حَصَلَا », n° 406)
           et -16c (« وَإِنْ نَسِيَ الْجَنَابَةَ … انْتَفَيَا », n° 407) ajoutés, absents du « ص » ; 37 → 40 segments (unité 53).
    v1.47 : tah-01-07-17b (« وَضَغْثُ مَضْفُورِهِ لَا نَقْضُهُ », n° 410) et -18b (« وَلَوْ بَعْدَ الْمَاءِ أَوْ بِخِرْقَةٍ », n° 413) ajoutés,
-          absents du « ص » ; titre de -17 précisé ; 40 → 42 segments (unité 54). */
+          absents du « ص » ; titre de -17 précisé ; 40 → 42 segments (unité 54).
+   v1.48 : tah-01-07-24 découpé en 24a (intention, une fois) et 24b (« كَامِلَةً » : les pieds) ; -27b ajouté
+          (« كَغَسْلِ فَرْجِ جُنُبٍ لِعَوْدِهِ لِجِمَاعٍ », absent du « ص », n° 421) ; titre de -28 précisé ; 42 → 44 segments (unité 55). */
 App.data.definirPlan({
   kutub: [
     {
@@ -578,11 +580,13 @@ App.data.definirPlan({
                 { id: "tah-01-07-21", titre: "Sunna : laver les mains d'abord, et le conduit des oreilles", titre_ar: "وَسُنَنُهُ غَسْلُ يَدَيْهِ أَوَّلًا وَصِمَاخُ أُذُنَيْهِ" }, /* p. 313 */
                 { id: "tah-01-07-22", titre: "Rinçage de la bouche et aspiration de l'eau", titre_ar: "وَمَضْمَضَةٌ وَاسْتِنْشَاقٌ" }, /* p. 313 */
                 { id: "tah-01-07-23", titre: "Recommandé : commencer par ôter la souillure", titre_ar: "وَنُدِبَ بَدْءٌ بِإِزَالَةِ الْأَذَى" }, /* p. 314 */
-                { id: "tah-01-07-24", titre: "Puis les membres des ablutions, une fois", titre_ar: "ثُمَّ بِأَعْضَاءِ وُضُوئِهِ كَامِلَةً مَرَّةً" }, /* p. 314 */
+                { id: "tah-01-07-24a", titre: "Puis les membres des ablutions, une fois, avec quelle intention", titre_ar: "ثُمَّ بِأَعْضَاءِ وُضُوئِهِ كَامِلَةً مَرَّةً" }, /* p. 314–315 (v1.48) */
+                { id: "tah-01-07-24b", titre: "« Complètes » : laver les pieds avant ou après le ghousl", titre_ar: "كَامِلَةً" }, /* p. 315 ; sous-fiche de 24 (v1.48) */
                 { id: "tah-01-07-25", titre: "Le haut et la droite d'abord", titre_ar: "وَأَعْلَاهُ وَمَيَامِنُهُ" }, /* p. 315 */
                 { id: "tah-01-07-26", titre: "Trois fois la tête", titre_ar: "وَتَثْلِيثُ رَأْسِهِ" }, /* p. 315 */
                 { id: "tah-01-07-27", titre: "Peu d'eau, sans limite", titre_ar: "وَقِلَّةُ الْمَاءِ بِلَا حَدٍّ" }, /* p. 316 */
-                { id: "tah-01-07-28", titre: "Ses ablutions avant de dormir", titre_ar: "وَوُضُوءُهُ لِنَوْمٍ" }, /* p. 316 */
+                { id: "tah-01-07-27b", titre: "Laver son sexe avant de revenir à un rapport", titre_ar: "كَغَسْلِ فَرْجِ جُنُبٍ لِعَوْدِهِ لِجِمَاعٍ" }, /* absent du « ص » de Mawāhib ; al-Dardīr, t. 1, p. 137–138 (n° 421, v1.48) */
+                { id: "tah-01-07-28", titre: "Faire ses ablutions avant de dormir", titre_ar: "وَوُضُوءُهُ لِنَوْمٍ" }, /* p. 316 */
                 { id: "tah-01-07-29", titre: "Pas de tayammoum", titre_ar: "لَا تَيَمُّمٌ" }, /* p. 316 */
                 { id: "tah-01-07-30", titre: "Annulées seulement par un rapport", titre_ar: "وَلَمْ يَبْطُلْ إلَّا بِجِمَاعٍ" }, /* p. 316 */
                 { id: "tah-01-07-31", titre: "Ce qu'interdit la janâba", titre_ar: "وَتَمْنَعُ الْجَنَابَةُ مَوَانِعَ الْأَصْغَرِ وَالْقِرَاءَةَ إلَّا …" }, /* p. 317 */

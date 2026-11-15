@@ -1,10 +1,13 @@
-/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 26 — v12.0
+/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 26 — v12.1
    Source : Mawāhib al-Jalīl, al-Ḥaṭṭāb, éd. Dār al-Fikr, 3e éd., 1412 H / 1992, tome 1 (shamela.ws/book/569).
    Croisement : al-Sharḥ al-kabīr d'al-Dardīr et Ḥāshiyat al-Dasūqī (shamela.ws/book/21604), tome 1.
    Cette partie : suite du faṣl tah-01-07 (le ghousl), à partir de tah-01-07-17 (unité 54) — t. 1, p. 312 et suivantes.
    v12.0 : unité 54 — tah-01-07-17, -17b, -18, -18b, -19, -20, -21, -22 (Mawāhib, t. 1, p. 312–314 ;
           al-Dardīr / al-Dasūqī, t. 1, p. 134–136) (2026-11-15) ; nouvelle partie, tah-01-p25.js (≈ 125 Ko) étant figée ;
-          17b et 18b : segments absents du « ص » de Mawāhib, rédigés d'après al-Dardīr / al-Dasūqī ; anomalies n° 410 à 417.
+          17b et 18b : segments absents du « ص » de Mawāhib, rédigés d'après al-Dardīr / al-Dasūqī ; anomalies n° 410 à 419.
+   v12.1 : unité 55 — tah-01-07-23, -24a, -24b, -25, -26, -27, -27b, -28 (Mawāhib, t. 1, p. 314–316 ;
+          al-Dardīr / al-Dasūqī, t. 1, p. 136–138) (2026-11-15) ; 27b : segment absent du « ص » de Mawāhib,
+          rédigé d'après al-Dardīr / al-Dasūqī ; anomalies n° 420 à 427.
    Bāb découpé en parties de moins de 200 Ko ;
    historique des versions : tah-01-p1.js (jusqu'à v2.5) puis l'en-tête de chaque partie. */
 App.data.ajouterFiches([
@@ -529,8 +532,523 @@ App.data.ajouterFiches([
       "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 136 (Shamela 21604, page 135)."
     ],
     verification: "verifie"
+  },
+
+  /* FIN-UNITE-54 */
+  /* ================================================================== */
+  /* Unité 55 — tah-01-07-23 à -28 (dont 24a, 24b et 27b) */
+  /* Mawāhib, t. 1, p. 314–316 (Shamela 569/313–315) ; al-Dardīr / al-Dasūqī, t. 1, p. 136–138 (Shamela 21604/135–137) */
+  {
+    id: "tah-01-07-23",
+    kitab: "tah", bab: "01", fasl: "07", ordre: 23,
+    titre: "Recommandé : commencer par ôter la souillure",
+    titre_ar: "وَنُدِبَ بَدْءٌ بِإِزَالَةِ الْأَذَى",
+    objectif: "Savoir qu'on commence le ghousl, après s'être lavé les mains, par ôter la souillure, et comment placer l'intention à ce moment.",
+    matn: "وَنُدِبَ بَدْءٌ بِإِزَالَةِ الْأَذَى",
+    regle_pratique: "Il est recommandé, après s'être lavé les mains, de commencer le ghousl en ôtant la souillure (sperme ou autre impureté) du sexe ou d'ailleurs, et de former alors l'intention de lever la janâba en lavant le sexe, pour n'avoir pas à le toucher ensuite.",
+    qualification: {
+      hukm: "mandub",
+      nature: "adab",
+      effet_si_omis: "Selon al-Dardīr, si l'on n'a pas formé l'intention en lavant le sexe, il faut y reverser l'eau et le frotter ensuite ; et si la main passe alors sur les membres des ablutions, celles-ci sont annulées."
+    },
+    explication: "Al-Ḥaṭṭāb cite at-Tawḍīḥ : on commence par la souillure « لِيَقَعَ الْغُسْلُ عَلَى أَعْضَاءٍ طَاهِرَةٍ ». La manière la plus complète est de laver les endroits souillés, puis de les relaver avec l'intention du ghousl de janâba ; al-Lakhmī : « وَإِنْ نَوَى ذَلِكَ فِي حِينِ إزَالَةِ النَّجَاسَةِ وَغَسَلَ غُسْلًا وَاحِدًا أَجْزَأَهُ ». At-Tawḍīḥ en tire que, d'après Ibn al-Ḥājib, un seul lavage avec l'intention de lever le ḥadath, qui ôte en même temps l'impureté, suffirait ; mais le maître de l'auteur d'at-Tawḍīḥ jugeait juste la lettre d'Ibn al-Ḥājib, qui demande d'ôter l'impureté d'abord : « فَلَا بُدَّ مِنْ إزَالَةِ النَّجَاسَةِ قَبْلَ طَهَارَةِ الْحَدَثِ ». Al-Ḥaṭṭāb n'admet pas cette dernière conclusion (voir sa préférence). Aṭ-Ṭirāz : celui dont le sexe porte une impureté et qui le lave avec l'intention de la janâba « أَجْزَأَهُ », et Sanad tient cet avis pour « أَظْهَرُ » que celui rapporté dans le Tahdhīb de ʿAbd al-Ḥaqq. Al-Ubbī : « الْمَشْهُورُ أَنَّ طَهَارَةَ الْحَدَثِ لَيْسَ مِنْ شَرْطِهَا أَنْ تُرَدَّ عَلَى الْأَعْضَاءِ وَهِيَ طَاهِرَةٌ ».\n\nAl-Dardīr : on commence ainsi « بَعْدَ غَسْلِ يَدَيْهِ أَوَّلًا لِكُوعَيْهِ », par ôter « النَّجَاسَةِ إنْ كَانَ فِي جَسَدِهِ نَجَاسَةٌ بِفَرْجٍ أَوْ غَيْرِهِ », « وَيَنْوِي رَفْعَ الْجَنَابَةِ عِنْدَ غَسْلِ فَرْجِهِ حَتَّى لَا يَحْتَاجَ إلَى مَسِّهِ بَعْدَ ذَلِكَ ». Al-Dasūqī : c'est « عَلَى جِهَةِ الْأَوْلَوِيَّةِ » ; former l'intention avant ou après le lavage du sexe vaut aussi, « مَعَ ارْتِكَابِهِ خِلَافَ الْأَوْلَى ».",
+    aqwal: [
+      { auteur: "Al-Lakhmī (cité par al-Ḥaṭṭāb)", avis: "Un seul lavage, fait avec l'intention de la janâba en ôtant l'impureté, suffit.", statut: "non_precise" },
+      { auteur: "Le maître de l'auteur d'at-Tawḍīḥ (cité par al-Ḥaṭṭāb)", avis: "Il faut ôter l'impureté avant la purification du ḥadath.", statut: "qawl" },
+      { auteur: "Avis répandu, d'après al-Jazūlī (cité par al-Ḥaṭṭāb)", avis: "Un seul lavage des endroits souillés, avec l'intention de la janâba et d'ôter l'impureté, suffit.", statut: "mashhur" },
+      { auteur: "Avis rapporté sans attribution (al-Jazūlī, « وَقِيلَ »)", avis: "Cela ne suffit pas.", statut: "qawl" },
+      { auteur: "Avis répandu, d'après al-Ubbī ; al-Jallāb", avis: "Al-Ubbī : la purification du ḥadath n'exige pas que les membres soient purs d'abord. Al-Jallāb : elle l'exige.", statut: "mashhur" }
+    ],
+    muatamad: "Confirmé par al-Dardīr / al-Dasūqī : ôter d'abord la souillure est recommandé ; l'intention se forme de préférence en lavant le sexe (« عَلَى جِهَةِ الْأَوْلَوِيَّةِ »), et vaut aussi avant ou après.",
+    tarjih_hattab: "Al-Ḥaṭṭāb juge juste ce que l'auteur d'at-Tawḍīḥ rapporte de son maître, sauf la conclusion qu'il faut ôter l'impureté avant de lever le ḥadath : « فَفِيهِ نَظَرٌ لِجَوَازِ حُصُولِهِمَا مَعًا ».",
+    tanbihat: [
+      "Al-Jazūlī (cité par al-Ḥaṭṭāb) dit de la manière la plus complète : « هَذَا هُوَ الْغُسْلُ الْمُتَّفَقُ عَلَيْهِ ».",
+      "Sanad (aṭ-Ṭirāz) : ce qui compte est que l'eau atteigne la peau avec l'intention ; un écran qui reste empêche le ghousl de valoir, « وَلَا أَثَرَ لِلنِّيَّةِ فِي شَيْءٍ مِنْ ذَلِكَ » ; al-Qarāfī l'a rapporté."
+    ],
+    divergences: [
+      "Concordance — un seul lavage peut ôter l'impureté et lever la janâba. Al-Ḥaṭṭāb : « لِجَوَازِ حُصُولِهِمَا مَعًا ». Al-Kharashī, d'après al-Lakhmī : « أَجْزَأَ عَلَى مَذْهَبِ الْمُدَوَّنَةِ ».",
+      "Complément — l'intention au lavage du sexe. Al-Ḥaṭṭāb n'en parle pas. Al-Dardīr : « وَيَنْوِي رَفْعَ الْجَنَابَةِ عِنْدَ غَسْلِ فَرْجِهِ حَتَّى لَا يَحْتَاجَ إلَى مَسِّهِ بَعْدَ ذَلِكَ » ; al-Kharashī prévient que « وَكَثِيرٌ مِنْ النَّاسِ لَا يَتَفَطَّنُ لِذَلِكَ » : ils forment l'intention après avoir lavé le sexe, puis ne le touchent plus pour garder leurs ablutions, ce qui annule le ghousl, le sexe ayant été lavé sans intention."
+    ],
+    exemple: "Un homme junub se lave les mains, puis ôte le sperme de son sexe en formant alors l'intention de lever la janâba ; il poursuit son ghousl sans avoir à revenir toucher son sexe.",
+    erreurs_frequentes: [
+      "Former l'intention seulement après avoir lavé le sexe, puis ne plus le laver : il reste lavé sans intention.",
+      "Croire qu'il faut toujours deux lavages, l'un pour l'impureté, l'autre pour la janâba.",
+      "Commencer le ghousl par le reste du corps en laissant la souillure pour la fin."
+    ],
+    termes: [
+      { ar: "أَذًى", translit: "adhan", def: "Ce qui salit ; ici les selles ou l'urine." }
+    ],
+    quiz: [
+      { q: "Pourquoi commence-t-on le ghousl par ôter la souillure, selon at-Tawḍīḥ (cité par al-Ḥaṭṭāb) ?",
+        choix: ["Pour économiser l'eau", "Pour que le ghousl se fasse sur des membres purs", "Parce que c'est obligatoire", "Pour éviter de refaire les ablutions"],
+        bonne: 1,
+        explication: "« لِيَقَعَ الْغُسْلُ عَلَى أَعْضَاءٍ طَاهِرَةٍ »." },
+      { q: "Selon al-Lakhmī, un seul lavage fait avec l'intention de la janâba en ôtant l'impureté :",
+        choix: ["Suffit", "Ne suffit pas", "Suffit seulement pour la femme", "Suffit seulement si l'impureté est sèche"],
+        bonne: 0,
+        explication: "« وَغَسَلَ غُسْلًا وَاحِدًا أَجْزَأَهُ »." },
+      { q: "Quelle conclusion du maître de l'auteur d'at-Tawḍīḥ al-Ḥaṭṭāb n'admet-il pas ?",
+        choix: ["Que le ghousl demande une intention", "Que l'eau doit se séparer du membre", "Qu'il faut ôter l'impureté avant de lever le ḥadath", "Que l'on se lave les mains d'abord"],
+        bonne: 2,
+        explication: "« فَفِيهِ نَظَرٌ لِجَوَازِ حُصُولِهِمَا مَعًا »." },
+      { q: "Mise en situation : une femme a formé l'intention de la janâba en lavant son sexe au début du ghousl. Selon al-Dardīr :",
+        choix: ["Elle doit relaver son sexe à la fin", "Son ghousl est nul", "Elle doit refaire ses ablutions avant le ghousl", "Elle n'a pas à revenir toucher son sexe"],
+        bonne: 3,
+        explication: "« حَتَّى لَا يَحْتَاجَ إلَى مَسِّهِ بَعْدَ ذَلِكَ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "314" },
+    alertes: [
+      "Lecture : dans la citation d'al-Jazūlī, « فَالْمَشْهُورُ أَنَّهُ يُجْزِئُهُ وَلَوْ شَرَّكَ بَيْنَهُمَا الْمَازِرِيُّ وَقِيلَ: لَا يُجْزِئُ » : place de « الْمَازِرِيُّ » douteuse (mot tombé ou déplacé), même tournure en 24a ; al-Jazūlī non trouvé (n° 426) ; seul le statut « الْمَشْهُورُ » est repris.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 136 (Shamela 21604, page 135)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-07-24a",
+    kitab: "tah", bab: "01", fasl: "07", ordre: 24,
+    titre: "Puis les membres des ablutions, une fois, avec quelle intention",
+    titre_ar: "ثُمَّ بِأَعْضَاءِ وُضُوئِهِ كَامِلَةً مَرَّةً",
+    objectif: "Savoir qu'on fait ensuite ses ablutions, une seule fois chaque membre, et quelle intention y former.",
+    matn: "ثُمَّ بِأَعْضَاءِ وُضُوئِهِ كَامِلَةً مَرَّةً",
+    regle_pratique: "Après avoir ôté la souillure, il est recommandé de laver les membres des ablutions, une fois chacun, avec l'intention de lever la janâba ; l'intention des ablutions ou du petit ḥadath vaut aussi, selon al-Lakhmī et al-Dasūqī.",
+    qualification: {
+      hukm: "mandub",
+      nature: "adab",
+      effet_si_omis: "Sanad (cité par al-Ḥaṭṭāb) : celui qui a oublié de faire ses ablutions avant le ghousl les fait après."
+    },
+    explication: "Al-Ḥaṭṭāb cite at-Tawḍīḥ sur Ibn al-Ḥājib (« وَالْأَكْمَلُ أَنْ يَغْسِلَ يَدَيْهِ ثُمَّ يُزِيلَ الْأَذَى ثُمَّ يَغْسِلَ ذَكَرَهُ ثُمَّ يَتَوَضَّأَ ») : les ablutions se font « أَيْ بِنِيَّةِ رَفْعِ الْجَنَابَةِ عَنْ تِلْكَ الْأَعْضَاءِ وَلَوْ نَوَى الْفَضِيلَةَ وَجَبَتْ عَلَيْهِ إعَادَةُ غُسْلِهَا ». Il précise : « يُرِيدُ أَوْ رَفْعِ الْحَدَثِ الْأَصْغَرِ », d'après Ibn ʿArafa, qui cite al-Lakhmī : « وَيَنْوِيَ الْجَنَابَةَ وَإِنْ نَوَى الْوُضُوءَ أَجْزَأَهُ ». Al-Jazūlī tire de la Risāla que l'intention du petit ḥadath suffit. Al-Aqfahsī, au contraire, tient que « فَالْمَشْهُورُ الْمَعْرُوفُ مِنْ الْمَذْهَبِ عَدَمُ الْإِجْزَاءِ » ; d'après lui, l'autre avis, rapporté dans at-Tabṣira, fait valoir qu'une obligation en remplace une autre ; il admet que celui qui a fait ses ablutions pour le petit ḥadath en oubliant sa janâba est quitte pour ces membres, et complète. Al-Ḥaṭṭāb répond : « وَكَأَنَّهُ غَرَّهُ كَلَامُ التَّوْضِيحِ », et distingue (voir sa préférence).\n\n« مَرَّةً » : une seule fois. Zarrūq rapporte, d'après Khalīl, que ʿIyāḍ tient de certains de ses maîtres « وَلَا فَضِيلَةَ فِي تَكْرَارِهِ ؛ لِأَنَّهُ مِنْ الْغُسْلِ » (fiche 22). Al-Dardīr : « (مَرَّةً) » … « بِنِيَّةِ رَفْعِ الْجَنَابَةِ فَلَا يُنْدَبُ التَّثْلِيثُ بَلْ يُكْرَهُ ». Al-Dasūqī : l'intention de la janâba n'est pas exigée pour ces membres, « أَيْ أَوْ الْوُضُوءِ أَوْ رَفْعِ الْحَدَثِ الْأَصْغَرِ », d'après Ibn ʿArafa et al-Lakhmī, et l'appuie sur « وَغُسْلُ الْوُضُوءِ عَنْ غُسْلِ مَحَلِّهِ » (fiche 34).",
+    aqwal: [
+      { auteur: "At-Tawḍīḥ (cité par al-Ḥaṭṭāb)", avis: "Intention de lever la janâba ; si l'on vise seulement le mérite, il faut relaver ces membres.", statut: "non_precise" },
+      { auteur: "Al-Lakhmī (d'après Ibn ʿArafa, cité par al-Ḥaṭṭāb et al-Dasūqī)", avis: "L'intention des ablutions vaut aussi.", statut: "non_precise" },
+      { auteur: "Al-Aqfahsī (cité par al-Ḥaṭṭāb)", avis: "L'intention du petit ḥadath ne vaut pas pour la janâba, sauf oubli de la janâba.", statut: "mashhur" },
+      { auteur: "Avis rapporté sans attribution (al-Aqfahsī, « وَقِيلَ », d'après at-Tabṣira)", avis: "Elle vaut, une obligation tenant lieu d'une autre.", statut: "qawl" },
+      { auteur: "ʿIyāḍ, d'après certains de ses maîtres (cité par Zarrūq) ; al-Dardīr", avis: "Pas de mérite à répéter ces lavages ; al-Dardīr : le faire trois fois est même déconseillé.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr / al-Dasūqī : une fois chaque membre ; l'intention de la janâba, des ablutions ou du petit ḥadath vaut (« غَيْرُ مُتَعَيِّنَةٍ ») ; sur le nombre, voir les divergences.",
+    tarjih_hattab: "Al-Ḥaṭṭāb distingue : celui qui vise le petit ḥadath en sachant qu'il est junub, s'il croit que cette intention vaut pour le grand, « فَهَذَا يَنْبَغِي أَنْ يُجْزِئَهُ » ; s'il vise seulement le petit ḥadath et non le grand, « فَهَذِهِ نِيَّةٌ مُتَدَافِعَةٌ فَلَا يُجْزِئُهُ ».",
+    tanbihat: [
+      "Farʿ de Sanad (début du livre du ḥajj) : « مَنْ نَسِيَ أَنْ يَتَوَضَّأَ قَبْلَ غُسْلِ الْجَنَابَةِ تَوَضَّأَ بَعْدَهُ »."
+    ],
+    divergences: [
+      "Divergence — une fois ou trois fois. Al-Ḥaṭṭāb (Zarrūq d'après Khalīl et ʿIyāḍ) : « وَلَا فَضِيلَةَ فِي تَكْرَارِهِ ». Al-Dardīr : « فَلَا يُنْدَبُ التَّثْلِيثُ بَلْ يُكْرَهُ ». Al-Dasūqī rapporte l'objection de طفى (Muṣṭafā ar-Rammāṣī), d'après Ibn Ḥajar : un hadith rapporté d'ʿĀʾisha décrit trois rinçages et trois lavages ; « فَقَدْ عَلِمْت أَنَّ مُعْتَمَدَ الْمُصَنِّفِ مَرْدُودٌ » ; et, d'après al-Jazūlī, la répétition « هُوَ الَّذِي عَوَّلَ عَلَيْهِ أَبُو مُحَمَّدٍ صَالِحٌ وَاعْتَمَدَهُ » (renvoi à بن : Muḥammad al-Bunānī).",
+      "Concordance — l'intention du petit ḥadath. Al-Ḥaṭṭāb (Ibn ʿArafa, al-Lakhmī) : « يُرِيدُ أَوْ رَفْعِ الْحَدَثِ الْأَصْغَرِ ». Al-Dasūqī : « فَنِيَّةُ الْجَنَابَةِ عَلَى أَعْضَاءِ الْوُضُوءِ غَيْرُ مُتَعَيِّنَةٍ ». Al-Kharashī : « وَلَوْ نَوَى رَفْعَ الْأَصْغَرِ أَجْزَأَهُ وَلَوْ ذَاكِرًا لِلْأَكْبَرِ مَا لَمْ يُخْرِجْهُ »."
+    ],
+    exemple: "Au début de son ghousl, un homme fait ses ablutions en lavant chaque membre une fois, avec l'intention de lever sa janâba ; puis il lave le reste de son corps sans relaver ces membres.",
+    erreurs_frequentes: [
+      "Laver trois fois chaque membre comme dans les ablutions ordinaires : al-Dardīr le déconseille ici.",
+      "Viser seulement le mérite de ces ablutions : il faudrait relaver ces membres (at-Tawḍīḥ).",
+      "Croire que l'intention de la janâba est la seule possible pour ces membres."
+    ],
+    termes: [],
+    quiz: [
+      { q: "Selon at-Tawḍīḥ (cité par al-Ḥaṭṭāb), avec quelle intention fait-on ces ablutions ?",
+        choix: ["Lever la janâba sur ces membres", "Le seul mérite", "Aucune intention n'est demandée", "L'intention de la prière"],
+        bonne: 0,
+        explication: "« أَيْ بِنِيَّةِ رَفْعِ الْجَنَابَةِ عَنْ تِلْكَ الْأَعْضَاءِ »." },
+      { q: "Et celui qui ne vise que le mérite de ces ablutions ?",
+        choix: ["Il est quitte", "Il refait tout le ghousl", "Il fait le tayammoum", "Il doit relaver ces membres"],
+        bonne: 3,
+        explication: "« وَلَوْ نَوَى الْفَضِيلَةَ وَجَبَتْ عَلَيْهِ إعَادَةُ غُسْلِهَا »." },
+      { q: "Mise en situation : un homme junub vise seulement le petit ḥadath en lavant ces membres, et non le grand. Selon al-Ḥaṭṭāb :",
+        choix: ["C'est valable", "Cela ne vaut pas : son intention se contredit", "Cela vaut s'il est en voyage", "Cela vaut pour la tête seulement"],
+        bonne: 1,
+        explication: "« فَهَذِهِ نِيَّةٌ مُتَدَافِعَةٌ فَلَا يُجْزِئُهُ »." },
+      { q: "Selon al-Dardīr, laver trois fois ces membres dans le ghousl est :",
+        choix: ["Obligatoire", "Recommandé", "Déconseillé", "Une sunna"],
+        bonne: 2,
+        explication: "« فَلَا يُنْدَبُ التَّثْلِيثُ بَلْ يُكْرَهُ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "314–315" },
+    alertes: [
+      "Lecture : matn « ثُمَّ بِأَعْضَاءِ » (Mawāhib) ; le Mukhtaṣar seul (11355, p. 19) et al-Kharashī (91, p. 170) « ثُمَّ أَعْضَاءِ », Ibn Ghāzī (14605, p. 42) « ثُمَّ أَعْضَاءُ », al-Dardīr « (ثُمَّ) يُنْدَبُ بَدْءٌ بِ (أَعْضَاءِ وُضُوئِهِ كَامِلَةً) » ; même sens ; « ص » gardé (n° 420).",
+      "Lecture : dans la citation d'al-Jazūlī, « وَفِيهِ خِلَافُ الْمَازِرِيِّ وَقِيلَ: لَا يُجْزِئُهُ » : même tournure douteuse qu'en 23 (n° 426) ; non reprise.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 136–137 (Shamela 21604, pages 135–136)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-07-24b",
+    kitab: "tah", bab: "01", fasl: "07", ordre: 24,
+    titre: "« Complètes » : laver les pieds avant ou après le ghousl",
+    titre_ar: "كَامِلَةً",
+    objectif: "Savoir si l'on lave les pieds avec les ablutions du début du ghousl ou à la fin, et connaître les avis sur ce point.",
+    matn: "ثُمَّ بِأَعْضَاءِ وُضُوئِهِ كَامِلَةً مَرَّةً",
+    regle_pratique: "Selon l'avis répandu rapporté par al-Ḥaṭṭāb, on fait les ablutions du début du ghousl en entier, pieds compris, sans les remettre à la fin ; il est permis de les remettre à la fin, et al-Bunānī tient même ce retard pour préférable (voir les divergences).",
+    qualification: {
+      hukm: "mandub",
+      nature: "adab",
+      effet_si_omis: "Le passage ne précise pas de conséquence ; selon Ibn al-Mawwāz (d'après Yūsuf b. ʿUmar), celui qui sépare le lavage de ses pieds de ses ablutions n'est pas quitte, contre Ibn Ḥabīb."
+    },
+    explication: "Al-Ḥaṭṭāb : « قَوْلُهُ: كَامِلَةً، يَعْنِي فَيُقَدِّمُ غَسْلَ رِجْلَيْهِ وَلَا يُؤَخِّرُهُ وَهَذَا هُوَ الْمَشْهُورُ ». La Risāla laisse le choix : « فَإِنْ شَاءَ غَسَلَ رِجْلَيْهِ وَإِنْ شَاءَ أَخَّرَهُمَا إلَى آخِرِ غُسْلِهِ ». Zarrūq rapporte de certains maîtres : « لَا يُؤَخِّرُ غَسْلَ رِجْلَيْهِ فِي غُسْلِ الْجُمُعَةِ » ; les ablutions y sont obligatoires et le ghousl seulement recommandé, il ferait donc séparation.\n\nYūsuf b. ʿUmar (cité par al-Ḥaṭṭāb) explique le choix par deux hadiths : celui de Maymūna, où le lavage des pieds est séparé, et celui d'ʿĀʾisha, où les ablutions sont complètes d'abord, sans qu'on sache lequel est le dernier. « فَاخْتَارَ ابْنُ الْقَاسِمِ التَّفْرِيقَ عَلَى حَدِيثِ مَيْمُونَةَ وَاخْتَارَ ابْنُ حَبِيبٍ وَابْن الْمَوَّازِ تَمَامَهُ أَوَّلًا ». Al-Bājī recommandait de laver les pieds à la fin. Selon un avis, on retarde les pieds si l'on se lave sur un sol boueux, on les lave d'abord sur un sol propre. Dans le ghousl recommandé, on ne retarde pas les pieds, « لِأَنَّ ذَلِكَ يُخِلُّ بِالْفَوْرِ ».\n\nAl-Dardīr : « فَلَا يُؤَخِّرُ رِجْلَيْهِ لِآخِرِ غُسْلِهِ وَيَجُوزُ التَّأْخِيرُ ». Al-Dasūqī : ce retard serait « خِلَافُ الْأَوْلَى », mais il cite بن (Muḥammad al-Bunānī) : « وَهُوَ خِلَافُ الرَّاجِحِ وَالرَّاجِحُ نَدْبُ تَأْخِيرِ غَسْلِ الرِّجْلَيْنِ بَعْدَ فَرَاغِ الْغُسْلِ ».",
+    aqwal: [
+      { auteur: "Avis répandu, d'après al-Ḥaṭṭāb ; Ibn Ḥabīb et Ibn al-Mawwāz (d'après Yūsuf b. ʿUmar)", avis: "On lave les pieds avec les ablutions, au début.", statut: "mashhur" },
+      { auteur: "Ibn al-Qāsim (d'après Yūsuf b. ʿUmar) ; al-Bājī", avis: "On sépare : les pieds à la fin du ghousl (hadith de Maymūna).", statut: "non_precise" },
+      { auteur: "Ibn Abī Zayd (la Risāla)", avis: "Au choix.", statut: "non_precise" },
+      { auteur: "Avis rapporté sans attribution (Yūsuf b. ʿUmar, « وَقِيلَ »)", avis: "Sur un sol boueux, à la fin ; sur un sol propre, au début.", statut: "qawl" },
+      { auteur: "Muḥammad al-Bunānī (d'après al-Dasūqī)", avis: "Retarder les pieds à la fin du ghousl est préférable.", statut: "rajih" }
+    ],
+    muatamad: "Al-Dardīr : ne pas retarder les pieds, le retard étant permis ; al-Dasūqī rapporte qu'al-Bunānī tient le retard pour l'avis le plus fort. Non tranché entre les deux dans les pages lues.",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Ibn Ḥabīb et Ibn al-Mawwāz, qui lavent les pieds d'abord, divergent sur celui qui les sépare : « فَقَالَ ابْنُ حَبِيبٍ: يُجْزِئُهُ وَقَالَ ابْنُ الْمَوَّازِ: لَا يُجْزِئُهُ » (Yūsuf b. ʿUmar).",
+      "Le choix de la Risāla vaut pour le ghousl obligatoire ; « وَأَمَّا فِي الْغُسْلِ الْمُسْتَحَبِّ فَلَا يَجُوزُ ؛ لِأَنَّ ذَلِكَ يُخِلُّ بِالْفَوْرِ » (Yūsuf b. ʿUmar)."
+    ],
+    divergences: [
+      "Divergence — l'ordre préférable. Al-Ḥaṭṭāb : « فَيُقَدِّمُ غَسْلَ رِجْلَيْهِ وَلَا يُؤَخِّرُهُ وَهَذَا هُوَ الْمَشْهُورُ ». Al-Dardīr : « فَلَا يُؤَخِّرُ رِجْلَيْهِ لِآخِرِ غُسْلِهِ وَيَجُوزُ التَّأْخِيرُ ». Al-Dasūqī, d'après بن (Muḥammad al-Bunānī) : « وَهُوَ خِلَافُ الرَّاجِحِ وَالرَّاجِحُ نَدْبُ تَأْخِيرِ غَسْلِ الرِّجْلَيْنِ بَعْدَ فَرَاغِ الْغُسْلِ », car « قَدْ جَاءَ التَّصْرِيحُ بِتَأْخِيرِ غَسْلِهِمَا فِي الْأَحَادِيثِ كَحَدِيثِ مَيْمُونَةَ »."
+    ],
+    exemple: "Un homme prend son ghousl sous la douche : il fait ses ablutions complètes, pieds compris, puis lave le reste de son corps. Un autre, qui se lave sur un sol boueux, remet le lavage de ses pieds à la fin : c'est permis.",
+    erreurs_frequentes: [
+      "Croire qu'il est interdit de remettre le lavage des pieds à la fin du ghousl.",
+      "Croire que le choix vaut aussi pour le ghousl recommandé : Yūsuf b. ʿUmar ne l'y admet pas.",
+      "Ignorer que l'avis le plus fort selon al-Bunānī est inverse de l'avis répandu."
+    ],
+    termes: [],
+    quiz: [
+      { q: "Quel est l'avis répandu sur les pieds, selon al-Ḥaṭṭāb ?",
+        choix: ["On les lave à la fin du ghousl", "On ne les lave pas", "On les essuie seulement", "On les lave avec les ablutions, au début"],
+        bonne: 3,
+        explication: "« فَيُقَدِّمُ غَسْلَ رِجْلَيْهِ وَلَا يُؤَخِّرُهُ وَهَذَا هُوَ الْمَشْهُورُ »." },
+      { q: "Selon Yūsuf b. ʿUmar, quel hadith Ibn al-Qāsim suit-il en séparant le lavage des pieds ?",
+        choix: ["Celui d'ʿĀʾisha", "Celui de Maymūna", "Celui de ʿUmar", "Celui d'Anas"],
+        bonne: 1,
+        explication: "« فَاخْتَارَ ابْنُ الْقَاسِمِ التَّفْرِيقَ عَلَى حَدِيثِ مَيْمُونَةَ »." },
+      { q: "Mise en situation : un homme fait le ghousl du vendredi (recommandé) et veut remettre ses pieds à la fin. Selon Yūsuf b. ʿUmar :",
+        choix: ["Ce n'est pas permis, car cela rompt la continuité", "C'est préférable", "C'est obligatoire", "C'est indifférent"],
+        bonne: 0,
+        explication: "« وَأَمَّا فِي الْغُسْلِ الْمُسْتَحَبِّ فَلَا يَجُوزُ ؛ لِأَنَّ ذَلِكَ يُخِلُّ بِالْفَوْرِ »." },
+      { q: "Selon al-Bunānī (d'après al-Dasūqī), quel est l'avis le plus fort ?",
+        choix: ["Laver les pieds au début", "Ne laver qu'un pied à la fin", "Retarder le lavage des pieds à la fin du ghousl", "Laisser le choix sans préférence"],
+        bonne: 2,
+        explication: "« وَالرَّاجِحُ نَدْبُ تَأْخِيرِ غَسْلِ الرِّجْلَيْنِ بَعْدَ فَرَاغِ الْغُسْلِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "315" },
+    alertes: [
+      "Sous-fiche du segment 24 (« كَامِلَةً ») ; même matn que 24a.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 136 (Shamela 21604, page 135)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-07-25",
+    kitab: "tah", bab: "01", fasl: "07", ordre: 25,
+    titre: "Le haut et la droite d'abord",
+    titre_ar: "وَأَعْلَاهُ وَمَيَامِنُهُ",
+    objectif: "Savoir dans quel ordre laver le corps dans le ghousl : le haut avant le bas, la droite avant la gauche.",
+    matn: "وَأَعْلَاهُ وَمَيَامِنُهُ",
+    regle_pratique: "Il est recommandé, dans le ghousl, de laver le haut du corps avant le bas et la droite avant la gauche : selon al-Ḥaṭṭāb, on lave d'abord le haut (droite puis gauche), puis le bas (droite puis gauche).",
+    qualification: {
+      hukm: "mandub",
+      nature: "adab",
+      effet_si_omis: "Le passage ne précise pas de conséquence ; Zarrūq : « وَهَذَا كُلُّهُ اسْتِحْبَابٌ »."
+    },
+    explication: "Al-Ḥaṭṭāb : « اعْلَمْ أَنَّ ظَوَاهِرَ نُصُوصِهِمْ تَقْتَضِي أَنَّ الْأَعْلَى بِمَيَامِنِهِ وَمَيَاسِرِهِ مُقَدَّمٌ عَلَى الْأَسْفَلِ بِمَيَامِنِهِ وَمَيَاسِرِهِ », la droite de chacun passant avant sa gauche ; c'est ce que dit expressément Ibn Jamāʿa (Farḍ al-ʿayn). Il en cite la description complète : s'asseoir dans un lieu pur, se laver les mains, ôter la souillure, former l'intention de lever la janâba, laver les deux voies, faire ses ablutions avec l'intention de lever le grand ḥadath, faire pénétrer l'eau dans les cheveux puis verser trois poignées sur la tête, la presser, porter l'eau aux oreilles, laver sous le menton, le cou, les bras, les aisselles et le nombril, verser l'eau sur le dos, laver le côté droit puis le gauche, puis sous les genoux, la jambe droite, la jambe gauche et les pieds ; et se servir d'un récipient à bec « فَهُوَ أَبْعَدُ مِنْ السَّرَفِ ».\n\nZarrūq (sur la Risāla) : « وَيُقَدِّمُ أَعَالِيَهُ وَيَخْتِمُ بِصَدْرِهِ وَبَطْنِهِ » d'après al-Ghazālī, « وَهَذَا كُلُّهُ اسْتِحْبَابٌ » ; et (sur al-Irshād) « وَذَكَرَ بَعْضُهُمْ تَأْخِيرَ صَدْرِهِ عَنْ ظَهْرِهِ ».\n\nAl-Dardīr : « (وَأَعْلَاهُ) أَيْ يُنْدَبُ الْبُدَاءَةُ بِهِ قَبْلَ أَسْفَلِهِ (وَمَيَامِينِهِ) يُنْدَبُ الْبُدَاءَةُ بِهَا قَبْلَ مَيَاسِرِهِ ». Dans sa description du ghousl complet, il lave tout le côté droit jusqu'à la cheville, puis tout le côté gauche, chaque côté devant et derrière (voir les divergences).",
+    aqwal: [
+      { auteur: "Al-Ḥaṭṭāb, d'après « ظَوَاهِرَ نُصُوصِهِمْ » et Ibn Jamāʿa", avis: "Le haut (droite puis gauche) avant le bas (droite puis gauche).", statut: "non_precise" },
+      { auteur: "Al-Dardīr ; Aḥmad az-Zarqānī et Zarrūq (d'après al-Dasūqī)", avis: "Tout le côté droit, du haut jusqu'à la cheville, avant tout le côté gauche.", statut: "non_precise" },
+      { auteur: "Al-Ghazālī (cité par Zarrūq)", avis: "On commence par le haut et l'on finit par la poitrine et le ventre.", statut: "non_precise" },
+      { auteur: "Avis rapporté sans attribution (Zarrūq, « وَذَكَرَ بَعْضُهُمْ »)", avis: "La poitrine après le dos.", statut: "non_precise" }
+    ],
+    muatamad: "Al-Dasūqī : le texte de Khalīl se prête aux deux manières ; celle d'al-Ḥaṭṭāb (« لِطَرِيقَةِ ح ») « وَقَدْ اعْتَمَدَهَا شَيْخُنَا تَبَعًا لِشَيْخِهِ الصَّغِيرِ » (son maître al-ʿAdawī) ; al-Dardīr suit l'autre dans son sharḥ.",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Ibn Jamāʿa (cité par al-Ḥaṭṭāb) : se laver avec un récipient muni d'un bec pour verser l'eau éloigne davantage du gaspillage."
+    ],
+    divergences: [
+      "Divergence — l'ordre du haut et de la droite. Al-Ḥaṭṭāb : « أَنَّ الْأَعْلَى بِمَيَامِنِهِ وَمَيَاسِرِهِ مُقَدَّمٌ عَلَى الْأَسْفَلِ بِمَيَامِنِهِ وَمَيَاسِرِهِ ». Al-Dardīr : il lave le côté droit « إلَى أَنْ يَنْتَهِيَ إلَى الْكَعْبِ لَا الرُّكْبَةِ كَمَا قِيلَ بِهِ », « لِأَنَّ الشِّقَّ كُلَّهُ يُنَزَّلُ مَنْزِلَةَ عُضْوٍ وَاحِدٍ ». Al-Dasūqī : c'est la manière d'Aḥmad az-Zarqānī et de Zarrūq ; « وَفِي ح ظَوَاهِرُ النُّصُوصِ تَقْتَضِي أَنَّ الْأَعْلَى بِمَيَامِنِهِ وَمَيَاسِرِهِ يُقَدَّمُ عَلَى الْأَسْفَلِ » (ح : al-Ḥaṭṭāb), que suit Ibn ʿĀshir ; « وَكَلَامُ الْمُصَنِّفِ مُحْتَمِلٌ لِكُلٍّ مِنْ الطَّرِيقَتَيْنِ » ; la manière d'al-Ḥaṭṭāb, son maître al-ʿAdawī l'a retenue. Al-Kharashī suit al-Ḥaṭṭāb dans les mots (« تَقْدِيمُ أَعْلَاهُ بِمَيَامِنِهِ وَمَيَاسِرِهِ »), mais rattache les pronoms comme la manière d'az-Zarqānī (« وَالضَّمِيرُ فِي مَيَامِنِهِ لِلْمُغْتَسِلِ وَفِي أَعْلَاهُ لِجَانِبِ الْمُغْتَسِلِ »)."
+    ],
+    exemple: "Après ses ablutions et le lavage de la tête, une femme lave le haut de son corps côté droit, puis côté gauche, jusqu'aux genoux ; puis le bas, jambe droite puis jambe gauche, et enfin les pieds.",
+    erreurs_frequentes: [
+      "Commencer par les pieds ou par la gauche sans raison.",
+      "Croire que cet ordre est obligatoire : il est seulement recommandé.",
+      "Croire qu'une seule manière est admise : al-Dasūqī dit que le texte de Khalīl se prête aux deux."
+    ],
+    termes: [
+      { ar: "مَيَامِن", translit: "mayâmin", def: "Les côtés droits du corps (pluriel ; aussi مَيَامِين)." },
+      { ar: "مَيَاسِر", translit: "mayâsir", def: "Les côtés gauches du corps (pluriel)." },
+      { ar: "سَرَف", translit: "saraf", def: "Gaspillage, dépense excessive." }
+    ],
+    quiz: [
+      { q: "Selon al-Ḥaṭṭāb, quel ordre suggèrent les textes de l'école ?",
+        choix: ["Le haut (droite puis gauche), puis le bas (droite puis gauche)", "Tout le côté droit, puis tout le côté gauche", "Les pieds d'abord", "Aucun ordre"],
+        bonne: 0,
+        explication: "« أَنَّ الْأَعْلَى بِمَيَامِنِهِ وَمَيَاسِرِهِ مُقَدَّمٌ عَلَى الْأَسْفَلِ بِمَيَامِنِهِ وَمَيَاسِرِهِ »." },
+      { q: "Dans sa description du ghousl, jusqu'où al-Dardīr lave-t-il le côté droit avant de passer au gauche ?",
+        choix: ["Jusqu'au genou", "Jusqu'à la taille", "Jusqu'à la cheville", "Jusqu'à l'épaule"],
+        bonne: 2,
+        explication: "« إلَى أَنْ يَنْتَهِيَ إلَى الْكَعْبِ لَا الرُّكْبَةِ كَمَا قِيلَ بِهِ »." },
+      { q: "Selon al-Dasūqī, quelle manière son maître al-ʿAdawī a-t-il retenue ?",
+        choix: ["Celle d'az-Zarqānī", "Celle d'al-Ghazālī", "Aucune", "Celle d'al-Ḥaṭṭāb"],
+        bonne: 3,
+        explication: "« كَانَ مُوَافِقًا لِطَرِيقَةِ ح وَقَدْ اعْتَمَدَهَا شَيْخُنَا تَبَعًا لِشَيْخِهِ الصَّغِيرِ »." },
+      { q: "Mise en situation : un homme lave le bas de sa jambe gauche avant le haut de son corps. Son ghousl :",
+        choix: ["Est nul", "Vaut : cet ordre n'est que recommandé", "Doit être refait en entier", "Vaut seulement s'il l'a fait par oubli"],
+        bonne: 1,
+        explication: "Zarrūq : « وَهَذَا كُلُّهُ اسْتِحْبَابٌ » ; al-Dardīr : « أَيْ يُنْدَبُ الْبُدَاءَةُ بِهِ قَبْلَ أَسْفَلِهِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "315" },
+    alertes: [
+      "Lecture : matn « وَأَعْلَاهُ وَمَيَامِنُهُ » (Mawāhib) ; Ibn Ghāzī (14605, p. 42) « ومَيَامِنِهِ », al-Kharashī (91, p. 170) « وَمَيَامِنِهِ », al-Dardīr « (وَمَيَامِينِهِ) », le Mukhtaṣar seul « وميامينه » ; génitif chez les témoins, nominatif dans le « ص » ; même sens ; « ص » gardé (n° 420).",
+      "Lecture : dans la citation d'Ibn Jamāʿa, « يُفَرِّعُ عَلَى جَسَدِهِ » : « يُفْرِغُ » (verser) attendu, même consonnes à un point près ; non cité (n° 427).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 137 (Shamela 21604, page 136)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-07-26",
+    kitab: "tah", bab: "01", fasl: "07", ordre: 26,
+    titre: "Trois fois la tête",
+    titre_ar: "وَتَثْلِيثُ رَأْسِهِ",
+    objectif: "Savoir qu'on verse l'eau trois fois sur la tête dans le ghousl, après y avoir passé les doigts mouillés.",
+    matn: "وَتَثْلِيثُ رَأْسِهِ",
+    regle_pratique: "Il est recommandé, dans le ghousl, de passer d'abord les doigts mouillés dans les racines des cheveux, puis de verser trois poignées d'eau sur la tête ; une seule suffit si elle couvre tout, et l'on en ajoute si trois ne suffisent pas.",
+    qualification: {
+      hukm: "mandub",
+      nature: "adab",
+      effet_si_omis: "Ibn Ḥabīb (cité par Zarrūq) : « وَلَوْ اجْتَزَأَ بِالْوَاحِدَةِ أَجْزَأَتْهُ »."
+    },
+    explication: "Al-Ḥaṭṭāb cite Zarrūq sur la Risāla (« ثُمَّ يَغْمِسُ يَدَيْهِ فِي الْإِنَاءِ ») : après ses ablutions, on plonge les mains, ou l'on y verse l'eau, et on les retire sans emporter d'eau, « فَيُخَلِّلُ بِهِمَا أُصُولَ شَعْرِهِ ؛ لِيَأْنَسَ بِبَرْدِ الْمَاءِ فَلَا يَتَضَرَّرُ », les cheveux se dressent et l'eau atteint leurs racines, qu'on ait une chevelure abondante ou non. Abū ʿImrān al-Jūrāʾī : on commence par l'arrière du crâne, ce qui préserve du rhume. « ثُمَّ يَغْرِفُ بِهِمَا عَلَى رَأْسِهِ ثَلَاثَ غَرَفَاتٍ إثْرَ تَخْلِيلِهِ وَالتَّثْلِيثُ مُسْتَحَبٌّ ». Ibn Ḥabīb : « لَا أُحِبُّ أَنْ يُنْقِصَ مِنْ الثَّلَاثِ », car c'est ainsi qu'a fait le Prophète ; une seule suffit, et l'on ajoute si trois ne suffisent pas. ʿIyāḍ : on répartit les trois, une pour chaque côté et la troisième pour le milieu ; « وَقِيلَ: الْكُلُّ لِلْكُلِّ وَكُلٌّ جَائِزٌ ». Ibn Nājī : passer les doigts a deux utilités, l'une juridique (l'eau atteint vite la peau), l'autre médicale (la tête s'habitue à l'eau).\n\nAl-Dardīr : « (وَتَثْلِيثُ رَأْسِهِ) أَيْ يَغْسِلُهَا بِثَلَاثِ غَرْفَاتٍ يَعُمُّهَا بِكُلِّ غَرْفَةٍ الْأُولَى هِيَ الْفَرْضُ ». Dans sa description, il passe les doigts dans les racines des cheveux « بِلَا مَاءٍ نَدْبًا لِتَنْسَدَّ مَسَامُّ الرَّأْسِ » ; al-Dasūqī : « أَيْ بَلْ بَلَلٍ يَسِيرٍ ».",
+    aqwal: [
+      { auteur: "Ibn Ḥabīb (cité par Zarrūq)", avis: "Pas moins de trois ; une seule qui couvre suffit ; on ajoute s'il le faut.", statut: "non_precise" },
+      { auteur: "ʿIyāḍ (cité par Zarrūq)", avis: "Une poignée pour chaque côté, la troisième pour le milieu.", statut: "non_precise" },
+      { auteur: "Avis rapporté sans attribution (ʿIyāḍ, « وَقِيلَ »)", avis: "Chaque poignée pour toute la tête ; les deux sont permis.", statut: "qawl" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : trois poignées, chacune couvrant toute la tête, la première étant l'obligation (voir les divergences sur la répartition).",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Abū ʿImrān al-Jūrāʾī (cité par Zarrūq) : commencer par l'arrière du crâne protège du rhume ; « وَهُوَ صَحِيحٌ مُجَرَّبٌ ».",
+      "Ibn Nājī (cité par al-Ḥaṭṭāb) : passer les doigts a une utilité juridique et une utilité médicale."
+    ],
+    divergences: [
+      "Point à comparer — la répartition des trois poignées. Al-Ḥaṭṭāb (Zarrūq, ʿIyāḍ) : « يُفَرَّقُ الثَّلَاثُ عَلَى الرَّأْسِ فَلِكُلِّ جَانِبٍ وَاحِدَةٌ وَالثَّالِثَةُ لِلْوَسَطِ » ; « وَكُلٌّ جَائِزٌ ». Al-Dardīr : « يَعُمُّهَا بِكُلِّ غَرْفَةٍ » ; al-Kharashī de même : « بِأَنْ يَعُمَّهَا بِكُلِّ وَاحِدَةٍ ».",
+      "Complément — passer les doigts avec peu d'eau. Al-Ḥaṭṭāb (Zarrūq) : les mains retirées « غَيْرَ قَابِضٍ بِهِمَا شَيْئًا مِنْ الْمَاءِ ». Al-Dardīr : « بِلَا مَاءٍ نَدْبًا لِتَنْسَدَّ مَسَامُّ الرَّأْسِ » ; al-Dasūqī : « أَيْ بَلْ بَلَلٍ يَسِيرٍ »."
+    ],
+    exemple: "Un homme plonge ses mains dans l'eau, les retire, passe ses doigts humides dans ses cheveux en commençant par l'arrière de la tête, puis verse trois poignées d'eau sur sa tête.",
+    erreurs_frequentes: [
+      "Verser l'eau sur la tête sans avoir d'abord passé les doigts dans les cheveux.",
+      "Croire que trois poignées sont obligatoires : une seule qui couvre toute la tête suffit.",
+      "S'arrêter à trois poignées alors que l'eau n'a pas atteint toute la tête."
+    ],
+    termes: [
+      { ar: "وَفْرَة", translit: "wafra", def: "Chevelure abondante qui descend jusqu'aux oreilles." }
+    ],
+    quiz: [
+      { q: "Pourquoi passe-t-on d'abord les doigts mouillés dans les cheveux, selon Zarrūq ?",
+        choix: ["Pour économiser l'eau", "Parce que c'est obligatoire", "Pour que la tête s'habitue à la fraîcheur de l'eau et que l'eau atteigne les racines", "Pour se coiffer"],
+        bonne: 2,
+        explication: "« لِيَأْنَسَ بِبَرْدِ الْمَاءِ فَلَا يَتَضَرَّرُ وَيَقِفُ الشَّعْرُ فَيَدْخُلُ الْمَاءُ عِنْدَ الْغُسْلِ لِأُصُولِهِ »." },
+      { q: "Selon Ibn Ḥabīb, celui qui se contente d'une seule poignée qui couvre toute la tête :",
+        choix: ["Doit refaire son ghousl", "Est quitte", "A commis un péché", "Doit faire le tayammoum"],
+        bonne: 1,
+        explication: "« وَلَوْ اجْتَزَأَ بِالْوَاحِدَةِ أَجْزَأَتْهُ »." },
+      { q: "Selon al-Dardīr, laquelle des trois poignées est l'obligation ?",
+        choix: ["La première", "La deuxième", "La troisième", "Aucune"],
+        bonne: 0,
+        explication: "« يَعُمُّهَا بِكُلِّ غَرْفَةٍ الْأُولَى هِيَ الْفَرْضُ »." },
+      { q: "Mise en situation : une femme aux cheveux épais verse trois poignées, mais l'eau n'a pas atteint toute sa tête. Selon Ibn Ḥabīb :",
+        choix: ["Elle s'arrête : trois suffisent toujours", "Elle refait son ghousl", "Elle essuie le reste", "Elle ajoute de l'eau jusqu'à ce que cela suffise"],
+        bonne: 3,
+        explication: "« وَإِنْ لَمْ تَكْفِ الثَّلَاثُ زَادَ إلَى الْكِفَايَةِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "315–316" },
+    alertes: [
+      "Lecture : « أَبُو عِمْرَانَ الْجُورَائِيُّ » (Mawāhib) ; Zarrūq sur la Risāla (14556, p. 159), source de la citation, porte « الجورابي » ; nom donné sous la forme de Mawāhib (n° 425).",
+      "Lecture : matn « وَتَثْلِيثُ » (Mawāhib, Ibn Ghāzī, al-Dardīr) ; al-Kharashī (91, p. 170) « وَتَثْلِيثِ » ; même sens (n° 420).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 137 (Shamela 21604, page 136)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-07-27",
+    kitab: "tah", bab: "01", fasl: "07", ordre: 27,
+    titre: "Peu d'eau, sans limite",
+    titre_ar: "وَقِلَّةُ الْمَاءِ بِلَا حَدٍّ",
+    objectif: "Savoir qu'on économise l'eau dans le ghousl, sans quantité fixe, et que le gaspillage n'est pas permis.",
+    matn: "وَقِلَّةُ الْمَاءِ بِلَا حَدٍّ",
+    regle_pratique: "Il est recommandé de prendre peu d'eau pour le ghousl, sans quantité fixée (pas même un ṣâʿ) : chacun selon son corps ; gaspiller l'eau n'est pas permis, même au bord d'un fleuve, sauf pour celui qu'obsèdent les scrupules.",
+    qualification: {
+      hukm: "mandub",
+      nature: "adab",
+      effet_si_omis: "Le passage ne précise pas de conséquence pour le ghousl ; le gaspillage est interdit, d'après al-Burzulī citant an-Nawawī."
+    },
+    explication: "Al-Ḥaṭṭāb : « هَذَا مُكَرَّرٌ مَعَ قَوْلِهِ فِي فَضَائِلِ الْوُضُوءِ: وَقِلَّةُ الْمَاءِ بِلَا حَدٍّ كَالْغُسْلِ » (fiche tah-01-04-46). Il cite al-Burzulī : an-Nawawī rapporte « الْإِجْمَاعُ عَلَى أَنَّهُ لَا يَجُوزُ السَّرَفُ فِي الطَّهَارَةِ وَلَوْ كَانَ عَلَى ضِفَّةِ النَّهْرِ », c'est le sens de la Risāla, et le gaspillage y est excès et innovation ; « وَكُلُّ هَذَا فِي حَقِّ غَيْرِ ذِي الْوَسْوَاسِ » : celui qu'obsèdent les scrupules est comme privé de raison, et on l'excuse, étant éprouvé.\n\nAl-Dardīr : « (وَقِلَّةُ الْمَاءِ بِلَا حَدٍّ) بِصَاعٍ بَلْ الْمَدَارُ عَلَى الْأَحْكَامِ وَهُوَ يَخْتَلِفُ بِاخْتِلَافِ الْأَجْسَامِ ». Al-Dasūqī : il s'agit de réduire l'eau que l'on met sur chaque membre. Dans sa description, al-Dardīr ajoute que, le frottement fait une fois, « وَلَا يَنْبَغِي تَكْرَارُهُ وَالْعَوْدُ عَلَيْهِ مَرَّةً أُخْرَى وَلَا شِدَّةُ فِي ذَلِكَ لِأَنَّهُ مِنْ الْغُلُوِّ فِي الدِّينِ ».",
+    aqwal: [
+      { auteur: "An-Nawawī (d'après al-Burzulī, cité par al-Ḥaṭṭāb)", avis: "Consensus : le gaspillage n'est pas permis dans la purification, même au bord d'un fleuve.", statut: "non_precise" },
+      { auteur: "Ibn Shaʿbān (d'après al-Kharashī)", avis: "La quantité est fixée (un ṣâʿ).", statut: "qawl" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : peu d'eau, sans limite d'un ṣâʿ, selon le corps de chacun ; al-Kharashī : « خِلَافًا لِابْنِ شَعْبَانَ ».",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Celui qu'obsèdent les scrupules est excusé du gaspillage (al-Burzulī) ; al-Kharashī ajoute que l'opinion dominante lui suffit, à la différence des autres."
+    ],
+    divergences: [
+      "Point à comparer — répétition ou non. Al-Ḥaṭṭāb : « هَذَا مُكَرَّرٌ مَعَ قَوْلِهِ فِي فَضَائِلِ الْوُضُوءِ ». Al-Kharashī : « وَلَيْسَ هَذَا تَكْرَارًا مَعَ قَوْلِهِ فِي بَابِ الْوُضُوءِ » ; Khalīl l'avait dit là pour comparer, « وَهَذَا بَابُهُ ».",
+      "Complément — pas de quantité fixe. Al-Ḥaṭṭāb n'en parle pas ici. Al-Dardīr : « بَلْ الْمَدَارُ عَلَى الْأَحْكَامِ وَهُوَ يَخْتَلِفُ بِاخْتِلَافِ الْأَجْسَامِ » ; al-Kharashī : « خِلَافًا لِابْنِ شَعْبَانَ »."
+    ],
+    exemple: "Un homme qui prend sa douche coupe l'eau pendant qu'il se frotte et ne la laisse couler que le temps de mouiller chaque partie de son corps.",
+    erreurs_frequentes: [
+      "Laisser couler l'eau longtemps sans besoin : c'est du gaspillage, même si l'eau est abondante.",
+      "Croire qu'il faut une quantité précise d'eau pour que le ghousl vaille.",
+      "Frotter et refrotter le même endroit : al-Dardīr y voit un excès."
+    ],
+    termes: [
+      { ar: "صَاع", translit: "sâʿ", def: "Mesure de capacité (quatre mudd), dont le Prophète se servait pour son ghousl." },
+      { ar: "مُوَسْوِس", translit: "mouwaswis", def: "Celui qui est atteint de doute obsédant ; excusé de ce dont il est éprouvé (al-Burzulī)." }
+    ],
+    quiz: [
+      { q: "Selon al-Burzulī (citant an-Nawawī), le gaspillage d'eau dans la purification :",
+        choix: ["Est permis au bord d'un fleuve", "N'est pas permis, même au bord d'un fleuve", "Est recommandé", "Est obligatoire pour les cheveux épais"],
+        bonne: 1,
+        explication: "« الْإِجْمَاعُ عَلَى أَنَّهُ لَا يَجُوزُ السَّرَفُ فِي الطَّهَارَةِ وَلَوْ كَانَ عَلَى ضِفَّةِ النَّهْرِ »." },
+      { q: "Qui est excusé du gaspillage ?",
+        choix: ["Le voyageur", "Le malade", "Personne", "Celui qu'obsèdent les scrupules"],
+        bonne: 3,
+        explication: "« وَكُلُّ هَذَا فِي حَقِّ غَيْرِ ذِي الْوَسْوَاسِ »." },
+      { q: "Selon al-Dardīr, la quantité d'eau dépend :",
+        choix: ["Du corps de chacun", "D'un ṣâʿ exactement", "De la saison", "Du nombre de poignées"],
+        bonne: 0,
+        explication: "« بَلْ الْمَدَارُ عَلَى الْأَحْكَامِ وَهُوَ يَخْتَلِفُ بِاخْتِلَافِ الْأَجْسَامِ »." },
+      { q: "Mise en situation : un homme grand et corpulent utilise plus d'eau qu'un ṣâʿ pour bien couvrir son corps, sans gaspiller. Selon al-Dardīr :",
+        choix: ["Son ghousl est nul", "Il doit s'en tenir à un ṣâʿ", "C'est admis : il n'y a pas de limite fixe", "Il doit faire le tayammoum"],
+        bonne: 2,
+        explication: "« (وَقِلَّةُ الْمَاءِ بِلَا حَدٍّ) بِصَاعٍ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "316" },
+    alertes: [
+      "Lecture : matn « وَقِلَّةُ » (Mawāhib, Ibn Ghāzī, al-Dardīr) ; al-Kharashī (91, p. 170) « وَقِلَّةِ » ; même sens (n° 420).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 137 (Shamela 21604, page 136)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-07-27b",
+    kitab: "tah", bab: "01", fasl: "07", ordre: 27,
+    titre: "Laver son sexe avant de revenir à un rapport",
+    titre_ar: "كَغَسْلِ فَرْجِ جُنُبٍ لِعَوْدِهِ لِجِمَاعٍ",
+    objectif: "Savoir qu'il est recommandé au junub de laver son sexe avant un nouveau rapport.",
+    matn: "كَغَسْلِ فَرْجِ جُنُبٍ لِعَوْدِهِ لِجِمَاعٍ",
+    regle_pratique: "Celui (ou celle) qui a eu un rapport sans faire encore le ghousl lave de préférence son sexe avant d'avoir un nouveau rapport, avec la même épouse ou une autre.",
+    qualification: {
+      hukm: "mandub",
+      nature: "adab",
+      effet_si_omis: "Le passage ne précise pas de conséquence."
+    },
+    explication: "Ce segment manque au « ص » de Mawāhib (voir les alertes) ; la fiche suit al-Dardīr / al-Dasūqī.\n\nAl-Dardīr : Khalīl compare ce lavage à ce qui précède pour la recommandation, « (كَغُسْلِ فَرْجِ جُنُبٍ) جَامَعَ وَلَمْ يَغْتَسِلْ فَيُنْدَبُ (لِعَوْدِهِ لِجِمَاعٍ) مَرَّةً أُخْرَى فِي الَّتِي جَامَعَهَا أَوْ غَيْرِهَا لِمَا فِيهِ مِنْ إزَالَةِ النَّجَاسَةِ وَتَقْوِيَةِ الْعُضْوِ ». Al-Dasūqī : « وَالْحَاصِلُ أَنَّ مَنْ جَامَعَ وَلَمْ يَغْتَسِلْ يُنْدَبُ لَهُ أَنْ يَغْسِلَ فَرْجَهُ إذَا أَرَادَ الْعَوْدَ لِلْجِمَاعِ مَرَّةً أُخْرَى ». Certains réservent la recommandation au retour vers la même femme ; mais al-Dasūqī retient l'avis général, « وَلِذَا كَانَ الْمُعْتَمَدُ مَا مَشَى عَلَيْهِ الشَّارِحُ مِنْ الْإِطْلَاقِ ».\n\nAl-Kharashī : c'est ce que vise le mot « ablutions » dans le hadith « إذَا أَتَى أَحَدُكُمْ أَهْلَهُ ثُمَّ أَرَادَ الْجِمَاعَ فَلْيَتَوَضَّأْ » ; ce lavage a pour utilités « تَقْوِيَةُ الْعُضْوِ وَإِتْمَامُ اللَّذَّةِ وَإِزَالَةُ النَّجَاسَةِ » ; « وَكَذَلِكَ يُسْتَحَبُّ لِلْأُنْثَى غَسْلُ فَرْجِهَا كَالذَّكَرِ ».",
+    aqwal: [
+      { auteur: "Al-Dardīr ; al-Dasūqī", avis: "Recommandé avant un nouveau rapport, avec la même femme ou une autre.", statut: "non_precise" },
+      { auteur: "Avis rapporté sans attribution (al-Dasūqī, « خَصَّ بَعْضُهُمْ »)", avis: "Seulement avant de revenir à la même femme.", statut: "qawl" }
+    ],
+    muatamad: "Confirmé par al-Dasūqī : « وَلِذَا كَانَ الْمُعْتَمَدُ مَا مَشَى عَلَيْهِ الشَّارِحُ مِنْ الْإِطْلَاقِ » (même femme ou une autre).",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Al-Ḥaṭṭāb ne commente pas ce segment dans le texte lu (569/315).",
+      "Zarrūq (sur la Risāla, 14556, p. 164) rapporte aussi : « وَاسْتَحَبُّوا لَهُ غَسْلَ فَرْجِهِ قَبْلَ إعَادَةِ الْجِمَاعِ »."
+    ],
+    divergences: [
+      "Complément — tout le segment. Al-Ḥaṭṭāb ne le commente pas ici. Al-Dardīr : « لِمَا فِيهِ مِنْ إزَالَةِ النَّجَاسَةِ وَتَقْوِيَةِ الْعُضْوِ » ; al-Kharashī : « وَكَذَلِكَ يُسْتَحَبُّ لِلْأُنْثَى غَسْلُ فَرْجِهَا كَالذَّكَرِ »."
+    ],
+    exemple: "Un mari qui a eu un rapport avec son épouse et veut en avoir un autre avant de faire le ghousl lave d'abord son sexe.",
+    erreurs_frequentes: [
+      "Croire qu'il faut faire le ghousl entre deux rapports : il est seulement recommandé de laver le sexe.",
+      "Croire que ce lavage ne concerne que l'homme.",
+      "Croire qu'il ne vaut que pour la même épouse : l'avis retenu est général."
+    ],
+    termes: [
+      { ar: "جِمَاع", translit: "jimâʿ", def: "Rapport conjugal." }
+    ],
+    quiz: [
+      { q: "Selon al-Dardīr, pourquoi le junub lave-t-il son sexe avant un nouveau rapport ?",
+        choix: ["Pour lever la janâba", "Pour ôter l'impureté et fortifier le membre", "Parce que c'est obligatoire", "Pour pouvoir prier"],
+        bonne: 1,
+        explication: "« لِمَا فِيهِ مِنْ إزَالَةِ النَّجَاسَةِ وَتَقْوِيَةِ الْعُضْوِ »." },
+      { q: "Selon l'avis retenu par al-Dasūqī, cela vaut :",
+        choix: ["Seulement avec la même épouse", "Seulement avec une autre épouse", "Avec la même épouse ou une autre", "Seulement le vendredi"],
+        bonne: 2,
+        explication: "« وَلِذَا كَانَ الْمُعْتَمَدُ مَا مَشَى عَلَيْهِ الشَّارِحُ مِنْ الْإِطْلَاقِ »." },
+      { q: "Mise en situation : une femme junub, avant un nouveau rapport avec son mari. Selon al-Kharashī :",
+        choix: ["Il lui est recommandé de laver son sexe, comme à l'homme", "Elle doit faire le ghousl", "Rien ne lui est demandé", "Elle doit faire le tayammoum"],
+        bonne: 0,
+        explication: "« وَكَذَلِكَ يُسْتَحَبُّ لِلْأُنْثَى غَسْلُ فَرْجِهَا كَالذَّكَرِ »." },
+      { q: "Quel est le statut de ce lavage ?",
+        choix: ["Obligatoire", "Sunna confirmée", "Déconseillé", "Recommandé"],
+        bonne: 3,
+        explication: "Al-Dardīr : « فَيُنْدَبُ (لِعَوْدِهِ لِجِمَاعٍ) »." }
+    ],
+    ref: { ouvrage: "al-Sharḥ al-kabīr (al-Dardīr) et Ḥāshiyat al-Dasūqī", tome: 1, pages: "137–138" },
+    alertes: [
+      "Limite du texte : le segment « كَغَسْلِ فَرْجِ جُنُبٍ لِعَوْدِهِ لِجِمَاعٍ », que donnent le Mukhtaṣar seul (11355, p. 19), Ibn Ghāzī (14605, p. 42), al-Dardīr (21604/136, « (كَغُسْلِ فَرْجِ جُنُبٍ) ») et al-Kharashī (91, p. 171, « لِعَوْدِهِ بِالْجِمَاعِ »), manque au « ص » de Mawāhib (569/315) ; fiche rédigée d'après al-Dardīr / al-Dasūqī, `ref` sur al-Dardīr (n° 421).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 137–138 (Shamela 21604, pages 136–137)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-07-28",
+    kitab: "tah", bab: "01", fasl: "07", ordre: 28,
+    titre: "Faire ses ablutions avant de dormir",
+    titre_ar: "وَوُضُوءُهُ لِنَوْمٍ",
+    objectif: "Savoir qu'il est recommandé au junub de faire ses ablutions avant de dormir, de jour comme de nuit, et connaître l'avis qui les rend obligatoires.",
+    matn: "وَوُضُوءُهُ لِنَوْمٍ",
+    regle_pratique: "Il est recommandé au junub, homme ou femme, de faire des ablutions complètes avant de dormir, de jour comme de nuit, s'il ne fait pas tout de suite le ghousl ; Ibn Ḥabīb les tient pour obligatoires.",
+    qualification: {
+      hukm: "mandub",
+      nature: "adab",
+      effet_si_omis: "Mālik (d'après al-ʿĀriḍa, cité par Zarrūq) : celui qui dort sans les avoir faites « فَلْيَسْتَغْفِرْ اللَّهَ »."
+    },
+    explication: "Al-Ḥaṭṭāb : de nuit comme de jour, d'après la Mudawwana : « لَا يَنَامُ الْجُنُبُ فِي لَيْلٍ أَوْ نَهَارٍ حَتَّى يَتَوَضَّأَ جَمِيعَ وُضُوئِهِ وَلَيْسَ ذَلِكَ عَلَى الْحَائِضِ ». Il cite Zarrūq, qui rapporte Ibn ʿArafa (« وَسَمِعَ ابْنُ الْقَاسِمِ: وَلَوْ نَهَارًا ») et al-ʿĀriḍa d'Ibn al-ʿArabī : Abū Yūsuf permet au junub de dormir avant les ablutions ; « وَقَالَ مَالِكٌ وَالشَّافِعِيُّ: لَا يَجُوزُ أَنْ يَنَامَ حَتَّى يَتَوَضَّأَ » ; Mālik : s'il le fait, qu'il demande pardon à Dieu ; certains maîtres : « لَا تَسْقُطُ الْعَدَالَةُ بِتَرْكِهِ لِاخْتِلَافِ الْعُلَمَاءِ فِيهِ » ; Ibn Ḥabīb : « ذَلِكَ وَاجِبٌ وُجُوبَ الْفَرَائِضِ ؛ لِحَدِيثِ عُمَرَ ».\n\nAl-Ḥaṭṭāb cite ensuite al-Ubbī, d'après ʿIyāḍ (al-Ikmāl), sur le hadith des ablutions avant de dormir pour tout croyant : il comporte trois sunna, les ablutions pour dormir en état de pureté, le rappel de Dieu, et dormir sur le côté droit ; quant à prier avec ces ablutions, « وَالصَّحِيحُ أَنَّهُ إنْ نَوَى بِهِ لِيَبِيتَ عَلَى طَهَارَةٍ اسْتَبَاحَ بِهِ الصَّلَاةَ وَغَيْرَهَا ».\n\nAl-Dardīr : « (وَ) يُنْدَبُ (وُضُوءُهُ) أَيْ الْجُنُبِ ذَكَرًا أَوْ أُنْثَى » … « (لِنَوْمٍ) أَيْ لِأَجْلِ نَوْمِهِ عَلَى طَهَارَةٍ وَلَوْ نَهَارًا وَكَذَا يُنْدَبُ النَّوْمُ عَلَى طَهَارَةٍ لِغَيْرِ الْجُنُبِ ». Al-Dasūqī : la raison est discutée, dormir en état de pureté ou se donner de l'entrain pour le ghousl ; ce second avis convient mieux à « لَا تَيَمُّمٌ » (fiche 29). Il cite Ibn Bashīr (d'après بن : Muḥammad al-Bunānī) : « لَا خِلَافَ أَنَّ الْجُنُبَ مَأْمُورٌ بِالْوُضُوءِ قَبْلَ النَّوْمِ وَهَلْ الْأَمْرُ بِذَلِكَ وَاجِبٌ أَوْ نَدْبٌ فِي الْمَذْهَبِ قَوْلَانِ ».",
+    aqwal: [
+      { auteur: "La Mudawwana (citée par al-Ḥaṭṭāb) ; Mālik (al-ʿĀriḍa)", avis: "Le junub ne dort pas, de nuit ou de jour, avant d'avoir fait ses ablutions ; ce n'est pas demandé à la femme en règles.", statut: "non_precise" },
+      { auteur: "Ibn Ḥabīb (al-ʿĀriḍa, cité par Zarrūq)", avis: "Ces ablutions sont obligatoires, comme les obligations, d'après le hadith de ʿUmar.", statut: "qawl" },
+      { auteur: "Abū Yūsuf (al-ʿĀriḍa, cité par Zarrūq)", avis: "Le junub peut dormir avant les ablutions.", statut: "non_precise" },
+      { auteur: "Al-Dardīr ; Ibn ʿArafa (« مُسْتَحَبٌّ », voir les alertes)", avis: "Recommandées, même de jour.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : recommandées (« يُنْدَبُ »), pour l'homme et la femme, même de jour ; al-Dasūqī rapporte d'Ibn Bashīr deux avis dans l'école, obligation ou recommandation.",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Certains maîtres (al-ʿĀriḍa, cité par Zarrūq) : celui qui laisse ces ablutions ne perd pas sa qualité de témoin intègre, les savants étant en désaccord sur elles.",
+      "ʿIyāḍ (d'après al-Ubbī, cité par al-Ḥaṭṭāb) : les ablutions faites avant de dormir avec l'intention de passer la nuit en état de pureté permettent de prier ; et elles sont annulées par un ḥadath survenu avant de se coucher, non après (point repris à la fiche 30)."
+    ],
+    divergences: [
+      "Divergence — recommandées ou obligatoires. Al-Ḥaṭṭāb (al-ʿĀriḍa) rapporte Mālik et ash-Shāfiʿī : « لَا يَجُوزُ أَنْ يَنَامَ حَتَّى يَتَوَضَّأَ », et Ibn Ḥabīb : « ذَلِكَ وَاجِبٌ وُجُوبَ الْفَرَائِضِ ». Al-Dardīr : « (وَ) يُنْدَبُ (وُضُوءُهُ) ». Al-Dasūqī, d'après Ibn Bashīr par بن (Muḥammad al-Bunānī) : « وَهَلْ الْأَمْرُ بِذَلِكَ وَاجِبٌ أَوْ نَدْبٌ فِي الْمَذْهَبِ قَوْلَانِ ».",
+      "Point à comparer — la raison de ces ablutions. Al-Dardīr : « أَيْ لِأَجْلِ نَوْمِهِ عَلَى طَهَارَةٍ ». Al-Dasūqī : « أَيْ هَذَا أَحَدُ قَوْلَيْنِ فِي عِلَّةِ النَّدْبِ وَقِيلَ إنَّمَا نُدِبَ الْوُضُوءُ لِلْجُنُبِ لِأَجْلِ النَّشَاطِ لِلْغُسْلِ », plus conforme à « لَا تَيَمُّمٌ ». Al-Kharashī : « وَظَاهِرُ كَلَامِ الْمُؤَلِّفِ الْأَوَّلُ ». Al-Ḥaṭṭāb n'en parle pas sous ce segment."
+    ],
+    exemple: "Un homme junub qui veut faire la sieste avant de prendre son ghousl fait d'abord des ablutions complètes, puis dort.",
+    erreurs_frequentes: [
+      "Croire que ces ablutions ne concernent que la nuit : la Mudawwana dit « فِي لَيْلٍ أَوْ نَهَارٍ ».",
+      "Croire qu'elles concernent aussi la femme en règles : la Mudawwana l'en dispense.",
+      "Croire que ces ablutions lèvent la janâba : le ghousl reste dû."
+    ],
+    termes: [
+      { ar: "نَشَاط", translit: "nachât", def: "Entrain, vigueur ; ici, l'entrain pour faire le ghousl, l'une des raisons données aux ablutions du junub." },
+      { ar: "عَدَالَة", translit: "ʿadâla", def: "Intégrité : qualité du témoin digne de foi." }
+    ],
+    quiz: [
+      { q: "Selon la Mudawwana (citée par al-Ḥaṭṭāb), le junub fait ses ablutions avant de dormir :",
+        choix: ["La nuit et le jour", "La nuit seulement", "Le jour seulement", "Jamais"],
+        bonne: 0,
+        explication: "« لَا يَنَامُ الْجُنُبُ فِي لَيْلٍ أَوْ نَهَارٍ حَتَّى يَتَوَضَّأَ جَمِيعَ وُضُوئِهِ »." },
+      { q: "Quel savant tient ces ablutions pour obligatoires, d'après al-ʿĀriḍa ?",
+        choix: ["Abū Yūsuf", "Ibn al-Qāsim", "Ibn Ḥabīb", "Al-Dardīr"],
+        bonne: 2,
+        explication: "« وَقَالَ ابْنُ حَبِيبٍ: ذَلِكَ وَاجِبٌ وُجُوبَ الْفَرَائِضِ »." },
+      { q: "Selon al-Dardīr, quel est leur statut ?",
+        choix: ["Obligatoires", "Recommandées", "Déconseillées", "Interdites"],
+        bonne: 1,
+        explication: "« (وَ) يُنْدَبُ (وُضُوءُهُ) أَيْ الْجُنُبِ ذَكَرًا أَوْ أُنْثَى »." },
+      { q: "Mise en situation : une femme en règles veut dormir. La Mudawwana lui demande-t-elle ces ablutions ?",
+        choix: ["Oui, comme au junub", "Oui, mais seulement la nuit", "Oui, avec le tayammoum", "Non"],
+        bonne: 3,
+        explication: "« وَلَيْسَ ذَلِكَ عَلَى الْحَائِضِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "316" },
+    alertes: [
+      "Corrigé : dans la citation d'Ibn ʿArafa par Zarrūq, « قَالَ ابْنُ عَرَفَةَ: وُضُوءُ الْجُنُبِ لِنَوْمِهِ. وَسَمِعَ ابْنُ الْقَاسِمِ » : le mot « مستحب » est tombé ; Ibn ʿArafa (16968, p. 94) et Zarrūq (14556, p. 164) : « ووضوء الجنب لنومه مستحب وسمع ابن القاسم ولو نهارا واوجبه ابن حبيب ورواه اللخمي » (n° 422).",
+      "Lecture : « وَقَالَ أَيْضًا فِي رَسْمِ تَأْخِيرِ صَلَاةِ الْعِشَاءِ مِنْ سَمَاعِ ابْنِ الْقَاسِمِ » n'est suivi d'aucune citation (passage tombé) ; non trouvé dans al-Bayān (21751, p. 1–220) (n° 423).",
+      "Attribution : « وَالظَّاهِرُ ذَلِكَ » (après l'avis d'Ibn Ḥabīb, avant « انْتَهَى ») peut être d'Ibn al-ʿArabī (al-ʿĀriḍa) ou de Zarrūq ; absent du commentaire de Zarrūq sur la Risāla (14556, p. 164) ; rapporté sans en faire une préférence (n° 424).",
+      "Lecture : matn « وَوُضُوءُهُ » (Mawāhib, al-Dardīr) ; Ibn Ghāzī (14605, p. 42) et al-Kharashī (91, p. 171) « وَوُضُوئِهِ » ; même sens (n° 420).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 137–138 (Shamela 21604, pages 136–137)."
+    ],
+    verification: "verifie"
   }
 
 
-  /* FIN-UNITE-54 */
+  /* FIN-UNITE-55 */
 ]);

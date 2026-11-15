@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.58
+/* Données — Glossaire, partie 2 — v1.59
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -33,7 +33,8 @@
    v1.55 : 8 termes de l'unité 51 (tah-01-07-01 à -06).
    v1.56 : 6 termes de l'unité 52 (tah-01-07-07 à -11).
    v1.57 : 6 termes de l'unité 53 (tah-01-07-12 à -16c).
-   v1.58 : 5 termes de l'unité 54 (tah-01-07-17 à -22). */
+   v1.58 : 5 termes de l'unité 54 (tah-01-07-17 à -22).
+   v1.59 : 7 termes de l'unité 55 (tah-01-07-23 à -28). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -397,7 +398,14 @@ App.data.ajouterTermes([
   { ar: "مَضْفُور", translit: "madfoûr", def: "Tressé ; les cheveux tressés." },
   { ar: "عَرُوس", translit: "ʿaroûs", def: "Nouvelle mariée, dans les jours qui suivent ses noces." },
   { ar: "إِزَار", translit: "izâr", def: "Pagne : pièce d'étoffe qui couvre le corps de la taille vers le bas." },
-  { ar: "تَعَذُّر", translit: "taʿadhdhour", def: "Impossibilité : ne pas pouvoir faire une chose." }
+  { ar: "تَعَذُّر", translit: "taʿadhdhour", def: "Impossibilité : ne pas pouvoir faire une chose." },
+  { ar: "مَيَامِن", translit: "mayâmin", def: "Les côtés droits du corps (pluriel ; aussi مَيَامِين)." },
+  { ar: "مَيَاسِر", translit: "mayâsir", def: "Les côtés gauches du corps (pluriel)." },
+  { ar: "وَفْرَة", translit: "wafra", def: "Chevelure abondante qui descend jusqu'aux oreilles." },
+  { ar: "صَاع", translit: "sâʿ", def: "Mesure de capacité (quatre mudd), dont le Prophète se servait pour son ghousl." },
+  { ar: "جِمَاع", translit: "jimâʿ", def: "Rapport conjugal." },
+  { ar: "نَشَاط", translit: "nachât", def: "Entrain, vigueur ; ici, l'entrain pour faire le ghousl, l'une des raisons données aux ablutions du junub." },
+  { ar: "عَدَالَة", translit: "ʿadâla", def: "Intégrité : qualité du témoin digne de foi." }
 
   /* FIN-GLOSSAIRE */
 ]);
