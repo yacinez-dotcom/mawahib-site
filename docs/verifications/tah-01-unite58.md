@@ -39,7 +39,7 @@ Les 32 questions relues une à une avec `quizdump.js` : le choix désigné par `
 - `node --check` : `tah-01-p28.js`, `manifeste.js`, `glossaire-p2.js`, `plan.js` sans erreur.
 - `node docs/outils/verif.js data/glossaire.js data/glossaire-p2.js data/lecons/tah/tah-01-p28.js` : 8 fiches, 885 termes, 0 erreur, 0 doublon ; p28 : A 8 | B 8 | C 8 | D 8.
 - Quiz, tout le cours (`quizstat.js`) : A 436 | B 436 | C 436 | D 436.
-- `controle_site.py` sur le dépôt complet : 432 fiches (hors synthèses), 885 termes, 0 erreur, 0 anomalie.
+- `controle_site.py` sur le dépôt complet : 432 fiches (hors synthèses) ; 441 fiches rendues (avec les 9 synthèses), 885 termes, 0 erreur, 0 anomalie, 0 terme coupé, 0 quiz en échec, 0 erreur JS.
 
 ## Audit
 
