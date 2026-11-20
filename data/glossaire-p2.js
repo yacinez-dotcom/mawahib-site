@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.59
+/* Données — Glossaire, partie 2 — v1.61
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -35,7 +35,8 @@
    v1.57 : 6 termes de l'unité 53 (tah-01-07-12 à -16c).
    v1.58 : 5 termes de l'unité 54 (tah-01-07-17 à -22).
    v1.59 : 7 termes de l'unité 55 (tah-01-07-23 à -28).
-   v1.60 : 5 termes de l'unité 56 (tah-01-07-29 à -34). */
+   v1.60 : 5 termes de l'unité 56 (tah-01-07-29 à -34).
+   v1.61 : 10 termes de l'unité 57 (tah-01-08-01 à -05b). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -412,6 +413,17 @@ App.data.ajouterTermes([
   { ar: "مَسْجِدُ الْبَيْتِ", translit: "masjidou l-bayt", def: "Lieu de prière aménagé dans une maison." },
   { ar: "مُجْتَاز", translit: "moujtâz", def: "Celui qui traverse un lieu sans s'y arrêter." },
   { ar: "طَلْع", translit: "talʿ", def: "Spathe et pollen du palmier." },
-  { ar: "تَدَفُّق", translit: "tadaffouq", def: "Sortie par jets successifs." }
+  { ar: "تَدَفُّق", translit: "tadaffouq", def: "Sortie par jets successifs." },
+  /* Unité 57 — tah-01-08-01 à -05b */
+  { ar: "عُذْر", translit: "ʿoudhr", def: "Excuse : circonstance qui justifie une dispense." },
+  { ar: "مُسْتَحَاضَة", translit: "moustahâda", def: "Femme atteinte d'istihâda : saignement hors des règles, dû à un trouble." },
+  { ar: "حَضَر", translit: "hadar", def: "Résidence : le fait d'être chez soi, par opposition au voyage." },
+  { ar: "سَفَر", translit: "safar", def: "Voyage." },
+  { ar: "جُرْمُوق", translit: "jourmoûq", def: "Selon l'explication de Mālik (riwâya d'Ibn al-Qāsim) : chaussette recouverte de cuir dessus et dessous ; duel جُرْمُوقَان." },
+  { ar: "مُجَلَّد", translit: "moujallad", def: "Recouvert de cuir." },
+  { ar: "لَفَائِف", translit: "lafâ'if", def: "Bandes de tissu enroulées autour du pied." },
+  { ar: "طِين", translit: "tîn", def: "Boue, terre mouillée." },
+  { ar: "مِهْمَاز", translit: "mihmâz", def: "Éperon : pièce de fer fixée au khouff du cavalier pour piquer la monture ; pluriel مَهَامِيز." },
+  { ar: "تَوْقِيت", translit: "tawqît", def: "Fixation d'une durée ou d'un moment." }
 /* FIN-GLOSSAIRE */
 ]);

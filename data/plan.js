@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.49 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.50 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -87,7 +87,10 @@
           (« كَغَسْلِ فَرْجِ جُنُبٍ لِعَوْدِهِ لِجِمَاعٍ », absent du « ص », n° 421) ; titre de -28 précisé ; 42 → 44 segments (unité 55).
    v1.49 : tah-01-07-32b (« وَلَوْ مُجْتَازًا كَكَافِرٍ وَإِنْ أَذِنَ مُسْلِمٌ », n° 429) et -33b (« وَيُجْزِئُ عَنِ الْوُضُوءِ
           وَإِنْ تَبَيَّنَ عَدَمُ جَنَابَتِهِ », n° 430), absents du « ص », ajoutés ; « وَدُخُولُ » → « وَدُخُولَ » (n° 428) ; titre de -34
-          corrigé et son titre_ar complété (n° 431) ; titres de -29 à -31 précisés ; 44 → 46 segments ; faṣl terminé (unité 56). */
+          corrigé et son titre_ar complété (n° 431) ; titres de -29 à -31 précisés ; 44 → 46 segments ; faṣl terminé (unité 56).
+   v1.50 : tah-01-08-02b (« بِحَضَرٍ أَوْ سَفَرٍ », n° 436), -04b (« بِلَا حَائِلٍ كَطِينٍ », n° 437) et -05b (« وَلَا حَدَّ »,
+          n° 438), absents du « ص », ajoutés ; « إلَّا الْمِهْمَازُ » → « إلَّا الْمِهْمَازَ » (n° 439) ; titres de -01 à -04
+          précisés ; faṣl tah-01-08 : 27 → 30 segments (unité 57). */
 App.data.definirPlan({
   kutub: [
     {
@@ -600,17 +603,20 @@ App.data.definirPlan({
                 { id: "tah-01-07-34", titre: "Les ablutions valent ghousl pour leurs membres", titre_ar: "وَغَسْلُ الْوُضُوءِ عَنْ غُسْلِ مَحِلِّهِ وَلَوْ نَاسِيًا لِجَنَابَتِهِ كَلُمْعَةٍ مِنْهَا وَإِنْ عَنْ جَبِيرَةٍ" } /* p. 318 ; fin absente du « ص » (n° 431, v1.49) */
               ]
             },
-            /* tah-01-08 — t. 1, p. 318–325 (Shamela 569, pages 317–324) — 27 segments du matn */
+            /* tah-01-08 — t. 1, p. 318–325 (Shamela 569, pages 317–324) — 30 segments du matn (v1.50) */
             {
               id: "tah-01-08",
               titre: "Le mash sur les khouff",
               titre_ar: "المَسْحُ عَلَى الخُفَّيْنِ",
               masail: [
-                { id: "tah-01-08-01", titre: "Dispense : homme et femme", titre_ar: "فَصْلُ رُخِّصَ لِرَجُلٍ وَامْرَأَةٍ" }, /* p. 318 */
-                { id: "tah-01-08-02", titre: "… même en istihâda", titre_ar: "وَإِنْ مُسْتَحَاضَةً" }, /* p. 318 */
-                { id: "tah-01-08-03", titre: "Chaussettes de cuir", titre_ar: "مَسْحُ جَوْرَبٍ جِلْدٍ ظَاهِرِهِ وَبَاطِنِهِ" }, /* p. 318 */
-                { id: "tah-01-08-04", titre: "Le khouff, même sur un autre khouff", titre_ar: "وَخُفٍّ وَلَوْ عَلَى خُفٍّ" }, /* p. 318 */
-                { id: "tah-01-08-05", titre: "… sauf l'éperon", titre_ar: "إلَّا الْمِهْمَازُ" }, /* p. 319 */
+                { id: "tah-01-08-01", titre: "Une dispense, pour l'homme et la femme", titre_ar: "فَصْلُ رُخِّصَ لِرَجُلٍ وَامْرَأَةٍ" }, /* p. 318 */
+                { id: "tah-01-08-02", titre: "… même la femme en istihâda", titre_ar: "وَإِنْ مُسْتَحَاضَةً" }, /* p. 318 */
+                { id: "tah-01-08-02b", titre: "… en résidence ou en voyage", titre_ar: "بِحَضَرٍ أَوْ سَفَرٍ" }, /* absent du « ص » de Mawāhib ; al-Dardīr, t. 1, p. 141 (n° 436, v1.50) */
+                { id: "tah-01-08-03", titre: "Les chaussettes recouvertes de cuir", titre_ar: "مَسْحُ جَوْرَبٍ جِلْدٍ ظَاهِرِهِ وَبَاطِنِهِ" }, /* p. 318 */
+                { id: "tah-01-08-04", titre: "Le khouff, même porté sur un autre", titre_ar: "وَخُفٍّ وَلَوْ عَلَى خُفٍّ" }, /* p. 318–319 */
+                { id: "tah-01-08-04b", titre: "Sans écran, comme la boue", titre_ar: "بِلَا حَائِلٍ كَطِينٍ" }, /* absent du « ص » de Mawāhib ; al-Dardīr, t. 1, p. 142 (n° 437, v1.50) */
+                { id: "tah-01-08-05", titre: "… sauf l'éperon", titre_ar: "إلَّا الْمِهْمَازَ" }, /* p. 319–320 (n° 439, v1.50) */
+                { id: "tah-01-08-05b", titre: "Pas de durée fixée", titre_ar: "وَلَا حَدَّ" }, /* absent du « ص » de Mawāhib ; al-Dardīr, t. 1, p. 142 (n° 438, v1.50) */
                 { id: "tah-01-08-06", titre: "Pur", titre_ar: "طَاهِرٍ" }, /* p. 320 */
                 { id: "tah-01-08-07", titre: "Couvrant la partie obligatoire", titre_ar: "وَسَتَرَ مَحَلَّ الْفَرْضِ" }, /* p. 320 */
                 { id: "tah-01-08-08", titre: "Mis en état de pureté par l'eau", titre_ar: "بِطَهَارَةِ مَاءٍ" }, /* p. 320 */
