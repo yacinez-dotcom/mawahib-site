@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.51 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.52 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -92,7 +92,10 @@
           n° 438), absents du « ص », ajoutés ; « إلَّا الْمِهْمَازُ » → « إلَّا الْمِهْمَازَ » (n° 439) ; titres de -01 à -04
           précisés ; faṣl tah-01-08 : 27 → 30 segments (unité 57).
    v1.51 : tah-01-08-09b (« فَلَا يُمْسَحُ وَاسِعٌ », n° 453) ajouté ; titre_ar de -06, -07, -08, -10, -11 et -12 complétés d'après le
-          matn complet (n° 447, 449, 452, 454, 457, 458) ; titres précisés ; faṣl tah-01-08 : 30 → 31 segments (unité 58). */
+          matn complet (n° 447, 449, 452, 454, 457, 458) ; titres précisés ; faṣl tah-01-08 : 30 → 31 segments (unité 58).
+   v1.52 : tah-01-08-12b (« وَلَا مُحْرِمٌ لَمْ يُضْطَرَّ », n° 461), -12c (« وَفِي خُفٍّ غُصِبَ تَرَدُّدٌ », n° 462) et -14b
+          (« وَتَكْرَارُهُ », n° 463), absents du « ص », ajoutés ; « وَتَتَبَّعَ غُضُونَهُ » → « وَتَتَبُّعُ غُضُونِهِ » (n° 464) ;
+          titres de -13 à -17 précisés ; faṣl tah-01-08 : 31 → 34 segments (unité 59). */
 App.data.definirPlan({
   kutub: [
     {
@@ -605,7 +608,7 @@ App.data.definirPlan({
                 { id: "tah-01-07-34", titre: "Les ablutions valent ghousl pour leurs membres", titre_ar: "وَغَسْلُ الْوُضُوءِ عَنْ غُسْلِ مَحِلِّهِ وَلَوْ نَاسِيًا لِجَنَابَتِهِ كَلُمْعَةٍ مِنْهَا وَإِنْ عَنْ جَبِيرَةٍ" } /* p. 318 ; fin absente du « ص » (n° 431, v1.49) */
               ]
             },
-            /* tah-01-08 — t. 1, p. 318–325 (Shamela 569, pages 317–324) — 31 segments du matn (v1.51) */
+            /* tah-01-08 — t. 1, p. 318–325 (Shamela 569, pages 317–324) — 34 segments du matn (v1.52) */
             {
               id: "tah-01-08",
               titre: "Le mash sur les khouff",
@@ -627,11 +630,14 @@ App.data.definirPlan({
                 { id: "tah-01-08-10", titre: "Le khouff déchiré : la limite du tiers du pied", titre_ar: "وَمُخَرَّقٌ قَدْرَ ثُلُثِ الْقَدَمِ وَإِنْ بِشَكٍّ لَا أَقَلَّ إنْ الْتَصَقَ كَمُنْفَتِحٍ صَغُرَ" }, /* p. 320–321 (n° 454, v1.51) */
                 { id: "tah-01-08-11", titre: "Pieds lavés et khouff mis avant la fin des ablutions", titre_ar: "أَوْ غَسَلَ رِجْلَيْهِ فَلَبِسَهُمَا ثُمَّ كَمَّلَ" }, /* p. 321 (n° 457, v1.51) */
                 { id: "tah-01-08-12", titre: "Un pied chaussé avant l'autre : ôter ce qui a été mis trop tôt", titre_ar: "أَوْ رِجْلًا فَأَدْخَلَهَا حَتَّى يَخْلَعَ الْمَلْبُوسَ قَبْلَ الْكَمَالِ" }, /* p. 321 (n° 458, v1.51) */
-                { id: "tah-01-08-13", titre: "Pas pour le seul mash, ni pour dormir", titre_ar: "وَلَا لَابِسٍ لِمُجَرَّدِ الْمَسْحِ أَوْ لِيَنَامَ …" }, /* p. 321 */
-                { id: "tah-01-08-14", titre: "Le laver : déconseillé", titre_ar: "وَكُرِهَ غَسْلُهُ" }, /* p. 322 */
-                { id: "tah-01-08-15", titre: "Suivre ses plis", titre_ar: "وَتَتَبَّعَ غُضُونَهُ" }, /* p. 322 */
-                { id: "tah-01-08-16", titre: "Annulé par un ghousl obligatoire", titre_ar: "وَبَطَلَ بِغُسْلٍ وَجَبَ" }, /* p. 322 */
-                { id: "tah-01-08-17", titre: "… par une grande déchirure", titre_ar: "وَبِخَرْقِهِ كَثِيرًا" }, /* p. 322 */
+                { id: "tah-01-08-12b", titre: "Le pèlerin en état de sacralisation qui porte le khouff sans nécessité", titre_ar: "وَلَا مُحْرِمٌ لَمْ يُضْطَرَّ" }, /* absent du « ص » de Mawāhib ; al-Dardīr, t. 1, p. 144 (n° 461, v1.52) */
+                { id: "tah-01-08-12c", titre: "Le khouff usurpé : hésitation des tardifs", titre_ar: "وَفِي خُفٍّ غُصِبَ تَرَدُّدٌ" }, /* absent du « ص » de Mawāhib ; al-Dardīr, t. 1, p. 144 (n° 462, v1.52) */
+                { id: "tah-01-08-13", titre: "Mettre le khouff pour le seul mash, ou pour dormir", titre_ar: "وَلَا لَابِسٍ لِمُجَرَّدِ الْمَسْحِ أَوْ لِيَنَامَ وَفِيهَا يُكْرَهُ" }, /* p. 321–322 (v1.52) */
+                { id: "tah-01-08-14", titre: "Laver le khouff au lieu de l'essuyer : déconseillé", titre_ar: "وَكُرِهَ غَسْلُهُ" }, /* p. 322 */
+                { id: "tah-01-08-14b", titre: "Répéter le mash : déconseillé", titre_ar: "وَتَكْرَارُهُ" }, /* absent du « ص » de Mawāhib ; al-Dardīr, t. 1, p. 145 (n° 463, v1.52) */
+                { id: "tah-01-08-15", titre: "Suivre les plis du khouff : déconseillé", titre_ar: "وَتَتَبُّعُ غُضُونِهِ" }, /* p. 322 ; « وَتَتَبُّعُ غُضُونِهِ » (n° 464, v1.52) */
+                { id: "tah-01-08-16", titre: "Le mash prend fin avec ce qui oblige au ghousl", titre_ar: "وَبَطَلَ بِغُسْلٍ وَجَبَ" }, /* p. 322 */
+                { id: "tah-01-08-17", titre: "Le khouff qui se déchire après le mash", titre_ar: "وَبِخَرْقِهِ كَثِيرًا" }, /* p. 322–323 */
                 { id: "tah-01-08-18", titre: "… en retirant la plus grande partie du pied", titre_ar: "وَبِنَزْعِ أَكْثَرِ رِجْلٍ لِسَاقِ خُفٍّ" }, /* p. 323 */
                 { id: "tah-01-08-19", titre: "Pas le talon", titre_ar: "لَا الْعَقِبِ" }, /* p. 323 */
                 { id: "tah-01-08-20", titre: "… ou l'un des deux", titre_ar: "أَوْ أَحَدِهِمَا" }, /* p. 323 */

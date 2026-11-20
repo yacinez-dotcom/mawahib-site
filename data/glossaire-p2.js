@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.62
+/* Données — Glossaire, partie 2 — v1.63
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -37,7 +37,8 @@
    v1.59 : 7 termes de l'unité 55 (tah-01-07-23 à -28).
    v1.60 : 5 termes de l'unité 56 (tah-01-07-29 à -34).
    v1.61 : 10 termes de l'unité 57 (tah-01-08-01 à -05b).
-   v1.62 : 14 termes de l'unité 58 (tah-01-08-06 à -12). */
+   v1.62 : 14 termes de l'unité 58 (tah-01-08-06 à -12).
+   v1.63 : 5 termes de l'unité 59 (tah-01-08-12b à -17). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -439,6 +440,11 @@ App.data.ajouterTermes([
   { ar: "مُخَرَّق", translit: "moukharraq", def: "Déchiré, percé (le khouff)." },
   { ar: "شَقّ", translit: "chaqq", def: "Fente dont les bords restent joints." },
   { ar: "تَلْفِيق", translit: "talfîq", def: "Addition de plusieurs petites parties pour juger de leur total." },
-  { ar: "كَمَال", translit: "kamâl", def: "Achèvement : ici, des ablutions complètes, tous les membres lavés." }
+  { ar: "كَمَال", translit: "kamâl", def: "Achèvement : ici, des ablutions complètes, tous les membres lavés." },
+  { ar: "اِضْطِرَار", translit: "idtirâr", def: "Contrainte, nécessité : être obligé de faire une chose (ici porter le khouff) par un besoin comme la maladie." },
+  { ar: "غَصْب", translit: "ghasb", def: "Usurpation : prendre le bien d'autrui sans droit, par la force ou sans son accord." },
+  { ar: "عَزِيمَة", translit: "ʿazîma", def: "Règle de base, obligation ordinaire, par opposition à la dispense (rukhsa) ; pluriel عَزَائِم." },
+  { ar: "مُوجِبُ الْغُسْلِ", translit: "moûjibou l-ghousl", def: "Ce qui oblige au ghousl : rapport, émission de sperme, règles, lochies." },
+  { ar: "دَوَام", translit: "dawâm", def: "Ce qui survient en cours de route, après le début (ici après le mash), par opposition à الِابْتِدَاء, le début." }
 /* FIN-GLOSSAIRE */
 ]);

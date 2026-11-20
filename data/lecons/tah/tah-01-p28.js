@@ -1,4 +1,4 @@
-/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 28 — v14.0
+/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 28 — v14.1
    Source : Mawāhib al-Jalīl, al-Ḥaṭṭāb, éd. Dār al-Fikr, 3e éd., 1412 H / 1992, tome 1 (shamela.ws/book/569).
    Croisement : al-Sharḥ al-kabīr d'al-Dardīr et Ḥāshiyat al-Dasūqī (shamela.ws/book/21604), tome 1.
    Cette partie : suite du faṣl tah-01-08 (le mash sur les khouff), à partir de tah-01-08-06 (unité 58) — t. 1, p. 320
@@ -6,7 +6,10 @@
    v14.0 : unité 58 — tah-01-08-06, -07, -08, -09, -09b, -10, -11, -12 (Mawāhib, t. 1, p. 320–321 et 326 ;
           al-Dardīr / al-Dasūqī, t. 1, p. 142–144) (2026-11-20) ; nouvelle partie, tah-01-p27.js (≈ 132 Ko) étant figée ;
           09b : segment absent du « ص » de Mawāhib, rédigé d'après al-Dardīr / al-Dasūqī ; matn de 06, 07, 08, 10, 11 et 12
-          complétés d'après le Mukhtaṣar seul, Ibn Ghāzī, al-Dardīr, al-Kharashī et al-Mawwāq ; anomalies n° 447 à 459.
+          complétés d'après le Mukhtaṣar seul, Ibn Ghāzī, al-Dardīr, al-Kharashī et al-Mawwāq ; anomalies n° 447 à 460.
+   v14.1 : unité 59 — tah-01-08-12b, -12c, -13, -14, -14b, -15, -16, -17 (Mawāhib, t. 1, p. 321–323 ; al-Dardīr / al-Dasūqī,
+          t. 1, p. 144–145) (2026-11-20) ; 12b, 12c et 14b : segments absents du « ص » de Mawāhib, rédigés d'après
+          al-Dardīr / al-Dasūqī ; matn de 15 corrigé (« وَتَتَبُّعُ غُضُونِهِ ») ; anomalies n° 461 à 471.
    Bāb découpé en parties de moins de 200 Ko ;
    historique des versions : tah-01-p1.js (jusqu'à v2.5) puis l'en-tête de chaque partie. */
 App.data.ajouterFiches([
@@ -530,7 +533,510 @@ App.data.ajouterFiches([
       "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 144 (Shamela 21604, page 143)."
     ],
     verification: "verifie"
+  },
+  /* FIN-UNITE-58 */
+  /* ================================================================== */
+  /* Unité 59 — tah-01-08-12b, -12c, -13, -14, -14b, -15, -16, -17 */
+  /* Mawāhib, t. 1, p. 321–323 (Shamela 569/320–322) ; al-Dardīr / al-Dasūqī, t. 1, p. 144–145 (Shamela 21604/143–144) */
+  {
+    id: "tah-01-08-12b",
+    kitab: "tah", bab: "01", fasl: "08", ordre: 12,
+    titre: "Le pèlerin en état de sacralisation qui porte le khouff sans nécessité",
+    titre_ar: "وَلَا مُحْرِمٌ لَمْ يُضْطَرَّ",
+    objectif: "Savoir que l'homme en état de sacralisation qui met des khouff sans nécessité ne les essuie pas.",
+    matn: "وَلَا مُحْرِمٌ لَمْ يُضْطَرَّ",
+    regle_pratique: "L'homme en état de sacralisation (pour le pèlerinage ou la ʿumra) qui met des khouff sans y être contraint ne les essuie pas, car il désobéit en les portant ; s'il y est contraint, par exemple par une maladie, ou si c'est une femme, il les essuie.",
+    qualification: {
+      hukm: "wajib",
+      nature: "shart",
+      effet_si_omis: "Le passage ne précise pas de conséquence propre ; al-Dardīr rattache ce cas à la condition « sans désobéissance par le port » (fiche 09)."
+    },
+    explication: "Ce segment manque au « ص » de Mawāhib, et al-Ḥaṭṭāb ne le commente pas (voir les alertes) ; la fiche suit al-Dardīr / al-Dasūqī, avec al-Kharashī, al-Zurqānī et les témoins qu'ils citent.\n\nAl-Dardīr : c'est la conséquence de la condition « sans désobéissance par le port » (fiche 09). L'homme en état de sacralisation, pour le pèlerinage ou la ʿumra, qui n'a pas été contraint de porter le khouff ne l'essuie pas, car il désobéit en le portant ; « فَإِنْ اُضْطُرَّ لِلُبْسِهِ كَامِلًا لِمَرَضٍ أَوْ كَانَ الْمُحْرِمُ امْرَأَةً جَازَ الْمَسْحُ ». Al-Zurqānī précise ce « complet » : il l'essuie s'il ne l'a pas coupé sous les chevilles ; s'il a dû le couper, comme le permet le chapitre du pèlerinage, il ne l'essuie pas. Al-Kharashī, pour la femme : « لِأَنَّ إحْرَامَهَا فِي وَجْهِهَا وَكَفَّيْهَا فَقَطْ ».\n\nAl-Mawwāq et Ibn ʿArafa rapportent d'Ibn al-Qāsim qu'aucun pèlerin en état de sacralisation n'essuie ses khouff, et d'Ibn Abī Zayd (« الشيخ ») : « لِعِصْيَانِهِ بِلُبْسِهِمَا وَلَوْ لَبِسَهُمَا لِعِلَّةٍ مَسَحَ ». At-Tawḍīḥ cite al-Māzirī : certains malikites interdisent le mash au pèlerin « لأنه منهي عن اللبس » ; al-Māzirī ajoute que la question peut se rattacher aux deux avis sur le raccourcissement de la prière de celui qui voyage pour une désobéissance. Ibn ʿArafa : Ibn al-Ḥājib a présenté l'avis contraire comme un texte de l'école, « لا أعرفه ».",
+    aqwal: [
+      { auteur: "Ibn al-Qāsim (d'après al-Mawwāq et Ibn ʿArafa)", avis: "Le pèlerin en état de sacralisation n'essuie pas ses khouff.", statut: "non_precise" },
+      { auteur: "Ibn Abī Zayd (« الشيخ », d'après al-Mawwāq et Ibn ʿArafa)", avis: "C'est parce qu'il désobéit en les portant ; s'il les porte pour une raison (maladie), il les essuie.", statut: "non_precise" },
+      { auteur: "Al-Māzirī (d'après at-Tawḍīḥ et Ibn ʿArafa)", avis: "Le mash du pèlerin peut se tirer des deux avis sur le raccourcissement de la prière du voyageur en désobéissance.", statut: "qawl" },
+      { auteur: "Al-Bājī (d'après adh-Dhakhīra)", avis: "La femme en état de sacralisation essuie ses khouff, car le port ne lui est pas interdit.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr / al-Dasūqī : pas de mash pour l'homme en état de sacralisation qui porte le khouff sans nécessité ; mash permis s'il y est contraint (maladie) ou si c'est une femme.",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Al-Ḥaṭṭāb ne commente pas ce segment dans le texte lu (569/320–321).",
+      "Al-Zurqānī : le khouff qu'on a dû couper sous les chevilles pour le pèlerinage ne s'essuie pas, même en cas de nécessité."
+    ],
+    divergences: [
+      "Concordance — la femme. Al-Dardīr : « أَوْ كَانَ الْمُحْرِمُ امْرَأَةً جَازَ الْمَسْحُ » ; al-Kharashī : « فَإِنَّهُ يَمْسَحُ عَلَيْهِ كَالْمَرْأَةِ وَإِنْ لَمْ تُضْطَرَّ » ; al-Bājī (d'après adh-Dhakhīra) : « لِأَنَّهَا لَيْسَتْ مَمْنُوعَةً مِنْ لُبْسِهِمَا ».",
+      "Point à comparer — un avis contraire dans l'école. At-Tawḍīḥ, sur le mot d'Ibn al-Ḥājib « على الأصح » : « وظاهر كلامه على أن مقابل الأصح منصوص » ; Ibn ʿArafa : « ونقله ابن الحاجب نصا لا أعرفه » ; al-Māzirī n'en fait qu'une déduction."
+    ],
+    exemple: "Un pèlerin en état de sacralisation met ses bottes par confort pour marcher jusqu'à ʿArafa : il ne peut pas les essuyer, il lave ses pieds. S'il souffre d'une blessure au pied qui l'oblige à garder une botte qui couvre les chevilles, il l'essuie. Sa femme, en état de sacralisation elle aussi, essuie les siennes.",
+    erreurs_frequentes: [
+      "Croire que le pèlerin en état de sacralisation peut essuyer ses khouff comme tout autre.",
+      "Croire que cette interdiction vise aussi la femme en état de sacralisation.",
+      "Oublier que la nécessité (maladie) rend le mash permis."
+    ],
+    termes: [
+      { ar: "اِضْطِرَار", translit: "idtirâr", def: "Contrainte, nécessité : être obligé de faire une chose (ici porter le khouff) par un besoin comme la maladie." }
+    ],
+    quiz: [
+      { q: "Selon al-Dardīr, pourquoi le pèlerin en état de sacralisation qui porte le khouff sans nécessité ne l'essuie-t-il pas ?",
+        choix: ["Parce que le khouff est impur", "Parce qu'il désobéit en le portant", "Parce qu'il est en voyage", "Parce que le mash est réservé aux résidents"],
+        bonne: 1,
+        explication: "Al-Dardīr rattache ce cas à la condition « sans désobéissance par le port »." },
+      { q: "Mise en situation : une femme en état de sacralisation porte des khouff sans nécessité. Selon al-Dardīr et al-Kharashī :",
+        choix: ["Elle ne les essuie pas", "Elle les essuie un seul jour", "Elle lave un pied et essuie l'autre", "Elle les essuie : son iḥrâm ne porte que sur le visage et les mains"],
+        bonne: 3,
+        explication: "« لِأَنَّ إحْرَامَهَا فِي وَجْهِهَا وَكَفَّيْهَا فَقَطْ »." },
+      { q: "Selon al-Dardīr, que doit faire l'homme en état de sacralisation contraint par une maladie à porter un khouff complet ?",
+        choix: ["Il l'essuie", "Il ne l'essuie pas", "Il fait le tayammoum", "Il refait ses ablutions"],
+        bonne: 0,
+        explication: "« فَإِنْ اُضْطُرَّ لِلُبْسِهِ كَامِلًا لِمَرَضٍ … جَازَ الْمَسْحُ »." },
+      { q: "Selon al-Zurqānī, le pèlerin qui a dû couper son khouff sous les chevilles :",
+        choix: ["L'essuie", "L'essuie et lave le reste", "Ne l'essuie pas", "Essuie seulement le talon"],
+        bonne: 2,
+        explication: "Al-Zurqānī : s'il a dû le couper sous les chevilles, il ne l'essuie pas." }
+    ],
+    ref: { ouvrage: "al-Sharḥ al-kabīr (al-Dardīr) et Ḥāshiyat al-Dasūqī", tome: 1, pages: "144" },
+    alertes: [
+      "Limite du texte : « وَلَا مُحْرِمٌ لَمْ يُضْطَرَّ », que donnent le Mukhtaṣar seul (11355, p. 21), Ibn Ghāzī (14605, p. 43), al-Dardīr (21604/143), al-Kharashī (91, p. 179), al-Zurqānī (14297, p. 197) et al-Mawwāq (21611, p. 259), manque au « ص » de Mawāhib, qui passe de « حَتَّى يَخْلَعَ الْمَلْبُوسَ قَبْلَ الْكَمَالِ » à « وَلَا لَابِسٍ لِمُجَرَّدِ الْمَسْحِ » (569/320) ; fiche rédigée d'après al-Dardīr / al-Dasūqī, `ref` sur al-Dardīr (n° 461).",
+      "Précisé (campagne de correction) : al-Dardīr (21604/143) porte « لِعِصْيَانِهِ يَلْبَسُهُ » ; al-Kharashī (91, p. 179) « لِعِصْيَانِهِ بِلُبْسِهِ » ; lecture « بِلُبْسِهِ » probable, sens inchangé (n° 471).",
+      "Variante : al-Mawwāq (21611, p. 259) vocalise le lemme « لَمْ يَضْطَرَّ » (actif) et lit ensuite « وَفِي غَصْبٍ » ; les autres témoins ont « لَمْ يُضْطَرَّ » et « وَفِي خُفٍّ غُصِبَ » (n° 468).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 144 (Shamela 21604, page 143)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-08-12c",
+    kitab: "tah", bab: "01", fasl: "08", ordre: 12,
+    titre: "Le khouff usurpé : hésitation des tardifs",
+    titre_ar: "وَفِي خُفٍّ غُصِبَ تَرَدُّدٌ",
+    objectif: "Savoir ce que valent le mash et la prière de celui qui essuie un khouff pris à autrui.",
+    matn: "وَفِي خُفٍّ غُصِبَ تَرَدُّدٌ",
+    regle_pratique: "Porter un khouff pris à autrui sans droit est interdit ; s'il l'essuie, son mash vaut selon l'avis retenu d'al-Dardīr, mais il pèche.",
+    qualification: {
+      hukm: "haram",
+      nature: "autre",
+      effet_si_omis: "Selon l'avis retenu (al-Dardīr), le mash vaut avec le péché ; al-Zurqānī juge la prière valide même selon l'avis qui interdit le mash."
+    },
+    explication: "Ce segment manque au « ص » de Mawāhib, et al-Ḥaṭṭāb ne le commente pas (voir les alertes) ; la fiche suit al-Dardīr / al-Dasūqī et les autres témoins.\n\nLe mot تَرَدُّد (taraddoud) désigne, chez Khalīl, l'hésitation des savants tardifs faute de texte des anciens (fiche int-01-01-07) ; al-ʿAdawī : « أَيْ تَرَدُّدٌ فِي الْحُكْمِ لِعَدَمِ نَصِّ الْمُتَقَدِّمِينَ ». Ibn ʿArafa : « ولا نص في الخف المغصوب وفيه نظر ».\n\nSur quoi porte l'hésitation ? Al-Kharashī : permettre ou interdire le mash, « الْأَوَّلُ لِلْقَرَافِيِّ، وَالثَّانِي لِابْنِ عَطَاءِ اللَّهِ ». Al-Dardīr : elle porte sur la validité (le mash suffit-il ?), non sur la permission, « إذْ لَا يَسَعُ أَحَدًا أَنْ يَقُولَ بِالْجَوَازِ » ; « وَالْمُعْتَمَدُ الْإِجْزَاءُ قِيَاسًا عَلَى الْمَاءِ الْمَغْصُوبِ » ; al-Dasūqī : « أَيْ مَعَ الْحُرْمَةِ ».\n\nAdh-Dhakhīra (al-Qarāfī) explique pourquoi l'usurpateur, à la différence du pèlerin, voit sa prière valide : « فَأَشْبَهَ الْمُتَوَضِّئَ بِالْمَاءِ الْمَغْصُوبِ وَالذَّابِحَ بِالسِّكِّينِ الْمَغْصُوبَةِ فَيَأْثَمَانِ وَتَصِحُّ أَفْعَالُهُمَا », alors que le pèlerin n'a jamais reçu la permission d'essuyer. Ibn ʿAṭāʾ Allāh (d'après at-Tawḍīḥ) refuse le mash dans les deux cas : « لأن المسح رخصة ». Ibn ʿArafa rejette les deux analogies : avec le pèlerin, « بأن حق الله آكد » ; avec l'eau, le couteau ou la maison usurpés, « يرد بأنها عزائم ».",
+    aqwal: [
+      { auteur: "Al-Qarāfī (d'après al-Kharashī ; adh-Dhakhīra)", avis: "Le mash sur le khouff usurpé vaut : l'usurpateur pèche, mais son acte est valide, comme celui qui fait ses ablutions avec une eau usurpée.", statut: "non_precise" },
+      { auteur: "Ibn ʿAṭāʾ Allāh (d'après al-Kharashī et at-Tawḍīḥ)", avis: "Pas de mash sur le khouff usurpé : le mash est une dispense, qu'on n'étend pas au désobéissant.", statut: "non_precise" },
+      { auteur: "Ibn ʿArafa", avis: "Aucun texte des anciens ; les deux analogies sont réfutables.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr / al-Dasūqī : « وَالْمُعْتَمَدُ الْإِجْزَاءُ » — le mash vaut, avec le péché de l'usurpation.",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Al-Ḥaṭṭāb ne commente pas ce segment dans le texte lu (569/320–321).",
+      "Al-Kharashī : si l'on essuie un khouff à soi porté par-dessus le khouff usurpé, le mash est permis sans divergence.",
+      "Al-ʿAdawī : on se demande si le khouff volé suit la même hésitation (« اُنْظُرْ الْخُفَّ الْمَسْرُوقَ »)."
+    ],
+    divergences: [
+      "Divergence — l'objet de l'hésitation. Al-Kharashī : permettre ou interdire le mash (« فَهَلْ يَجُوزُ مَسْحُهُ عَلَيْهِ أَوْ يُمْنَعُ »), al-Qarāfī contre Ibn ʿAṭāʾ Allāh. Al-Dardīr : « هَذَا هُوَ التَّحْقِيقُ خِلَافًا لِمَنْ قَالَ إنَّ التَّرَدُّدَ فِي الْجَوَازِ وَعَدَمِهِ » ; l'hésitation porte sur la validité, et l'avis retenu est qu'il vaut.",
+      "Complément — la prière. Al-Zurqānī : même si l'on interdit le mash, « فَإِنْ مَسَحَ وَصَلَّى فَالظَّاهِرُ صِحَّتُهَا »."
+    ],
+    exemple: "Un homme prend les bottes de son voisin sans permission, les met après ses ablutions, puis les essuie à la prière suivante. Il pèche en les portant ; selon l'avis retenu d'al-Dardīr, son mash vaut. Il doit rendre les bottes.",
+    erreurs_frequentes: [
+      "Croire que l'avis retenu permet de porter un khouff usurpé : le port reste interdit.",
+      "Croire que la prière faite avec ce mash est nulle selon l'avis retenu.",
+      "Confondre l'usurpateur et le pèlerin en état de sacralisation, dont le mash ne vaut pas."
+    ],
+    termes: [
+      { ar: "غَصْب", translit: "ghasb", def: "Usurpation : prendre le bien d'autrui sans droit, par la force ou sans son accord." },
+      { ar: "عَزِيمَة", translit: "ʿazîma", def: "Règle de base, obligation ordinaire, par opposition à la dispense (rukhsa) ; pluriel عَزَائِم." }
+    ],
+    quiz: [
+      { q: "Selon al-Dardīr, quel est l'avis retenu sur le mash d'un khouff usurpé ?",
+        choix: ["Il est permis et sans péché", "Il ne vaut pas", "Il ne vaut qu'en voyage", "Il vaut, avec le péché de l'usurpation"],
+        bonne: 3,
+        explication: "« وَالْمُعْتَمَدُ الْإِجْزَاءُ » ; al-Dasūqī : « أَيْ مَعَ الْحُرْمَةِ »." },
+      { q: "Selon al-Kharashī, qui permet le mash sur le khouff usurpé ?",
+        choix: ["Al-Qarāfī", "Ibn ʿAṭāʾ Allāh", "Ibn ʿArafa", "Ibn al-Qāsim"],
+        bonne: 0,
+        explication: "« الْأَوَّلُ لِلْقَرَافِيِّ، وَالثَّانِي لِابْنِ عَطَاءِ اللَّهِ »." },
+      { q: "Selon adh-Dhakhīra, à quoi ressemble l'usurpateur qui essuie le khouff ?",
+        choix: ["Au pèlerin en état de sacralisation", "À celui qui fait ses ablutions avec une eau usurpée : il pèche, mais son acte vaut", "Au voyageur en désobéissance", "À celui qui n'a pas d'intention"],
+        bonne: 1,
+        explication: "« فَيَأْثَمَانِ وَتَصِحُّ أَفْعَالُهُمَا »." },
+      { q: "Mise en situation : quelqu'un essuie le khouff qu'il a usurpé puis prie. Selon al-Zurqānī, même pour qui interdit ce mash, la prière :",
+        choix: ["Est nulle", "Doit être refaite dans le temps", "Est valide, apparemment", "Doit être refaite toujours"],
+        bonne: 2,
+        explication: "« فَإِنْ مَسَحَ وَصَلَّى فَالظَّاهِرُ صِحَّتُهَا »." }
+    ],
+    ref: { ouvrage: "al-Sharḥ al-kabīr (al-Dardīr) et Ḥāshiyat al-Dasūqī", tome: 1, pages: "144" },
+    alertes: [
+      "Limite du texte : « وَفِي خُفٍّ غُصِبَ تَرَدُّدٌ », que donnent le Mukhtaṣar seul (11355, p. 21), Ibn Ghāzī (14605, p. 44), al-Dardīr (21604/143), al-Kharashī (91, p. 180), al-Zurqānī (14297, p. 197) et al-Mawwāq (21611, p. 259 : « وَفِي غَصْبٍ », n° 468), manque au « ص » de Mawāhib (569/320) ; fiche rédigée d'après al-Dardīr / al-Dasūqī, `ref` sur al-Dardīr (n° 462).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 144 (Shamela 21604, page 143)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-08-13",
+    kitab: "tah", bab: "01", fasl: "08", ordre: 13,
+    titre: "Mettre le khouff pour le seul mash, ou pour dormir",
+    titre_ar: "وَلَا لَابِسٍ لِمُجَرَّدِ الْمَسْحِ أَوْ لِيَنَامَ وَفِيهَا يُكْرَهُ",
+    objectif: "Savoir qu'on n'essuie pas un khouff mis seulement pour s'épargner le lavage des pieds.",
+    matn: "وَلَا لَابِسٍ لِمُجَرَّدِ الْمَسْحِ أَوْ لِيَنَامَ وَفِيهَا يُكْرَهُ",
+    regle_pratique: "Celui qui met ses khouff seulement pour pouvoir les essuyer plus tard (par exemple la femme qui a du henné aux pieds, ou celui qui veut dormir puis essuyer au réveil) ne les essuie pas ; selon l'avis retenu, s'il les essuie, il refait sa prière toujours.",
+    qualification: {
+      hukm: "wajib",
+      nature: "shart",
+      effet_si_omis: "Al-Dardīr : « فَإِنْ مَسَحَ فِي الْجَمِيعِ أَعَادَ أَبَدًا » ; pour qui tient l'acte pour seulement déconseillé, il ne refait pas (Ibn ʿArafa)."
+    },
+    explication: "Al-Ḥaṭṭāb : « هَذَا رَاجِعٌ لِقَوْلِهِ بِلَا تَرَفُّهٍ » (fiche 08). Ibn al-Ḥājib donne l'exemple de la personne qui a mis du henné aux pieds et chausse ses khouff pour les essuyer. On comprend de Khalīl que ce mash n'est pas permis et ne suffit pas : « وَهُوَ الْمَشْهُورُ ذَكَرَهُ فِي التَّوْضِيحِ عَنْ ابْنِ رَاشِدٍ وَابْنِ هَارُونَ ».\n\n« وَفِيهَا يُكْرَهُ » : dans la Mudawwana, c'est déconseillé. Al-Ḥaṭṭāb : « وَظَاهِرُ كَلَامِ الشُّيُوخِ أَنَّ الْكَرَاهَةَ عَلَى بَابِهَا ». Il cite al-Bayān : trois avis, la riwâya de Muṭarrif d'après Mālik (pas permis), un avis qui le permet (Abū Isḥāq), et la Mudawwana (« لَا يُعْجِبُنِي ») : « وَهَذِهِ ثَلَاثَةُ أَقْوَالٍ الْمَنْعُ وَالْإِبَاحَةُ وَالْكَرَاهَةُ ». At-Tawḍīḥ en tire que, pour Ibn Rushd, l'avis répandu serait la réprobation, « وَهَذَا خِلَافُ مَا شَهَرَهُ ابْنُ رَاشِدٍ وَغَيْرُهُ ». Al-Ḥaṭṭāb conclut : « وَفِي كَلَامِ الْمُصَنِّفِ تَرْجِيحٌ لِلْقَوْلِ الْأَوَّلِ ».\n\nAl-Dardīr : le lâbis « pour le seul mash » est celui qui ne vise ni à suivre le Prophète, ni à se protéger d'un mal, ni ne le met par difficulté ; de même celui qui le met pour dormir, ou à cause du henné ; « فَإِنْ مَسَحَ فِي الْجَمِيعِ أَعَادَ أَبَدًا ». Sur la Mudawwana : « وَلَفْظُ الْأُمِّ لَا يُعْجِبُنِي » ; Abū Saʿīd (al-Barādhiʿī) l'a abrégée en « déconseillé », d'autres l'ont laissée telle quelle, « وَحَمَلَهَا بَعْضُهُمْ عَلَى الْمَنْعِ وَهُوَ الْمُعْتَمَدُ ».",
+    aqwal: [
+      { auteur: "Avis répandu, d'après Ibn Rāshid et Ibn Hārūn (at-Tawḍīḥ, cité par al-Ḥaṭṭāb)", avis: "Ce mash n'est pas permis et ne suffit pas.", statut: "mashhur" },
+      { auteur: "Muṭarrif d'après Mālik (al-Bayān, cité par al-Ḥaṭṭāb)", avis: "La femme qui met ses khouff pour essuyer sur le henné ne les essuie pas.", statut: "non_precise" },
+      { auteur: "Abū Isḥāq (at-Tūnisī) (al-Bayān, cité par al-Ḥaṭṭāb ; al-Mawwāq)", avis: "Elle peut les essuyer.", statut: "qawl" },
+      { auteur: "Mālik dans la Mudawwana (« لَا يُعْجِبُنِي »)", avis: "C'est déconseillé ; Ibn Rushd (d'après al-Kharashī) lit la Mudawwana dans ce sens, et Bahrām (d'après al-Mawwāq) dit qu'Ibn Rushd l'a déclaré répandu.", statut: "qawl" }
+    ],
+    muatamad: "Confirmé par al-Dardīr / al-Dasūqī : l'interdiction (« وَحَمَلَهَا بَعْضُهُمْ عَلَى الْمَنْعِ وَهُوَ الْمُعْتَمَدُ ») ; s'il essuie, il refait toujours.",
+    tarjih_hattab: "Il voit dans la formulation de Khalīl une préférence pour l'interdiction (« تَرْجِيحٌ لِلْقَوْلِ الْأَوَّلِ »).",
+    tanbihat: [
+      "Al-Ḥaṭṭāb : ce segment applique la condition « sans recherche du confort » de la fiche 08.",
+      "Al-Ḥaṭṭāb rapporte que les shaykhs semblent prendre « déconseillé » au sens propre, tout en retenant que Khalīl préfère l'interdiction."
+    ],
+    divergences: [
+      "Point à comparer — la lecture de la Mudawwana. Al-Dardīr : « وَلَفْظُ الْأُمِّ لَا يُعْجِبُنِي » ; al-Dasūqī : « وَفِيهَا يُكْرَهُ أَيْ فِي الْمُدَوَّنَةِ بِمَعْنَى مُخْتَصَرِهَا لَا الْأُمِّ » ; Ibn ʿArafa : « فقول البرادعي فيها: \"يكره\" متعقب ». Al-Ḥaṭṭāb cite la Mudawwana sous la forme « وَيُكْرَهُ لِلْمَرْأَةِ تَعْمَلُ الْحِنَّاءَ ».",
+      "Point à comparer — l'avis répandu. Ibn Rāshid et Ibn Hārūn (d'après at-Tawḍīḥ) : interdiction ; Bahrām (d'après al-Mawwāq) : « نَصُّ الْمُدَوَّنَةِ الْكَرَاهَةُ، وَشَهَرَهُ ابْنُ رُشْدٍ » ; al-Kharashī : « فَإِنْ فَعَلَ لَمْ يُجْزِهِ عَلَى الْمَشْهُورِ وَيُعِيدُ أَبَدًا ». Al-Dardīr retient l'interdiction."
+    ],
+    exemple: "Le soir, une femme met du henné aux pieds alors qu'elle est en état d'ablutions, puis chausse ses khouff pour pouvoir les essuyer à la prière de l'aube sans enlever le henné. Selon l'avis retenu, elle ne les essuie pas ; si elle le fait, elle refait sa prière.",
+    erreurs_frequentes: [
+      "Croire qu'on peut mettre ses khouff dans le seul but de ne pas laver ses pieds plus tard.",
+      "Croire que ce mash, s'il a eu lieu, est valable selon l'avis retenu.",
+      "Confondre ce cas avec celui qui porte ses khouff par habitude, pour suivre le Prophète, ou contre le froid : lui les essuie."
+    ],
+    termes: [
+      { ar: "خِضَاب", translit: "khidâb", def: "Teinture (des pieds ou des mains) au henné." }
+    ],
+    quiz: [
+      { q: "Selon al-Ḥaṭṭāb, ce segment est la conséquence de quelle condition ?",
+        choix: ["« Sans recherche du confort »", "« Cousu »", "« Pur »", "« Couvrant la partie obligatoire »"],
+        bonne: 0,
+        explication: "« هَذَا رَاجِعٌ لِقَوْلِهِ بِلَا تَرَفُّهٍ »." },
+      { q: "Selon al-Dardīr, quel est l'avis retenu ?",
+        choix: ["La simple réprobation", "La permission", "L'interdiction : s'il essuie, il refait toujours", "La permission en voyage"],
+        bonne: 2,
+        explication: "« وَحَمَلَهَا بَعْضُهُمْ عَلَى الْمَنْعِ وَهُوَ الْمُعْتَمَدُ »." },
+      { q: "Combien d'avis Ibn Rushd (al-Bayān) compte-t-il ?",
+        choix: ["Un", "Trois : interdiction, permission, réprobation", "Deux", "Quatre"],
+        bonne: 1,
+        explication: "« وَهَذِهِ ثَلَاثَةُ أَقْوَالٍ الْمَنْعُ وَالْإِبَاحَةُ وَالْكَرَاهَةُ »." },
+      { q: "Mise en situation : un homme en état d'ablutions met ses khouff avant de dormir, pour les essuyer au réveil. Selon al-Dardīr :",
+        choix: ["Il les essuie", "Il essuie un seul pied", "Il fait le tayammoum", "Il ne les essuie pas ; s'il le fait, il refait sa prière"],
+        bonne: 3,
+        explication: "« فَإِنْ مَسَحَ فِي الْجَمِيعِ أَعَادَ أَبَدًا »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "321–322" },
+    alertes: [
+      "Précisé (campagne de correction) : al-Ḥaṭṭāb cite la Mudawwana sous la forme « قَالَ فِيهَا وَيُكْرَهُ لِلْمَرْأَةِ … » ; al-Mawwāq (21611, p. 259) en donne le texte, « لَا يُعْجِبُنِي ذَلِكَ » et « لَا خَيْرَ فِيهِ », et Ibn ʿArafa (16968, p. 115) juge « يكره » propre à l'abrégé d'al-Barādhiʿī ; al-Ḥaṭṭāb cite donc l'abrégé (n° 467).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 144 (Shamela 21604, page 143)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-08-14",
+    kitab: "tah", bab: "01", fasl: "08", ordre: 14,
+    titre: "Laver le khouff au lieu de l'essuyer : déconseillé",
+    titre_ar: "وَكُرِهَ غَسْلُهُ",
+    objectif: "Savoir qu'il est déconseillé de laver le khouff à la place du mash, et quand ce lavage suffit.",
+    matn: "وَكُرِهَ غَسْلُهُ",
+    regle_pratique: "Il est déconseillé de laver le khouff au lieu de l'essuyer ; s'il le lave avec l'intention des ablutions, cela suffit, mais pas s'il le lave seulement pour en ôter la boue ou la saleté.",
+    qualification: {
+      hukm: "makruh",
+      nature: "adab",
+      effet_si_omis: "Aṭ-Ṭirāz (cité par al-Ḥaṭṭāb) : lavé pour ôter la boue, puis le mash oublié, cela ne suffit pas, il essuie et refait la prière."
+    },
+    explication: "Al-Ḥaṭṭāb cite aṭ-Ṭirāz : celui qui lave avec l'intention des ablutions, Ibn Ḥabīb dit que cela suffit et qu'il essuiera pour la suite ; ce n'est pas obligatoire, « فَاسْتُحِبَّ لَهُ الْإِعَادَةُ لِيَأْتِيَ بِالْمَقْصُودِ مَقْصُودًا لَا تَبَعًا ». Al-Kharashī donne deux raisons au caractère déconseillé : le lavage abîme le khouff, et le mash étant le premier degré du lavage, l'acte commandé n'est plus visé pour lui-même.\n\nFarʿ d'aṭ-Ṭirāz : celui qui essuie ou lave la boue de son khouff pour l'essuyer ensuite, puis oublie le mash, n'est pas quitte ; il essuie et refait la prière, car il n'avait pas l'intention de la purification, « وَإِنَّمَا نَوَى النَّظَافَةَ مِنْ الطِّينِ ». S'il visait à la fois la boue et les ablutions, « لَأَجْزَأَهُ عَلَى خِلَافٍ فِيهِ ». Al-Ḥaṭṭāb y voit la divergence connue sur celui qui lave une impureté de ses membres avec les deux intentions, « وَقَدْ تَقَدَّمَ أَنَّ الْمَشْهُورَ الْإِجْزَاءُ ».\n\nAl-Dardīr : « لِئَلَّا يُفْسِدَهُ، وَيُجْزِئُهُ إنْ نَوَى بِهِ أَنَّهُ بَدَلٌ عَنْ الْمَسْحِ أَوْ رَفْعِ الْحَدَثِ », même avec l'intention d'ôter la saleté, mais pas avec cette seule intention ; « فَإِنْ لَمْ يَنْوِ شَيْئًا فَأَسْتَظْهِرُ الْإِجْزَاءَ ». Al-Dasūqī : déconseillé même si le khouff a une déchirure qui permet le mash.",
+    aqwal: [
+      { auteur: "Ibn Ḥabīb (d'après aṭ-Ṭirāz, cité par al-Ḥaṭṭāb)", avis: "Le lavage avec l'intention des ablutions suffit ; il est recommandé de refaire le mash.", statut: "non_precise" },
+      { auteur: "Avis répandu (al-Ḥaṭṭāb, renvoi)", avis: "Le lavage qui vise à la fois l'impureté et le ḥadath suffit.", statut: "mashhur" },
+      { auteur: "Muṭarrif (an-Nawādir, cité par al-Ḥaṭṭāb)", avis: "Qui essuie pour atteindre la prière en comptant ôter le khouff et laver ensuite : cela suffit ; qui essuie en comptant ôter et laver au moment de la prière : cela ne suffit pas, il recommence les ablutions.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr / al-Dasūqī : le lavage est déconseillé ; il suffit avec l'intention du mash ou de la levée du ḥadath, pas avec la seule intention d'ôter la saleté.",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Ibn ʿArafa (cité par al-Ḥaṭṭāb) : ce qu'Ibn ʿAbd as-Salām rapporte d'Ibn Ḥabīb (le lavage pour une impureté, suivi de l'intention des ablutions, suffit) : « لَا أَعْرِفُهُ ».",
+      "An-Nawādir (cité par al-Ḥaṭṭāb) : celui qui essuie en comptant ôter le khouff et laver au moment de la prière recommence ses ablutions, comme s'il avait retardé exprès le lavage des pieds."
+    ],
+    divergences: [
+      "Concordance — l'intention de garder le mash pour la seule prière présente. Al-Ḥaṭṭāb (d'après an-Nawādir) : « فَذَلِكَ يُجْزِئُهُ » ; al-Dasūqī : « فَإِنَّهُ لَا يَضُرُّ كَمَا فِي ح ».",
+      "Complément — sans aucune intention. Al-Dardīr : « فَإِنْ لَمْ يَنْوِ شَيْئًا فَأَسْتَظْهِرُ الْإِجْزَاءَ » ; al-Zurqānī : celui qui n'a rien visé n'est pas quitte (« وَكَذَا إنْ لَمْ يَنْوِ شَيْئًا »)."
+    ],
+    exemple: "Un homme rentre avec des khouff couverts de boue. Il les passe sous l'eau pour les nettoyer, sans penser à ses ablutions, puis prie sans les essuyer : il n'est pas quitte, il les essuie et refait la prière. S'il les avait lavés avec l'intention de ses ablutions, cela aurait suffi, quoique ce soit déconseillé.",
+    erreurs_frequentes: [
+      "Croire que laver le khouff vaut mieux que l'essuyer.",
+      "Croire que nettoyer la boue du khouff remplace le mash, sans intention des ablutions.",
+      "Croire que le lavage avec l'intention des ablutions ne suffit pas."
+    ],
+    termes: [],
+    quiz: [
+      { q: "Selon al-Dardīr, pourquoi le lavage du khouff est-il déconseillé ?",
+        choix: ["Parce qu'il annule les ablutions", "Parce qu'il est interdit", "Pour ne pas abîmer le khouff", "Parce qu'il faut toujours le retirer"],
+        bonne: 2,
+        explication: "« لِئَلَّا يُفْسِدَهُ »." },
+      { q: "Selon Ibn Ḥabīb (d'après aṭ-Ṭirāz), le lavage fait avec l'intention des ablutions :",
+        choix: ["Suffit ; il est recommandé de refaire le mash ensuite", "Ne suffit pas", "Oblige à refaire la prière", "Annule le mash suivant"],
+        bonne: 0,
+        explication: "« فَاسْتُحِبَّ لَهُ الْإِعَادَةُ لِيَأْتِيَ بِالْمَقْصُودِ مَقْصُودًا لَا تَبَعًا »." },
+      { q: "Mise en situation : quelqu'un lave la boue de ses khouff pour les essuyer ensuite, puis oublie de les essuyer et prie. Selon aṭ-Ṭirāz :",
+        choix: ["Sa prière vaut", "Il essuie seulement", "Il refait seulement les ablutions", "Il essuie et refait la prière"],
+        bonne: 3,
+        explication: "« وَإِنَّمَا نَوَى النَّظَافَةَ مِنْ الطِّينِ »." },
+      { q: "Selon al-Dardīr, le lavage fait avec la seule intention d'ôter la saleté :",
+        choix: ["Suffit", "Ne suffit pas", "Suffit en voyage", "Suffit s'il est répété trois fois"],
+        bonne: 1,
+        explication: "Il suffit avec l'intention du mash ou de la levée du ḥadath, même jointe à celle d'ôter la saleté, pas avec celle-ci seule." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "322" },
+    alertes: [
+      "Précisé (campagne de correction) : la citation d'aṭ-Ṭirāz porte « إذَا غَسَلَ كَفَّيْهِ بِنِيَّةِ الْوُضُوءِ » ; adh-Dhakhīra (1717, p. 321), qui cite le même passage, a « فلو غسل بنية الوضوء », sans complément, et Ibn ʿArafa (16968, p. 117) « لو غسله ينوي مسحه » : il s'agit du khouff (lecture « خُفَّيْهِ » probable), non des mains (n° 465).",
+      "Non résolu : dans la citation d'an-Nawādir, « وَقَالَهُ ابْنُ الْمَاجِشُونِ وَعَبْدُ الْمَلِكِ وَأَصْبَغُ » nomme deux fois le même savant (ʿAbd al-Malik est Ibn al-Mājishūn) ; un nom a peut-être été altéré ; sans effet sur la règle (n° 466).",
+      "Vocalisation : « غَسْلُهُ » (le lavage) dans le « ص » et chez al-Kharashī ; « (غُسْلُهُ) » chez al-Dardīr et al-Dasūqī ; même sens (n° 469).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 144–145 (Shamela 21604, pages 143–144)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-08-14b",
+    kitab: "tah", bab: "01", fasl: "08", ordre: 14,
+    titre: "Répéter le mash : déconseillé",
+    titre_ar: "وَتَكْرَارُهُ",
+    objectif: "Savoir qu'on n'essuie le khouff qu'une fois, sans reprendre de l'eau nouvelle.",
+    matn: "وَتَكْرَارُهُ",
+    regle_pratique: "Il est déconseillé d'essuyer son khouff plusieurs fois au même moment avec une eau nouvelle ; une seule fois suffit, comme le veut la Sunna.",
+    qualification: {
+      hukm: "makruh",
+      nature: "adab",
+      effet_si_omis: "Le passage ne précise pas de conséquence ; c'est un simple caractère déconseillé."
+    },
+    explication: "Ce mot manque au « ص » de Mawāhib, et al-Ḥaṭṭāb ne le commente pas (voir les alertes) ; la fiche suit al-Dardīr / al-Dasūqī.\n\nAl-Dardīr : il est déconseillé de répéter le mash, « أَيْ الْمَسْحُ لِمُخَالَفَةِ السُّنَّةِ ». Si la main sèche au milieu du mash, « لَمْ يُجَدِّدْ لِلْعُضْوِ الَّذِي حَصَلَ فِيهِ الْجَفَافُ », mais il reprend de l'eau pour le pied suivant. Al-Dasūqī : le pronom renvoie au mash, non au khouff, sinon cela contredirait la permission d'essuyer un khouff porté sur un autre (fiche 04) ; la répétition visée est celle d'un même moment, « لَا فِي أَوْقَاتٍ », sinon cela contredirait la recommandation d'ôter le khouff chaque vendredi ; « وَمَحِلُّ كَرَاهَةِ التَّكْرَارِ إذَا كَانَ بِمَاءٍ جَدِيدٍ وَإِلَّا فَلَا كَرَاهَةَ ».\n\nAl-Kharashī : il est déconseillé de répéter le mash avec une eau nouvelle, et il note que l'ordre de Khalīl (« غَسْلُهُ وَتَكْرَارُهُ ») laisse croire que le pronom renvoie au lavage ; il aurait mieux valu placer « تَكْرَارُهُ » avant. Ibn Shās (d'après al-Mawwāq et Ibn ʿArafa) : « يكره الغسل والتكرار ».",
+    aqwal: [
+      { auteur: "Ibn Shās (d'après al-Mawwāq et Ibn ʿArafa)", avis: "Le lavage et la répétition sont déconseillés.", statut: "non_precise" },
+      { auteur: "Al-Dardīr", avis: "Si la main sèche au cours du mash, il ne reprend pas d'eau pour ce pied, mais pour le suivant.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr / al-Dasūqī : répéter le mash au même moment avec une eau nouvelle est déconseillé.",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Al-Ḥaṭṭāb ne commente pas ce mot dans le texte lu (569/321)."
+    ],
+    divergences: [
+      "Concordance — le renvoi du pronom. Al-Dasūqī : « أَيْ فَلَيْسَ الضَّمِيرُ عَائِدًا عَلَى الْخُفِّ » ; al-Kharashī : « فَالضَّمِيرُ فِي تَكْرَارِهِ لِلْمَسْحِ » ; al-Zurqānī : « لَا تَكْرَارُ الْخُفِّ »."
+    ],
+    exemple: "Un homme essuie ses khouff, puis, par scrupule, mouille de nouveau ses mains pour les essuyer une seconde fois : c'est déconseillé. Si sa main sèche avant d'avoir fini le pied droit, il termine ce pied sans reprendre d'eau, puis en reprend pour le pied gauche.",
+    erreurs_frequentes: [
+      "Essuyer le khouff deux ou trois fois comme on lave les membres trois fois.",
+      "Croire que la répétition visée interdit d'essuyer à chaque prière, ou de porter deux khouff l'un sur l'autre.",
+      "Reprendre de l'eau pour finir un pied dont la main a séché en cours de mash."
+    ],
+    termes: [],
+    quiz: [
+      { q: "Selon al-Dasūqī, quand la répétition du mash est-elle déconseillée ?",
+        choix: ["Toujours", "Seulement en voyage", "Seulement le vendredi", "Au même moment, avec une eau nouvelle"],
+        bonne: 3,
+        explication: "« وَمَحِلُّ كَرَاهَةِ التَّكْرَارِ إذَا كَانَ بِمَاءٍ جَدِيدٍ وَإِلَّا فَلَا كَرَاهَةَ »." },
+      { q: "Selon al-Dardīr, pourquoi la répétition est-elle déconseillée ?",
+        choix: ["Elle abîme le khouff", "Elle va contre la Sunna", "Elle annule le mash", "Elle gaspille le temps de la prière"],
+        bonne: 1,
+        explication: "« أَيْ الْمَسْحُ لِمُخَالَفَةِ السُّنَّةِ »." },
+      { q: "Mise en situation : la main sèche au milieu du mash du pied droit. Selon al-Dardīr :",
+        choix: ["Il reprend de l'eau pour le pied droit", "Il recommence tout le mash", "Il termine le pied droit sans eau nouvelle, puis en reprend pour le gauche", "Il lave le pied"],
+        bonne: 2,
+        explication: "« لَمْ يُجَدِّدْ لِلْعُضْوِ الَّذِي حَصَلَ فِيهِ الْجَفَافُ » ; il reprend de l'eau pour le pied suivant." },
+      { q: "Selon al-Dasūqī, le pronom de « تَكْرَارُهُ » renvoie :",
+        choix: ["Au mash", "Au khouff", "Au lavage", "Au pied"],
+        bonne: 0,
+        explication: "Sinon, cela contredirait la permission d'essuyer un khouff porté sur un autre." }
+    ],
+    ref: { ouvrage: "al-Sharḥ al-kabīr (al-Dardīr) et Ḥāshiyat al-Dasūqī", tome: 1, pages: "145" },
+    alertes: [
+      "Limite du texte : « وَتَكْرَارُهُ », que donnent le Mukhtaṣar seul (11355, p. 21), Ibn Ghāzī (14605, p. 44), al-Dardīr (21604/144), al-Kharashī (91, p. 180), al-Zurqānī (14297, p. 198) et al-Mawwāq (21611, p. 260), manque au « ص » de Mawāhib, qui a « وَكُرِهَ غَسْلُهُ » puis « وَتَتَبَّعَ غُضُونَهُ » (569/321) ; fiche rédigée d'après al-Dardīr / al-Dasūqī, `ref` sur al-Dardīr (n° 463).",
+      "Variante : le lemme d'al-Kharashī (91, p. 180) porte « وَتَكْرَارُهُ تَتَبُّعُ غُضُونِهِ », sans « وَ » devant le second mot ; les autres témoins l'ont ; sans effet (n° 470).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 145 (Shamela 21604, page 144)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-08-15",
+    kitab: "tah", bab: "01", fasl: "08", ordre: 15,
+    titre: "Suivre les plis du khouff : déconseillé",
+    titre_ar: "وَتَتَبُّعُ غُضُونِهِ",
+    objectif: "Savoir qu'on n'a pas à faire passer la main dans les plis du khouff.",
+    matn: "وَتَتَبُّعُ غُضُونِهِ",
+    regle_pratique: "En essuyant le khouff, on passe la main sur sa surface sans chercher à atteindre ses plis ; les suivre est déconseillé, car le mash repose sur l'allègement.",
+    qualification: {
+      hukm: "makruh",
+      nature: "adab",
+      effet_si_omis: "Le passage ne précise pas de conséquence."
+    },
+    explication: "Al-Ḥaṭṭāb : « قَالَ فِي الْمُدَوَّنَةِ: وَلَا يَتَتَبَّعُ الْغُضُونَ ». Aṭ-Ṭirāz rapporte un avis contraire : « وَعِنْدَ ابْنِ شَعْبَانَ يَتَتَبَّعُ », comme pour les plis du front dans le tayammoum, considérant qu'ils font partie de la surface obligatoire ; adh-Dhakhīra et at-Tawḍīḥ le reprennent. Mais, dans le chapitre du tayammoum, at-Tawḍīḥ, Ibn ʿArafa et an-Nawādir rapportent d'Ibn Shaʿbān (Ibn al-Qurṭī) qu'il ne suit pas les plis. Ibn Nājī dit de l'avis rapporté par al-Māzirī et Ibn Hārūn pour le tayammoum : « لَا أَعْرِفُهُ وَلَا يَتَخَرَّجُ هُنَا؛ لِأَنَّ الْمَسْحَ أَخَفُّ ». Al-Ḥaṭṭāb conclut : « فَمَا ذَكَرَهُ سَنَدٌ غَرِيبٌ ».\n\nAl-Dardīr : « أَيْ تَجْعِيدَاتِهِ إذْ الْمَسْحُ مَبْنِيٌّ عَلَى التَّخْفِيفِ ». Al-Mawwāq : les plis, « وَهُوَ تَكْسِيرُ أَعْلَاهُ ». Adh-Dhakhīra : « حُجَّةُ الْمَذْهَبِ أَنَّ الْغُضُونَ فِي حُكْمِ الْبَاطِنِ ».",
+    aqwal: [
+      { auteur: "La Mudawwana", avis: "On ne suit pas les plis.", statut: "non_precise" },
+      { auteur: "Ibn Shaʿbān (d'après aṭ-Ṭirāz)", avis: "On suit les plis, comme ceux du front dans le tayammoum.", statut: "qawl" }
+    ],
+    muatamad: "Confirmé par al-Dardīr / al-Dasūqī : suivre les plis est déconseillé, le mash reposant sur l'allègement.",
+    tarjih_hattab: "Il juge « غَرِيبٌ » l'avis qu'aṭ-Ṭirāz attribue à Ibn Shaʿbān, puisque d'autres rapportent de lui le contraire.",
+    tanbihat: [
+      "Al-Ḥaṭṭāb : un commentateur de la Risāla écrit « وَلَا يَتَتَبَّعُ الْغُضُونَ » comme si c'était dans la Risāla, « وَلَيْسَ هَذَا فِي الرِّسَالَةِ ».",
+      "Al-Ḥaṭṭāb : an-Nawādir nomme Ibn Shaʿbān « ابْنِ الْقُرْطِيِّ », avec ḍamma sur le qāf et sukūn sur le rāʾ."
+    ],
+    divergences: [
+      "Concordance — la raison. Al-Dardīr : « إذْ الْمَسْحُ مَبْنِيٌّ عَلَى التَّخْفِيفِ » ; Ibn Nājī (cité par al-Ḥaṭṭāb) : « لِأَنَّ الْمَسْحَ أَخَفُّ » ; al-Kharashī : « لِمُنَافَاتِهِ التَّخْفِيفَ »."
+    ],
+    exemple: "Une femme essuie ses bottes de cuir froissé au-dessus du pied : elle passe la main mouillée sur la surface, sans enfoncer les doigts dans chaque pli. C'est la manière prescrite ; chercher à atteindre chaque pli est déconseillé.",
+    erreurs_frequentes: [
+      "Chercher à mouiller chaque pli du khouff.",
+      "Croire que le mash exige d'atteindre toute la surface, plis compris, comme un lavage.",
+      "Croire qu'Ibn Shaʿbān tient sûrement pour l'obligation de suivre les plis : ce qu'on rapporte de lui varie."
+    ],
+    termes: [
+      { ar: "غُضُون", translit: "ghoudoûn", def: "Plis, froissures (du cuir du khouff, de la peau du front) ; singulier غَضْن." }
+    ],
+    quiz: [
+      { q: "Que dit la Mudawwana, citée par al-Ḥaṭṭāb, sur les plis du khouff ?",
+        choix: ["On les suit", "On ne les suit pas", "On les lave", "On les essuie trois fois"],
+        bonne: 1,
+        explication: "« قَالَ فِي الْمُدَوَّنَةِ: وَلَا يَتَتَبَّعُ الْغُضُونَ »." },
+      { q: "Selon al-Dardīr, pourquoi ne suit-on pas les plis ?",
+        choix: ["Le mash repose sur l'allègement", "Les plis sont impurs", "Les plis sont au-dessus des chevilles", "Le khouff serait abîmé"],
+        bonne: 0,
+        explication: "« إذْ الْمَسْحُ مَبْنِيٌّ عَلَى التَّخْفِيفِ »." },
+      { q: "Comment al-Ḥaṭṭāb juge-t-il l'avis qu'aṭ-Ṭirāz attribue à Ibn Shaʿbān ?",
+        choix: ["Répandu", "Retenu", "Étrange", "Le plus fort"],
+        bonne: 2,
+        explication: "« فَمَا ذَكَرَهُ سَنَدٌ غَرِيبٌ »." },
+      { q: "Mise en situation : en essuyant ses khouff, un homme s'applique à faire entrer l'eau dans chaque pli du cuir. Selon al-Dardīr :",
+        choix: ["C'est obligatoire", "C'est recommandé", "Cela annule le mash", "C'est déconseillé"],
+        bonne: 3,
+        explication: "« (وَ) كُرِهَ (تَتَبُّعُ غُضُونِهِ) »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "322" },
+    alertes: [
+      "Corrigé (campagne de correction) : le « ص » de Mawāhib (569/321) vocalise « وَتَتَبَّعَ غُضُونَهُ » (verbe : « et il suit ses plis »), contraire au commentaire d'al-Ḥaṭṭāb (« وَلَا يَتَتَبَّعُ الْغُضُونَ ») ; al-Dardīr (21604/144) « (وَ) كُرِهَ (تَتَبُّعُ غُضُونِهِ) », al-Kharashī (91, p. 180), al-Zurqānī (14297, p. 199) et al-Mawwāq (21611, p. 260) ont le nom, complément de « وَكُرِهَ » ; matn « وَتَتَبُّعُ غُضُونِهِ » (n° 464).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 145 (Shamela 21604, page 144)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-08-16",
+    kitab: "tah", bab: "01", fasl: "08", ordre: 16,
+    titre: "Le mash prend fin avec ce qui oblige au ghousl",
+    titre_ar: "وَبَطَلَ بِغُسْلٍ وَجَبَ",
+    objectif: "Savoir que tout ce qui oblige au ghousl met fin au mash, même avant le ghousl.",
+    matn: "وَبَطَلَ بِغُسْلٍ وَجَبَ",
+    regle_pratique: "Dès qu'il survient ce qui oblige au ghousl (rapport, émission de sperme, règles, lochies), on ne peut plus essuyer ses khouff, même avant de faire le ghousl ; on les ôte pour se laver. Les prières déjà faites avec le mash restent valides.",
+    qualification: {
+      hukm: "wajib",
+      nature: "mubtil",
+      effet_si_omis: "Al-Dardīr : il n'essuie plus, même pour les ablutions qu'il fait avant de dormir étant junub."
+    },
+    explication: "Al-Ḥaṭṭāb : « لَوْ قَالَ بِمُوجِبِ غُسْلٍ لَكَانَ أَحْسَنَ؛ لِأَنَّ الْبُطْلَانَ يَحْصُلُ بِمُوجِبِ الْغُسْلِ، وَإِنْ لَمْ يَغْتَسِلْ ».\n\nAl-Dardīr : le mash « est annulé », c'est-à-dire que sa règle prend fin, « وَإِنْ لَمْ يَغْتَسِلْ بِالْفِعْلِ فَلَا يَمْسَحُ إذَا أَرَادَ الْوُضُوءَ لِلنَّوْمِ وَهُوَ جُنُبٌ ». Al-Dasūqī : il ne s'agit pas de l'annulation du mash lui-même, « وَإِلَّا لَزِمَ بُطْلَانُ مَا فَعَلَ بِهِ مِنْ الصَّلَاةِ وَلَا قَائِلَ بِذَلِكَ ». Al-Kharashī : il aurait été plus juste de dire « jusqu'à » (« وَلَوْ أَتَى بِإِلَى لِيَكُونَ غَايَةً لِلْمَسْحِ كَانَ أَحْسَنَ »). Al-Mawwāq cite at-Talqīn : rien n'interrompt le mash « إلَّا حُدُوثُ مَا يُوجِبُ الْغَسْلَ أَوْ الْخَلْعَ ».",
+    aqwal: [
+      { auteur: "Al-Ḥaṭṭāb", avis: "C'est ce qui oblige au ghousl qui met fin au mash, même sans ghousl ; Khalīl aurait mieux dit « par ce qui oblige au ghousl ».", statut: "non_precise" },
+      { auteur: "At-Talqīn (d'après al-Mawwāq)", avis: "Rien n'interrompt le mash, sauf ce qui oblige au ghousl ou au retrait du khouff.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr / al-Dasūqī : ce qui oblige au ghousl met fin à la règle du mash, même avant le ghousl ; les prières déjà faites restent valides.",
+    tarjih_hattab: "Il propose de lire « par ce qui oblige au ghousl » (« لَوْ قَالَ بِمُوجِبِ غُسْلٍ لَكَانَ أَحْسَنَ »).",
+    tanbihat: [
+      "Al-Ḥaṭṭāb : l'annulation se produit dès la cause du ghousl, même si l'on ne s'est pas encore lavé."
+    ],
+    divergences: [
+      "Concordance — la remarque d'al-Ḥaṭṭāb. Al-Dardīr : « فَلَوْ قَالَ بِمُوجِبِ غُسْلٍ كَانَ أَظْهَرَ فِي إفَادَةِ الْمُرَادِ » ; al-Dasūqī : « وَلَوْ قَالَ الْمُصَنِّفُ وَبَطَلَ بِمُوجِبِ غُسْلٍ كَانَ أَوْلَى » ; al-Zurqānī reprend la phrase d'al-Ḥaṭṭāb, « قَالَهُ ح »."
+    ],
+    exemple: "Un homme qui porte ses khouff depuis le matin et les essuie à chaque prière a, la nuit, une émission de sperme. Il ne peut plus les essuyer : il les ôte et fait le ghousl. S'il veut seulement faire ses ablutions avant de se rendormir, il lave ses pieds. Ses prières de la veille restent valides.",
+    erreurs_frequentes: [
+      "Croire qu'on peut encore essuyer tant qu'on n'a pas fait le ghousl.",
+      "Croire que les prières faites avant avec le mash deviennent nulles.",
+      "Essuyer ses khouff pour les ablutions faites avant de dormir alors qu'on est junub."
+    ],
+    termes: [
+      { ar: "مُوجِبُ الْغُسْلِ", translit: "moûjibou l-ghousl", def: "Ce qui oblige au ghousl : rapport, émission de sperme, règles, lochies." }
+    ],
+    quiz: [
+      { q: "Selon al-Ḥaṭṭāb, à quel moment le mash prend-il fin ?",
+        choix: ["Dès que survient ce qui oblige au ghousl", "Seulement quand on fait le ghousl", "Au bout d'un jour", "À la prière suivante"],
+        bonne: 0,
+        explication: "« لِأَنَّ الْبُطْلَانَ يَحْصُلُ بِمُوجِبِ الْغُسْلِ، وَإِنْ لَمْ يَغْتَسِلْ »." },
+      { q: "Mise en situation : un homme devenu junub veut faire ses ablutions avant de dormir, sans faire le ghousl. Selon al-Dardīr :",
+        choix: ["Il essuie ses khouff", "Il fait le tayammoum", "Il n'a pas à faire d'ablutions", "Il n'essuie pas : il lave ses pieds"],
+        bonne: 3,
+        explication: "« فَلَا يَمْسَحُ إذَا أَرَادَ الْوُضُوءَ لِلنَّوْمِ وَهُوَ جُنُبٌ »." },
+      { q: "Selon al-Dasūqī, que deviennent les prières faites avec le mash avant la cause du ghousl ?",
+        choix: ["Elles sont nulles", "Elles restent valides", "Elles sont à refaire dans le temps", "Seule la dernière est nulle"],
+        bonne: 1,
+        explication: "« وَإِلَّا لَزِمَ بُطْلَانُ مَا فَعَلَ بِهِ مِنْ الصَّلَاةِ وَلَا قَائِلَ بِذَلِكَ »." },
+      { q: "Qu'aurait-il mieux valu dire, selon al-Ḥaṭṭāb ?",
+        choix: ["« Par le ghousl fait »", "« Par la nuit »", "« Par ce qui oblige au ghousl »", "« Par le retrait d'un khouff »"],
+        bonne: 2,
+        explication: "« لَوْ قَالَ بِمُوجِبِ غُسْلٍ لَكَانَ أَحْسَنَ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "322" },
+    alertes: [
+      "Vocalisation : « بِغُسْلٍ » dans le « ص » et chez al-Dardīr ; « بِغَسْلٍ » chez al-Kharashī (91, p. 181) ; même sens.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 145 (Shamela 21604, page 144)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-08-17",
+    kitab: "tah", bab: "01", fasl: "08", ordre: 17,
+    titre: "Le khouff qui se déchire après le mash",
+    titre_ar: "وَبِخَرْقِهِ كَثِيرًا",
+    objectif: "Savoir quoi faire quand le khouff essuyé se déchire beaucoup.",
+    matn: "وَبِخَرْقِهِ كَثِيرًا",
+    regle_pratique: "Si, après l'avoir essuyé, le khouff se déchire d'un tiers du pied ou plus, on l'ôte aussitôt (avec l'autre) et on lave ses pieds, sans refaire tout le reste des ablutions ; si cela arrive pendant la prière, on l'interrompt.",
+    qualification: {
+      hukm: "wajib",
+      nature: "mubtil",
+      effet_si_omis: "Al-Dasūqī : s'il tarde par oubli ou incapacité, il complète et lave ses pieds ; s'il tarde exprès et longtemps, il recommence les ablutions ; Ibn Rushd (d'après al-Mawwāq) : s'il tarde, ses ablutions sont annulées."
+    },
+    explication: "Al-Ḥaṭṭāb renvoie à la limite déjà vue entre petite et grande déchirure (fiche 10) : si le khouff se déchire beaucoup, « نَزَعَهُ مَكَانَهُ وَغَسَلَ رِجْلَيْهِ فَإِنْ كَانَ فِي صَلَاةٍ قَطَعَهَا », d'après at-Tawḍīḥ et ash-Shāmil. At-Tawḍīḥ le rapporte d'Ibn al-Qāsim dans al-ʿUtbiyya, et en déduit : « وعليه فلو انخرق في الصلاة لقطع ».\n\nAl-Dardīr : la grande déchirure est d'un tiers du pied ou plus, « وَإِنْ بِشَكٍّ » ; il l'ôte aussitôt, lave ses pieds, et ne refait pas ses ablutions ; en prière, il l'interrompt. « فَلَيْسَ هَذَا مُكَرَّرًا مَعَ قَوْلِهِ سَابِقًا وَمُخَرَّقُ قَدْرِ الثُّلُثِ لِأَنَّ ذَلِكَ فِي الِابْتِدَاءِ وَهَذَا فِي الدَّوَامِ ». Al-Dasūqī : « فَإِنْ لَمْ يُبَادِرْ وَتَرَاخَى نِسْيَانًا أَوْ عَجْزًا بَنَى وَغَسَلَ رِجْلَيْهِ مُطْلَقًا وَإِنْ كَانَ عَمْدًا بَنَى مَا لَمْ يُطِلْ فَإِنْ طَالَ ابْتَدَأَ الْوُضُوءَ » ; en prière, « وَيَبْتَدِئُ الصَّلَاةَ مِنْ أَوَّلِهَا ».\n\nAl-Mawwāq cite l'audition d'Abū Zayd : celui qui a essuyé et prié le ẓuhr, puis dont le khouff se déchire avant le ʿaṣr, « فَإِنَّهُ يَنْزِعُ خُفَّيْهِ مَعًا وَيَغْسِلُ رِجْلَيْهِ وَلَا يُعِيدُ الْوُضُوءَ » ; Ibn Rushd : « فَإِنْ أَخَّرَ خَلْعَهُمَا حِينَ انْخَرَقَ الْخُفُّ انْتَقَضَ وُضُوءُهُ ».",
+    aqwal: [
+      { auteur: "Ibn al-Qāsim (al-ʿUtbiyya, d'après at-Tawḍīḥ) ; audition d'Abū Zayd (d'après al-Mawwāq)", avis: "Il ôte ses khouff et lave ses pieds aussitôt, sans refaire les ablutions.", statut: "non_precise" },
+      { auteur: "Khalīl dans at-Tawḍīḥ (cité par al-Ḥaṭṭāb)", avis: "Si la déchirure survient pendant la prière, il l'interrompt.", statut: "non_precise" },
+      { auteur: "Ibn Rushd (d'après al-Mawwāq)", avis: "S'il tarde à les ôter, ses ablutions sont annulées.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr / al-Dasūqī : il ôte aussitôt le khouff, lave ses pieds sans refaire ses ablutions, et interrompt la prière s'il y est ; s'il tarde exprès et longtemps, il recommence les ablutions.",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Al-Ḥaṭṭāb : la limite de la grande déchirure est celle déjà exposée (fiche 10)."
+    ],
+    divergences: [
+      "Concordance — ôter les deux khouff. Al-Kharashī : « فَإِنَّهُ يَنْزِعُ خُفَّيْهِ مَعًا » ; l'audition d'Abū Zayd (d'après al-Mawwāq), même texte.",
+      "Point à comparer — le retard. Ibn Rushd (d'après al-Mawwāq) : s'il tarde, « انْتَقَضَ وُضُوءُهُ » ; al-Dasūqī distingue : par oubli ou incapacité il complète, exprès il complète tant que le délai n'est pas long."
+    ],
+    exemple: "Un homme essuie ses khouff pour le ẓuhr. Pendant la prière du ʿaṣr, la semelle de l'un se déchire largement. Il interrompt la prière, ôte les deux khouff aussitôt, lave ses pieds, puis recommence la prière depuis le début, sans refaire le reste de ses ablutions.",
+    erreurs_frequentes: [
+      "Finir la prière malgré la déchirure, ou garder le khouff jusqu'à la prière suivante.",
+      "Croire qu'il faut refaire toutes les ablutions alors qu'on ôte le khouff aussitôt.",
+      "Ne retirer que le khouff déchiré et garder l'autre essuyé."
+    ],
+    termes: [
+      { ar: "دَوَام", translit: "dawâm", def: "Ce qui survient en cours de route, après le début (ici après le mash), par opposition à الِابْتِدَاء, le début." }
+    ],
+    quiz: [
+      { q: "Selon al-Ḥaṭṭāb, que fait celui dont le khouff se déchire beaucoup après le mash ?",
+        choix: ["Il continue à l'essuyer", "Il refait toutes ses ablutions", "Il fait le tayammoum", "Il l'ôte aussitôt et lave ses pieds"],
+        bonne: 3,
+        explication: "« نَزَعَهُ مَكَانَهُ وَغَسَلَ رِجْلَيْهِ »." },
+      { q: "Mise en situation : la déchirure survient pendant la prière. Selon al-Ḥaṭṭāb (d'après at-Tawḍīḥ et ash-Shāmil) :",
+        choix: ["Il termine sa prière", "Il l'interrompt", "Il la termine puis la refait", "Il la termine assis"],
+        bonne: 1,
+        explication: "« فَإِنْ كَانَ فِي صَلَاةٍ قَطَعَهَا »." },
+      { q: "Selon al-Dardīr, en quoi ce segment diffère-t-il de la fiche 10 (le khouff déchiré) ?",
+        choix: ["Il vise la déchirure qui survient après le mash, la fiche 10 celle du début", "Il vise une petite déchirure", "Il ne concerne que les femmes", "Il n'y a aucune différence"],
+        bonne: 0,
+        explication: "« لِأَنَّ ذَلِكَ فِي الِابْتِدَاءِ وَهَذَا فِي الدَّوَامِ »." },
+      { q: "Selon al-Dasūqī, celui qui tarde exprès et longtemps à ôter le khouff déchiré :",
+        choix: ["Lave seulement ses pieds", "Essuie de nouveau", "Recommence ses ablutions", "Ne fait rien"],
+        bonne: 2,
+        explication: "« وَإِنْ كَانَ عَمْدًا بَنَى مَا لَمْ يُطِلْ فَإِنْ طَالَ ابْتَدَأَ الْوُضُوءَ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "322–323" },
+    alertes: [
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 145 (Shamela 21604, page 144)."
+    ],
+    verification: "verifie"
   }
 
-  /* FIN-UNITE-58 */
+  /* FIN-UNITE-59 */
 ]);
