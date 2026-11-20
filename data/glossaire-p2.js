@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.63
+/* Données — Glossaire, partie 2 — v1.64
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -38,7 +38,8 @@
    v1.60 : 5 termes de l'unité 56 (tah-01-07-29 à -34).
    v1.61 : 10 termes de l'unité 57 (tah-01-08-01 à -05b).
    v1.62 : 14 termes de l'unité 58 (tah-01-08-06 à -12).
-   v1.63 : 5 termes de l'unité 59 (tah-01-08-12b à -17). */
+   v1.63 : 5 termes de l'unité 59 (tah-01-08-12b à -17).
+   v1.64 : 7 termes de l'unité 60 (tah-01-08-18 à -23). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -445,6 +446,13 @@ App.data.ajouterTermes([
   { ar: "غَصْب", translit: "ghasb", def: "Usurpation : prendre le bien d'autrui sans droit, par la force ou sans son accord." },
   { ar: "عَزِيمَة", translit: "ʿazîma", def: "Règle de base, obligation ordinaire, par opposition à la dispense (rukhsa) ; pluriel عَزَائِم." },
   { ar: "مُوجِبُ الْغُسْلِ", translit: "moûjibou l-ghousl", def: "Ce qui oblige au ghousl : rapport, émission de sperme, règles, lochies." },
-  { ar: "دَوَام", translit: "dawâm", def: "Ce qui survient en cours de route, après le début (ici après le mash), par opposition à الِابْتِدَاء, le début." }
+  { ar: "دَوَام", translit: "dawâm", def: "Ce qui survient en cours de route, après le début (ici après le mash), par opposition à الِابْتِدَاء, le début." },
+  { ar: "سَاقُ الْخُفِّ", translit: "sâqou l-khouff", def: "La tige du khouff : la partie qui couvre la jambe au-dessus des chevilles." },
+  { ar: "مُبَادَرَة", translit: "moubâdara", def: "Le fait de se hâter : faire aussitôt, sans délai, ce qui est demandé (ici laver les pieds ou essuyer le khouff de dessous)." },
+  { ar: "الْأَعْلَيَانِ", translit: "al-aʿlayâni", def: "Les deux khouff du dessus, chez celui qui porte un khouff sur un autre ; ceux de dessous sont الْأَسْفَلَانِ." },
+  { ar: "بَدَلِيَّة", translit: "badaliyya", def: "Le fait de tenir lieu d'autre chose : le khouff essuyé remplace le pied lavé." },
+  { ar: "تَمْزِيق", translit: "tamzîq", def: "Le fait de déchirer, de mettre en pièces (ici le khouff qu'on ne peut ôter)." },
+  { ar: "الْوَقْتُ الْمُخْتَارُ", translit: "al-waqtou l-moukhtâr", def: "Le temps « choisi » d'une prière, par opposition au temps de nécessité (al-waqt ad-darourî) qui le suit." },
+  { ar: "غُسْلُ الْجُمُعَةِ", translit: "ghouslou l-joumouʿa", def: "Le grand lavage fait le vendredi pour la prière du vendredi." }
 /* FIN-GLOSSAIRE */
 ]);

@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.52 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.53 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -95,7 +95,10 @@
           matn complet (n° 447, 449, 452, 454, 457, 458) ; titres précisés ; faṣl tah-01-08 : 30 → 31 segments (unité 58).
    v1.52 : tah-01-08-12b (« وَلَا مُحْرِمٌ لَمْ يُضْطَرَّ », n° 461), -12c (« وَفِي خُفٍّ غُصِبَ تَرَدُّدٌ », n° 462) et -14b
           (« وَتَكْرَارُهُ », n° 463), absents du « ص », ajoutés ; « وَتَتَبَّعَ غُضُونَهُ » → « وَتَتَبُّعُ غُضُونِهِ » (n° 464) ;
-          titres de -13 à -17 précisés ; faṣl tah-01-08 : 31 → 34 segments (unité 59). */
+          titres de -13 à -17 précisés ; faṣl tah-01-08 : 31 → 34 segments (unité 59).
+   v1.53 : tah-01-08-18 « لِسَاقِ خُفِّهِ » (n° 472) ; -20 découpé en -20a et -20b, titre_ar complété et corrigé d'après le matn
+          complet (« وَإِنْ نَزَعَهُمَا أَوْ أَعْلَيَيْهِ أَوْ أَحَدَهُمَا بَادَرَ لِلْأَسْفَلِ », n° 473, 474) ; titres de -18 à -22 précisés ;
+          faṣl tah-01-08 : 34 → 35 segments (unité 60). */
 App.data.definirPlan({
   kutub: [
     {
@@ -608,7 +611,7 @@ App.data.definirPlan({
                 { id: "tah-01-07-34", titre: "Les ablutions valent ghousl pour leurs membres", titre_ar: "وَغَسْلُ الْوُضُوءِ عَنْ غُسْلِ مَحِلِّهِ وَلَوْ نَاسِيًا لِجَنَابَتِهِ كَلُمْعَةٍ مِنْهَا وَإِنْ عَنْ جَبِيرَةٍ" } /* p. 318 ; fin absente du « ص » (n° 431, v1.49) */
               ]
             },
-            /* tah-01-08 — t. 1, p. 318–325 (Shamela 569, pages 317–324) — 34 segments du matn (v1.52) */
+            /* tah-01-08 — t. 1, p. 318–325 (Shamela 569, pages 317–324) — 35 segments du matn (v1.53) */
             {
               id: "tah-01-08",
               titre: "Le mash sur les khouff",
@@ -638,12 +641,13 @@ App.data.definirPlan({
                 { id: "tah-01-08-15", titre: "Suivre les plis du khouff : déconseillé", titre_ar: "وَتَتَبُّعُ غُضُونِهِ" }, /* p. 322 ; « وَتَتَبُّعُ غُضُونِهِ » (n° 464, v1.52) */
                 { id: "tah-01-08-16", titre: "Le mash prend fin avec ce qui oblige au ghousl", titre_ar: "وَبَطَلَ بِغُسْلٍ وَجَبَ" }, /* p. 322 */
                 { id: "tah-01-08-17", titre: "Le khouff qui se déchire après le mash", titre_ar: "وَبِخَرْقِهِ كَثِيرًا" }, /* p. 322–323 */
-                { id: "tah-01-08-18", titre: "… en retirant la plus grande partie du pied", titre_ar: "وَبِنَزْعِ أَكْثَرِ رِجْلٍ لِسَاقِ خُفٍّ" }, /* p. 323 */
+                { id: "tah-01-08-18", titre: "Le pied remonté dans la tige du khouff", titre_ar: "وَبِنَزْعِ أَكْثَرِ رِجْلٍ لِسَاقِ خُفِّهِ" }, /* p. 323 ; « لِسَاقِ خُفِّهِ » (n° 472, v1.53) */
                 { id: "tah-01-08-19", titre: "Pas le talon", titre_ar: "لَا الْعَقِبِ" }, /* p. 323 */
-                { id: "tah-01-08-20", titre: "… ou l'un des deux", titre_ar: "أَوْ أَحَدِهِمَا" }, /* p. 323 */
+                { id: "tah-01-08-20a", titre: "Ôter les khouff après le mash : se hâter", titre_ar: "وَإِنْ نَزَعَهُمَا أَوْ أَعْلَيَيْهِ أَوْ أَحَدَهُمَا بَادَرَ لِلْأَسْفَلِ" }, /* p. 323 ; début et fin absents du « ص », « أَحَدَهُمَا » (n° 473, 474, v1.53) */
+                { id: "tah-01-08-20b", titre: "Remettre le khouff du dessus ; le mash ne lève pas le ḥadath", titre_ar: "وَإِنْ نَزَعَهُمَا أَوْ أَعْلَيَيْهِ أَوْ أَحَدَهُمَا بَادَرَ لِلْأَسْفَلِ" }, /* p. 323 (v1.53) */
                 { id: "tah-01-08-21", titre: "Comme pour la continuité", titre_ar: "كَالْمُوَالَاةِ" }, /* p. 323 */
-                { id: "tah-01-08-22", titre: "Un pied retiré, l'autre coincé, temps court : plusieurs avis", titre_ar: "وَإِنْ نَزَعَ رِجْلًا وَعَسُرَتْ الْأُخْرَى وَضَاقَ …" }, /* p. 324 */
-                { id: "tah-01-08-23", titre: "Recommandé : le retirer chaque vendredi", titre_ar: "وَنُدِبَ نَزْعُهُ كُلَّ جُمُعَةٍ" }, /* p. 324 */
+                { id: "tah-01-08-22", titre: "Un pied ôté, l'autre coincé, le temps presse : trois avis", titre_ar: "وَإِنْ نَزَعَ رِجْلًا وَعَسُرَتْ الْأُخْرَى وَضَاقَ …" }, /* p. 324 ; « أَوْ مَسْحِهِ » (n° 479, v1.53) */
+                { id: "tah-01-08-23", titre: "Recommandé : ôter le khouff chaque vendredi", titre_ar: "وَنُدِبَ نَزْعُهُ كُلَّ جُمُعَةٍ" }, /* p. 324 */
                 { id: "tah-01-08-24", titre: "Manière : main droite sur le bout des orteils", titre_ar: "وَوَضَعَ يُمْنَاهُ عَلَى طَرَفِ أَصَابِعِهِ وَيُسْرَاهُ …" }, /* p. 324 */
                 { id: "tah-01-08-25", titre: "La main gauche : de même ou dessus ? (ta'wîlân)", titre_ar: "وَهَلْ الْيُسْرَى كَذَلِكَ أَوْ الْيُسْرَى فَوْقَهَا؟ …" }, /* p. 324 */
                 { id: "tah-01-08-26", titre: "Essuyer le dessus et le dessous", titre_ar: "وَمَسَحَ أَعْلَاهُ وَأَسْفَلَهُ" }, /* p. 324 */
