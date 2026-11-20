@@ -21,16 +21,16 @@ Comparaison préalable du « ص » avec le Mukhtaṣar seul (11355, p. 20), Ibn 
 
 ## Vérification (étape 6)
 
-1. **Traçabilité.** 136 fragments arabes cités (`frags.py`, maxmots 17). Chaque fragment a été relu, en rédaction, sur le texte brut des pages chargées dans le navigateur (569/317–319, 321, 323 ; 21604/140–141 ; 91/175–178 ; 14605/43 ; 11355/20 ; 14442/218–219, 226 ; 16968/113, 116 ; 21751/58, 151–152 ; 21611/253–255). Trois corrections avant livraison : « وَالْأَخَوَيْنِ » (و collé dans la source), la citation d'al-Kharashī sur la résidence coupée par « … » (lemme intercalé), « الْمُسَامَحَةِ ». **Contrôle mécanique par empreintes en attente** : la liaison avec l'ordinateur s'est coupée juste avant l'appel de `__fcheck` (comme à l'unité 38). À faire en début de séance suivante, voir ci-dessous.
+1. **Traçabilité.** 136 fragments arabes cités (`frags.py`, maxmots 17). Chaque fragment a été relu, en rédaction, sur le texte brut des pages chargées dans le navigateur (569/317–319, 321, 323 ; 21604/140–141 ; 91/175–178 ; 14605/43 ; 11355/20 ; 14442/218–219, 226 ; 16968/113, 116 ; 21751/58, 151–152 ; 21611/253–255). Trois corrections avant livraison : « وَالْأَخَوَيْنِ » (و collé dans la source), la citation d'al-Kharashī sur la résidence coupée par « … » (lemme intercalé), « الْمُسَامَحَةِ ». **Contrôle mécanique par empreintes fait le 2026-11-20, en début d'unité 58** (la liaison s'était coupée juste avant l'appel de `__fcheck`) : 136 fragments sur 136 retrouvés, voir ci-dessous.
 2. **Attributions.** Sharḥ d'al-Dardīr et ḥāshiya d'al-Dasūqī séparés par « ـ[حاشية الدسوقي] » sur 21604/140–141 ; al-Kharashī et al-ʿAdawī séparés par « ـ[حاشية العدوي] » sur 91/175–177. Sources des citations d'al-Ḥaṭṭāb retrouvées : al-Bayān (21751, p. 151–152 : nawâzil de Saḥnūn ; n° 443), at-Tawḍīḥ (14442/219 : le jawrab, n° 441 ; 14442/226 : an-Nawâdir et al-Bājī, n° 442), Ibn ʿArafa (16968/116 : « قلت: يحتمل للمسح أوله وبعده »). Fin de la citation d'Ibn ʿAbd as-Salām incertaine (n° 444). Préférences propres d'al-Ḥaṭṭāb : 02 (« قُلْتُ … وَهَذَا وَاضِحٌ ») et 04 (« وَمَا قَالَهُ صَاحِبُ الطِّرَازِ ظَاهِرٌ ») ; en 05, « فَظَاهِرُ هَذَا … فَتَأَمَّلْهُ » est rapporté dans l'explication, non comme préférence.
 3. **Statuts.** « جَوَازًا أَيْ عَلَى الْمَشْهُورِ كَمَا قَالَ ابْنُ عَرَفَةَ » (01) et « والمشهور الأولى » d'Ibn ʿArafa (02b) → `mashhur`. « الْمَذْهَبُ » (aṭ-Ṭirāz en 02, Ibn Marzūq en 02b, al-Dasūqī en 04b) et « وهو الصواب » (Ibn Yūnus, 03) rapportés sans statut d'école (`non_precise`, mot cité). Muʿtamad confirmé par al-Dardīr / al-Dasūqī pour les huit fiches.
 4. **Croisement.** Aucune mention de « ح » ni de « خِلَافًا لِـ » visant ces segments dans la ḥāshiya de 21604/140–141 (la seule, « خِلَافًا لعبق », porte sur « وَسَتَرَ مَحَلَّ الْفَرْضِ », unité 58 ; « اُنْظُرْ ح » de 21604/142 porte sur « بِطَهَارَةِ مَاءٍ », unité 58). Sigle développé : شب (ash-Shabrakhītī, fiche 03). Divergence : 05 (le résident : al-Kharashī contre al-ʿAdawī, al-Dardīr, al-Dasūqī). Points à comparer : 02 (fréquence du sang), 02b (ordre des avis de Mālik : al-Bayān contre at-Tawḍīḥ), 03 (matière du jawrab), 04b (la boue du dessous : al-Dardīr / al-Dasūqī contre al-Kharashī, la Mudawwana et ʿAbd al-Wahhāb d'après al-Mawwāq). Concordances et compléments ailleurs.
 5. **Langue.** Matn vocalisé d'après le « ص », Ibn Ghāzī, al-Dardīr et al-Kharashī (variantes n° 439, 440, 445, 446). 10 termes nouveaux : عُذْر, مُسْتَحَاضَة, حَضَر, سَفَر, جُرْمُوق, مُجَلَّد, لَفَائِف, طِين, مِهْمَاز, تَوْقِيت. « حَدّ » n'est pas mis en terme : il est déjà défini dans `glossaire.js` (figé) au sens de « peine légale » (voir Points ouverts).
 6. **Compréhension.** Chaque `regle_pratique` se lit seule ; 01, 02 et 02b disent qui peut essuyer et où ; 03 et 04 ce qu'on essuie ; 04b, 05 et 05b l'écran, son exception et la durée.
 
-**Résultat** : les huit fiches passent à `verifie` (aucune alerte bloquante ; la relecture des fragments a été faite à la main en rédaction, le contrôle mécanique reste à faire). Alertes non bloquantes : n° 436 à 438 (limites du texte), n° 439 (corrigé), n° 440 à 443, 445, 446 (précisés), n° 444 (non résolu, sans effet sur les règles).
+**Résultat** : les huit fiches passent à `verifie` (aucune alerte bloquante ; relecture des fragments à la main en rédaction, puis contrôle mécanique : 136 / 136). Alertes non bloquantes : n° 436 à 438 (limites du texte), n° 439 (corrigé), n° 440 à 443, 445, 446 (précisés), n° 444 (non résolu, sans effet sur les règles).
 
-## Contrôle des citations par empreintes (en attente)
+## Contrôle des citations par empreintes (fait le 2026-11-20 : 136 / 136)
 
 Dans le navigateur, sur `https://shamela.ws/`, redéfinir les fonctions du §3 de `docs/reprise.md`, charger les pages puis lancer :
 
@@ -42,6 +42,8 @@ __fcheck(['569/317','569/318','569/319','569/321','569/323','21604/140','21604/1
 ```
 
 Empreintes : extraire la partie de l'unité (`python3 -c "s=open('data/lecons/tah/tah-01-p27.js').read(); open('/tmp/u57.js','w').write(s[s.index('/* FIN-UNITE-56 */'):s.index('/* FIN-UNITE-57 */')])"`), puis `python3 docs/outils/frags.py /tmp/u57.js > /tmp/f.json` et `python3 docs/outils/fh.py /tmp/f.json` (136 fragments, maxmots 17). Résultat attendu : aucun manquant (les fragments à « … » sont scindés par `frags.py`).
+
+Résultat (2026-11-20, début de l'unité 58) : **136 fragments sur 136 retrouvés**, aucun manquant.
 
 ## Quiz
 

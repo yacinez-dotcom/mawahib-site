@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.61
+/* Données — Glossaire, partie 2 — v1.62
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -36,7 +36,8 @@
    v1.58 : 5 termes de l'unité 54 (tah-01-07-17 à -22).
    v1.59 : 7 termes de l'unité 55 (tah-01-07-23 à -28).
    v1.60 : 5 termes de l'unité 56 (tah-01-07-29 à -34).
-   v1.61 : 10 termes de l'unité 57 (tah-01-08-01 à -05b). */
+   v1.61 : 10 termes de l'unité 57 (tah-01-08-01 à -05b).
+   v1.62 : 14 termes de l'unité 58 (tah-01-08-06 à -12). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -424,6 +425,20 @@ App.data.ajouterTermes([
   { ar: "لَفَائِف", translit: "lafâ'if", def: "Bandes de tissu enroulées autour du pied." },
   { ar: "طِين", translit: "tîn", def: "Boue, terre mouillée." },
   { ar: "مِهْمَاز", translit: "mihmâz", def: "Éperon : pièce de fer fixée au khouff du cavalier pour piquer la monture ; pluriel مَهَامِيز." },
-  { ar: "تَوْقِيت", translit: "tawqît", def: "Fixation d'une durée ou d'un moment." }
+  { ar: "تَوْقِيت", translit: "tawqît", def: "Fixation d'une durée ou d'un moment." },
+  { ar: "لُبَد", translit: "loubad", def: "Feutre (pluriel de لِبْدَة)." },
+  { ar: "خَرْز", translit: "kharz", def: "Couture du cuir au fil." },
+  { ar: "رَسْرَاس", translit: "rasrâs", def: "Colle ; ici, ce qui sert à coller le cuir au lieu de le coudre." },
+  { ar: "مُرُوءَة", translit: "mouroû'a", def: "Bonne tenue, dignité : la conduite qu'on attend d'une personne respectable (pluriel مُرُوآت)." },
+  { ar: "تَرَفُّه", translit: "taraffouh", def: "Recherche du confort : faire une chose pour sa commodité, sans besoin." },
+  { ar: "طَهَارَةٌ تُرَابِيَّة", translit: "tahâratoun tourâbiyya", def: "Purification par la terre : le tayammoum." },
+  { ar: "عِصْيَان", translit: "ʿisyân", def: "Désobéissance à Dieu : commettre un interdit." },
+  { ar: "آبِق", translit: "âbiq", def: "Esclave en fuite." },
+  { ar: "عَاقّ", translit: "ʿâqq", def: "Enfant rebelle envers ses parents." },
+  { ar: "تَتَابُعُ الْمَشْيِ", translit: "tatâbouʿou l-machy", def: "Pouvoir marcher de façon suivie dans le khouff, selon l'usage." },
+  { ar: "مُخَرَّق", translit: "moukharraq", def: "Déchiré, percé (le khouff)." },
+  { ar: "شَقّ", translit: "chaqq", def: "Fente dont les bords restent joints." },
+  { ar: "تَلْفِيق", translit: "talfîq", def: "Addition de plusieurs petites parties pour juger de leur total." },
+  { ar: "كَمَال", translit: "kamâl", def: "Achèvement : ici, des ablutions complètes, tous les membres lavés." }
 /* FIN-GLOSSAIRE */
 ]);

@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.50 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.51 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -90,7 +90,9 @@
           corrigé et son titre_ar complété (n° 431) ; titres de -29 à -31 précisés ; 44 → 46 segments ; faṣl terminé (unité 56).
    v1.50 : tah-01-08-02b (« بِحَضَرٍ أَوْ سَفَرٍ », n° 436), -04b (« بِلَا حَائِلٍ كَطِينٍ », n° 437) et -05b (« وَلَا حَدَّ »,
           n° 438), absents du « ص », ajoutés ; « إلَّا الْمِهْمَازُ » → « إلَّا الْمِهْمَازَ » (n° 439) ; titres de -01 à -04
-          précisés ; faṣl tah-01-08 : 27 → 30 segments (unité 57). */
+          précisés ; faṣl tah-01-08 : 27 → 30 segments (unité 57).
+   v1.51 : tah-01-08-09b (« فَلَا يُمْسَحُ وَاسِعٌ », n° 453) ajouté ; titre_ar de -06, -07, -08, -10, -11 et -12 complétés d'après le
+          matn complet (n° 447, 449, 452, 454, 457, 458) ; titres précisés ; faṣl tah-01-08 : 30 → 31 segments (unité 58). */
 App.data.definirPlan({
   kutub: [
     {
@@ -603,7 +605,7 @@ App.data.definirPlan({
                 { id: "tah-01-07-34", titre: "Les ablutions valent ghousl pour leurs membres", titre_ar: "وَغَسْلُ الْوُضُوءِ عَنْ غُسْلِ مَحِلِّهِ وَلَوْ نَاسِيًا لِجَنَابَتِهِ كَلُمْعَةٍ مِنْهَا وَإِنْ عَنْ جَبِيرَةٍ" } /* p. 318 ; fin absente du « ص » (n° 431, v1.49) */
               ]
             },
-            /* tah-01-08 — t. 1, p. 318–325 (Shamela 569, pages 317–324) — 30 segments du matn (v1.50) */
+            /* tah-01-08 — t. 1, p. 318–325 (Shamela 569, pages 317–324) — 31 segments du matn (v1.51) */
             {
               id: "tah-01-08",
               titre: "Le mash sur les khouff",
@@ -617,13 +619,14 @@ App.data.definirPlan({
                 { id: "tah-01-08-04b", titre: "Sans écran, comme la boue", titre_ar: "بِلَا حَائِلٍ كَطِينٍ" }, /* absent du « ص » de Mawāhib ; al-Dardīr, t. 1, p. 142 (n° 437, v1.50) */
                 { id: "tah-01-08-05", titre: "… sauf l'éperon", titre_ar: "إلَّا الْمِهْمَازَ" }, /* p. 319–320 (n° 439, v1.50) */
                 { id: "tah-01-08-05b", titre: "Pas de durée fixée", titre_ar: "وَلَا حَدَّ" }, /* absent du « ص » de Mawāhib ; al-Dardīr, t. 1, p. 142 (n° 438, v1.50) */
-                { id: "tah-01-08-06", titre: "Pur", titre_ar: "طَاهِرٍ" }, /* p. 320 */
-                { id: "tah-01-08-07", titre: "Couvrant la partie obligatoire", titre_ar: "وَسَتَرَ مَحَلَّ الْفَرْضِ" }, /* p. 320 */
-                { id: "tah-01-08-08", titre: "Mis en état de pureté par l'eau", titre_ar: "بِطَهَارَةِ مَاءٍ" }, /* p. 320 */
-                { id: "tah-01-08-09", titre: "Sans désobéissance (port ou voyage)", titre_ar: "وَعِصْيَانٍ بِلُبْسِهِ، أَوْ سَفَرِهِ" }, /* p. 320 */
-                { id: "tah-01-08-10", titre: "Pas s'il couvre moins, même collé", titre_ar: "لَا أَقَلَّ إنْ الْتَصَقَ" }, /* p. 320 */
-                { id: "tah-01-08-11", titre: "… ou mis, puis purification complétée", titre_ar: "أَوْ لَبِسَهُمَا ثُمَّ كَمَّلَ" }, /* p. 321 */
-                { id: "tah-01-08-12", titre: "… jusqu'à retirer ce qui fut mis avant", titre_ar: "حَتَّى يَخْلَعَ الْمَلْبُوسَ قَبْلَ الْكَمَالِ" }, /* p. 321 */
+                { id: "tah-01-08-06", titre: "Un khouff de cuir, pur et cousu", titre_ar: "بِشَرْطِ جِلْدٍ طَاهِرٍ خُرِزَ" }, /* p. 320 (n° 447, v1.51) */
+                { id: "tah-01-08-07", titre: "Couvrir la partie obligatoire et permettre de marcher", titre_ar: "وَسَتَرَ مَحَلَّ الْفَرْضِ وَأَمْكَنَ تَتَابُعُ الْمَشْيِ بِهِ" }, /* p. 320 (n° 449, v1.51) */
+                { id: "tah-01-08-08", titre: "Mis après une purification par l'eau, complète, sans recherche du confort", titre_ar: "بِطَهَارَةِ مَاءٍ كَمُلَتْ بِلَا تَرَفُّهٍ" }, /* p. 320 (n° 452, v1.51) */
+                { id: "tah-01-08-09", titre: "Sans désobéissance par le port ou par le voyage", titre_ar: "وَعِصْيَانٍ بِلُبْسِهِ أَوْ سَفَرِهِ" }, /* p. 320 */
+                { id: "tah-01-08-09b", titre: "Pas de mash sur un khouff trop large", titre_ar: "فَلَا يُمْسَحُ وَاسِعٌ" }, /* absent du « ص » de Mawāhib ; al-Dardīr, t. 1, p. 143 (n° 453, v1.51) */
+                { id: "tah-01-08-10", titre: "Le khouff déchiré : la limite du tiers du pied", titre_ar: "وَمُخَرَّقٌ قَدْرَ ثُلُثِ الْقَدَمِ وَإِنْ بِشَكٍّ لَا أَقَلَّ إنْ الْتَصَقَ كَمُنْفَتِحٍ صَغُرَ" }, /* p. 320–321 (n° 454, v1.51) */
+                { id: "tah-01-08-11", titre: "Pieds lavés et khouff mis avant la fin des ablutions", titre_ar: "أَوْ غَسَلَ رِجْلَيْهِ فَلَبِسَهُمَا ثُمَّ كَمَّلَ" }, /* p. 321 (n° 457, v1.51) */
+                { id: "tah-01-08-12", titre: "Un pied chaussé avant l'autre : ôter ce qui a été mis trop tôt", titre_ar: "أَوْ رِجْلًا فَأَدْخَلَهَا حَتَّى يَخْلَعَ الْمَلْبُوسَ قَبْلَ الْكَمَالِ" }, /* p. 321 (n° 458, v1.51) */
                 { id: "tah-01-08-13", titre: "Pas pour le seul mash, ni pour dormir", titre_ar: "وَلَا لَابِسٍ لِمُجَرَّدِ الْمَسْحِ أَوْ لِيَنَامَ …" }, /* p. 321 */
                 { id: "tah-01-08-14", titre: "Le laver : déconseillé", titre_ar: "وَكُرِهَ غَسْلُهُ" }, /* p. 322 */
                 { id: "tah-01-08-15", titre: "Suivre ses plis", titre_ar: "وَتَتَبَّعَ غُضُونَهُ" }, /* p. 322 */
