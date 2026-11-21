@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.69
+/* Données — Glossaire, partie 2 — v1.70
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -44,7 +44,8 @@
    v1.66 : 12 termes de l'unité 62 (tah-01-09-01 à -08).
    v1.67 : 9 termes de l'unité 63 (tah-01-09-09 à -16).
    v1.68 : 12 termes de l'unité 64 (tah-01-09-17a à -20).
-   v1.69 : 13 termes de l'unité 65 (tah-01-09-21 à -23d). */
+   v1.69 : 13 termes de l'unité 65 (tah-01-09-21 à -23d).
+   v1.70 : 12 termes de l'unité 66 (tah-01-09-24a à -27). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -510,6 +511,19 @@ App.data.ajouterTermes([
   { ar: "سَلَّابَة", translit: "sallâba", def: "Détrousseurs : brigands qui dépouillent les voyageurs." },
   { ar: "رُفْقَة", translit: "roufqa", def: "Compagnie de voyage : groupe qui fait halte et repart ensemble." },
   { ar: "بُخْل", translit: "boukhl", def: "Avarice : refus de donner." },
-  { ar: "رَحْل", translit: "rahl", def: "Bagages, effets du voyageur." }
+  { ar: "رَحْل", translit: "rahl", def: "Bagages, effets du voyageur." },
+  /* Unité 66 — tah-01-09-24a à -27 */
+  { ar: "الْحَدَثُ الْأَكْبَرُ", translit: "al-hadathou l-akbar", def: "Ḥadath majeur : l'état qui oblige au ghousl (janâba, règles, lochies)." },
+  { ar: "الْحَدَثُ الْأَصْغَرُ", translit: "al-hadathou l-asghar", def: "Ḥadath mineur : l'état qui oblige aux seules ablutions, comme après avoir uriné." },
+  { ar: "مُتَيَمِّم", translit: "moutayammim", def: "Celui qui fait, ou a fait, le tayammoum." },
+  { ar: "تَعْيِين", translit: "taʿyîn", def: "Désignation : préciser dans l'intention l'acte visé (telle prière, obligatoire ou surérogatoire)." },
+  { ar: "ضَرْبَة", translit: "darba", def: "Frappe : poser les mains sur le sol pour le tayammoum ; la première sert au visage." },
+  { ar: "مَجْدُور", translit: "majdoûr", def: "Atteint de variole." },
+  { ar: "مَحْصُوب", translit: "mahsoûb", def: "Atteint de rougeole." },
+  { ar: "الْوَصْفُ الْحُكْمِيُّ", translit: "al-wasfou l-houkmiyy", def: "Qualité « de règle » : l'état que la Loi suppose dans les membres après un ḥadath ; selon Ibn Daqīq al-ʿĪd, le tayammoum ôte l'interdiction, non cet état." },
+  { ar: "إِمَامَة", translit: "imâma", def: "Le fait de diriger la prière en commun." },
+  { ar: "تَعْمِيم", translit: "taʿmîm", def: "Généralisation : faire passer la main sur toute la surface du membre, sans en laisser." },
+  { ar: "رُسْغ", translit: "rousgh", def: "Poignet : l'articulation entre la main et l'avant-bras." },
+  { ar: "خَاتَم", translit: "khâtam", def: "Bague." }
 /* FIN-GLOSSAIRE */
 ]);

@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.58 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.59 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -105,7 +105,8 @@
    v1.56 : titres de tah-01-09-09 à -16 précisés ; titre_ar de tah-01-09-11 complété (unité 63).
    v1.57 : tah-01-09-17 découpé en -17a à -17e ; titre_ar de -18 complété (« لَا فَرْضٌ آخَرُ … », n° 521) ; titres de 18 à 20 précisés (unité 64).
    v1.58 : matn de -21 complété (« لَا ثَمَنٍ », n° 535) ; -22b ajouté (segment absent du « ص », n° 537) ; tah-01-09-23 découpé en -23a à -23d,
-          « تَوَهَّمَهُ » corrigé (n° 539) (unité 65). */
+          « تَوَهَّمَهُ » corrigé (n° 539) (unité 65).
+   v1.59 : tah-01-09-24 découpé en -24a à -24c ; titres de 25 à 27 précisés (unité 66). */
 App.data.definirPlan({
   kutub: [
     {
@@ -699,10 +700,12 @@ App.data.definirPlan({
                 { id: "tah-01-09-23b", titre: "Chercher sans peine excessive : jusqu'où aller", titre_ar: "وَطَلَبَهُ لِكُلِّ صَلَاةٍ، وَلَوْ تَوَهَّمَهُ لَا …" }, /* p. 344–345 ; sous-fiche de 23 (v1.58) */
                 { id: "tah-01-09-23c", titre: "Demander l'eau à ses compagnons de voyage", titre_ar: "كَرُفْقَةٍ قَلِيلَةٍ أَوْ حَوْلَهُ مِنْ كَثِيرَةٍ …" }, /* p. 345 ; sous-fiche de 23 (v1.58) */
                 { id: "tah-01-09-23d", titre: "Qui n'a pas demandé l'eau : refaire la prière ?", titre_ar: "إنْ جَهِلَ بُخْلَهُمْ بِهِ — الْإِعَادَةُ" }, /* p. 345 ; sous-fiche de 23 (v1.58) */
-                { id: "tah-01-09-24", titre: "Intention : s'autoriser la prière ; intention de la janâba", titre_ar: "وَنِيَّةُ اسْتِبَاحَةِ الصَّلَاةِ وَنِيَّةُ أَكْبَرَ إنْ …" }, /* p. 345 */
-                { id: "tah-01-09-25", titre: "Il ne lève pas le hadath", titre_ar: "وَلَا يَرْفَعُ الْحَدَثَ" }, /* p. 348 */
-                { id: "tah-01-09-26", titre: "Couvrir le visage et les mains jusqu'aux poignets", titre_ar: "وَتَعْمِيمُ وَجْهِهِ وَكَفَّيْهِ لِكُوعَيْهِ" }, /* p. 348 */
-                { id: "tah-01-09-27", titre: "Retirer sa bague", titre_ar: "وَنَزَعَ خَاتَمَهُ" }, /* p. 349 */
+                { id: "tah-01-09-24a", titre: "L'intention du tayammoum ; viser l'état majeur", titre_ar: "وَنِيَّةُ اسْتِبَاحَةِ الصَّلَاةِ وَنِيَّةُ أَكْبَرَ إنْ كَانَ …" }, /* p. 345–346 (v1.59) */
+                { id: "tah-01-09-24b", titre: "Préciser la prière visée ; la prière manquée dont on se souvient", titre_ar: "وَنِيَّةُ اسْتِبَاحَةِ الصَّلَاةِ — تَعْيِينُ الْمُسْتَبَاحِ" }, /* p. 346–347 ; sous-fiche de 24 (v1.59) */
+                { id: "tah-01-09-24c", titre: "« Même s'il se répète » : le junub vise l'état majeur à chaque tayammoum", titre_ar: "وَلَوْ تَكَرَّرَتْ" }, /* p. 345, 347–348 ; sous-fiche de 24 (v1.59) */
+                { id: "tah-01-09-25", titre: "Le tayammoum ne lève pas le ḥadath", titre_ar: "وَلَا يَرْفَعُ الْحَدَثَ" }, /* p. 348 (v1.59) */
+                { id: "tah-01-09-26", titre: "Couvrir tout le visage et les mains jusqu'aux poignets", titre_ar: "وَتَعْمِيمُ وَجْهِهِ وَكَفَّيْهِ لِكُوعَيْهِ" }, /* p. 348–350 (v1.59) */
+                { id: "tah-01-09-27", titre: "Retirer sa bague ; passer les doigts entre les doigts", titre_ar: "وَنَزَعَ خَاتَمَهُ" }, /* p. 349–350 (v1.59) */
                 { id: "tah-01-09-28", titre: "Sol pur, la terre de préférence", titre_ar: "وَصَعِيدٌ طَهُرَ كَتُرَابٍ وَهُوَ الْأَفْضَلُ، وَلَوْ …" }, /* p. 350 */
                 { id: "tah-01-09-29", titre: "La neige", titre_ar: "وَثَلْجٍ" }, /* p. 351 */
                 { id: "tah-01-09-30", titre: "La boue", titre_ar: "وَخَضْخَاضٍ" }, /* p. 352 */
