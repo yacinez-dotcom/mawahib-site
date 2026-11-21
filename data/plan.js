@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.56 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.57 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -102,7 +102,8 @@
    v1.54 : tah-01-08-24 découpé en -24a et -24b ; titre_ar de -27 complété (« وَبَطَلَتْ إنْ تَرَكَ أَعْلَاهُ », n° 490) ;
           titres de -24 à -27 précisés ; faṣl tah-01-08 : 35 → 36 segments ; faṣl terminé (unité 61).
    v1.55 : tah-01-09-05 « وَحَاضِرٌ » (n° 493, au lieu de « وَحَاضِرٍ ») ; titres de tah-01-09-01 à -08 précisés (unité 62).
-   v1.56 : titres de tah-01-09-09 à -16 précisés ; titre_ar de tah-01-09-11 complété (unité 63). */
+   v1.56 : titres de tah-01-09-09 à -16 précisés ; titre_ar de tah-01-09-11 complété (unité 63).
+   v1.57 : tah-01-09-17 découpé en -17a à -17e ; titre_ar de -18 complété (« لَا فَرْضٌ آخَرُ … », n° 521) ; titres de 18 à 20 précisés (unité 64). */
 App.data.definirPlan({
   kutub: [
     {
@@ -681,10 +682,14 @@ App.data.definirPlan({
                 { id: "tah-01-09-14", titre: "Craindre que le temps ne sorte", titre_ar: "أَوْ خُرُوجَ وَقْتٍ" }, /* p. 336 */
                 { id: "tah-01-09-15", titre: "Faute de quelqu'un pour donner l'eau, ou d'un instrument", titre_ar: "كَعَدَمِ مُنَاوِلٍ أَوْ آلَةٍ" }, /* p. 337 */
                 { id: "tah-01-09-16", titre: "Craindre de manquer le temps en se servant de l'eau", titre_ar: "وَهَلْ إنْ خَافَ فَوَاتَهُ بِاسْتِعْمَالِهِ؟ خِلَافٌ" }, /* p. 337 */
-                { id: "tah-01-09-17", titre: "Permis avec un tayammoum : funérailles, sunna, Coran, tawâf…", titre_ar: "وَجَازَ جِنَازَةٌ وَسُنَّةٌ وَمَسُّ مُصْحَفٍ وَقِرَاءَةٌ …" }, /* p. 338 */
-                { id: "tah-01-09-18", titre: "… même volontairement ; la seconde est nulle", titre_ar: "وَلَوْ قَصْدًا وَبَطَلَ الثَّانِي" }, /* p. 342 */
-                { id: "tah-01-09-19", titre: "Pas avec un tayammoum fait pour un acte recommandé", titre_ar: "لَا بِتَيَمُّمٍ لِمُسْتَحَبٍّ" }, /* p. 342 */
-                { id: "tah-01-09-20", titre: "Continuité obligatoire", titre_ar: "وَلَزِمَ مُوَالَاتُهُ" }, /* p. 342 */
+                { id: "tah-01-09-17a", titre: "Ce qu'on peut faire après l'obligatoire avec le même tayammoum", titre_ar: "وَجَازَ جِنَازَةٌ وَسُنَّةٌ وَمَسُّ مُصْحَفٍ وَقِرَاءَةٌ …" }, /* p. 338–339 (v1.57) */
+                { id: "tah-01-09-17b", titre: "Enchaîner ces actes sans longue interruption", titre_ar: "وَجَازَ جِنَازَةٌ وَسُنَّةٌ وَمَسُّ مُصْحَفٍ وَقِرَاءَةٌ …" }, /* p. 339 et 342 ; sous-fiche de 17 (v1.57) */
+                { id: "tah-01-09-17c", titre: "Faut-il avoir eu l'intention de la surérogatoire ?", titre_ar: "وَجَازَ جِنَازَةٌ وَسُنَّةٌ وَمَسُّ مُصْحَفٍ وَقِرَاءَةٌ …" }, /* p. 339–340 ; sous-fiche de 17 (v1.57) */
+                { id: "tah-01-09-17d", titre: "« إنْ تَأَخَّرَتْ » : la surérogatoire avant l'obligatoire", titre_ar: "وَجَازَ جِنَازَةٌ وَسُنَّةٌ وَمَسُّ مُصْحَفٍ وَقِرَاءَةٌ …" }, /* p. 340–341 ; sous-fiche de 17 (v1.57) */
+                { id: "tah-01-09-17e", titre: "Une sunna avec le tayammoum d'une surérogatoire ou d'une autre sunna", titre_ar: "وَجَازَ جِنَازَةٌ وَسُنَّةٌ وَمَسُّ مُصْحَفٍ وَقِرَاءَةٌ …" }, /* p. 341–342 ; sous-fiche de 17 (v1.57) */
+                { id: "tah-01-09-18", titre: "Pas une seconde obligatoire, même voulue ; la seconde est nulle", titre_ar: "لَا فَرْضٌ آخَرُ وَلَوْ قَصْدًا وَبَطَلَ …" }, /* p. 342 ; début et fin absents du « ص » (n° 521, v1.57) */
+                { id: "tah-01-09-19", titre: "Rien de cela avec un tayammoum simplement recommandé", titre_ar: "لَا بِتَيَمُّمٍ لِمُسْتَحَبٍّ" }, /* p. 342 */
+                { id: "tah-01-09-20", titre: "Continuité du tayammoum, et lien avec la prière", titre_ar: "وَلَزِمَ مُوَالَاتُهُ" }, /* p. 342 */
                 { id: "tah-01-09-21", titre: "Accepter un don d'eau", titre_ar: "وَقَبُولُ هِبَةِ مَاءٍ" }, /* p. 343 */
                 { id: "tah-01-09-22", titre: "… ou un prêt", titre_ar: "أَوْ قَرْضِهِ" }, /* p. 343 */
                 { id: "tah-01-09-23", titre: "Chercher l'eau pour chaque prière", titre_ar: "وَطَلَبَهُ لِكُلِّ صَلَاةٍ، وَلَوْ تَوَهُّمَهُ لَا …" }, /* p. 343 */

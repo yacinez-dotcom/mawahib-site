@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.67
+/* Données — Glossaire, partie 2 — v1.68
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -42,7 +42,8 @@
    v1.64 : 7 termes de l'unité 60 (tah-01-08-18 à -23).
    v1.65 : 2 termes de l'unité 61 (tah-01-08-24a à -27).
    v1.66 : 12 termes de l'unité 62 (tah-01-09-01 à -08).
-   v1.67 : 9 termes de l'unité 63 (tah-01-09-09 à -16). */
+   v1.67 : 9 termes de l'unité 63 (tah-01-09-09 à -16).
+   v1.68 : 12 termes de l'unité 64 (tah-01-09-17a à -20). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -481,6 +482,19 @@ App.data.ajouterTermes([
   { ar: "لُصُوص", translit: "lousoûs", def: "Voleurs, brigands (singulier لِصّ)." },
   { ar: "مِيل", translit: "mîl", def: "Mille : mesure de distance ; on y mesure jusqu'où l'on doit aller chercher l'eau." },
   { ar: "مُنَاوِل", translit: "mounâwil", def: "Celui qui donne l'eau à quelqu'un qui ne peut la prendre lui-même." },
-  { ar: "آلَة", translit: "âla", def: "Instrument pour tirer ou prendre l'eau : seau, corde." }
+  { ar: "آلَة", translit: "âla", def: "Instrument pour tirer ou prendre l'eau : seau, corde." },
+  /* Unité 64 — tah-01-09-17a à -20 */
+  { ar: "رَكْعَتَا الطَّوَافِ", translit: "rakʿatâ t-tawâf", def: "Les deux unités de prière que l'on fait après le ṭawâf." },
+  { ar: "مَكْتُوبَة", translit: "maktoûba", def: "Prière prescrite : l'une des cinq prières obligatoires." },
+  { ar: "اِتِّصَال", translit: "ittisâl", def: "Enchaînement : faire la prière, ou la suivante, aussitôt après le tayammoum ou la prière précédente, sans longue interruption." },
+  { ar: "مُرَاعَاةُ الْخِلَافِ", translit: "mourâʿâtou l-khilâf", def: "Prise en compte de l'avis d'autres savants : on adoucit une règle par égard pour un avis qu'on ne suit pas." },
+  { ar: "آيَةُ الْكُرْسِيِّ", translit: "âyatou l-koursiyy", def: "Le « verset du Trône » (Coran 2, 255), souvent récité après la prière." },
+  { ar: "الْمُعَقِّبَاتُ", translit: "al-mouʿaqqibât", def: "Formules d'invocation dites à la suite de la prière ; al-Dardīr les compte parmi les courtes pauses pardonnées." },
+  { ar: "تَبَعِيَّة", translit: "tabaʿiyya", def: "Fait d'être accompli à la suite d'un autre acte et de lui être rattaché : la surérogatoire faite après l'obligatoire, avec le même tayammoum." },
+  { ar: "رَكْعَتَا الْفَجْرِ", translit: "rakʿatâ l-fajr", def: "Les deux unités que l'on prie à l'aube, avant la prière obligatoire du ṣubḥ." },
+  { ar: "صَلَاةُ الْعِيدِ", translit: "salâtou l-ʿîd", def: "La prière de chacune des deux fêtes de l'année (rupture du jeûne et sacrifice)." },
+  { ar: "اِسْتِسْقَاء", translit: "istisqâ'", def: "Prière pour demander la pluie." },
+  { ar: "مُشْتَرَكَة", translit: "mouchtaraka", def: "Se dit de deux prières qui ont une part de temps commune, comme le ẓuhr et l'ʿaṣr." },
+  { ar: "لَامٌ مُقْحَمَةٌ", translit: "lâmoun mouqhama", def: "Lettre lām ajoutée sans changer le sens : pour al-Dardīr, « بِتَيَمُّمٍ لِمُسْتَحَبٍّ » veut dire « par un tayammoum recommandé »." }
 /* FIN-GLOSSAIRE */
 ]);
