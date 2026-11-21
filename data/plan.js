@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.54 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.55 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -100,7 +100,8 @@
           complet (« وَإِنْ نَزَعَهُمَا أَوْ أَعْلَيَيْهِ أَوْ أَحَدَهُمَا بَادَرَ لِلْأَسْفَلِ », n° 473, 474) ; titres de -18 à -22 précisés ;
           faṣl tah-01-08 : 34 → 35 segments (unité 60).
    v1.54 : tah-01-08-24 découpé en -24a et -24b ; titre_ar de -27 complété (« وَبَطَلَتْ إنْ تَرَكَ أَعْلَاهُ », n° 490) ;
-          titres de -24 à -27 précisés ; faṣl tah-01-08 : 35 → 36 segments ; faṣl terminé (unité 61). */
+          titres de -24 à -27 précisés ; faṣl tah-01-08 : 35 → 36 segments ; faṣl terminé (unité 61).
+   v1.55 : tah-01-09-05 « وَحَاضِرٌ » (n° 493, au lieu de « وَحَاضِرٍ ») ; titres de tah-01-09-01 à -08 précisés (unité 62). */
 App.data.definirPlan({
   kutub: [
     {
@@ -663,14 +664,14 @@ App.data.definirPlan({
               titre: "Le tayammoum",
               titre_ar: "التَّيَمُّمُ",
               masail: [
-                { id: "tah-01-09-01", titre: "Le tayammoum : qui le fait", titre_ar: "فَصْلٌ يَتَيَمَّمُ" }, /* p. 325 */
-                { id: "tah-01-09-02", titre: "Le malade", titre_ar: "ذُو مَرَضٍ" }, /* p. 326 */
-                { id: "tah-01-09-03", titre: "Le voyageur (voyage licite)", titre_ar: "وَسَفَرٍ أُبِيحَ" }, /* p. 326 */
+                { id: "tah-01-09-01", titre: "Le tayammoum : définition et statut", titre_ar: "فَصْلٌ يَتَيَمَّمُ" }, /* p. 325 */
+                { id: "tah-01-09-02", titre: "Le malade (et le mal de mer)", titre_ar: "ذُو مَرَضٍ" }, /* p. 326 */
+                { id: "tah-01-09-03", titre: "Le voyageur : un voyage permis, même court", titre_ar: "وَسَفَرٍ أُبِيحَ" }, /* p. 326 */
                 { id: "tah-01-09-04", titre: "Pour l'obligatoire et le surérogatoire", titre_ar: "لِفَرْضٍ وَنَفْلٍ" }, /* p. 328 */
-                { id: "tah-01-09-05", titre: "Résident en bonne santé : prière funéraire", titre_ar: "وَحَاضِرٍ صَحَّ لِجِنَازَةٍ إنْ تَعَيَّنَتْ" }, /* p. 328 */
-                { id: "tah-01-09-06", titre: "… et prière obligatoire", titre_ar: "وَفَرْضٍ" }, /* p. 329 */
-                { id: "tah-01-09-07", titre: "… sauf le vendredi", titre_ar: "غَيْرِ جُمُعَةٍ" }, /* p. 329 */
-                { id: "tah-01-09-08", titre: "… sans reprise", titre_ar: "وَلَا يُعِيدُ" }, /* p. 329 */
+                { id: "tah-01-09-05", titre: "Le résident bien portant : la prière funéraire qui lui revient", titre_ar: "وَحَاضِرٌ صَحَّ لِجِنَازَةٍ إنْ تَعَيَّنَتْ" }, /* p. 328–329 ; « وَحَاضِرٌ » (n° 493, v1.55) */
+                { id: "tah-01-09-06", titre: "… et pour les prières obligatoires", titre_ar: "وَفَرْضٍ" }, /* p. 329 */
+                { id: "tah-01-09-07", titre: "… sauf la prière du vendredi", titre_ar: "غَيْرِ جُمُعَةٍ" }, /* p. 329 */
+                { id: "tah-01-09-08", titre: "… sans refaire la prière", titre_ar: "وَلَا يُعِيدُ" }, /* p. 329 */
                 { id: "tah-01-09-09", titre: "Pas pour une sunna", titre_ar: "لَا سُنَّةٍ" }, /* p. 329 */
                 { id: "tah-01-09-10", titre: "Absence d'eau suffisante", titre_ar: "إنْ عَدِمُوا مَاءً كَافِيًا" }, /* p. 331 */
                 { id: "tah-01-09-11", titre: "Crainte de maladie, d'aggravation ou de retard de guérison", titre_ar: "أَوْ خَافُوا بِاسْتِعْمَالِهِ مَرَضًا، أَوْ زِيَادَتَهُ …" }, /* p. 333 */

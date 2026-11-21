@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.65
+/* Données — Glossaire, partie 2 — v1.66
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -40,7 +40,8 @@
    v1.62 : 14 termes de l'unité 58 (tah-01-08-06 à -12).
    v1.63 : 5 termes de l'unité 59 (tah-01-08-12b à -17).
    v1.64 : 7 termes de l'unité 60 (tah-01-08-18 à -23).
-   v1.65 : 2 termes de l'unité 61 (tah-01-08-24a à -27). */
+   v1.65 : 2 termes de l'unité 61 (tah-01-08-24a à -27).
+   v1.66 : 12 termes de l'unité 62 (tah-01-09-01 à -08). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -456,6 +457,19 @@ App.data.ajouterTermes([
   { ar: "الْوَقْتُ الْمُخْتَارُ", translit: "al-waqtou l-moukhtâr", def: "Le temps « choisi » d'une prière, par opposition au temps de nécessité (al-waqt ad-darourî) qui le suit." },
   { ar: "غُسْلُ الْجُمُعَةِ", translit: "ghouslou l-joumouʿa", def: "Le grand lavage fait le vendredi pour la prière du vendredi." },
   { ar: "صِفَةُ الْمَسْحِ", translit: "sifatou l-mas-h", def: "La manière d'essuyer : comment poser et passer les mains sur le khouff." },
-  { ar: "اِسْتِيعَاب", translit: "istîʿâb", def: "Fait de couvrir entièrement : essuyer tout le khouff, sans en laisser une partie (aussi إِيعَاب)." }
+  { ar: "اِسْتِيعَاب", translit: "istîʿâb", def: "Fait de couvrir entièrement : essuyer tout le khouff, sans en laisser une partie (aussi إِيعَاب)." },
+  /* Unité 62 — tah-01-09-01 à -08 */
+  { ar: "صَعِيد", translit: "saʿîd", def: "La surface de la terre, sur laquelle on fait le tayammoum." },
+  { ar: "مَيْدُ الْبَحْرِ", translit: "maydou l-bahr", def: "Mal de mer ; Ibn Wahb le compte parmi les maladies qui permettent le tayammoum." },
+  { ar: "مَبْطُون", translit: "mabtoûn", def: "Malade du ventre : celui dont le ventre coule ou est si enflé qu'il ne peut prendre l'eau." },
+  { ar: "قَصْرُ الصَّلَاةِ", translit: "qasrou s-salât", def: "Raccourcissement de la prière : prier deux unités au lieu de quatre en voyage." },
+  { ar: "الْعَاصِي بِسَفَرِهِ", translit: "al-ʿâsî bi-safarihi", def: "Celui qui voyage pour désobéir, ou dont le voyage lui-même est un péché (esclave en fuite, brigand, enfant rebelle)." },
+  { ar: "نَفْل", translit: "nafl", def: "Prière ou œuvre surérogatoire (pluriel نَوَافِل) ; chez al-Dardīr, ici, tout ce qui n'est pas obligatoire." },
+  { ar: "جِنَازَة", translit: "jinâza", def: "Le défunt porté pour être enterré ; ici, la prière sur le défunt." },
+  { ar: "فَرْضُ الْكِفَايَةِ", translit: "fardou l-kifâya", def: "Obligation collective : quand une partie des musulmans l'accomplit, les autres en sont déchargés." },
+  { ar: "تَعَيُّن", translit: "taʿayyoun", def: "Le fait qu'une obligation collective revienne à une personne précise, parce que personne d'autre ne peut l'accomplir." },
+  { ar: "الْحَاضِرُ الصَّحِيحُ", translit: "al-hâdirou s-sahîh", def: "Le résident en bonne santé : ni voyageur ni malade." },
+  { ar: "صَلَاةُ الْجُمُعَةِ", translit: "salâtou l-joumouʿa", def: "La prière du vendredi, faite en assemblée à la place du ẓuhr." },
+  { ar: "بَدَل", translit: "badal", def: "Ce qui tient lieu d'autre chose : le tayammoum de l'eau ; selon un avis, la jumuʿa du ẓuhr." }
 /* FIN-GLOSSAIRE */
 ]);

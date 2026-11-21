@@ -1,4 +1,4 @@
-/* Données — Manifeste — v1.28 — liste des fichiers de données chargés par le socle (B0), dans l'ordre.
+/* Données — Manifeste — v1.29 — liste des fichiers de données chargés par le socle (B0), dans l'ordre.
    Ajouter un bāb = créer data/lecons/<kitab>/<kitab>-<bab>.js puis ajouter son chemin ci-dessous.
    v1.3 : tah-01 découpé en parties de moins de 200 Ko (tah-01-p1.js à tah-01-p4.js), voir docs/contrat.md §5.
    v1.4 : ajout de tah-01-p5.js (unité 11).
@@ -25,7 +25,8 @@
    v1.25 : ajout de tah-01-p26.js (unité 54).
    v1.26 : ajout de tah-01-p27.js (unité 56).
    v1.27 : ajout de tah-01-p28.js (unité 58).
-   v1.28 : ajout de tah-01-p29.js (unité 60). */
+   v1.28 : ajout de tah-01-p29.js (unité 60).
+   v1.29 : ajout de tah-01-p30.js (unité 62, début du faṣl tah-01-09). */
 App.data.manifeste([
   'data/plan.js',
   'data/glossaire.js',
@@ -59,5 +60,6 @@ App.data.manifeste([
   'data/lecons/tah/tah-01-p26.js',
   'data/lecons/tah/tah-01-p27.js',
   'data/lecons/tah/tah-01-p28.js',
-  'data/lecons/tah/tah-01-p29.js'
+  'data/lecons/tah/tah-01-p29.js',
+  'data/lecons/tah/tah-01-p30.js'
 ]);
