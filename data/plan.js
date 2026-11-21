@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.55 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.56 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -101,7 +101,8 @@
           faṣl tah-01-08 : 34 → 35 segments (unité 60).
    v1.54 : tah-01-08-24 découpé en -24a et -24b ; titre_ar de -27 complété (« وَبَطَلَتْ إنْ تَرَكَ أَعْلَاهُ », n° 490) ;
           titres de -24 à -27 précisés ; faṣl tah-01-08 : 35 → 36 segments ; faṣl terminé (unité 61).
-   v1.55 : tah-01-09-05 « وَحَاضِرٌ » (n° 493, au lieu de « وَحَاضِرٍ ») ; titres de tah-01-09-01 à -08 précisés (unité 62). */
+   v1.55 : tah-01-09-05 « وَحَاضِرٌ » (n° 493, au lieu de « وَحَاضِرٍ ») ; titres de tah-01-09-01 à -08 précisés (unité 62).
+   v1.56 : titres de tah-01-09-09 à -16 précisés ; titre_ar de tah-01-09-11 complété (unité 63). */
 App.data.definirPlan({
   kutub: [
     {
@@ -672,14 +673,14 @@ App.data.definirPlan({
                 { id: "tah-01-09-06", titre: "… et pour les prières obligatoires", titre_ar: "وَفَرْضٍ" }, /* p. 329 */
                 { id: "tah-01-09-07", titre: "… sauf la prière du vendredi", titre_ar: "غَيْرِ جُمُعَةٍ" }, /* p. 329 */
                 { id: "tah-01-09-08", titre: "… sans refaire la prière", titre_ar: "وَلَا يُعِيدُ" }, /* p. 329 */
-                { id: "tah-01-09-09", titre: "Pas pour une sunna", titre_ar: "لَا سُنَّةٍ" }, /* p. 329 */
-                { id: "tah-01-09-10", titre: "Absence d'eau suffisante", titre_ar: "إنْ عَدِمُوا مَاءً كَافِيًا" }, /* p. 331 */
-                { id: "tah-01-09-11", titre: "Crainte de maladie, d'aggravation ou de retard de guérison", titre_ar: "أَوْ خَافُوا بِاسْتِعْمَالِهِ مَرَضًا، أَوْ زِيَادَتَهُ …" }, /* p. 333 */
-                { id: "tah-01-09-12", titre: "Soif d'un être protégé", titre_ar: "أَوْ عَطَشَ مُحْتَرَمٍ مَعَهُ" }, /* p. 334 */
-                { id: "tah-01-09-13", titre: "Perte de biens en cherchant l'eau", titre_ar: "أَوْ بِطَلَبِهِ تَلَفَ مَالٍ" }, /* p. 335 */
-                { id: "tah-01-09-14", titre: "Sortie du temps", titre_ar: "أَوْ خُرُوجَ وَقْتٍ" }, /* p. 336 */
-                { id: "tah-01-09-15", titre: "Absence d'aide ou d'instrument", titre_ar: "كَعَدَمِ مُنَاوِلٍ أَوْ آلَةٍ" }, /* p. 337 */
-                { id: "tah-01-09-16", titre: "Crainte de manquer la prière : khilâf", titre_ar: "وَهَلْ إنْ خَافَ فَوَاتَهُ بِاسْتِعْمَالِهِ؟ خِلَافٌ" }, /* p. 337 */
+                { id: "tah-01-09-09", titre: "… mais pas pour une sunna", titre_ar: "لَا سُنَّةٍ" }, /* p. 329 */
+                { id: "tah-01-09-10", titre: "Première condition : ne pas avoir assez d'eau", titre_ar: "إنْ عَدِمُوا مَاءً كَافِيًا" }, /* p. 331 */
+                { id: "tah-01-09-11", titre: "Deuxième condition : craindre la maladie", titre_ar: "أَوْ خَافُوا بِاسْتِعْمَالِهِ مَرَضًا، أَوْ زِيَادَتَهُ أَوْ تَأَخُّرَ بُرْءٍ" }, /* p. 333 */
+                { id: "tah-01-09-12", titre: "Troisième condition : craindre la soif d'un être protégé", titre_ar: "أَوْ عَطَشَ مُحْتَرَمٍ مَعَهُ" }, /* p. 334 */
+                { id: "tah-01-09-13", titre: "Craindre de perdre ses biens en cherchant l'eau", titre_ar: "أَوْ بِطَلَبِهِ تَلَفَ مَالٍ" }, /* p. 335 */
+                { id: "tah-01-09-14", titre: "Craindre que le temps ne sorte", titre_ar: "أَوْ خُرُوجَ وَقْتٍ" }, /* p. 336 */
+                { id: "tah-01-09-15", titre: "Faute de quelqu'un pour donner l'eau, ou d'un instrument", titre_ar: "كَعَدَمِ مُنَاوِلٍ أَوْ آلَةٍ" }, /* p. 337 */
+                { id: "tah-01-09-16", titre: "Craindre de manquer le temps en se servant de l'eau", titre_ar: "وَهَلْ إنْ خَافَ فَوَاتَهُ بِاسْتِعْمَالِهِ؟ خِلَافٌ" }, /* p. 337 */
                 { id: "tah-01-09-17", titre: "Permis avec un tayammoum : funérailles, sunna, Coran, tawâf…", titre_ar: "وَجَازَ جِنَازَةٌ وَسُنَّةٌ وَمَسُّ مُصْحَفٍ وَقِرَاءَةٌ …" }, /* p. 338 */
                 { id: "tah-01-09-18", titre: "… même volontairement ; la seconde est nulle", titre_ar: "وَلَوْ قَصْدًا وَبَطَلَ الثَّانِي" }, /* p. 342 */
                 { id: "tah-01-09-19", titre: "Pas avec un tayammoum fait pour un acte recommandé", titre_ar: "لَا بِتَيَمُّمٍ لِمُسْتَحَبٍّ" }, /* p. 342 */

@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.66
+/* Données — Glossaire, partie 2 — v1.67
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -41,7 +41,8 @@
    v1.63 : 5 termes de l'unité 59 (tah-01-08-12b à -17).
    v1.64 : 7 termes de l'unité 60 (tah-01-08-18 à -23).
    v1.65 : 2 termes de l'unité 61 (tah-01-08-24a à -27).
-   v1.66 : 12 termes de l'unité 62 (tah-01-09-01 à -08). */
+   v1.66 : 12 termes de l'unité 62 (tah-01-09-01 à -08).
+   v1.67 : 9 termes de l'unité 63 (tah-01-09-09 à -16). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -470,6 +471,16 @@ App.data.ajouterTermes([
   { ar: "تَعَيُّن", translit: "taʿayyoun", def: "Le fait qu'une obligation collective revienne à une personne précise, parce que personne d'autre ne peut l'accomplir." },
   { ar: "الْحَاضِرُ الصَّحِيحُ", translit: "al-hâdirou s-sahîh", def: "Le résident en bonne santé : ni voyageur ni malade." },
   { ar: "صَلَاةُ الْجُمُعَةِ", translit: "salâtou l-joumouʿa", def: "La prière du vendredi, faite en assemblée à la place du ẓuhr." },
-  { ar: "بَدَل", translit: "badal", def: "Ce qui tient lieu d'autre chose : le tayammoum de l'eau ; selon un avis, la jumuʿa du ẓuhr." }
+  { ar: "بَدَل", translit: "badal", def: "Ce qui tient lieu d'autre chose : le tayammoum de l'eau ; selon un avis, la jumuʿa du ẓuhr." },
+  /* Unité 63 — tah-01-09-09 à -16 */
+  { ar: "السُّنَّةُ الْعَيْنِيَّةُ", translit: "as-sounnatou l-ʿayniyya", def: "Sunna demandée à chacun (witr, fajr), par opposition à la sunna collective (prière des fêtes)." },
+  { ar: "مَاءٌ مُسَبَّلٌ", translit: "mâ'oun mousabbal", def: "Eau mise à la disposition de tous pour un usage fixé par le donateur (ici, boire) ; elle reste à son propriétaire." },
+  { ar: "نَزْلَة", translit: "nazla", def: "Rhume, coup de froid." },
+  { ar: "حُمَّى", translit: "hoummâ", def: "Fièvre." },
+  { ar: "مَعْصُومُ الدَّمِ", translit: "maʿsoûmou d-dam", def: "Celui dont la vie est protégée par la Loi : il n'est pas permis de le tuer." },
+  { ar: "لُصُوص", translit: "lousoûs", def: "Voleurs, brigands (singulier لِصّ)." },
+  { ar: "مِيل", translit: "mîl", def: "Mille : mesure de distance ; on y mesure jusqu'où l'on doit aller chercher l'eau." },
+  { ar: "مُنَاوِل", translit: "mounâwil", def: "Celui qui donne l'eau à quelqu'un qui ne peut la prendre lui-même." },
+  { ar: "آلَة", translit: "âla", def: "Instrument pour tirer ou prendre l'eau : seau, corde." }
 /* FIN-GLOSSAIRE */
 ]);

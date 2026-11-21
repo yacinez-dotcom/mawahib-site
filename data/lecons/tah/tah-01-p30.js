@@ -1,10 +1,12 @@
-/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 30 — v16.0
+/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 30 — v16.1
    Source : Mawāhib al-Jalīl, al-Ḥaṭṭāb, éd. Dār al-Fikr, 3e éd., 1412 H / 1992, tome 1 (shamela.ws/book/569).
    Croisement : al-Sharḥ al-kabīr d'al-Dardīr et Ḥāshiyat al-Dasūqī (shamela.ws/book/21604), tome 1.
    Cette partie : faṣl tah-01-09 (le tayammoum), à partir de tah-01-09-01 (unité 62) — t. 1, p. 325 et suivantes.
    v16.0 : unité 62 — tah-01-09-01 à -08 (Mawāhib, t. 1, p. 325–329 ; al-Dardīr / al-Dasūqī, t. 1, p. 147–149)
           (2026-11-21) ; nouvelle partie, tah-01-p29.js (≈ 106 Ko) étant figée ; matn de 05 corrigé (« وَحَاضِرٌ ») d'après
           Ibn Ghāzī, al-Dardīr et al-Kharashī ; anomalies n° 492 à 505.
+   v16.1 : unité 63 — tah-01-09-09 à -16 (Mawāhib, t. 1, p. 329–338 ; al-Dardīr / al-Dasūqī, t. 1, p. 148–151)
+          (2026-11-21) ; anomalies n° 506 à 520.
    Bāb découpé en parties de moins de 200 Ko ;
    historique des versions : tah-01-p1.js (jusqu'à v2.5) puis l'en-tête de chaque partie. */
 App.data.ajouterFiches([
@@ -561,6 +563,554 @@ App.data.ajouterFiches([
       "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 148–149 (Shamela 21604, pages 147–148)."
     ],
     verification: "verifie"
+  },
+  /* ================================================================== */
+  /* Unité 63 — tah-01-09-09 à -16 */
+  /* Mawāhib, t. 1, p. 329–338 (Shamela 569/328–337) ; al-Dardīr / al-Dasūqī, t. 1, p. 148–151 (Shamela 21604/147–150) */
+  {
+    id: "tah-01-09-09",
+    kitab: "tah", bab: "01", fasl: "09", ordre: 9,
+    titre: "… mais pas pour une sunna",
+    titre_ar: "لَا سُنَّةٍ",
+    objectif: "Savoir que le résident bien portant ne fait pas le tayammoum pour une prière sunna, et les cas du junub et de la mosquée.",
+    matn: "لَا سُنَّةٍ",
+    regle_pratique: "Le résident bien portant qui n'a pas d'eau ne fait pas le tayammoum pour une prière sunna (witr, fajr, prière des fêtes…), ni, à plus forte raison, pour une prière seulement recommandée : c'est l'avis répandu.",
+    qualification: {
+      hukm: "wajib",
+      nature: "shart",
+      effet_si_omis: "Le texte ne précise pas ici l'effet d'une omission."
+    },
+    explication: "Al-Ḥaṭṭāb : « الْمَشْهُورُ أَنَّ الْحَاضِرَ الصَّحِيحَ لَا يَتَيَمَّمُ لَهَا وَعَزَاهُ ابْنُ بَشِيرٍ لِلْمُدَوَّنَةِ » ; la Mudawwana : « وَلَا يَتَيَمَّمُ مَنْ أَحْدَثَ خَلْفَ الْإِمَامِ فِي صَلَاةِ الْعِيدَيْنِ ». Ibn Saḥnūn : « سَبِيلُ السُّنَنِ فِي التَّيَمُّمِ سَبِيلُ الْفَرَائِضِ » (witr, fajr, fêtes, demande de pluie, éclipse). Ibn ʿArafa rapporte un troisième avis : le tayammoum pour la sunna demandée à chacun, comme le witr et le fajr, non pour la sunna collective, comme les fêtes, qu'il attribue à al-Lakhmī d'après l'école ; al-Ḥaṭṭāb : « وَلَيْسَ فِي كَلَامِ اللَّخْمِيِّ مَا يَدُلُّ عَلَى أَنَّهُ الْمَذْهَبُ ».\n\nAl-Lakhmī ajoute que, si c'est permis sans eau, on diverge quand on a de l'eau et qu'on craint de manquer le temps du witr ou du fajr ; Sanad entend Ibn Saḥnūn de celui qui ne peut toucher l'eau, et dit que celui qui craint de manquer les deux unités du fajr « فَإِنَّهُ يَتَوَضَّأُ وَيَدَعُ رَكْعَتَيْ الْفَجْرِ ». Ibn ʿAbd as-Salām : « وَالْأَظْهَرُ فِي الْحَاضِرِ الصَّحِيحِ التَّيَمُّمُ لِلْفَرَائِضِ وَالنَّوَافِلِ ».\n\nAl-Ḥaṭṭāb conseille : un acte qui exige la purification ne se fait pas en résidence avec le tayammoum quand on craint de le manquer ; mais pour un acte où la purification est seulement recommandée (réciter le Coran par cœur, invoquer, dormir), « فَيَنْبَغِي لَهُ أَنْ يَتَيَمَّمَ إذَا لَمْ يَجِدْ الْمَاءَ وَخَافَ فَوَاتَ ذَلِكَ الْفِعْلِ ». Ibn Farḥūn situe le désaccord sur les sunna chez celui qui craint de manquer le temps.\n\nAl-Dardīr : « فَلَا يَتَيَمَّمُ لَهَا الْحَاضِرُ الصَّحِيحُ وَأَوْلَى مُسْتَحَبٌّ », ni pour le fajr, la prière de nuit ou la prière du matin faites pour elles-mêmes.",
+    aqwal: [
+      { auteur: "L'avis répandu (Ibn Bashīr l'attribue à la Mudawwana)", avis: "Le résident bien portant ne fait pas le tayammoum pour une sunna.", statut: "mashhur" },
+      { auteur: "Ibn Saḥnūn", avis: "Les sunna suivent le régime des obligatoires : il fait le tayammoum pour chacune.", statut: "qawl" },
+      { auteur: "Al-Lakhmī, d'après l'école (selon Ibn ʿArafa)", avis: "Il le fait pour la sunna demandée à chacun (witr, fajr), non pour la sunna collective (fêtes).", statut: "qawl" },
+      { auteur: "Ibn ʿAbd as-Salām (« الْأَظْهَرُ »)", avis: "Le résident bien portant fait le tayammoum pour les obligatoires et les surérogatoires.", statut: "qawl" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : « فَلَا يَتَيَمَّمُ لَهَا الْحَاضِرُ الصَّحِيحُ وَأَوْلَى مُسْتَحَبٌّ », ni pour le witr, la fête, le fajr, la prière de nuit ou la prière du matin.",
+    tarjih_hattab: "Pour un acte où la purification est seulement recommandée, le résident sans eau qui craint de le manquer fait le tayammoum, « وَالتَّيَمُّمُ لَا يَزِيدُهُ إلَّا خَيْرًا » ; et celui qui craint un mal par l'eau « فَالظَّاهِرُ أَنَّهُ بِمَنْزِلَةِ الْمَرِيضِ يَتَيَمَّمُ لِلسُّنَنِ ».",
+    tanbihat: [
+      "Le junub qui veut entrer à la mosquée pour prier en assemblée, ou refaire une prière faite seul : al-Qarāfī (d'après al-Wānnūghī) : « فَقَدْ يُقَالُ: لَا يَجُوزُ؛ لِأَنَّ الْجَمَاعَةَ وَالْإِعَادَةَ غَيْرُ مُضْطَرٍّ إلَيْهِمَا » pour le résident bien portant ; le malade et le voyageur le peuvent ; al-Ḥaṭṭāb : « وَمَا ذَكَرَهُ ظَاهِرٌ ».",
+      "Le junub qui ne trouve l'eau qu'au milieu de la mosquée : al-Māzirī : « لَا أَحْفَظُ فِيهِ نَصًّا » ; aṭ-Ṭirāz : « فَهَذَا يَتَيَمَّمُ لِدُخُولِهِ » ; al-Ḥaṭṭāb exige qu'il y soit contraint ; d'après Ibn Qaddāḥ : « فَإِنْ ضَاقَ الْوَقْتُ تَيَمَّمَ وَدَخَلَ لِأَخْذِهِ، وَإِنْ اتَّسَعَ الْوَقْتُ انْتَظَرَ مَنْ يَأْتِي فَيُنَاوِلُهُ إيَّاهُ ».",
+      "Celui qui a une émission nocturne dans la mosquée : Sanad : « فَهَذَا يَخْرُجُ مِنْ غَيْرِ تَيَمُّمٍ » ; s'il est contraint d'y passer la nuit sans pouvoir sortir, « تَيَمَّمَ لِلْمَبِيتِ فِي الْمَسْجِدِ »."
+    ],
+    divergences: [
+      "Concordance — le résident bien portant. Al-Ḥaṭṭāb : « الْمَشْهُورُ أَنَّ الْحَاضِرَ الصَّحِيحَ لَا يَتَيَمَّمُ لَهَا ». Al-Dardīr : « فَلَا يَتَيَمَّمُ لَهَا الْحَاضِرُ الصَّحِيحُ وَأَوْلَى مُسْتَحَبٌّ ».",
+      "Complément — la prière funéraire qui ne lui revient pas. Al-Dardīr la range ici « بِنَاءً عَلَى سُنِّيَّتِهَا » ; al-Dasūqī : « بَلْ مَتَى كَانَتْ غَيْرَ مُتَعَيِّنَةٍ عَلَيْهِ فَلَا يَتَيَمَّمُ لَهَا سَوَاءٌ قُلْنَا أَنَّهَا فَرْضُ كِفَايَةٍ أَوْ سُنَّةُ كِفَايَةٍ » (voir la fiche 05)."
+    ],
+    exemple: "Un homme bien portant, chez lui, sans eau, veut prier le witr : selon l'avis répandu, il ne fait pas le tayammoum pour cette prière ; mais s'il craint de laisser passer sa lecture du Coran par cœur, al-Ḥaṭṭāb lui conseille de faire le tayammoum pour elle.",
+    erreurs_frequentes: [
+      "Croire que le résident bien portant fait le tayammoum pour le witr ou la prière des fêtes comme pour l'obligatoire.",
+      "Prendre l'avis d'Ibn Saḥnūn pour celui de l'école.",
+      "Croire que le junub peut toujours entrer à la mosquée avec le tayammoum : al-Ḥaṭṭāb exige qu'il y soit contraint."
+    ],
+    termes: [
+      { ar: "سُنَّة", translit: "sounna", def: "Rang le plus haut du recommandé, selon tous les auteurs cités par al-Ḥaṭṭāb." },
+      { ar: "السُّنَّةُ الْعَيْنِيَّةُ", translit: "as-sounnatou l-ʿayniyya", def: "Sunna demandée à chacun (witr, fajr), par opposition à la sunna collective (prière des fêtes)." },
+      { ar: "جُنُب", translit: "jounoub", def: "Personne en état de janâba, qui doit faire le ghousl." },
+      { ar: "الْحَاضِرُ الصَّحِيحُ", translit: "al-hâdirou s-sahîh", def: "Le résident en bonne santé : ni voyageur ni malade." }
+    ],
+    quiz: [
+      { q: "Selon l'avis répandu, le résident bien portant sans eau fait-il le tayammoum pour une prière sunna comme le witr ?",
+        choix: ["Non", "Oui, toujours", "Oui, s'il est seul", "Seulement le vendredi"],
+        bonne: 0,
+        explication: "« الْمَشْهُورُ أَنَّ الْحَاضِرَ الصَّحِيحَ لَا يَتَيَمَّمُ لَهَا »." },
+      { q: "Quel est l'avis d'Ibn Saḥnūn ?",
+        choix: ["Pas de tayammoum pour les sunna", "Tayammoum seulement pour les fêtes", "Les sunna suivent le régime des obligatoires", "Tayammoum seulement en voyage"],
+        bonne: 2,
+        explication: "« سَبِيلُ السُّنَنِ فِي التَّيَمُّمِ سَبِيلُ الْفَرَائِضِ »." },
+      { q: "Mise en situation : un homme bien portant, sans eau, craint de laisser passer sa lecture habituelle du Coran par cœur. Que conseille al-Ḥaṭṭāb ?",
+        choix: ["De ne rien faire", "De réciter seulement après le ghousl", "De refaire ses ablutions plus tard", "De faire le tayammoum, qui ne peut que lui être utile"],
+        bonne: 3,
+        explication: "« فَيَنْبَغِي لَهُ أَنْ يَتَيَمَّمَ إذَا لَمْ يَجِدْ الْمَاءَ وَخَافَ فَوَاتَ ذَلِكَ الْفِعْلِ »." },
+      { q: "Selon aṭ-Ṭirāz, le junub qui ne trouve l'eau qu'au milieu de la mosquée :",
+        choix: ["N'y entre jamais", "Fait le tayammoum pour y entrer", "Y entre sans rien faire", "Attend toujours le lendemain"],
+        bonne: 1,
+        explication: "« فَهَذَا يَتَيَمَّمُ لِدُخُولِهِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "329–331" },
+    alertes: [
+      "Variante : « لَا سُنَّةٍ » (génitif, coordonné à « لِجِنَازَةٍ ») dans le « ص » et chez Ibn Ghāzī (14605, p. 45) ; « لَا سُنَّةً » chez al-Dardīr et al-Kharashī (91, p. 184) ; « ص » gardé, même règle (n° 506).",
+      "Précisé (campagne de correction) : « وَحَمَلَ كَلَامَ سَنَدٍ ابْنُ سَحْنُونٍ عَلَى مَنْ لَا يَقْدِرُ عَلَى مَسِّ الْمَاءِ » suivi de « قَالَ » : les deux noms semblent intervertis ; c'est Sanad qui interprète Ibn Saḥnūn, et la citation qui suit est de Sanad (n° 507).",
+      "Précisé (campagne de correction) : « كَقِرَاءَةِ الْقُرْآنِ ظَاهِرٌ » : lire ظَاهِرًا (par cœur) ; non cité (n° 508).",
+      "Non résolu : dans la citation d'aṭ-Ṭirāz, « فَلَمْ يَجِبْ لِلتَّيَمُّمِ » est obscur (lire probablement فَلَمْ يَجُزْ لَهُ التَّيَمُّمُ) ; aṭ-Ṭirāz non accessible ; non cité (n° 509).",
+      "Précisé (campagne de correction) : « ذَكَرَ ابْنُ دَقِيقِ أَنَّ مُحَمَّدَ بْنَ الْحَسَنِ » : « الْعِيدِ » tombé (Ibn Daqīq al-ʿĪd, nommé ainsi sur 569/334) ; non cité (n° 510).",
+      "Ibn Bashīr, Ibn Saḥnūn, Sanad, aṭ-Ṭirāz, al-Wānnūghī, al-Burzulī et Ibn Qaddāḥ n'ont pas été consultés ; Ibn ʿArafa (16968, p. 97) confirme les trois avis sur les sunna ; at-Tawḍīḥ (14442, p. 181) confirme Ibn ʿAbd as-Salām, al-Māzirī (« لا أحفظ فيه الآن نَصّاً ») et Sanad sur l'émission nocturne.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 148–149 (Shamela 21604, pages 147–148)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-09-10",
+    kitab: "tah", bab: "01", fasl: "09", ordre: 10,
+    titre: "Première condition : ne pas avoir assez d'eau",
+    titre_ar: "إنْ عَدِمُوا مَاءً كَافِيًا",
+    objectif: "Savoir que le tayammoum suppose de ne pas avoir assez d'eau pour la purification due, et ce qu'on fait d'un peu d'eau.",
+    matn: "إنْ عَدِمُوا مَاءً كَافِيًا",
+    regle_pratique: "Le tayammoum n'est permis que si l'on n'a pas assez d'eau pour la purification due : pas d'eau du tout, ou trop peu pour les ablutions (ou pour le ghousl du junub) ; celui qui n'a qu'un peu d'eau ne s'en sert pas pour une partie des membres : il fait le tayammoum.",
+    qualification: {
+      hukm: "wajib",
+      nature: "shart",
+      effet_si_omis: "ʿAlī b. Ziyād (an-Nawādir) : le junub en voyage qui s'est lavé avec toute son eau et a prié, alors qu'il lui restait l'étendue d'un dirham à laver, « فَلَا يُجْزِئُهُ وَيَتَيَمَّمُ وَيُعِيدُ الصَّلَاةَ »."
+    },
+    explication: "Le pronom « ils » « عَائِدٌ إلَى الْمُسَافِرِ وَالْمَرِيضِ وَالْحَاضِرِ الصَّحِيحِ ». La première condition : « عَدَمُ الْمَاءِ الْكَافِي لِلطَّهَارَةِ الْوَاجِبَةِ عَلَيْهِمْ », en trois cas : pas d'eau du tout ; trop peu pour les ablutions de qui a un ḥadath mineur, ou pour les ablutions et le ghousl de qui a un ḥadath majeur ; assez pour les ablutions mais non pour le ghousl de qui a un ḥadath majeur. « وَالْحُكْمُ فِي الْجَمِيعِ سَوَاءٌ ».\n\nIbn Rāshid : « وَقَدْ اتَّفَقْنَا نَحْنُ وَأَبُو حَنِيفَةَ عَلَى أَنَّ مَنْ وَجَدَ مَاءً لَا يَكْفِيهِ لِطَهَارَتِهِ أَنَّهُ يَتْرُكُهُ وَيَتَيَمَّمُ » ; certains Baghdādiens font compléter les ablutions par le tayammoum. Al-Qurṭubī : « هَذَا قَوْلُ مَالِكٍ وَأَصْحَابِهِ », car l'eau qui ne dispense pas du tayammoum « كَانَ غَيْرَ مَوْجُودٍ شَرْعًا ». At-Talqīn : « فَإِنْ وَجَدَ دُونَ الْكِفَايَةِ لَمْ يَلْزَمْهُ اسْتِعْمَالُهُ ».\n\nLa Mudawwana : le junub qui n'a d'eau que pour ses ablutions « تَيَمَّمَ لِلْجَنَابَةِ لِكُلِّ صَلَاةٍ » ; « فَإِنْ كَانَ بِهِ أَذًى غَسَلَهُ بِذَلِكَ الْمَاءِ وَلَا يَتَوَضَّأُ ». Ibn Abī Zayd ajoute : s'il fait ses ablutions avec, oubliant sa janâba, et prie, il fait le tayammoum et « وَأَعَادَ الصَّلَاةَ أَبَدًا ».\n\nOn lave pourtant ce qu'on peut d'une impureté, on couvre ce qu'on peut de sa nudité, on mange un peu de nourriture : la différence est qu'ici « أَنَّ اسْتِعْمَالَ الْمَاءِ لَا يَظْهَرُ لَهُ أَثَرٌ ».\n\nAl-Dardīr : ils n'ont pas d'eau « مُبَاحًا » suffisante, « بِأَنْ لَمْ يَجِدُوا مَاءً أَصْلًا أَوْ وَجَدُوا مَاءً غَيْرَ كَافٍ أَوْ غَيْرَ مُبَاحٍ كَمُسَبَّلٍ لِلشُّرْبِ فَقَطْ أَوْ مَمْلُوكًا لِلْغَيْرِ ».",
+    aqwal: [
+      { auteur: "Mālik et ses compagnons (d'après al-Qurṭubī) ; Ibn Rāshid ; at-Talqīn ; al-Māzirī", avis: "Celui qui a trop peu d'eau ne s'en sert pas : il fait le tayammoum.", statut: "non_precise" },
+      { auteur: "Certains Baghdādiens (d'après Ibn Rāshid)", avis: "Il fait les ablutions avec ce qu'il a et complète par le tayammoum.", statut: "qawl" },
+      { auteur: "Un de nos imams (d'après Ibn ʿAbd as-Salām ; al-Aʿraj selon Ibn ʿArafa)", avis: "Le junub se sert de cette eau pour ses ablutions, chaque membre se purifiant seul.", statut: "qawl" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : « بِأَنْ لَمْ يَجِدُوا مَاءً أَصْلًا أَوْ وَجَدُوا مَاءً غَيْرَ كَافٍ أَوْ غَيْرَ مُبَاحٍ كَمُسَبَّلٍ لِلشُّرْبِ فَقَطْ أَوْ مَمْلُوكًا لِلْغَيْرِ » ; al-Dasūqī : « كَافِيًا » signifie « أَيْ أَعْضَاءَ الْوُضُوءِ الْوَاجِبَةِ وَهِيَ الْقُرْآنِيَّةُ » pour les ablutions, et tout le corps pour le ghousl.",
+    tarjih_hattab: "Celui qui a de quoi laver les membres obligatoires fait ses ablutions sans les sunna, « وَلَا يُجْزِئُهُ التَّيَمُّمُ وَهُوَ ظَاهِرٌ » ; l'eau d'autrui ou l'eau réservée à boire : « وَالظَّاهِرُ أَنَّهُ فَاقِدٌ لِلْمَاءِ وَيَتَيَمَّمُ ».",
+    tanbihat: [
+      "S'il peut laver le visage et les mains et recueillir l'eau qui tombe pour finir ses ablutions, il le fait, comme celui qui n'a que de l'eau déjà utilisée (Ibn Abī Zayd, d'après Ibn Yūnus) ; Ibn Hārūn : selon l'avis répandu, cette eau n'est pas « utilisée », car le membre ne se purifie qu'avec l'ensemble.",
+      "L'eau visée est l'eau absolue : « فَالْمَاءُ الْمُضَافُ كَالْعَدَمِ » (at-Talqīn et son commentaire par al-Māzirī).",
+      "Saḥnūn, sur l'eau confiée en dépôt qu'on a emportée sans droit : « لَا وَيَتَيَمَّمُ، وَإِنْ تَوَضَّأَ بِهِ لَمْ يُعِدْ وَبِئْسَ مَا صَنَعَ »."
+    ],
+    divergences: [
+      "Concordance — l'eau qui n'est pas permise. Al-Ḥaṭṭāb : « لَمْ أَرَ فِيهِ نَصًّا وَالظَّاهِرُ أَنَّهُ فَاقِدٌ لِلْمَاءِ وَيَتَيَمَّمُ ». Al-Dardīr : « أَوْ غَيْرَ مُبَاحٍ كَمُسَبَّلٍ لِلشُّرْبِ فَقَطْ أَوْ مَمْلُوكًا لِلْغَيْرِ ».",
+      "Complément — le degré de l'absence. Al-Dasūqī : « أَيْ جَزْمًا أَوْ ظَنًّا أَوْ شَكًّا أَوْ وَهْمًا كَمَا يُفِيدُهُ كَلَامُ الْمُصَنِّفِ الْآتِي قَالَهُ عج » (sigle non défini dans la liste d'al-Dasūqī)."
+    ],
+    exemple: "Une femme en voyage n'a qu'un demi-verre d'eau, qui ne suffit pas pour ses ablutions : elle ne s'en sert pas pour une partie de ses membres ; elle fait le tayammoum.",
+    erreurs_frequentes: [
+      "Se servir d'un peu d'eau pour une partie des membres, puis compléter par le tayammoum : ce n'est pas l'avis de Mālik et de ses compagnons.",
+      "Faire le tayammoum alors qu'on a assez d'eau pour les membres obligatoires des ablutions.",
+      "Se servir pour ses ablutions de l'eau d'autrui ou de l'eau réservée à boire."
+    ],
+    termes: [
+      { ar: "مَاءٌ مُسَبَّلٌ", translit: "mâ'oun mousabbal", def: "Eau mise à la disposition de tous pour un usage fixé par le donateur (ici, boire) ; elle reste à son propriétaire." },
+      { ar: "المَاءُ المُضَاف", translit: "al-mâ'ou l-moudâf", def: "Eau « mêlée » : eau changée par un mélange au point de perdre son caractère d'eau absolue." },
+      { ar: "جُنُب", translit: "jounoub", def: "Personne en état de janâba, qui doit faire le ghousl." }
+    ],
+    quiz: [
+      { q: "Qui, selon al-Ḥaṭṭāb, est visé par « s'ils n'ont pas assez d'eau » ?",
+        choix: ["Le seul voyageur", "Le seul malade", "Le seul résident", "Le voyageur, le malade et le résident bien portant"],
+        bonne: 3,
+        explication: "« الضَّمِيرُ عَائِدٌ إلَى الْمُسَافِرِ وَالْمَرِيضِ وَالْحَاضِرِ الصَّحِيحِ »." },
+      { q: "Celui qui n'a qu'un peu d'eau, insuffisante pour ses ablutions, selon Mālik et ses compagnons (al-Qurṭubī) :",
+        choix: ["S'en sert puis fait le tayammoum", "Ne s'en sert pas et fait le tayammoum", "Ne prie pas", "S'en sert pour la tête seulement"],
+        bonne: 1,
+        explication: "« فَإِنْ وَجَدَ أَقَلَّ مِنْ الْكِفَايَةِ تَيَمَّمَ وَلَمْ يَسْتَعْمِلْ مَا وَجَدَ مِنْهُ » ; « هَذَا قَوْلُ مَالِكٍ وَأَصْحَابِهِ »." },
+      { q: "Mise en situation : un junub n'a d'eau que pour ses ablutions, et il a une souillure sur le corps. Selon la Mudawwana :",
+        choix: ["Il lave la souillure avec cette eau et fait le tayammoum pour la janâba", "Il fait ses ablutions avec cette eau", "Il garde l'eau et ne prie pas", "Il lave une partie de son corps"],
+        bonne: 0,
+        explication: "« تَيَمَّمَ لِلْجَنَابَةِ لِكُلِّ صَلَاةٍ » ; « فَإِنْ كَانَ بِهِ أَذًى غَسَلَهُ بِذَلِكَ الْمَاءِ وَلَا يَتَوَضَّأُ »." },
+      { q: "Selon al-Ḥaṭṭāb, celui qui trouve de l'eau appartenant à autrui, ou réservée à boire :",
+        choix: ["Peut s'en servir pour ses ablutions", "Doit la prendre de force", "Est considéré comme n'ayant pas d'eau et fait le tayammoum", "Doit attendre le lendemain"],
+        bonne: 2,
+        explication: "« وَالظَّاهِرُ أَنَّهُ فَاقِدٌ لِلْمَاءِ وَيَتَيَمَّمُ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "331–333" },
+    alertes: [
+      "Précisé (campagne de correction) : « وَالْعَجَبُ مِنْ ابْنِ فَرْحُونٍ حَيْثُ أَوْرَدَ مَا ذَكَرْنَاهُ عَنْ ابْنِ زَيْدٍ بَحْثًا » : il s'agit d'Ibn Abī Zayd, nommé deux fois juste avant et après (« قَالَهُ الشَّيْخُ ابْنُ أَبِي زَيْدٍ », « مِنْ كَلَامِ ابْنِ أَبِي زَيْدٍ ») (n° 511).",
+      "Ibn Rāshid, al-Qurṭubī, an-Nawādir, Ibn Yūnus, Ibn Hārūn et Ibn Farḥūn n'ont pas été consultés ; Ibn ʿArafa (16968, p. 108) confirme at-Talqīn, la Mudawwana sur le junub, Ibn ʿAbd as-Salām et sa réponse : « لا أعرفه لغير الأعرج ».",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 149 (Shamela 21604, page 148)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-09-11",
+    kitab: "tah", bab: "01", fasl: "09", ordre: 11,
+    titre: "Deuxième condition : craindre la maladie",
+    titre_ar: "أَوْ خَافُوا بِاسْتِعْمَالِهِ مَرَضًا، أَوْ زِيَادَتَهُ أَوْ تَأَخُّرَ بُرْءٍ",
+    objectif: "Savoir quelle crainte d'un mal permet le tayammoum alors qu'on a de l'eau.",
+    matn: "أَوْ خَافُوا بِاسْتِعْمَالِهِ مَرَضًا، أَوْ زِيَادَتَهُ أَوْ تَأَخُّرَ بُرْءٍ",
+    regle_pratique: "Même avec de l'eau, on fait le tayammoum si l'on craint, en s'en servant, de tomber malade, d'aggraver sa maladie ou de retarder sa guérison ; cette crainte doit reposer sur une raison (expérience, avis d'un connaisseur en médecine), et une simple douleur passagère ne suffit pas.",
+    qualification: {
+      hukm: "mubah",
+      nature: "shart",
+      effet_si_omis: "Le texte ne précise pas ici l'effet d'une omission."
+    },
+    explication: "Al-Ḥaṭṭāb : « الضَّمِيرُ رَاجِعٌ إلَى الثَّلَاثَةِ الْمُتَقَدِّمِينَ » ; le tayammoum leur est permis « مَعَ وُجُودِ الْمَاءِ إذَا خَافُوا الْمَرَضَ، أَوْ زِيَادَتَهُ، أَوْ تَأَخُّرَ بُرْءٍ », chacun pour ce qui lui est permis : le voyageur et le malade pour l'obligatoire et le surérogatoire, le résident bien portant pour l'obligatoire seulement. At-Talqīn compte quatre choses : la crainte de mourir, l'aggravation, le retard de la guérison, une maladie nouvelle ; Khalīl ne nomme pas la crainte de mourir, « إذْ هُوَ أَحْرَى ».\n\nAl-Jawāhir : dans ces cas, « فَإِنَّهُ يَتَيَمَّمُ عَلَى الْمَعْرُوفِ مِنْ الْمَذْهَبِ » ; al-Qāḍī Abū l-Ḥasan : de même si le bien-portant craint un rhume ou une fièvre, « فَإِنَّ كُلَّ ذَلِكَ ضَرَرٌ ظَاهِرٌ » ; certains Baghdādiens rapportent « رِوَايَةً شَاذَّةً » qui ne permet pas le tayammoum pour la seule crainte ; celui qui souffre seulement sur le moment, sans en craindre la suite, doit faire les ablutions ou le ghousl. Al-Qarāfī : « وَأَمَّا مُجَرَّدُ الْأَلَمِ فَلَا يُبِيحُ التَّيَمُّمَ ».\n\nLa Mudawwana : « وَإِنْ خَافَ الْجُنُبُ الصَّحِيحُ عَلَى نَفْسِهِ الْمَوْتَ مِنْ ثَلْجٍ، أَوْ بَرْدٍ يَتَيَمَّمُ » ; de même celui qui a la variole ou la rougeole. Ibn Nājī loue la réponse d'Ashhab au malade qui jeûnerait et prierait debout avec peine : « فَلْيُفْطِرْ وَلْيُصَلِّ جَالِسًا، وَدِينُ اللَّهِ يُسْرٌ ».\n\nAl-Dardīr : la crainte « وَاسْتَنَدَ فِي خَوْفِهِ إلَى سَبَبٍ كَتَجْرِبَةٍ فِي نَفْسِهِ أَوْ فِي غَيْرِهِ » ou à l'avis d'un connaisseur en médecine ; « وَالْمُرَادُ بِالْخَوْفِ مَا يَشْمَلُ الظَّنَّ لَا الشَّكَّ وَالْوَهْمَ ».",
+    aqwal: [
+      { auteur: "L'avis connu de l'école (al-Jawāhir) ; at-Talqīn", avis: "On fait le tayammoum par crainte d'une maladie, d'une aggravation ou d'un retard de guérison.", statut: "non_precise" },
+      { auteur: "Certains Baghdādiens (d'après al-Jawāhir)", avis: "On ne passe pas au tayammoum pour la seule crainte d'une maladie.", statut: "shadh" },
+      { auteur: "Ibn aṭ-Ṭabarī (d'après al-Ikmāl)", avis: "Le junub qui craint la peine du ghousl se contente des ablutions.", statut: "qawl" },
+      { auteur: "Ibn Ḥabīb d'après Muṭarrif, Ibn al-Mājishūn et Aṣbagh (Sanad)", avis: "Le malade en sueur, que l'eau guérirait moins vite, fait le tayammoum et prie par signes.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : la crainte d'une maladie (« مِنْ نَزْلَةٍ وَحُمَّى أَوْ نَحْوِهِ »), d'une aggravation ou d'un retard de guérison permet le tayammoum, si elle repose sur une raison : « وَاسْتَنَدَ فِي خَوْفِهِ إلَى سَبَبٍ كَتَجْرِبَةٍ فِي نَفْسِهِ أَوْ فِي غَيْرِهِ » ; « وَالْمُرَادُ بِالْخَوْفِ مَا يَشْمَلُ الظَّنَّ لَا الشَّكَّ وَالْوَهْمَ ».",
+    tarjih_hattab: "« وَالظَّاهِرُ أَنَّ الْخَوْفَ إنَّمَا يُعْتَبَرُ إذَا اسْتَنَدَ إلَى سَبَبٍ كَأَنْ يَتَقَدَّمَ لَهُ تَجْرِبَةٌ فِي نَفْسِهِ، أَوْ فِي غَيْرِهِ مِمَّا يُقَارِبُهُ فِي الْمِزَاجِ أَوْ بِخَبَرِ عَارِفٍ بِالطِّبِّ ».",
+    tanbihat: [
+      "Le junub qui ne peut faire le ghousl fait le tayammoum, « هُوَ الْمَعْرُوفُ فِي الْمَذْهَبِ » ; al-Ikmāl rapporte d'Ibn aṭ-Ṭabarī qu'il se contente des ablutions.",
+      "Sanad : le malade qui pourrait faire ses ablutions et prier debout, mais dont la sueur s'arrêterait et la maladie durerait, fait le tayammoum et prie par signes ; « وَمَا قَالُوهُ مُوَافِقٌ لِلْمَذْهَبِ فَإِنَّ دَوَامَ الْمَرَضِ فِي مَعْنَى زِيَادَةِ الْمَرَضِ ».",
+      "Taqī ad-Dīn (d'après Ibn Farḥūn) se demande si la seule crainte suffit, ou s'il faut une crainte née d'une cause, non de la peur ou de la faiblesse : al-Ḥaṭṭāb retient la seconde."
+    ],
+    divergences: [
+      "Concordance — une crainte fondée. Al-Ḥaṭṭāb : « وَالظَّاهِرُ أَنَّ الْخَوْفَ إنَّمَا يُعْتَبَرُ إذَا اسْتَنَدَ إلَى سَبَبٍ ». Al-Dardīr : « وَاسْتَنَدَ فِي خَوْفِهِ إلَى سَبَبٍ كَتَجْرِبَةٍ فِي نَفْسِهِ أَوْ فِي غَيْرِهِ وَكَانَ مُوَافِقًا لَهُ فِي الْمِزَاجِ أَوْ خَبَرِ عَارِفٍ بِالطِّبِّ ».",
+      "Complément — le connaisseur en médecine. Al-Dasūqī : « وَلَوْ كَافِرًا عِنْدَ عَدَمِ الْمُسْلِمِ الْعَارِفِ بِهِ كَمَا قَالَ شَيْخُنَا » (son maître al-ʿAdawī)."
+    ],
+    exemple: "Un homme qui sort d'une forte fièvre sait, par expérience, qu'une toilette à l'eau froide la fait revenir ; il n'a que de l'eau froide : il fait le tayammoum.",
+    erreurs_frequentes: [
+      "Faire le tayammoum pour une peur sans raison, ou pour une douleur passagère.",
+      "Croire que seul le malade peut le faire : le bien-portant qui craint de tomber malade aussi.",
+      "Croire que le junub qui craint pour sa vie doit quand même faire le ghousl."
+    ],
+    termes: [
+      { ar: "نَزْلَة", translit: "nazla", def: "Rhume, coup de froid." },
+      { ar: "حُمَّى", translit: "hoummâ", def: "Fièvre." },
+      { ar: "مِزَاج", translit: "mizâj", def: "Tempérament : complexion physique d'une personne." }
+    ],
+    quiz: [
+      { q: "Quelles craintes permettent le tayammoum malgré la présence d'eau, selon le matn ?",
+        choix: ["Seulement la peur de mourir", "Tomber malade, aggraver sa maladie ou retarder sa guérison", "La peur d'avoir froid quelques minutes", "La crainte de salir ses vêtements"],
+        bonne: 1,
+        explication: "« إذَا خَافُوا الْمَرَضَ، أَوْ زِيَادَتَهُ، أَوْ تَأَخُّرَ بُرْءٍ »." },
+      { q: "Selon al-Qarāfī, rapporté par al-Ḥaṭṭāb, la simple douleur passagère :",
+        choix: ["Oblige au tayammoum", "Dispense de prier", "Permet de prier assis", "Ne permet pas le tayammoum"],
+        bonne: 3,
+        explication: "« وَأَمَّا مُجَرَّدُ الْأَلَمِ فَلَا يُبِيحُ التَّيَمُّمَ »." },
+      { q: "Mise en situation : une femme craint vaguement de tomber malade si elle se lave, sans expérience ni avis médical. Selon al-Ḥaṭṭāb :",
+        choix: ["Elle fait le tayammoum", "Elle ne prie pas", "Sa crainte ne compte pas : elle doit reposer sur une raison", "Elle ne lave que la moitié des membres"],
+        bonne: 2,
+        explication: "« وَالظَّاهِرُ أَنَّ الْخَوْفَ إنَّمَا يُعْتَبَرُ إذَا اسْتَنَدَ إلَى سَبَبٍ »." },
+      { q: "Selon la Mudawwana, le junub bien portant qui craint de mourir à cause de la neige ou du froid :",
+        choix: ["Fait le tayammoum", "Fait le ghousl quand même", "Attend le printemps", "Fait seulement les ablutions"],
+        bonne: 0,
+        explication: "« وَإِنْ خَافَ الْجُنُبُ الصَّحِيحُ عَلَى نَفْسِهِ الْمَوْتَ مِنْ ثَلْجٍ، أَوْ بَرْدٍ يَتَيَمَّمُ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "333–334" },
+    alertes: [
+      "At-Talqīn, al-Ikmāl, Sanad, Ibn Farḥūn et Ibn Nājī n'ont pas été consultés ; Ibn Shās (al-Jawāhir, 14594, p. 58) confirme la citation (« على المعروف من المذهب », al-Qāḍī Abū l-Ḥasan, la riwāya « شاذة ») ; Ibn ʿArafa (16968, p. 100) : « وفيه لخوف حدوث مرض أو زيادته أو تأخر برئه نقلا المازري عن المشهور ».",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 149 (Shamela 21604, page 148)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-09-12",
+    kitab: "tah", bab: "01", fasl: "09", ordre: 12,
+    titre: "Troisième condition : craindre la soif d'un être protégé",
+    titre_ar: "أَوْ عَطَشَ مُحْتَرَمٍ مَعَهُ",
+    objectif: "Savoir quand on garde l'eau pour boire et qu'on fait le tayammoum.",
+    matn: "أَوْ عَطَشَ مُحْتَرَمٍ مَعَهُ",
+    regle_pratique: "On fait aussi le tayammoum, en gardant l'eau, si l'on craint la soif d'un être protégé qui est avec soi (soi-même, une personne, une bête, un chien permis) ; selon al-Ḥaṭṭāb, cette crainte doit être au moins une forte probabilité.",
+    qualification: {
+      hukm: "wajib",
+      nature: "shart",
+      effet_si_omis: "Le texte ne précise pas ici l'effet d'une omission."
+    },
+    explication: "Al-Ḥaṭṭāb : le tayammoum est permis « إذَا خَافُوا عَطَشَ حَيَوَانٍ مُحْتَرَمٍ ». La Mudawwana : « وَإِذَا خَافَ الْعَطَشَ إنْ تَوَضَّأَ بِمَاءٍ مَعَهُ تَيَمَّمَ ». Ibn al-Ḥājib : « وَكَظَنِّ عَطَشِهِ أَوْ عَطَشِ مَنْ مَعَهُ مِنْ آدَمِيٍّ، أَوْ دَابَّةٍ » ; at-Tawḍīḥ note que les livres de l'école disent « إذَا خَافَ », ce qui n'exclut pas le doute, au contraire de l'expression d'Ibn al-Ḥājib.\n\nAt-Talqīn : craindre pour soi ou pour une personne la mort de soif, maintenant ou plus tard, en pensant fortement qu'on ne trouvera pas d'eau ; al-Māzirī : la crainte d'une soif qui rend malade suit le désaccord sur la crainte de la maladie, la crainte pour la vie d'un autre permet le tayammoum, « لِأَنَّ حُرْمَةَ نَفْسِ غَيْرِهِ كَحُرْمَةِ نَفْسِهِ وَيَجِبُ عَلَيْهِ ذَلِكَ » ; Ibn Ḥabīb : « يَجُوزُ التَّيَمُّمُ إذَا خَافَ عَلَى غَيْرِهِ الْمَوْتَ، أَوْ ضَرَرًا أَشْبَهَ الْمَوْتَ ». Al-Ḥaṭṭāb retient la forte probabilité, comme al-Jawāhir et Ibn al-Ḥājib.\n\nDans une grande caravane, en plein désert, surtout l'été, on craint d'ordinaire pour les pauvres : le tayammoum est permis, à condition de leur donner l'eau qui reste après sa propre boisson et celle de ses compagnons.\n\nAl-Dardīr : l'être protégé est « مِنْ آدَمِيٍّ مَعْصُومٍ أَوْ دَابَّةٍ أَوْ كَلْبٍ مَأْذُونٍ فِي اتِّخَاذِهِ », et à plus forte raison soi-même ; « وَيَجِبُ التَّيَمُّمُ إنْ خَافَ هَلَاكَ الْمَعْصُومِ أَوْ شِدَّةَ الْمَرَضِ وَيَجُوزُ إنْ خَافَ مَرَضًا خَفِيفًا لَا مُجَرَّدَ جَهْدٍ وَمَشَقَّةٍ ».",
+    aqwal: [
+      { auteur: "L'avis répandu (aṭ-Ṭirāz et adh-Dhakhīra)", avis: "Peu importe qu'on craigne la mort ou un mal qui ne tue pas.", statut: "mashhur" },
+      { auteur: "At-Talqīn (d'après al-Māzirī), al-Jawāhir, Ibn al-Ḥājib", avis: "Il faut penser fortement que l'eau manquera.", statut: "non_precise" },
+      { auteur: "Lecture d'at-Tawḍīḥ de l'expression « إذَا خَافَ » (Mudawwana, al-Jallāb, at-Talqīn, Ibn Bashīr)", avis: "Le doute ou le soupçon suffiraient.", statut: "qawl" },
+      { auteur: "Mālik (audition d'Ibn al-Qāsim)", avis: "On ne donne son peu d'eau à celui qui demande à boire, en faisant le tayammoum, que s'il risque de mourir ou un mal qu'on craint pour lui, non pour une petite soif.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : l'être protégé est « مِنْ آدَمِيٍّ مَعْصُومٍ أَوْ دَابَّةٍ أَوْ كَلْبٍ مَأْذُونٍ فِي اتِّخَاذِهِ » ; « وَيَجِبُ التَّيَمُّمُ إنْ خَافَ هَلَاكَ الْمَعْصُومِ أَوْ شِدَّةَ الْمَرَضِ وَيَجُوزُ إنْ خَافَ مَرَضًا خَفِيفًا » ; si la soif n'est pas encore là, la crainte est la certitude ou la forte probabilité « عَلَى الرَّاجِحِ » ; si elle est déjà là, toute crainte compte (voir les divergences).",
+    tarjih_hattab: "Il faut une forte probabilité, non le doute ou le simple soupçon : « وَهُوَ الظَّاهِرُ؛ لِأَنَّ الْأَحْكَامَ الشَّرْعِيَّةَ إنَّمَا تُنَاطُ بِغَلَبَةِ الظَّنِّ لَا بِالشَّكِّ وَالْوَهْمِ » ; l'ennemi en guerre, l'apostat ou le fornicateur marié ne sont pas pris en compte, « وَهُوَ ظَاهِرٌ إذَا ثَبَتَ سَبَبُ ذَلِكَ ».",
+    tanbihat: [
+      "Le chien et le porc : at-Tawḍīḥ : « وَالظَّاهِرُ أَنَّهُ إذَا كَانَ مَعَهُ كَلْبٌ، أَوْ خِنْزِيرٌ يَقْتُلُهُمَا، وَلَا يَدَعُ الْمَاءَ لِأَجْلِهِمَا ».",
+      "Ibn ʿAbd as-Salām fait dépendre le cas de la bête de sa valeur ; at-Tawḍīḥ l'objecte : « لِأَنَّهُ لَا يَجُوزُ قَتْلُ الْحَيَوَانِ لِغَيْرِ ضَرُورَةٍ » ; Ibn ʿArafa : on ne la compte pas si l'on peut la vendre, ou vendre sa viande, au prix de l'eau, sans nécessité.",
+      "Al-Ḥaṭṭāb, avec Ibn Farḥūn, ne demande pas de recueillir l'eau des ablutions pour la boire : c'est une gêne et une chose répugnante ; « وَأَيْضًا فَالْمَشْهُورُ جَوَازُ التَّيَمُّمِ لِخَوْفِ حُدُوثِ الْمَرَضِ ».",
+      "L'eau doit aussi rester pour pétrir ou cuire ce dont le corps a besoin (al-Qurṭubī pour la cuisson, « فَأَحْرَى الْعَجْنُ »)."
+    ],
+    divergences: [
+      "Divergence — la soif déjà présente. Al-Ḥaṭṭāb exige toujours la forte probabilité (« لِأَنَّ الْأَحْكَامَ الشَّرْعِيَّةَ إنَّمَا تُنَاطُ بِغَلَبَةِ الظَّنِّ »). Al-Dardīr : si la soif est déjà là, « فَالْخَوْفُ مُطْلَقًا عِلْمًا أَوْ ظَنًّا أَوْ شَكًّا أَوْ وَهْمًا يُوجِبُهُ فِي صُورَتَيْ الْهَلَاكِ وَشَدِيدِ الْمَرَضِ ». Al-Dasūqī : cette distinction suit « عج », at-Tawḍīḥ, Ibn Farḥūn et Ibn Nājī ; « وَمُنَازَعَةُ ح فِي ذَلِكَ قَائِلًا الْمُرَادُ بِالْخَوْفِ الْجَزْمُ وَالظَّنُّ فَقَطْ فِي حَالَةِ التَّلَبُّسِ كَغَيْرِهِ فِيهِ نَظَرٌ كَمَا ذَكَرَهُ بْن عَنْ الْمِسْنَاوِيِّ » (al-Ḥaṭṭāb ; al-Bunānī).",
+      "Point à comparer — recueillir l'eau des ablutions. Al-Ḥaṭṭāb ne le demande pas (avec Ibn Farḥūn). Al-Dasūqī, pour le pétrissage et la cuisson : « فَإِنْ أَمْكَنَ الْجَمْعُ بِقَضَاءِ الْوَطَرِ بِمَاءِ الْوُضُوءِ فَعَلَ قَالَهُ فِي مج » (al-Majmūʿ de Muḥammad al-Amīr).",
+      "Complément — le chien non permis, le porc, le condamné. Al-Dasūqī : « بَلْ يُعَجِّلُ قَتْلَهُمَا فَإِنْ عَجَزَ عَنْهُ سَقَاهُمَا وَتَيَمَّمَ » ; de même pour le condamné au talion, s'il y a un juge à qui le remettre."
+    ],
+    exemple: "Dans le désert, un voyageur n'a que l'eau qu'il lui faut pour boire jusqu'au prochain puits, et il pense fortement qu'il n'en trouvera pas avant : il garde l'eau et fait le tayammoum.",
+    erreurs_frequentes: [
+      "Faire ses ablutions avec la dernière eau en laissant un compagnon ou une bête risquer de mourir de soif.",
+      "Garder l'eau pour un chien non permis ou un porc : il faut les tuer, non leur laisser l'eau.",
+      "Faire le tayammoum pour une simple petite soif, sans danger."
+    ],
+    termes: [
+      { ar: "مَعْصُومُ الدَّمِ", translit: "maʿsoûmou d-dam", def: "Celui dont la vie est protégée par la Loi : il n'est pas permis de le tuer." },
+      { ar: "غَلَبَةُ الظَّنّ", translit: "ghalabatou z-zann", def: "Opinion dominante : une possibilité l'emporte nettement ; les règles de la Loi s'y fondent." }
+    ],
+    quiz: [
+      { q: "Pour quel être faut-il garder l'eau et faire le tayammoum, selon al-Dardīr ?",
+        choix: ["Pour n'importe quel animal, même un porc", "Seulement pour soi-même", "Pour une personne protégée, une bête ou un chien permis, et à plus forte raison pour soi", "Seulement pour un musulman pieux"],
+        bonne: 2,
+        explication: "« مِنْ آدَمِيٍّ مَعْصُومٍ أَوْ دَابَّةٍ أَوْ كَلْبٍ مَأْذُونٍ فِي اتِّخَاذِهِ »." },
+      { q: "Selon al-Ḥaṭṭāb, quelle crainte faut-il ?",
+        choix: ["Au moins une forte probabilité, non un simple doute", "Le moindre soupçon suffit", "Il faut être certain de mourir", "Aucune crainte n'est exigée"],
+        bonne: 0,
+        explication: "« لِأَنَّ الْأَحْكَامَ الشَّرْعِيَّةَ إنَّمَا تُنَاطُ بِغَلَبَةِ الظَّنِّ لَا بِالشَّكِّ وَالْوَهْمِ »." },
+      { q: "Mise en situation : un voyageur a peu d'eau ; un porc a soif près de lui. Selon at-Tawḍīḥ, cité par al-Ḥaṭṭāb :",
+        choix: ["Il lui donne l'eau et fait le tayammoum", "Il ne lui laisse pas l'eau : il le tue et fait ses ablutions", "Il partage l'eau en deux", "Il ne prie pas"],
+        bonne: 1,
+        explication: "« يَقْتُلُهُمَا، وَلَا يَدَعُ الْمَاءَ لِأَجْلِهِمَا »." },
+      { q: "Selon le cinquième tanbīh, l'eau doit aussi être gardée pour :",
+        choix: ["Laver ses vêtements", "Arroser ses plantes", "Faire une réserve pour l'année", "Pétrir ou cuire ce dont le corps a besoin"],
+        bonne: 3,
+        explication: "« مِنْ عَجْنٍ، أَوْ طَبْخٍ يَطْبُخُهُ لِمَصْلَحَةِ بَدَنِهِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "334–335" },
+    alertes: [
+      "Variante : « أَوْ عَطَشَ مُحْتَرَمٍ » dans le « ص », chez Ibn Ghāzī (14605, p. 45) et al-Dardīr ; « أَوْ عَطَشٌ مُحْتَرَمٌ » chez al-Kharashī (91, p. 185) ; « ص » gardé (n° 512).",
+      "Non résolu : citation d'Ibn ʿAskar (al-ʿUmda), « وَأَمَّا إذَا لَمْ يَخَفْ عَلَى غَيْرِهِ الْمَرَضَ، أَوْ خَوْفَ عَطَشٍ مُتَوَقَّعٍ … فَيَتَوَضَّأُ وَلَا يَسْقِيهِ » : tournure obscure ; al-ʿUmda non consultée ; non utilisée (n° 513).",
+      "At-Talqīn, al-Māzirī, aṭ-Ṭirāz, adh-Dhakhīra, Ibn ʿAskar, Ibn Farḥūn et al-Qurṭubī n'ont pas été consultés ; at-Tawḍīḥ (14442, p. 188) confirme ses citations ; Ibn ʿArafa (16968, p. 100) : « قلت إن أمكن بيعه أو بيع لحمه برخص ما يشتري به الماء ولا ضرورة به ألغي ».",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 149–150 (Shamela 21604, pages 148–149)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-09-13",
+    kitab: "tah", bab: "01", fasl: "09", ordre: 13,
+    titre: "Craindre de perdre ses biens en cherchant l'eau",
+    titre_ar: "أَوْ بِطَلَبِهِ تَلَفَ مَالٍ",
+    objectif: "Savoir quand la crainte pour ses biens permet le tayammoum.",
+    matn: "أَوْ بِطَلَبِهِ تَلَفَ مَالٍ",
+    regle_pratique: "Si, en allant chercher l'eau, on craint de perdre un bien de valeur (à cause de voleurs ou de bêtes féroces), on fait le tayammoum ; selon al-Ḥaṭṭāb, il s'agit d'un bien qui dépasse ce qu'on serait tenu de payer pour acheter l'eau.",
+    qualification: {
+      hukm: "mubah",
+      nature: "shart",
+      effet_si_omis: "Ibn ʿAbd as-Salām hésite sur la reprise dans le temps : « وَفِي الْإِعَادَةِ بَعْدَ ذَلِكَ فِي الْوَقْتِ نَظَرٌ »."
+    },
+    explication: "Al-Ḥaṭṭāb : le tayammoum leur est permis « إذَا خَافُوا بِسَبَبِ طَلَبِهِمْ الْمَاءَ تَلَفَ مَالٌ مِنْ لُصُوصٍ، أَوْ سِبَاعٍ عَلَى الْمَشْهُورِ » ; le malade cherche rarement l'eau : il s'agit surtout du voyageur et du résident bien portant ; al-Jazūlī : ils font le tayammoum s'ils craignent qu'on vole leurs bagages. « وَقِيلَ: لَا يَتَيَمَّمُ لِخَوْفِ تَلَفِ الْمَالِ » ; Ibn Bashīr : « وَهُوَ بَعِيدٌ », à entendre de celui qui n'est pas sûr de sa crainte.\n\nIbn ʿAbd as-Salām : « وَيَنْبَغِي أَنْ يُفَصَّلَ فِي الْمَالِ بَيْنَ الْكَثِيرِ وَالْقَلِيلِ » ; al-Bisāṭī l'entend du bien important, « وَهُوَ الظَّاهِرُ », la limite du peu étant « مَا يَلْزَمُهُ بَذْلُهُ فِي شِرَاءِ الْمَاءِ فَأَقَلُّ ». Al-Lakhmī : voleurs ou bêtes entre lui et l'eau, ou compagnon peu sûr qui emporterait ses affaires.\n\nIbn al-Qāsim a entendu de Mālik qu'il est déconseillé de camper à trois milles avant l'eau par crainte pour ses biens ; s'ils le font, Ibn Rushd rapporte : Ibn ʿAbd al-Ḥakam : pas de reprise ; Aṣbagh : reprise dans le temps ; Ibn al-Qāsim : toujours ; « وَالْقَوْلُ الْأَوَّلُ أَظْهَرُ ». On ne cherche pas l'eau à un mille ou un demi-mille si l'on craint brigands ou bêtes ; deux milles, c'est trop : on n'a pas à quitter son chemin de deux milles.\n\nAl-Dardīr : un bien « لَهُ بَالٌ وَهُوَ مَا زَادَ عَلَى مَا يَلْزَمُهُ بَذْلُهُ فِي شِرَاءِ الْمَاءِ سَوَاءٌ كَانَ لَهُ أَوْ لِغَيْرِهِ », si l'on est sûr ou presque de la présence de l'eau.",
+    aqwal: [
+      { auteur: "L'avis répandu", avis: "On fait le tayammoum si l'on craint de perdre un bien en cherchant l'eau.", statut: "mashhur" },
+      { auteur: "Avis rapporté (« وَقِيلَ »), jugé lointain par Ibn Bashīr", avis: "On ne fait pas le tayammoum pour la crainte de perdre un bien.", statut: "qawl" },
+      { auteur: "Ibn ʿAbd al-Ḥakam (le plus clair selon Ibn Rushd)", avis: "Ceux qui ont campé avant l'eau et fait le tayammoum ne refont pas la prière.", statut: "non_precise" },
+      { auteur: "Aṣbagh", avis: "Ils la refont dans le temps.", statut: "qawl" },
+      { auteur: "Ibn al-Qāsim (d'après Ibn Rushd)", avis: "Ils la refont toujours.", statut: "qawl" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : un bien « لَهُ بَالٌ وَهُوَ مَا زَادَ عَلَى مَا يَلْزَمُهُ بَذْلُهُ فِي شِرَاءِ الْمَاءِ سَوَاءٌ كَانَ لَهُ أَوْ لِغَيْرِهِ » ; si l'on doute seulement de la présence de l'eau, on fait le tayammoum quel que soit le bien (al-Dasūqī : « يَتَيَمَّمُ مُطْلَقًا كَانَ الْمَالُ كَثِيرًا أَوْ قَلِيلًا »).",
+    tarjih_hattab: "Seul un bien important compte (« وَهُوَ الظَّاهِرُ »), le peu étant ce qu'on serait tenu de payer pour l'eau, ou moins.",
+    tanbihat: [
+      "La crainte pour sa vie (voleurs, bêtes féroces) n'est pas nommée ici, « اكْتِفَاءً بِمَا تَقَدَّمَ », et elle est comprise à plus forte raison.",
+      "Al-Qurṭubī compte parmi les causes du tayammoum la crainte de perdre ses compagnons de route : « وَهُوَ ظَاهِرٌ ».",
+      "D'après an-Nawādir, si la recherche de l'eau est pénible, on fait le tayammoum, selon les forces de chacun."
+    ],
+    divergences: [
+      "Concordance — la limite du bien. Al-Ḥaṭṭāb : « لَكِنْ شَرَطَ أَنْ يَكُونَ حَدُّ الْيَسِيرِ مَا يَلْزَمُهُ بَذْلُهُ فِي شِرَاءِ الْمَاءِ فَأَقَلُّ ». Al-Dardīr : « لَهُ بَالٌ وَهُوَ مَا زَادَ عَلَى مَا يَلْزَمُهُ بَذْلُهُ فِي شِرَاءِ الْمَاءِ ».",
+      "Complément — le doute sur l'eau. Al-Dardīr : la limite vaut « إنْ تَحَقَّقَ وُجُودُ الْمَاءِ أَوْ ظَنَّهُ » ; s'il doute, al-Dasūqī : « يَتَيَمَّمُ مُطْلَقًا كَانَ الْمَالُ كَثِيرًا أَوْ قَلِيلًا »."
+    ],
+    exemple: "En voyage, l'eau est à une demi-heure de marche du campement ; un homme seul craint qu'on vole ses bagages, de grande valeur, s'il s'éloigne : il fait le tayammoum.",
+    erreurs_frequentes: [
+      "Faire le tayammoum pour ne pas laisser un objet sans valeur.",
+      "Croire que la crainte pour sa vie (bêtes, brigands) n'est pas comprise : elle l'est à plus forte raison.",
+      "Croire qu'on doit quitter son chemin de deux milles pour chercher l'eau : ce n'est pas exigé."
+    ],
+    termes: [
+      { ar: "لُصُوص", translit: "lousoûs", def: "Voleurs, brigands (singulier لِصّ)." },
+      { ar: "سِبَاع", translit: "sibâʿ", def: "Fauves, bêtes de proie." },
+      { ar: "مِيل", translit: "mîl", def: "Mille : mesure de distance ; on y mesure jusqu'où l'on doit aller chercher l'eau." }
+    ],
+    quiz: [
+      { q: "Selon l'avis répandu, celui qui craint, en allant chercher l'eau, que des voleurs prennent ses biens :",
+        choix: ["Va chercher l'eau quand même", "Fait le tayammoum", "Ne prie pas", "Prie sans purification"],
+        bonne: 1,
+        explication: "« تَلَفَ مَالٌ مِنْ لُصُوصٍ، أَوْ سِبَاعٍ عَلَى الْمَشْهُورِ »." },
+      { q: "Selon al-Ḥaṭṭāb, quel bien compte ?",
+        choix: ["Un bien supérieur à ce qu'on serait tenu de payer pour l'eau", "N'importe quel bien, même sans valeur", "Seulement l'or", "Seulement les bêtes de somme"],
+        bonne: 0,
+        explication: "« حَدُّ الْيَسِيرِ مَا يَلْزَمُهُ بَذْلُهُ فِي شِرَاءِ الْمَاءِ فَأَقَلُّ »." },
+      { q: "Mise en situation : un voyageur craint pour sa vie à cause de bêtes féroces entre lui et l'eau. Le matn n'en parle pas ; selon al-Ḥaṭṭāb :",
+        choix: ["Il doit y aller", "Il attend le jour suivant", "Il prie sans rien faire", "Ce cas est compris à plus forte raison : il fait le tayammoum"],
+        bonne: 3,
+        explication: "« وَلِأَنَّهُ يُفْهَمُ مِنْهُ بِالْأَحْرَوِيَّةِ تَعْمِيمُهُ ذَلِكَ »." },
+      { q: "Ceux qui campent à trois milles avant l'eau par crainte pour leurs biens, et font le tayammoum : selon Ibn Rushd, l'avis le plus clair est :",
+        choix: ["Ils refont toujours", "Ils refont dans le temps", "Pas de reprise", "Leur prière est nulle"],
+        bonne: 2,
+        explication: "Ibn ʿAbd al-Ḥakam : « لَا إعَادَةَ » ; « وَالْقَوْلُ الْأَوَّلُ أَظْهَرُ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "335–336" },
+    alertes: [
+      "Corrigé (campagne de correction) : « كَرَاهَةَ تَعْرِيسِهِمْ دُونَ الْمَاءِ عَلَى ثَلَاثَةِ أَمْيَالٍ خَوْفًا عَلَى مَا لَهُمْ » ; Ibn ʿArafa (16968, p. 98), source du passage : « خوفًا على مالهم » ; lire مَالِهِمْ (n° 514).",
+      "Corrigé (campagne de correction) : « سُقُوطَ طَلَبِهِ عَلَى مِيلٍ وَنِصْفِ مِيلٍ » ; Ibn ʿArafa (16968, p. 98) : « سقوط طلبه على ميل أو نصف ميل خوف عناء أو سلابة أو سباع » : un mille ou un demi-mille (n° 515).",
+      "Précisé (campagne de correction) : al-Dardīr, « لَا إنْ شَكَّهُ أَوْ تَوَهَّمَهُ فَيَتَيَمَّمُ وَلَوْ قَلَّ الْمَاءُ » : al-Dasūqī (« كَانَ الْمَالُ كَثِيرًا أَوْ قَلِيلًا ») montre qu'il faut lire الْمَالُ ; non cité (n° 516).",
+      "Al-Jazūlī, Ibn Bashīr, al-Bisāṭī, al-Lakhmī, al-Qurṭubī et an-Nawādir n'ont pas été consultés ; al-Bayān (21751, p. 45) confirme les trois avis sur la reprise et « والقول الأول أظهر ».",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 150 (Shamela 21604, page 149)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-09-14",
+    kitab: "tah", bab: "01", fasl: "09", ordre: 14,
+    titre: "Craindre que le temps ne sorte",
+    titre_ar: "أَوْ خُرُوجَ وَقْتٍ",
+    objectif: "Savoir qu'on fait le tayammoum si la recherche de l'eau ferait sortir le temps choisi de la prière.",
+    matn: "أَوْ خُرُوجَ وَقْتٍ",
+    regle_pratique: "On fait aussi le tayammoum si, en allant chercher l'eau ou en la tirant du puits, on craint que le temps choisi de la prière ne sorte ; c'est le temps choisi qui compte, non le temps de nécessité.",
+    qualification: {
+      hukm: "mubah",
+      nature: "shart",
+      effet_si_omis: "Le texte ne précise pas ici l'effet d'une omission ; pour la reprise, voir la fiche 06 (Mudawwana : pas de reprise)."
+    },
+    explication: "Al-Ḥaṭṭāb : le tayammoum est permis « إذَا خَافُوا خُرُوجَ الْوَقْتِ بِسَبَبِ طَلَبِهِمْ لِلْمَاءِ ». La Mudawwana : celui qui, en résidence, craint que le soleil ne se lève s'il va au Nil pour ses ablutions, « فَلْيَتَيَمَّمْ وَيُصَلِّ، وَلَا يَذْهَبُ إلَى الْمَاءِ » ; de même celui qui manquerait le temps en tirant l'eau du puits. Le matn couvre ainsi les quatre cas du résident d'at-Tawḍīḥ.\n\n« وَالْمُرَادُ بِالْوَقْتِ الْوَقْتُ الْمُخْتَارُ ». Ibn Ghāzī, d'après Ibn Rushd : le tayammoum pour la crainte du lever du soleil suit l'avis qui ne donne pas au ṣubḥ de temps de nécessité ; sinon, on cherche l'eau tant qu'on ne craint pas la clarté du matin, car « الَّذِي لَا يَجِدُ الْمَاءَ يَنْتَقِلُ إلَى التَّيَمُّمِ إذَا خَشِيَ أَنْ يَفُوتَهُ وَقْتُ الِاخْتِيَارِ » ; « وَمَا قَالَهُ ابْنُ عَسْكَرٍ مِنْ اعْتِبَارِ الضَّرُورِيِّ هُنَا غَيْرُ مَعْرُوفٍ ». Al-Lakhmī : « الْأَوْقَاتُ الَّتِي تُؤَدَّى فِيهَا الصَّلَاةُ بِالتَّيَمُّمِ أَوْقَاتُ الِاخْتِيَارِ لَا أَوْقَاتُ الضَّرُورَاتِ ».\n\nLa sortie du temps : ne pas pouvoir en atteindre une unité de prière (al-Lakhmī), ce qui est clair pour le temps de nécessité ; pour le temps choisi, al-Ḥaṭṭāb renvoie au désaccord sur ce qui permet de l'atteindre.\n\nAl-Dardīr : il fait le tayammoum s'il craint la sortie du temps, « وَلَوْ اخْتِيَارِيًّا بِأَنْ عَلِمَ أَوْ ظَنَّ أَنَّهُ لَا يُدْرِكُ مِنْهُ رَكْعَةً بَعْدَ تَحْصِيلِ الطَّهَارَةِ لَوْ طَلَبَهُ ».",
+    aqwal: [
+      { auteur: "Al-Lakhmī ; Ibn Rushd (d'après Ibn Ghāzī) ; Ibn Ghāzī", avis: "Le temps qui compte est le temps choisi.", statut: "non_precise" },
+      { auteur: "Ibn ʿAskar (al-Irshād)", avis: "Seul compte le temps de nécessité.", statut: "qawl" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : il fait le tayammoum s'il craint la sortie du temps, « وَلَوْ اخْتِيَارِيًّا بِأَنْ عَلِمَ أَوْ ظَنَّ أَنَّهُ لَا يُدْرِكُ مِنْهُ رَكْعَةً بَعْدَ تَحْصِيلِ الطَّهَارَةِ لَوْ طَلَبَهُ ».",
+    tarjih_hattab: "Le temps est le temps choisi : Ibn Ghāzī, « وَمَا قَالَهُ ظَاهِرٌ » ; et le temps de l'usage de l'eau se mesure à la manière dont le Prophète faisait ses ablutions, « لَا عَلَى مَا يَكُونُ مِنْ التَّرَاخِي وَالْوَسْوَاسِ » (d'après al-Lakhmī, « وَهَذَا أَحْرَى »).",
+    tanbihat: [
+      "Pour le temps choisi, on regarde ce qui permet de l'atteindre, sur quoi il y a désaccord : « فَقِيلَ: يُدْرِكُ بِرَكْعَةٍ كَالضَّرُورِيِّ، وَقِيلَ: بِتَكْبِيرَةِ الْإِحْرَامِ، وَقِيلَ: لَا يُدْرِكُ إلَّا بِإِدْرَاكِ الصَّلَاةِ جَمِيعِهَا ».",
+      "Al-Ḥaṭṭāb tire aussi le temps choisi du segment « فَالْآيِسُ أَوَّلُ الْمُخْتَارِ », car Khalīl met d'ordinaire la précision à la fin d'un passage d'un seul tenant."
+    ],
+    divergences: [
+      "Concordance — le temps choisi. Al-Ḥaṭṭāb : « وَالْمُرَادُ بِالْوَقْتِ الْوَقْتُ الْمُخْتَارُ ». Al-Dardīr : « وَلَوْ اخْتِيَارِيًّا ».",
+      "Point à comparer — ce qui fait « sortir » le temps choisi. Al-Ḥaṭṭāb laisse le désaccord ouvert (une unité, la takbīr d'entrée, ou toute la prière). Al-Dardīr ne retient que l'unité : « أَنَّهُ لَا يُدْرِكُ مِنْهُ رَكْعَةً ».",
+      "Complément — l'eau qu'il faudrait chauffer. Al-Dasūqī : « وَمِثْلُ ذَلِكَ مَنْ لَا يَقْدِرُ عَلَى اسْتِعْمَالِ الْمَاءِ بَارِدًا وَخَافَ بِتَسْخِينِهِ خُرُوجَ الْوَقْتِ كَمَا قَالَ شَيْخُنَا » (son maître al-ʿAdawī) ; al-Ḥaṭṭāb traite ce cas d'après al-ʿAwfī sous le segment 16."
+    ],
+    exemple: "En ville, un homme se réveille peu avant le lever du soleil ; le robinet est coupé, et aller chercher l'eau à la fontaine du quartier lui ferait manquer le temps du fajr : il fait le tayammoum et prie.",
+    erreurs_frequentes: [
+      "Attendre la fin du temps de nécessité avant de faire le tayammoum : c'est le temps choisi qui compte.",
+      "Mesurer le temps des ablutions sur ses propres lenteurs : on le mesure sur la manière du Prophète.",
+      "Croire que seul le voyageur peut faire le tayammoum pour ne pas manquer le temps."
+    ],
+    termes: [
+      { ar: "الْوَقْتُ الْمُخْتَارُ", translit: "al-waqtou l-moukhtâr", def: "Le temps « choisi » d'une prière, par opposition au temps de nécessité (al-waqt ad-darourî) qui le suit." },
+      { ar: "الوَقْتُ الضَّرُورِيّ", translit: "al-waqtou d-daroûriyy", def: "Temps de nécessité : fin du temps d'une prière, réservé à ceux qui ont une excuse." },
+      { ar: "وَسْوَاس", translit: "waswâs", def: "Obsession du doute : doute répété et sans fondement sur la pureté ou l'adoration." }
+    ],
+    quiz: [
+      { q: "Quel temps compte pour le tayammoum fait par crainte que le temps ne sorte ?",
+        choix: ["Le temps de nécessité", "Toute la journée", "Le temps de la prière suivante", "Le temps choisi"],
+        bonne: 3,
+        explication: "« وَالْمُرَادُ بِالْوَقْتِ الْوَقْتُ الْمُخْتَارُ »." },
+      { q: "Selon al-Ḥaṭṭāb, d'après al-Lakhmī, comment mesure-t-on le temps nécessaire aux ablutions ?",
+        choix: ["Selon les habitudes de chacun, même lentes", "Selon le temps d'un ghousl complet", "Selon la manière dont le Prophète faisait ses ablutions", "Selon l'avis du voisin"],
+        bonne: 2,
+        explication: "« قَدْرَ مَا تَدُلُّ عَلَيْهِ الْآثَارُ مِنْ صِفَةِ وُضُوئِهِ » ; « لَا عَلَى مَا يَكُونُ مِنْ التَّرَاخِي وَالْوَسْوَاسِ »." },
+      { q: "Mise en situation : un homme en ville craint, s'il va jusqu'au fleuve, que le soleil se lève avant qu'il ait prié le fajr. Selon la Mudawwana :",
+        choix: ["Il fait le tayammoum et prie", "Il va au fleuve quand même", "Il prie après le lever du soleil, avec les ablutions", "Il ne prie pas"],
+        bonne: 0,
+        explication: "« فَلْيَتَيَمَّمْ وَيُصَلِّ، وَلَا يَذْهَبُ إلَى الْمَاءِ »." },
+      { q: "Quel avis Ibn Ghāzī juge-t-il « non connu » ?",
+        choix: ["Celui du temps choisi", "Celui d'Ibn ʿAskar, qui ne retient que le temps de nécessité", "Celui d'al-Lakhmī", "Celui de la Mudawwana"],
+        bonne: 1,
+        explication: "« وَمَا قَالَهُ ابْنُ عَسْكَرٍ مِنْ اعْتِبَارِ الضَّرُورِيِّ هُنَا غَيْرُ مَعْرُوفٍ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "336–337" },
+    alertes: [
+      "Ibn Ghāzī (14605, p. 46) confirme la citation d'Ibn Rushd et le jugement sur Ibn ʿAskar ; at-Tawḍīḥ (14442, p. 186) confirme les quatre cas du résident ; al-Lakhmī, al-Irshād, al-Wāfī et Zarrūq n'ont pas été consultés.",
+      "Ce segment porte la phrase « وَالْمُرَادُ بِالْوَقْتِ الْوَقْتُ الْمُخْتَارُ » (569/335) à laquelle renvoie al-Dasūqī sur la fiche tah-01-08-22 (« وَفِي ح قَصُرَ الْوَقْتُ عَلَى الِاخْتِيَارِيِّ ») ; la fiche 22 cite déjà cette phrase (p. 336) : rien à changer.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 150 (Shamela 21604, page 149)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-09-15",
+    kitab: "tah", bab: "01", fasl: "09", ordre: 15,
+    titre: "Faute de quelqu'un pour donner l'eau, ou d'un instrument",
+    titre_ar: "كَعَدَمِ مُنَاوِلٍ أَوْ آلَةٍ",
+    objectif: "Savoir que celui qui ne peut atteindre l'eau, faute d'aide ou d'instrument, fait le tayammoum s'il craint de manquer le temps.",
+    matn: "كَعَدَمِ مُنَاوِلٍ أَوْ آلَةٍ",
+    regle_pratique: "Celui qui a de l'eau mais ne peut la prendre, faute de quelqu'un pour la lui donner ou faute d'un instrument (seau, corde), fait le tayammoum s'il craint que le temps ne sorte.",
+    qualification: {
+      hukm: "mubah",
+      nature: "shart",
+      effet_si_omis: "Le texte ne précise pas ici l'effet d'une omission."
+    },
+    explication: "Al-Ḥaṭṭāb : « أَيْ: وَكَذَلِكَ يُبَاحُ التَّيَمُّمُ مَعَ وُجُودِ الْمَاءِ لِمَنْ عَجَزَ عَنْ تَنَاوُلِهِ، وَلَمْ يَجِدْ مَنْ يُنَاوِلُهُ إيَّاهُ، أَوْ لَمْ يَجِدْ آلَةً يَتَنَاوَلُهُ بِهَا وَخَافَ فَوَاتَ الْوَقْتِ ». De même celui qui a l'instrument mais manquerait le temps en tirant l'eau du puits, d'après la Mudawwana ; « وَهُوَ دَاخِلٌ فِي قَوْلِ الْمُصَنِّفِ أَوَّلًا » (fiche 14). C'est le troisième des cas du résident bien portant ; Khalīl passe au quatrième avec le segment suivant.\n\nAl-Dardīr : « كَمَا يَجِبُ التَّيَمُّمُ لِعَدَمِ » quelqu'un pour donner l'eau, ou d'un instrument « مُبَاحَةٍ كَدَلْوٍ وَحَبْلٍ إذَا خَافَ خُرُوجَ الْوَقْتِ لِأَنَّهُ بِمَنْزِلَةِ عَادِمِ الْمَاءِ », et ce cas suit la règle de l'heure du tayammoum (« فَالْآيِسُ … ») ; il précise : « وِفَاقًا لِلْحَطَّابِ », contrairement aux autres commentateurs.",
+    aqwal: [
+      { auteur: "Al-Ḥaṭṭāb ; al-Dardīr (« وِفَاقًا لِلْحَطَّابِ »)", avis: "Il fait le tayammoum s'il craint que le temps ne sorte.", statut: "non_precise" },
+      { auteur: "Les autres commentateurs (d'après al-Dasūqī)", avis: "Il fait le tayammoum sans cette condition, même au début du temps, le retard étant seulement recommandé.", statut: "qawl" }
+    ],
+    muatamad: "Confirmé par al-Dardīr, qui suit expressément al-Ḥaṭṭāb : le tayammoum faute d'aide ou d'instrument permis, « إذَا خَافَ خُرُوجَ الْوَقْتِ » … « وِفَاقًا لِلْحَطَّابِ », contrairement aux autres commentateurs.",
+    tarjih_hattab: "Le tayammoum faute d'aide ou d'instrument suppose la crainte de manquer le temps (« وَخَافَ فَوَاتَ الْوَقْتِ »).",
+    tanbihat: [
+      "Les quatre cas du résident (at-Tawḍīḥ) : il n'a pas d'instrument ; il craint de manquer le temps en cherchant l'eau ; il le craint en la tirant du puits ; il le craint en s'en servant (fiche 16)."
+    ],
+    divergences: [
+      "Concordance — la crainte du temps. Al-Ḥaṭṭāb : « وَخَافَ فَوَاتَ الْوَقْتِ ». Al-Dardīr : « إذَا خَافَ خُرُوجَ الْوَقْتِ » … « وِفَاقًا لِلْحَطَّابِ », contrairement aux autres commentateurs. Al-Dasūqī : « وَأَمَّا غَيْرُهُ مِنْ الشُّرَّاحِ فَقَدْ أَطْلَقُوا تَيَمُّمَ عَادِمِ الْمُنَاوِلِ وَالْآلَةِ » ; « وَاَلَّذِي لح هُوَ مَا يَقْتَضِيهِ كَلَامُ ابْنِ عَرَفَةَ وَالتَّلْقِينِ اُنْظُرْ بْن ».",
+      "Complément — l'instrument interdit (seau ou chaîne d'or ou d'argent). Al-Dardīr, à la suite de « عبق » (az-Zurqānī), le tient pour absent ; al-Bunānī : « بَلْ الظَّاهِرُ أَنَّهُ يَسْتَعْمِلُهَا وَلَا يَتَيَمَّمُ لِأَنَّ الضَّرُورَاتِ تُبِيحُ الْمَحْظُورَاتِ » ; al-Dasūqī appuie az-Zurqānī : « بِأَنَّ الطَّهَارَةَ الْمَائِيَّةَ لَهَا بَدَلٌ وَهُوَ التَّيَمُّمُ ». Al-Ḥaṭṭāb n'en parle pas ici."
+    ],
+    exemple: "Un vieil homme alité a une cruche d'eau hors de sa portée, et personne ne rentrera à la maison avant la fin du temps du ʿaṣr : il fait le tayammoum et prie.",
+    erreurs_frequentes: [
+      "Faire le tayammoum dès le début du temps alors qu'une aide arrivera sûrement avant sa fin : al-Ḥaṭṭāb exige la crainte de manquer le temps.",
+      "Croire que seul le malade est concerné : tout résident sans aide ni instrument l'est.",
+      "Oublier que celui qui a un instrument mais manquerait le temps en tirant l'eau est dans le même cas."
+    ],
+    termes: [
+      { ar: "مُنَاوِل", translit: "mounâwil", def: "Celui qui donne l'eau à quelqu'un qui ne peut la prendre lui-même." },
+      { ar: "آلَة", translit: "âla", def: "Instrument pour tirer ou prendre l'eau : seau, corde." }
+    ],
+    quiz: [
+      { q: "Quand celui qui n'a personne pour lui donner l'eau fait-il le tayammoum, selon al-Ḥaṭṭāb et al-Dardīr ?",
+        choix: ["Dès qu'il le veut", "Jamais", "S'il craint que le temps ne sorte", "Seulement en voyage"],
+        bonne: 2,
+        explication: "« وَخَافَ فَوَاتَ الْوَقْتِ » ; al-Dardīr : « إذَا خَافَ خُرُوجَ الْوَقْتِ »." },
+      { q: "Selon al-Dasūqī, que disent les autres commentateurs ?",
+        choix: ["Qu'il ne fait jamais le tayammoum", "Qu'il le fait sans condition de temps, le retard étant seulement recommandé", "Qu'il doit refaire la prière", "Qu'il doit attendre la nuit"],
+        bonne: 1,
+        explication: "« فَقَدْ أَطْلَقُوا تَيَمُّمَ عَادِمِ الْمُنَاوِلِ وَالْآلَةِ » ; « غَايَةُ الْأَمْرِ أَنَّهُ يُسْتَحَبُّ لَهُ التَّأْخِيرُ »." },
+      { q: "Mise en situation : au puits, un homme a un seau, mais tirer l'eau lui ferait manquer le temps choisi. Selon al-Ḥaṭṭāb :",
+        choix: ["Il tire l'eau même après le temps", "Il ne prie pas", "Il attend que quelqu'un l'aide", "Il fait le tayammoum, comme celui qui craint la sortie du temps"],
+        bonne: 3,
+        explication: "« وَكَذَا لَوْ وَجَدَ الْآلَةَ وَخَافَ فَوَاتَ الْوَقْتِ إنْ اشْتَغَلَ بِرَفْعِهِ مِنْ الْبِئْرِ »." },
+      { q: "Selon al-Bunānī, rapporté par al-Dasūqī, celui qui n'a qu'un seau d'or pour tirer l'eau :",
+        choix: ["S'en sert et ne fait pas le tayammoum", "Doit faire le tayammoum", "Ne prie pas", "Doit acheter un autre seau"],
+        bonne: 0,
+        explication: "« بَلْ الظَّاهِرُ أَنَّهُ يَسْتَعْمِلُهَا وَلَا يَتَيَمَّمُ » ; al-Dardīr et al-Dasūqī penchent pour le tayammoum." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "337" },
+    alertes: [
+      "Variante : al-Dardīr vocalise « (كَعَدَمٍ) » avec tanwīn, puis glose « لِعَدَمِ (مُنَاوِلٍ » ; le « ص », Ibn Ghāzī et al-Kharashī : « كَعَدَمِ مُنَاوِلٍ » ; « ص » gardé (n° 517).",
+      "At-Tawḍīḥ (14442, p. 186) confirme les quatre cas du résident.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 150–151 (Shamela 21604, pages 149–150)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-09-16",
+    kitab: "tah", bab: "01", fasl: "09", ordre: 16,
+    titre: "Craindre de manquer le temps en se servant de l'eau",
+    titre_ar: "وَهَلْ إنْ خَافَ فَوَاتَهُ بِاسْتِعْمَالِهِ؟ خِلَافٌ",
+    objectif: "Connaître le désaccord sur celui qui a l'eau devant lui mais manquerait le temps en faisant ses ablutions, et l'avis retenu.",
+    matn: "وَهَلْ إنْ خَافَ فَوَاتَهُ بِاسْتِعْمَالِهِ؟ خِلَافٌ",
+    regle_pratique: "Si l'on a l'eau devant soi mais que le temps de faire ses ablutions ferait sortir le temps de la prière, deux avis répandus s'opposent ; l'avis retenu par al-Dardīr, que préfère aussi al-Ḥaṭṭāb, est de faire le tayammoum.",
+    qualification: {
+      hukm: "mubah",
+      nature: "shart",
+      effet_si_omis: "Ibn Nājī : s'il a fait le tayammoum et que le temps sort aussitôt, avant qu'il entre en prière, il fait ses ablutions et prie ; al-Ḥaṭṭāb : « وَهُوَ ظَاهِرٌ »."
+    },
+    explication: "Al-Ḥaṭṭāb : « أَيْ: فَوَاتَ الْوَقْتِ الْمُخْتَارِ », et les deux avis valent aussi pour le temps de nécessité : dans l'audition de ʿĪsā, celui qui a un puits et verrait le soleil se lever s'il tirait l'eau, « قَالَ يُعَالِجُهَا، وَإِنْ طَلَعَتْ الشَّمْسُ ».\n\nLe tayammoum : « رَوَاهُ الْأَبْهَرِيُّ عَنْ مَالِكٍ », avis d'Ibn al-Qaṣṣār, de ʿAbd al-Wahhāb et d'autres Irakiens, choisi par at-Tūnisī et Ibn Yūnus (« هُوَ الصَّوَابُ ») ; at-Tawḍīḥ : « وَهُوَ مُقْتَضَى الْفِقْهِ » ; Ibn al-Ḥājib l'a déclaré répandu, et at-Tawḍīḥ dit : « وَلَا أَعْلَمُ مَنْ شَهَّرَهُ » ; al-Ḥaṭṭāb : « يَكْفِيهِ مِنْ الْقُوَّةِ اخْتِيَارُ مَنْ ذَكَرْنَا ».\n\nSe servir de l'eau : Ibn Yūnus l'attribue à certains savants, Ibn ʿArafa à certains Qarawiyyīn ; an-Nukat rapporte de certains maîtres « أَنَّهُ لَا يُخْتَلَفُ فِي اسْتِعْمَالِ الْمَاءِ لِمَنْ هُوَ بَيْنَ يَدَيْهِ », ce qui a fortifié cet avis chez Khalīl, au point qu'il l'a mis à égalité avec le premier.\n\nAl-Dardīr : celui qui a l'eau, même pour un ḥadath majeur, s'il sait ou pense fortement qu'il n'atteindra pas une unité du temps en s'en servant, fait le tayammoum, « وَهُوَ الْمُعْتَمَدُ مُرَاعَاةً لِفَضِيلَةِ الْوَقْتِ », ou bien se sert de l'eau même si le temps sort.",
+    aqwal: [
+      { auteur: "Riwāya d'al-Abharī de Mālik ; Ibn al-Qaṣṣār, ʿAbd al-Wahhāb ; choix d'at-Tūnisī et d'Ibn Yūnus ; déclaré répandu par Ibn al-Ḥājib", avis: "Il fait le tayammoum.", statut: "mashhur" },
+      { auteur: "Certains savants (Ibn Yūnus) ; certains Qarawiyyīn (Ibn ʿArafa) ; certains maîtres d'après an-Nukat", avis: "Il se sert de l'eau, même si le temps sort.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : il fait le tayammoum, « وَهُوَ الْمُعْتَمَدُ مُرَاعَاةً لِفَضِيلَةِ الْوَقْتِ » ; le désaccord vaut « إذَا لَمْ يَكُنْ يَتَبَيَّنُ بَقَاؤُهُ أَوْ خُرُوجُهُ قَبْلَ الْإِحْرَامِ وَإِلَّا تَوَضَّأَ ».",
+    tarjih_hattab: "« وَالرَّاجِحُ هُوَ الْقَوْلُ الْأَوَّلُ » (le tayammoum), « وَأَقَامَهُ اللَّخْمِيُّ وَعِيَاضٌ مِنْ الْمُدَوَّنَةِ » ; pour le malade qui ne peut se servir que d'eau chauffée, il suit al-Mashdhālī (« هَذَا هُوَ الظَّاهِرُ ») : si le temps est large, « وَجَبَ عَلَيْهِ تَسْخِينُ الْمَاءِ وَهُوَ ظَاهِرٌ ».",
+    tanbihat: [
+      "Ibn Nājī : sur l'avis répandu, celui qui craint en résidence de manquer le temps en allant à l'eau, puis voit le temps sortir juste après son tayammoum, fait ses ablutions et prie, car le tayammoum ne sert qu'à atteindre le mérite du temps ; « (قُلْتُ) وَهُوَ ظَاهِرٌ ».",
+      "Al-ʿAwfī : le malade qui ne peut se servir que d'eau chauffée, et qui manquerait le temps à la chauffer, est un malade : il fait le tayammoum ; il juge fautif un contemporain qui y voyait le même désaccord : « وَهُوَ عِنْدِي خَطَأٌ ». Al-Mashdhālī le discute : ce malade peut se servir de l'eau d'une certaine façon, et si cela lui fait manquer le temps, « صَحَّ إجْرَاءُ الْخِلَافِ فِيهِ » ; al-Ḥaṭṭāb : « هَذَا هُوَ الظَّاهِرُ ». Il rejette en revanche l'ajout, cité à la suite, qui ferait de la simple peine, sans crainte de maladie, une cause de tayammoum : « وَلَا أَعْلَمُ فِي ذَلِكَ خِلَافًا ».",
+      "Al-Qarāfī (adh-Dhakhīra) : celui qui se souvient d'une impureté pendant la prière, quand il ne reste pas le temps de l'ôter et de prier une unité, relève du même désaccord ; at-Tawḍīḥ dit qu'il prie alors avec l'impureté."
+    ],
+    divergences: [
+      "Concordance — l'avis retenu. Al-Ḥaṭṭāb : « وَالرَّاجِحُ هُوَ الْقَوْلُ الْأَوَّلُ ». Al-Dardīr : « وَهُوَ الْمُعْتَمَدُ مُرَاعَاةً لِفَضِيلَةِ الْوَقْتِ ». Al-Dasūqī : « وَهَذَا الْقَوْلُ هُوَ الَّذِي رَوَاهُ الْأَبْهَرِيُّ وَاخْتَارَهُ التُّونُسِيُّ وَصَوَّبَهُ ابْنُ يُونُسَ ».",
+      "Complément — pourquoi Khalīl dit « خِلَافٌ ». Al-Dasūqī : l'autre avis, dont ʿAbd al-Ḥaqq rapporte l'accord, « فَلَا أَقَلَّ مِنْ أَنْ يَكُونَ مَشْهُورًا فَلِذَا قَالَ الْمُصَنِّفُ خِلَافَ ». Al-Ḥaṭṭāb : c'est cette négation du désaccord qui l'a fortifié chez Khalīl.",
+      "Concordance — le temps qui sort après le tayammoum. Al-Ḥaṭṭāb, d'après Ibn Nājī : avant l'entrée en prière, il fait ses ablutions. Al-Dasūqī : « فَلَا بُدَّ مِنْ الْوُضُوءِ » si cela apparaît avant l'entrée en prière ; après, « فَإِنَّهُ لَا يَقْطَعُ لِأَنَّهُ دَخَلَهَا بِوَجْهٍ جَائِزٍ »."
+    ],
+    exemple: "Un homme se réveille alors qu'il reste juste le temps de deux unités avant le lever du soleil ; l'eau est là, mais les ablutions lui feraient manquer le temps : selon l'avis retenu, il fait le tayammoum et prie.",
+    erreurs_frequentes: [
+      "Croire que celui qui a l'eau devant lui ne peut jamais faire le tayammoum : l'avis retenu le lui permet s'il manquerait le temps.",
+      "Prier avec le tayammoum alors que le temps est sorti avant l'entrée en prière : il doit alors faire ses ablutions.",
+      "Faire le tayammoum pour une eau froide qu'on pourrait chauffer à temps."
+    ],
+    termes: [
+      { ar: "الْوَقْتُ الْمُخْتَارُ", translit: "al-waqtou l-moukhtâr", def: "Le temps « choisi » d'une prière, par opposition au temps de nécessité (al-waqt ad-darourî) qui le suit." },
+      { ar: "الوَقْتُ الضَّرُورِيّ", translit: "al-waqtou d-daroûriyy", def: "Temps de nécessité : fin du temps d'une prière, réservé à ceux qui ont une excuse." }
+    ],
+    quiz: [
+      { q: "Quel est l'avis retenu par al-Dardīr pour celui qui manquerait le temps en se servant de l'eau ?",
+        choix: ["Il se sert de l'eau même si le temps sort", "Il fait le tayammoum, par égard pour le mérite du temps", "Il ne prie pas", "Il prie sans purification"],
+        bonne: 1,
+        explication: "« وَهُوَ الْمُعْتَمَدُ مُرَاعَاةً لِفَضِيلَةِ الْوَقْتِ »." },
+      { q: "Qui ont choisi l'avis du tayammoum, selon al-Ḥaṭṭāb ?",
+        choix: ["Saḥnūn et Ashhab", "Ibn al-Qāsim seul", "Les gens de Médine", "At-Tūnisī et Ibn Yūnus"],
+        bonne: 3,
+        explication: "« وَاخْتَارَهُ التُّونُسِيُّ وَابْنُ يُونُسَ قَائِلًا هُوَ الصَّوَابُ »." },
+      { q: "Mise en situation : un homme a fait le tayammoum par crainte de manquer le temps, puis le temps sort avant qu'il entre en prière. Selon Ibn Nājī, cité par al-Ḥaṭṭāb :",
+        choix: ["Il fait ses ablutions et prie", "Il prie avec son tayammoum", "Il ne prie plus", "Il refait le tayammoum"],
+        bonne: 0,
+        explication: "« فَخَرَجَ الْوَقْتُ عَقِيبَ تَيَمُّمِهِ تَوَضَّأَ وَصَلَّى »." },
+      { q: "Un malade ne peut se servir que d'eau chauffée, et le temps est large. Selon al-Ḥaṭṭāb :",
+        choix: ["Il fait le tayammoum tout de suite", "Il ne prie pas", "Il doit chauffer l'eau", "Il prie sans purification"],
+        bonne: 2,
+        explication: "« وَيُفْهَمُ مِنْهُ أَنَّهُ لَوْ كَانَ الْوَقْتُ مُتَّسِعًا وَجَبَ عَلَيْهِ تَسْخِينُ الْمَاءِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "337–338" },
+    alertes: [
+      "Précisé (campagne de correction) : « فَأَحْرَى فِيمَنْ يَخَافُ خُرُوجَهُ بِاسْتِعْمَالِهِ الْمَاءَ أَبِنَزْعِهِ مِنْ الْبِئْرِ » : lire أَوْ بِنَزْعِهِ ; non cité (n° 518).",
+      "Précisé (campagne de correction) : citation d'adh-Dhakhīra, « لِأَنَّ الصَّلَاةَ بِالنَّجَاسَةِ أَخَفُّ بِالصَّلَاةِ بِالْحَدَثِ » : lire مِنْ الصَّلَاةِ ; adh-Dhakhīra non relue à ce passage ; non cité (n° 519).",
+      "Précisé (campagne de correction) : citation d'Ibn Nājī, « فِي أَنَّهُ أَهَلَّ لِتَيَمُّمٍ » : lire أَهْلٌ لِلتَّيَمُّمِ probable ; non cité (n° 520).",
+      "At-Tawḍīḥ (14442, p. 187) confirme al-Abharī, Ibn al-Qaṣṣār, ʿAbd al-Wahhāb, « وهو مقتضى الفقه », « ولا أعلم من شهره » et an-Nukat ; Ibn ʿArafa (16968, p. 99) : « ففي تيممه قولا الصقلي مع القاضي وابن القصار ورواية الأبهري وبعض القرويين » ; Ibn Nājī, al-ʿAwfī et al-Mashdhālī n'ont pas été consultés.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 151 (Shamela 21604, page 150)."
+    ],
+    verification: "verifie"
   }
-/* FIN-UNITE-62 */
+/* FIN-UNITE-63 */
 ]);
