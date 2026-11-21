@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.57 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.58 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -103,7 +103,9 @@
           titres de -24 à -27 précisés ; faṣl tah-01-08 : 35 → 36 segments ; faṣl terminé (unité 61).
    v1.55 : tah-01-09-05 « وَحَاضِرٌ » (n° 493, au lieu de « وَحَاضِرٍ ») ; titres de tah-01-09-01 à -08 précisés (unité 62).
    v1.56 : titres de tah-01-09-09 à -16 précisés ; titre_ar de tah-01-09-11 complété (unité 63).
-   v1.57 : tah-01-09-17 découpé en -17a à -17e ; titre_ar de -18 complété (« لَا فَرْضٌ آخَرُ … », n° 521) ; titres de 18 à 20 précisés (unité 64). */
+   v1.57 : tah-01-09-17 découpé en -17a à -17e ; titre_ar de -18 complété (« لَا فَرْضٌ آخَرُ … », n° 521) ; titres de 18 à 20 précisés (unité 64).
+   v1.58 : matn de -21 complété (« لَا ثَمَنٍ », n° 535) ; -22b ajouté (segment absent du « ص », n° 537) ; tah-01-09-23 découpé en -23a à -23d,
+          « تَوَهَّمَهُ » corrigé (n° 539) (unité 65). */
 App.data.definirPlan({
   kutub: [
     {
@@ -690,9 +692,13 @@ App.data.definirPlan({
                 { id: "tah-01-09-18", titre: "Pas une seconde obligatoire, même voulue ; la seconde est nulle", titre_ar: "لَا فَرْضٌ آخَرُ وَلَوْ قَصْدًا وَبَطَلَ …" }, /* p. 342 ; début et fin absents du « ص » (n° 521, v1.57) */
                 { id: "tah-01-09-19", titre: "Rien de cela avec un tayammoum simplement recommandé", titre_ar: "لَا بِتَيَمُّمٍ لِمُسْتَحَبٍّ" }, /* p. 342 */
                 { id: "tah-01-09-20", titre: "Continuité du tayammoum, et lien avec la prière", titre_ar: "وَلَزِمَ مُوَالَاتُهُ" }, /* p. 342 */
-                { id: "tah-01-09-21", titre: "Accepter un don d'eau", titre_ar: "وَقَبُولُ هِبَةِ مَاءٍ" }, /* p. 343 */
-                { id: "tah-01-09-22", titre: "… ou un prêt", titre_ar: "أَوْ قَرْضِهِ" }, /* p. 343 */
-                { id: "tah-01-09-23", titre: "Chercher l'eau pour chaque prière", titre_ar: "وَطَلَبَهُ لِكُلِّ صَلَاةٍ، وَلَوْ تَوَهُّمَهُ لَا …" }, /* p. 343 */
+                { id: "tah-01-09-21", titre: "Accepter l'eau qu'on vous donne, non l'argent pour l'acheter", titre_ar: "وَقَبُولُ هِبَةِ مَاءٍ لَا ثَمَنٍ" }, /* p. 343 ; « لَا ثَمَنٍ » absent du « ص » (n° 535, v1.58) */
+                { id: "tah-01-09-22", titre: "… ou l'eau, ou l'argent, qu'on vous prête", titre_ar: "أَوْ قَرْضِهِ" }, /* p. 343 (v1.58) */
+                { id: "tah-01-09-22b", titre: "Acheter l'eau au prix habituel, même à crédit", titre_ar: "وَأَخْذُهُ بِثَمَنٍ اعْتِيدَ لَمْ يَحْتَجْ لَهُ وَإِنْ بِذِمَّتِهِ" }, /* segment absent du « ص » ; al-Dardīr, t. 1, p. 153 (n° 537, v1.58) */
+                { id: "tah-01-09-23a", titre: "Chercher l'eau pour chaque prière, même sur un simple soupçon", titre_ar: "وَطَلَبَهُ لِكُلِّ صَلَاةٍ، وَلَوْ تَوَهَّمَهُ لَا …" }, /* p. 343–344 ; « تَوَهَّمَهُ » corrigé (n° 539, v1.58) */
+                { id: "tah-01-09-23b", titre: "Chercher sans peine excessive : jusqu'où aller", titre_ar: "وَطَلَبَهُ لِكُلِّ صَلَاةٍ، وَلَوْ تَوَهَّمَهُ لَا …" }, /* p. 344–345 ; sous-fiche de 23 (v1.58) */
+                { id: "tah-01-09-23c", titre: "Demander l'eau à ses compagnons de voyage", titre_ar: "كَرُفْقَةٍ قَلِيلَةٍ أَوْ حَوْلَهُ مِنْ كَثِيرَةٍ …" }, /* p. 345 ; sous-fiche de 23 (v1.58) */
+                { id: "tah-01-09-23d", titre: "Qui n'a pas demandé l'eau : refaire la prière ?", titre_ar: "إنْ جَهِلَ بُخْلَهُمْ بِهِ — الْإِعَادَةُ" }, /* p. 345 ; sous-fiche de 23 (v1.58) */
                 { id: "tah-01-09-24", titre: "Intention : s'autoriser la prière ; intention de la janâba", titre_ar: "وَنِيَّةُ اسْتِبَاحَةِ الصَّلَاةِ وَنِيَّةُ أَكْبَرَ إنْ …" }, /* p. 345 */
                 { id: "tah-01-09-25", titre: "Il ne lève pas le hadath", titre_ar: "وَلَا يَرْفَعُ الْحَدَثَ" }, /* p. 348 */
                 { id: "tah-01-09-26", titre: "Couvrir le visage et les mains jusqu'aux poignets", titre_ar: "وَتَعْمِيمُ وَجْهِهِ وَكَفَّيْهِ لِكُوعَيْهِ" }, /* p. 348 */

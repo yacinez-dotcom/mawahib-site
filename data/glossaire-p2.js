@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.68
+/* Données — Glossaire, partie 2 — v1.69
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -43,7 +43,8 @@
    v1.65 : 2 termes de l'unité 61 (tah-01-08-24a à -27).
    v1.66 : 12 termes de l'unité 62 (tah-01-09-01 à -08).
    v1.67 : 9 termes de l'unité 63 (tah-01-09-09 à -16).
-   v1.68 : 12 termes de l'unité 64 (tah-01-09-17a à -20). */
+   v1.68 : 12 termes de l'unité 64 (tah-01-09-17a à -20).
+   v1.69 : 13 termes de l'unité 65 (tah-01-09-21 à -23d). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -495,6 +496,20 @@ App.data.ajouterTermes([
   { ar: "صَلَاةُ الْعِيدِ", translit: "salâtou l-ʿîd", def: "La prière de chacune des deux fêtes de l'année (rupture du jeûne et sacrifice)." },
   { ar: "اِسْتِسْقَاء", translit: "istisqâ'", def: "Prière pour demander la pluie." },
   { ar: "مُشْتَرَكَة", translit: "mouchtaraka", def: "Se dit de deux prières qui ont une part de temps commune, comme le ẓuhr et l'ʿaṣr." },
-  { ar: "لَامٌ مُقْحَمَةٌ", translit: "lâmoun mouqhama", def: "Lettre lām ajoutée sans changer le sens : pour al-Dardīr, « بِتَيَمُّمٍ لِمُسْتَحَبٍّ » veut dire « par un tayammoum recommandé »." }
+  { ar: "لَامٌ مُقْحَمَةٌ", translit: "lâmoun mouqhama", def: "Lettre lām ajoutée sans changer le sens : pour al-Dardīr, « بِتَيَمُّمٍ لِمُسْتَحَبٍّ » veut dire « par un tayammoum recommandé »." },
+  /* Unité 65 — tah-01-09-21 à -23d */
+  { ar: "هِبَة", translit: "hiba", def: "Don : remettre une chose à quelqu'un sans contrepartie." },
+  { ar: "مِنَّة", translit: "minna", def: "Faveur reprochée : le bienfait que le donateur peut faire valoir ; si on le craint, on n'est pas tenu d'accepter le don." },
+  { ar: "اِسْتِيهَاب", translit: "istîhâb", def: "Demander qu'on vous donne une chose (ici, l'eau)." },
+  { ar: "قَرْض", translit: "qard", def: "Prêt : remettre une chose à quelqu'un, à charge d'en rendre l'équivalent." },
+  { ar: "مَلِيّ", translit: "maliyy", def: "Solvable : qui a de quoi rembourser (ici, des biens dans son pays)." },
+  { ar: "مُعْدِم", translit: "mouʿdim", def: "Démuni : qui n'a pas de quoi rembourser." },
+  { ar: "ذِمَّة", translit: "dhimma", def: "Engagement de la personne : ce qui est dû « dans sa dhimma » est une dette à payer plus tard." },
+  { ar: "الثَّمَنُ الْمُعْتَادُ", translit: "ath-thamanou l-mouʿtâd", def: "Le prix habituel de l'eau en ce lieu, ou ce qui en est proche." },
+  { ar: "تَوَهُّم", translit: "tawahhoum", def: "Simple soupçon qu'une chose existe : la possibilité jugée la plus faible." },
+  { ar: "سَلَّابَة", translit: "sallâba", def: "Détrousseurs : brigands qui dépouillent les voyageurs." },
+  { ar: "رُفْقَة", translit: "roufqa", def: "Compagnie de voyage : groupe qui fait halte et repart ensemble." },
+  { ar: "بُخْل", translit: "boukhl", def: "Avarice : refus de donner." },
+  { ar: "رَحْل", translit: "rahl", def: "Bagages, effets du voyageur." }
 /* FIN-GLOSSAIRE */
 ]);

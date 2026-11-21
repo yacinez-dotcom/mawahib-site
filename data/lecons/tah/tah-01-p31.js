@@ -1,4 +1,4 @@
-/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 31 — v17.0
+/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 31 — v17.1
    Source : Mawāhib al-Jalīl, al-Ḥaṭṭāb, éd. Dār al-Fikr, 3e éd., 1412 H / 1992, tome 1 (shamela.ws/book/569).
    Croisement : al-Sharḥ al-kabīr d'al-Dardīr et Ḥāshiyat al-Dasūqī (shamela.ws/book/21604), tome 1.
    Cette partie : faṣl tah-01-09 (le tayammoum), à partir de tah-01-09-17a (unité 64) — t. 1, p. 338 et suivantes.
@@ -6,6 +6,9 @@
           p. 151–152) (2026-11-21) ; nouvelle partie, tah-01-p30.js (≈ 161 Ko) étant figée ; segment 17 découpé en cinq
           sous-fiches ; matn de 18 complété (« لَا فَرْضٌ آخَرُ … وَلَوْ مُشْتَرَكَةً ») d'après le Mukhtaṣar seul, Ibn Ghāzī,
           al-Kharashī et al-Dardīr ; anomalies n° 521 à 534.
+   v17.1 : unité 65 — tah-01-09-21, -22, -22b, -23a à -23d (Mawāhib, t. 1, p. 343–345 ; al-Dardīr / al-Dasūqī, t. 1,
+          p. 152–154) (2026-11-21) ; matn de 21 complété (« لَا ثَمَنٍ ») ; 22b : segment absent du « ص », d'après al-Dardīr ;
+          segment 23 découpé en quatre sous-fiches ; « تَوَهَّمَهُ » corrigé ; anomalies n° 535 à 550.
    Bāb découpé en parties de moins de 200 Ko ;
    historique des versions : tah-01-p1.js (jusqu'à v2.5) puis l'en-tête de chaque partie. */
 App.data.ajouterFiches([
@@ -568,6 +571,475 @@ App.data.ajouterFiches([
       "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 152 (Shamela 21604, page 151)."
     ],
     verification: "verifie"
+  },
+  /* ================================================================== */
+  /* Unité 65 — tah-01-09-21 à -23d */
+  /* Mawāhib, t. 1, p. 343–345 (Shamela 569/342–344) ; al-Dardīr / al-Dasūqī, t. 1, p. 152–154 (Shamela 21604/151–153) */
+  {
+    id: "tah-01-09-21",
+    kitab: "tah", bab: "01", fasl: "09", ordre: 21,
+    titre: "Accepter l'eau qu'on vous donne, non l'argent pour l'acheter",
+    titre_ar: "وَقَبُولُ هِبَةِ مَاءٍ لَا ثَمَنٍ",
+    objectif: "Savoir que celui qui n'a pas d'eau doit accepter l'eau qu'on lui offre, mais non l'argent qu'on lui offre pour en acheter.",
+    matn: "وَقَبُولُ هِبَةِ مَاءٍ لَا ثَمَنٍ",
+    regle_pratique: "Celui qui n'a pas d'eau doit accepter l'eau qu'on lui donne pour sa purification, sauf s'il est sûr, ou selon al-Dardīr s'il pense, qu'on le lui fera sentir comme une faveur ; il n'est pas tenu d'accepter qu'on lui donne l'argent pour l'acheter.",
+    qualification: {
+      hukm: "wajib",
+      nature: "autre",
+      effet_si_omis: "Le texte ne précise pas ici l'effet d'un refus."
+    },
+    explication: "Khalīl compte parmi ce qui est obligatoire, à la suite de la continuité du tayammoum, le fait d'accepter un don d'eau. Al-Ḥaṭṭāb ne commente ce segment que par une restriction d'al-Maghribī : « إلَّا أَنْ يَتَحَقَّقَ الْمِنَّةَ فِيهِ ».\n\nAl-Dardīr en donne la raison et la limite : on accepte l'eau « لِضَعْفِ الْمِنَّةِ فِيهِ وَلِذَا لَوْ تَحَقَّقَهَا أَوْ ظَنَّهَا لَمْ يَجِبْ » ; on n'accepte pas, en revanche, le don de l'argent qu'on « يَشْتَرِيه بِهِ لِقُوَّةِ الْمِنَّةِ فِيهِ ».\n\nAl-Dasūqī : celui qui n'a pas d'eau, en résidence ou en voyage, et à qui l'on donne assez d'eau pour sa purification « لَزِمَهُ قَبُولٌ حَيْثُ تَحَقَّقَ عَدَمُ الْمِنَّةِ أَوْ ظَنَّ عَدَمَهَا أَوْ شَكَّ فِيهَا ».",
+    aqwal: [
+      { auteur: "Al-Maghribī (cité par al-Ḥaṭṭāb)", avis: "On accepte le don d'eau, sauf si l'on est sûr qu'il s'accompagne d'une faveur reprochée.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : l'eau donnée s'accepte, sauf si l'on est sûr ou si l'on pense qu'on la fera valoir comme une faveur ; l'argent donné pour l'acheter ne s'accepte pas obligatoirement.",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Al-Ḥaṭṭāb ne cite qu'al-Maghribī sous ce segment ; il en indique la source : « مِنْ قَوَاعِدِ النِّكَاحِ »."
+    ],
+    divergences: [
+      "Point à comparer — le simple avis qu'il y aura une faveur reprochée. Al-Ḥaṭṭāb, d'après al-Maghribī : on refuse « إلَّا أَنْ يَتَحَقَّقَ الْمِنَّةَ فِيهِ ». Al-Dardīr : « وَلِذَا لَوْ تَحَقَّقَهَا أَوْ ظَنَّهَا لَمْ يَجِبْ » ; al-Dasūqī : il faut accepter « حَيْثُ تَحَقَّقَ عَدَمُ الْمِنَّةِ أَوْ ظَنَّ عَدَمَهَا أَوْ شَكَّ فِيهَا ».",
+      "Complément — demander l'eau. Al-Dasūqī : celui qui doit accepter le don « يَلْزَمُهُ أَيْضًا اسْتِيهَابُهُ أَيْ طَلَبُ هِبَتِهِ » ; Khalīl le dit plus loin : « قُلْت قَدْ ذَكَرَهُ الْمُصَنِّفُ بَعْدَ ذَلِكَ فِي قَوْلِهِ كَرُفْقَةٍ قَلِيلَةٍ » (voir les fiches 23c et 23d)."
+    ],
+    exemple: "En voyage, un compagnon offre à un homme sans eau assez d'eau pour ses ablutions, sans rien lui reprocher : il l'accepte et ne fait pas le tayammoum ; si le compagnon lui offrait de l'argent pour acheter de l'eau, il ne serait pas tenu d'accepter.",
+    erreurs_frequentes: [
+      "Refuser par gêne l'eau qu'un compagnon offre sans rien exiger, puis faire le tayammoum.",
+      "Se croire obligé d'accepter l'argent offert pour acheter de l'eau.",
+      "Accepter l'eau d'une personne dont on sait qu'elle fera valoir son bienfait : on n'y est pas tenu."
+    ],
+    termes: [
+      { ar: "هِبَة", translit: "hiba", def: "Don : remettre une chose à quelqu'un sans contrepartie." },
+      { ar: "مِنَّة", translit: "minna", def: "Faveur reprochée : le bienfait que le donateur peut faire valoir ; si on le craint, on n'est pas tenu d'accepter le don." },
+      { ar: "اِسْتِيهَاب", translit: "istîhâb", def: "Demander qu'on vous donne une chose (ici, l'eau)." }
+    ],
+    quiz: [
+      { q: "Un compagnon offre de l'eau à celui qui n'en a pas, sans rien lui reprocher. Que doit-il faire ?",
+        choix: ["L'accepter et se purifier avec", "La refuser et faire le tayammoum", "Choisir librement", "L'accepter seulement pour boire"],
+        bonne: 0,
+        explication: "Khalīl : « وَقَبُولُ هِبَةِ مَاءٍ » ; al-Dardīr : « لِضَعْفِ الْمِنَّةِ فِيهِ »." },
+      { q: "Pourquoi n'est-on pas tenu d'accepter l'argent offert pour acheter l'eau ?",
+        choix: ["Parce que l'argent est impur", "Parce que l'eau achetée ne purifie pas", "Parce que la faveur reprochée y est plus forte", "Parce que le tayammoum est meilleur"],
+        bonne: 2,
+        explication: "Al-Dardīr : l'argent « يَشْتَرِيه بِهِ لِقُوَّةِ الْمِنَّةِ فِيهِ »." },
+      { q: "Selon al-Dardīr, quand le don d'eau cesse-t-il d'être obligatoire à accepter ?",
+        choix: ["Toujours, en résidence", "Quand le donateur est un non-musulman", "Quand l'eau est peu abondante", "Quand on est sûr, ou qu'on pense, qu'il fera valoir sa faveur"],
+        bonne: 3,
+        explication: "« وَلِذَا لَوْ تَحَقَّقَهَا أَوْ ظَنَّهَا لَمْ يَجِبْ »." },
+      { q: "Mise en situation : un voyageur sait que l'homme qui lui offre de l'eau rappelle sans cesse ses bienfaits pour humilier. Selon al-Ḥaṭṭāb, d'après al-Maghribī :",
+        choix: ["Il doit accepter quand même", "Il n'est pas tenu d'accepter", "Il doit payer l'eau", "Il doit refaire sa prière"],
+        bonne: 1,
+        explication: "« إلَّا أَنْ يَتَحَقَّقَ الْمِنَّةَ فِيهِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "343" },
+    alertes: [
+      "Le « ص » n'a que « وَقَبُولُ هِبَةِ مَاءٍ » ; le Mukhtaṣar seul (11355, p. 22 : « وقبول هبة ماء لا ثمن »), Ibn Ghāzī (14605, p. 48), al-Kharashī (91, p. 188) et al-Dardīr ont ensuite « لَا ثَمَنٍ », qu'al-Ḥaṭṭāb ne commente pas : matn complété, règle sur le prix d'après al-Dardīr (n° 535).",
+      "Al-Kharashī (91, p. 188) : « بِخِلَافِ ثَمَنِ الْمَاءِ فَلَا يَلْزَمُ قَبُولُهُ لِقُوَّةِ الْمِنَّةِ » ; al-Zurqānī (14297, p. 211) précise que la faveur à craindre est celle qui « يظهر لها أثر », non l'insignifiante.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 152 (Shamela 21604, page 151)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-09-22",
+    kitab: "tah", bab: "01", fasl: "09", ordre: 22,
+    titre: "… ou l'eau, ou l'argent, qu'on vous prête",
+    titre_ar: "أَوْ قَرْضِهِ",
+    objectif: "Savoir qu'il faut accepter l'eau qu'on vous prête, et l'argent qu'on vous prête pour l'acheter si l'on peut le rendre.",
+    matn: "أَوْ قَرْضِهِ",
+    regle_pratique: "Celui qui n'a pas d'eau doit accepter qu'on la lui prête ; si on lui prête l'argent pour l'acheter, il doit l'accepter s'il a de quoi le rendre dans son pays, mais non s'il est démuni.",
+    qualification: {
+      hukm: "wajib",
+      nature: "autre",
+      effet_si_omis: "Le texte ne précise pas ici l'effet d'un refus."
+    },
+    explication: "Al-Ḥaṭṭāb : « سِيَاقُ كَلَامِهِ يَدُلُّ عَلَى أَنَّهُ إذَا بَذَلَ لَهُ الْمَاءَ عَلَى سَبِيلِ الْقَرْضِ لَزِمَهُ ذَلِكَ », « لِأَنَّهُ إذَا لَزِمَهُ قَبُولُهُ عَلَى وَجْهِ الْهِبَةِ فَأَحْرَى عَلَى جِهَةِ الْقَرْضِ ». On n'objecte pas que la dette engage la personne, « لِأَنَّ هَذَا أَمْرٌ قَرِيبٌ », et « وَقَدْ قَالُوا يَلْزَمُهُ أَخْذُهُ بِثَمَنٍ فِي ذِمَّتِهِ كَمَا سَيَقُولُهُ الْمُصَنِّفُ » (fiche 22b).\n\nPour l'argent prêté, deux textes semblent s'opposer. Ibn ʿAbd as-Salām : « أَنَّهُ إذَا وَجَدَ مَنْ يُسَلِّفُهُ الثَّمَنَ لَزِمَهُ ذَلِكَ إذَا كَانَ مَلِيًّا بِبَلَدِهِ » ; al-Aqfahsī, dans son commentaire du Mukhtaṣar : « أَنَّهُ إذَا بَذَلَ لَهُ ثَمَنَ الْمَاءِ عَلَى سَبِيلِ الْقَرْضِ لَا يَلْزَمُهُ قَبُولُهُ ». Al-Ḥaṭṭāb les accorde : « فَيُحْمَلُ كَلَامُهُ عَلَى مَا إذَا لَمْ يَكُنْ مَلِيًّا بِبَلَدِهِ », et celui d'Ibn ʿAbd as-Salām sur le cas où il l'est.\n\nAl-Dardīr : le pronom de « قَرْضِهِ » peut viser l'eau ou l'argent, « أَيْ وَلَزِمَ قَرْضُ الْمَاءِ أَوْ لِلثَّمَنِ أَيْ وَلَزِمَ قَرْضُ الثَّمَنِ أَيْ إنْ كَانَ غَنِيًّا بِبَلَدِهِ » ; on peut aussi le rattacher à « لَا ثَمَنٍ » : « وَيَصِحُّ عَطْفُهُ عَلَى ثَمَنٍ أَيْ لَا يَلْزَمُهُ قَبُولُ الثَّمَنِ وَلَا قَبُولُ قَرْضِهِ أَيْ إنْ كَانَ مُعْدِمًا بِبَلَدِهِ ».",
+    aqwal: [
+      { auteur: "Ibn ʿAbd as-Salām", avis: "Celui qui trouve quelqu'un pour lui prêter le prix de l'eau doit l'emprunter s'il est solvable dans son pays.", statut: "non_precise" },
+      { auteur: "Al-Aqfahsī", avis: "Il n'est pas tenu d'accepter le prêt du prix de l'eau.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : il faut accepter le prêt de l'eau, et celui de son prix « إنْ كَانَ غَنِيًّا بِبَلَدِهِ » ; non s'il est « مُعْدِمًا بِبَلَدِهِ ».",
+    tarjih_hattab: "Il accorde les deux avis par la solvabilité : « فَيُحْمَلُ كَلَامُهُ عَلَى مَا إذَا لَمْ يَكُنْ مَلِيًّا بِبَلَدِهِ ».",
+    tanbihat: [
+      "Le prêt d'eau engage la personne, mais « هَذَا أَمْرٌ قَرِيبٌ » : la dette est légère."
+    ],
+    divergences: [
+      "Concordance — le prêt du prix. Al-Ḥaṭṭāb : obligatoire pour qui est solvable dans son pays, non pour l'autre. Al-Dardīr : « أَيْ إنْ كَانَ غَنِيًّا بِبَلَدِهِ » ; « أَيْ إنْ كَانَ مُعْدِمًا بِبَلَدِهِ ».",
+      "Point à comparer — le prêt de l'eau elle-même. Al-Ḥaṭṭāb : obligatoire, a fortiori après le don, « لِأَنَّ هَذَا أَمْرٌ قَرِيبٌ ». Al-Dasūqī : « وَحَاصِلُهَا أَنَّهُ يَلْزَمُهُ اقْتِرَاضُ الْمَاءِ وَيَلْزَمُهُ قَبُولُ قَرْضِهِ وَإِنْ لَمْ يَظُنَّ الْوَفَاءَ وَيَلْزَمُهُ اقْتِرَاضُ الثَّمَنِ وَقَبُولُ قَرْضِهِ إذَا كَانَ يَرْجُو وَفَاءَهُ ». Al-Dardīr place la condition de richesse après le prix seulement."
+    ],
+    exemple: "En voyage, un homme sans eau ni argent a des biens chez lui ; un compagnon lui propose de lui prêter de quoi acheter de l'eau au puits voisin : il doit accepter, puisqu'il pourra rendre ; s'il n'avait rien chez lui, il n'y serait pas tenu.",
+    erreurs_frequentes: [
+      "Refuser un prêt d'eau par crainte de la dette : al-Ḥaṭṭāb la juge légère.",
+      "Se croire tenu d'emprunter le prix de l'eau alors qu'on n'a pas de quoi le rendre.",
+      "Croire que les deux avis sur le prêt du prix se contredisent : al-Ḥaṭṭāb les accorde par la solvabilité."
+    ],
+    termes: [
+      { ar: "قَرْض", translit: "qard", def: "Prêt : remettre une chose à quelqu'un, à charge d'en rendre l'équivalent." },
+      { ar: "مَلِيّ", translit: "maliyy", def: "Solvable : qui a de quoi rembourser (ici, des biens dans son pays)." },
+      { ar: "مُعْدِم", translit: "mouʿdim", def: "Démuni : qui n'a pas de quoi rembourser." },
+      { ar: "ذِمَّة", translit: "dhimma", def: "Engagement de la personne : ce qui est dû « dans sa dhimma » est une dette à payer plus tard." }
+    ],
+    quiz: [
+      { q: "Selon al-Ḥaṭṭāb, celui à qui l'on prête de l'eau pour sa purification :",
+        choix: ["Peut la refuser", "Doit la refuser, à cause de la dette", "Doit d'abord faire le tayammoum", "Doit l'accepter, a fortiori après le don"],
+        bonne: 3,
+        explication: "« فَأَحْرَى عَلَى جِهَةِ الْقَرْضِ »." },
+      { q: "Comment al-Ḥaṭṭāb accorde-t-il Ibn ʿAbd as-Salām et al-Aqfahsī sur le prêt du prix de l'eau ?",
+        choix: ["Il donne raison à al-Aqfahsī seul", "Par la solvabilité : obligatoire si l'on peut rendre, non sinon", "Par la distance du point d'eau", "Par l'heure de la prière"],
+        bonne: 1,
+        explication: "« فَيُحْمَلُ كَلَامُهُ عَلَى مَا إذَا لَمْ يَكُنْ مَلِيًّا بِبَلَدِهِ »." },
+      { q: "Pourquoi la dette d'un prêt d'eau ne dispense-t-elle pas de l'accepter ?",
+        choix: ["Parce que l'eau n'a pas de prix", "Parce que le prêteur ne la réclamera pas", "Parce que c'est une dette légère", "Parce que la Mudawwana l'interdit"],
+        bonne: 2,
+        explication: "« لِأَنَّ هَذَا أَمْرٌ قَرِيبٌ »." },
+      { q: "Mise en situation : un voyageur démuni, sans rien dans son pays, se voit proposer un prêt pour acheter de l'eau. Selon al-Dardīr :",
+        choix: ["Il n'est pas tenu de l'accepter", "Il doit l'accepter", "Il doit vendre ses habits", "Il doit attendre le temps suivant"],
+        bonne: 0,
+        explication: "« لَا يَلْزَمُهُ قَبُولُ الثَّمَنِ وَلَا قَبُولُ قَرْضِهِ أَيْ إنْ كَانَ مُعْدِمًا بِبَلَدِهِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "343" },
+    alertes: [
+      "Précisé (campagne de correction) : « أَوْ قَرْضِهِ » (« ص », génitif) ; Ibn Ghāzī (14605, p. 48) et al-Kharashī (91, p. 188) : « أَوْ قَرْضُهُ » ; al-Dasūqī compte cinq constructions (« وَالْحَاصِلُ أَنَّ الْأَوْجُهَ خَمْسَةٌ ») ; « ص » gardé (n° 536).",
+      "Ibn Ghāzī (14605, p. 48) : « لا أعرف عند أحدٍ من أهل المذهب هذا الفرع », sauf le passage d'Ibn ʿAbd as-Salām ; il rapporte alors le pronom au prix. Al-Bunānī (14297, p. 211) : la solvabilité est la condition d'Ibn ʿAbd as-Salām, « وبهذا يجمع بينهما وبين الوجه الثالث بعدهما كما في ح ».",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 152–153 (Shamela 21604, pages 151–152)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-09-22b",
+    kitab: "tah", bab: "01", fasl: "09", ordre: 22,
+    titre: "Acheter l'eau au prix habituel, même à crédit",
+    titre_ar: "وَأَخْذُهُ بِثَمَنٍ اعْتِيدَ لَمْ يَحْتَجْ لَهُ وَإِنْ بِذِمَّتِهِ",
+    objectif: "Savoir quand il faut acheter l'eau plutôt que faire le tayammoum.",
+    matn: "وَأَخْذُهُ بِثَمَنٍ اعْتِيدَ لَمْ يَحْتَجْ لَهُ وَإِنْ بِذِمَّتِهِ",
+    regle_pratique: "Celui qui trouve de l'eau à vendre doit l'acheter si elle est au prix habituel du lieu et qu'il n'a pas besoin de cet argent pour son voyage, et même à crédit s'il peut payer ; il n'est pas tenu de l'acheter plus cher que l'habituel.",
+    qualification: {
+      hukm: "wajib",
+      nature: "autre",
+      effet_si_omis: "Le texte ne précise pas ici l'effet d'une omission."
+    },
+    explication: "Segment absent du « ص » de Mawāhib ; al-Ḥaṭṭāb y renvoie seulement sous le segment précédent : « وَقَدْ قَالُوا يَلْزَمُهُ أَخْذُهُ بِثَمَنٍ فِي ذِمَّتِهِ كَمَا سَيَقُولُهُ الْمُصَنِّفُ ». La fiche suit al-Dardīr et al-Dasūqī.\n\nAl-Dardīr : il doit acheter l'eau au prix habituel dont il n'a pas besoin ; « هَذَا إذَا كَانَ يَأْخُذُهُ نَقْدًا », et même à crédit « إنْ كَانَ مَلِيًّا بِبَلَدِهِ مَثَلًا لِأَنَّهُ مَعَ الْقُدْرَةِ عَلَى الْوَفَاءِ أَشْبَهَ وَاجِدَ الثَّمَنِ ». Al-Dasūqī ajoute celui qui n'a rien dans son pays mais peut payer par son travail : « أَيْ أَوْ لَمْ يَكُنْ مَلِيًّا بِبَلَدِهِ لَكِنْ لَهُ قُدْرَةٌ عَلَى الْوَفَاءِ مِنْ عَمَلِ يَدِهِ ».\n\nAu-delà du prix habituel du lieu (ou de ce qui en approche), « فَإِنَّهُ لَا يَلْزَمُهُ الشِّرَاءُ وَظَاهِرُهُ وَلَوْ دِرْهَمًا وَهُوَ مَا لِأَشْهَبَ وَظَاهِرُ الْمُدَوَّنَةِ وَهُوَ الرَّاجِحُ » ; « وَقَالَ عَبْدُ الْحَقِّ يَشْتَرِيهِ وَإِنْ زِيدَ عَلَيْهِ مِثْلُ الثُّلُثِ ». Et s'il a besoin de cet argent : « أَنَّهُ لَوْ وَجَدَهُ يُبَاعُ بِالْمُعْتَادِ وَهُوَ مُحْتَاجٌ لَهُ لَمْ يَلْزَمْهُ شِرَاؤُهُ » ; al-Dasūqī : « أَيْ لِذَلِكَ الثَّمَنِ الْمُعْتَادِ لِأَجْلِ إنْفَاقِهِ فِي سَفَرِهِ ».",
+    aqwal: [
+      { auteur: "Ashhab ; lettre de la Mudawwana (d'après al-Dardīr)", avis: "Pas d'achat obligatoire au-dessus du prix habituel, même d'un dirham.", statut: "rajih" },
+      { auteur: "ʿAbd al-Ḥaqq (d'après al-Dardīr)", avis: "Il achète même si l'on ajoute jusqu'au tiers du prix.", statut: "qawl" },
+      { auteur: "Al-Lakhmī (d'après al-Dasūqī)", avis: "Le désaccord vaut pour un prix qui compte ; si l'eau ne coûte presque rien, on l'achète même plus cher.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : achat obligatoire au prix habituel, si l'on n'a pas besoin de l'argent, même à crédit pour qui peut payer ; au-dessus du prix habituel, pas d'obligation, « وَهُوَ الرَّاجِحُ ».",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Al-Ḥaṭṭāb ne commente pas ce segment ; il en suppose la règle sous le segment 22 (« كَمَا سَيَقُولُهُ الْمُصَنِّفُ »)."
+    ],
+    divergences: [
+      "Concordance — l'achat à crédit. Al-Ḥaṭṭāb : « وَقَدْ قَالُوا يَلْزَمُهُ أَخْذُهُ بِثَمَنٍ فِي ذِمَّتِهِ ». Al-Dardīr : « إنْ كَانَ مَلِيًّا بِبَلَدِهِ مَثَلًا لِأَنَّهُ مَعَ الْقُدْرَةِ عَلَى الْوَفَاءِ أَشْبَهَ وَاجِدَ الثَّمَنِ »."
+    ],
+    exemple: "Arrivé à un village, un voyageur trouve l'eau vendue au prix habituel ; il a de quoi payer sans toucher à l'argent de son retour : il l'achète et fait ses ablutions. Si le vendeur, le voyant pressé, double le prix, il n'est pas tenu d'acheter.",
+    erreurs_frequentes: [
+      "Faire le tayammoum alors que l'eau est vendue au prix habituel et qu'on peut la payer.",
+      "Se croire obligé de payer l'eau plus cher que d'ordinaire.",
+      "Dépenser pour l'eau l'argent dont on a besoin pour son voyage."
+    ],
+    termes: [
+      { ar: "الثَّمَنُ الْمُعْتَادُ", translit: "ath-thamanou l-mouʿtâd", def: "Le prix habituel de l'eau en ce lieu, ou ce qui en est proche." },
+      { ar: "ذِمَّة", translit: "dhimma", def: "Engagement de la personne : ce qui est dû « dans sa dhimma » est une dette à payer plus tard." },
+      { ar: "مَلِيّ", translit: "maliyy", def: "Solvable : qui a de quoi rembourser (ici, des biens dans son pays)." }
+    ],
+    quiz: [
+      { q: "L'eau est vendue au prix habituel et un voyageur peut la payer sans toucher à l'argent de son voyage. Que doit-il faire ?",
+        choix: ["Faire le tayammoum", "L'acheter", "Choisir librement", "Attendre la fin du temps"],
+        bonne: 1,
+        explication: "Khalīl : « وَأَخْذُهُ بِثَمَنٍ اعْتِيدَ لَمْ يَحْتَجْ لَهُ »." },
+      { q: "Selon al-Dardīr, quel est l'avis le plus fort pour un prix au-dessus de l'habituel ?",
+        choix: ["Acheter jusqu'au double", "Acheter jusqu'au tiers en plus", "Pas d'obligation d'acheter, même pour un dirham de plus", "Acheter à n'importe quel prix"],
+        bonne: 3,
+        explication: "« وَظَاهِرُهُ وَلَوْ دِرْهَمًا وَهُوَ مَا لِأَشْهَبَ وَظَاهِرُ الْمُدَوَّنَةِ وَهُوَ الرَّاجِحُ »." },
+      { q: "Qui permet, selon al-Dardīr, d'acheter avec jusqu'au tiers en plus ?",
+        choix: ["Ashhab", "Ibn al-Qāsim", "ʿAbd al-Ḥaqq", "Saḥnūn"],
+        bonne: 2,
+        explication: "« وَقَالَ عَبْدُ الْحَقِّ يَشْتَرِيهِ وَإِنْ زِيدَ عَلَيْهِ مِثْلُ الثُّلُثِ »." },
+      { q: "Mise en situation : un voyageur sans argent sur lui a des biens chez lui ; le vendeur accepte de lui faire crédit au prix habituel. Selon al-Dardīr :",
+        choix: ["Il doit acheter à crédit", "Il fait le tayammoum", "Il attend d'être chez lui", "Il demande l'eau en don seulement"],
+        bonne: 0,
+        explication: "« وَإِنْ بِذِمَّتِهِ » : « إنْ كَانَ مَلِيًّا بِبَلَدِهِ »." }
+    ],
+    ref: { ouvrage: "al-Sharḥ al-kabīr (al-Dardīr) et Ḥāshiyat al-Dasūqī", tome: 1, pages: "153" },
+    alertes: [
+      "Segment absent du « ص » de Mawāhib : « ص (أَوْ قَرْضِهِ) » est suivi de « ص (وَطَلَبَهُ لِكُلِّ صَلَاةٍ …) » (569/342) ; le Mukhtaṣar seul (11355, p. 22), Ibn Ghāzī (14605, p. 48), al-Kharashī (91, p. 188), al-Zurqānī (14297, p. 211) et al-Dardīr l'ont ; matn d'après Ibn Ghāzī, vocalisé ; `ref` sur al-Dardīr (n° 537).",
+      "Al-Mawwāq (21611, p. 278) cite la Mudawwana (« وَإِنْ كَانَ يَقْدِرُ فَلْيَشْتَرِهِ مَا لَمْ يَرْفَعُوا عَلَيْهِ فِي الثَّمَنِ ») et note, pour « وَإِنْ بِذِمَّتِهِ », que ce qu'Ibn Rushd dit au segment « وَقُدِّمَ ذُو مَاءٍ مَاتَ » ferait que ce n'est pas obligatoire : à comparer quand on atteindra le segment 52.",
+      "Précisé (campagne de correction) : al-Dasūqī rapporte qu'on achète l'eau à un prix insignifiant « وَلَوْ زِيدَ عَلَيْهِ فِي الثَّمَنِ مِثْلُ ثُلُثَيْهِ اتِّفَاقًا » ; al-Mawwāq (21611, p. 278), Ibn ʿArafa (16968, p. 99) et al-Bunānī (14297, p. 212) rapportent d'al-Lakhmī, là où l'eau est bon marché (« كَالدِّرْهَمَيْنِ »), « وَلَوْ بِزِيَادَةِ مِثْلَيْهِ » : « مِثْلَيْهِ » probable ; la fiche ne retient pas de chiffre (n° 550).",
+      "Al-Kharashī (91, p. 188) et al-Zurqānī (14297, p. 212) expliquent pourquoi « وَإِنْ بِذِمَّتِهِ » vient après « لَمْ يَحْتَجْ لَهُ » : la précision porte sur « اعْتِيدَ ».",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 153 (Shamela 21604, page 152)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-09-23a",
+    kitab: "tah", bab: "01", fasl: "09", ordre: 23,
+    titre: "Chercher l'eau pour chaque prière, même sur un simple soupçon",
+    titre_ar: "وَطَلَبَهُ لِكُلِّ صَلَاةٍ، وَلَوْ تَوَهَّمَهُ لَا …",
+    objectif: "Savoir quand il faut chercher l'eau avant de faire le tayammoum, et quand on en est dispensé.",
+    matn: "وَطَلَبَهُ لِكُلِّ صَلَاةٍ وَلَوْ تَوَهَّمَهُ لَا تَحَقُّقَ عَدَمِهِ طَلَبًا لَا يَشُقُّ بِهِ كَرُفْقَةٍ قَلِيلَةٍ أَوْ حَوْلَهُ مِنْ كَثِيرَةٍ إنْ جَهِلَ بُخْلَهُمْ بِهِ",
+    regle_pratique: "Avant de faire le tayammoum, on doit chercher l'eau pour chaque prière si l'on pense qu'elle existe, si l'on en doute, et selon Khalīl même sur un simple soupçon ; on n'a pas à la chercher si l'on est convaincu qu'il n'y en a pas, ni pour une nouvelle prière au même endroit si rien de nouveau n'est apparu.",
+    qualification: {
+      hukm: "wajib",
+      nature: "shart",
+      effet_si_omis: "Voir la fiche 23d (reprise de la prière quand on n'a pas cherché)."
+    },
+    explication: "Al-Ḥaṭṭāb : « هَذَا مَعْطُوفٌ عَلَى قَوْلِهِ: مُوَالَاتُهُ » ; le sens est « أَنَّهُ يَلْزَمُ الْمُتَيَمِّمَ طَلَبُ الْمَاءِ لِكُلِّ صَلَاةٍ إذَا كَانَ يَتَوَهَّمُ وُجُودَهُ وَتَحْصِيلَهُ بِطَلَبِهِ فَأَحْرَى إذَا شَكَّ فِي ذَلِكَ، أَوْ ظَنَّ وُجُودَهُ ».\n\n« Pour chaque prière » : qui a cherché pour une prière puis fait le tayammoum cherche encore pour la suivante, « لِأَنَّ الصَّلَاةَ الثَّانِيَةَ فِي حُكْمِ الْأُولَى فِي تَوْجِيهِ الْخِطَابِ بِالطَّلَبِ ». Mais seulement s'il a changé de lieu, « أَوْ كَانَ فِيهِ وَحَدَثَ مَا يُوجِبُ تَوَهُّمَ وُجُودِ الْمَاءِ » ; sinon, « فَلَا يَلْزَمُهُ الطَّلَبُ حِينَئِذٍ؛ لِأَنَّهُ قَدْ يَتَحَقَّقُ عَدَمُهُ » ; « وَقَدْ أَشَارَ الْبِسَاطِيُّ فِي شَرْحِهِ إلَى هَذَا ».\n\n« Non s'il est certain qu'il n'y en a pas » : « إذَا تَحَقَّقَ عَدَمُ الْمَاءِ فَلَا يَلْزَمُهُ الطَّلَبُ إذْ لَا فَائِدَةَ فِيهِ ». Que veut dire « certain » ? At-Tawḍīḥ rapporte Ibn Rushd : la certitude est ici l'opinion dominante, car l'opinion vaut en matière de Loi ; d'où, dit Khalīl, que celui qui n'a qu'un soupçon ne cherche pas, contre Ibn ʿAbd as-Salām (« يَدْخُلُ فِي هَذَا الظَّانُّ وَالشَّاكُّ وَالْمُتَوَهِّمُ »), Ibn Shās et Ibn ʿAṭāʾ Allāh ; Khalīl conclut : « وَعَلَى هَذَا فَالْأَوْلَى أَنْ يَبْقَى التَّحَقُّقُ أَوَّلًا عَلَى بَابِهِ ». Al-Ḥaṭṭāb : « وَالْمُرَادُ بِالتَّحَقُّقِ الِاعْتِقَادُ الَّذِي لَا تَرَدُّدَ فِيهِ لَا التَّحَقُّقَ فِي نَفْسِ الْأَمْرِ ».\n\nAl-Dardīr : il faut chercher « إنْ عَلِمَ وُجُودَهُ فِي ذَلِكَ الْمَكَانِ أَوْ ظَنَّهُ أَوْ شَكَّ فِيهِ », et même sur un simple soupçon ; « وَرَجَّحَ ابْنُ مَرْزُوقٍ الْقَوْلَ بِعَدَمِ لُزُومِ الطَّلَبِ حَالَ تَوَهُّمِ الْوُجُودِ لِأَنَّهُ ظَانُّ الْعَدَمِ ».",
+    aqwal: [
+      { auteur: "Khalīl ; Ibn ʿAbd as-Salām ; Ibn Shās et Ibn ʿAṭāʾ Allāh (d'après at-Tawḍīḥ)", avis: "On cherche même sur un simple soupçon ; seule la conviction qu'il n'y a pas d'eau en dispense.", statut: "non_precise" },
+      { auteur: "Ibn Rushd (d'après at-Tawḍīḥ) ; Ibn Marzūq (d'après al-Dardīr)", avis: "La « certitude » de l'absence est l'opinion dominante : qui n'a qu'un soupçon de l'eau ne cherche pas.", statut: "qawl" }
+    ],
+    muatamad: "Non tranché pour le simple soupçon : al-Dardīr suit le matn (« وَإِنْ تَوَهَّمَهُ ») et rapporte que Ibn Marzūq préfère le contraire ; al-Dasūqī tient que la recherche n'est pas obligatoire dans ce cas (voir les divergences). Confirmé pour le reste : on cherche si l'on sait, pense ou doute que l'eau existe, non si l'on est convaincu de son absence.",
+    tarjih_hattab: "« وَالْمُرَادُ بِالتَّحَقُّقِ الِاعْتِقَادُ الَّذِي لَا تَرَدُّدَ فِيهِ لَا التَّحَقُّقَ فِي نَفْسِ الْأَمْرِ ».",
+    tanbihat: [
+      "Ibn ʿAbd as-Salām : « يَنْبَغِي أَنْ يَخْتَلِفَ حُكْمُ الطَّلَبِ فَلَيْسَ مَنْ ظَنَّ الْعَدَمَ كَمَنْ شَكَّ، وَلَا الشَّاكُّ كَالْمُتَوَهِّمِ » ; al-Ḥaṭṭāb : « وَقَبِلَهُ صَاحِبُ التَّوْضِيحِ وَهُوَ ظَاهِرٌ »."
+    ],
+    divergences: [
+      "Divergence — le simple soupçon. Al-Ḥaṭṭāb, avec Khalīl et Ibn ʿAbd as-Salām : on cherche même alors (« إذَا كَانَ يَتَوَهَّمُ وُجُودَهُ »). Al-Dardīr suit le matn, mais : « وَرَجَّحَ ابْنُ مَرْزُوقٍ الْقَوْلَ بِعَدَمِ لُزُومِ الطَّلَبِ حَالَ تَوَهُّمِ الْوُجُودِ ». Al-Dasūqī : pas de recherche « إذَا تَوَهَّمَ وُجُودَهُ أَوْ تَحَقَّقَ عَدَمَهُ خِلَافًا لِلْمُصَنِّفِ فِي حَالَةِ التَّوَهُّمِ وَقَوَّاهُ عج » (sigle non défini dans la liste d'al-Dasūqī).",
+      "Concordance — chaque prière. Al-Ḥaṭṭāb : seulement si l'on a changé de lieu ou si un indice nouveau est apparu. Al-Dasūqī, même précision, « كَمَا فِي بْن نَقْلًا عَنْ ح » (Muḥammad al-Bunānī, d'après Muḥammad al-Ḥaṭṭāb).",
+      "Concordance — le sens de « certitude ». Al-Ḥaṭṭāb : « الِاعْتِقَادُ الَّذِي لَا تَرَدُّدَ فِيهِ ». Al-Dasūqī : « الْمُرَادُ بِالتَّحَقُّقِ الِاعْتِقَادُ الْجَازِمُ لَا التَّحَقُّقُ فِي نَفْسِ الْأَمْرِ ».",
+      "Complément — le soupçon après une recherche vaine. Al-Dasūqī, d'après son maître al-ʿAdawī : qui a cherché sans trouver puis a un nouveau soupçon « فَلَا يَلْزَمُهُ طَلَبُهُ اتِّفَاقًا »."
+    ],
+    exemple: "Un voyageur arrive à une halte et voit au loin des arbres qui peuvent signaler un point d'eau : il pense qu'il y a de l'eau, il doit aller voir avant de faire le tayammoum. S'il reste à la même halte pour la prière suivante sans que rien de nouveau n'apparaisse, il n'a pas à chercher de nouveau.",
+    erreurs_frequentes: [
+      "Faire le tayammoum sans chercher alors qu'on doute de l'absence d'eau.",
+      "Chercher de nouveau pour chaque prière sans avoir changé de lieu ni rien remarqué de nouveau.",
+      "Croire qu'il faut une certitude absolue de l'absence d'eau pour être dispensé : une conviction sans hésitation suffit."
+    ],
+    termes: [
+      { ar: "تَوَهُّم", translit: "tawahhoum", def: "Simple soupçon qu'une chose existe : la possibilité jugée la plus faible." },
+      { ar: "شَكّ", translit: "chakk", def: "Doute : les deux possibilités se valent." },
+      { ar: "ظَنّ", translit: "zann", def: "Opinion probable : une possibilité l'emporte." },
+      { ar: "غَلَبَةُ الظَّنّ", translit: "ghalabatou z-zann", def: "Opinion dominante : une possibilité l'emporte nettement ; les règles de la Loi s'y fondent." }
+    ],
+    quiz: [
+      { q: "Selon Khalīl et al-Ḥaṭṭāb, faut-il chercher l'eau quand on n'a qu'un simple soupçon qu'elle existe ?",
+        choix: ["Non, jamais", "Seulement en résidence", "Oui, et a fortiori si l'on doute ou si l'on pense qu'elle existe", "Seulement pour la prière du vendredi"],
+        bonne: 2,
+        explication: "« إذَا كَانَ يَتَوَهَّمُ وُجُودَهُ … فَأَحْرَى إذَا شَكَّ فِي ذَلِكَ، أَوْ ظَنَّ وُجُودَهُ »." },
+      { q: "Qui a cherché l'eau pour le ẓuhr sans la trouver reste au même endroit, et rien de nouveau n'apparaît. Pour l'ʿaṣr :",
+        choix: ["Il cherche de nouveau", "Il n'a pas à chercher de nouveau", "Il prie sans purification", "Il attend le maghrib"],
+        bonne: 1,
+        explication: "« فَلَا يَلْزَمُهُ الطَّلَبُ حِينَئِذٍ؛ لِأَنَّهُ قَدْ يَتَحَقَّقُ عَدَمُهُ »." },
+      { q: "Selon al-Ḥaṭṭāb, que veut dire « être certain de l'absence d'eau » ?",
+        choix: ["Être convaincu sans hésitation, même si l'on se trompe", "Avoir vérifié chaque puits", "Avoir un simple soupçon", "Avoir le témoignage de deux hommes"],
+        bonne: 0,
+        explication: "« الِاعْتِقَادُ الَّذِي لَا تَرَدُّدَ فِيهِ لَا التَّحَقُّقَ فِي نَفْسِ الْأَمْرِ »." },
+      { q: "Mise en situation : un voyageur n'a qu'un léger soupçon qu'un point d'eau existe près de la route. Selon al-Dasūqī :",
+        choix: ["Il doit chercher, comme le dit Khalīl", "Il doit refaire sa prière", "Il doit attendre l'eau", "Il n'est pas tenu de chercher, contre la lettre de Khalīl"],
+        bonne: 3,
+        explication: "Al-Dasūqī : pas de recherche « إذَا تَوَهَّمَ وُجُودَهُ … خِلَافًا لِلْمُصَنِّفِ فِي حَالَةِ التَّوَهُّمِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "343–344" },
+    alertes: [
+      "Segment long (569/342–344) découpé en quatre sous-fiches : 23a (quand chercher), 23b (jusqu'où chercher), 23c (les compagnons), 23d (la reprise de la prière).",
+      "Corrigé (campagne de correction) : « وَلَوْ تَوَهُّمَهُ » (« ص », nom) ; Ibn Ghāzī (14605, p. 48 : « ولَوْ تَوَهَّمَهُ »), al-Kharashī (91, p. 188), al-Mawwāq (21611, p. 278) et al-Dardīr ont le verbe ; matn « تَوَهَّمَهُ ». Variante « وَلَوْ » (« ص », Ibn Ghāzī, al-Mawwāq) / « وَإِنْ » (Mukhtaṣar seul, al-Kharashī, al-Dardīr) : « ص » gardé (n° 539).",
+      "Précisé (campagne de correction) : « وَطَلَبَهُ » (« ص », Mukhtaṣar seul, Ibn Ghāzī, al-Kharashī) / « وَطَلَبُهُ » (al-Dardīr, al-Mawwāq) ; al-Ḥaṭṭāb le dit « مَعْطُوفٌ عَلَى قَوْلِهِ: مُوَالَاتُهُ » ; « ص » gardé (n° 538).",
+      "Précisé (campagne de correction) : « لَا تَحَقُّقَ عَدَمِهِ » (« ص ») ; Ibn Ghāzī et al-Mawwāq : « لَا تَحَقَّقَ عَدَمُهُ » ; al-Kharashī : « لَا تَحَقَّقُ عَدَمِهِ » ; al-Ḥaṭṭāb glose « وَقَوْلُهُ لَا تَحَقُّقُ عَدَمِهِ » ; « ص » gardé, même sens (n° 540).",
+      "Corrigé (campagne de correction) : « قَالَ ابْنُ رَاشِدٍ يُرِيدُ بِالتَّحَقُّقِ غَلَبَةَ الظَّنِّ » et « وَمُقْتَضَى كَلَامِ ابْنِ رَاشِدٍ » (569/343, d'après at-Tawḍīḥ) : at-Tawḍīḥ (14442, p. 183–184) a les deux fois Ibn Rushd (« ابنُ رشد: يُريد بالتحققِ غلبةَ الظنِّ ») ; la fiche nomme Ibn Rushd (n° 541).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 153 (Shamela 21604, page 152)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-09-23b",
+    kitab: "tah", bab: "01", fasl: "09", ordre: 23,
+    titre: "Chercher sans peine excessive : jusqu'où aller",
+    titre_ar: "وَطَلَبَهُ لِكُلِّ صَلَاةٍ، وَلَوْ تَوَهَّمَهُ لَا …",
+    objectif: "Savoir jusqu'où il faut aller chercher l'eau, selon les personnes et la distance.",
+    matn: "وَطَلَبَهُ لِكُلِّ صَلَاةٍ وَلَوْ تَوَهَّمَهُ لَا تَحَقُّقَ عَدَمِهِ طَلَبًا لَا يَشُقُّ بِهِ كَرُفْقَةٍ قَلِيلَةٍ أَوْ حَوْلَهُ مِنْ كَثِيرَةٍ إنْ جَهِلَ بُخْلَهُمْ بِهِ",
+    regle_pratique: "On cherche l'eau autant qu'on le peut sans peine excessive, selon sa force : un mille et demi est peu de chose pour qui est en sécurité, deux milles sont trop ; on n'y va pas si l'on craint pour soi ou pour ses biens, ni si l'on risque de perdre ses compagnons.",
+    qualification: {
+      hukm: "wajib",
+      nature: "shart",
+      effet_si_omis: "Voir la fiche 23d."
+    },
+    explication: "« طَلَبًا لَا يَشُقُّ بِهِ » : « يَعْنِي أَنَّ الطَّلَبَ الَّذِي يَلْزَمُ الْمُكَلَّفَ هُوَ الطَّلَبُ الَّذِي لَا يَشُقُّ عَلَيْهِ », et cela varie, « فَلَيْسَ الشَّيْخُ كَالشَّابِّ، وَلَا الرَّجُلُ كَالْمَرْأَةِ وَلَا الضَّعِيفُ كَالْقَوِيِّ ».\n\nMālik (rasm « الشَّرِيكَيْنِ ») : celui qui craint la fatigue, les détrousseurs ou les fauves, l'eau étant à un mille et à un demi-mille, « لَا أَرَى عَلَيْهِ أَنْ يَذْهَبَ وَهُوَ يَتَخَوَّفُ ». Ibn Rushd : « وَسَوَاءٌ تَخَوَّفَ عَلَى نَفْسِهِ، أَوْ مَالِهِ » ; « وَدَلِيلُ الرِّوَايَةِ أَنَّهُ إنْ لَمْ يَتَخَوَّفْ فَعَلَيْهِ أَنْ يَذْهَبَ إلَيْهِ » ; selon an-Nawādir, s'il y a de la peine, il fait le tayammoum, « وَذَلِكَ عَلَى قَدْرِ مَا يَجِدُ مِنْ الْجَلَدِ وَالْقُوَّةِ » ; « وَأَمَّا الْمِيلَانِ فَهُوَ كَثِيرٌ », en voyage comme en résidence, « قَالَهُ سَحْنُونٌ فِي نَوَازِلِهِ ». Al-Ḥaṭṭāb : « وَكَلَامُهُ يَقْتَضِي أَنَّ مَجْمُوعَ الْمِيلِ وَنِصْفِهِ يَسِيرٌ ».\n\nAl-Bājī, d'après al-Mawwāq : « لَيْسَ عَلَيْهِ أَنْ يُجْهِدَ نَفْسَهُ فِي الْجَرْيِ لِإِدْرَاكِ الْمَاءِ », ni de quitter sa marche ordinaire, ni de s'écarter de sa route plus qu'on ne le fait d'habitude ; « وَإِنْ خَرَجَ إلَيْهِ فَاتَهُ أَصْحَابُهُ فَإِنَّهُ يَتَيَمَّمُ ». Ibn al-Mawwāz, d'après Mālik : « إنْ لَمْ يَخَفْ فِي نِصْفِ الْمِيلِ إلَّا الْعَنَاءَ فَمِنْ النَّاسِ مَنْ يَشُقُّ عَلَيْهِ مِثْلُ ذَلِكَ ». Ibn Shās : « وَلَا يَتَحَدَّدُ ذَلِكَ بِحَدٍّ » ; al-Ḥaṭṭāb : « يُرِيدُ مَا لَمْ يَخْرُجْ عَنْ الْمُعْتَادِ ».\n\nIbn Rushd, dans al-Muqaddimāt : « وَطَلَبُ الْمَاءِ عِنْدَ عَدَمِهِ إنَّمَا يَجِبُ مَعَ اتِّسَاعِ الْوَقْتِ لِطَلَبِهِ » ; « وَقَالُوا فِي الْمِيلَيْنِ كَثِيرٌ وَفِي الْمِيلِ وَنِصْفِ الْمِيلِ مَعَ الْأَمْنِ أَنَّهُ يَسِيرٌ », pour le cavalier et le marcheur fort.\n\nAl-Dardīr : une recherche qui ne cause pas de peine « بِالْفِعْلِ وَهُوَ عَلَى أَقَلَّ مِنْ مِيلَيْنِ » ; à deux milles, il n'y va pas, « كَمَا إذَا كَانَ عَلَى مِيلَيْنِ وَلَوْ لَمْ يَشُقَّ وَلَوْ رَاكِبًا » ; al-Dasūqī : « لِأَنَّهُ مَظِنَّةُ الْمَشَقَّةِ ».",
+    aqwal: [
+      { auteur: "Mālik (rasm « الشَّرِيكَيْنِ ») ; Ibn Rushd", avis: "À un mille et demi, il n'y va pas s'il craint pour lui ou ses biens ; sinon, il y va, selon sa force.", statut: "non_precise" },
+      { auteur: "Saḥnūn (Nawāzil, d'après Ibn Rushd)", avis: "Deux milles sont trop : on n'a pas à s'écarter de sa route de deux milles, en voyage ni en résidence.", statut: "non_precise" },
+      { auteur: "Al-Bājī", avis: "On ne court pas, on ne quitte pas sa marche ordinaire, on ne s'écarte pas plus que d'habitude ; si l'on risque de perdre ses compagnons, tayammoum.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : on cherche sans peine effective, à moins de deux milles ; à deux milles, pas d'obligation, même sans peine et même à cheval.",
+    tarjih_hattab: "Le mille et demi est peu de chose : « وَكَلَامُهُ يَقْتَضِي أَنَّ مَجْمُوعَ الْمِيلِ وَنِصْفِهِ يَسِيرٌ » ; et « وَلَا يَتَحَدَّدُ » veut dire « مَا لَمْ يَخْرُجْ عَنْ الْمُعْتَادِ ».",
+    tanbihat: [
+      "Ibn Rushd (al-Muqaddimāt) : on cherche dans ses bagages, on demande à ses voisins dont on espère l'eau sans craindre un refus, et l'on s'écarte de sa route autant qu'on le peut sans peine, en sécurité ; « وَلَا حَدَّ فِي ذَلِكَ يَقْتَصِرُ عَلَيْهِ لِاخْتِلَافِ أَحْوَالِ النَّاسِ »."
+    ],
+    divergences: [
+      "Concordance — la distance. Al-Ḥaṭṭāb, d'après Ibn Rushd et Saḥnūn : un mille et demi est peu, « وَأَمَّا الْمِيلَانِ فَهُوَ كَثِيرٌ ». Al-Dardīr : « بِالْفِعْلِ وَهُوَ عَلَى أَقَلَّ مِنْ مِيلَيْنِ » ; « كَمَا إذَا كَانَ عَلَى مِيلَيْنِ وَلَوْ لَمْ يَشُقَّ وَلَوْ رَاكِبًا ».",
+      "Complément — l'information d'un homme digne de foi. Al-Dardīr : « وَقَبِلَ خَبَرَ عَدْلٍ رِوَايَةً أَرْسَلَهُ جَمَاعَةٌ أَنَّهُ لَمْ يَجِدْ مَاءً ». Al-Ḥaṭṭāb n'en parle pas ici."
+    ],
+    exemple: "Un voyageur en bonne santé apprend qu'il y a un puits à un mille et demi, sur une route sûre : il y va avant de faire le tayammoum. Une vieille femme fatiguée, pour qui la même distance est pénible, fait le tayammoum ; et personne n'est tenu d'aller jusqu'à un puits à deux milles.",
+    erreurs_frequentes: [
+      "Aller chercher l'eau à deux milles et plus en se croyant obligé.",
+      "Aller seul vers un point d'eau sur une route où l'on craint les brigands ou les fauves.",
+      "Fixer la même distance pour tous : elle dépend de la force de chacun."
+    ],
+    termes: [
+      { ar: "مِيل", translit: "mîl", def: "Mille : mesure de distance ; on y mesure jusqu'où l'on doit aller chercher l'eau." },
+      { ar: "مَشَقَّة", translit: "machaqqa", def: "Difficulté, peine ; selon son degré, elle fait tomber ou non une obligation." },
+      { ar: "سَلَّابَة", translit: "sallâba", def: "Détrousseurs : brigands qui dépouillent les voyageurs." },
+      { ar: "سِبَاع", translit: "sibâʿ", def: "Fauves, bêtes de proie." },
+      { ar: "عَدْل", translit: "ʿadl", def: "Témoin digne de foi : musulman droit, dont l'information est reçue." }
+    ],
+    quiz: [
+      { q: "Selon al-Ḥaṭṭāb, qui détermine ce qu'est une recherche « sans peine » ?",
+        choix: ["Une distance fixe pour tous", "La force de chacun : le vieillard n'est pas comme le jeune", "L'heure de la prière", "Le nombre de compagnons"],
+        bonne: 1,
+        explication: "« فَلَيْسَ الشَّيْخُ كَالشَّابِّ، وَلَا الرَّجُلُ كَالْمَرْأَةِ وَلَا الضَّعِيفُ كَالْقَوِيِّ »." },
+      { q: "Selon Saḥnūn, rapporté par Ibn Rushd, deux milles sont :",
+        choix: ["Trop : on n'a pas à s'écarter de sa route de deux milles", "Peu de chose", "Obligatoires à cheval", "Obligatoires en résidence"],
+        bonne: 0,
+        explication: "« وَأَمَّا الْمِيلَانِ فَهُوَ كَثِيرٌ »." },
+      { q: "Selon al-Bājī, que fait celui qui perdrait ses compagnons en allant au point d'eau ?",
+        choix: ["Il y va quand même", "Il refait sa prière plus tard", "Il demande à ses compagnons d'attendre", "Il fait le tayammoum"],
+        bonne: 3,
+        explication: "« وَإِنْ خَرَجَ إلَيْهِ فَاتَهُ أَصْحَابُهُ فَإِنَّهُ يَتَيَمَّمُ »." },
+      { q: "Mise en situation : l'eau est à un mille et demi, mais la route est connue pour ses brigands. Selon Mālik et Ibn Rushd :",
+        choix: ["Il doit y aller, la distance est courte", "Il y envoie un compagnon", "Il n'est pas tenu d'y aller : il craint pour lui ou ses biens", "Il attend la fin du temps"],
+        bonne: 2,
+        explication: "« لَا أَرَى عَلَيْهِ أَنْ يَذْهَبَ وَهُوَ يَتَخَوَّفُ » ; Ibn Rushd : « وَسَوَاءٌ تَخَوَّفَ عَلَى نَفْسِهِ، أَوْ مَالِهِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "344–345" },
+    alertes: [
+      "Sous-fiche de 23 (569/343–344).",
+      "Précisé (campagne de correction) : Mālik dans le « ص » cité, « عَلَى مِيلٍ أَوْ نِصْفِ مِيلٍ » ; al-Bayān (21751, p. 49), source de la citation : « على ميل ونصف ميل », et al-Ḥaṭṭāb lui-même conclut au mille et demi (« مَجْمُوعَ الْمِيلِ وَنِصْفِهِ ») ; Ibn ʿArafa (16968, p. 98) : « على ميل أو نصف ميل » ; la fiche suit al-Bayān et al-Ḥaṭṭāb (n° 542 ; cf. n° 515).",
+      "Corrigé (campagne de correction) : « قَالَ ابْنُ رَاشِدٍ: وَسَوَاءٌ تَخَوَّفَ عَلَى نَفْسِهِ » : al-Bayān (21751, p. 49) : « قال محمد بن رشد … وسواء تخوف على نفسه أو على ماله » ; la fiche nomme Ibn Rushd (n° 543).",
+      "Corrigé (campagne de correction) : al-Muqaddimāt cité, « أَوْ لِلرَّجُلِ الْقَوِيِّ الْقَادِرِ » : al-Muqaddimāt (21735, p. 111 : « وذلك للراكب والراجل القوي القادر ») et al-Kharashī (91, p. 189 : « وللراجل ») : le marcheur (n° 544).",
+      "Précisé (campagne de correction) : citation d'al-Bājī d'après al-Mawwāq, « بِالْعُدُولِ لَهُ فِي الِاسْتِسْقَاءِ مِنْ الْعُيُونِ » et « الْمَرْأَةُ وَالضَّعِيفُ » : at-Tāj (21611, p. 278) : « بِالْعُدُولِ لَهُ إلَى الْعُيُونِ », « الْمَرْأَةُ وَالرَّجُلُ الضَّعِيفُ » ; non cités (n° 545).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 153 (Shamela 21604, page 152)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-09-23c",
+    kitab: "tah", bab: "01", fasl: "09", ordre: 23,
+    titre: "Demander l'eau à ses compagnons de voyage",
+    titre_ar: "كَرُفْقَةٍ قَلِيلَةٍ أَوْ حَوْلَهُ مِنْ كَثِيرَةٍ …",
+    objectif: "Savoir à qui le voyageur doit demander de l'eau avant de faire le tayammoum.",
+    matn: "وَطَلَبَهُ لِكُلِّ صَلَاةٍ وَلَوْ تَوَهَّمَهُ لَا تَحَقُّقَ عَدَمِهِ طَلَبًا لَا يَشُقُّ بِهِ كَرُفْقَةٍ قَلِيلَةٍ أَوْ حَوْلَهُ مِنْ كَثِيرَةٍ إنْ جَهِلَ بُخْلَهُمْ بِهِ",
+    regle_pratique: "Le voyageur sans eau doit en demander à ses compagnons s'ils sont peu nombreux, et, dans une grande caravane, à ceux qui sont autour de lui, tant qu'il ne sait pas qu'ils refuseront ; il n'a pas à faire le tour de tout le convoi.",
+    qualification: {
+      hukm: "wajib",
+      nature: "shart",
+      effet_si_omis: "Voir la fiche 23d."
+    },
+    explication: "Al-Ḥaṭṭāb : « يَعْنِي أَنَّ الْمُسَافِرَ يَلْزَمُهُ أَنْ يَطْلُبَ الْمَاءَ مِنْ رُفْقَتِهِ إذَا كَانَتْ الرُّفْقَةُ قَلِيلَةً وَكَانَ لَا يَتَحَقَّقُ بُخْلَهُمْ بِهِ », « وَإِنْ كَانَتْ كَثِيرَةً فَيَلْزَمُهُ الطَّلَبُ مِنْ حَوْلِهِ ».\n\nMālik, dans l'audition d'Ashhab : « يَسْأَلُ مَنْ يَلِيهِ، وَمَنْ يَظُنُّ أَنَّهُ يُعْطِيهِ، وَلَيْسَ عَلَيْهِ أَنْ يَتْبَعَ أَرْبَعِينَ رَجُلًا فِي الرُّفْقَةِ فَيَسْأَلَهُمْ » ; dans l'audition d'Abū Zayd : « إنْ عَلِمَ أَنَّهُمْ يَمْنَعُونَهُ فَلَا يَسْأَلُهُمْ », et s'ils ne refusent pas, il leur demande. Al-Ḥaṭṭāb : « وَقَبِلَهُ ابْنُ رُشْدٍ وَهُوَ ظَاهِرٌ ». Ibn Rushd (al-Muqaddimāt) dit de même : demander « مَنْ يَلِيهِ مِمَّنْ يَرْجُو وُجُودَهُ عِنْدَهُ، وَلَا يَخْشَى أَنْ يَمْنَعَهُ إيَّاهُ ».\n\nAl-Dardīr : un petit groupe, « كَأَرْبَعَةِ وَخَمْسَةٍ كَانَتْ حَوْلَهُ أَوْ لَا » ; dans un grand groupe, « كَأَرْبَعِينَ », ceux qui sont autour de lui ; il demande s'il ignore leur avarice, « بِأَنْ اعْتَقَدَ أَوْ ظَنَّ أَوْ شَكَّ أَوْ تَوَهَّمَ إعْطَاءَهُمْ » ; et « أَنَّهُ لَوْ تَحَقَّقَ بُخْلُهُمْ لَمْ يَلْزَمْهُ » de demander.",
+    aqwal: [
+      { auteur: "Mālik (auditions d'Ashhab et d'Abū Zayd), accepté par Ibn Rushd", avis: "Il demande à ses voisins et à qui il pense qu'il donnera, non à quarante hommes ; pas à ceux dont il sait qu'ils refuseront.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : demande au petit groupe (quatre ou cinq), et à ceux qui l'entourent dans un grand (quarante), tant qu'il n'est pas sûr de leur refus.",
+    tarjih_hattab: "« وَقَبِلَهُ ابْنُ رُشْدٍ وَهُوَ ظَاهِرٌ ».",
+    tanbihat: [
+      "Demander l'eau, c'est demander qu'on la donne : al-Dasūqī le rattache à ce segment (voir la fiche 21)."
+    ],
+    divergences: [
+      "Concordance — à qui demander. Al-Ḥaṭṭāb : à la petite compagnie, et à son entourage dans la grande. Al-Dardīr : « كَأَرْبَعَةِ وَخَمْسَةٍ كَانَتْ حَوْلَهُ أَوْ لَا » ; « كَأَرْبَعِينَ ».",
+      "Complément — la taille d'un petit groupe. Al-Dasūqī : « قَالَ شَيْخُنَا الظَّاهِرُ أَنَّ مَا زَادَ عَلَى الْخَمْسَةِ لِلْعَشْرَةِ مِنْ الْقَلِيلَةِ » (son maître al-ʿAdawī) ; au-delà de dix, c'est un grand groupe.",
+      "Point à comparer — le simple soupçon qu'ils donneront. Al-Ḥaṭṭāb : il demande s'il n'est pas sûr de leur avarice. Al-Dardīr compte le simple soupçon parmi les cas où il demande (« أَوْ تَوَهَّمَ إعْطَاءَهُمْ ») ; pour la reprise, il le sépare (fiche 23d)."
+    ],
+    exemple: "Dans une caravane de cinquante personnes, un voyageur sans eau demande aux quelques compagnons qui campent près de lui ; il n'a pas à parcourir tout le campement. S'il voyage avec quatre amis, il leur demande à tous, sauf s'il sait qu'ils refuseront.",
+    erreurs_frequentes: [
+      "Faire le tayammoum sans demander d'eau à ses compagnons proches.",
+      "Croire qu'il faut interroger chacun des membres d'une grande caravane.",
+      "Demander à ceux dont on sait avec certitude qu'ils refuseront, en se croyant obligé."
+    ],
+    termes: [
+      { ar: "رُفْقَة", translit: "roufqa", def: "Compagnie de voyage : groupe qui fait halte et repart ensemble." },
+      { ar: "بُخْل", translit: "boukhl", def: "Avarice : refus de donner." }
+    ],
+    quiz: [
+      { q: "Dans une grande caravane, à qui le voyageur sans eau doit-il demander ?",
+        choix: ["À tous, un par un", "À personne", "Au chef seulement", "À ceux qui sont autour de lui"],
+        bonne: 3,
+        explication: "« وَإِنْ كَانَتْ كَثِيرَةً فَيَلْزَمُهُ الطَّلَبُ مِنْ حَوْلِهِ » ; Mālik : « وَلَيْسَ عَلَيْهِ أَنْ يَتْبَعَ أَرْبَعِينَ رَجُلًا »." },
+      { q: "Selon l'audition d'Abū Zayd, que fait celui qui sait que ses compagnons refuseront ?",
+        choix: ["Il leur demande quand même", "Il leur achète l'eau de force", "Il ne leur demande pas", "Il refait sa prière"],
+        bonne: 2,
+        explication: "« إنْ عَلِمَ أَنَّهُمْ يَمْنَعُونَهُ فَلَا يَسْأَلُهُمْ »." },
+      { q: "Selon al-Dardīr, quel exemple donne-t-il d'une petite compagnie ?",
+        choix: ["Quatre ou cinq personnes", "Quarante personnes", "Cent personnes", "Une seule personne"],
+        bonne: 0,
+        explication: "« كَأَرْبَعَةِ وَخَمْسَةٍ » ; la grande, « كَأَرْبَعِينَ »." },
+      { q: "Mise en situation : un voyageur fait route avec trois compagnons ; il ignore s'ils ont de l'eau et s'ils en donneraient. Que doit-il faire avant le tayammoum ?",
+        choix: ["Rien, il fait le tayammoum", "Leur demander", "Attendre la fin du temps", "Retourner à la dernière ville"],
+        bonne: 1,
+        explication: "« إنْ جَهِلَ بُخْلَهُمْ بِهِ » : il doit demander à la petite compagnie." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "345" },
+    alertes: [
+      "Sous-fiche de 23 (569/344).",
+      "Al-Kharashī (91, p. 189) : le petit groupe « كَالْأَرْبَعَةِ وَالْخَمْسَةِ », le grand « كَالْأَرْبَعِينَ » ; il limite l'obligation à qui sait, pense ou doute qu'on lui donnera (« إمَّا أَنْ يَعْلَمَ الْإِعْطَاءَ أَوْ يَظُنَّ أَوْ يَشُكَّ فِيهِ »), sans le simple soupçon.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 153 (Shamela 21604, page 152)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-09-23d",
+    kitab: "tah", bab: "01", fasl: "09", ordre: 23,
+    titre: "Qui n'a pas demandé l'eau : refaire la prière ?",
+    titre_ar: "إنْ جَهِلَ بُخْلَهُمْ بِهِ — الْإِعَادَةُ",
+    objectif: "Savoir si l'on refait la prière quand on a fait le tayammoum sans demander l'eau à ses compagnons, ou quand ils ont nié en avoir.",
+    matn: "وَطَلَبَهُ لِكُلِّ صَلَاةٍ وَلَوْ تَوَهَّمَهُ لَا تَحَقُّقَ عَدَمِهِ طَلَبًا لَا يَشُقُّ بِهِ كَرُفْقَةٍ قَلِيلَةٍ أَوْ حَوْلَهُ مِنْ كَثِيرَةٍ إنْ جَهِلَ بُخْلَهُمْ بِهِ",
+    regle_pratique: "Celui qui a fait le tayammoum sans demander l'eau à ses compagnons proches refait sa prière toujours s'il pensait qu'ils la lui donneraient, et seulement dans le temps s'il en doutait ; s'il leur a demandé et qu'ils ont dit n'en pas avoir, puis qu'on trouve de l'eau chez eux, il refait dans le temps s'ils ne l'auraient pas refusée, et rien s'ils l'auraient refusée.",
+    qualification: {
+      hukm: "wajib",
+      nature: "shart",
+      effet_si_omis: "Reprise toujours, ou dans le temps, selon ce qu'il pensait de leur réponse (voir la règle)."
+    },
+    explication: "Ibn Rushd, sur l'audition d'Abū Zayd : « لَوْ تَرَكَ طَلَبَ الْمَاءِ عِنْدَ مَنْ يَلِيهِ مِمَّنْ يَرْجُو وُجُودَهُ عِنْدَهُ وَيَظُنُّ أَنَّهُ لَا يَمْنَعُهُ وَتَيَمَّمَ وَصَلَّى لَوَجَبَ عَلَيْهِ أَنْ يُعِيدَ أَبَدًا », s'il trouve l'eau.\n\nAl-Lakhmī et al-Māzirī rapportent d'Aṣbagh une distinction : « أَنَّهُ إنْ لَمْ يَسْأَلْ فِي الرُّفْقَةِ الْكَثِيرَةِ لَمْ يُعِدْ وَفِي الصَّغِيرَةِ يُعِيدُ فِي الْوَقْتِ », « وَإِنْ كَانُوا رَجُلَيْنِ، أَوْ ثَلَاثَةً أَعَادَ أَبَدًا ». Ils l'affaiblissent : « بِأَنَّ تَوَجُّهَ الْخِطَابِ بِالطَّلَبِ مِنْ النَّفَرِ الْيَسِيرِ مِنْ الرُّفْقَةِ الْكَثِيرَةِ كَتَوَجُّهِهِ لَوْ كَانُوا بِانْفِرَادِهِمْ ». Al-Lakhmī (d'après at-Tawḍīḥ) : « أَرَى إنْ كَانَ الْغَالِبُ عِنْدَهُ أَنَّهُمْ يُعْطُونَهُ إذَا طَلَبَ أَنْ يُعِيدَ أَبَدًا فِي الْمَوْضِعَيْنِ », « وَإِنْ أَشْكَلَ الْأَمْرُ وَلَمْ يَطْلُبْ جَازَ أَنْ يُقَالَ: يُعِيدُ فِي الْوَقْتِ؛ لِأَنَّ الْأَصْلَ الطَّلَبُ ».\n\nAl-Ḥaṭṭāb en tire : « فَتَحَصَّلَ مِنْ هَذَا أَنَّهُ إذَا تَرَكَ الطَّلَبَ مِمَّنْ يَلِيهِ وَيَغْلِبُ عَلَى ظَنِّهِ أَنَّهُ يُعْطِيهِ أَنَّهُ يُعِيدُ أَبَدًا », petite ou grande compagnie, « وَإِنْ كَانَ يَشُكُّ فِي إعْطَائِهِمْ يُعِيدُ فِي الْوَقْتِ », contre la distinction d'Aṣbagh. Ibn ʿArafa rapporte une réponse en faveur d'Aṣbagh (trois personnes seules ont sûrement de l'eau) et sa réfutation.\n\nAutre cas (audition d'Abū Zayd) : il a demandé, on lui a dit qu'il n'y avait pas d'eau, il a fait le tayammoum, puis on trouve de l'eau chez eux : « إنْ كَانُوا مِمَّنْ يَظُنُّ أَنَّهُمْ لَوْ عَلِمُوا بِالْمَاءِ لَمْ يَمْنَعُوهُ فَلْيُعِدْ فِي الْوَقْتِ », « وَإِنْ كَانَ يَظُنُّ أَنَّهُ لَوْ كَانَ مَعَهُمْ مَاءٌ مَنَعُوهُ فَلَا إعَادَةَ عَلَيْهِ ». Ibn Rushd : « فَيُعِيدُ فِي الْوَقْتِ اسْتِحْسَانًا؛ لِأَنَّهُ فَعَلَ مَا اُفْتُرِضَ عَلَيْهِ » ; Aṣbagh : toujours ; « وَقَوْلُ مَالِكٍ هُوَ الصَّحِيحُ ».\n\nAl-Dardīr : s'il n'a pas demandé, il refait « أَعَادَ أَبَدًا إنْ اعْتَقَدَ أَوْ ظَنَّ الْإِعْطَاءَ وَفِي الْوَقْتِ إنْ شَكَّ، وَإِنْ تَوَهَّمَهُ لَمْ يُعَدْ » ; « وَهَذَا إنْ تَبَيَّنَ وُجُودَ الْمَاءِ أَوْ لَمْ يَتَبَيَّنْ شَيْءٌ فَإِنْ تَبَيَّنَ عَدَمُهُ فَلَا إعَادَةَ مُطْلَقًا ».",
+    aqwal: [
+      { auteur: "Ibn Rushd ; al-Lakhmī (synthèse d'al-Ḥaṭṭāb)", avis: "Sans demande, reprise toujours s'il pensait qu'on lui donnerait ; dans le temps s'il en doutait ; petite ou grande compagnie.", statut: "non_precise" },
+      { auteur: "Aṣbagh (d'après al-Lakhmī et al-Māzirī ; affaibli par eux)", avis: "Grande compagnie : pas de reprise ; petite : dans le temps ; deux ou trois personnes : toujours.", statut: "qawl" },
+      { auteur: "Audition d'Abū Zayd (« وَقَوْلُ مَالِكٍ هُوَ الصَّحِيحُ », selon Ibn Rushd)", avis: "On lui a dit « pas d'eau », puis on en trouve : reprise dans le temps s'ils ne l'auraient pas refusée, rien sinon.", statut: "non_precise" },
+      { auteur: "Aṣbagh (d'après Ibn Rushd)", avis: "Dans ce même cas, reprise toujours.", statut: "qawl" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : sans demande, reprise toujours s'il croyait ou pensait qu'on lui donnerait, dans le temps s'il doutait, aucune pour un simple soupçon ; et aucune reprise s'il apparaît qu'ils n'avaient pas d'eau.",
+    tarjih_hattab: "Sa synthèse : « فَتَحَصَّلَ مِنْ هَذَا أَنَّهُ إذَا تَرَكَ الطَّلَبَ مِمَّنْ يَلِيهِ وَيَغْلِبُ عَلَى ظَنِّهِ أَنَّهُ يُعْطِيهِ أَنَّهُ يُعِيدُ أَبَدًا », et dans le temps en cas de doute, sans la distinction d'Aṣbagh.",
+    tanbihat: [
+      "Ibn al-Ḥājib donne trois avis sur la demande aux compagnons (« ثَالِثُهَا إنْ كَانُوا نَحْوَ الثَّلَاثَةِ طَلَبَ وَإِلَّا أَعَادَ أَبَدًا ») ; at-Tawḍīḥ les détaille ; Ibn Hārūn et Ibn Rāshid : « وَلَمْ نَرَ أَحَدًا نَقَلَ مَا نَقَلَ الْمُصَنِّفُ » ; Ibn ʿArafa : « لَا أَعْرِفُهُ »."
+    ],
+    divergences: [
+      "Concordance — la reprise de qui n'a pas demandé. Al-Ḥaṭṭāb : toujours s'il pensait qu'on lui donnerait, dans le temps s'il doutait. Al-Dardīr : « أَعَادَ أَبَدًا إنْ اعْتَقَدَ أَوْ ظَنَّ الْإِعْطَاءَ وَفِي الْوَقْتِ إنْ شَكَّ ».",
+      "Complément — le simple soupçon, et l'eau qui n'existait pas. Al-Dardīr : « وَإِنْ تَوَهَّمَهُ لَمْ يُعَدْ » ; « فَإِنْ تَبَيَّنَ عَدَمُهُ فَلَا إعَادَةَ مُطْلَقًا ». Al-Ḥaṭṭāb n'en parle pas ici."
+    ],
+    exemple: "Un voyageur fait le tayammoum sans rien demander aux trois compagnons qui campent à côté, alors qu'il pensait qu'ils avaient de l'eau et la lui donneraient ; après la prière, il voit leur outre pleine : il refait sa prière, même après la fin de son temps.",
+    erreurs_frequentes: [
+      "Croire que la prière vaut toujours quand on n'a pas demandé l'eau à ses compagnons.",
+      "Refaire la prière alors qu'il est apparu que personne n'avait d'eau.",
+      "Appliquer la distinction d'Aṣbagh (grande ou petite compagnie) : al-Ḥaṭṭāb la rejette."
+    ],
+    termes: [
+      { ar: "الإِعَادَةُ أَبَدًا", translit: "al-iʿâdatou abadan", def: "Refaire la prière même après la fin de son temps." },
+      { ar: "الإِعَادَةُ فِي الوَقْتِ", translit: "al-iʿâdatou fî l-waqt", def: "Refaire la prière seulement tant que son temps n'est pas sorti." },
+      { ar: "رَحْل", translit: "rahl", def: "Bagages, effets du voyageur." }
+    ],
+    quiz: [
+      { q: "Selon la synthèse d'al-Ḥaṭṭāb, celui qui n'a pas demandé l'eau à ses voisins, en pensant qu'ils la lui donneraient :",
+        choix: ["Refait sa prière dans le temps seulement", "Ne refait rien", "Refait sa prière toujours, même après son temps", "Refait seulement s'il était en grande caravane"],
+        bonne: 2,
+        explication: "« وَيَغْلِبُ عَلَى ظَنِّهِ أَنَّهُ يُعْطِيهِ أَنَّهُ يُعِيدُ أَبَدًا »." },
+      { q: "Et s'il doutait qu'ils la lui donneraient ?",
+        choix: ["Il refait dans le temps", "Il refait toujours", "Il ne refait rien", "Il refait le lendemain"],
+        bonne: 0,
+        explication: "« وَإِنْ كَانَ يَشُكُّ فِي إعْطَائِهِمْ يُعِيدُ فِي الْوَقْتِ »." },
+      { q: "On lui a dit « pas d'eau », il a prié, puis on trouve de l'eau chez eux ; ils l'auraient refusée de toute façon. Selon l'audition d'Abū Zayd :",
+        choix: ["Il refait toujours", "Il refait dans le temps", "Il refait le tayammoum seulement", "Il n'a rien à refaire"],
+        bonne: 3,
+        explication: "« وَإِنْ كَانَ يَظُنُّ أَنَّهُ لَوْ كَانَ مَعَهُمْ مَاءٌ مَنَعُوهُ فَلَا إعَادَةَ عَلَيْهِ »." },
+      { q: "Mise en situation : un voyageur n'a pas demandé l'eau ; après la prière, il apprend qu'aucun de ses compagnons n'en avait. Selon al-Dardīr :",
+        choix: ["Il refait toujours", "Il n'a rien à refaire", "Il refait dans le temps", "Il refait seulement s'il pensait qu'ils en avaient"],
+        bonne: 1,
+        explication: "« فَإِنْ تَبَيَّنَ عَدَمُهُ فَلَا إعَادَةَ مُطْلَقًا »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "345" },
+    alertes: [
+      "Sous-fiche de 23 (569/344) : deux furūʿ et un tanbīh d'al-Ḥaṭṭāb.",
+      "Corrigé (campagne de correction) : « فَقَالَ فِي سَمَاعِ ابْنِ أَبِي زَيْدٍ » (second farʿ) : Ibn ʿArafa (16968, p. 98 : « ففي إعادته في الوقت أو أبدًا سماع أبي زيد وابن رشد عن أصبغ ») ; al-Bayān (21751, p. 187) donne la réponse d'Ibn al-Qāsim ; la fiche dit « l'audition d'Abū Zayd » (n° 546 ; cf. n° 534).",
+      "Corrigé (campagne de correction) : « قَالَ ابْنُ حَبِيبٍ: وَفِي الطَّلَبِ مِمَّنْ يَلِيهِ مِنْ الرُّفْقَةِ ثَالِثُهَا » : la phrase est d'Ibn al-Ḥājib, que commente at-Tawḍīḥ (14442, p. 184 : « وفي الطلب ممن يليه من الرفقة ثالثها ») et qu'Ibn ʿArafa (16968, p. 98) cite : « وقول ابن الحاجب: في الطلب ممن يليه من الرفقة » (n° 547).",
+      "Précisé (campagne de correction) : « وَقَالَ أَصْبَغَ » et « خِلَافًا لَأَصْبَغَ » : lire أَصْبَغُ et لِأَصْبَغَ ; non cités (n° 548).",
+      "Précisé (campagne de correction) : al-Lakhmī d'après at-Tawḍīḥ, « وَقَالَ: أَرَى إنْ كَانَ الْغَالِبُ » : at-Tawḍīḥ (14442, p. 185) : « قال: والأولى إن كان الغالب » ; même sens (n° 549).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 153–154 (Shamela 21604, pages 152–153)."
+    ],
+    verification: "verifie"
   }
-/* FIN-UNITE-64 */
+/* FIN-UNITE-65 */
 ]);
