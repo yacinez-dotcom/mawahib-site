@@ -1,4 +1,4 @@
-/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 29 — v15.0
+/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 29 — v15.1
    Source : Mawāhib al-Jalīl, al-Ḥaṭṭāb, éd. Dār al-Fikr, 3e éd., 1412 H / 1992, tome 1 (shamela.ws/book/569).
    Croisement : al-Sharḥ al-kabīr d'al-Dardīr et Ḥāshiyat al-Dasūqī (shamela.ws/book/21604), tome 1.
    Cette partie : suite et fin du faṣl tah-01-08 (le mash sur les khouff), à partir de tah-01-08-18 (unité 60) — t. 1, p. 323
@@ -7,6 +7,10 @@
           t. 1, p. 145–146) (2026-11-20) ; nouvelle partie, tah-01-p28.js (≈ 127 Ko) étant figée ; segment 20 découpé en
           20a et 20b ; matn de 18 et 22 corrigés, matn de 20 complété et corrigé d'après le Mukhtaṣar seul, Ibn Ghāzī,
           al-Dardīr et al-Kharashī ; anomalies n° 472 à 481.
+   v15.1 : unité 61 — tah-01-08-24a, -24b, -25, -26, -27 et synthèse tah-01-08-syn (Mawāhib, t. 1, p. 324–325 ; al-Dardīr /
+          al-Dasūqī, t. 1, p. 146–147) (2026-11-21) ; fin du faṣl tah-01-08 ; segment 24 découpé en 24a et 24b ; matn de 27
+          complété d'après le Mukhtaṣar seul, Ibn Ghāzī, al-Dardīr et al-Kharashī ; anomalies n° 482 à 491 ; audit de fin de
+          faṣl : fiche 22 complétée (al-ʿAdawī).
    Bāb découpé en parties de moins de 200 Ko ;
    historique des versions : tah-01-p1.js (jusqu'à v2.5) puis l'en-tête de chaque partie. */
 App.data.ajouterFiches([
@@ -365,8 +369,8 @@ App.data.ajouterFiches([
       "Al-Ḥaṭṭāb, d'après Ibn ʿArafa et at-Tawḍīḥ : le khouff de peu de valeur se déchire même s'il appartient à autrui, et l'on en paie la valeur."
     ],
     divergences: [
-      "Point à comparer — quel temps ? Al-Dardīr : « مِنْ اخْتِيَارِيٍّ أَوْ ضَرُورِيٍّ » ; al-Dasūqī : « هَذَا هُوَ الْأَظْهَرُ كَمَا فِي عبق » (ʿAbd al-Bāqī az-Zurqānī) et « شُبْ » (Ibrāhīm ash-Shabrakhītī), puis « وَفِي ح قَصُرَ الْوَقْتُ عَلَى الِاخْتِيَارِيِّ » (« ح » : al-Ḥaṭṭāb) ; al-Kharashī : « وَخَشِيَ خُرُوجَ الْوَقْتِ الْمُخْتَارِ ». Sous ce segment, al-Ḥaṭṭāb ne parle pas du temps ; il écrit « وَالْمُرَادُ بِالْوَقْتِ الْوَقْتُ الْمُخْتَارُ » au chapitre de l'ablution sèche (Mawāhib, t. 1, p. 336).",
-      "Point à comparer — la valeur du khouff. Al-Dardīr : « وَالْأَظْهَرُ اعْتِبَارُ الْقِيمَةِ بِحَالِ الْخُفِّ لَا بِحَالِ اللَّابِسِ » ; al-Kharashī : « وَيَنْبَغِي أَنَّ قِلَّةَ الْقِيمَةِ وَكَثْرَتَهَا بِحَسَبِ الشَّخْصِ ». Al-Ḥaṭṭāb n'en parle pas.",
+      "Point à comparer — quel temps ? Al-Dardīr : « مِنْ اخْتِيَارِيٍّ أَوْ ضَرُورِيٍّ » ; al-Dasūqī : « هَذَا هُوَ الْأَظْهَرُ كَمَا فِي عبق » (ʿAbd al-Bāqī az-Zurqānī) et « شُبْ » (Ibrāhīm ash-Shabrakhītī), puis « وَفِي ح قَصُرَ الْوَقْتُ عَلَى الِاخْتِيَارِيِّ » (« ح » : al-Ḥaṭṭāb) ; al-Kharashī : « وَخَشِيَ خُرُوجَ الْوَقْتِ الْمُخْتَارِ ». Sous ce segment, al-Ḥaṭṭāb ne parle pas du temps ; il écrit « وَالْمُرَادُ بِالْوَقْتِ الْوَقْتُ الْمُخْتَارُ » au chapitre de l'ablution sèche (Mawāhib, t. 1, p. 336). Al-ʿAdawī corrige al-Kharashī : « الْمُعْتَمَدُ أَنْ نَقُولَ الَّذِي هُوَ فِيهِ اخْتِيَارٌ أَوْ ضَرُورِيًّا » (audit de fin de faṣl).",
+      "Point à comparer — la valeur du khouff. Al-Dardīr : « وَالْأَظْهَرُ اعْتِبَارُ الْقِيمَةِ بِحَالِ الْخُفِّ لَا بِحَالِ اللَّابِسِ » ; al-Kharashī : « وَيَنْبَغِي أَنَّ قِلَّةَ الْقِيمَةِ وَكَثْرَتَهَا بِحَسَبِ الشَّخْصِ » ; al-ʿAdawī : « هَذَا كَلَامُ الشَّيْخِ سَالِمٍ وَاَلَّذِي ارْتَضَاهُ عج أَنَّ الْقِلَّةَ وَالْكَثْرَةَ بِالنَّظَرِ لِحَالِ الْخُفِّ » (« عج » : sigle non défini dans la liste d'al-Dasūqī), comme al-Dardīr (audit de fin de faṣl). Al-Ḥaṭṭāb n'en parle pas.",
       "Complément — s'il lui faut de nouvelles ablutions selon le deuxième avis. Al-Dasūqī : « فَهَلْ يَلْبَسُ الْمَنْزُوعَةَ وَيَمْسَحُ عَلَيْهَا أَوْ كَيْفَ الْحَالُ وَالظَّاهِرُ الْأَوَّلُ »."
     ],
     exemple: "En voyage, un homme qui avait essuyé ses khouff ôte le droit pour refaire ses ablutions, mais le gauche, gonflé par l'humidité, ne sort pas, même avec de l'aide, et le temps de la prière va passer. Selon les avis : il fait le tayammoum ; ou il lave le pied droit et essuie le khouff gauche ; ou, si ce khouff vaut peu, il le déchire et lave ce pied, et s'il vaut cher il l'essuie.",
@@ -470,7 +474,367 @@ App.data.ajouterFiches([
       "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 146 (Shamela 21604, page 145)."
     ],
     verification: "verifie"
+  },
+  /* FIN-UNITE-60 */
+  /* ================================================================== */
+  /* Unité 61 — tah-01-08-24a, -24b, -25, -26, -27 et synthèse tah-01-08-syn (fin du faṣl) */
+  /* Mawāhib, t. 1, p. 324–325 (Shamela 569/323–324) ; al-Dardīr / al-Dasūqī, t. 1, p. 146–147 (Shamela 21604/145–146) */
+  {
+    id: "tah-01-08-24a",
+    kitab: "tah", bab: "01", fasl: "08", ordre: 24,
+    titre: "Comment essuyer : la main droite dessus, la gauche dessous",
+    titre_ar: "وَوَضَعَ يُمْنَاهُ عَلَى طَرَفِ أَصَابِعِهِ وَيُسْرَاهُ تَحْتَهَا وَيُمِرُّهُمَا لِكَعْبَيْهِ",
+    objectif: "Savoir la manière recommandée d'essuyer le khouff.",
+    matn: "وَوَضَعَ يُمْنَاهُ عَلَى طَرَفِ أَصَابِعِهِ وَيُسْرَاهُ تَحْتَهَا وَيُمِرُّهُمَا لِكَعْبَيْهِ",
+    regle_pratique: "Il est recommandé de poser la main droite mouillée sur le bout des orteils, sur le dessus du khouff, et la main gauche dessous, puis de les passer ensemble jusqu'aux chevilles, en reprenant de l'eau pour l'autre pied ; une autre manière, même d'un seul doigt, suffit si tout le khouff est essuyé.",
+    qualification: {
+      hukm: "mandub",
+      nature: "adab",
+      effet_si_omis: "Le passage ne précise pas de conséquence ; al-Mawwāq, d'après al-Kāfī : de quelque manière qu'on essuie, cela suffit."
+    },
+    explication: "Al-Ḥaṭṭāb : « هَذِهِ صِفَةُ الْمَسْحِ ». Khalīl ne dit pas s'il faut reprendre de l'eau pour chaque pied ; Mukhtaṣar al-Wāḍiḥa le dit : « وَلَا تَحْمِلْ الْمَاءَ بِيَدَيْكَ فَتَصُبَّهُ عَلَى خُفَّيْكَ وَلَكِنْ تُرْسِلُهُ وَتَمْسَحُ الْيُمْنَى ثُمَّ تَأْخُذُ الْمَاءَ لِلْيُسْرَى », et l'on n'a sur le khouff « إلَّا بَلَّةُ الْمَاءِ الَّذِي أَرْسَلْتَ مِنْ يَدَيْكَ ». Dans l'audition de Mūsā (cité par Ibn ʿArafa) : « إنْ عَمَّ مَسْحُهُ بِأُصْبُعٍ وَاحِدَةٍ أَجْزَأَهُ كَرَأْسِهِ ».\n\nAl-Mawwāq cite la Mudawwana : Mālik leur a montré le mash, « فَوَضَعَ يَدَهُ عَلَى أَطْرَافِ أَصَابِعِهِ مِنْ ظَاهِرِ قَدَمِهِ الْيُمْنَى », la gauche sous les orteils, puis il les a passées jusqu'à l'endroit des ablutions. Al-Dardīr : c'est recommandé ; la main gauche « وَيَعْطِفُ الْيُسْرَى عَلَى الْعَقِبِ حَتَّى يُجَاوِزَ الْكَعْبَ ». Al-Kharashī et Ibn ʿArafa rapportent d'autres manières (six en tout, « وفي صفته بعد زوال طينه ست ») ; al-Kāfī, d'après al-Mawwāq : « وَكَيْفَمَا مَسَحَ أَجْزَأَهُ ».",
+    aqwal: [
+      { auteur: "La Mudawwana (Mālik montrant le mash, d'après al-Mawwāq)", avis: "Main droite sur le bout des orteils, dessus ; gauche dessous ; les passer jusqu'aux chevilles.", statut: "non_precise" },
+      { auteur: "Mukhtaṣar al-Wāḍiḥa (cité par al-Ḥaṭṭāb)", avis: "On ne verse pas l'eau sur le khouff ; on reprend de l'eau pour le pied gauche.", statut: "non_precise" },
+      { auteur: "Audition de Mūsā, d'après Ibn al-Qāsim (cité par al-Ḥaṭṭāb et Ibn ʿArafa)", avis: "Un seul doigt suffit si tout le khouff est essuyé, comme pour la tête.", statut: "non_precise" },
+      { auteur: "Al-Kāfī (d'après al-Mawwāq)", avis: "De quelque manière qu'on essuie, cela suffit.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr / al-Dasūqī : cette manière est recommandée ; al-Dasūqī, d'après al-Bunānī : on reprend de l'eau pour chaque pied (« وَيُجَدِّدُ الْمَاءَ لِكُلِّ رِجْلٍ كَمَا فِي مُخْتَصَرِ الْوَاضِحَةِ »).",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Al-Ḥaṭṭāb complète Khalīl, qui ne dit pas s'il faut reprendre de l'eau pour chaque pied, par Mukhtaṣar al-Wāḍiḥa."
+    ],
+    divergences: [
+      "Concordance — l'eau reprise pour chaque pied. Al-Ḥaṭṭāb, d'après Mukhtaṣar al-Wāḍiḥa ; al-Dasūqī : « وَيُجَدِّدُ الْمَاءَ لِكُلِّ رِجْلٍ كَمَا فِي مُخْتَصَرِ الْوَاضِحَةِ اُنْظُرْ بْن » (« بن » : Muḥammad al-Bunānī) ; al-Bunānī : « كما في مختصر الواضحة انظر ح » (« ح » : al-Ḥaṭṭāb).",
+      "Concordance — un seul doigt. Al-ʿAdawī (sur al-Kharashī) : « أَشْعَرَ نَدْبُ مَا ذُكِرَ إجْزَاءَ الْمَسْحِ بِإِصْبَعٍ وَاحِدَةٍ إنْ عَمَّ كَرَأْسِهِ » ; al-Zurqānī de même, d'après l'audition de Mūsā."
+    ],
+    exemple: "Un homme qui porte des khouff mouille ses mains, pose la droite sur le bout de son pied droit, dessus, et la gauche dessous, puis les tire jusqu'à la cheville. Il reprend de l'eau, fait de même pour le pied gauche, sans verser l'eau sur le khouff.",
+    erreurs_frequentes: [
+      "Verser de l'eau sur le khouff au lieu de passer les mains mouillées.",
+      "Essuyer les deux pieds avec la même eau, sans en reprendre.",
+      "Croire qu'une autre manière d'essuyer rend le mash nul, alors qu'elle suffit si tout le khouff est essuyé."
+    ],
+    termes: [
+      { ar: "صِفَةُ الْمَسْحِ", translit: "sifatou l-mas-h", def: "La manière d'essuyer : comment poser et passer les mains sur le khouff." }
+    ],
+    quiz: [
+      { q: "Selon la manière recommandée, où pose-t-on la main droite pour essuyer le khouff droit ?",
+        choix: ["Sous le talon", "Sur la cheville", "Sur le bout des orteils, sur le dessus", "Sous les orteils"],
+        bonne: 2,
+        explication: "« وَوَضَعَ يُمْنَاهُ عَلَى طَرَفِ أَصَابِعِهِ » ; la Mudawwana : « مِنْ ظَاهِرِ قَدَمِهِ الْيُمْنَى »." },
+      { q: "Selon Mukhtaṣar al-Wāḍiḥa (cité par al-Ḥaṭṭāb), que fait-on de l'eau ?",
+        choix: ["On ne la verse pas sur le khouff, et l'on en reprend pour le pied gauche", "On la verse sur le khouff", "On garde la même eau pour les deux pieds", "On essuie sans eau"],
+        bonne: 0,
+        explication: "« وَلَا تَحْمِلْ الْمَاءَ بِيَدَيْكَ فَتَصُبَّهُ عَلَى خُفَّيْكَ » … « ثُمَّ تَأْخُذُ الْمَاءَ لِلْيُسْرَى »." },
+      { q: "Mise en situation : un homme blessé à la main essuie tout son khouff d'un seul doigt mouillé. Selon l'audition de Mūsā :",
+        choix: ["Son mash est nul", "Il doit recommencer avec les deux mains", "Il doit faire le tayammoum", "Cela suffit, comme pour la tête"],
+        bonne: 3,
+        explication: "« إنْ عَمَّ مَسْحُهُ بِأُصْبُعٍ وَاحِدَةٍ أَجْزَأَهُ كَرَأْسِهِ »." },
+      { q: "Selon al-Dardīr, quel est le statut de cette manière d'essuyer ?",
+        choix: ["Obligatoire", "Recommandée", "Déconseillée", "Sans statut"],
+        bonne: 1,
+        explication: "« (و) نُدِبَ (وَضْعُ يُمْنَاهُ) » ; al-Kāfī : « وَكَيْفَمَا مَسَحَ أَجْزَأَهُ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "324" },
+    alertes: [
+      "Variante : le « ص » de Mawāhib et al-Mawwāq (21611, p. 263) ont « عَلَى طَرَفِ أَصَابِعِهِ » ; le Mukhtaṣar seul (11355, p. 22), Ibn Ghāzī (14605, p. 45), al-Dardīr (21604/145) et al-Kharashī (91, p. 182) « عَلَى أَطْرَافِ » ; « ص » gardé, même sens (n° 482).",
+      "Variante : « وَوَضَعَ » (verbe) dans le « ص », le Mukhtaṣar seul et al-Kharashī ; « وَوَضْعُ » (nom, après « وَنُدِبَ ») chez Ibn Ghāzī et al-Dardīr ; « ص » gardé, même règle (n° 483).",
+      "Mukhtaṣar al-Wāḍiḥa n'a pas été consulté ; al-Dasūqī et al-Bunānī (14297, p. 201) rapportent le même renvoi.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 146 (Shamela 21604, page 145)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-08-24b",
+    kitab: "tah", bab: "01", fasl: "08", ordre: 24,
+    titre: "Essuyer tout le khouff",
+    titre_ar: "وَوَضَعَ يُمْنَاهُ عَلَى طَرَفِ أَصَابِعِهِ وَيُسْرَاهُ تَحْتَهَا وَيُمِرُّهُمَا لِكَعْبَيْهِ",
+    objectif: "Savoir qu'il faut essuyer tout le khouff, et non une partie.",
+    matn: "وَوَضَعَ يُمْنَاهُ عَلَى طَرَفِ أَصَابِعِهِ وَيُسْرَاهُ تَحْتَهَا وَيُمِرُّهُمَا لِكَعْبَيْهِ",
+    regle_pratique: "Selon l'école, on essuie tout le khouff jusqu'aux chevilles, sans en laisser une partie ; Ibn Maslama et d'autres n'exigeaient pas d'essuyer tout le khouff.",
+    qualification: {
+      hukm: "wajib",
+      nature: "shart",
+      effet_si_omis: "Al-Kharashī : laisser une partie du dessus ou du dessous revient à laisser tout le dessus ou tout le dessous (fiche 27)."
+    },
+    explication: "Al-Ḥaṭṭāb tire du matn (on passe les mains jusqu'aux chevilles) « أَنَّهُ لَا بُدَّ مِنْ اسْتِيعَابِ الْخُفِّ بِالْمَسْحِ ». L'auteur d'aṭ-Ṭirāz et celui d'adh-Dhakhīra : « وَهَذَا أَصْلُ الْمَذْهَبِ ». Al-Bājī rapporte d'Ibn Maslama et d'un groupe de compagnons : « لَا يَجِبُ الْإِيعَابُ ».\n\nAdh-Dhakhīra donne l'argument de l'école contre eux : tout endroit où le mash est valable est obligatoire, et « وَإِذَا كَانَ الْوُجُوبُ مُتَقَرِّرًا فِي آخِرِ الْعُضْوِ وَجَبَ إِيعَابُهُ كَسَائِرِ أَعْضَاءِ الْوُضُوءِ ». Al-Kharashī : « وَتَرْكُ بَعْضِ الْأَعْلَى أَوْ الْأَسْفَلِ كَتَرْكِهِ كُلِّهِ ».",
+    aqwal: [
+      { auteur: "Aṭ-Ṭirāz et adh-Dhakhīra (cités par al-Ḥaṭṭāb)", avis: "Il faut essuyer tout le khouff : c'est le fondement de l'école.", statut: "non_precise" },
+      { auteur: "Ibn Maslama et un groupe de compagnons (d'après al-Bājī, cité par al-Ḥaṭṭāb et adh-Dhakhīra)", avis: "Essuyer tout le khouff n'est pas obligatoire.", statut: "qawl" }
+    ],
+    muatamad: "Non tranché : al-Dardīr et al-Dasūqī ne traitent pas de l'essuyage complet dans les pages croisées.",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Al-Ḥaṭṭāb : l'obligation d'essuyer tout le khouff se comprend de la manière que décrit le matn (jusqu'aux chevilles)."
+    ],
+    divergences: [
+      "Complément — une partie laissée. Al-Kharashī : « وَتَرْكُ بَعْضِ الْأَعْلَى أَوْ الْأَسْفَلِ كَتَرْكِهِ كُلِّهِ » ; al-ʿAdawī : un seul doigt suffit « إنْ عَمَّ ». Al-Dardīr et al-Dasūqī n'en parlent pas dans les pages croisées."
+    ],
+    exemple: "Une femme essuie seulement le devant de son khouff, sur quelques centimètres, et s'arrête. Selon l'école, cela ne suffit pas : elle doit passer les mains jusqu'aux chevilles, sur tout le khouff.",
+    erreurs_frequentes: [
+      "Se contenter de toucher le khouff de quelques doigts mouillés.",
+      "Croire que l'avis d'Ibn Maslama est celui de l'école."
+    ],
+    termes: [
+      { ar: "اِسْتِيعَاب", translit: "istîʿâb", def: "Fait de couvrir entièrement : essuyer tout le khouff, sans en laisser une partie (aussi إِيعَاب)." }
+    ],
+    quiz: [
+      { q: "Selon aṭ-Ṭirāz et adh-Dhakhīra, faut-il essuyer tout le khouff ?",
+        choix: ["Non, une partie suffit", "Seulement le dessus", "Seulement le dessous", "Oui : c'est le fondement de l'école"],
+        bonne: 3,
+        explication: "« وَهَذَا أَصْلُ الْمَذْهَبِ »." },
+      { q: "Qui, d'après al-Bājī, n'exigeait pas d'essuyer tout le khouff ?",
+        choix: ["Ibn al-Qāsim", "Ibn Maslama et un groupe de compagnons", "Saḥnūn", "Ashhab"],
+        bonne: 1,
+        explication: "« قَالَ ابْنُ مَسْلَمَةَ وَجَمَاعَةٌ مِنْ أَصْحَابِنَا: لَا يَجِبُ الْإِيعَابُ »." },
+      { q: "Quel argument adh-Dhakhīra donne-t-il pour l'essuyage complet ?",
+        choix: ["Puisque l'obligation porte jusqu'au bout du membre, tout le membre doit être couvert, comme dans les ablutions", "Le hadith du vendredi", "La pratique des gens de Médine", "L'avis de Saḥnūn"],
+        bonne: 0,
+        explication: "« وَإِذَا كَانَ الْوُجُوبُ مُتَقَرِّرًا فِي آخِرِ الْعُضْوِ وَجَبَ إِيعَابُهُ »." },
+      { q: "Mise en situation : un homme essuie le dessus de son khouff mais laisse sans eau la partie près de la cheville. Selon al-Kharashī :",
+        choix: ["Ce n'est rien", "C'est seulement déconseillé", "C'est comme s'il avait laissé tout le dessus", "Il doit refaire le ghousl"],
+        bonne: 2,
+        explication: "« وَتَرْكُ بَعْضِ الْأَعْلَى أَوْ الْأَسْفَلِ كَتَرْكِهِ كُلِّهِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "324" },
+    alertes: [
+      "Corrigé (campagne de correction) : dans l'argument rapporté, Mawāhib porte « صَحَّ فِيهِ الْغَسْلُ » et « لَمَا صَحَّ أَصْلُهُ السَّابِقُ » ; adh-Dhakhīra (1717, p. 320), source du passage, a « صَحَّ فِيهِ الْفِعْلُ » et « أَصْلُهُ السَّاقُ » ; l'argument y est d'al-Qarāfī (« حُجَّتُنَا »), non d'al-Bājī ; passage résumé d'après adh-Dhakhīra (n° 484).",
+      "Précisé (campagne de correction) : « وَهَذَا أَصْلُ الْمَذْهَبِ » n'a pas été retrouvé dans adh-Dhakhīra (1717, p. 318–322), qui conclut au même sens (« وَجَبَ إِيعَابُهُ ») ; aṭ-Ṭirāz non consulté (n° 485).",
+      "Même matn que tah-01-08-24a (sous-fiche du segment 24).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 146 (Shamela 21604, page 145)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-08-25",
+    kitab: "tah", bab: "01", fasl: "08", ordre: 25,
+    titre: "Le pied gauche : la main gauche dessus ? (deux interprétations)",
+    titre_ar: "وَهَلْ الْيُسْرَى كَذَلِكَ أَوْ الْيُسْرَى فَوْقَهَا؟ تَأْوِيلَانِ",
+    objectif: "Connaître les deux lectures de la Mudawwana pour essuyer le khouff gauche, et celle qui est jugée la plus forte.",
+    matn: "وَهَلْ الْيُسْرَى كَذَلِكَ أَوْ الْيُسْرَى فَوْقَهَا؟ تَأْوِيلَانِ",
+    regle_pratique: "Pour le khouff gauche, on pose de préférence la main gauche dessus et la droite dessous (lecture d'Ibn Abī Zayd, jugée la plus forte) ; selon Ibn Shablūn, on garde la droite dessus comme pour le pied droit.",
+    qualification: {
+      hukm: "mandub",
+      nature: "adab",
+      effet_si_omis: "Le passage ne précise pas de conséquence (il s'agit de la manière recommandée)."
+    },
+    explication: "Le matn rapporte deux interprétations (تَأْوِيلَانِ) de la Mudawwana. Al-Ḥaṭṭāb : « الثَّانِي تَأْوِيلُ ابْنِ أَبِي زَيْدٍ وَغَيْرِهِ وَالْأَوَّلُ تَأْوِيلُ ابْنِ شَبْلُونٍ » ; « وَاخْتَارَ سَنَدٌ الثَّانِيَ وَرَجَّحَهُ بِأَنَّهُ مَرْوِيٌّ عَنْ مَالِكٍ », et il dit qu'Ibn Shablūn s'est trompé ; d'où « فَعُلِمَ أَنَّ التَّأْوِيلَ الثَّانِيَ أَرْجَحُ ».\n\nAdh-Dhakhīra rapporte aṭ-Ṭirāz : certains disent que la lettre de la Mudawwana met la droite sur le dessus du pied gauche aussi, « وَهُوَ وَهْمٌ », car Mālik dit dans al-Wāḍiḥa de mettre la gauche dessus, « لِأَنَّهُ أَمْكَنُ ». Al-Mawwāq : c'est ce que dit la Risāla ; Ibn Ḥabīb : Muṭarrif et Ibn al-Mājishūn le leur ont montré, d'après Mālik ; Ibn Shablūn : la droite dessus pour les deux pieds, « وَهُوَ ظَاهِرُ الْمُدَوَّنَةِ ».\n\nTanbīh d'al-Ḥaṭṭāb : selon la deuxième lecture, on ne passe au pied gauche qu'après avoir lavé la main qui est passée sous le khouff, d'après al-Lakhmī ; al-Ḥaṭṭāb restreint : « إذَا لَمْ يَتَحَقَّقْ طَهَارَةَ خُفِّهِ ».",
+    aqwal: [
+      { auteur: "Ibn Abī Zayd et d'autres (Sanad l'a choisi, comme rapporté de Mālik)", avis: "Pour le pied gauche, la main gauche dessus, la droite dessous.", statut: "rajih" },
+      { auteur: "Ibn Shablūn", avis: "La main droite dessus pour les deux pieds, comme la lettre de la Mudawwana.", statut: "qawl" }
+    ],
+    muatamad: "Confirmé par al-Dasūqī : « وَالْأَرْجَحُ مِنْهُمَا الثَّانِي كَمَا فِي ح وَغَيْرِهِ » (« ح » : al-Ḥaṭṭāb) : la main gauche dessus pour le pied gauche.",
+    tarjih_hattab: "« فَعُلِمَ أَنَّ التَّأْوِيلَ الثَّانِيَ أَرْجَحُ » (d'après le choix de Sanad).",
+    tanbihat: [
+      "Al-Ḥaṭṭāb, d'après al-Lakhmī : selon la deuxième lecture, on lave la main passée sous le khouff avant d'essuyer le pied gauche ; il le restreint au cas où l'on n'est pas sûr que le dessous du khouff soit pur."
+    ],
+    divergences: [
+      "Concordance — la lecture la plus forte. Al-Ḥaṭṭāb : « فَعُلِمَ أَنَّ التَّأْوِيلَ الثَّانِيَ أَرْجَحُ » ; al-Dasūqī : « وَالْأَرْجَحُ مِنْهُمَا الثَّانِي كَمَا فِي ح وَغَيْرِهِ » ; al-ʿAdawī, d'après al-Fīshī : « فَعُلِمَ أَنَّ التَّأْوِيلَ الثَّانِيَ أَرْجَحُ ».",
+      "Concordance — aṭ-Ṭirāz (d'après adh-Dhakhīra) : la lecture qui met la droite dessus pour le pied gauche « وَهُوَ وَهْمٌ »."
+    ],
+    exemple: "Après avoir essuyé son pied droit, une femme essuie son khouff gauche en posant la main gauche sur le dessus et la droite dessous. Si le dessous de son khouff droit est sali, elle lave d'abord la main qui est passée dessous.",
+    erreurs_frequentes: [
+      "Croire que les deux lectures disent la même chose.",
+      "Croire que la manière d'essuyer le pied gauche rend le mash nul si l'on suit l'autre lecture : il s'agit d'une manière recommandée."
+    ],
+    termes: [
+      { ar: "تَأْوِيلَانِ", translit: "ta'wîlâni", def: "« Deux interprétations » : deux façons dont les commentateurs ont compris un passage de la Mudawwana." }
+    ],
+    quiz: [
+      { q: "Selon la lecture d'Ibn Abī Zayd, comment essuie-t-on le khouff gauche ?",
+        choix: ["Main gauche dessus, main droite dessous", "Main droite dessus, gauche dessous", "Avec la seule main gauche", "En commençant par le talon"],
+        bonne: 0,
+        explication: "« الثَّانِي تَأْوِيلُ ابْنِ أَبِي زَيْدٍ » : « أَوْ الْيُسْرَى فَوْقَهَا »." },
+      { q: "Pourquoi Sanad a-t-il préféré cette lecture ?",
+        choix: ["Parce qu'elle est plus facile", "Parce qu'elle est celle d'Ibn Shablūn", "Parce qu'elle est rapportée de Mālik", "Parce qu'elle est la lettre de la Mudawwana"],
+        bonne: 2,
+        explication: "« وَرَجَّحَهُ بِأَنَّهُ مَرْوِيٌّ عَنْ مَالِكٍ »." },
+      { q: "Selon al-Dasūqī, quelle lecture est la plus forte ?",
+        choix: ["Celle d'Ibn Shablūn", "La deuxième (main gauche dessus)", "Aucune", "Les deux à égalité"],
+        bonne: 1,
+        explication: "« وَالْأَرْجَحُ مِنْهُمَا الثَّانِي كَمَا فِي ح وَغَيْرِهِ »." },
+      { q: "Mise en situation : un homme a essuyé son khouff droit, dont le dessous est souillé de boue impure, puis veut essuyer le gauche selon la deuxième lecture. Selon al-Lakhmī, avec la précision d'al-Ḥaṭṭāb :",
+        choix: ["Il essuie directement", "Il ôte ses khouff", "Il fait le tayammoum", "Il lave d'abord la main passée sous le khouff"],
+        bonne: 3,
+        explication: "« لَا يَمْسَحُ الرِّجْلَ الْيُسْرَى حَتَّى يَغْسِلَ الْيَدَ » … « إذَا لَمْ يَتَحَقَّقْ طَهَارَةَ خُفِّهِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "324" },
+    alertes: [
+      "Précisé (campagne de correction) : « حَتَّى يَغْسِلَ الْيَدَ الَّذِي يَمُرُّ بِهَا » ; accord attendu « الَّتِي » (main, féminin), sens inchangé ; aucun témoin de la phrase (n° 486).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 146 (Shamela 21604, page 145)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-08-26",
+    kitab: "tah", bab: "01", fasl: "08", ordre: 26,
+    titre: "Essuyer le dessus et le dessous",
+    titre_ar: "وَمَسَحَ أَعْلَاهُ وَأَسْفَلَهُ",
+    objectif: "Savoir qu'on essuie le dessus et le dessous du khouff, et le statut de chacun.",
+    matn: "وَمَسَحَ أَعْلَاهُ وَأَسْفَلَهُ",
+    regle_pratique: "On essuie le dessus et le dessous du khouff : le dessus est obligatoire ; le dessous l'est aussi selon la lettre de la Mudawwana que suit al-Ḥaṭṭāb, alors qu'al-Dardīr ne fait que recommander de réunir les deux.",
+    qualification: {
+      hukm: "wajib",
+      nature: "rukn",
+      effet_si_omis: "Voir la fiche 27 : sans le dessus, la prière est nulle ; sans le dessous, on refait la prière dans le temps."
+    },
+    explication: "Al-Ḥaṭṭāb lit « مَسَحَ » comme un verbe : il faut essuyer le dessus et le dessous, « وَهُوَ ظَاهِرُ الْمُدَوَّنَةِ » : « وَلَا يَجُوزُ مَسْحُ أَعْلَاهُ دُونَ أَسْفَلِهِ », sauf que celui qui n'a essuyé que le dessus et a prié refait sa prière dans le temps, de préférence. Il en conclut « فَفُهِمَ مِنْهُ أَنَّ الْأَعْلَى وَالْأَسْفَلَ عِنْدَهُ وَاجِبَانِ », la reprise limitée au temps étant faite « مُرَاعَاةً لِلْخِلَافِ ». Ibn Nājī cite la Mudawwana avec « وَلَا يُجْزِئُ ».\n\nAsh-Shabībī rapporte trois avis : « مَشْهُورُهَا وُجُوبُ مَسْحِ الْأَعْلَى وَاسْتِحْبَابُ مَسْحِ الْأَسْفَلِ » ; « الثَّانِي وُجُوبُهُمَا لِابْنِ نَافِعٍ » ; « وَالثَّالِثُ وُجُوبُ أَحَدِهِمَا مِنْ غَيْرِ تَعْيِينٍ ». Al-Qawānīn : « الْوَاجِبُ مَسْحُ أَعْلَاهُ وَيُسْتَحَبُّ أَسْفَلُهُ ». Sur cet avis, on lirait « مَسْحُ » (nom) : il est recommandé de réunir les deux, comme dit al-Jallāb (« وَيُسْتَحَبُّ مَسْحُ أَعْلَى الْخُفَّيْنِ وَأَسْفَلِهِمَا ») ; Bahrām le comprend ainsi dans son petit commentaire, mais al-Ḥaṭṭāb juge la première lecture plus claire.\n\nAl-Dardīr : « أَيْ نُدِبَ الْجَمْعُ بَيْنَهُمَا وَإِلَّا فَمَسْحُ الْأَعْلَى وَاجِبٌ ». Al-Kharashī : c'est recommandé, d'après al-Jallāb, at-Talqīn et al-Maʿūna, « قَالَ الشَّبِيبِيُّ وَهُوَ الْمَشْهُورُ ».",
+    aqwal: [
+      { auteur: "L'avis répandu, d'après ash-Shabībī (cité par al-Ḥaṭṭāb et al-Kharashī) ; al-Qawānīn ; al-Jallāb", avis: "Le dessus est obligatoire, le dessous recommandé.", statut: "mashhur" },
+      { auteur: "Ibn Nāfiʿ (d'après ash-Shabībī) ; lettre de la Mudawwana selon al-Ḥaṭṭāb", avis: "Le dessus et le dessous sont obligatoires.", statut: "qawl" },
+      { auteur: "Avis rapporté sans attribution (d'après ash-Shabībī)", avis: "L'un des deux est obligatoire, sans préciser lequel.", statut: "qawl" }
+    ],
+    muatamad: "Confirmé par al-Dardīr / al-Dasūqī : il est recommandé de réunir le dessus et le dessous ; le dessus est obligatoire (« وَإِلَّا فَمَسْحُ الْأَعْلَى وَاجِبٌ »).",
+    tarjih_hattab: "« وَالْأَوَّلُ أَظْهَرُ » : « مَسَحَ » est un verbe et le dessus comme le dessous sont obligatoires, selon la lettre de la Mudawwana.",
+    tanbihat: [
+      "Al-Ḥaṭṭāb : la reprise de la prière limitée au temps, quand on a laissé le dessous, se fait par égard pour le désaccord, non parce que le dessous serait seulement recommandé."
+    ],
+    divergences: [
+      "Divergence — le dessous du khouff. Al-Ḥaṭṭāb : « فَفُهِمَ مِنْهُ أَنَّ الْأَعْلَى وَالْأَسْفَلَ عِنْدَهُ وَاجِبَانِ » … « وَالْأَوَّلُ أَظْهَرُ ». Al-Dardīr : « أَيْ نُدِبَ الْجَمْعُ بَيْنَهُمَا وَإِلَّا فَمَسْحُ الْأَعْلَى وَاجِبٌ ». Al-Dasūqī résume, sans le nommer, l'exposé d'al-Ḥaṭṭāb : « قَدْ أَخْرَجَ هَذَا » … « التَّقْرِيرَ وَعَزَاهُ لِبَهْرَامَ فِي صَغِيرِهِ » (phrase coupée par le sharḥ de la page suivante) ; al-Bunānī de même.",
+      "Complément — les côtés du khouff. Al-Dasūqī : « وَالظَّاهِرُ أَنَّ أَجْنَابَ الْخُفِّ كَأَعْلَاهُ كَمَا قَالَ شَيْخُنَا » (son maître al-ʿAdawī)."
+    ],
+    exemple: "Un homme essuie le dessus de ses khouff, puis passe aussi la main dessous. Il a fait ce que demandent l'avis répandu (dessus obligatoire, dessous recommandé) et la lettre de la Mudawwana suivie par al-Ḥaṭṭāb (les deux obligatoires).",
+    erreurs_frequentes: [
+      "N'essuyer que le dessous du khouff.",
+      "Croire que, selon tous, le dessous n'est qu'une convenance : al-Ḥaṭṭāb le tient pour obligatoire d'après la Mudawwana.",
+      "Oublier les côtés du khouff, qui ont le statut du dessus selon al-Dasūqī."
+    ],
+    termes: [],
+    quiz: [
+      { q: "Selon l'avis répandu rapporté par ash-Shabībī :",
+        choix: ["Le dessous est obligatoire, le dessus recommandé", "Le dessus est obligatoire, le dessous recommandé", "Les deux sont recommandés", "L'un des deux, au choix"],
+        bonne: 1,
+        explication: "« مَشْهُورُهَا وُجُوبُ مَسْحِ الْأَعْلَى وَاسْتِحْبَابُ مَسْحِ الْأَسْفَلِ »." },
+      { q: "Comment al-Ḥaṭṭāb comprend-il la Mudawwana ?",
+        choix: ["Seul le dessus compte", "Le dessous suffit", "Rien n'est obligatoire", "Le dessus et le dessous sont obligatoires"],
+        bonne: 3,
+        explication: "« فَفُهِمَ مِنْهُ أَنَّ الْأَعْلَى وَالْأَسْفَلَ عِنْدَهُ وَاجِبَانِ »." },
+      { q: "Selon al-Dardīr, que veut dire le matn ?",
+        choix: ["Les deux sont obligatoires", "Le dessous est interdit", "Il est recommandé de réunir les deux ; le dessus est obligatoire", "Le dessus est recommandé"],
+        bonne: 2,
+        explication: "« أَيْ نُدِبَ الْجَمْعُ بَيْنَهُمَا وَإِلَّا فَمَسْحُ الْأَعْلَى وَاجِبٌ »." },
+      { q: "Mise en situation : une femme essuie le dessus et le dessous de ses khouff, mais pas leurs côtés. Selon al-Dasūqī :",
+        choix: ["Les côtés ont le statut du dessus", "Les côtés ne comptent pas", "Les côtés ont le statut du dessous", "Elle doit ôter ses khouff"],
+        bonne: 0,
+        explication: "« وَالظَّاهِرُ أَنَّ أَجْنَابَ الْخُفِّ كَأَعْلَاهُ كَمَا قَالَ شَيْخُنَا »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "324–325" },
+    alertes: [
+      "Corrigé (campagne de correction) : dans la citation de la Mudawwana, Mawāhib porte « إلَّا أَنَّهُ مَسَحَ أَعْلَاهُ وَصَلَّى » et « لِأَنَّ عُرْوَةَ كَانَ يَمْسَحُ بُطُونَهُمَا » ; al-Dasūqī (21604/145) et al-Bunānī (14297, p. 202), qui reprennent la même citation, ont « إلَّا أَنَّهُ لَوْ مَسَحَ » et « كَانَ لَا يَمْسَحُ بُطُونَهُمَا » : la négation était tombée ; c'est parce que ʿUrwa n'essuyait pas le dessous que la reprise se limite au temps (n° 487).",
+      "Précisé (campagne de correction) : « فَيَصِحُّ عَلَى هَذَا أَنْ يُقِرَّ مَسْحَ - بِالسُّكُونِ » ; lecture يُقْرَأَ probable (« lire »), sens inchangé ; non cité (n° 488).",
+      "Variante : « وَمَسَحَ » (verbe) dans le « ص », le Mukhtaṣar seul, al-Kharashī et al-Mawwāq ; « وَمَسْحُ أَعْلَاهُ وَأَسْفَلِهِ » (nom) chez Ibn Ghāzī, al-Dardīr et al-Zurqānī ; al-Ḥaṭṭāb examine les deux lectures ; « ص » gardé (n° 489).",
+      "Ash-Shabībī, al-Qawānīn et le commentaire d'Ibn Nājī sur la Mudawwana n'ont pas été consultés ; al-Jallāb est confirmé par al-Mawwāq (21611, p. 264), ash-Shabībī par al-Kharashī (91, p. 182).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 146 (Shamela 21604, pages 145–146)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-08-27",
+    kitab: "tah", bab: "01", fasl: "08", ordre: 27,
+    titre: "Le dessus oublié : prière nulle ; le dessous : refaire dans le temps",
+    titre_ar: "وَبَطَلَتْ إنْ تَرَكَ أَعْلَاهُ لَا أَسْفَلَهُ فَفِي الْوَقْتِ",
+    objectif: "Savoir ce que vaut la prière faite après avoir laissé le dessus ou le dessous du khouff.",
+    matn: "وَبَطَلَتْ إنْ تَرَكَ أَعْلَاهُ لَا أَسْفَلَهُ فَفِي الْوَقْتِ",
+    regle_pratique: "Qui n'a essuyé que le dessous de son khouff et a prié refait sa prière, qui est nulle ; qui n'a essuyé que le dessus refait sa prière seulement dans le temps choisi, de préférence, et, selon Ibn Abī Zayd, refait aussi ses ablutions.",
+    qualification: {
+      hukm: "wajib",
+      nature: "mubtil",
+      effet_si_omis: "Al-Dasūqī : le dessus oublié, il reprend avec l'intention, même longtemps après ; laissé exprès, par incapacité ou par ignorance, il reprend si le délai n'est pas long, sinon il recommence ses ablutions ; le dessous laissé, il essuie seulement le dessous si le délai n'est pas long ou s'il a oublié."
+    },
+    explication: "Le « ص » de Mawāhib n'a que « لَا أَسْفَلَهُ فَفِي الْوَقْتِ » (le début manque : voir les alertes). Al-Ḥaṭṭāb : « أَيْ: فَيُعِيدُ الصَّلَاةَ فِي الْوَقْتِ وَيُعِيدُ الْوُضُوءَ أَبَدًا وَكُلُّ ذَلِكَ اسْتِحْبَابٌ », « قَالَهُ الشَّيْخُ ابْنُ أَبِي زَيْدٍ وَنَقَلَهُ ابْنُ يُونُسَ وَغَيْرُهُ ». Aṭ-Ṭirāz pose la question : « فَهَلْ يُعِيدُ الْوُضُوءَ كُلَّهُ أَوْ أَسْفَلَ الْخُفِّ فَقَطْ » ; Ibn Abī Zayd fait refaire les ablutions, parce qu'en laissant le dessous par ignorance jusqu'à un long délai, « كَانَ فِيهِ خَرْمُ الْمُوَالَاةِ الْمُشْتَرَطَةِ » ; on peut aussi en tirer un autre avis : « أَنَّهُ يَمْسَحُ أَسْفَلَهُ فَقَطْ وَيُعِيدُ الصَّلَاةَ ». Tanbīh : « الْمُرَادُ بِالْوَقْتِ الْوَقْتُ الْمُخْتَارُ قَالَهُ أَصْبَغُ ».\n\nPour le dessus, al-Ḥaṭṭāb a cité sous le segment 26 la Mudawwana (on ne peut pas essuyer le dessous sans le dessus) et al-Jallāb : « وَإِنْ اقْتَصَرَ عَلَى مَسْحِ أَسْفَلِهِمَا دُونَ أَعْلَاهُمَا أَعَادَ فِي الْوَقْتِ وَبَعْدَهُ إيجَابًا ». Ibn ʿArafa, d'après la Mudawwana : « إن خص أعلاه أعاد صلاته في الوقت وأسفله أبدًا ».\n\nAl-Dardīr : la prière est nulle s'il a laissé le dessus « وَاقْتَصَرَ عَلَى مَسْحِ الْأَسْفَلِ » ; le dessous laissé, il refait la prière dans le temps choisi. Al-Kharashī : « وَتَرْكُ بَعْضِ الْأَعْلَى أَوْ الْأَسْفَلِ كَتَرْكِهِ كُلِّهِ » ; la reprise est recommandée « لِقُوَّةِ الْخِلَافِ فِي مَسْحِ الْأَسْفَلِ ».",
+    aqwal: [
+      { auteur: "La Mudawwana (d'après Ibn ʿArafa et adh-Dhakhīra) ; al-Jallāb (cité par al-Ḥaṭṭāb)", avis: "Le dessus seul : refaire la prière dans le temps ; le dessous seul : la refaire toujours.", statut: "mashhur" },
+      { auteur: "Ibn Abī Zayd (rapporté par Ibn Yūnus et aṭ-Ṭirāz, cité par al-Ḥaṭṭāb)", avis: "Le dessous laissé : refaire la prière dans le temps et les ablutions toujours, l'un et l'autre recommandés.", statut: "non_precise" },
+      { auteur: "Avis tiré par aṭ-Ṭirāz (cité par al-Ḥaṭṭāb)", avis: "Il essuie seulement le dessous et refait la prière.", statut: "qawl" },
+      { auteur: "Saḥnūn (d'après adh-Dhakhīra)", avis: "Le dessus seul : il ne refait rien.", statut: "qawl" },
+      { auteur: "Ibn Nāfiʿ (d'après at-Tawḍīḥ, adh-Dhakhīra et Ibn ʿArafa)", avis: "Ni le dessus seul ni le dessous seul ne suffisent : refaire toujours.", statut: "qawl" },
+      { auteur: "Ashhab (d'après at-Tawḍīḥ et adh-Dhakhīra)", avis: "L'un ou l'autre suffit.", statut: "qawl" }
+    ],
+    muatamad: "Confirmé par al-Dardīr / al-Dasūqī : la prière est nulle si l'on n'a essuyé que le dessous ; si l'on n'a essuyé que le dessus, on la refait dans le temps choisi ; al-Dasūqī : les ablutions se refont seulement si le dessous a été laissé exprès, par incapacité ou par ignorance, et que le délai est long.",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Al-Ḥaṭṭāb, d'après Aṣbagh : le temps dont il s'agit est le temps choisi (الْوَقْتُ الْمُخْتَارُ)."
+    ],
+    divergences: [
+      "Divergence — refaire les ablutions quand on a laissé le dessous. Al-Ḥaṭṭāb, d'après Ibn Abī Zayd : « وَيُعِيدُ الْوُضُوءَ أَبَدًا وَكُلُّ ذَلِكَ اسْتِحْبَابٌ ». Al-Dasūqī : « وَيُعِيدُ الْوُضُوءَ أَيْضًا إنْ كَانَ تَرْكُهُ الْأَسْفَلَ عَمْدًا » … « فَإِنْ لَمْ يَطُلْ مَسَحَ الْأَسْفَلَ فَقَطْ وَكَذَا إنْ كَانَ سَهْوًا طَالَ أَوْ لَا ». Al-Kharashī juge la raison d'Ibn Abī Zayd « وَهُوَ مُشْكِلٌ ».",
+      "Concordance — le temps choisi. Al-Ḥaṭṭāb, d'après Aṣbagh ; al-Dardīr : « فَفِي الْوَقْتِ) الْمُخْتَارِ يُعِيدُهَا » ; al-Zurqānī : « أي يعيد الصلاة في الوقت والوضوء أبدًا وكل ذلك على جهة الندب قاله ح » (« ح » : al-Ḥaṭṭāb).",
+      "Complément — le dessus laissé par oubli. Al-Dasūqī : « إنْ تَرَكَ أَعْلَاهُ أَيْ عَمْدًا أَوْ نِسْيَانًا أَوْ جَهْلًا أَوْ عَجْزًا » ; « نَعَمْ لَهُ الْبِنَاءُ فِي النِّسْيَانِ مُطْلَقًا »."
+    ],
+    exemple: "Un homme pressé n'essuie que le dessus de ses khouff et prie le ʿaṣr. Il s'en rend compte avant que le soleil ne jaunisse : il lui est recommandé d'essuyer le dessous et de refaire sa prière. S'il n'avait essuyé que le dessous, sa prière serait nulle et il devrait la refaire, même après le temps.",
+    erreurs_frequentes: [
+      "Croire que n'essuyer que le dessous suffit.",
+      "Refaire la prière après le temps quand on n'a laissé que le dessous : la reprise ne vaut que dans le temps choisi.",
+      "Confondre les deux cas : le dessus laissé rend la prière nulle ; le dessous laissé fait seulement refaire la prière dans le temps, de préférence."
+    ],
+    termes: [
+      { ar: "الْوَقْتُ الْمُخْتَارُ", translit: "al-waqtou l-moukhtâr", def: "Le temps « choisi » d'une prière, par opposition au temps de nécessité (al-waqt ad-darourî) qui le suit." }
+    ],
+    quiz: [
+      { q: "Un homme n'a essuyé que le dessous de ses khouff, puis il a prié. Selon al-Dardīr :",
+        choix: ["Sa prière est valable", "Il la refait dans le temps, de préférence", "Sa prière est nulle", "Il refait seulement ses ablutions"],
+        bonne: 2,
+        explication: "« (وَبَطَلَتْ) الصَّلَاةُ (إنْ) (تَرَكَ) مَسْحَ (أَعْلَاهُ) »." },
+      { q: "Celui qui n'a essuyé que le dessus, selon Ibn Abī Zayd (cité par al-Ḥaṭṭāb) :",
+        choix: ["Refait la prière dans le temps et les ablutions, de préférence", "Ne refait rien", "Refait la prière toujours", "Doit faire le ghousl"],
+        bonne: 0,
+        explication: "« فَيُعِيدُ الصَّلَاةَ فِي الْوَقْتِ وَيُعِيدُ الْوُضُوءَ أَبَدًا وَكُلُّ ذَلِكَ اسْتِحْبَابٌ »." },
+      { q: "Selon Aṣbagh (cité par al-Ḥaṭṭāb), de quel temps s'agit-il ?",
+        choix: ["Du temps de nécessité", "Du temps choisi", "De toute la journée", "Du vendredi suivant"],
+        bonne: 1,
+        explication: "« الْمُرَادُ بِالْوَقْتِ الْوَقْتُ الْمُخْتَارُ قَالَهُ أَصْبَغُ »." },
+      { q: "Mise en situation : une femme a oublié d'essuyer le dessous de ses khouff et s'en souvient le lendemain. Selon al-Dasūqī :",
+        choix: ["Elle refait toutes ses ablutions", "Elle fait le tayammoum", "Elle refait toutes les prières de la veille", "Elle essuie seulement le dessous, même après longtemps"],
+        bonne: 3,
+        explication: "« فَإِنْ لَمْ يَطُلْ مَسَحَ الْأَسْفَلَ فَقَطْ وَكَذَا إنْ كَانَ سَهْوًا طَالَ أَوْ لَا »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "325" },
+    alertes: [
+      "Limite du texte : le « ص » de Mawāhib commence à « لَا أَسْفَلَهُ » ; le début « وَبَطَلَتْ إنْ تَرَكَ أَعْلَاهُ » est donné par le Mukhtaṣar seul (11355, p. 22), Ibn Ghāzī (14605, p. 45), al-Dardīr (21604/146), al-Kharashī (91, p. 182), al-Zurqānī (14297, p. 202) et al-Mawwāq (21611, p. 264) ; matn complété ; al-Ḥaṭṭāb traite le dessus sous le segment 26 (n° 490).",
+      "Précisé (campagne de correction) : Ibn Ghāzī (14605, p. 45) ajoute « [المختار] » après « فَفِي الْوَقْتِ », mot absent de l'édition imprimée selon son éditeur ; al-Dardīr le donne en glose ; matn laissé sans ce mot (n° 491).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 146–147 (Shamela 21604, pages 145–146)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-08-syn",
+    type: "synthese",
+    kitab: "tah", bab: "01", fasl: "08",
+    titre: "Le mash sur les khouff : conditions, manière, ce qui y met fin",
+    quiz: [
+      { q: "Le mash sur les khouff est :",
+        choix: ["Une obligation pour qui porte des khouff", "Une dispense permise, pour l'homme et la femme, chez soi ou en voyage ; laver les pieds reste préférable", "Réservé au voyageur", "Déconseillé"],
+        bonne: 1,
+        explication: "Voir les fiches 01 et 02b." },
+      { q: "Lequel de ces khouff peut-on essuyer ?",
+        choix: ["Un khouff de feutre", "Un khouff fait de la peau d'une bête morte", "Un khouff déchiré sur un tiers du pied", "Un khouff de cuir pur, cousu, qui couvre le pied jusqu'aux chevilles"],
+        bonne: 3,
+        explication: "Voir les fiches 06, 07 et 10." },
+      { q: "Quand peut-on essuyer ses khouff ?",
+        choix: ["S'ils ont été mis après une purification par l'eau, complète, sans viser seulement le mash", "S'ils ont été mis après un tayammoum", "Après avoir lavé le premier pied, avant de laver l'autre", "Quel que soit le moment où on les a mis"],
+        bonne: 0,
+        explication: "Voir les fiches 08, 11, 12 et 13." },
+      { q: "Le mash a-t-il une durée obligatoire ?",
+        choix: ["Un jour et une nuit pour le résident", "Trois jours pour le voyageur", "Non ; il est seulement recommandé d'ôter les khouff chaque vendredi", "Une semaine pour tous"],
+        bonne: 2,
+        explication: "Voir les fiches 05b et 23." },
+      { q: "Qu'est-ce qui met fin au mash ?",
+        choix: ["Le talon sorti dans la tige", "Ce qui oblige au ghousl, une grande déchirure, ou le pied (selon Khalīl, la plus grande partie du pied) remonté dans la tige", "Le simple ḥadath mineur", "Une petite déchirure aux bords joints"],
+        bonne: 1,
+        explication: "Voir les fiches 16, 17, 18 et 19." },
+      { q: "Qui ôte un de ses deux khouff simples après le mash :",
+        choix: ["Lave seulement ce pied", "N'a rien à faire", "Ôte aussi l'autre et lave ses deux pieds sans tarder", "Essuie de nouveau l'autre khouff"],
+        bonne: 2,
+        explication: "Voir les fiches 20a et 21." },
+      { q: "Qu'est-il déconseillé de faire en essuyant le khouff ?",
+        choix: ["Le laver, répéter le mash ou en suivre les plis", "Essuyer le dessus", "Reprendre de l'eau pour le pied gauche", "Essuyer jusqu'aux chevilles"],
+        bonne: 0,
+        explication: "Voir les fiches 14, 14b, 15 et 24a." },
+      { q: "Qui n'a essuyé que le dessous de ses khouff et a prié :",
+        choix: ["A une prière valable", "Refait sa prière dans le temps, de préférence", "Refait seulement ses ablutions", "A une prière nulle"],
+        bonne: 3,
+        explication: "Voir les fiches 26 et 27." }
+    ]
   }
 
-  /* FIN-UNITE-60 */
+  /* FIN-UNITE-61 */
 ]);

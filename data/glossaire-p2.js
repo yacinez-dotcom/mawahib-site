@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.64
+/* Données — Glossaire, partie 2 — v1.65
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -39,7 +39,8 @@
    v1.61 : 10 termes de l'unité 57 (tah-01-08-01 à -05b).
    v1.62 : 14 termes de l'unité 58 (tah-01-08-06 à -12).
    v1.63 : 5 termes de l'unité 59 (tah-01-08-12b à -17).
-   v1.64 : 7 termes de l'unité 60 (tah-01-08-18 à -23). */
+   v1.64 : 7 termes de l'unité 60 (tah-01-08-18 à -23).
+   v1.65 : 2 termes de l'unité 61 (tah-01-08-24a à -27). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -453,6 +454,8 @@ App.data.ajouterTermes([
   { ar: "بَدَلِيَّة", translit: "badaliyya", def: "Le fait de tenir lieu d'autre chose : le khouff essuyé remplace le pied lavé." },
   { ar: "تَمْزِيق", translit: "tamzîq", def: "Le fait de déchirer, de mettre en pièces (ici le khouff qu'on ne peut ôter)." },
   { ar: "الْوَقْتُ الْمُخْتَارُ", translit: "al-waqtou l-moukhtâr", def: "Le temps « choisi » d'une prière, par opposition au temps de nécessité (al-waqt ad-darourî) qui le suit." },
-  { ar: "غُسْلُ الْجُمُعَةِ", translit: "ghouslou l-joumouʿa", def: "Le grand lavage fait le vendredi pour la prière du vendredi." }
+  { ar: "غُسْلُ الْجُمُعَةِ", translit: "ghouslou l-joumouʿa", def: "Le grand lavage fait le vendredi pour la prière du vendredi." },
+  { ar: "صِفَةُ الْمَسْحِ", translit: "sifatou l-mas-h", def: "La manière d'essuyer : comment poser et passer les mains sur le khouff." },
+  { ar: "اِسْتِيعَاب", translit: "istîʿâb", def: "Fait de couvrir entièrement : essuyer tout le khouff, sans en laisser une partie (aussi إِيعَاب)." }
 /* FIN-GLOSSAIRE */
 ]);

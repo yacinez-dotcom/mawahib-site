@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.53 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.54 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -98,7 +98,9 @@
           titres de -13 à -17 précisés ; faṣl tah-01-08 : 31 → 34 segments (unité 59).
    v1.53 : tah-01-08-18 « لِسَاقِ خُفِّهِ » (n° 472) ; -20 découpé en -20a et -20b, titre_ar complété et corrigé d'après le matn
           complet (« وَإِنْ نَزَعَهُمَا أَوْ أَعْلَيَيْهِ أَوْ أَحَدَهُمَا بَادَرَ لِلْأَسْفَلِ », n° 473, 474) ; titres de -18 à -22 précisés ;
-          faṣl tah-01-08 : 34 → 35 segments (unité 60). */
+          faṣl tah-01-08 : 34 → 35 segments (unité 60).
+   v1.54 : tah-01-08-24 découpé en -24a et -24b ; titre_ar de -27 complété (« وَبَطَلَتْ إنْ تَرَكَ أَعْلَاهُ », n° 490) ;
+          titres de -24 à -27 précisés ; faṣl tah-01-08 : 35 → 36 segments ; faṣl terminé (unité 61). */
 App.data.definirPlan({
   kutub: [
     {
@@ -611,7 +613,7 @@ App.data.definirPlan({
                 { id: "tah-01-07-34", titre: "Les ablutions valent ghousl pour leurs membres", titre_ar: "وَغَسْلُ الْوُضُوءِ عَنْ غُسْلِ مَحِلِّهِ وَلَوْ نَاسِيًا لِجَنَابَتِهِ كَلُمْعَةٍ مِنْهَا وَإِنْ عَنْ جَبِيرَةٍ" } /* p. 318 ; fin absente du « ص » (n° 431, v1.49) */
               ]
             },
-            /* tah-01-08 — t. 1, p. 318–325 (Shamela 569, pages 317–324) — 35 segments du matn (v1.53) */
+            /* tah-01-08 — t. 1, p. 318–325 (Shamela 569, pages 317–324) — 36 segments du matn (v1.54) */
             {
               id: "tah-01-08",
               titre: "Le mash sur les khouff",
@@ -648,10 +650,11 @@ App.data.definirPlan({
                 { id: "tah-01-08-21", titre: "Comme pour la continuité", titre_ar: "كَالْمُوَالَاةِ" }, /* p. 323 */
                 { id: "tah-01-08-22", titre: "Un pied ôté, l'autre coincé, le temps presse : trois avis", titre_ar: "وَإِنْ نَزَعَ رِجْلًا وَعَسُرَتْ الْأُخْرَى وَضَاقَ …" }, /* p. 324 ; « أَوْ مَسْحِهِ » (n° 479, v1.53) */
                 { id: "tah-01-08-23", titre: "Recommandé : ôter le khouff chaque vendredi", titre_ar: "وَنُدِبَ نَزْعُهُ كُلَّ جُمُعَةٍ" }, /* p. 324 */
-                { id: "tah-01-08-24", titre: "Manière : main droite sur le bout des orteils", titre_ar: "وَوَضَعَ يُمْنَاهُ عَلَى طَرَفِ أَصَابِعِهِ وَيُسْرَاهُ …" }, /* p. 324 */
-                { id: "tah-01-08-25", titre: "La main gauche : de même ou dessus ? (ta'wîlân)", titre_ar: "وَهَلْ الْيُسْرَى كَذَلِكَ أَوْ الْيُسْرَى فَوْقَهَا؟ …" }, /* p. 324 */
-                { id: "tah-01-08-26", titre: "Essuyer le dessus et le dessous", titre_ar: "وَمَسَحَ أَعْلَاهُ وَأَسْفَلَهُ" }, /* p. 324 */
-                { id: "tah-01-08-27", titre: "Pas le dessous : refaire dans le temps", titre_ar: "لَا أَسْفَلَهُ فَفِي الْوَقْتِ" } /* p. 325 */
+                { id: "tah-01-08-24a", titre: "Comment essuyer : la main droite dessus, la gauche dessous", titre_ar: "وَوَضَعَ يُمْنَاهُ عَلَى طَرَفِ أَصَابِعِهِ وَيُسْرَاهُ …" }, /* p. 324 (v1.54) */
+                { id: "tah-01-08-24b", titre: "Essuyer tout le khouff", titre_ar: "وَوَضَعَ يُمْنَاهُ عَلَى طَرَفِ أَصَابِعِهِ وَيُسْرَاهُ …" }, /* p. 324 ; sous-fiche de 24 (v1.54) */
+                { id: "tah-01-08-25", titre: "Le pied gauche : la main gauche dessus ? (deux interprétations)", titre_ar: "وَهَلْ الْيُسْرَى كَذَلِكَ أَوْ الْيُسْرَى فَوْقَهَا؟ …" }, /* p. 324 */
+                { id: "tah-01-08-26", titre: "Essuyer le dessus et le dessous", titre_ar: "وَمَسَحَ أَعْلَاهُ وَأَسْفَلَهُ" }, /* p. 324–325 */
+                { id: "tah-01-08-27", titre: "Le dessus oublié : prière nulle ; le dessous : refaire dans le temps", titre_ar: "وَبَطَلَتْ إنْ تَرَكَ أَعْلَاهُ لَا أَسْفَلَهُ فَفِي الْوَقْتِ" } /* p. 325 ; début absent du « ص » (n° 490, v1.54) */
               ]
             },
             /* tah-01-09 — t. 1, p. 325–360 (Shamela 569, pages 324–359) — 53 segments du matn */
