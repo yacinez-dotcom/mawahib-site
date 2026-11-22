@@ -1,4 +1,4 @@
-/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 33 — v19.1
+/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 33 — v19.2
    Source : Mawāhib al-Jalīl, al-Ḥaṭṭāb, éd. Dār al-Fikr, 3e éd., 1412 H / 1992, tome 1 (shamela.ws/book/569).
    Croisement : al-Sharḥ al-kabīr d'al-Dardīr et Ḥāshiyat al-Dasūqī (shamela.ws/book/21604), tome 1.
    Cette partie : faṣl tah-01-09 (le tayammoum), à partir de tah-01-09-34a (unité 68) — t. 1, p. 353 et suivantes.
@@ -9,6 +9,8 @@
    v19.1 : unité 69 — tah-01-09-41 à -46, dont 43b et 44a–44b (Mawāhib, t. 1, p. 356–358 ; al-Dardīr / al-Dasūqī,
           t. 1, p. 157–159) (2026-11-22) ; 43b d'après al-Dardīr (segment absent du « ص ») ; segment 44 découpé en deux
           sous-fiches ; anomalies n° 592 à 606.
+   v19.2 : trois citations de l'unité 69 redécoupées après le contrôle par empreintes (173 sur 173) (2026-11-22) ;
+          partie désormais figée : la suite est dans tah-01-p34.js.
    Bāb découpé en parties de moins de 200 Ko ;
    historique des versions : tah-01-p1.js (jusqu'à v2.5) puis l'en-tête de chaque partie. */
 App.data.ajouterFiches([
@@ -602,7 +604,7 @@ App.data.ajouterFiches([
     ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "356" },
     alertes: [
       "Précisé (campagne de correction) : matn « تَأْخِيرُ الْمَغْرِبِ » (« ص », Ibn Ghāzī, 14605, p. 48) ; le Mukhtaṣar seul (11355, p. 23), al-Kharashī (91, p. 193) et al-Dardīr ont « تَأْخِيرُهُ الْمَغْرِبَ » (« أَيْ الرَّاجِي ») ; « ص » gardé, même sens (n° 592).",
-      "Précisé (campagne de correction) : citation d'at-Tawḍīḥ abrégée ; at-Tawḍīḥ (14442, p. 193) ajoute « وهو الظاهرُ » et donne la lettre de la Mudawwana : « التَّاخِيرُ بَعْدَ الْغُرُوبِ إِنْ طَمِعَ فِي إِدْرَاكِ الْمَاءِ قَبْلَ مَغِيبِ الشَّفَقِ » ; Ibn ʿArafa (16968, p. 103) : « تأخير المغرب لطامع إدراك الماء قبل مغيب الشفق » (n° 593).",
+      "Précisé (campagne de correction) : citation d'at-Tawḍīḥ abrégée ; at-Tawḍīḥ (14442, p. 193) ajoute « وهو الظاهرُ » et donne la lettre de la Mudawwana : « التَّاخِيرُ بَعْدَ الْغُرُوبِ إِنْ طَمِعَ فِي إِدْرَاكِ الْمَاءِ » avant la disparition du crépuscule (sur Shamela, « الشَّفَقِ » est collé au mot suivant) ; Ibn ʿArafa (16968, p. 103) : « تأخير المغرب لطامع إدراك الماء قبل مغيب الشفق » (n° 593).",
       "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 157 (Shamela 21604, page 156)."
     ],
     verification: "verifie"
@@ -691,7 +693,7 @@ App.data.ajouterFiches([
       nature: "adab",
       effet_si_omis: "Le passage ne le précise pas."
     },
-    explication: "Khalīl passe des sunna aux actes recommandés. Al-Dardīr : « ثُمَّ شَرَعَ فِي فَضَائِلِهِ » ; il complète le matn : « (وَنُدِبَ تَسْمِيَةٌ) وَسِوَاكٌ وَصَمْتٌ إلَّا عَنْ ذِكْرِ اللَّهِ وَاسْتِقْبَالُ قِبْلَةٍ ». Al-Ḥaṭṭāb renvoie, pour ces ajouts, à al-Madkhal (texte altéré dans l'édition, voir les alertes). Al-Dasūqī : le lieu pur n'est pas demandé ici, « وَلَا يُسْتَحَبُّ أَنْ يَكُونَ فِي مَوْضِعٍ طَاهِرٍ كَالْوُضُوءِ لِفَقْدِ الْعِلَّةِ الْمُتَقَدِّمَةِ فِي الْوُضُوءِ وَهِيَ التَّطَايُرُ ».",
+    explication: "Khalīl passe des sunna aux actes recommandés. Al-Dardīr : « شَرَعَ فِي فَضَائِلِهِ » ; il complète le matn : « (وَنُدِبَ تَسْمِيَةٌ) وَسِوَاكٌ وَصَمْتٌ إلَّا عَنْ ذِكْرِ اللَّهِ وَاسْتِقْبَالُ قِبْلَةٍ ». Al-Ḥaṭṭāb renvoie, pour ces ajouts, à al-Madkhal (texte altéré dans l'édition, voir les alertes). Al-Dasūqī : le lieu pur n'est pas demandé ici, « وَلَا يُسْتَحَبُّ أَنْ يَكُونَ فِي مَوْضِعٍ طَاهِرٍ كَالْوُضُوءِ لِفَقْدِ الْعِلَّةِ الْمُتَقَدِّمَةِ فِي الْوُضُوءِ وَهِيَ التَّطَايُرُ ».",
     aqwal: [
       { auteur: "Khalīl", avis: "La basmala est recommandée dans le tayammoum.", statut: "non_precise" },
       { auteur: "Al-Madkhal (d'après al-Ḥaṭṭāb et al-Kharashī)", avis: "On y ajoute le siwâk, le silence et la mention de Dieu, et (al-Kharashī) l'orientation vers la qibla.", statut: "non_precise" }
@@ -737,7 +739,7 @@ App.data.ajouterFiches([
     ],
     ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "356" },
     alertes: [
-      "Corrigé (campagne de correction) : le commentaire d'al-Ḥaṭṭāb, « وَرَدَ فِي الْمَدْخَلِ فِي فَضَائِلِ السِّوَاكِ وَالصَّمْتِ وَذِكْرِ اللَّهَ », est altéré ; al-Kharashī (91, p. 194), qui le reprend, porte « زَادَ فِي الْمَدْخَلِ فِي قَضَائِهِ السِّوَاكَ وَالصَّمْتَ وَذِكْرَ اللَّهِ تَعَالَى وَالِاسْتِقْبَالَ لِلْقِبْلَةِ » ; lire « زَادَ … فِي فَضَائِلِهِ », d'après al-Dardīr (« ثُمَّ شَرَعَ فِي فَضَائِلِهِ ») ; non cité dans la règle (n° 597).",
+      "Corrigé (campagne de correction) : le commentaire d'al-Ḥaṭṭāb, « وَرَدَ فِي الْمَدْخَلِ فِي فَضَائِلِ السِّوَاكِ وَالصَّمْتِ وَذِكْرِ اللَّهَ », est altéré ; al-Kharashī (91, p. 194), qui le reprend, porte « زَادَ فِي الْمَدْخَلِ فِي قَضَائِهِ السِّوَاكَ وَالصَّمْتَ وَذِكْرَ اللَّهِ تَعَالَى وَالِاسْتِقْبَالَ لِلْقِبْلَةِ » ; lire « زَادَ … فِي فَضَائِلِهِ », d'après al-Dardīr (« شَرَعَ فِي فَضَائِلِهِ ») ; non cité dans la règle (n° 597).",
       "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 158 (Shamela 21604, page 157)."
     ],
     verification: "verifie"
@@ -831,7 +833,7 @@ App.data.ajouterFiches([
       "Troisième tanbīh (al-Lakhmī) : on compte le temps d'ablutions faites à la manière du Prophète, « لَيْسَ عَلَى مَا يَكُونُ مِنْ التَّرَاخِي وَبَعْضِ الْوَسْوَاسِ »."
     ],
     divergences: [
-      "Divergence — quel temps compte. Al-Ḥaṭṭāb : « لَا شَكَّ أَنَّ الْمُرَادَ بِالْوَقْتِ الْوَقْتُ الْمُخْتَارُ ». Al-Dasūqī, sur « إنْ اتَّسَعَ الْوَقْتُ » d'al-Dardīr : « أَيْ الَّذِي هُوَ فِيهِ ضَرُورِيًّا أَوْ اخْتِيَارِيًّا هَذَا هُوَ الْمُتَعَيِّنُ », « وَأَمَّا قَوْلُ عبق لَا يُبْطِلُ تَيَمُّمَهُ فِي الضَّرُورِيِّ فَلَا قَائِلَ بِهِ سِوَاهُ » (« عبق » : az-Zurqānī). Al-Bunānī (14297, p. 222), dont al-Dasūqī tire cela (« اُنْظُرْ بْن »), note qu'al-Ḥaṭṭāb « علل كون المراد هنا المختار بما نصه لأنه قد تقدم أنه إذا خاف خروجه تيمم », alors qu'il avait dit ailleurs « أن المراد الوقت الذي هو فيه ». Muʿtamad : le temps dans lequel on se trouve, choisi ou de nécessité (al-Dasūqī).",
+      "Divergence — quel temps compte. Al-Ḥaṭṭāb : « لَا شَكَّ أَنَّ الْمُرَادَ بِالْوَقْتِ الْوَقْتُ الْمُخْتَارُ ». Al-Dasūqī, sur « إنْ اتَّسَعَ الْوَقْتُ » d'al-Dardīr : « أَيْ الَّذِي هُوَ فِيهِ » … « ضَرُورِيًّا أَوْ اخْتِيَارِيًّا هَذَا هُوَ الْمُتَعَيِّنُ » (phrase coupée par le sharḥ de la page suivante), « وَأَمَّا قَوْلُ عبق لَا يُبْطِلُ تَيَمُّمَهُ فِي الضَّرُورِيِّ فَلَا قَائِلَ بِهِ سِوَاهُ » (« عبق » : az-Zurqānī). Al-Bunānī (14297, p. 222), dont al-Dasūqī tire cela (« اُنْظُرْ بْن »), note qu'al-Ḥaṭṭāb « علل كون المراد هنا المختار بما نصه لأنه قد تقدم أنه إذا خاف خروجه تيمم », alors qu'il avait dit ailleurs « أن المراد الوقت الذي هو فيه ». Muʿtamad : le temps dans lequel on se trouve, choisi ou de nécessité (al-Dasūqī).",
       "Complément — les annulatifs. Al-Dasūqī : « وَيَعُودُ جُنُبًا عَلَى الْمَشْهُورِ مِنْ أَنَّهُ لَا يَرْفَعُ الْحَدَثَ » ; et le doute : al-Dardīr, « وَيُجْزِئُ فِيهِ وَلَوْ شَكَّ فِي صَلَاتِهِ ثُمَّ بَانَ الطُّهْرُ لَمْ يُعِدْ ».",
       "Complément — l'eau et l'obstacle. Al-Dasūqī : « فَإِنْ أَبْصَرَ الْمَاءَ أَوَّلًا ثُمَّ أَبْصَرَ الْمَانِعَ بَعْدَ ذَلِكَ بَطَلَ تَيَمُّمُهُ » ; s'il voit l'obstacle d'abord, ou les deux ensemble, le tayammoum reste valide."
     ],
@@ -858,7 +860,7 @@ App.data.ajouterFiches([
       { q: "Selon al-Dasūqī, quel temps compte pour juger s'il reste assez de temps ?",
         choix: ["Le temps où l'on se trouve, choisi ou de nécessité", "Toujours le temps choisi", "La journée entière", "Le temps de la prière suivante"],
         bonne: 0,
-        explication: "« أَيْ الَّذِي هُوَ فِيهِ ضَرُورِيًّا أَوْ اخْتِيَارِيًّا هَذَا هُوَ الْمُتَعَيِّنُ »." },
+        explication: "« أَيْ الَّذِي هُوَ فِيهِ » … « ضَرُورِيًّا أَوْ اخْتِيَارِيًّا هَذَا هُوَ الْمُتَعَيِّنُ » (phrase coupée par le sharḥ de la page suivante)." },
       { q: "Mise en situation : un voyageur a fait le tayammoum ; il voit d'abord de l'eau, puis remarque une bête sauvage qui la garde. Selon al-Dasūqī :",
         choix: ["Son tayammoum reste valide", "Il prie deux fois", "Son tayammoum est annulé", "Il attend la fin du temps"],
         bonne: 2,

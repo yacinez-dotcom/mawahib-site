@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.73
+/* Données — Glossaire, partie 2 — v1.74
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -48,7 +48,9 @@
    v1.70 : 12 termes de l'unité 66 (tah-01-09-24a à -27).
    v1.71 : 18 termes de l'unité 67 (tah-01-09-28a à -33).
    v1.72 : 16 termes de l'unité 68 (tah-01-09-34a à -40).
-   v1.73 : 11 termes de l'unité 69 (tah-01-09-41 à -46). */
+   v1.73 : 11 termes de l'unité 69 (tah-01-09-41 à -46).
+   v1.74 : 9 termes de l'unité 70 (tah-01-09-47 à -50c).
+*/
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -575,6 +577,16 @@ App.data.ajouterTermes([
   { ar: "نَاسِي", translit: "nâsî", def: "Celui qui oublie : ici, celui qui avait de l'eau dans ses bagages et l'a oubliée." },
   { ar: "رَكْب", translit: "rakb", def: "Caravane, groupe de voyageurs montés." },
   { ar: "تَخْمِين", translit: "takhmîn", def: "Conjecture, estimation sans certitude." },
-  { ar: "مُقَصِّر", translit: "mouqassir", def: "Le négligent : celui qui n'a pas cherché l'eau comme il le devait." }
+  { ar: "مُقَصِّر", translit: "mouqassir", def: "Le négligent : celui qui n'a pas cherché l'eau comme il le devait." },
+  /* Unité 70 — tah-01-09-47 à -50c */
+  { ar: "تَبَصُّر", translit: "tabassour", def: "Regarder avec attention, examiner avec soin." },
+  { ar: "تَفْرِيط", translit: "tafrît", def: "Manquement, négligence dans ce qu'on devait faire." },
+  { ar: "سَبُع", translit: "saboûʿ", def: "Bête féroce (lion, loup…)." },
+  { ar: "تَغْرِيرٌ بِالنَّفْسِ", translit: "taghrîroun bi-n-nafs", def: "S'exposer soi-même à un danger." },
+  { ar: "تَثَبُّت", translit: "tathabbout", def: "Vérifier avant d'agir, s'assurer de ce qu'on croit." },
+  { ar: "صَاحِبُ التَّوَسُّطِ", translit: "sâhibou t-tawassout", def: "Celui dont le tayammoum se fait au milieu du temps choisi (celui qui hésite, et ceux qui lui sont assimilés)." },
+  { ar: "مُصَابُ بَوْلٍ", translit: "mousâbou bawl", def: "Endroit touché par de l'urine (ou par une autre impureté)." },
+  { ar: "مَشْكُوك", translit: "machkoûk", def: "Ce dont on doute : ici, une impureté dont on ne sait pas si elle a touché le sol." },
+  { ar: "مُحَقَّق", translit: "mouhaqqaq", def: "Ce qui est certain : ici, une impureté dont on sait qu'elle a touché le sol." }
 /* FIN-GLOSSAIRE */
 ]);

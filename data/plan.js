@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.59 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.63 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -109,7 +109,9 @@
    v1.59 : tah-01-09-24 découpé en -24a à -24c ; titres de 25 à 27 précisés (unité 66).
    v1.60 : tah-01-09-28 découpé en -28a et -28b ; titres de 30 à 33 précisés (unité 67).
    v1.61 : tah-01-09-34 découpé en -34a et -34b ; titre_ar de 34, 37 et 38 corrigés (n° 577, 586, 588) ; titres de 35 à 40 précisés (unité 68).
-   v1.62 : tah-01-09-43b ajouté (segment absent du « ص », n° 598) ; -44 découpé en -44a et -44b ; titres de 41 à 46 précisés (unité 69). */
+   v1.62 : tah-01-09-43b ajouté (segment absent du « ص », n° 598) ; -44 découpé en -44a et -44b ; titres de 41 à 46 précisés (unité 69).
+   v1.63 : tah-01-09-48b, -48c, -50b et -50c ajoutés (segments absents du « ص », n° 609, 611, 616, 617) ; titres de 47 à 50 précisés ;
+          compte des segments du faṣl tah-01-09 corrigé ; version de l'en-tête remise à jour (unité 70). */
 App.data.definirPlan({
   kutub: [
     {
@@ -666,7 +668,7 @@ App.data.definirPlan({
                 { id: "tah-01-08-27", titre: "Le dessus oublié : prière nulle ; le dessous : refaire dans le temps", titre_ar: "وَبَطَلَتْ إنْ تَرَكَ أَعْلَاهُ لَا أَسْفَلَهُ فَفِي الْوَقْتِ" } /* p. 325 ; début absent du « ص » (n° 490, v1.54) */
               ]
             },
-            /* tah-01-09 — t. 1, p. 325–360 (Shamela 569, pages 324–359) — 53 segments du matn */
+            /* tah-01-09 — t. 1, p. 325–360 (Shamela 569, pages 324–359) — 59 segments du matn : 53 numérotés et six absents du « ص » (22b, 43b, 48b, 48c, 50b, 50c) (v1.63) */
             {
               id: "tah-01-09",
               titre: "Le tayammoum",
@@ -732,10 +734,14 @@ App.data.definirPlan({
                 { id: "tah-01-09-44b", titre: "L'eau trouvée pendant la prière ; celui qui l'avait oubliée", titre_ar: "لَا فِيهَا إلَّا نَاسِيَهُ" }, /* p. 357 ; sous-fiche de 44 (v1.62) */
                 { id: "tah-01-09-45", titre: "Le négligent refait la prière dans le temps", titre_ar: "وَيُعِيدُ الْمُقَصِّرُ فِي الْوَقْتِ" }, /* p. 357 */
                 { id: "tah-01-09-46", titre: "La prière reste valide si on ne la refait pas", titre_ar: "وَصَحَّتْ إنْ لَمْ يُعِدْ" }, /* p. 358 */
-                { id: "tah-01-09-47", titre: "Comme qui trouve l'eau près de lui", titre_ar: "كَوَاجِدٍ بِقُرْبِهِ" }, /* p. 358 */
-                { id: "tah-01-09-48", titre: "… ou dans ses bagages", titre_ar: "أَوْ رَحْلِهِ" }, /* p. 358 */
-                { id: "tah-01-09-49", titre: "Qui hésitait à atteindre l'eau", titre_ar: "وَمُتَرَدِّدٍ فِي لُحُوقِهِ" }, /* p. 358 */
-                { id: "tah-01-09-50", titre: "Oubli rappelé après la prière", titre_ar: "وَنَاسٍ ذَكَرَ بَعْدَهَا" }, /* p. 358 */
+                { id: "tah-01-09-47", titre: "L'eau trouvée tout près après la prière", titre_ar: "كَوَاجِدٍ بِقُرْبِهِ" }, /* p. 358 ; « كَوَاجِدِهِ » chez les témoins (n° 607, v1.63) */
+                { id: "tah-01-09-48", titre: "L'eau retrouvée dans ses bagages", titre_ar: "أَوْ رَحْلِهِ" }, /* p. 358–359 (v1.63) */
+                { id: "tah-01-09-48b", titre: "Les bagages perdus : pas de reprise", titre_ar: "لَا إنْ ذَهَبَ رَحْلُهُ" }, /* absent du « ص » de Mawāhib ; al-Dardīr, t. 1, p. 159–160 (n° 609, v1.63) */
+                { id: "tah-01-09-48c", titre: "Le craintif, le malade sans aide, celui qui espérait et a avancé", titre_ar: "وَخَائِفِ لِصٍّ أَوْ سَبُعٍ، وَمَرِيضٍ عَدِمَ مُنَاوِلًا، وَرَاجٍ قَدَّمَ" }, /* absent du « ص » ; al-Dardīr, t. 1, p. 160 (n° 611, v1.63) */
+                { id: "tah-01-09-49", titre: "Celui qui doutait de pouvoir atteindre l'eau", titre_ar: "وَمُتَرَدِّدٍ فِي لُحُوقِهِ" }, /* p. 358 (v1.63) */
+                { id: "tah-01-09-50", titre: "L'eau oubliée, rappelée après la prière", titre_ar: "وَنَاسٍ ذَكَرَ بَعْدَهَا" }, /* p. 358–359 (v1.63) */
+                { id: "tah-01-09-50b", titre: "Essuyer jusqu'aux poignets, ou une seule frappe", titre_ar: "كَمُقْتَصِرٍ عَلَى كُوعَيْهِ، لَا عَلَى ضَرْبَةٍ" }, /* absent du « ص » ; al-Dardīr, t. 1, p. 160–161 (n° 616, v1.63) */
+                { id: "tah-01-09-50c", titre: "Le tayammoum sur une terre souillée", titre_ar: "وَكَمُتَيَمِّمٍ عَلَى مُصَابِ بَوْلٍ …" }, /* absent du « ص » ; al-Dardīr, t. 1, p. 160–161 (n° 617, v1.63) */
                 { id: "tah-01-09-51", titre: "Sans eau : baiser et rapport interdits, sauf longue durée", titre_ar: "وَمُنِعَ مَعَ عَدَمِ مَاءٍ تَقْبِيلُ مُتَوَضِّئٍ …" }, /* p. 359 */
                 { id: "tah-01-09-52", titre: "Le mort qui a de l'eau passe avant le junub", titre_ar: "وَقُدِّمَ ذُو مَاءٍ مَاتَ وَمَعَهُ جُنُبٌ" }, /* p. 359 */
                 { id: "tah-01-09-53", titre: "Sans eau ni sol : la prière et son rattrapage tombent", titre_ar: "وَتَسْقُطُ صَلَاةٌ وَقَضَاؤُهَا بِعَدَمِ مَاءِ وَصَعِيدٍ" } /* p. 360 */
