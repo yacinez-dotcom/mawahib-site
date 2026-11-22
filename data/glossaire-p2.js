@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.70
+/* Données — Glossaire, partie 2 — v1.71
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -45,7 +45,8 @@
    v1.67 : 9 termes de l'unité 63 (tah-01-09-09 à -16).
    v1.68 : 12 termes de l'unité 64 (tah-01-09-17a à -20).
    v1.69 : 13 termes de l'unité 65 (tah-01-09-21 à -23d).
-   v1.70 : 12 termes de l'unité 66 (tah-01-09-24a à -27). */
+   v1.70 : 12 termes de l'unité 66 (tah-01-09-24a à -27).
+   v1.71 : 18 termes de l'unité 67 (tah-01-09-28a à -33). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -524,6 +525,25 @@ App.data.ajouterTermes([
   { ar: "إِمَامَة", translit: "imâma", def: "Le fait de diriger la prière en commun." },
   { ar: "تَعْمِيم", translit: "taʿmîm", def: "Généralisation : faire passer la main sur toute la surface du membre, sans en laisser." },
   { ar: "رُسْغ", translit: "rousgh", def: "Poignet : l'articulation entre la main et l'avant-bras." },
-  { ar: "خَاتَم", translit: "khâtam", def: "Bague." }
+  { ar: "خَاتَم", translit: "khâtam", def: "Bague." },
+  /* Unité 67 — tah-01-09-28a à -33 */
+  { ar: "تُرَاب", translit: "tourâb", def: "Terre meuble, poussière du sol." },
+  { ar: "صُلْبُ الْأَرْضِ", translit: "soulbou l-ard", def: "Le sol dur : roche, pierre, sol sans terre meuble." },
+  { ar: "حَصْبَاء", translit: "hasbâ'", def: "Gravier, petits cailloux." },
+  { ar: "رَمْل", translit: "raml", def: "Sable." },
+  { ar: "زِرْنِيخ", translit: "zirnîkh", def: "Arsenic (minerai), cité parmi les parties du sol." },
+  { ar: "التُّرَابُ الْمَنْقُولُ", translit: "at-tourâbou l-manqoûl", def: "Terre « transportée » : terre séparée du sol, mise dans un récipient ou posée sur un écran." },
+  { ar: "مَقْبَرَة", translit: "maqbara", def: "Cimetière." },
+  { ar: "ثَلْج", translit: "thalj", def: "Neige." },
+  { ar: "جَلِيد", translit: "jalîd", def: "Glace, gelée : eau gelée au sol." },
+  { ar: "خَضْخَاض", translit: "khadkhâd", def: "Boue liquide, terre détrempée (al-Dardīr : « الطِّينُ الرَّقِيقُ »)." },
+  { ar: "تَجْفِيف", translit: "tajfîf", def: "Faire sécher : laisser les mains sécher un peu à l'air après les avoir posées sur la boue (lecture avec jīm)." },
+  { ar: "تَخْفِيف", translit: "takhfîf", def: "Allègement : poser les mains avec légèreté sur la boue (lecture avec khāʾ)." },
+  { ar: "جِصّ", translit: "jiss", def: "Gypse : la pierre dont on fait le plâtre, et le plâtre lui-même." },
+  { ar: "جِير", translit: "jîr", def: "Chaux : pierre calcaire grillée." },
+  { ar: "آجُرّ", translit: "âjourr", def: "Brique cuite." },
+  { ar: "مَعْدِن", translit: "maʿdin", def: "Gisement, mine ; par extension, le minéral resté dans son gisement." },
+  { ar: "يَاقُوت", translit: "yâqoût", def: "Rubis, pierre précieuse." },
+  { ar: "رُخَام", translit: "roukhâm", def: "Marbre." }
 /* FIN-GLOSSAIRE */
 ]);

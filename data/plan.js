@@ -106,7 +106,8 @@
    v1.57 : tah-01-09-17 découpé en -17a à -17e ; titre_ar de -18 complété (« لَا فَرْضٌ آخَرُ … », n° 521) ; titres de 18 à 20 précisés (unité 64).
    v1.58 : matn de -21 complété (« لَا ثَمَنٍ », n° 535) ; -22b ajouté (segment absent du « ص », n° 537) ; tah-01-09-23 découpé en -23a à -23d,
           « تَوَهَّمَهُ » corrigé (n° 539) (unité 65).
-   v1.59 : tah-01-09-24 découpé en -24a à -24c ; titres de 25 à 27 précisés (unité 66). */
+   v1.59 : tah-01-09-24 découpé en -24a à -24c ; titres de 25 à 27 précisés (unité 66).
+   v1.60 : tah-01-09-28 découpé en -28a et -28b ; titres de 30 à 33 précisés (unité 67). */
 App.data.definirPlan({
   kutub: [
     {
@@ -706,12 +707,13 @@ App.data.definirPlan({
                 { id: "tah-01-09-25", titre: "Le tayammoum ne lève pas le ḥadath", titre_ar: "وَلَا يَرْفَعُ الْحَدَثَ" }, /* p. 348 (v1.59) */
                 { id: "tah-01-09-26", titre: "Couvrir tout le visage et les mains jusqu'aux poignets", titre_ar: "وَتَعْمِيمُ وَجْهِهِ وَكَفَّيْهِ لِكُوعَيْهِ" }, /* p. 348–350 (v1.59) */
                 { id: "tah-01-09-27", titre: "Retirer sa bague ; passer les doigts entre les doigts", titre_ar: "وَنَزَعَ خَاتَمَهُ" }, /* p. 349–350 (v1.59) */
-                { id: "tah-01-09-28", titre: "Sol pur, la terre de préférence", titre_ar: "وَصَعِيدٌ طَهُرَ كَتُرَابٍ وَهُوَ الْأَفْضَلُ، وَلَوْ …" }, /* p. 350 */
+                { id: "tah-01-09-28a", titre: "Un sol pur : la terre et tout ce qui forme la surface du sol", titre_ar: "وَصَعِيدٌ طَهُرَ كَتُرَابٍ" }, /* p. 350–351 (v1.60) */
+                { id: "tah-01-09-28b", titre: "La terre est préférable ; la terre transportée", titre_ar: "وَهُوَ الْأَفْضَلُ، وَلَوْ نُقِلَ" }, /* p. 351 ; sous-fiche de 28 (v1.60) */
                 { id: "tah-01-09-29", titre: "La neige", titre_ar: "وَثَلْجٍ" }, /* p. 351 */
-                { id: "tah-01-09-30", titre: "La boue", titre_ar: "وَخَضْخَاضٍ" }, /* p. 352 */
-                { id: "tah-01-09-31", titre: "Mudawwana : sécher les mains (deux lectures)", titre_ar: "وَفِيهَا جَفَّفَ يَدَيْهِ رُوِيَ بِجِيمٍ وَخَاءٍ" }, /* p. 352 */
-                { id: "tah-01-09-32", titre: "Le plâtre non cuit", titre_ar: "وَجِصٍّ لَمْ يُطْبَخْ" }, /* p. 352 */
-                { id: "tah-01-09-33", titre: "Le minéral (sauf or, argent et pierres précieuses)", titre_ar: "وَبِمَعْدِنٍ غَيْرِ نَقْدٍ وَجَوْهَرٍ" }, /* p. 352 */
+                { id: "tah-01-09-30", titre: "La boue liquide", titre_ar: "وَخَضْخَاضٍ" }, /* p. 352 (v1.60) */
+                { id: "tah-01-09-31", titre: "Sur la boue : poser les mains légèrement, les laisser sécher", titre_ar: "وَفِيهَا جَفَّفَ يَدَيْهِ رُوِيَ بِجِيمٍ وَخَاءٍ" }, /* p. 352 */
+                { id: "tah-01-09-32", titre: "Le gypse non cuit", titre_ar: "وَجِصٍّ لَمْ يُطْبَخْ" }, /* p. 352 */
+                { id: "tah-01-09-33", titre: "Les minéraux, sauf l'or, l'argent et les pierres précieuses", titre_ar: "وَبِمَعْدِنٍ غَيْرِ نَقْدٍ وَجَوْهَرٍ" }, /* p. 352–353 (v1.60) */
                 { id: "tah-01-09-34", titre: "Matière transportée (alun, sel)", titre_ar: "وَمَنْقُولٌ كَشَبٍّ وَمِلْحٍ" }, /* p. 353 */
                 { id: "tah-01-09-35", titre: "Malade : mur de briques crues ou pierre", titre_ar: "وَلِمَرِيضٍ حَائِطُ لَبِنٍ، أَوْ حَجَرٌ" }, /* p. 354 */
                 { id: "tah-01-09-36", titre: "Pas la natte ni le bois", titre_ar: "لَا بِحَصِيرٍ وَخَشَبٍ" }, /* p. 354 */
