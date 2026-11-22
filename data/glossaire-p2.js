@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.72
+/* Données — Glossaire, partie 2 — v1.73
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -47,7 +47,8 @@
    v1.69 : 13 termes de l'unité 65 (tah-01-09-21 à -23d).
    v1.70 : 12 termes de l'unité 66 (tah-01-09-24a à -27).
    v1.71 : 18 termes de l'unité 67 (tah-01-09-28a à -33).
-   v1.72 : 16 termes de l'unité 68 (tah-01-09-34a à -40). */
+   v1.72 : 16 termes de l'unité 68 (tah-01-09-34a à -40).
+   v1.73 : 11 termes de l'unité 69 (tah-01-09-41 à -46). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -562,6 +563,18 @@ App.data.ajouterTermes([
   { ar: "آيِس", translit: "âyis", def: "Celui qui désespère : il sait, ou pense fortement, qu'il n'aura pas d'eau avant la fin du temps." },
   { ar: "مُتَرَدِّد", translit: "moutaraddid", def: "Celui qui hésite : il doute de trouver l'eau ou de l'atteindre dans le temps." },
   { ar: "مَسْجُون", translit: "masjoûn", def: "Prisonnier." },
-  { ar: "رَاجِي", translit: "râjî", def: "Celui qui espère : il sait, ou pense fortement, qu'il aura de l'eau avant la fin du temps." }
+  { ar: "رَاجِي", translit: "râjî", def: "Celui qui espère : il sait, ou pense fortement, qu'il aura de l'eau avant la fin du temps." },
+  /* Unité 69 — tah-01-09-41 à -46 */
+  { ar: "مَغْرِب", translit: "maghrib", def: "Prière du coucher du soleil ; son temps choisi est très court." },
+  { ar: "شَفَق", translit: "chafaq", def: "Crépuscule : la lueur rouge qui reste à l'horizon après le coucher du soleil." },
+  { ar: "نَفْض", translit: "nafd", def: "Secouer légèrement les mains pour faire tomber la poussière avant d'essuyer, dans le tayammoum." },
+  { ar: "صَمْت", translit: "samt", def: "Silence : ne pas parler pendant l'acte, sauf pour mentionner Dieu." },
+  { ar: "طَيُّ الْمِرْفَقِ", translit: "tayyou l-mirfaq", def: "Le pli du coude, à l'intérieur du bras." },
+  { ar: "الْوَقْتُ الضَّرُورِيُّ", translit: "al-waqtou d-darouriyy", def: "Le temps de nécessité : la partie du temps d'une prière qui suit le temps choisi ; on n'y retarde la prière que pour une excuse." },
+  { ar: "قَطْعُ الصَّلَاةِ", translit: "qatʿou s-salât", def: "Interrompre une prière commencée, sans la terminer." },
+  { ar: "نَاسِي", translit: "nâsî", def: "Celui qui oublie : ici, celui qui avait de l'eau dans ses bagages et l'a oubliée." },
+  { ar: "رَكْب", translit: "rakb", def: "Caravane, groupe de voyageurs montés." },
+  { ar: "تَخْمِين", translit: "takhmîn", def: "Conjecture, estimation sans certitude." },
+  { ar: "مُقَصِّر", translit: "mouqassir", def: "Le négligent : celui qui n'a pas cherché l'eau comme il le devait." }
 /* FIN-GLOSSAIRE */
 ]);

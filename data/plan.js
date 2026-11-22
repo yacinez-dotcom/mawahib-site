@@ -108,7 +108,8 @@
           « تَوَهَّمَهُ » corrigé (n° 539) (unité 65).
    v1.59 : tah-01-09-24 découpé en -24a à -24c ; titres de 25 à 27 précisés (unité 66).
    v1.60 : tah-01-09-28 découpé en -28a et -28b ; titres de 30 à 33 précisés (unité 67).
-   v1.61 : tah-01-09-34 découpé en -34a et -34b ; titre_ar de 34, 37 et 38 corrigés (n° 577, 586, 588) ; titres de 35 à 40 précisés (unité 68). */
+   v1.61 : tah-01-09-34 découpé en -34a et -34b ; titre_ar de 34, 37 et 38 corrigés (n° 577, 586, 588) ; titres de 35 à 40 précisés (unité 68).
+   v1.62 : tah-01-09-43b ajouté (segment absent du « ص », n° 598) ; -44 découpé en -44a et -44b ; titres de 41 à 46 précisés (unité 69). */
 App.data.definirPlan({
   kutub: [
     {
@@ -723,12 +724,14 @@ App.data.definirPlan({
                 { id: "tah-01-09-38", titre: "Qui désespère de l'eau : au début du temps choisi", titre_ar: "فَالْآيِسُ أَوَّلَ الْمُخْتَارِ" }, /* p. 355 ; « أَوَّلَ » (n° 588, v1.61) */
                 { id: "tah-01-09-39", titre: "Qui hésite : au milieu du temps", titre_ar: "وَالْمُتَرَدِّدُ فِي لُحُوقِهِ، أَوْ وُجُودِهِ وَسَطَهُ" }, /* p. 355 */
                 { id: "tah-01-09-40", titre: "Qui espère l'eau : à la fin du temps", titre_ar: "وَالرَّاجِي آخِرَهُ" }, /* p. 356 */
-                { id: "tah-01-09-41", titre: "Mudawwana : retarder le maghrib jusqu'au crépuscule", titre_ar: "وَفِيهَا تَأْخِيرُ الْمَغْرِبِ لِلشَّفَقِ" }, /* p. 356 */
-                { id: "tah-01-09-42", titre: "Sunna : ordre, jusqu'aux coudes, seconde frappe", titre_ar: "وَسُنَّ تَرْتِيبُهُ وَإِلَى الْمِرْفَقَيْنِ وَتَجْدِيدُ ضَرْبَةٍ …" }, /* p. 356 */
-                { id: "tah-01-09-43", titre: "Recommandé : la basmala", titre_ar: "وَنُدِبَ تَسْمِيَةٌ" }, /* p. 356 */
-                { id: "tah-01-09-44", titre: "Ce qui l'annule ; eau trouvée avant la prière", titre_ar: "وَبَطَلَ بِمُبْطِلِ الْوُضُوءِ وَبِوُجُودِ الْمَاءِ قَبْلَ …" }, /* p. 356 */
-                { id: "tah-01-09-45", titre: "Le négligent refait dans le temps", titre_ar: "وَيُعِيدُ الْمُقَصِّرُ فِي الْوَقْتِ" }, /* p. 357 */
-                { id: "tah-01-09-46", titre: "Prière valide même sans reprise", titre_ar: "وَصَحَّتْ إنْ لَمْ يُعِدْ" }, /* p. 358 */
+                { id: "tah-01-09-41", titre: "Le maghrib : retarder jusqu'au crépuscule ?", titre_ar: "وَفِيهَا تَأْخِيرُ الْمَغْرِبِ لِلشَّفَقِ" }, /* p. 356 (v1.62) */
+                { id: "tah-01-09-42", titre: "Les sunna du tayammoum", titre_ar: "وَسُنَّ تَرْتِيبُهُ وَإِلَى الْمِرْفَقَيْنِ وَتَجْدِيدُ ضَرْبَةٍ لِيَدَيْهِ" }, /* p. 356 (v1.62) */
+                { id: "tah-01-09-43", titre: "Recommandé : la basmala, et les autres convenances", titre_ar: "وَنُدِبَ تَسْمِيَةٌ" }, /* p. 356 (v1.62) */
+                { id: "tah-01-09-43b", titre: "Comment essuyer les mains", titre_ar: "وَبَدْءٌ بِظَاهِرِ يُمْنَاهُ بِيُسْرَاهُ إلَى الْمِرْفَقِ …" }, /* absent du « ص » de Mawāhib ; al-Dardīr, t. 1, p. 158 (n° 598, v1.62) */
+                { id: "tah-01-09-44a", titre: "Ce qui annule le tayammoum ; l'eau trouvée avant la prière", titre_ar: "وَبَطَلَ بِمُبْطِلِ الْوُضُوءِ وَبِوُجُودِ الْمَاءِ قَبْلَ الصَّلَاةِ" }, /* p. 356–357 (v1.62) */
+                { id: "tah-01-09-44b", titre: "L'eau trouvée pendant la prière ; celui qui l'avait oubliée", titre_ar: "لَا فِيهَا إلَّا نَاسِيَهُ" }, /* p. 357 ; sous-fiche de 44 (v1.62) */
+                { id: "tah-01-09-45", titre: "Le négligent refait la prière dans le temps", titre_ar: "وَيُعِيدُ الْمُقَصِّرُ فِي الْوَقْتِ" }, /* p. 357 */
+                { id: "tah-01-09-46", titre: "La prière reste valide si on ne la refait pas", titre_ar: "وَصَحَّتْ إنْ لَمْ يُعِدْ" }, /* p. 358 */
                 { id: "tah-01-09-47", titre: "Comme qui trouve l'eau près de lui", titre_ar: "كَوَاجِدٍ بِقُرْبِهِ" }, /* p. 358 */
                 { id: "tah-01-09-48", titre: "… ou dans ses bagages", titre_ar: "أَوْ رَحْلِهِ" }, /* p. 358 */
                 { id: "tah-01-09-49", titre: "Qui hésitait à atteindre l'eau", titre_ar: "وَمُتَرَدِّدٍ فِي لُحُوقِهِ" }, /* p. 358 */

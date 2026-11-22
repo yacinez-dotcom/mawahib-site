@@ -1,4 +1,4 @@
-/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 33 — v19.0
+/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 33 — v19.1
    Source : Mawāhib al-Jalīl, al-Ḥaṭṭāb, éd. Dār al-Fikr, 3e éd., 1412 H / 1992, tome 1 (shamela.ws/book/569).
    Croisement : al-Sharḥ al-kabīr d'al-Dardīr et Ḥāshiyat al-Dasūqī (shamela.ws/book/21604), tome 1.
    Cette partie : faṣl tah-01-09 (le tayammoum), à partir de tah-01-09-34a (unité 68) — t. 1, p. 353 et suivantes.
@@ -6,6 +6,9 @@
           p. 156–157) (2026-11-22) ; nouvelle partie, tah-01-p32.js (≈ 130 Ko) étant figée ; segment 34 découpé en deux
           sous-fiches ; matn « وَمَنْقُولٍ », « وَفِعْلُهُ », « أَوَّلَ الْمُخْتَارِ » ; négation tombée dans la conclusion
           d'al-Ḥaṭṭāb sur l'herbe et le bois (fiche 36) ; anomalies n° 577 à 591.
+   v19.1 : unité 69 — tah-01-09-41 à -46, dont 43b et 44a–44b (Mawāhib, t. 1, p. 356–358 ; al-Dardīr / al-Dasūqī,
+          t. 1, p. 157–159) (2026-11-22) ; 43b d'après al-Dardīr (segment absent du « ص ») ; segment 44 découpé en deux
+          sous-fiches ; anomalies n° 592 à 606.
    Bāb découpé en parties de moins de 200 Ko ;
    historique des versions : tah-01-p1.js (jusqu'à v2.5) puis l'en-tête de chaque partie. */
 App.data.ajouterFiches([
@@ -533,6 +536,540 @@ App.data.ajouterFiches([
       "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 157 (Shamela 21604, page 156)."
     ],
     verification: "verifie"
+  },
+  /* ================================================================== */
+  /* Unité 69 — tah-01-09-41 à -46 */
+  /* Mawāhib, t. 1, p. 356–358 (Shamela 569/355–357) ; al-Dardīr / al-Dasūqī, t. 1, p. 157–159 (Shamela 21604/156–158) */
+  {
+    id: "tah-01-09-41",
+    kitab: "tah", bab: "01", fasl: "09", ordre: 41,
+    titre: "Le maghrib : retarder jusqu'au crépuscule ?",
+    titre_ar: "وَفِيهَا تَأْخِيرُ الْمَغْرِبِ لِلشَّفَقِ",
+    objectif: "Savoir ce que dit la Mudawwana du maghrib de celui qui espère l'eau, et pourquoi al-Dardīr ne retient pas ce retard.",
+    matn: "وَفِيهَا تَأْخِيرُ الْمَغْرِبِ لِلشَّفَقِ",
+    regle_pratique: "Selon la Mudawwana, celui qui espère trouver l'eau retarde le maghrib jusqu'à la disparition du crépuscule ; al-Dardīr juge ce cas faible et retient qu'on ne retarde pas le maghrib.",
+    qualification: {
+      hukm: "mandub",
+      nature: "adab",
+      effet_si_omis: "Le passage ne le précise pas."
+    },
+    explication: "Le segment précédent fait retarder celui qui espère l'eau « jusqu'à la fin du temps choisi ». Or le temps choisi du maghrib est très court ; al-Dardīr : « وَوَقْتُ الْمَغْرِبِ مُقَدَّرٌ بِفِعْلِهَا بَعْدَ تَحْصِيلِ شُرُوطِهَا ». La Mudawwana, citée par Khalīl, fait pourtant attendre jusqu'au crépuscule ; al-Dardīr : « وَهُوَ كَالْمُعَارِضِ لِمَا قَبْلَهُ ». Khalīl, dans at-Tawḍīḥ, cité par al-Ḥaṭṭāb : « الْمَسْأَلَةُ مَبْنِيَّةٌ عَلَى أَنَّ وَقْتَ الِاخْتِيَارِ مُمْتَدٌّ إلَى مَغِيبِ الشَّفَقِ ». Al-Ḥaṭṭāb propose une autre lecture : la Mudawwana « أَمَرَهُ بِالتَّأْخِيرِ مُرَاعَاةً لِلْخِلَافِ لِقُوَّةِ الْقَوْلِ بِالِامْتِدَادِ » ; elle n'est donc pas bâtie sur l'avis minoritaire : « بَلْ نَقُولُ إنَّهَا مُفَرَّعَةٌ عَلَى الْمَشْهُورِ », et le maghrib est une exception à la règle du segment précédent : « فَيُقَالُ: إلَّا فِي الْمَغْرِبِ ». Il ajoute : « وَهَذَا ظَاهِرُ الْمُدَوَّنَةِ لِمَنْ تَأَمَّلَهَا ».",
+    aqwal: [
+      { auteur: "La Mudawwana (« وَفِيهَا »), lue par al-Ḥaṭṭāb comme une exception par égard pour l'autre avis", avis: "Celui qui espère l'eau retarde le maghrib jusqu'à la disparition du crépuscule.", statut: "non_precise" },
+      { auteur: "Khalīl (at-Tawḍīḥ)", avis: "La question repose sur l'avis que le temps choisi du maghrib dure jusqu'à la disparition du crépuscule.", statut: "non_precise" },
+      { auteur: "Al-Dardīr", avis: "Ce cas est faible ; on ne retarde pas le maghrib (« وَالرَّاجِحُ عَدَمُ تَأْخِيرِهِ »).", statut: "rajih" }
+    ],
+    muatamad: "Al-Dardīr : « ثُمَّ إنَّ هَذَا الْفَرْعَ ضَعِيفٌ وَالرَّاجِحُ عَدَمُ تَأْخِيرِهِ » ; al-Dasūqī ne le contredit pas et rapporte la lecture d'al-Ḥaṭṭāb (« قَالَ ح وَيُمْكِنُ أَنْ يُقَالَ أَمَرَهُ بِالتَّأْخِيرِ مُرَاعَاةً لِلْخِلَافِ »). Voir les divergences.",
+    tarjih_hattab: "Le retard du maghrib est une exception voulue par la Mudawwana, par égard pour l'avis qui étend le temps choisi jusqu'au crépuscule : « فَلَا يَلْزَمُ أَنْ تَكُونَ مُفَرَّعَةً عَلَى مُقَابِلِ الْمَشْهُورِ ».",
+    tanbihat: [
+      "Al-Ḥaṭṭāb renvoie au chapitre des temps de prière : « سَيَأْتِي فِي بَابِ الْأَوْقَاتِ ».",
+      "D'après at-Tawḍīḥ et Ibn ʿArafa (seconds témoins), la Mudawwana vise celui qui espère atteindre l'eau avant la disparition du crépuscule (voir les alertes)."
+    ],
+    divergences: [
+      "Divergence — retarder le maghrib. Al-Ḥaṭṭāb : la règle de la Mudawwana vaut, comme exception (« وَهَذَا ظَاهِرُ الْمُدَوَّنَةِ لِمَنْ تَأَمَّلَهَا »). Al-Dardīr : « ثُمَّ إنَّ هَذَا الْفَرْعَ ضَعِيفٌ وَالرَّاجِحُ عَدَمُ تَأْخِيرِهِ » ; al-ʿAdawī (91, p. 193), d'après ash-Shabrakhītī (« شب ») : « وَقَوْلُهُ: وَفِيهَا ضَعِيفٌ ».",
+      "Concordance — l'apparente contradiction. Al-Ḥaṭṭāb (at-Tawḍīḥ) : la question repose sur le temps choisi étendu au crépuscule. Al-Dardīr : « وَقَوْلُنَا كَالْمُعَارِضِ لِجَوَازِ أَنْ يَكُونَ هَذَا الْفَرْعُ مَبْنِيًّا عَلَى أَنَّ وَقْتَهَا الِاخْتِيَارِيَّ مُمْتَدٌّ لِلشَّفَقِ فَلَا مُعَارَضَةَ »."
+    ],
+    exemple: "Un voyageur sans eau sait qu'il atteindra un puits peu après le coucher du soleil. Selon la Mudawwana lue par al-Ḥaṭṭāb, il peut attendre l'eau pour le maghrib tant que le crépuscule n'a pas disparu ; selon al-Dardīr, il fait le tayammoum et prie le maghrib à son heure.",
+    erreurs_frequentes: [
+      "Croire que la règle du segment précédent (attendre la fin du temps choisi) donne au maghrib un long délai.",
+      "Présenter le retard du maghrib comme l'avis retenu par al-Dardīr : il le juge faible.",
+      "Attribuer à al-Ḥaṭṭāb l'idée que la question repose sur l'avis minoritaire : c'est la lecture d'at-Tawḍīḥ, qu'il nuance."
+    ],
+    termes: [
+      { ar: "مَغْرِب", translit: "maghrib", def: "Prière du coucher du soleil ; son temps choisi est très court." },
+      { ar: "شَفَق", translit: "chafaq", def: "Crépuscule : la lueur rouge qui reste à l'horizon après le coucher du soleil." },
+      { ar: "مُرَاعَاةُ الْخِلَافِ", translit: "mourâʿâtou l-khilâf", def: "Prise en compte de l'avis d'autres savants : on adoucit une règle par égard pour un avis qu'on ne suit pas." },
+      { ar: "الْوَقْتُ الْمُخْتَارُ", translit: "al-waqtou l-moukhtâr", def: "Le temps « choisi » d'une prière, par opposition au temps de nécessité (al-waqt ad-darourî) qui le suit." }
+    ],
+    quiz: [
+      { q: "Selon la Mudawwana, jusqu'à quand celui qui espère l'eau retarde-t-il le maghrib ?",
+        choix: ["Jusqu'à minuit", "Jusqu'à la disparition du crépuscule", "Il ne le retarde pas", "Jusqu'à l'aube"],
+        bonne: 1,
+        explication: "Matn : « وَفِيهَا تَأْخِيرُ الْمَغْرِبِ لِلشَّفَقِ »." },
+      { q: "Comment al-Dardīr juge-t-il ce cas ?",
+        choix: ["Obligatoire", "Seul avis de l'école", "Propre au résident", "Faible : on ne retarde pas"],
+        bonne: 3,
+        explication: "« ثُمَّ إنَّ هَذَا الْفَرْعَ ضَعِيفٌ وَالرَّاجِحُ عَدَمُ تَأْخِيرِهِ »." },
+      { q: "Selon al-Ḥaṭṭāb, pourquoi la Mudawwana fait-elle retarder le maghrib ?",
+        choix: ["Par égard pour l'avis qui étend son temps choisi au crépuscule", "Parce que le maghrib n'a pas de temps", "Parce que l'eau est plus proche la nuit", "Par erreur de copiste"],
+        bonne: 0,
+        explication: "« أَمَرَهُ بِالتَّأْخِيرِ مُرَاعَاةً لِلْخِلَافِ لِقُوَّةِ الْقَوْلِ بِالِامْتِدَادِ »." },
+      { q: "Mise en situation : une voyageuse sait qu'elle aura de l'eau une demi-heure après le coucher du soleil. Que retient al-Dardīr pour son maghrib ?",
+        choix: ["Elle attend jusqu'au milieu de la nuit", "Elle prie deux fois", "Elle fait le tayammoum et prie sans retarder", "Elle prie le maghrib avec l'ʿishâ'"],
+        bonne: 2,
+        explication: "Al-Dardīr : « وَالرَّاجِحُ عَدَمُ تَأْخِيرِهِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "356" },
+    alertes: [
+      "Précisé (campagne de correction) : matn « تَأْخِيرُ الْمَغْرِبِ » (« ص », Ibn Ghāzī, 14605, p. 48) ; le Mukhtaṣar seul (11355, p. 23), al-Kharashī (91, p. 193) et al-Dardīr ont « تَأْخِيرُهُ الْمَغْرِبَ » (« أَيْ الرَّاجِي ») ; « ص » gardé, même sens (n° 592).",
+      "Précisé (campagne de correction) : citation d'at-Tawḍīḥ abrégée ; at-Tawḍīḥ (14442, p. 193) ajoute « وهو الظاهرُ » et donne la lettre de la Mudawwana : « التَّاخِيرُ بَعْدَ الْغُرُوبِ إِنْ طَمِعَ فِي إِدْرَاكِ الْمَاءِ قَبْلَ مَغِيبِ الشَّفَقِ » ; Ibn ʿArafa (16968, p. 103) : « تأخير المغرب لطامع إدراك الماء قبل مغيب الشفق » (n° 593).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 157 (Shamela 21604, page 156)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-09-42",
+    kitab: "tah", bab: "01", fasl: "09", ordre: 42,
+    titre: "Les sunna du tayammoum",
+    titre_ar: "وَسُنَّ تَرْتِيبُهُ وَإِلَى الْمِرْفَقَيْنِ وَتَجْدِيدُ ضَرْبَةٍ لِيَدَيْهِ",
+    objectif: "Connaître les sunna du tayammoum : l'ordre, l'essuyage jusqu'aux coudes, la seconde frappe pour les mains, et ce qui concerne la poussière restée sur les mains.",
+    matn: "وَسُنَّ تَرْتِيبُهُ وَإِلَى الْمِرْفَقَيْنِ وَتَجْدِيدُ ضَرْبَةٍ لِيَدَيْهِ",
+    regle_pratique: "Il est sunna, dans le tayammoum, d'essuyer le visage avant les mains, d'aller des poignets jusqu'aux coudes et de frapper le sol une seconde fois pour les mains ; la première frappe sert au visage seul, la seconde aux mains seules.",
+    qualification: {
+      hukm: "sunna",
+      nature: "autre",
+      effet_si_omis: "Pour l'ordre, al-Dardīr : « فَإِنْ نَكَّسَ أَعَادَ الْمُنَكَّسَ وَحْدَهُ إنْ لَمْ يُصَلِّ بِهِ وَإِلَّا أَجْزَأَهُ ». Pour les coudes et la seconde frappe, ce segment ne le précise pas."
+    },
+    explication: "Al-Ḥaṭṭāb : « ذَكَرَ مِنْ سُنَنِ التَّيَمُّمِ ثَلَاثَ سُنَنٍ ». La première est l'ordre : « التَّرْتِيبُ وَلَا كَلَامَ فِي أَنَّهُ سُنَّةٌ » ; al-Dardīr : « بِأَنْ يَبْدَأَ بِالْوَجْهِ قَبْلَ الْيَدَيْنِ ». La deuxième est l'essuyage au-delà des poignets ; al-Dardīr : « (وَ) سُنَّ الْمَسْحُ مِنْ الْكُوعَيْنِ (إلَى الْمِرْفَقَيْنِ) ». La troisième est la seconde frappe pour les mains. Pour ces deux dernières, al-Ḥaṭṭāb : « وَقَدْ صَرَّحَ فِي الْمُقَدِّمَاتِ بِتَرْجِيحِ الْقَوْلِ بِسُنِّيَّتِهَا » ; ʿIyāḍ s'en tient aussi à cet avis, « فَسَقَطَ اعْتِرَاضُ الْبِسَاطِيّ » (al-Dasūqī : al-Bisāṭī tenait l'essuyage jusqu'aux coudes pour obligatoire). Al-Ḥaṭṭāb ajoute une quatrième sunna : « وَبَقِيَ عَلَى الْمُصَنِّفِ سُنَّةٌ رَابِعَةٌ وَهِيَ نَفْضُ مَا تَعَلَّقَ بِهِمَا مِنْ الْغُبَارِ » ; si l'on essuie les mains sur autre chose avant le visage et les mains, « صَحَّ تَيَمُّمُهُ عَلَى الْأَظْهَرِ قَالَهُ فِي التَّوْضِيحِ ».",
+    aqwal: [
+      { auteur: "Ibn Rushd (al-Muqaddimāt, d'après al-Ḥaṭṭāb), ʿIyāḍ (al-Qawāʿid)", avis: "L'essuyage jusqu'aux coudes et la seconde frappe sont sunna.", statut: "rajih" },
+      { auteur: "Al-Bisāṭī (d'après al-Dasūqī)", avis: "L'essuyage jusqu'aux coudes est obligatoire.", statut: "qawl" },
+      { auteur: "Ibn ʿAbd as-Salām (d'après at-Tawḍīḥ, cité par al-Ḥaṭṭāb et al-Dasūqī)", avis: "Celui qui essuie ses mains sur autre chose avant le visage garde un tayammoum valide.", statut: "non_precise" },
+      { auteur: "Avis rapporté sans attribution (al-Ḥaṭṭāb : « خِلَافًا لِمَنْ يَقُولُ »)", avis: "Chaque frappe sert au visage et aux mains.", statut: "qawl" }
+    ],
+    muatamad: "Confirmé par al-Dardīr pour les trois sunna (« (وَسُنَّ تَرْتِيبُهُ) », « (وَ) سُنَّ (تَجْدِيدُ ضَرْبَةٍ) ثَانِيَةٍ (لِيَدَيْهِ) ») et pour la validité du tayammoum : « فَإِنْ فَعَلَ صَحَّ عَلَى الْأَظْهَرِ وَلَمْ يَأْتِ بِالسُّنَّةِ » ; al-Dasūqī : « وَعَلَى الْمَشْهُورِ يَمْسَحُ بِالضَّرْبَةِ الثَّانِيَةِ الْيَدَيْنِ فَقَطْ ».",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Al-Ḥaṭṭāb : Khalīl dit « pour ses mains » « لِيُنَبِّهَ عَلَى أَنَّ الضَّرْبَةَ الْأُولَى يَمْسَحُ بِهَا الْوَجْهَ خَاصَّةً وَالثَّانِيَةَ يَمْسَحُ بِهَا الْيَدَيْنِ خَاصَّةً », « خِلَافًا لِمَنْ يَقُولُ يَمْسَحُ بِكُلِّ ضَرْبَةٍ وَجْهَهُ وَيَدَيْهِ ».",
+      "Al-Dasūqī : la frappe n'est pas un coup ; « الْمُرَادُ بِالضَّرْبِ الْوَضْعُ الْخَفِيفُ »."
+    ],
+    divergences: [
+      "Point à comparer — la quatrième sunna. Al-Ḥaṭṭāb : « نَفْضُ مَا تَعَلَّقَ بِهِمَا مِنْ الْغُبَارِ » (secouer la poussière). Al-Dardīr : « وَبَقِيَ عَلَيْهِ سُنَّةٌ رَابِعَةٌ وَهِيَ نَقْلُ مَا تَعَلَّقَ بِهِمَا مِنْ الْغُبَارِ بِأَنْ لَا يَمْسَحَ عَلَى شَيْءٍ قَبْلَ أَنْ يَمْسَحَ وَجْهَهُ وَيَدَيْهِ » (porter la poussière au visage et aux mains) ; al-Kharashī (91, p. 193) : « فَالْمُرَادُ بِقَوْلِهِ: نَقْلُ مَا تَعَلَّقَ بِهِمَا مِنْ الْغُبَارِ تَرْكُ مَسْحِ مَا تَعَلَّقَ بِهِمَا مِنْ الْغُبَارِ ». Le léger secouement reste permis (al-Kharashī, 91, p. 194, d'après la Risāla : « وَإِنْ تَعَلَّقَ بِهِمَا شَيْءٌ نَفَضَهُ نَفْضًا خَفِيفًا »).",
+      "Point à comparer — essuyer les mains sur autre chose. Al-Ḥaṭṭāb : valide « عَلَى الْأَظْهَرِ ». Al-Dasūqī : « كَذَا ذَكَرَ الْمُصَنِّفُ فِي التَّوْضِيحِ عَنْ ابْنِ عَبْدِ السَّلَامِ ثُمَّ قَالَ وَفِيهِ نَظَرٌ » ; il retient la validité et écarte l'avis contraire : « فَمَا فِي عَبَقِ وَالْفِيشِيِّ مِنْ بُطْلَانِ التَّيَمُّمِ غَيْرُ ظَاهِرٍ » (« عبق » : az-Zurqānī)."
+    ],
+    exemple: "Un homme pose les mains sur le sol et essuie son visage. Il les pose une seconde fois et essuie ses mains et ses avant-bras jusqu'aux coudes, la droite puis la gauche, sans les frotter d'abord contre ses vêtements.",
+    erreurs_frequentes: [
+      "S'arrêter aux poignets en croyant que c'est la sunna : la sunna va jusqu'aux coudes.",
+      "Essuyer les mains avec la première frappe, en même temps que le visage, alors que la sunna réserve la seconde frappe aux mains.",
+      "Croire que le tayammoum est nul si l'on a essuyé les mains sur autre chose avant le visage : il reste valide selon al-Ḥaṭṭāb et al-Dardīr, mais la sunna est manquée."
+    ],
+    termes: [
+      { ar: "تَرْتِيب", translit: "tartîb", def: "Ordre : laver les membres des ablutions dans l'ordre du verset." },
+      { ar: "مِرْفَق", translit: "mirfaq", def: "Coude : extrémité de l'os de l'avant-bras, à l'articulation avec le bras." },
+      { ar: "كُوع", translit: "kouʿ", def: "Tête de l'os de l'avant-bras du côté du pouce, au poignet." },
+      { ar: "ضَرْبَة", translit: "darba", def: "Frappe : poser les mains sur le sol pour le tayammoum ; la première sert au visage." },
+      { ar: "مُنَكَّس", translit: "mounakkas", def: "Membre inversé : celui qu'on a fait avant sa place dans les ablutions." },
+      { ar: "نَفْض", translit: "nafd", def: "Secouer légèrement les mains pour faire tomber la poussière avant d'essuyer, dans le tayammoum." }
+    ],
+    quiz: [
+      { q: "Combien de sunna Khalīl compte-t-il ici pour le tayammoum ?",
+        choix: ["Une", "Deux", "Quatre", "Trois"],
+        bonne: 3,
+        explication: "« ذَكَرَ مِنْ سُنَنِ التَّيَمُّمِ ثَلَاثَ سُنَنٍ »." },
+      { q: "À quoi sert la seconde frappe ?",
+        choix: ["Aux mains seules", "Au visage seul", "Au visage et aux mains", "À rien, elle est interdite"],
+        bonne: 0,
+        explication: "« وَالثَّانِيَةَ يَمْسَحُ بِهَا الْيَدَيْنِ خَاصَّةً »." },
+      { q: "Qui a fait l'objection qu'al-Ḥaṭṭāb écarte, à propos de l'essuyage jusqu'aux coudes ?",
+        choix: ["Ibn Rushd", "ʿIyāḍ", "Al-Bisāṭī", "Al-Dardīr"],
+        bonne: 2,
+        explication: "« فَسَقَطَ اعْتِرَاضُ الْبِسَاطِيّ »." },
+      { q: "Mise en situation : une femme a essuyé ses mains, puis son visage. Selon al-Dardīr, que fait-elle si elle n'a pas encore prié ?",
+        choix: ["Elle refait tout le tayammoum", "Elle refait seulement l'essuyage des mains", "Elle ne fait rien", "Elle fait les ablutions"],
+        bonne: 1,
+        explication: "« فَإِنْ نَكَّسَ أَعَادَ الْمُنَكَّسَ وَحْدَهُ إنْ لَمْ يُصَلِّ بِهِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "356" },
+    alertes: [
+      "Précisé (campagne de correction) : « نَفْضُ مَا تَعَلَّقَ بِهِمَا مِنْ الْغُبَارِ » ; al-Kharashī (91, p. 193), qui reprend la phrase d'al-Ḥaṭṭāb, lit « نَقْلُ », comme al-Dardīr et al-Dasūqī ; Ibn ʿArafa (16968, p. 111) : « وفيها: نفض اليدين مما يتعلق بهما خفيفًا » ; at-Tawḍīḥ (14442, p. 211) distingue « النَّفْضِ الْخَفَِيفِ فَإِنَّهُ مَشْرُوعٌ » et « النَّقْلُ غَيْرُ مُشْتَرَطٍ » ; lecture de Mawāhib gardée, signalée en « Point à comparer » (n° 594).",
+      "Précisé (campagne de correction) : « صَحَّ تَيَمُّمُهُ عَلَى الْأَظْهَرِ قَالَهُ فِي التَّوْضِيحِ » : dans at-Tawḍīḥ (14442, p. 211), ce « الأظهرُ » est d'Ibn ʿAbd as-Salām, et Khalīl ajoute « وفيه نظرٌ » ; al-Dasūqī le dit aussi (n° 595).",
+      "Précisé (campagne de correction) : « صَرَّحَ فِي الْمُقَدِّمَاتِ بِتَرْجِيحِ الْقَوْلِ بِسُنِّيَّتِهَا » : dans les pages lues d'al-Muqaddimāt (21735, p. 107–108), Ibn Rushd dit de la seconde frappe et des coudes « إلا أنه يستحب ضربتان » ; le mot « sunna » n'y est pas, le sens (non obligatoire) est le même (n° 596).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 157–158 (Shamela 21604, pages 156–157)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-09-43",
+    kitab: "tah", bab: "01", fasl: "09", ordre: 43,
+    titre: "Recommandé : la basmala, et les autres convenances",
+    titre_ar: "وَنُدِبَ تَسْمِيَةٌ",
+    objectif: "Connaître les actes recommandés du tayammoum : la basmala, le siwâk, le silence et l'orientation vers la qibla.",
+    matn: "وَنُدِبَ تَسْمِيَةٌ",
+    regle_pratique: "Il est recommandé de dire « bismillah » au début du tayammoum ; al-Dardīr y ajoute le siwâk, le silence sauf pour mentionner Dieu, et l'orientation vers la qibla.",
+    qualification: {
+      hukm: "mandub",
+      nature: "adab",
+      effet_si_omis: "Le passage ne le précise pas."
+    },
+    explication: "Khalīl passe des sunna aux actes recommandés. Al-Dardīr : « ثُمَّ شَرَعَ فِي فَضَائِلِهِ » ; il complète le matn : « (وَنُدِبَ تَسْمِيَةٌ) وَسِوَاكٌ وَصَمْتٌ إلَّا عَنْ ذِكْرِ اللَّهِ وَاسْتِقْبَالُ قِبْلَةٍ ». Al-Ḥaṭṭāb renvoie, pour ces ajouts, à al-Madkhal (texte altéré dans l'édition, voir les alertes). Al-Dasūqī : le lieu pur n'est pas demandé ici, « وَلَا يُسْتَحَبُّ أَنْ يَكُونَ فِي مَوْضِعٍ طَاهِرٍ كَالْوُضُوءِ لِفَقْدِ الْعِلَّةِ الْمُتَقَدِّمَةِ فِي الْوُضُوءِ وَهِيَ التَّطَايُرُ ».",
+    aqwal: [
+      { auteur: "Khalīl", avis: "La basmala est recommandée dans le tayammoum.", statut: "non_precise" },
+      { auteur: "Al-Madkhal (d'après al-Ḥaṭṭāb et al-Kharashī)", avis: "On y ajoute le siwâk, le silence et la mention de Dieu, et (al-Kharashī) l'orientation vers la qibla.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : « (وَنُدِبَ تَسْمِيَةٌ) وَسِوَاكٌ وَصَمْتٌ إلَّا عَنْ ذِكْرِ اللَّهِ وَاسْتِقْبَالُ قِبْلَةٍ ».",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Al-Ḥaṭṭāb ne commente ce segment que par le renvoi à al-Madkhal."
+    ],
+    divergences: [
+      "Complément — pas de lieu pur exigé. Al-Dasūqī : « وَلَا يُسْتَحَبُّ أَنْ يَكُونَ فِي مَوْضِعٍ طَاهِرٍ كَالْوُضُوءِ ». Al-Ḥaṭṭāb ne le dit pas.",
+      "Complément — pas d'invocation finale comme après les ablutions. Al-Kharashī (91, p. 194) : elle ne s'y fait pas « لِوُجُوبِ الْمُوَالَاةِ بَيْنَهُ وَبَيْنَ مَا يُفْعَلُ بِهِ » ; al-Ḥaṭṭāb ne le dit pas."
+    ],
+    exemple: "Avant de poser les mains sur la terre, une femme dit « bismillah », se tourne vers la qibla et garde le silence jusqu'à la fin du tayammoum.",
+    erreurs_frequentes: [
+      "Croire que la basmala est obligatoire dans le tayammoum : elle est recommandée.",
+      "Chercher un lieu pur pour faire le tayammoum comme pour les ablutions : al-Dasūqī dit que ce n'est pas demandé.",
+      "Parler pendant le tayammoum sans nécessité, alors que le silence est recommandé."
+    ],
+    termes: [
+      { ar: "تَسْمِيَة", translit: "tasmiya", def: "Dire « bismillah » (au nom de Dieu) au début d'un acte ; convenance des ablutions." },
+      { ar: "سِوَاك", translit: "siwâk", def: "Frottement des dents avec un bâtonnet (ou autre chose) pour les nettoyer ; aussi le bâtonnet lui-même." },
+      { ar: "صَمْت", translit: "samt", def: "Silence : ne pas parler pendant l'acte, sauf pour mentionner Dieu." },
+      { ar: "اِسْتِقْبَالُ الْقِبْلَةِ", translit: "istiqbâlou l-qibla", def: "Se tourner vers la qibla (et اِسْتِدْبَار : lui tourner le dos)." }
+    ],
+    quiz: [
+      { q: "Quel est le degré de la basmala dans le tayammoum ?",
+        choix: ["Recommandée", "Obligatoire", "Déconseillée", "Pilier"],
+        bonne: 0,
+        explication: "Matn : « وَنُدِبَ تَسْمِيَةٌ »." },
+      { q: "Selon al-Dardīr, sauf pour quoi garde-t-on le silence ?",
+        choix: ["Pour saluer", "Pour demander de l'eau", "Pour mentionner Dieu", "Pour réciter le Coran à voix haute"],
+        bonne: 2,
+        explication: "« وَصَمْتٌ إلَّا عَنْ ذِكْرِ اللَّهِ »." },
+      { q: "Pourquoi le lieu pur n'est-il pas recommandé ici, selon al-Dasūqī ?",
+        choix: ["Parce que la terre purifie tout", "Parce qu'il n'y a pas d'eau qui rejaillit", "Parce que le tayammoum est court", "Parce que c'est interdit"],
+        bonne: 1,
+        explication: "« لِفَقْدِ الْعِلَّةِ الْمُتَقَدِّمَةِ فِي الْوُضُوءِ وَهِيَ التَّطَايُرُ »." },
+      { q: "Mise en situation : un voyageur fait le tayammoum dans la cour d'un caravansérail, où le sol n'est pas sûr. Selon al-Dasūqī, doit-il d'abord chercher un endroit pur pour s'y tenir ?",
+        choix: ["Oui, c'est obligatoire", "Oui, sinon le tayammoum est nul", "Il doit faire les ablutions", "Non, ce n'est pas recommandé ici"],
+        bonne: 3,
+        explication: "« وَلَا يُسْتَحَبُّ أَنْ يَكُونَ فِي مَوْضِعٍ طَاهِرٍ كَالْوُضُوءِ » ; la terre sur laquelle il frappe doit, elle, être pure (segment 28)." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "356" },
+    alertes: [
+      "Corrigé (campagne de correction) : le commentaire d'al-Ḥaṭṭāb, « وَرَدَ فِي الْمَدْخَلِ فِي فَضَائِلِ السِّوَاكِ وَالصَّمْتِ وَذِكْرِ اللَّهَ », est altéré ; al-Kharashī (91, p. 194), qui le reprend, porte « زَادَ فِي الْمَدْخَلِ فِي قَضَائِهِ السِّوَاكَ وَالصَّمْتَ وَذِكْرَ اللَّهِ تَعَالَى وَالِاسْتِقْبَالَ لِلْقِبْلَةِ » ; lire « زَادَ … فِي فَضَائِلِهِ », d'après al-Dardīr (« ثُمَّ شَرَعَ فِي فَضَائِلِهِ ») ; non cité dans la règle (n° 597).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 158 (Shamela 21604, page 157)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-09-43b",
+    kitab: "tah", bab: "01", fasl: "09", ordre: 43,
+    titre: "Comment essuyer les mains",
+    titre_ar: "وَبَدْءٌ بِظَاهِرِ يُمْنَاهُ بِيُسْرَاهُ إلَى الْمِرْفَقِ …",
+    objectif: "Savoir la manière recommandée d'essuyer les mains et les avant-bras dans le tayammoum.",
+    matn: "وَبَدْءٌ بِظَاهِرِ يُمْنَاهُ بِيُسْرَاهُ إلَى الْمِرْفَقِ، ثُمَّ مَسْحُ الْبَاطِنِ لِآخِرِ الْأَصَابِعِ، ثُمَّ يُسْرَاهُ كَذَلِكَ",
+    regle_pratique: "Il est recommandé d'essuyer le dessus de la main droite avec la main gauche jusqu'au coude, puis l'intérieur du bras en revenant jusqu'au bout des doigts, puis de faire de même pour la main gauche ; on passe ensuite les doigts entre les doigts, ce qui est obligatoire.",
+    qualification: {
+      hukm: "mandub",
+      nature: "adab",
+      effet_si_omis: "Le passage ne le précise pas."
+    },
+    explication: "Al-Ḥaṭṭāb ne commente pas ce segment (voir les alertes) ; la fiche suit al-Dardīr. Il décrit le geste : « بِأَنْ يَجْعَلَ ظَاهِرَ أَطْرَافِ يَدِهِ الْيُمْنَى فِي بَاطِنِ يَدِهِ الْيُسْرَى ثُمَّ يُمِرُّهَا » jusqu'au coude, « قَابِضًا عَلَيْهَا بِكَفِّ الْيُسْرَى » ; puis l'intérieur du bras droit, « أَيْ بَاطِنِ الْيُمْنَى مِنْ طَيِّ الْمِرْفَقِ », jusqu'au bout des doigts ; puis la gauche de la même façon. Il ajoute : « ثُمَّ يُخَلِّلُ أَصَابِعَهُ وُجُوبًا كَمَا تَقَدَّمَ ». Al-Dasūqī explique la construction : « الْبَاءُ بِمَعْنَى مِنْ الِابْتِدَائِيَّةِ », c'est-à-dire qu'on commence par l'avant du dessus de la main droite.",
+    aqwal: [
+      { auteur: "Khalīl, expliqué par al-Dardīr", avis: "Dessus de la main droite jusqu'au coude, intérieur en revenant jusqu'au bout des doigts, puis la gauche de même.", statut: "non_precise" },
+      { auteur: "Un maître d'al-ʿAdawī (d'après la ḥāshiya de celui-ci, rapportée par al-Dasūqī)", avis: "On pose seulement les doigts, sans l'intérieur de la paume, sur le dessus de la main ; au retour, sur l'intérieur du bras, on essuie avec l'intérieur de la paume.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr (« (وَبَدْءٌ بِظَاهِرٍ) أَيْ مِنْ ظَاهِرِ (يُمْنَاهُ بِيُسْرَاهُ) ») ; la ḥāshiya rapporte une autre façon de placer la main (voir les avis).",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Al-Dasūqī : on passe les doigts entre les doigts après avoir essuyé les deux mains, « فَلَا يُخَلِّلُ كُلَّ يَدٍ بَعْدَ مَسْحِهَا » ; et « وَتَقَدَّمَ أَنَّ التَّخْلِيلَ يَكُونُ بِبَطْنِ أُصْبُعٍ أَوْ أَكْثَرَ لَا بِجَنْبِهِ ».",
+      "Second témoin : Ibn ʿArafa (16968, p. 109) rapporte d'après al-Bājī la même manière dans la riwāya d'Ibn al-Qāsim (voir les alertes)."
+    ],
+    divergences: [
+      "Point à comparer — la façon de poser la main. Al-Dardīr : « بِأَنْ يَجْعَلَ ظَاهِرَ أَطْرَافِ يَدِهِ الْيُمْنَى فِي بَاطِنِ يَدِهِ الْيُسْرَى ». Al-Dasūqī, d'après la ḥāshiya de son maître al-ʿAdawī : « بِأَنْ يَجْعَلَ أَصَابِعَهُ فَقَطْ دُونَ بَاطِنِ كَفِّهِ عَلَى ظَاهِرِ يُمْنَاهُ ثُمَّ فِي عَوْدِهِ عَلَى بَاطِنِ الذِّرَاعِ يَمْسَحُ بِبَاطِنِ الْكَفِّ ». Al-Ḥaṭṭāb ne commente pas ce segment."
+    ],
+    exemple: "Après la seconde frappe, un homme pose les doigts de sa main gauche sur le dessus de sa main droite, remonte jusqu'au coude, redescend par l'intérieur du bras jusqu'au bout des doigts, fait de même pour la main gauche, puis passe ses doigts entre ses doigts.",
+    erreurs_frequentes: [
+      "Croire que cette manière est obligatoire : elle est recommandée.",
+      "Oublier de passer les doigts entre les doigts, qui est obligatoire.",
+      "Passer les doigts entre les doigts après chaque main, alors qu'on le fait après les deux."
+    ],
+    termes: [
+      { ar: "طَيُّ الْمِرْفَقِ", translit: "tayyou l-mirfaq", def: "Le pli du coude, à l'intérieur du bras." }
+    ],
+    quiz: [
+      { q: "Par quelle main commence-t-on l'essuyage des mains ?",
+        choix: ["La gauche", "Les deux ensemble", "La droite", "Peu importe, sans préférence"],
+        bonne: 2,
+        explication: "Matn : « وَبَدْءٌ بِظَاهِرِ يُمْنَاهُ بِيُسْرَاهُ »." },
+      { q: "Jusqu'où va-t-on en revenant par l'intérieur du bras ?",
+        choix: ["Jusqu'au bout des doigts", "Jusqu'au poignet", "Jusqu'au coude", "Jusqu'à l'épaule"],
+        bonne: 0,
+        explication: "« ثُمَّ مَسْحُ الْبَاطِنِ لِآخِرِ الْأَصَابِعِ »." },
+      { q: "Selon al-Dardīr, quel est le degré du passage des doigts entre les doigts ?",
+        choix: ["Recommandé", "Déconseillé", "Permis", "Obligatoire"],
+        bonne: 3,
+        explication: "« ثُمَّ يُخَلِّلُ أَصَابِعَهُ وُجُوبًا كَمَا تَقَدَّمَ »." },
+      { q: "Mise en situation : une femme essuie sa main droite, passe ses doigts entre ses doigts, puis essuie sa main gauche. Selon al-Dasūqī, qu'aurait-il mieux valu faire ?",
+        choix: ["Passer les doigts avant la frappe", "Passer les doigts après avoir essuyé les deux mains", "Ne jamais passer les doigts", "Refaire tout le tayammoum"],
+        bonne: 1,
+        explication: "« أَيْ ثُمَّ بَعْدَ مَسْحِ الْيَدَيْنِ يُخَلِّلُ أَصَابِعَهُ فَلَا يُخَلِّلُ كُلَّ يَدٍ بَعْدَ مَسْحِهَا »." }
+    ],
+    ref: { ouvrage: "al-Sharḥ al-kabīr (al-Dardīr)", tome: 1, pages: "158" },
+    alertes: [
+      "Limite du texte : segment « وَبَدْءٌ بِظَاهِرِ يُمْنَاهُ بِيُسْرَاهُ إلَى الْمِرْفَقِ … ثُمَّ يُسْرَاهُ كَذَلِكَ » absent du « ص » de Mawāhib, qui passe de « وَنُدِبَ تَسْمِيَةٌ » à « وَبَطَلَ بِمُبْطِلِ الْوُضُوءِ » (569/355) ; présent dans le Mukhtaṣar seul (11355, p. 23), chez Ibn Ghāzī (14605, p. 48), al-Kharashī (91, p. 194), al-Zurqānī (14297, p. 221) et al-Dardīr (21604/157) ; Mawāhib 569/336–360 relu : al-Ḥaṭṭāb ne décrit pas ce geste ; fiche rédigée d'après al-Dardīr / al-Dasūqī, `ref` sur al-Dardīr (n° 598).",
+      "Second témoin : Ibn ʿArafa (16968, p. 109) : « روى ابن القاسم: يضع يسراه على ظاهر أطراف أصابع يمناه ماسحًا إلى المرفقين » (d'après al-Bājī) ; il signale d'autres façons (les « deux frères », al-Lakhmī), non reprises.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 158 (Shamela 21604, page 157)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-09-44a",
+    kitab: "tah", bab: "01", fasl: "09", ordre: 44,
+    titre: "Ce qui annule le tayammoum ; l'eau trouvée avant la prière",
+    titre_ar: "وَبَطَلَ بِمُبْطِلِ الْوُضُوءِ وَبِوُجُودِ الْمَاءِ قَبْلَ الصَّلَاةِ",
+    objectif: "Savoir que le tayammoum est annulé par ce qui annule les ablutions, et par l'eau trouvée avant d'entrer dans la prière quand il reste assez de temps.",
+    matn: "وَبَطَلَ بِمُبْطِلِ الْوُضُوءِ وَبِوُجُودِ الْمَاءِ قَبْلَ الصَّلَاةِ",
+    regle_pratique: "Le tayammoum est annulé par tout ce qui annule les ablutions, même s'il remplaçait le ghousl ; il l'est aussi quand on trouve l'eau avant de commencer la prière, sauf si le temps est trop court pour faire les ablutions et prier au moins une unité dans le temps.",
+    qualification: {
+      hukm: "wajib",
+      nature: "mubtil",
+      effet_si_omis: "Celui qui prie avec un tayammoum annulé a prié sans purification (al-Dasūqī : celui qui trouve l'eau avant sa prière et prie quand même « أَعَادَ أَبَدًا »)."
+    },
+    explication: "Al-Ḥaṭṭāb : « يَعْنِي أَنَّ التَّيَمُّمَ يُبْطِلُهُ مَا يُبْطِلُ الْوُضُوءَ » ; « وَسَوَاءٌ كَانَ ذَلِكَ التَّيَمُّمُ لِلْحَدَثِ الْأَصْغَرِ أَوْ لِلْحَدَثِ الْأَكْبَرِ ». Ensuite : « وَيَبْطُلُ التَّيَمُّمُ أَيْضًا بِوُجُودِ الْمَاءِ قَبْلَ الدُّخُولِ فِي الصَّلَاةِ ». At-Tawḍīḥ précise : « يُرِيدُ إذَا كَانَ الْوَقْتُ مُتَّسَعًا، وَإِنْ كَانَ الْوَقْتُ ضَيِّقًا إنْ تَوَضَّأَ فِيهِ لَمْ يُدْرِكْ الصَّلَاةَ لَمْ يَجِبْ اسْتِعْمَالُهُ عَلَى الصَّحِيحِ مِنْ الْمَذْهَبِ » (d'après al-Lakhmī), ce que « صَرَّحَ بِهِ الْقَاضِي عَبْدُ الْوَهَّابِ فِي التَّلْقِينِ ». Ibn ʿArafa, cité par al-Ḥaṭṭāb : « فَلَوْ ضَاقَ عَنْ اسْتِعْمَالِهِ فَالْقَاضِي لَا يُبْطِلُهُ وَخَرَّجَهُ اللَّخْمِيُّ عَلَى التَّيَمُّمِ حِينَئِذٍ » ; al-Māzirī : « هَذَا آكَدُ لِحُصُولِهِ لِمُوجِبِهِ », et al-Ḥaṭṭāb approuve : « وَمَا ذَكَرَهُ عَنْ الْمَازِرِيِّ مِنْ الرَّدِّ ظَاهِرٌ ». Le temps trop court se mesure ainsi : « الْمُرَادُ بِضِيقِ الْوَقْتِ أَنْ لَا يَسَعَ رَكْعَةً بَعْدَ وُضُوئِهِ ».",
+    aqwal: [
+      { auteur: "Al-Lakhmī ; al-Qāḍī ʿAbd al-Wahhāb (at-Talqīn, al-Ishrāf)", avis: "Si le temps est trop court pour les ablutions, l'eau trouvée n'oblige pas à s'en servir (« عَلَى الصَّحِيحِ مِنْ الْمَذْهَبِ »).", statut: "non_precise" },
+      { auteur: "Al-Lakhmī (d'après Ibn ʿArafa) ; Ibn Shās", avis: "Takhrīj : la question est rattachée à celle de celui qui craint de manquer le temps en se servant de l'eau.", statut: "qawl" },
+      { auteur: "Al-Māzirī (d'après Ibn ʿArafa)", avis: "Ici le tayammoum vaut à plus forte raison, car il a été fait pour une cause qui le justifiait.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : « (وَ) بَطَلَ (بِوُجُودِ الْمَاءِ) الْكَافِي أَوْ الْقُدْرَةِ عَلَى الِاسْتِعْمَالِ » … « إنْ اتَّسَعَ الْوَقْتُ لِإِدْرَاكِ رَكْعَةٍ بَعْدَ اسْتِعْمَالِهِ وَإِلَّا فَلَا » ; al-Dasūqī : « وَاعْلَمْ أَنَّ التَّيَمُّمَ يَبْطُلُ بِكُلِّ مَا أَبْطَلَ الْوُضُوءَ وَلَوْ كَانَ ذَلِكَ التَّيَمُّمُ لِحَدَثٍ أَكْبَرَ ». Sur le temps à considérer, voir les divergences.",
+    tarjih_hattab: "Il approuve la réponse d'al-Māzirī à l'objection de takhrīj : « وَمَا ذَكَرَهُ عَنْ الْمَازِرِيِّ مِنْ الرَّدِّ ظَاهِرٌ ».",
+    tanbihat: [
+      "Premier tanbīh : « لَا شَكَّ أَنَّ الْمُرَادَ بِالْوَقْتِ الْوَقْتُ الْمُخْتَارُ ».",
+      "Deuxième tanbīh : le temps est trop court s'il ne reste pas une unité après les ablutions.",
+      "Troisième tanbīh (al-Lakhmī) : on compte le temps d'ablutions faites à la manière du Prophète, « لَيْسَ عَلَى مَا يَكُونُ مِنْ التَّرَاخِي وَبَعْضِ الْوَسْوَاسِ »."
+    ],
+    divergences: [
+      "Divergence — quel temps compte. Al-Ḥaṭṭāb : « لَا شَكَّ أَنَّ الْمُرَادَ بِالْوَقْتِ الْوَقْتُ الْمُخْتَارُ ». Al-Dasūqī, sur « إنْ اتَّسَعَ الْوَقْتُ » d'al-Dardīr : « أَيْ الَّذِي هُوَ فِيهِ ضَرُورِيًّا أَوْ اخْتِيَارِيًّا هَذَا هُوَ الْمُتَعَيِّنُ », « وَأَمَّا قَوْلُ عبق لَا يُبْطِلُ تَيَمُّمَهُ فِي الضَّرُورِيِّ فَلَا قَائِلَ بِهِ سِوَاهُ » (« عبق » : az-Zurqānī). Al-Bunānī (14297, p. 222), dont al-Dasūqī tire cela (« اُنْظُرْ بْن »), note qu'al-Ḥaṭṭāb « علل كون المراد هنا المختار بما نصه لأنه قد تقدم أنه إذا خاف خروجه تيمم », alors qu'il avait dit ailleurs « أن المراد الوقت الذي هو فيه ». Muʿtamad : le temps dans lequel on se trouve, choisi ou de nécessité (al-Dasūqī).",
+      "Complément — les annulatifs. Al-Dasūqī : « وَيَعُودُ جُنُبًا عَلَى الْمَشْهُورِ مِنْ أَنَّهُ لَا يَرْفَعُ الْحَدَثَ » ; et le doute : al-Dardīr, « وَيُجْزِئُ فِيهِ وَلَوْ شَكَّ فِي صَلَاتِهِ ثُمَّ بَانَ الطُّهْرُ لَمْ يُعِدْ ».",
+      "Complément — l'eau et l'obstacle. Al-Dasūqī : « فَإِنْ أَبْصَرَ الْمَاءَ أَوَّلًا ثُمَّ أَبْصَرَ الْمَانِعَ بَعْدَ ذَلِكَ بَطَلَ تَيَمُّمُهُ » ; s'il voit l'obstacle d'abord, ou les deux ensemble, le tayammoum reste valide."
+    ],
+    exemple: "Une femme en état de janâba a fait le tayammoum pour le ẓuhr. Avant de commencer la prière, on lui apporte de l'eau ; il reste largement le temps. Son tayammoum est annulé : elle fait le ghousl et prie. Si elle avait uriné entre-temps, son tayammoum aurait aussi été annulé, et elle serait redevenue en état de janâba.",
+    erreurs_frequentes: [
+      "Croire qu'un tayammoum fait pour la janâba n'est annulé que par ce qui oblige au ghousl : il l'est par tout ce qui annule les ablutions.",
+      "Prier avec le tayammoum alors que l'eau est arrivée avant la prière et que le temps suffit.",
+      "Compter, pour juger du temps, des ablutions lentes et répétées par scrupule."
+    ],
+    termes: [
+      { ar: "مُبْطِل", translit: "moubtil", def: "Ce qui annule (un acte d'adoration)." },
+      { ar: "الْوَقْتُ الْمُخْتَارُ", translit: "al-waqtou l-moukhtâr", def: "Le temps « choisi » d'une prière, par opposition au temps de nécessité (al-waqt ad-darourî) qui le suit." },
+      { ar: "الْوَقْتُ الضَّرُورِيُّ", translit: "al-waqtou d-darouriyy", def: "Le temps de nécessité : la partie du temps d'une prière qui suit le temps choisi ; on n'y retarde la prière que pour une excuse." }
+    ],
+    quiz: [
+      { q: "Un tayammoum fait pour la janâba est-il annulé par ce qui annule les ablutions ?",
+        choix: ["Non, seulement par la janâba", "Seulement s'il a été fait pour une prière surérogatoire", "Seulement en voyage", "Oui"],
+        bonne: 3,
+        explication: "« وَسَوَاءٌ كَانَ ذَلِكَ التَّيَمُّمُ لِلْحَدَثِ الْأَصْغَرِ أَوْ لِلْحَدَثِ الْأَكْبَرِ »." },
+      { q: "Quand l'eau trouvée avant la prière n'annule-t-elle pas le tayammoum ?",
+        choix: ["Quand l'eau est froide", "Quand le temps ne suffit pas pour les ablutions et une unité", "Quand on est en voyage", "Jamais"],
+        bonne: 1,
+        explication: "« الْمُرَادُ بِضِيقِ الْوَقْتِ أَنْ لَا يَسَعَ رَكْعَةً بَعْدَ وُضُوئِهِ »." },
+      { q: "Selon al-Dasūqī, quel temps compte pour juger s'il reste assez de temps ?",
+        choix: ["Le temps où l'on se trouve, choisi ou de nécessité", "Toujours le temps choisi", "La journée entière", "Le temps de la prière suivante"],
+        bonne: 0,
+        explication: "« أَيْ الَّذِي هُوَ فِيهِ ضَرُورِيًّا أَوْ اخْتِيَارِيًّا هَذَا هُوَ الْمُتَعَيِّنُ »." },
+      { q: "Mise en situation : un voyageur a fait le tayammoum ; il voit d'abord de l'eau, puis remarque une bête sauvage qui la garde. Selon al-Dasūqī :",
+        choix: ["Son tayammoum reste valide", "Il prie deux fois", "Son tayammoum est annulé", "Il attend la fin du temps"],
+        bonne: 2,
+        explication: "« فَإِنْ أَبْصَرَ الْمَاءَ أَوَّلًا ثُمَّ أَبْصَرَ الْمَانِعَ بَعْدَ ذَلِكَ بَطَلَ تَيَمُّمُهُ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "356–357" },
+    alertes: [
+      "Précisé (campagne de correction) : citation d'Ibn ʿArafa, « وَوُجُودُ مَاءٍ فِي وَقْتٍ يَسَعُهُ يُبْطِلُهُ » ; al-Mukhtaṣar al-fiqhī (16968, p. 103) : « ووجود ماء يسعه يبطله » ; même sens (n° 599).",
+      "Précisé (campagne de correction) : « مَا ذَكَرَهُ ابْنُ عَرَفَةَ عَنْ اللَّخْمِيِّ مِنْ التَّصْرِيحِ لَمْ أَرَهُ » : Ibn ʿArafa ne prête à al-Lakhmī qu'un takhrīj (« وخرجه اللخمي »), et al-Ḥaṭṭāb poursuit « نَعَمْ ذَكَرَ التَّخْرِيجَ الْمَذْكُورَ ابْنُ شَاسٍ » : « التَّخْرِيجِ » attendu ; non cité (n° 600).",
+      "Précisé (campagne de correction) : citation d'Ibn Shās, « الْأَوَّلُ مِنْ أَحْكَامِهِ أَنَّهُ يَبْطُلُ لِرُؤْيَةِ الْمَاءِ » ; ʿIqd al-jawāhir (14594, p. 62) : « وله حكمان: الأول: أنه يبطل برؤية الماء » ; même sens (n° 601).",
+      "Précisé (campagne de correction) : matn « إلَّا نَاسِيَهُ » (« ص », Ibn Ghāzī) ; al-Dardīr : « (إلَّا) شَخْصٌ (نَاسِيهِ) » ; al-Zurqānī (14297, p. 222) : non à l'accusatif, l'exception étant « مفرغ » ; « ص » gardé, même règle (n° 604 ; voir la fiche 44b).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 158–159 (Shamela 21604, pages 157–158)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-09-44b",
+    kitab: "tah", bab: "01", fasl: "09", ordre: 44,
+    titre: "L'eau trouvée pendant la prière ; celui qui l'avait oubliée",
+    titre_ar: "لَا فِيهَا إلَّا نَاسِيَهُ",
+    objectif: "Savoir que l'eau trouvée pendant la prière n'annule pas le tayammoum, sauf pour celui qui avait de l'eau dans ses bagages et l'avait oubliée.",
+    matn: "لَا فِيهَا إلَّا نَاسِيَهُ",
+    regle_pratique: "Celui qui trouve l'eau après être entré dans la prière la poursuit et ne doit pas l'interrompre ; mais celui qui avait de l'eau dans ses bagages, l'avait oubliée et s'en souvient pendant la prière, l'interrompt si le temps permet encore les ablutions et une unité.",
+    qualification: {
+      hukm: "wajib",
+      nature: "mubtil",
+      effet_si_omis: "Al-Ḥaṭṭāb : celui qui interrompt sans raison la prière commencée avec un tayammoum valide est en faute (d'après Ibn al-ʿArabī) ; celui qui a oublié l'eau et poursuit malgré le temps suffisant prie avec un tayammoum annulé."
+    },
+    explication: "Al-Ḥaṭṭāb : « يَعْنِي إذَا وَجَدَ الْمَاءَ بَعْدَ دُخُولِهِ فِي الصَّلَاةِ فَإِنَّ ذَلِكَ لَا يُبْطِلُ تَيَمُّمَهُ وَلَوْ كَانَ الْوَقْتُ مُتَّسَعًا ». Ibn al-ʿArabī : « بَلْ يَحْرُمُ عَلَيْهِ ذَلِكَ وَيَكُونُ عَاصِيًا إنْ فَعَلَ ». Al-Lakhmī a déduit un avis contraire (« وَخَرَّجَ اللَّخْمِيُّ قَوْلًا بِالْقَطْعِ »). Aṭ-Ṭirāz restreint la règle : « وَهَذَا فِيمَنْ تَيَمَّمَ وَهُوَ عَلَى إيَاسٍ مِنْ الْمَاءِ » ; pour celui qui espérait l'eau, « فَهَذَا لَا يَبْعُدُ أَنْ يُقَالَ فِيهِ يَقْطَعُ ». L'exception : celui qui avait de l'eau dans ses bagages et l'a oubliée, s'il s'en souvient dans la prière, « فَإِنَّهُ يَقْطَعُ الصَّلَاةَ لِتَفْرِيطِهِ », « كَمَنْ شَرَعَ فِي صَوْمِ الظِّهَارِ ثُمَّ ذَكَرَ أَنَّهُ قَادِرٌ عَلَى الرَّقَبَةِ ». Ash-Shāmil, cité par al-Ḥaṭṭāb : « إلَّا ذَاكِرَهُ فِي رَحْلِهِ عَلَى الْمَشْهُورِ وَاتَّسَعَ الْوَقْتُ ».",
+    aqwal: [
+      { auteur: "Al-Lakhmī et d'autres (d'après al-Ḥaṭṭāb) ; ash-Shāmil (« عَلَى الْمَنْصُوصِ »)", avis: "L'eau trouvée dans la prière n'annule pas le tayammoum, même si le temps est large.", statut: "non_precise" },
+      { auteur: "Ibn al-ʿArabī (d'après at-Tawḍīḥ)", avis: "Il est interdit d'interrompre la prière ; celui qui le fait est en faute.", statut: "non_precise" },
+      { auteur: "Al-Lakhmī (takhrīj, d'après Ibn al-ʿArabī)", avis: "On interrompt la prière.", statut: "qawl" },
+      { auteur: "Sanad (aṭ-Ṭirāz)", avis: "Celui qui espérait l'eau pourrait interrompre.", statut: "qawl" },
+      { auteur: "Ash-Shāmil", avis: "Celui qui se souvient de l'eau de ses bagages interrompt, si le temps est large.", statut: "mashhur" },
+      { auteur: "Ibn Rāshid al-Qafṣī (avis rapporté)", avis: "Même celui-là poursuit sa prière.", statut: "qawl" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : « فَلَا يَبْطُلُ بَلْ يَجِبُ اسْتِمْرَارُهُ فِيهَا وَلَوْ اتَّسَعَ الْوَقْتُ لِدُخُولِهِ بِوَجْهٍ جَائِزٍ » ; pour celui qui avait oublié l'eau, « فَإِنَّهَا تَبْطُلُ إنْ اتَّسَعَ الْوَقْتُ لِإِدْرَاكِ رَكْعَةٍ بَعْدَ اسْتِعْمَالِ الْمَاءِ ». Pour celui qui espérait l'eau, voir les divergences.",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Farʿ (Sanad, d'après ash-Shāfiʿī, « وَهُوَ مُوَافِقٌ لِمَذْهَبِ مَالِكٍ ») : si une caravane qu'on pense pourvue d'eau arrive avant la prière, « فَيَجِبُ عَلَيْهِ سُؤَالُهُمْ إذَا طَلَعُوا عَلَيْهِ قَبْلَ شُرُوعِهِ » ; « فَإِنْ لَمْ يَجِدْ مَعَهُمْ وَجَبَ عَلَيْهِ أَنْ يُعِيدَ تَيَمُّمَهُ » ; de même s'il voit de l'eau, y va, et en est empêché.",
+      "Si la caravane arrive pendant la prière, « لَمْ يَقْطَعْ الصَّلَاةَ، وَلَوْ كَانَ مَعَهُمْ الْمَاءُ », d'après la Mudawwana.",
+      "Celui qui s'aperçoit de l'oubli après la prière relève du segment « وَنَاسٍ ذَكَرَ بَعْدَهَا » (fiche à venir)."
+    ],
+    divergences: [
+      "Divergence — celui qui espérait l'eau. Al-Ḥaṭṭāb rapporte aṭ-Ṭirāz (« فَهَذَا لَا يَبْعُدُ أَنْ يُقَالَ فِيهِ يَقْطَعُ »), sans le rejeter. Al-Dasūqī : « فَلَا يَقْطَعُ وَاحِدٌ مِنْهُمْ كَمَا هُوَ ظَاهِرُ النَّقْلِ خِلَافًا لِمَا قَالَهُ سَنَدٌ مِنْ قَطْعِ الرَّاجِي » ; « وَلَعَلَّهُ مَبْنِيٌّ عَلَى الْقَوْلِ بِأَنَّ تَأْخِيرَ الرَّاجِي لِآخِرِ الْوَقْتِ وَاجِبٌ لَا مَنْدُوبٌ », d'après son maître al-ʿAdawī. Muʿtamad : personne n'interrompt.",
+      "Concordance — celui qui avait oublié l'eau. Al-Ḥaṭṭāb (ash-Shāmil) : « وَاتَّسَعَ الْوَقْتُ ». Al-Dardīr : « فَإِنَّهَا تَبْطُلُ إنْ اتَّسَعَ الْوَقْتُ لِإِدْرَاكِ رَكْعَةٍ بَعْدَ اسْتِعْمَالِ الْمَاءِ وَإِلَّا فَلَا »."
+    ],
+    exemple: "Un voyageur a fait le tayammoum et commencé l'ʿaṣr quand une caravane arrive avec de l'eau : il poursuit sa prière. Un autre, en pleine prière, se souvient qu'il avait une outre pleine dans ses bagages : il reste largement le temps, il interrompt, fait ses ablutions et recommence.",
+    erreurs_frequentes: [
+      "Interrompre la prière parce que l'eau arrive pendant qu'on prie : c'est interdit selon Ibn al-ʿArabī.",
+      "Confondre celui qui trouve de l'eau nouvelle avec celui qui avait oublié la sienne : seul le second interrompt.",
+      "Interrompre pour l'eau oubliée alors que le temps ne permet plus les ablutions et une unité."
+    ],
+    termes: [
+      { ar: "قَطْعُ الصَّلَاةِ", translit: "qatʿou s-salât", def: "Interrompre une prière commencée, sans la terminer." },
+      { ar: "تَمَادِي", translit: "tamâdî", def: "Fait de poursuivre la prière commencée sans l'interrompre." },
+      { ar: "نَاسِي", translit: "nâsî", def: "Celui qui oublie : ici, celui qui avait de l'eau dans ses bagages et l'a oubliée." },
+      { ar: "رَكْب", translit: "rakb", def: "Caravane, groupe de voyageurs montés." },
+      { ar: "تَخْمِين", translit: "takhmîn", def: "Conjecture, estimation sans certitude." }
+    ],
+    quiz: [
+      { q: "Celui qui trouve l'eau pendant la prière, avec un temps encore large, que fait-il ?",
+        choix: ["Il interrompt et fait les ablutions", "Il poursuit sa prière", "Il recommence le tayammoum", "Il prie une seconde fois après"],
+        bonne: 1,
+        explication: "« فَإِنَّ ذَلِكَ لَا يُبْطِلُ تَيَمُّمَهُ وَلَوْ كَانَ الْوَقْتُ مُتَّسَعًا »." },
+      { q: "Selon Ibn al-ʿArabī, quel est le statut de l'interruption dans ce cas ?",
+        choix: ["Recommandée", "Permise", "Obligatoire", "Interdite"],
+        bonne: 3,
+        explication: "« بَلْ يَحْرُمُ عَلَيْهِ ذَلِكَ وَيَكُونُ عَاصِيًا إنْ فَعَلَ »." },
+      { q: "Pourquoi celui qui avait oublié l'eau dans ses bagages interrompt-il ?",
+        choix: ["Parce que l'eau est plus pure", "Parce que la prière est trop longue", "À cause de sa négligence", "Parce que le temps est sorti"],
+        bonne: 2,
+        explication: "« فَإِنَّهُ يَقْطَعُ الصَّلَاةَ لِتَفْرِيطِهِ »." },
+      { q: "Mise en situation : un homme qui espérait l'eau a fait le tayammoum à la fin du temps ; pendant la prière, l'eau arrive. Selon al-Dasūqī :",
+        choix: ["Il poursuit sa prière", "Il interrompt", "Il interrompt seulement s'il est en voyage", "Il refait le tayammoum"],
+        bonne: 0,
+        explication: "« فَلَا يَقْطَعُ وَاحِدٌ مِنْهُمْ كَمَا هُوَ ظَاهِرُ النَّقْلِ خِلَافًا لِمَا قَالَهُ سَنَدٌ مِنْ قَطْعِ الرَّاجِي »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "357" },
+    alertes: [
+      "Précisé (campagne de correction) : « قَالَ فِي التَّوْضِيحِ: وَيَحْرُمُ عَلَيْهِ قَطْعُ الصَّلَاةِ قَالَ ابْنُ الْعَرَبِيِّ » ; at-Tawḍīḥ (14442, p. 195) : « ابنُ العربي: ويَحْرُمُ عليه القَطْعُ. وخَرَّجَ اللخمي قولاً بالقَطْعِ مِن الأَمَةِ تَعْتِقُ وهي في الصلاةِ » : l'interdiction est d'Ibn al-ʿArabī, et le takhrīj d'al-Lakhmī part de cas voisins (n° 602).",
+      "Précisé (campagne de correction) : « وَكَذَلِكَ لَوْ رَأَى مَاءً فَقَصْدَهُ » : « فَقَصَدَهُ » (verbe) attendu ; al-Zurqānī (14297, p. 222) : « فقصده » ; non cité (n° 603).",
+      "Précisé : ash-Shāmil de Bahrām n'a pas été consulté ; ses mots sont donnés d'après Mawāhib.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 159 (Shamela 21604, page 158)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-09-45",
+    kitab: "tah", bab: "01", fasl: "09", ordre: 45,
+    titre: "Le négligent refait la prière dans le temps",
+    titre_ar: "وَيُعِيدُ الْمُقَصِّرُ فِي الْوَقْتِ",
+    objectif: "Savoir que celui qui a négligé de chercher l'eau comme il le devait, puis la trouve après la prière, refait sa prière tant que le temps choisi n'est pas sorti.",
+    matn: "وَيُعِيدُ الْمُقَصِّرُ فِي الْوَقْتِ",
+    regle_pratique: "Celui qui a cherché l'eau moins bien qu'il ne le devait, a fait le tayammoum et prié, puis trouve l'eau, refait sa prière s'il est encore dans le temps choisi ; cette reprise est recommandée.",
+    qualification: {
+      hukm: "mandub",
+      nature: "autre",
+      effet_si_omis: "La prière reste valide s'il ne la refait pas (segment suivant)."
+    },
+    explication: "Al-Ḥaṭṭāb : « هَذَا الْكَلَامُ كَأَنَّهُ تَرْجَمَةٌ » : Khalīl pose la règle générale, puis en donne les cas. « يَعْنِي أَنَّ كُلَّ مَنْ كَانَ مُقَصِّرًا فِي طَلَبِ الْمَاءِ فَحُكْمُهُ أَنْ يُعِيدَ فِي الْوَقْتِ ». Al-Dardīr : « أَيْ كُلُّ مُقَصِّرٍ صَلَاتَهُ نَدْبًا » ; al-Dasūqī : « وَالْمُرَادُ بِالْمُقَصِّرِ مَنْ قَصَّرَ عَنْ الطَّلَبِ الْمَأْمُورِ بِهِ », et le temps est le temps choisi : « فِي الْوَقْتِ أَيْ الْمُخْتَارِ ». Al-Ḥaṭṭāb ajoute sur la suite : « وَظَاهِرُ كَلَامِ الْمُصَنِّفِ سَوَاءٌ تَرَكَ الْإِعَادَةَ فِي الْوَقْتِ نَاسِيًا », ou volontairement ; la question est posée pour celui qui a oublié, « مَفْرُوضَةٌ فِي النَّاسِي وَالظَّاهِرُ أَنَّ الْعَامِدَ كَذَلِكَ ».",
+    aqwal: [
+      { auteur: "Khalīl, expliqué par al-Ḥaṭṭāb", avis: "Tout négligent dans la recherche de l'eau refait la prière dans le temps.", statut: "non_precise" },
+      { auteur: "Al-Muqaddimāt et Ibn al-Ḥājib (d'après at-Tawḍīḥ cité par al-Ḥaṭṭāb)", avis: "La question est posée pour celui qui a oublié de refaire ; celui qui ne l'a pas refaite exprès est dans le même cas.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : « (وَيُعِيدُ الْمُقَصِّرُ) أَيْ كُلُّ مُقَصِّرٍ صَلَاتَهُ نَدْبًا » ; al-Dasūqī : « فِي الْوَقْتِ أَيْ الْمُخْتَارِ ».",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Les cas de négligence sont énumérés ensuite : l'eau trouvée près de soi, dans ses bagages, etc. (segments 47 et suivants, fiches à venir)."
+    ],
+    divergences: [
+      "Complément — une reprise pour un acte recommandé. Al-Dasūqī (sur le segment 40) répond à l'objection que la reprise ferait croire à une obligation : « الْمَنْدُوبُ قَدْ تُعَادُ الصَّلَاةُ لِأَجْلِهِ فِي الْوَقْتِ ». Al-Ḥaṭṭāb ne traite pas l'objection ici."
+    ],
+    exemple: "Un voyageur jette un coup d'œil rapide autour de son campement, ne voit pas d'eau, fait le tayammoum et prie le ẓuhr. Peu après, il découvre une source à quelques pas, cachée par des rochers. Le temps du ẓuhr n'est pas sorti : il fait ses ablutions et refait sa prière.",
+    erreurs_frequentes: [
+      "Croire que le négligent doit refaire sa prière même après la fin du temps.",
+      "Croire que cette reprise est obligatoire : al-Dardīr la dit recommandée.",
+      "Appliquer la reprise à celui qui a bien cherché sans trouver, alors qu'elle vise le négligent."
+    ],
+    termes: [
+      { ar: "مُقَصِّر", translit: "mouqassir", def: "Le négligent : celui qui n'a pas cherché l'eau comme il le devait." },
+      { ar: "الإِعَادَةُ فِي الوَقْتِ", translit: "al-iʿâdatou fî l-waqt", def: "Refaire la prière seulement tant que son temps n'est pas sorti." }
+    ],
+    quiz: [
+      { q: "Selon al-Ḥaṭṭāb, que représente la phrase « وَيُعِيدُ الْمُقَصِّرُ فِي الْوَقْتِ » ?",
+        choix: ["Un cas isolé", "Une exception", "Une sorte de titre, suivi des cas", "Une phrase ajoutée par un copiste"],
+        bonne: 2,
+        explication: "« هَذَا الْكَلَامُ كَأَنَّهُ تَرْجَمَةٌ »." },
+      { q: "Quel est le degré de cette reprise selon al-Dardīr ?",
+        choix: ["Recommandée", "Obligatoire", "Interdite", "Déconseillée"],
+        bonne: 0,
+        explication: "« أَيْ كُلُّ مُقَصِّرٍ صَلَاتَهُ نَدْبًا »." },
+      { q: "De quel temps s'agit-il, selon al-Dasūqī ?",
+        choix: ["Du temps de la prière suivante", "De toute la journée", "Du temps de nécessité seulement", "Du temps choisi"],
+        bonne: 3,
+        explication: "« فِي الْوَقْتِ أَيْ الْمُخْتَارِ »." },
+      { q: "Mise en situation : une femme a cherché l'eau sans soin, prié avec le tayammoum, puis trouvé de l'eau tout près, après la fin du temps. Que fait-elle ?",
+        choix: ["Elle refait la prière", "Elle ne la refait pas", "Elle refait seulement le tayammoum", "Elle jeûne un jour"],
+        bonne: 1,
+        explication: "La reprise ne vaut que « فِي الْوَقْتِ », dans le temps choisi (al-Dasūqī)." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "357–358" },
+    alertes: [
+      "Non résolu : « وَالظَّاهِرُ أَنَّ الْعَامِدَ كَذَلِكَ كَمَا يُفْهَمُ مِنْ تَعْلِيلِ الْمَسْأَلَةِ ذَكَرَهُ فِي التَّوْضِيحِ » : la phrase n'est pas dans les pages lues d'at-Tawḍīḥ (14442, p. 180–225) ; son raisonnement sur Ibn Ḥabīb (p. 199) va dans ce sens ; al-Dasūqī la reprend (« كَمَا ذَكَرَهُ فِي التَّوْضِيحِ اُنْظُرْ بْن ») et al-Zurqānī (14297, p. 222) a « سهوًا كعامد فيما يظهر قاله الشيخ سالم » ; sans effet sur la règle (n° 605).",
+      "Précisé (campagne de correction) : matn « وَيُعِيدُ الْمُقَصِّرُ » (« ص », Mukhtaṣar seul, al-Dardīr) ; Ibn Ghāzī (14605, p. 49) vocalise « الْمُقَصِّرَ », faute d'édition ; « ص » gardé (n° 606).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 159 (Shamela 21604, page 158)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-09-46",
+    kitab: "tah", bab: "01", fasl: "09", ordre: 46,
+    titre: "La prière reste valide si on ne la refait pas",
+    titre_ar: "وَصَحَّتْ إنْ لَمْ يُعِدْ",
+    objectif: "Savoir que celui à qui l'on demande de refaire sa prière dans le temps garde une prière valide s'il ne l'a pas refaite, contre l'avis d'Ibn Ḥabīb.",
+    matn: "وَصَحَّتْ إنْ لَمْ يُعِدْ",
+    regle_pratique: "Celui à qui il était demandé de refaire sa prière dans le temps et qui ne l'a pas fait garde une prière valide : il n'a pas à la refaire après la fin du temps.",
+    qualification: {
+      hukm: "mandub",
+      nature: "autre",
+      effet_si_omis: "Aucune reprise après le temps, selon l'avis répandu ; Ibn Ḥabīb fait refaire."
+    },
+    explication: "Al-Bisāṭī jugeait ces mots inutiles : « قَالَ الْبِسَاطِيُّ: هَذَا مُسْتَغْنًى عَنْهُ », la reprise dans le temps supposant déjà la validité. Al-Ḥaṭṭāb répond : « بَلْ ذَكَرَهُ لِيُنَبِّهَ عَلَى الْمَشْهُورِ فِي الْمَسْأَلَةِ », car celui qui devait refaire dans le temps et ne l'a pas fait fait l'objet d'un désaccord : « فَالْمَشْهُورُ لَا إعَادَةَ عَلَيْهِ وَقَالَ ابْنُ حَبِيبٍ: يُعِيدُ ». Ibn al-Ḥājib l'énonce en règle générale : « وَكُلُّ مَنْ أُمِرَ أَنْ يُعِيدَ فِي الْوَقْتِ فَنَسِيَ بَعْدَ أَنْ ذَكَرَ لَمْ يُعِدْ بَعْدَهُ ».",
+    aqwal: [
+      { auteur: "Avis répandu (al-Ḥaṭṭāb) ; Ibn al-Ḥājib", avis: "Pas de reprise après le temps.", statut: "mashhur" },
+      { auteur: "Ibn Ḥabīb", avis: "Il refait la prière (al-Dasūqī : « يُعِيدُ أَبَدًا وُجُوبًا »).", statut: "qawl" },
+      { auteur: "Al-Bisāṭī", avis: "Ces mots du matn sont superflus.", statut: "qawl" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : « (وَصَحَّتْ) الصَّلَاةُ (إنْ لَمْ يُعِدْ) وَهَذَا تَصْرِيحٌ بِمَا عَلِمَ الْتِزَامًا » ; al-Dasūqī : « وَإِنَّمَا صَرَّحَ بِذَلِكَ لِلرَّدِّ عَلَى ابْنِ حَبِيبٍ ».",
+    tarjih_hattab: "Contre al-Bisāṭī : « لَيْسَ بِمُسْتَغْنًى عَنْهُ بَلْ ذَكَرَهُ لِيُنَبِّهَ عَلَى الْمَشْهُورِ فِي الْمَسْأَلَةِ ».",
+    tanbihat: [
+      "La règle vaut pour « tous » ceux à qui l'on demande une reprise dans le temps (Ibn al-Ḥājib : « وَكُلُّ مَنْ أُمِرَ »)."
+    ],
+    divergences: [
+      "Concordance — la raison de ces mots. Al-Ḥaṭṭāb : répondre au désaccord d'Ibn Ḥabīb. Al-Dasūqī : « وَإِنَّمَا صَرَّحَ بِذَلِكَ لِلرَّدِّ عَلَى ابْنِ حَبِيبٍ الْقَائِلِ إنَّ تَارِكَ الْإِعَادَةِ فِي الْوَقْتِ وَلَوْ نَاسِيًا يُعِيدُ أَبَدًا وُجُوبًا »."
+    ],
+    exemple: "Un voyageur négligent devait refaire son ʿaṣr avant le coucher du soleil ; il l'a oublié et s'en souvient la nuit. Sa prière reste valide : il ne la refait pas.",
+    erreurs_frequentes: [
+      "Croire que la prière devient nulle si l'on n'a pas fait la reprise demandée dans le temps.",
+      "Refaire la prière après le temps en pensant suivre l'avis répandu : c'est l'avis d'Ibn Ḥabīb.",
+      "Penser que ces mots du matn ne servent à rien (al-Bisāṭī) : al-Ḥaṭṭāb montre qu'ils signalent l'avis répandu."
+    ],
+    termes: [
+      { ar: "الإِعَادَةُ فِي الوَقْتِ", translit: "al-iʿâdatou fî l-waqt", def: "Refaire la prière seulement tant que son temps n'est pas sorti." },
+      { ar: "الإِعَادَةُ أَبَدًا", translit: "al-iʿâdatou abadan", def: "Refaire la prière même après la fin de son temps." }
+    ],
+    quiz: [
+      { q: "Celui qui devait refaire sa prière dans le temps ne l'a pas refaite. Sa prière est-elle valide ?",
+        choix: ["Oui, selon l'avis répandu", "Non, elle est nulle", "Seulement s'il était malade", "Seulement en voyage"],
+        bonne: 0,
+        explication: "« فَالْمَشْهُورُ لَا إعَادَةَ عَلَيْهِ »." },
+      { q: "Qui fait refaire la prière dans ce cas ?",
+        choix: ["Ibn al-Ḥājib", "Al-Bisāṭī", "Ibn Ḥabīb", "Al-Dardīr"],
+        bonne: 2,
+        explication: "« وَقَالَ ابْنُ حَبِيبٍ: يُعِيدُ »." },
+      { q: "Pourquoi Khalīl a-t-il écrit « وَصَحَّتْ إنْ لَمْ يُعِدْ », selon al-Ḥaṭṭāb ?",
+        choix: ["Par erreur", "Pour annoncer un nouveau chapitre", "Pour imposer une reprise après le temps", "Pour signaler l'avis répandu"],
+        bonne: 3,
+        explication: "« بَلْ ذَكَرَهُ لِيُنَبِّهَ عَلَى الْمَشْهُورِ فِي الْمَسْأَلَةِ »." },
+      { q: "Mise en situation : une femme devait refaire son ẓuhr dans le temps ; elle s'en souvient le soir. Que fait-elle, selon l'avis répandu ?",
+        choix: ["Elle refait le ẓuhr", "Elle ne le refait pas : sa prière est valide", "Elle refait aussi l'ʿaṣr", "Elle refait le tayammoum seulement"],
+        bonne: 1,
+        explication: "Ibn al-Ḥājib : « لَمْ يُعِدْ بَعْدَهُ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "358" },
+    alertes: [
+      "Précisé : la règle d'Ibn al-Ḥājib citée par al-Ḥaṭṭāb est retrouvée mot pour mot dans at-Tawḍīḥ (14442, p. 199), avec la critique de Khalīl : « في قولِ ابنِ حبيبٍ نظرٌ ».",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 159 (Shamela 21604, page 158)."
+    ],
+    verification: "verifie"
   }
-/* FIN-UNITE-68 */
+/* FIN-UNITE-69 */
 ]);
