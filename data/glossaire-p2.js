@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.71
+/* Données — Glossaire, partie 2 — v1.72
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -46,7 +46,8 @@
    v1.68 : 12 termes de l'unité 64 (tah-01-09-17a à -20).
    v1.69 : 13 termes de l'unité 65 (tah-01-09-21 à -23d).
    v1.70 : 12 termes de l'unité 66 (tah-01-09-24a à -27).
-   v1.71 : 18 termes de l'unité 67 (tah-01-09-28a à -33). */
+   v1.71 : 18 termes de l'unité 67 (tah-01-09-28a à -33).
+   v1.72 : 16 termes de l'unité 68 (tah-01-09-34a à -40). */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
   { ar: "ذَيْل", translit: "dhayl", def: "Pan, bas d'un vêtement qui traîne vers le sol." },
@@ -544,6 +545,23 @@ App.data.ajouterTermes([
   { ar: "آجُرّ", translit: "âjourr", def: "Brique cuite." },
   { ar: "مَعْدِن", translit: "maʿdin", def: "Gisement, mine ; par extension, le minéral resté dans son gisement." },
   { ar: "يَاقُوت", translit: "yâqoût", def: "Rubis, pierre précieuse." },
-  { ar: "رُخَام", translit: "roukhâm", def: "Marbre." }
+  { ar: "رُخَام", translit: "roukhâm", def: "Marbre." },
+  /* Unité 68 — tah-01-09-34a à -40 */
+  { ar: "شَبّ", translit: "chabb", def: "Alun : minéral cité avec le sel ; il vaut dans son gisement." },
+  { ar: "كِبْرِيت", translit: "kibrît", def: "Soufre." },
+  { ar: "عَقَاقِير", translit: "ʿaqâqîr", def: "Drogues, simples vendus par l'herboriste ; le minéral transporté leur est assimilé." },
+  { ar: "مَغْرَة", translit: "maghra", def: "Ocre rouge, terre colorée ; on fait le tayammoum dessus." },
+  { ar: "مِلْح", translit: "milh", def: "Sel ; le sel de mine se distingue du sel fabriqué." },
+  { ar: "حَائِط", translit: "hâ'it", def: "Mur." },
+  { ar: "لَبِن", translit: "labin", def: "Brique crue, séchée au soleil (non cuite)." },
+  { ar: "بِسَاط", translit: "bisât", def: "Tapis, étoffe étendue sur le sol." },
+  { ar: "غُبَار", translit: "ghoubâr", def: "Poussière fine." },
+  { ar: "خَشَب", translit: "khachab", def: "Bois ; ici, selon al-Ḥaṭṭāb, ce qui pousse sur le sol (arbres, palmiers)." },
+  { ar: "حَشِيش", translit: "hachîch", def: "Herbe, plantes qui couvrent le sol." },
+  { ar: "حَلْفَاء", translit: "halfâ'", def: "Alfa : graminée des steppes." },
+  { ar: "آيِس", translit: "âyis", def: "Celui qui désespère : il sait, ou pense fortement, qu'il n'aura pas d'eau avant la fin du temps." },
+  { ar: "مُتَرَدِّد", translit: "moutaraddid", def: "Celui qui hésite : il doute de trouver l'eau ou de l'atteindre dans le temps." },
+  { ar: "مَسْجُون", translit: "masjoûn", def: "Prisonnier." },
+  { ar: "رَاجِي", translit: "râjî", def: "Celui qui espère : il sait, ou pense fortement, qu'il aura de l'eau avant la fin du temps." }
 /* FIN-GLOSSAIRE */
 ]);

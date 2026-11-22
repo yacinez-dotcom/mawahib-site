@@ -107,7 +107,8 @@
    v1.58 : matn de -21 complété (« لَا ثَمَنٍ », n° 535) ; -22b ajouté (segment absent du « ص », n° 537) ; tah-01-09-23 découpé en -23a à -23d,
           « تَوَهَّمَهُ » corrigé (n° 539) (unité 65).
    v1.59 : tah-01-09-24 découpé en -24a à -24c ; titres de 25 à 27 précisés (unité 66).
-   v1.60 : tah-01-09-28 découpé en -28a et -28b ; titres de 30 à 33 précisés (unité 67). */
+   v1.60 : tah-01-09-28 découpé en -28a et -28b ; titres de 30 à 33 précisés (unité 67).
+   v1.61 : tah-01-09-34 découpé en -34a et -34b ; titre_ar de 34, 37 et 38 corrigés (n° 577, 586, 588) ; titres de 35 à 40 précisés (unité 68). */
 App.data.definirPlan({
   kutub: [
     {
@@ -714,13 +715,14 @@ App.data.definirPlan({
                 { id: "tah-01-09-31", titre: "Sur la boue : poser les mains légèrement, les laisser sécher", titre_ar: "وَفِيهَا جَفَّفَ يَدَيْهِ رُوِيَ بِجِيمٍ وَخَاءٍ" }, /* p. 352 */
                 { id: "tah-01-09-32", titre: "Le gypse non cuit", titre_ar: "وَجِصٍّ لَمْ يُطْبَخْ" }, /* p. 352 */
                 { id: "tah-01-09-33", titre: "Les minéraux, sauf l'or, l'argent et les pierres précieuses", titre_ar: "وَبِمَعْدِنٍ غَيْرِ نَقْدٍ وَجَوْهَرٍ" }, /* p. 352–353 (v1.60) */
-                { id: "tah-01-09-34", titre: "Matière transportée (alun, sel)", titre_ar: "وَمَنْقُولٌ كَشَبٍّ وَمِلْحٍ" }, /* p. 353 */
-                { id: "tah-01-09-35", titre: "Malade : mur de briques crues ou pierre", titre_ar: "وَلِمَرِيضٍ حَائِطُ لَبِنٍ، أَوْ حَجَرٌ" }, /* p. 354 */
-                { id: "tah-01-09-36", titre: "Pas la natte ni le bois", titre_ar: "لَا بِحَصِيرٍ وَخَشَبٍ" }, /* p. 354 */
-                { id: "tah-01-09-37", titre: "Le faire dans le temps", titre_ar: "وَفَعَلَهُ فِي الْوَقْتِ" }, /* p. 355 */
-                { id: "tah-01-09-38", titre: "Qui désespère de l'eau : début du temps choisi", titre_ar: "فَالْآيِسُ أَوَّلُ الْمُخْتَارِ" }, /* p. 355 */
-                { id: "tah-01-09-39", titre: "Qui hésite : le milieu", titre_ar: "وَالْمُتَرَدِّدُ فِي لُحُوقِهِ، أَوْ وُجُودِهِ وَسَطَهُ" }, /* p. 355 */
-                { id: "tah-01-09-40", titre: "Qui espère : la fin", titre_ar: "وَالرَّاجِي آخِرَهُ" }, /* p. 356 */
+                { id: "tah-01-09-34a", titre: "Le minéral transporté : l'alun, le soufre, l'arsenic", titre_ar: "وَمَنْقُولٍ كَشَبٍّ" }, /* p. 353–354 ; « وَمَنْقُولٍ » (n° 577, v1.61) */
+                { id: "tah-01-09-34b", titre: "Le sel", titre_ar: "وَمِلْحٍ" }, /* p. 353 ; sous-fiche de 34 (v1.61) */
+                { id: "tah-01-09-35", titre: "Le mur de briques crues ou de pierre", titre_ar: "وَلِمَرِيضٍ حَائِطُ لَبِنٍ، أَوْ حَجَرٌ" }, /* p. 354 */
+                { id: "tah-01-09-36", titre: "Pas sur la natte ni sur le bois ; l'herbe", titre_ar: "لَا بِحَصِيرٍ وَخَشَبٍ" }, /* p. 354–355 (v1.61) */
+                { id: "tah-01-09-37", titre: "Faire le tayammoum dans le temps de la prière", titre_ar: "وَفِعْلُهُ فِي الْوَقْتِ" }, /* p. 355 ; « وَفِعْلُهُ » (n° 586, v1.61) */
+                { id: "tah-01-09-38", titre: "Qui désespère de l'eau : au début du temps choisi", titre_ar: "فَالْآيِسُ أَوَّلَ الْمُخْتَارِ" }, /* p. 355 ; « أَوَّلَ » (n° 588, v1.61) */
+                { id: "tah-01-09-39", titre: "Qui hésite : au milieu du temps", titre_ar: "وَالْمُتَرَدِّدُ فِي لُحُوقِهِ، أَوْ وُجُودِهِ وَسَطَهُ" }, /* p. 355 */
+                { id: "tah-01-09-40", titre: "Qui espère l'eau : à la fin du temps", titre_ar: "وَالرَّاجِي آخِرَهُ" }, /* p. 356 */
                 { id: "tah-01-09-41", titre: "Mudawwana : retarder le maghrib jusqu'au crépuscule", titre_ar: "وَفِيهَا تَأْخِيرُ الْمَغْرِبِ لِلشَّفَقِ" }, /* p. 356 */
                 { id: "tah-01-09-42", titre: "Sunna : ordre, jusqu'aux coudes, seconde frappe", titre_ar: "وَسُنَّ تَرْتِيبُهُ وَإِلَى الْمِرْفَقَيْنِ وَتَجْدِيدُ ضَرْبَةٍ …" }, /* p. 356 */
                 { id: "tah-01-09-43", titre: "Recommandé : la basmala", titre_ar: "وَنُدِبَ تَسْمِيَةٌ" }, /* p. 356 */
