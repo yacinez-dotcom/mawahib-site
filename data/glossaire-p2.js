@@ -50,7 +50,7 @@
    v1.72 : 16 termes de l'unité 68 (tah-01-09-34a à -40).
    v1.73 : 11 termes de l'unité 69 (tah-01-09-41 à -46).
    v1.74 : 9 termes de l'unité 70 (tah-01-09-47 à -50c).
-   v1.75 : 10 termes de l'unité 71 (tah-01-09-51 à -53).
+   v1.75 : 9 termes de l'unité 71 (tah-01-09-51 à -53).
 */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
@@ -593,7 +593,6 @@ App.data.ajouterTermes([
   { ar: "حُقْنَةٌ خَفِيفَةٌ", translit: "houqnatoun khafîfa", def: "Légère envie d'uriner qu'on retient ; ici, حُقْنَة ne désigne pas le lavement." },
   { ar: "عَنَت", translit: "ʿanat", def: "Grave difficulté ; ici, la crainte de tomber dans l'illicite par manque de rapport." },
   { ar: "مَنْسِيَّة", translit: "mansiyya", def: "Prière oubliée, qu'on doit rattraper." },
-  { ar: "غُسْلُ الْمَيِّتِ", translit: "ghouslou l-mayyit", def: "Lavage rituel du défunt." },
   { ar: "قِيمَة", translit: "qîma", def: "Valeur d'une chose, payée en argent." },
   { ar: "مِثْلِيّ", translit: "mithliyy", def: "Bien fongible : il se remplace par un bien de même espèce et de même quantité." },
   { ar: "مُقَاوَمَة", translit: "mouqâwama", def: "Mise aux enchères d'un bien commun entre ses copropriétaires." },

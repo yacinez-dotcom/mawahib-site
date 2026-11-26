@@ -1,6 +1,6 @@
 # Rapport de vérification — Ṭahāra, unité 71 (tah-01-09-51 à -53 et synthèse) et audit de fin de faṣl tah-01-09
 
-Date : 2026-11-26. Fichier : `data/lecons/tah/tah-01-p34.js` v20.1 (5 fiches et la synthèse tah-01-09-syn, marque `/* FIN-UNITE-71 */` ; ≈ 116 Ko) ; `tah-01-p33.js` v19.3 (fiche 36 complétée par l'audit). Plan : `data/plan.js` v1.64 (51b ajouté ; 52 découpé en 52a et 52b ; titre_ar de 53 corrigé ; faṣl tah-01-09 : 60 segments). Termes : `data/glossaire-p2.js` v1.75 (10 termes). Anomalies : n° 620 à 630 (`docs/sources/anomalies-textes-2.md`).
+Date : 2026-11-26. Fichier : `data/lecons/tah/tah-01-p34.js` v20.1 (5 fiches et la synthèse tah-01-09-syn, marque `/* FIN-UNITE-71 */` ; ≈ 116 Ko) ; `tah-01-p33.js` v19.3 (fiche 36 complétée par l'audit). Plan : `data/plan.js` v1.64 (51b ajouté ; 52 découpé en 52a et 52b ; titre_ar de 53 corrigé ; faṣl tah-01-09 : 60 segments). Termes : `data/glossaire-p2.js` v1.75 (9 termes). Anomalies : n° 620 à 630 (`docs/sources/anomalies-textes-2.md`).
 
 ## Unité
 
@@ -23,7 +23,7 @@ Comparaison du « ص » avec le Mukhtaṣar seul (11355, p. 23), Ibn Ghāzī (14
 2. **Attributions.** Noms vérifiés dans 569/358–360 : aṭ-Ṭirāz, la Mudawwana, Abū l-Ḥasan et Abū Muḥammad Ṣāliḥ, l'ʿUtbiyya (samāʿ de Mūsā ; Ibn ʿArafa : de ʿĪsā, n° 622), Ibn al-Qāsim, « الْقَاضِي » (n° 623), Ibn al-ʿArabī et les six avis (Mālik et Ibn Nāfiʿ, Ibn al-Qāsim, Ashhab et ash-Shāfiʿī, Aṣbagh, al-Qābisī), at-Tawḍīḥ, Ibn ʿArafa, al-Lakhmī, al-Madkhal, Ibn Farḥūn, as-Suyūrī, al-Burzulī. Chez al-Dasūqī : Ibn Rushd, Ṭfā (ar-Rammāṣī), « خش » (al-Kharashī). Témoins : at-Tawḍīḥ et Ibn ʿArafa donnent les mêmes auteurs pour les quatre avis (n° 628).
 3. **Statuts.** « عَلَى الْمَشْهُورِ » (Ibn al-Ḥājib, témoin) → `mashhur` (51b) ; « لا مِثْلَهُ عَلَى الأَصَحِّ » (Ibn al-Ḥājib) → `rajih` (52b) ; « وَالْأَظْهَرُ قَوْلُ أَشْهَبَ » (Ibn al-ʿArabī) → `rajih` (53) ; Ibn al-Qāsim, Aṣbagh, al-Qābisī → `qawl` ; les autres `non_precise`. Muʿtamad : 51 réprobation (« أَيْ كُرِهَ عَلَى الْمُعْتَمَدِ », al-Dardīr ; Ṭfā « وَهُوَ الْمُعْتَمَدُ ») ; 53 avis de Mālik (al-Dasūqī « قَوْلُ مَالِكٍ » ; témoin al-Zurqānī « وهو المذهب ») ; 51b, 52a, 52b confirmés par al-Dardīr. Qualifications : 51 `makruh` / `autre`, 51b `wajib` / `shart`, 52a et 52b `wajib` / `autre`, 53 `mubah` / `shart` (l'obligation tombe selon le matn).
 4. **Croisement.** Points à comparer : le degré de l'« interdiction » (51 : « وَمُنِعَ » contre « كُرِهَ عَلَى الْمُعْتَمَدِ ») ; le geste du tayammoum et l'avis le plus fort (53 : al-Qābisī et al-Madkhal contre la lettre d'al-Dardīr ; Ashhab chez Ibn al-ʿArabī contre Mālik chez al-Dardīr). Concordances : 51b, 52a, 52b (al-Ḥaṭṭāb ne traite ni la soif ni l'équivalent : complément).
-5. **Langue.** Matn vocalisé d'après le « ص » (51, 52a, 53) et d'après al-Dardīr, Ibn Ghāzī et al-Kharashī (51b, 52b). 10 termes nouveaux : حُقْنَةٌ خَفِيفَةٌ (le glossaire a déjà حُقْنَة au sens de lavement ; expression distincte pour éviter une infobulle fausse), عَنَت, مَنْسِيَّة, غُسْلُ الْمَيِّتِ, قِيمَة, مِثْلِيّ, مُقَاوَمَة, إِيمَاء, مَرْبُوط, شَرْطُ أَدَاءٍ.
+5. **Langue.** Matn vocalisé d'après le « ص » (51, 52a, 53) et d'après al-Dardīr, Ibn Ghāzī et al-Kharashī (51b, 52b). 9 termes nouveaux : حُقْنَةٌ خَفِيفَةٌ (le glossaire a déjà حُقْنَة au sens de lavement ; expression distincte pour éviter une infobulle fausse), عَنَت, مَنْسِيَّة, قِيمَة ; غَسْلُ الْمَيِّتِ repris avec la définition du glossaire, مِثْلِيّ, مُقَاوَمَة, إِيمَاء, مَرْبُوط, شَرْطُ أَدَاءٍ.
 6. **Compréhension.** Chaque `regle_pratique` se lit seule ; 53 annonce l'avis du matn puis signale l'existence des autres avis.
 
 **Résultat** : les cinq fiches passent à `verifie` (aucune alerte bloquante). Alertes : n° 624 (corrigé) ; n° 620, 621 (limites du texte) ; n° 630 (non résolu, sans effet) ; les autres précisés. Le vers cité par al-Ḥaṭṭāb (53) n'est pas reproduit.
@@ -35,9 +35,9 @@ Les 20 questions des fiches et les 8 de la synthèse relues avec `quizdump.js` ;
 ## Contrôles techniques
 
 - `node --check` : `tah-01-p34.js`, `tah-01-p33.js`, `glossaire-p2.js`, `plan.js` sans erreur.
-- `node docs/outils/verif.js data/glossaire.js data/glossaire-p2.js data/lecons/tah/tah-01-p34.js data/lecons/tah/tah-01-p33.js` : 0 erreur, 0 doublon, 1 021 termes.
+- `node docs/outils/verif.js data/glossaire.js data/glossaire-p2.js data/lecons/tah/tah-01-p34.js data/lecons/tah/tah-01-p33.js` : 0 erreur, 0 doublon, 1 020 termes.
 - Quiz, tout le cours (`quizstat.js`) : A 533 | B 533 | C 533 | D 533.
-- `controle_site.py` sur le dépôt complet : 525 fiches hors synthèses, 1 021 termes, 0 erreur, 0 anomalie.
+- `controle_site.py` sur le dépôt complet : 525 fiches hors synthèses, 1 020 termes, 0 erreur, 0 anomalie.
 
 ## Audit de fin de faṣl tah-01-09
 

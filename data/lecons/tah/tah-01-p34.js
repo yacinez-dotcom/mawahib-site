@@ -712,7 +712,7 @@ App.data.ajouterFiches([
       "Croire que le mort passe avant parce qu'il est mort : c'est parce que l'eau est à lui."
     ],
     termes: [
-      { ar: "غُسْلُ الْمَيِّتِ", translit: "ghouslou l-mayyit", def: "Lavage rituel du défunt." }
+      { ar: "غَسْلُ الْمَيِّتِ", translit: "ghaslou l-mayyit", def: "Lavage mortuaire : lavage rituel du corps du défunt, fait par un autre que lui." }
     ],
     quiz: [
       { q: "Pourquoi le mort propriétaire de l'eau passe-t-il avant le junub vivant, selon al-Dardīr ?",
