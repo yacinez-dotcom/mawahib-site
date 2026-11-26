@@ -1,4 +1,4 @@
-/* Données — Glossaire, partie 2 — v1.74
+/* Données — Glossaire, partie 2 — v1.75
    Suite de data/glossaire.js (v1.26, inchangé), chargée après lui par data/manifeste.js. Le socle (B0) réunit les termes
    de toutes les parties ; un terme déjà défini dans une partie précédente est signalé et ignoré.
    v1.27 : 10 termes de l'unité 23 (tah-01-03-20 à -25), fusionnés depuis docs/travail/unite23-glossaire.js ; partie créée
@@ -50,6 +50,7 @@
    v1.72 : 16 termes de l'unité 68 (tah-01-09-34a à -40).
    v1.73 : 11 termes de l'unité 69 (tah-01-09-41 à -46).
    v1.74 : 9 termes de l'unité 70 (tah-01-09-47 à -50c).
+   v1.75 : 10 termes de l'unité 71 (tah-01-09-51 à -53).
 */
 App.data.ajouterTermes([
   /* Unité 23 — tah-01-03-20 à -25 */
@@ -587,6 +588,17 @@ App.data.ajouterTermes([
   { ar: "صَاحِبُ التَّوَسُّطِ", translit: "sâhibou t-tawassout", def: "Celui dont le tayammoum se fait au milieu du temps choisi (celui qui hésite, et ceux qui lui sont assimilés)." },
   { ar: "مُصَابُ بَوْلٍ", translit: "mousâbou bawl", def: "Endroit touché par de l'urine (ou par une autre impureté)." },
   { ar: "مَشْكُوك", translit: "machkoûk", def: "Ce dont on doute : ici, une impureté dont on ne sait pas si elle a touché le sol." },
-  { ar: "مُحَقَّق", translit: "mouhaqqaq", def: "Ce qui est certain : ici, une impureté dont on sait qu'elle a touché le sol." }
+  { ar: "مُحَقَّق", translit: "mouhaqqaq", def: "Ce qui est certain : ici, une impureté dont on sait qu'elle a touché le sol." },
+  /* Unité 71 — tah-01-09-51 à -53 */
+  { ar: "حُقْنَةٌ خَفِيفَةٌ", translit: "houqnatoun khafîfa", def: "Légère envie d'uriner qu'on retient ; ici, حُقْنَة ne désigne pas le lavement." },
+  { ar: "عَنَت", translit: "ʿanat", def: "Grave difficulté ; ici, la crainte de tomber dans l'illicite par manque de rapport." },
+  { ar: "مَنْسِيَّة", translit: "mansiyya", def: "Prière oubliée, qu'on doit rattraper." },
+  { ar: "غُسْلُ الْمَيِّتِ", translit: "ghouslou l-mayyit", def: "Lavage rituel du défunt." },
+  { ar: "قِيمَة", translit: "qîma", def: "Valeur d'une chose, payée en argent." },
+  { ar: "مِثْلِيّ", translit: "mithliyy", def: "Bien fongible : il se remplace par un bien de même espèce et de même quantité." },
+  { ar: "مُقَاوَمَة", translit: "mouqâwama", def: "Mise aux enchères d'un bien commun entre ses copropriétaires." },
+  { ar: "إِيمَاء", translit: "îmâ'", def: "Geste qui figure un acte qu'on ne peut accomplir (s'incliner vers le sol pour le tayammoum ou la prosternation)." },
+  { ar: "مَرْبُوط", translit: "marboût", def: "Personne attachée, ligotée." },
+  { ar: "شَرْطُ أَدَاءٍ", translit: "chartou adâ'", def: "Condition d'accomplissement : exigée pour faire l'acte, sans que l'obligation en dépende." }
 /* FIN-GLOSSAIRE */
 ]);

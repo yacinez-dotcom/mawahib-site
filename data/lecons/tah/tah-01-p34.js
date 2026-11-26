@@ -1,7 +1,10 @@
-/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 34 — v20.0
+/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 34 — v20.1
    Source : Mawāhib al-Jalīl, al-Ḥaṭṭāb, éd. Dār al-Fikr, 3e éd., 1412 H / 1992, tome 1 (shamela.ws/book/569).
    Croisement : al-Sharḥ al-kabīr d'al-Dardīr et Ḥāshiyat al-Dasūqī (shamela.ws/book/21604), tome 1.
    Cette partie : faṣl tah-01-09 (le tayammoum), à partir de tah-01-09-47 (unité 70) — t. 1, p. 358 et suivantes.
+   v20.1 : unité 71 — tah-01-09-51, -51b, -52a, -52b, -53 et synthèse tah-01-09-syn (Mawāhib, t. 1, p. 359–361 ; al-Dardīr /
+          al-Dasūqī, t. 1, p. 161–162) (2026-11-26) ; fin du faṣl tah-01-09 ; 51b et 52b d'après al-Dardīr (segments absents
+          du « ص ») ; « مَاءٍ » corrigé (fiche 53) ; anomalies n° 620 à 630 ; alerte de 50b (n° 619) corrigée (audit de fin de faṣl).
    v20.0 : unité 70 — tah-01-09-47, -48, -48b, -48c, -49, -50, -50b, -50c (Mawāhib, t. 1, p. 358–359 ; al-Dardīr /
           al-Dasūqī, t. 1, p. 159–161) (2026-11-22) ; nouvelle partie, tah-01-p33.js (≈ 134 Ko) étant figée ; 48b, 48c,
           50b et 50c d'après al-Dardīr (segments absents du « ص ») ; « ابْنُ رُشْدٍ » lu Ibn Rāshid d'après at-Tawḍīḥ
@@ -464,7 +467,7 @@ App.data.ajouterFiches([
     ref: { ouvrage: "al-Sharḥ al-kabīr (al-Dardīr)", tome: 1, pages: "160–161" },
     alertes: [
       "Limite du texte : segment « كَمُقْتَصِرٍ عَلَى كُوعَيْهِ لَا عَلَى ضَرْبَةٍ » absent du « ص » de Mawāhib, qui passe de « وَنَاسٍ ذَكَرَ بَعْدَهَا » à « وَمُنِعَ مَعَ عَدَمِ مَاءٍ » (569/358) ; présent dans le Mukhtaṣar seul (11355, p. 23), chez Ibn Ghāzī (14605, p. 49), al-Kharashī (91, p. 197) et al-Dardīr (21604/159) ; Mawāhib 569/324–361 relu : al-Ḥaṭṭāb ne traite pas cette reprise ; fiche rédigée d'après al-Dardīr, `ref` sur al-Dardīr (n° 616).",
-      "Non résolu : at-Tawḍīḥ (14442, p. 209) imprime « لابنِ ناقعٍ » ; lu Ibn Nāfiʿ (coquille probable), non vérifié sur un autre témoin ; sans effet sur la règle (n° 619).",
+      "Corrigé : at-Tawḍīḥ (14442, p. 209) imprime « لابنِ ناقعٍ » ; lu Ibn Nāfiʿ, confirmé par Ibn ʿArafa (16968, p. 109) : « ابن نافع ابدا » (audit de fin de faṣl, unité 71) ; sans effet sur la règle (n° 619).",
       "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 160–161 (Shamela 21604, pages 159–160)."
     ],
     verification: "verifie"
@@ -539,6 +542,385 @@ App.data.ajouterFiches([
       "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 160–161 (Shamela 21604, pages 159–160)."
     ],
     verification: "verifie"
-  }
+  },
   /* FIN-UNITE-70 */
+  /* ================================================================== */
+  /* Unité 71 — tah-01-09-51 à -53 et synthèse tah-01-09-syn (fin du faṣl) */
+  /* Mawāhib, t. 1, p. 359–361 (Shamela 569/358–360) ; al-Dardīr / al-Dasūqī, t. 1, p. 161–162 (Shamela 21604/160–161) */
+  {
+    id: "tah-01-09-51",
+    kitab: "tah", bab: "01", fasl: "09", ordre: 51,
+    titre: "Sans eau : le baiser et le rapport, sauf longue durée",
+    titre_ar: "وَمُنِعَ مَعَ عَدَمِ مَاءٍ تَقْبِيلُ مُتَوَضِّئٍ …",
+    objectif: "Savoir que, sans eau, on évite de perdre ses ablutions par un baiser, ou sa pureté majeure par un rapport, sauf si l'attente est longue et nuisible.",
+    matn: "وَمُنِعَ مَعَ عَدَمِ مَاءٍ تَقْبِيلُ مُتَوَضِّئٍ، وَجِمَاعُ مُغْتَسِلٍ، إلَّا لِطُولٍ",
+    regle_pratique: "Celui qui n'a pas d'eau évite de perdre ses ablutions par un baiser (ou un autre annulatif qu'il peut retenir), et celui qui est en état de pureté majeure évite le rapport conjugal, sauf si l'attente est longue et lui cause un tort ; selon al-Dardīr, cette « interdiction » est une réprobation.",
+    qualification: {
+      hukm: "makruh",
+      nature: "autre",
+      effet_si_omis: "S'il le fait quand même, il fait le tayammoum : « وَلَا خِلَافَ أَنَّهُ إنْ فَعَلَ ذَلِكَ تَيَمَّمَ » (aṭ-Ṭirāz, d'après al-Ḥaṭṭāb)."
+    },
+    explication: "Al-Ḥaṭṭāb : « تَصَوُّرُهُ ظَاهِرٌ ». Al-Dardīr lit le mot « interdit » comme une réprobation : « أَيْ كُرِهَ عَلَى الْمُعْتَمَدِ ». Le baiser vaut pour l'homme comme pour la femme, « وَكَذَا غَيْرُهُ مِنْ نَوَاقِضِ الْوُضُوءِ إلَّا أَنْ يَشُقَّ عَلَيْهِ ». Pour le rapport, même si l'on priait déjà par le tayammoum, « لِأَنَّهُ يَنْتَقِلُ مِنْ تَيَمُّمِ الْأَصْغَرِ لِلْأَكْبَرِ ». L'exception vise une longue durée qui « يَنْشَأُ عَنْهُ ضَرَرٌ فَيَجُوزُ الْجِمَاعُ » ; al-Dasūqī précise le tort : « أَيْ بِبَدَنِهِ أَوْ خَوْفُ الْعَنَتِ », et l'exception ne vaut que pour le rapport : « وَقَوْلُ الْمُصَنِّفِ إلَّا لِطُولٍ رَاجِعٌ لِجِمَاعِ مُغْتَسِلٍ لَا لَهُ وَلِمَا قَبْلَهُ وَهُوَ التَّقْبِيلُ ».",
+    aqwal: [
+      { auteur: "Khalīl (matn)", avis: "« وَمُنِعَ » : le baiser de celui qui a ses ablutions et le rapport de celui qui est pur, sans eau, sauf longue durée.", statut: "non_precise" },
+      { auteur: "Ibn Rushd (d'après al-Dasūqī)", avis: "Il comprend l'interdiction de la Mudawwana comme une réprobation : « عَلَى هَذَا حَمَلَ ابْنُ رُشْدٍ قَوْلَ الْمُدَوَّنَةِ ».", statut: "non_precise" },
+      { auteur: "Ṭfā, Muṣṭafā ar-Rammāṣī (d'après al-Dasūqī)", avis: "La réprobation est l'avis retenu : « قَالَ طفى وَهُوَ الْمُعْتَمَدُ ».", statut: "non_precise" }
+    ],
+    muatamad: "Réprobation (makrūh), d'après al-Dardīr : « أَيْ كُرِهَ عَلَى الْمُعْتَمَدِ » ; al-Dasūqī rapporte Ibn Rushd et Ṭfā dans le même sens.",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Farʿ d'aṭ-Ṭirāz, résumé par al-Ḥaṭṭāb (« بِالْمَعْنَى مِنْ الطِّرَازِ ») : « لَا يَجُوزُ لِلْإِنْسَانِ أَنْ يَبُولَ، وَلَا مَاءَ مَعَهُ إذَا كَانَتْ بِهِ حُقْنَةٌ خَفِيفَةٌ لَا تَفْسُدُ الصَّلَاةُ بِهَا » ; et s'il avait de l'eau au début du temps et l'a versée, « فَهُوَ عَاصٍ، وَيَجُوزُ لَهُ التَّيَمُّمُ ».",
+      "Farʿ de la Mudawwana : le bien portant qui craint la mort à cause de la neige et du froid fait le tayammoum pour la janâba ; Abū Muḥammad Ṣāliḥ en tire, selon Abū l-Ḥasan, qu'au pays de la neige on n'a pas de rapport si cela oblige au tayammoum ; Abū l-Ḥasan : « هَذَا فِي الْبَلَدِ الَّذِي يَذُوبُ فِيهِ عَلَى قُرْبٍ، وَأَمَّا إذَا كَانَ يَطُولُ فَلَهُ أَنْ يَطَأَ امْرَأَتَهُ ».",
+      "Objection rapportée par al-Dasūqī : on permet pourtant de voyager par une route sans eau ; réponse : « بِالْفَرْقِ بَيْنَ تَجْوِيزِ تَرْكِ مَقْدُورٍ عَلَيْهِ قَبْلَ حُصُولِهِ وَالْمَنْعُ مِنْهُ بَعْدَهُ » : on peut ne pas acquérir la purification par l'eau, mais on ne détruit pas celle qu'on a.",
+      "Témoin : al-Kharashī (91, p. 198) reprend le farʿ d'aṭ-Ṭirāz et conclut : « ثُمَّ إنَّ الْمَنْعَ عَلَى النَّدْبِ وَقِيلَ عَلَى التَّحْرِيمِ »."
+    ],
+    divergences: [
+      "Point à comparer — le degré. Khalīl : « وَمُنِعَ ». Al-Dardīr : « أَيْ كُرِهَ عَلَى الْمُعْتَمَدِ ». Al-Ḥaṭṭāb ne se prononce pas (« تَصَوُّرُهُ ظَاهِرٌ »), mais son premier farʿ dit « لَا يَجُوزُ » pour l'urine retenue."
+    ],
+    exemple: "Deux époux voyagent dans une région sans eau et prient avec le tayammoum ; le mari, qui a encore ses ablutions, évite d'embrasser sa femme pour ne pas les perdre. Si le voyage dure longtemps et que l'abstinence lui pèse au point de lui nuire, le rapport lui devient permis et tous deux feront le tayammoum.",
+    erreurs_frequentes: [
+      "Croire qu'on peut perdre sans raison ses ablutions quand on n'a pas d'eau, puisque le tayammoum suffit.",
+      "Appliquer l'exception de la longue durée au baiser : elle ne vaut que pour le rapport.",
+      "Croire que celui qui le fait quand même ne peut plus prier : il fait le tayammoum."
+    ],
+    termes: [
+      { ar: "حُقْنَةٌ خَفِيفَةٌ", translit: "houqnatoun khafîfa", def: "Légère envie d'uriner qu'on retient ; ici, حُقْنَة ne désigne pas le lavement." },
+      { ar: "عَنَت", translit: "ʿanat", def: "Grave difficulté ; ici, la crainte de tomber dans l'illicite par manque de rapport." }
+    ],
+    quiz: [
+      { q: "Selon al-Dardīr, quel est le degré de l'« interdiction » du baiser et du rapport sans eau ?",
+        choix: ["Réprobation", "Interdiction stricte", "Simple permission", "Obligation"],
+        bonne: 0,
+        explication: "« أَيْ كُرِهَ عَلَى الْمُعْتَمَدِ »." },
+      { q: "À quoi s'applique l'exception de la longue durée, selon al-Dasūqī ?",
+        choix: ["Au baiser seulement", "Au baiser et au rapport", "À l'urine retenue", "Au rapport seulement"],
+        bonne: 3,
+        explication: "« إلَّا لِطُولٍ رَاجِعٌ لِجِمَاعِ مُغْتَسِلٍ لَا لَهُ وَلِمَا قَبْلَهُ »." },
+      { q: "Pourquoi celui qui priait déjà par le tayammoum évite-t-il aussi le rapport ?",
+        choix: ["Parce que le tayammoum est nul en voyage", "Parce qu'il passerait du tayammoum de l'état mineur à celui de l'état majeur", "Parce que le rapport est interdit en voyage", "Parce qu'il doit jeûner"],
+        bonne: 1,
+        explication: "« لِأَنَّهُ يَنْتَقِلُ مِنْ تَيَمُّمِ الْأَصْغَرِ لِلْأَكْبَرِ »." },
+      { q: "Mise en situation : un voyageur sans eau, qui a encore ses ablutions, ressent un léger besoin d'uriner qui ne gênerait pas sa prière. Selon le farʿ d'aṭ-Ṭirāz rapporté par al-Ḥaṭṭāb ?",
+        choix: ["Il urine librement", "Il doit chercher l'eau pendant un jour", "Il ne doit pas uriner ; s'il le fait, il fait le tayammoum", "Il prie sans aucune purification"],
+        bonne: 2,
+        explication: "« لَا يَجُوزُ لِلْإِنْسَانِ أَنْ يَبُولَ، وَلَا مَاءَ مَعَهُ » ; « وَلَا خِلَافَ أَنَّهُ إنْ فَعَلَ ذَلِكَ تَيَمَّمَ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "359" },
+    alertes: [
+      "Précisé : matn « مُتَوَضِّئٍ » (« ص ») ; le Mukhtaṣar seul (11355, p. 23) et Ibn Ghāzī (14605, p. 49) écrivent le mot sans hamza ; même sens (n° 625).",
+      "Précisé : le farʿ d'aṭ-Ṭirāz est résumé « بِالْمَعْنَى » ; Ibn ʿArafa (16968, p. 101) : « الطراز: منعه ابن القاسم البول إن خفت حقنته » (avis d'Ibn al-Qāsim) ; al-Kharashī (91, p. 198) le reprend ; Ibn ʿArafa rapporte aussi d'Ibn Rushd : « المنع استحباب » (n° 626).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 161 (Shamela 21604, page 160)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-09-51b",
+    kitab: "tah", bab: "01", fasl: "09", ordre: 51,
+    titre: "Une prière oubliée parmi les cinq : cinq tayammoums",
+    titre_ar: "وَإِنْ نَسِيَ إحْدَى الْخَمْسِ تَيَمَّمَ خَمْسًا",
+    objectif: "Savoir que celui qui fait le tayammoum et a oublié une prière sans savoir laquelle prie les cinq, avec un tayammoum pour chacune.",
+    matn: "وَإِنْ نَسِيَ إحْدَى الْخَمْسِ تَيَمَّمَ خَمْسًا",
+    regle_pratique: "Celui qui doit faire le tayammoum et a oublié une des cinq prières sans savoir laquelle prie les cinq, et fait un tayammoum pour chacune d'elles.",
+    qualification: {
+      hukm: "wajib",
+      nature: "shart",
+      effet_si_omis: "Le passage ne précise pas l'effet d'un seul tayammoum pour les cinq ; il rappelle qu'un tayammoum ne vaut que pour une prière obligatoire (tah-01-09-18)."
+    },
+    explication: "Al-Ḥaṭṭāb ne commente pas ce segment (voir les alertes) ; la fiche suit al-Dardīr. Il s'agit de celui « مَنْ فَرْضُهُ التَّيَمُّمُ », qui a oublié une prière « وَلَمْ تُعْلَمْ عَيْنُهَا » : il fait « لِكُلِّ صَلَاةٍ تَيَمُّمٌ لِأَنَّ مَنْ » … « جَهِلَ عَيْنَ مَنْسِيَّةٍ صَلَّى خَمْسًا كَمَا سَيَأْتِي », « وَكُلُّ صَلَاةٍ لَا بُدَّ لَهَا مِنْ تَيَمُّمٍ ». Al-Dasūqī : « وَهَذِهِ الْمَسْأَلَةُ مُسْتَفَادَةٌ مِنْ قَوْلِهِ سَابِقًا لَا فَرْضَ آخَرَ ».",
+    aqwal: [
+      { auteur: "Khalīl, expliqué par al-Dardīr", avis: "Cinq prières, chacune avec son tayammoum.", statut: "non_precise" },
+      { auteur: "Ibn al-Ḥājib (d'après at-Tawḍīḥ, témoin)", avis: "« وَلَوْ نَسِيَ صَلاةً مِنَ الْخَمْسِ تَيَمَّمَ خَمْساً عَلَى الْمَشْهُورِ ».", statut: "mashhur" },
+      { auteur: "Avis contraire, d'après at-Tawḍīḥ (témoin)", avis: "« فيتيمم واحداً ويصلي به خمس صلوات ».", statut: "qawl" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : « لِكُلِّ صَلَاةٍ تَيَمُّمٌ ».",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Al-Dasūqī : « وَإِنْ نَسِيَ إحْدَى النَّهَارِيَّاتِ صَلَّى ثَلَاثًا كُلُّ صَلَاةٍ بِتَيَمُّمٍ » ; « وَإِنْ نَسِيَ إحْدَى اللَّيْلَتَيْنِ صَلَّى اثْنَيْنِ ».",
+      "Témoin : at-Tawḍīḥ (14442, p. 216) explique que chaque prière est alors comptée comme obligatoire : « والتيمم لكل واحدة يحقق هذا القول ».",
+      "Témoin : al-Kharashī (91, p. 198) : « فَإِنَّهُ يُصَلِّي خَمْسَ صَلَوَاتٍ يَتَيَمَّمُ لَهُنَّ خَمْسَ مَرَّاتٍ لِكُلِّ صَلَاةٍ تَيَمُّمٌ »."
+    ],
+    divergences: [
+      "Concordance — un tayammoum par prière. Al-Dardīr, al-Dasūqī et, comme témoins, Ibn al-Ḥājib (« عَلَى الْمَشْهُورِ ») et al-Kharashī. Al-Ḥaṭṭāb ne commente pas ce segment ; il a posé plus haut qu'un tayammoum ne vaut pas pour une seconde obligatoire (tah-01-09-18)."
+    ],
+    exemple: "Un voyageur sans eau se souvient qu'il a manqué une prière hier, sans savoir laquelle. Il fait le tayammoum et prie le ṣubḥ, puis refait le tayammoum et prie le ẓuhr, et ainsi de suite pour les cinq prières.",
+    erreurs_frequentes: [
+      "Prier les cinq prières avec un seul tayammoum.",
+      "Ne prier qu'une prière au hasard.",
+      "Prier les cinq quand on sait seulement que la prière oubliée est de nuit : deux suffisent (al-Dasūqī)."
+    ],
+    termes: [
+      { ar: "مَنْسِيَّة", translit: "mansiyya", def: "Prière oubliée, qu'on doit rattraper." }
+    ],
+    quiz: [
+      { q: "Celui qui fait le tayammoum et a oublié une prière inconnue parmi les cinq :",
+        choix: ["Prie une seule prière", "Prie les cinq avec un seul tayammoum", "Attend de trouver de l'eau", "Prie les cinq, avec un tayammoum pour chacune"],
+        bonne: 3,
+        explication: "Al-Dardīr : « لِكُلِّ صَلَاةٍ تَيَمُّمٌ »." },
+      { q: "Selon al-Dasūqī, de quel principe déjà posé cette règle découle-t-elle ?",
+        choix: ["Pas de seconde obligatoire avec le même tayammoum", "Le tayammoum lève le ḥadath", "On ne fait le tayammoum qu'au début du temps", "La terre transportée vaut"],
+        bonne: 0,
+        explication: "« مُسْتَفَادَةٌ مِنْ قَوْلِهِ سَابِقًا لَا فَرْضَ آخَرَ »." },
+      { q: "Et s'il sait que la prière oubliée est l'une des deux prières de nuit ?",
+        choix: ["Il prie les cinq", "Il prie les trois du jour", "Il prie les deux, chacune avec son tayammoum", "Il ne prie rien"],
+        bonne: 2,
+        explication: "« وَإِنْ نَسِيَ إحْدَى اللَّيْلَتَيْنِ صَلَّى اثْنَيْنِ »." },
+      { q: "Mise en situation : une voyageuse sans eau a oublié une des trois prières du jour. Que fait-elle ?",
+        choix: ["Elle prie le ẓuhr seulement", "Elle prie trois prières, chacune avec son tayammoum", "Elle prie trois prières avec un seul tayammoum", "Elle prie les cinq"],
+        bonne: 1,
+        explication: "« وَإِنْ نَسِيَ إحْدَى النَّهَارِيَّاتِ صَلَّى ثَلَاثًا كُلُّ صَلَاةٍ بِتَيَمُّمٍ »." }
+    ],
+    ref: { ouvrage: "al-Sharḥ al-kabīr (al-Dardīr)", tome: 1, pages: "161–162" },
+    alertes: [
+      "Limite du texte : segment « وَإِنْ نَسِيَ إحْدَى الْخَمْسِ تَيَمَّمَ خَمْسًا » absent du « ص » de Mawāhib, qui passe de « وَمُنِعَ … إلَّا لِطُولٍ » à « وَقُدِّمَ ذُو مَاءٍ » (569/358) ; présent dans le Mukhtaṣar seul (11355, p. 23), chez Ibn Ghāzī (14605, p. 49), al-Kharashī (91, p. 198) et al-Dardīr (21604/160) ; Mawāhib 569/324–361 relu : al-Ḥaṭṭāb ne commente pas ce segment ; fiche rédigée d'après al-Dardīr / al-Dasūqī, `ref` sur al-Dardīr (n° 620).",
+      "Phrase d'al-Dardīr coupée entre 21604/160 et 161 ; citée en deux morceaux.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 161–162 (Shamela 21604, pages 160–161)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-09-52a",
+    kitab: "tah", bab: "01", fasl: "09", ordre: 52,
+    titre: "Le mort qui possède l'eau passe avant le junub",
+    titre_ar: "وَقُدِّمَ ذُو مَاءٍ مَاتَ وَمَعَهُ جُنُبٌ",
+    objectif: "Savoir que l'eau d'un voyageur mort sert d'abord à laver ce mort, même si un compagnon vivant est en état de janâba.",
+    matn: "وَقُدِّمَ ذُو مَاءٍ مَاتَ وَمَعَهُ جُنُبٌ",
+    regle_pratique: "Si le propriétaire de l'eau meurt et qu'un compagnon vivant est en état de janâba, l'eau sert d'abord à laver le mort, son propriétaire, et le vivant fait le tayammoum ; si l'eau appartenait au vivant, c'est lui qui y aurait droit.",
+    qualification: {
+      hukm: "wajib",
+      nature: "autre",
+      effet_si_omis: "Le passage ne précise pas l'effet ; il donne seulement l'ordre de priorité."
+    },
+    explication: "Al-Ḥaṭṭāb cite l'ʿUtbiyya : « وَسُئِلَ ابْنُ الْقَاسِمِ عَنْ النَّفَرِ الْمُسَافِرِينَ يَكُونُ مَعَهُمْ مِنْ الْمَاءِ مَا يَكْفِي رَجُلًا مِنْهُمْ لِلْغُسْلِ », dont l'un meurt. Réponse : « إذَا كَانَ الْمَاءُ لِلْمَيِّتِ فَهُوَ أَوْلَى بِهِ يُغَسَّلُ بِهِ ». Al-Qāḍī conclut : « وَأَمَّا إنْ كَانَ الْمَاءُ لِأَحَدِهِمْ فَصَاحِبُهُ أَوْلَى بِهِ حَيًّا كَانَ أَوْ مَيِّتًا ». Al-Dardīr donne la raison, « لِحَقِّيَّةِ الْمِلْكِ وَلَوْ كَانَ الْمَاءُ لِلْحَيِّ لَكَانَ أَحَقَّ بِهِ » ; al-Dasūqī : « أَيْ فَيُغَسَّلُ الْمَيِّتُ صَاحِبُ الْمَاءِ وَيَتَيَمَّمُ الْجُنُبُ الْحَيُّ ».",
+    aqwal: [
+      { auteur: "Ibn al-Qāsim (ʿUtbiyya, cité par al-Ḥaṭṭāb)", avis: "Si l'eau est au mort, il y a droit : on le lave avec.", statut: "non_precise" },
+      { auteur: "Al-Qāḍī (cité par al-Ḥaṭṭāb)", avis: "L'eau qui appartient à l'un d'eux revient à son propriétaire, vivant ou mort.", statut: "non_precise" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : le mort propriétaire passe avant, « لِحَقِّيَّةِ الْمِلْكِ ».",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Source du cas : al-Ḥaṭṭāb le situe « فِي آخِرِ سَمَاعِ مُوسَى مِنْ كِتَابِ الْوُضُوءِ » et ajoute : « وَعَزَاهَا ابْنُ عَرَفَةَ لِسَمَاعِ عِيسَى وَانْظُرْ أَيْضًا آخِرَ سَمَاعِ سَحْنُونٍ وَنَوَازِلِهِ » (voir les alertes).",
+      "Al-Kharashī (91, p. 198) : « وَلَا مَفْهُومَ لِقَوْلِهِ وَمَعَهُ جُنُبٌ » : la règle vaut pour tout vivant qui a besoin de purification.",
+      "Témoin : at-Tawḍīḥ (14442, p. 200) explique la règle d'Ibn al-Ḥājib : « رَبُّهُ أَوْلَى لا لكونِه ميتاً، بل لِمِلْكِه للماءِ »."
+    ],
+    divergences: [
+      "Concordance — la propriété décide. Al-Ḥaṭṭāb (Ibn al-Qāsim et al-Qāḍī) et al-Dardīr (« لِحَقِّيَّةِ الْمِلْكِ ») disent la même chose."
+    ],
+    exemple: "Deux voyageurs n'ont qu'une outre, qui appartient à l'un d'eux. Celui-ci meurt en route ; son compagnon est en état de janâba. On lave le mort avec l'eau, et le compagnon fait le tayammoum pour prier.",
+    erreurs_frequentes: [
+      "Croire que le vivant passe toujours avant le mort : c'est la propriété de l'eau qui décide.",
+      "Croire que la règle ne vaut que pour le junub : elle vaut pour tout vivant qui a besoin de se purifier (al-Kharashī).",
+      "Croire que le mort passe avant parce qu'il est mort : c'est parce que l'eau est à lui."
+    ],
+    termes: [
+      { ar: "غُسْلُ الْمَيِّتِ", translit: "ghouslou l-mayyit", def: "Lavage rituel du défunt." }
+    ],
+    quiz: [
+      { q: "Pourquoi le mort propriétaire de l'eau passe-t-il avant le junub vivant, selon al-Dardīr ?",
+        choix: ["Parce que le lavage du mort est plus important", "Parce que le junub peut attendre", "Parce que l'eau lui appartient", "Parce que le mort est impur"],
+        bonne: 2,
+        explication: "« لِحَقِّيَّةِ الْمِلْكِ »." },
+      { q: "Et si l'eau appartenait au vivant ?",
+        choix: ["Le mort passerait quand même avant", "Le vivant y aurait droit", "On la partagerait", "On la verserait"],
+        bonne: 1,
+        explication: "« وَلَوْ كَانَ الْمَاءُ لِلْحَيِّ لَكَانَ أَحَقَّ بِهِ »." },
+      { q: "Que fait le junub vivant quand l'eau sert au mort ?",
+        choix: ["Il attend de trouver de l'eau", "Il ne prie pas", "Il se lave avec ce qui reste", "Il fait le tayammoum"],
+        bonne: 3,
+        explication: "Al-Dasūqī : « وَيَتَيَمَّمُ الْجُنُبُ الْحَيُّ »." },
+      { q: "Mise en situation : le propriétaire de la seule gourde meurt ; son compagnon a seulement perdu ses ablutions. Selon al-Kharashī, la règle s'applique-t-elle ?",
+        choix: ["Oui : « وَمَعَهُ جُنُبٌ » n'est qu'un exemple", "Non : seulement pour un junub", "Non : le vivant passe toujours avant", "Seulement si le mort est un parent"],
+        bonne: 0,
+        explication: "« وَلَا مَفْهُومَ لِقَوْلِهِ وَمَعَهُ جُنُبٌ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "359–360" },
+    alertes: [
+      "Précisé : al-Ḥaṭṭāb place le cas dans le samāʿ de Mūsā, puis signale qu'Ibn ʿArafa le rapporte au samāʿ de ʿĪsā ; Ibn ʿArafa (16968, p. 105) : « وسمع عيسى ابن القاسم وعبد الملك ابن وهب: الحي أولى ويغرم قيمة حظ الميت » (n° 622).",
+      "Précisé : « قَالَ الْقَاضِي » sans autre nom ; Ibn ʿArafa (16968, p. 105) rapporte d'Ibn Rushd une remarque sur la mise aux enchères (« مقاواة ») de l'eau entre le vivant et les héritiers, sujet que traite ce « qāḍī » ; la fiche garde « al-Qāḍī » (n° 623).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 162 (Shamela 21604, page 161)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-09-52b",
+    kitab: "tah", bab: "01", fasl: "09", ordre: 52,
+    titre: "Exceptions : la soif, l'eau commune ; payer la valeur",
+    titre_ar: "إلَّا لِخَوْفِ عَطَشٍ كَكَوْنِهِ لَهُمَا وَضَمِنَ قِيمَتَهُ",
+    objectif: "Savoir quand le vivant passe avant le mort pour l'eau, et ce qu'il doit alors aux héritiers.",
+    matn: "إلَّا لِخَوْفِ عَطَشٍ، كَكَوْنِهِ لَهُمَا، وَضَمِنَ قِيمَتَهُ",
+    regle_pratique: "Le vivant passe avant le mort propriétaire de l'eau s'il craint la soif, et aussi quand l'eau leur appartient en commun ; il doit alors aux héritiers du mort la valeur de l'eau prise (toute l'eau dans le premier cas, la part du mort dans le second).",
+    qualification: {
+      hukm: "wajib",
+      nature: "autre",
+      effet_si_omis: "Le passage ne précise pas l'effet ; al-Dasūqī : s'il est démuni, la valeur reste une dette (« وَتُتْبَعُ بِهَا ذِمَّتُهُ إنْ كَانَ مُعْدِمًا »)."
+    },
+    explication: "Al-Ḥaṭṭāb ne commente pas « إلَّا لِخَوْفِ عَطَشٍ » (voir les alertes) ; pour l'eau commune et la valeur, il cite l'ʿUtbiyya. (1) La soif : al-Dardīr, la crainte de soif « عَلَى الْحَيِّ آدَمِيًّا أَوْ حَيَوَانًا مُحْتَرَمًا فَيُقَدَّمُ عَلَى الْمَيِّتِ صَاحِبُ الْمَاءِ حِفْظًا لِلنُّفُوسِ وَيُيَمِّمُ الْمَيِّتَ ». (2) L'eau commune : Ibn al-Qāsim, « وَإِنْ كَانَ الْمَاءُ بَيْنَهُمْ وَكَانَ قَدْرُ مَا يَكْفِي وَاحِدًا يَغْتَسِلُ بِهِ فَالْحَيُّ أَوْلَى بِهِ يَتَوَضَّأُ بِهِ وَيُيَمَّمُ الْمَيِّتُ » ; al-Qāḍī : le vivant y a droit et « وَيَغْرَمُ قِيمَةَ حِصَّةِ الْمَيِّتِ لِوَرَثَتِهِ إنْ كَانَ لَهُ ثَمَنٌ ». Al-Dardīr : « أَيْ لِلْمَيِّتِ وَالْجُنُبِ الْحَيِّ فَيُقَدَّمُ الْجُنُبُ تَرْجِيحًا لِجَانِبِ الْحَيِّ لِخِطَابِهِ وَعَدَمِ خِطَابِ الْمَيِّتِ ». (3) La valeur : « جَمِيعَهَا فِي الْأُولَى وَحَظَّ الْمَيِّتِ فِي الثَّانِيَةِ لِوَرَثَةِ الْمَيِّتِ فِيهِمَا ».",
+    aqwal: [
+      { auteur: "Ibn al-Qāsim (ʿUtbiyya, cité par al-Ḥaṭṭāb)", avis: "Eau commune : le vivant y a droit, le mort reçoit le tayammoum.", statut: "non_precise" },
+      { auteur: "Al-Qāḍī (cité par al-Ḥaṭṭāb)", avis: "Le vivant paie aux héritiers la valeur de la part du mort ; entre deux vivants, ils se la disputent aux enchères : « لَتَقَاوَمَاهُ فِيمَا بَيْنَهُمَا ».", statut: "non_precise" },
+      { auteur: "Ibn al-Ḥājib (d'après at-Tawḍīḥ, témoin)", avis: "Il doit la valeur, non l'équivalent en eau : « لا مِثْلَهُ عَلَى الأَصَحِّ ».", statut: "rajih" }
+    ],
+    muatamad: "Confirmé par al-Dardīr : priorité du vivant en cas de soif ou d'eau commune, et valeur due aux héritiers « فِيهِمَا ».",
+    tarjih_hattab: null,
+    tanbihat: [
+      "Al-Qāḍī, dans le cas de trois compagnons (un mort, un junub, un qui a perdu ses ablutions) et d'une eau commune qui ne suffit qu'à un ghousl : celui qui a perdu ses ablutions prend sa part pour ses ablutions, et « يُرِيدُ وَيَتَيَمَّمُ الْحَيُّ الْجُنُبُ أَيْضًا », le reste ne suffisant à aucun ghousl ; s'il suffisait, « لَكَانَ الْحَيُّ أَوْلَى بِهِ ».",
+      "Al-Dasūqī : « اسْتِثْنَاءٌ مُنْقَطِعٌ وَيَنْبَغِي أَنْ يَكُونَ مُطْلَقُ الْحَاجَةِ مِنْ عَجْنٍ وَطَبْخٍ مِثْلُ الْعَطَشِ كَذَا فِي كَبِيرِ خش » (« خش » : al-Kharashī).",
+      "Al-Dasūqī sur la valeur : « فَيُؤَدِّيهَا لِوَرَثَةِ الْمَيِّتِ حَالًا إنْ كَانَ مَلِيًّا وَتُتْبَعُ بِهَا ذِمَّتُهُ إنْ كَانَ مُعْدِمًا ». Objection : « أَنَّ الْمَاءَ مِثْلِيٌّ فَكَانَ مُقْتَضَاهُ ضَمَانُ الْمِثْلِ لَا الْقِيمَةِ » ; réponse : rendre de l'eau ailleurs léserait l'un ou l'autre, d'où « لُزُومُ الْقِيمَةِ بِمَحِلِّ أَخْذِهِ ».",
+      "Al-Kharashī (91, p. 198) : « كَكَوْنِهِ لَهُمَا » est « تَشْبِيهٌ فِي تَقْدِيمِ الْحَيِّ لَا بِقَيْدِ خَوْفِ الْعَطَشِ » : pour l'eau commune, le vivant passe avant même sans soif."
+    ],
+    divergences: [
+      "Concordance — l'eau commune. Al-Ḥaṭṭāb (Ibn al-Qāsim et al-Qāḍī) : le vivant y a droit et paie la part du mort. Al-Dardīr : « فَيُقَدَّمُ الْجُنُبُ تَرْجِيحًا لِجَانِبِ الْحَيِّ » et « وَحَظَّ الْمَيِّتِ فِي الثَّانِيَةِ ».",
+      "Complément — la soif et l'équivalent. Al-Ḥaṭṭāb ne traite ni la soif ni le choix entre valeur et équivalent ; al-Dardīr et al-Dasūqī les traitent (voir l'explication et les remarques)."
+    ],
+    exemple: "Deux voyageurs partagent une outre achetée ensemble. L'un meurt ; l'autre, en état de janâba, s'en sert pour son ghousl et fait faire le tayammoum au mort. À son retour, il remet aux héritiers la valeur de la moitié de l'eau, au prix du lieu où il l'a prise.",
+    erreurs_frequentes: [
+      "Croire qu'en cas d'eau commune, le mort passe avant.",
+      "Croire que le vivant qui prend l'eau pour sa soif ne doit rien aux héritiers.",
+      "Croire qu'il doit rendre de l'eau : il doit sa valeur, au lieu où il l'a prise."
+    ],
+    termes: [
+      { ar: "قِيمَة", translit: "qîma", def: "Valeur d'une chose, payée en argent." },
+      { ar: "مِثْلِيّ", translit: "mithliyy", def: "Bien fongible : il se remplace par un bien de même espèce et de même quantité." },
+      { ar: "مُقَاوَمَة", translit: "mouqâwama", def: "Mise aux enchères d'un bien commun entre ses copropriétaires." }
+    ],
+    quiz: [
+      { q: "Le propriétaire de l'eau meurt ; son compagnon vivant craint de mourir de soif. Selon al-Dardīr ?",
+        choix: ["On lave le mort quand même", "Le vivant garde l'eau pour boire, et le mort reçoit le tayammoum", "On partage l'eau en deux", "Le vivant ne doit rien"],
+        bonne: 1,
+        explication: "« فَيُقَدَّمُ عَلَى الْمَيِّتِ صَاحِبُ الْمَاءِ حِفْظًا لِلنُّفُوسِ وَيُيَمِّمُ الْمَيِّتَ »." },
+      { q: "L'eau appartient en commun au mort et au junub vivant. Qui y a droit ?",
+        choix: ["Le mort", "Personne", "Le vivant, même sans crainte de soif", "Les héritiers"],
+        bonne: 2,
+        explication: "Al-Kharashī : « تَشْبِيهٌ فِي تَقْدِيمِ الْحَيِّ لَا بِقَيْدِ خَوْفِ الْعَطَشِ » ; Ibn al-Qāsim : « فَالْحَيُّ أَوْلَى بِهِ »." },
+      { q: "Que doit le vivant aux héritiers quand l'eau était commune ?",
+        choix: ["La valeur de la part du mort", "La valeur de toute l'eau", "Une quantité d'eau égale", "Rien"],
+        bonne: 0,
+        explication: "Al-Dardīr : « وَحَظَّ الْمَيِّتِ فِي الثَّانِيَةِ » ; al-Qāḍī : « وَيَغْرَمُ قِيمَةَ حِصَّةِ الْمَيِّتِ لِوَرَثَتِهِ »." },
+      { q: "Mise en situation : le vivant qui a bu l'eau du mort est sans argent au retour. Selon al-Dasūqī ?",
+        choix: ["Il est quitte", "Il doit rendre de l'eau", "Les héritiers perdent leur droit", "La valeur reste une dette à sa charge"],
+        bonne: 3,
+        explication: "« وَتُتْبَعُ بِهَا ذِمَّتُهُ إنْ كَانَ مُعْدِمًا »." }
+    ],
+    ref: { ouvrage: "al-Sharḥ al-kabīr (al-Dardīr)", tome: 1, pages: "162" },
+    alertes: [
+      "Limite du texte : fin de segment « إلَّا لِخَوْفِ عَطَشٍ كَكَوْنِهِ لَهُمَا وَضَمِنَ قِيمَتَهُ » absente du « ص » de Mawāhib (569/358) ; présente dans le Mukhtaṣar seul (11355, p. 23), chez Ibn Ghāzī (14605, p. 49), al-Kharashī (91, p. 198) et al-Dardīr (21604/161) ; al-Ḥaṭṭāb ne traite pas la soif ; l'eau commune et la valeur sont tirées de l'ʿUtbiyya qu'il cite ; `ref` sur al-Dardīr (n° 621).",
+      "Témoin : Ibn ʿArafa (16968, p. 105) : « والميت أولى بمائة لغسله من جنب حي، وهو أولى لعطشه، ويغرم قيمته » (« بمائة » imprimé pour « بمائه »).",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 162 (Shamela 21604, page 161) ; Mawāhib, t. 1, p. 360 (Shamela 569/359)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-09-53",
+    kitab: "tah", bab: "01", fasl: "09", ordre: 53,
+    titre: "Ni eau ni sol : la prière et son rattrapage tombent",
+    titre_ar: "وَتَسْقُطُ صَلَاةٌ وَقَضَاؤُهَا بِعَدَمِ مَاءٍ وَصَعِيدٍ",
+    objectif: "Connaître la règle de celui qui ne peut se purifier ni par l'eau ni par la terre, et les autres avis de l'école.",
+    matn: "وَتَسْقُطُ صَلَاةٌ وَقَضَاؤُهَا بِعَدَمِ مَاءٍ وَصَعِيدٍ",
+    regle_pratique: "Selon le matn (avis de Mālik), celui qui ne peut se purifier ni par l'eau ni par la terre ne prie pas la prière dans son temps et ne la rattrape pas ensuite ; d'autres avis de l'école le font prier, ou rattraper, ou les deux.",
+    qualification: {
+      hukm: "mubah",
+      nature: "shart",
+      effet_si_omis: "Sans objet : selon cet avis, l'obligation tombe ; la purification est ici une condition d'obligation (al-Dasūqī)."
+    },
+    explication: "Al-Ḥaṭṭāb énumère quatre avis : « قِيلَ: يُصَلِّي وَيَقْضِي، وَقِيلَ: لَا يُصَلِّي، وَلَا يَقْضِي، وَقِيلَ: يُصَلِّي وَلَا يَقْضِي، وَقِيلَ: لَا يُصَلِّي وَيَقْضِي ». Le cas ne se limite pas au manque des deux : « بَلْ هِيَ مَفْرُوضَةٌ فِي الْعَجْزِ عَنْ اسْتِعْمَالِ الطَّهَارَةِ الْمَائِيَّةِ وَالتُّرَابِيَّةِ » ; at-Tawḍīḥ, cité : « وَيُتَصَوَّرُ ذَلِكَ فِي الْمَرْبُوطِ وَالْمَرِيضِ لَا يَجِدُ مُنَاوِلًا ». Al-Dardīr : tombent la prière, « أَيْ أَدَاؤُهَا فِي الْوَقْتِ », et son rattrapage « فِي الْمُسْتَقْبَلِ إذَا وُجِدَ الْمَاءُ أَوْ التُّرَابُ », par exemple « كَمَصْلُوبٍ أَوْ فَوْقَ شَجَرَةٍ وَتَحْتَهُ سَبُعٌ مَثَلًا أَوْ مَحْبُوسٌ فِي حَبْسٍ مَبْنِيٍّ بِالْآجُرِّ وَمَفْرُوشٍ بِهِ ». Al-Dasūqī : « وَمَا ذَكَرَهُ الْمُصَنِّفُ قَوْلُ مَالِكٍ ».",
+    aqwal: [
+      { auteur: "Mālik et Ibn Nāfiʿ (d'après Ibn al-ʿArabī, cité par al-Ḥaṭṭāb)", avis: "« لَا صَلَاةَ وَلَا قَضَاءَ » : c'est l'avis du matn.", statut: "non_precise" },
+      { auteur: "Ibn al-Qāsim (d'après Ibn al-ʿArabī)", avis: "« يُصَلِّي وَيَقْضِي » ; al-Dasūqī : « احْتِيَاطًا ».", statut: "qawl" },
+      { auteur: "Ashhab (et ash-Shāfiʿī), d'après Ibn al-ʿArabī", avis: "« يُصَلِّي، وَلَا يُعِيدُ » ; Ibn al-ʿArabī : « وَالْأَظْهَرُ قَوْلُ أَشْهَبَ ».", statut: "rajih" },
+      { auteur: "Aṣbagh (d'après Ibn al-ʿArabī)", avis: "« يُصَلِّي إذَا قَدَرَ » ; al-Dasūqī : « وَقَالَ أَصْبَغُ يَقْضِي وَلَا يُؤَدِّي ».", statut: "qawl" },
+      { auteur: "Al-Qābisī (d'après al-Ḥaṭṭāb, Ibn ʿArafa et al-Lakhmī)", avis: "Celui qui est attaché fait le geste du tayammoum vers le sol : « يُومِئُ الْمَرْبُوطُ لِلتَّيَمُّمِ بِالْأَرْضِ بِوَجْهِهِ وَيَدَيْهِ » ; Ibn al-ʿArabī lui attribue le cinquième avis, « لَا يُصَلِّي وَيُعِيدُ », en disant : « وَاَلَّذِي أَقُولُ إنَّهُ إنَّمَا يُومِئُ إلَى الْمَاءِ لَا لِلتَّيَمُّمِ ».", statut: "qawl" }
+    ],
+    muatamad: "Confirmé par al-Dardīr, qui suit le matn ; al-Dasūqī : « وَمَا ذَكَرَهُ الْمُصَنِّفُ قَوْلُ مَالِكٍ ». Témoin : al-Zurqānī (14297, p. 230) : « عند مالك وهو المذهب ».",
+    tarjih_hattab: "Sur le cinquième avis d'Ibn al-ʿArabī : « لَمْ يَتَحَرَّرْ لِي فَهْمُهُ » ; selon les copies, il revient à l'avis d'Aṣbagh ou à celui de Mālik, « إلَّا أَنْ يَجْعَلَ الْخَامِسَ أَنَّهُ يُومِئُ إلَى الْمَاءِ ».",
+    tanbihat: [
+      "Ibn al-ʿArabī (Sharḥ at-Tirmidhī) compte six avis ; il explique son choix : « لِأَنَّ الطَّهَارَةَ شَرْطُ أَدَاءً لَا شَرْطُ وُجُوبٍ » (voir les alertes).",
+      "Al-Madkhal d'Ibn al-Ḥājj, cité par al-Ḥaṭṭāb : « إنَّ الْإِيمَاءَ مَشْهُورُ مَذْهَبِ مَالِكٍ ».",
+      "Tanbīh d'Ibn Farḥūn : si l'on dit qu'il prie, « فَلَا تَبْطُلُ هَذِهِ الصَّلَاةُ بِسَبْقِ الْحَدَثِ، وَلَا بِغَلَبَتِهِ », mais un ḥadath voulu est un rejet de la prière.",
+      "As-Suyūrī, sur celui qu'un scorpion a piqué et qui ne peut faire le tayammoum : « التَّيَمُّمُ مِنْ فَوْقِ الثَّوْبِ لَا يَجُوزُ » ; al-Burzulī (« قُلْتُ »), en s'appuyant sur ce qu'Abū ʿImrān et al-Lakhmī rapportent d'al-Qābisī, fait essuyer sur les vêtements « مِنْ بَابِ أَحْرَى » ; al-Ḥaṭṭāb distingue : « وَالظَّاهِرُ أَنَّ فِيهِ إجْمَالًا » (s'il ne peut pas toucher le membre, même à travers le vêtement, « فَالْأَوَّلُ تَجْرِي فِيهِ الْأَقْوَالُ الَّتِي ذَكَرَهَا » ; s'il le peut par-dessus le vêtement, l'avis d'al-Burzulī).",
+      "Al-Dasūqī : l'homme sur un arbre n'est sans sol que s'il ne peut faire le tayammoum sur l'arbre, « قَدْ تَقَدَّمَ أَنَّ الْمُعْتَمَدَ جَوَازُ التَّيَمُّمِ عَلَى الْحَشِيشِ أَوْ الْخَشَبِ عِنْدَ عَدَمِ غَيْرِهِ » (voir tah-01-09-36)."
+    ],
+    divergences: [
+      "Point à comparer — le geste du tayammoum. Al-Dardīr : chute de la prière, et al-Dasūqī : « ظَاهِرُهُ أَمْكَنَ إيمَاؤُهُ لِلْأَرْضِ أَمْ لَا ». Al-Qābisī (rapporté par al-Ḥaṭṭāb et al-Dasūqī) : « مَحَلُّ سُقُوطِهَا أَدَاءً وَقَضَاءً إذَا كَانَ لَا يُمْكِنُهُ الْإِيمَاءُ لِلتَّيَمُّمِ » ; al-Madkhal (cité par al-Ḥaṭṭāb) dit ce geste « مَشْهُورُ مَذْهَبِ مَالِكٍ ». Al-Ḥaṭṭāb ne tranche pas.",
+      "Point à comparer — l'avis le plus fort. Ibn al-ʿArabī juge plus apparent l'avis d'Ashhab (prier sans rattraper) ; al-Dardīr et al-Dasūqī suivent l'avis de Mālik (ni prière ni rattrapage)."
+    ],
+    exemple: "Un homme est retenu dans une cellule au sol et aux murs de briques cuites, sans eau ni terre. Selon le matn, la prière de ce temps tombe pour lui et il n'a pas à la rattraper ; selon d'autres avis rapportés, il prie quand même, ou il rattrape plus tard.",
+    erreurs_frequentes: [
+      "Croire que l'école n'a qu'un avis sur ce cas : il y en a quatre principaux.",
+      "Croire que la règle ne vise que celui qui n'a ni eau ni terre : elle vise aussi celui qui ne peut s'en servir (l'homme attaché, le malade sans aide).",
+      "Croire que celui qui est sur un arbre est toujours sans sol : il fait le tayammoum sur l'arbre s'il le peut."
+    ],
+    termes: [
+      { ar: "إِيمَاء", translit: "îmâ'", def: "Geste qui figure un acte qu'on ne peut accomplir (s'incliner vers le sol pour le tayammoum ou la prosternation)." },
+      { ar: "مَرْبُوط", translit: "marboût", def: "Personne attachée, ligotée." },
+      { ar: "شَرْطُ أَدَاءٍ", translit: "chartou adâ'", def: "Condition d'accomplissement : exigée pour faire l'acte, sans que l'obligation en dépende." }
+    ],
+    quiz: [
+      { q: "Selon le matn de Khalīl (avis de Mālik), que fait celui qui n'a ni eau ni sol ?",
+        choix: ["Il ne prie pas et ne rattrape pas", "Il prie et rattrape", "Il prie sans rattraper", "Il rattrape sans prier"],
+        bonne: 0,
+        explication: "« وَتَسْقُطُ صَلَاةٌ وَقَضَاؤُهَا » ; al-Dasūqī : « قَوْلُ مَالِكٍ »." },
+      { q: "Quel avis Ibn al-ʿArabī juge-t-il le plus apparent ?",
+        choix: ["Celui de Mālik", "Celui d'Ibn al-Qāsim", "Celui d'Ashhab : prier sans rattraper", "Celui d'Aṣbagh"],
+        bonne: 2,
+        explication: "« وَالْأَظْهَرُ قَوْلُ أَشْهَبَ »." },
+      { q: "Selon al-Ḥaṭṭāb, la question vise :",
+        choix: ["Seulement l'absence d'eau", "Seulement l'absence de terre", "Seulement le voyageur", "Toute incapacité d'utiliser l'eau et la terre"],
+        bonne: 3,
+        explication: "« بَلْ هِيَ مَفْرُوضَةٌ فِي الْعَجْزِ عَنْ اسْتِعْمَالِ الطَّهَارَةِ الْمَائِيَّةِ وَالتُّرَابِيَّةِ »." },
+      { q: "Mise en situation : un homme attaché à un poteau ne peut pas toucher le sol, mais peut incliner le visage et les mains vers lui. Selon al-Qābisī ?",
+        choix: ["La prière tombe sans rien faire", "Il fait le geste du tayammoum vers le sol et prie", "Il attend d'être libéré pour tout rattraper", "Il prie sans aucun geste"],
+        bonne: 1,
+        explication: "« يُومِئُ الْمَرْبُوطُ لِلتَّيَمُّمِ بِالْأَرْضِ بِوَجْهِهِ وَيَدَيْهِ »." }
+    ],
+    ref: { ouvrage: "Mawāhib al-Jalīl", tome: 1, pages: "360–361" },
+    alertes: [
+      "Corrigé : le « ص » porte « بِعَدَمِ مَاءِ » ; Ibn Ghāzī (14605, p. 49), al-Kharashī (91, p. 199) et al-Dardīr (21604/161) : « مَاءٍ » ; matn corrigé (n° 624).",
+      "Précisé : Ibn ʿArafa (16968, p. 113) rapporte les quatre avis avec les mêmes auteurs (Ibn al-Qāsim ; Mālik et Ibn Nāfiʿ ; Ashhab ; Aṣbagh avec Ibn Ḥabīb) et note : « وعددها ابن العربي ستة فكرر منها الثاني واختار قول أشهب » : il appuie la remarque d'al-Ḥaṭṭāb sur le cinquième avis (n° 627, 628).",
+      "Précisé : « شَرْطُ أَدَاءً » se lit « شَرْطُ أَدَاءٍ » (syntaxe) (n° 629).",
+      "Non résolu : le sixième avis d'Ibn al-ʿArabī, « يُومِئُ إلَى التَّيَمُّمِ أَشَارَ إلَيْهِ مُتَأَخِّرًا », reste obscur ; Sharḥ at-Tirmidhī non consulté ; sans effet sur la règle (n° 630).",
+      "Le vers cité par al-Ḥaṭṭāb pour retenir les quatre avis n'est pas reproduit.",
+      "Croisement : al-Sharḥ al-kabīr et Ḥāshiyat al-Dasūqī, t. 1, p. 162 (Shamela 21604, page 161)."
+    ],
+    verification: "verifie"
+  },
+  {
+    id: "tah-01-09-syn",
+    type: "synthese",
+    kitab: "tah", bab: "01", fasl: "09",
+    titre: "Le tayammoum : qui, pour quoi, sur quoi, quand, comment, et ce qui l'annule",
+    quiz: [
+      { q: "Qui peut faire le tayammoum ?",
+        choix: ["Seulement le voyageur", "Seulement le malade", "Tout le monde, pour toute prière, même la jumuʿa", "Le malade et le voyageur ; le résident bien portant pour les prières obligatoires, sauf la jumuʿa, non pour une sunna"],
+        bonne: 3,
+        explication: "Voir les fiches 02, 03, 06, 07 et 09." },
+      { q: "Combien de prières obligatoires un même tayammoum permet-il ?",
+        choix: ["Une seule ; une surérogatoire peut la suivre", "Deux si elles ont un temps commun", "Toutes celles de la journée", "Aucune, il ne sert qu'aux surérogatoires"],
+        bonne: 0,
+        explication: "Voir les fiches 17a et 18." },
+      { q: "Sur quoi fait-on le tayammoum ?",
+        choix: ["Sur tout objet sec", "Sur la natte et le bois", "Sur le ṣaʿīd : la terre et ce qui forme la surface du sol, la terre étant préférable", "Seulement sur le sable"],
+        bonne: 2,
+        explication: "Voir les fiches 28a, 28b et 36." },
+      { q: "Quand celui qui désespère de l'eau fait-il le tayammoum ?",
+        choix: ["Au milieu du temps", "Au début du temps choisi", "À la fin du temps", "Avant l'entrée du temps"],
+        bonne: 1,
+        explication: "Voir les fiches 38 à 40." },
+      { q: "Qu'est-ce qui est obligatoire dans le tayammoum ?",
+        choix: ["L'intention, essuyer tout le visage et les mains jusqu'aux poignets, la continuité et le sol pur", "Aller jusqu'aux coudes", "Deux frappes", "La basmala"],
+        bonne: 0,
+        explication: "Voir les fiches 20, 24a, 26 et 28a ; coudes et seconde frappe sont des sunna (fiche 42)." },
+      { q: "On trouve l'eau pendant la prière faite avec le tayammoum (sans l'avoir oubliée) :",
+        choix: ["On interrompt toujours", "On refait les ablutions dans la prière", "On ne prie plus jamais avec le tayammoum", "On poursuit la prière"],
+        bonne: 3,
+        explication: "Voir les fiches 44a et 44b." },
+      { q: "Le négligent qui trouve l'eau après sa prière :",
+        choix: ["Refait toujours", "Refait dans le temps, recommandé ; sa prière reste valide sans cela", "Ne refait jamais", "Refait seulement le tayammoum"],
+        bonne: 1,
+        explication: "Voir les fiches 45 et 46." },
+      { q: "Celui qui n'a ni eau ni sol, selon le matn :",
+        choix: ["Prie et rattrape", "Rattrape seulement", "Ne prie pas et ne rattrape pas", "Prie seulement"],
+        bonne: 2,
+        explication: "Voir la fiche 53." }
+    ]
+  }
+  /* FIN-UNITE-71 */
 ]);

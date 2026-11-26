@@ -1,4 +1,4 @@
-/* Données — Plan du cours — v1.63 — squelette kitāb → bāb → faṣl → masʾala.
+/* Données — Plan du cours — v1.64 — squelette kitāb → bāb → faṣl → masʾala.
    Extrait du texte lu (étape 2), jamais écrit de mémoire ; enrichi au fil des unités, jamais réécrit de zéro.
    v1.1 : Module 0 (kitāb « int »), segments du matn de l'introduction de Khalīl lus dans Mawāhib al-Jalīl,
           tome 1, p. 33–36 (unité 1).
@@ -111,7 +111,9 @@
    v1.61 : tah-01-09-34 découpé en -34a et -34b ; titre_ar de 34, 37 et 38 corrigés (n° 577, 586, 588) ; titres de 35 à 40 précisés (unité 68).
    v1.62 : tah-01-09-43b ajouté (segment absent du « ص », n° 598) ; -44 découpé en -44a et -44b ; titres de 41 à 46 précisés (unité 69).
    v1.63 : tah-01-09-48b, -48c, -50b et -50c ajoutés (segments absents du « ص », n° 609, 611, 616, 617) ; titres de 47 à 50 précisés ;
-          compte des segments du faṣl tah-01-09 corrigé ; version de l'en-tête remise à jour (unité 70). */
+          compte des segments du faṣl tah-01-09 corrigé ; version de l'en-tête remise à jour (unité 70).
+   v1.64 : tah-01-09-51b ajouté (segment absent du « ص », n° 620) ; -52 découpé en -52a et -52b (fin du segment absente du « ص »,
+          n° 621) ; titre_ar de -53 corrigé (« مَاءٍ », n° 624) ; titres de 51 à 53 précisés ; faṣl tah-01-09 achevé (unité 71). */
 App.data.definirPlan({
   kutub: [
     {
@@ -668,7 +670,7 @@ App.data.definirPlan({
                 { id: "tah-01-08-27", titre: "Le dessus oublié : prière nulle ; le dessous : refaire dans le temps", titre_ar: "وَبَطَلَتْ إنْ تَرَكَ أَعْلَاهُ لَا أَسْفَلَهُ فَفِي الْوَقْتِ" } /* p. 325 ; début absent du « ص » (n° 490, v1.54) */
               ]
             },
-            /* tah-01-09 — t. 1, p. 325–360 (Shamela 569, pages 324–359) — 59 segments du matn : 53 numérotés et six absents du « ص » (22b, 43b, 48b, 48c, 50b, 50c) (v1.63) */
+            /* tah-01-09 — t. 1, p. 325–361 (Shamela 569, pages 324–360) — 60 segments du matn : 53 numérotés et sept absents du « ص » (22b, 43b, 48b, 48c, 50b, 50c, 51b) (v1.64) */
             {
               id: "tah-01-09",
               titre: "Le tayammoum",
@@ -742,9 +744,11 @@ App.data.definirPlan({
                 { id: "tah-01-09-50", titre: "L'eau oubliée, rappelée après la prière", titre_ar: "وَنَاسٍ ذَكَرَ بَعْدَهَا" }, /* p. 358–359 (v1.63) */
                 { id: "tah-01-09-50b", titre: "Essuyer jusqu'aux poignets, ou une seule frappe", titre_ar: "كَمُقْتَصِرٍ عَلَى كُوعَيْهِ، لَا عَلَى ضَرْبَةٍ" }, /* absent du « ص » ; al-Dardīr, t. 1, p. 160–161 (n° 616, v1.63) */
                 { id: "tah-01-09-50c", titre: "Le tayammoum sur une terre souillée", titre_ar: "وَكَمُتَيَمِّمٍ عَلَى مُصَابِ بَوْلٍ …" }, /* absent du « ص » ; al-Dardīr, t. 1, p. 160–161 (n° 617, v1.63) */
-                { id: "tah-01-09-51", titre: "Sans eau : baiser et rapport interdits, sauf longue durée", titre_ar: "وَمُنِعَ مَعَ عَدَمِ مَاءٍ تَقْبِيلُ مُتَوَضِّئٍ …" }, /* p. 359 */
-                { id: "tah-01-09-52", titre: "Le mort qui a de l'eau passe avant le junub", titre_ar: "وَقُدِّمَ ذُو مَاءٍ مَاتَ وَمَعَهُ جُنُبٌ" }, /* p. 359 */
-                { id: "tah-01-09-53", titre: "Sans eau ni sol : la prière et son rattrapage tombent", titre_ar: "وَتَسْقُطُ صَلَاةٌ وَقَضَاؤُهَا بِعَدَمِ مَاءِ وَصَعِيدٍ" } /* p. 360 */
+                { id: "tah-01-09-51", titre: "Sans eau : le baiser et le rapport, sauf longue durée", titre_ar: "وَمُنِعَ مَعَ عَدَمِ مَاءٍ تَقْبِيلُ مُتَوَضِّئٍ …" }, /* p. 359 (v1.64) */
+                { id: "tah-01-09-51b", titre: "Une prière oubliée parmi les cinq : cinq tayammoums", titre_ar: "وَإِنْ نَسِيَ إحْدَى الْخَمْسِ تَيَمَّمَ خَمْسًا" }, /* absent du « ص » ; al-Dardīr, t. 1, p. 161–162 (n° 620, v1.64) */
+                { id: "tah-01-09-52a", titre: "Le mort qui possède l'eau passe avant le junub", titre_ar: "وَقُدِّمَ ذُو مَاءٍ مَاتَ وَمَعَهُ جُنُبٌ" }, /* p. 359–360 (v1.64) */
+                { id: "tah-01-09-52b", titre: "Exceptions : la soif, l'eau commune ; payer la valeur", titre_ar: "إلَّا لِخَوْفِ عَطَشٍ كَكَوْنِهِ لَهُمَا وَضَمِنَ قِيمَتَهُ" }, /* fin du segment absente du « ص » ; al-Dardīr, t. 1, p. 162 (n° 621, v1.64) */
+                { id: "tah-01-09-53", titre: "Ni eau ni sol : la prière et son rattrapage tombent", titre_ar: "وَتَسْقُطُ صَلَاةٌ وَقَضَاؤُهَا بِعَدَمِ مَاءٍ وَصَعِيدٍ" } /* p. 360–361 ; « مَاءٍ » (n° 624, v1.64) */
               ]
             },
             /* tah-01-10 — t. 1, p. 361–364 (Shamela 569, pages 360–363) — 10 segments du matn */

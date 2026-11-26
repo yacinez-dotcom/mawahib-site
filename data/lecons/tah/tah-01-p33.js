@@ -1,4 +1,4 @@
-/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 33 — v19.2
+/* Données — Kitāb al-Ṭahāra, bāb 01 (tah-01) : « بَابٌ يُرْفَعُ الْحَدَثُ وَحُكْمُ الْخَبَثِ » — partie 33 — v19.3
    Source : Mawāhib al-Jalīl, al-Ḥaṭṭāb, éd. Dār al-Fikr, 3e éd., 1412 H / 1992, tome 1 (shamela.ws/book/569).
    Croisement : al-Sharḥ al-kabīr d'al-Dardīr et Ḥāshiyat al-Dasūqī (shamela.ws/book/21604), tome 1.
    Cette partie : faṣl tah-01-09 (le tayammoum), à partir de tah-01-09-34a (unité 68) — t. 1, p. 353 et suivantes.
@@ -11,6 +11,8 @@
           sous-fiches ; anomalies n° 592 à 606.
    v19.2 : trois citations de l'unité 69 redécoupées après le contrôle par empreintes (173 sur 173) (2026-11-22) ;
           partie désormais figée : la suite est dans tah-01-p34.js.
+   v19.3 : fiche tah-01-09-36 complétée (muatamad, divergences) d'après al-Dasūqī, t. 1, p. 162 (audit de fin de faṣl,
+          unité 71) (2026-11-26).
    Bāb découpé en parties de moins de 200 Ko ;
    historique des versions : tah-01-p1.js (jusqu'à v2.5) puis l'en-tête de chaque partie. */
 App.data.ajouterFiches([
@@ -237,7 +239,7 @@ App.data.ajouterFiches([
       { auteur: "Al-Lakhmī (choix) ; al-Abharī, Ibn al-Qaṣṣār, al-Waqār (d'après aṭ-Ṭirāz)", avis: "Herbe et bois : pas avec autre chose (la prière se refait toujours) ; sans rien d'autre, et s'ils ne peuvent être arrachés, le tayammoum se fait dessus.", statut: "rajih" },
       { auteur: "Ibn Ḥabīb (d'après ʿAbd al-Ḥaqq)", avis: "Tayammoum sur l'herbe ou la neige : avec le ṣaʿīd retrouvé dans le temps, on refait ; après le temps, non ; s'il avait le ṣaʿīd, il refait toujours.", statut: "qawl" }
     ],
-    muatamad: "Confirmé par al-Dardīr pour la natte (« وَلَوْ عَلَيْهِ غُبَارٌ مَا لَمْ يَكْثُرْ مَا عَلَيْهِ مِنْ تُرَابٍ حَتَّى يَسْتُرَهَا »). Non tranché pour l'herbe et le bois quand on n'a rien d'autre : al-Dardīr refuse, al-Dasūqī rapporte que d'autres retiennent l'avis d'al-Lakhmī (voir divergences).",
+    muatamad: "Confirmé par al-Dardīr pour la natte (« وَلَوْ عَلَيْهِ غُبَارٌ مَا لَمْ يَكْثُرْ مَا عَلَيْهِ مِنْ تُرَابٍ حَتَّى يَسْتُرَهَا »). Pour l'herbe et le bois quand on n'a rien d'autre : al-Dardīr refuse ici, mais al-Dasūqī écrit plus loin (t. 1, p. 162, sur le segment 53) : « قَدْ تَقَدَّمَ أَنَّ الْمُعْتَمَدَ جَوَازُ التَّيَمُّمِ عَلَى الْحَشِيشِ أَوْ الْخَشَبِ عِنْدَ عَدَمِ غَيْرِهِ » ; l'avis retenu est donc la permission, comme chez al-Ḥaṭṭāb (voir divergences ; audit de fin de faṣl, unité 71).",
     tarjih_hattab: "« إلَّا إذَا لَمْ يَجِدْ غَيْرَهُ، وَلَمْ يُمْكِنْ قَلْعُهُ فَيَتَيَمَّمُ بِهِ حِينَئِذٍ » : il suit al-Lakhmī, avec la condition d'aṭ-Ṭirāz (ne pas pouvoir arracher).",
     tanbihat: [
       "Al-Ḥaṭṭāb corrige al-Lakhmī : « ظَاهِرُ كَلَامِهِ أَنَّ ابْنَ الْقَصَّارِ يُجِيزُ التَّيَمُّمَ بِالْحَشِيشِ، وَلَوْ وَجَدَ سِوَاهُ، وَلَيْسَ كَذَلِكَ ».",
@@ -245,6 +247,7 @@ App.data.ajouterFiches([
       "Selon aṭ-Ṭirāz, celui qui refuse la neige refuse à plus forte raison l'herbe, la neige ressemblant davantage au sol."
     ],
     divergences: [
+      "Complément (audit de fin de faṣl) — al-Dasūqī, sur le segment 53 (21604/161) : celui qui est sur un arbre n'est sans sol que s'il ne peut faire le tayammoum sur l'arbre, car « قَدْ تَقَدَّمَ أَنَّ الْمُعْتَمَدَ جَوَازُ التَّيَمُّمِ عَلَى الْحَشِيشِ أَوْ الْخَشَبِ عِنْدَ عَدَمِ غَيْرِهِ » ; il rejoint ici al-Ḥaṭṭāb contre la lettre d'al-Dardīr (voir tah-01-09-53).",
       "Concordance — la natte couverte de terre. Al-Ḥaṭṭāb (at-Tawḍīḥ). Al-Dardīr : « مَا لَمْ يَكْثُرْ مَا عَلَيْهِ مِنْ تُرَابٍ حَتَّى يَسْتُرَهَا فَإِنَّهُ مِنْ التَّيَمُّمِ عَلَى التُّرَابِ الْمَنْقُولِ حِينَئِذٍ ».",
       "Divergence — l'herbe et le bois quand on n'a rien d'autre. Al-Ḥaṭṭāb : le tayammoum se fait dessus s'ils ne peuvent être arrachés. Al-Dardīr : « (وَ) لَا عَلَى (خَشَبٍ) وَلَا عَلَى حَشِيشٍ وَحَلْفَاءَ وَلَوْ لَمْ يَجِدْ غَيْرَهُ وَضَاقَ الْوَقْتُ ». Al-Dasūqī : « أَيْ خِلَافًا لِلَّخْمِيِّ » ; « قَالَ بْن وَكَلَامُ ح يَقْتَضِي أَنَّ الرَّاجِحَ مِمَّا قَالَهُ » … « اللَّخْمِيُّ » (« بْن » : al-Bunānī ; « ح » : al-Ḥaṭṭāb) ; « وَكَذَلِكَ اعْتَمَدَهُ أَيْضًا طفى وَشَيْخُنَا فِي حَاشِيَةِ خش وعبق » (« طفى » : Muṣṭafā ar-Rammāṣī ; « شَيْخُنَا » : son maître al-ʿAdawī ; « خش » : al-Kharashī ; « عبق » : ʿAbd al-Bāqī az-Zurqānī)."
     ],
